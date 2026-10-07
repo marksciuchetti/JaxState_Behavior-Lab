@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Workshop 1: Running a Glasses Study with Pupil Labs Neon in iMotions Lab 11.1</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{
+  --ink:#1F3864; --text:#222B36; --muted:#5B6673; --paper:#FFFFFF; --wash:#F3F5F8; --rule:#D5DBE3;
+  --check:#2E7D4F; --warn:#9A6A0B; --warnbg:#FFF6E0; --linkbg:#EEF2F8;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --ink:#9DB4E0; --text:#E6E9EE; --muted:#A5AEB9; --paper:#141A22; --wash:#1C2430; --rule:#2E3947; --check:#6FC191; --warn:#E3B45A; --warnbg:#2A2410; --linkbg:#1C2430; } }
+:root[data-theme="dark"]{ --ink:#9DB4E0; --text:#E6E9EE; --muted:#A5AEB9; --paper:#141A22; --wash:#1C2430; --rule:#2E3947; --check:#6FC191; --warn:#E3B45A; --warnbg:#2A2410; --linkbg:#1C2430; }
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px);}
+*{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--text);font-family:"Source Sans 3",Segoe UI,Arial,sans-serif;font-size:17.5px;line-height:1.55}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;color:var(--ink);line-height:1.2;margin:0}
+h1{font-size:2.2rem;font-weight:600}
+h2{font-size:1.55rem;font-weight:600;margin:0 0 .6rem}
+h3{font-size:1.15rem;font-weight:600;margin:1.2rem 0 .4rem}
+a{color:var(--ink)}
+.top{position:sticky;top:env(safe-area-inset-top,0px);background:var(--paper);border-bottom:1px solid var(--rule);z-index:5;padding:.6rem 1.2rem;display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.top .title{font-family:"Source Serif 4",Georgia,serif;color:var(--ink);font-weight:600;font-size:1.05rem}
+.top .home{font-size:.9rem;color:var(--muted);text-decoration:none}
+.top .home:hover{color:var(--ink)}
+.top .nav{display:flex;gap:.5rem;flex-wrap:wrap;font-size:.95rem}
+.top .nav a{text-decoration:none;padding:.15rem .5rem;border-radius:3px}
+.top .nav a:hover{background:var(--wash)}
+.progress{margin-left:auto;font-size:.95rem;color:var(--muted);white-space:nowrap}
+.wrap{max-width:1180px;margin:0 auto;padding:1.5rem 1.2rem 4rem;display:grid;grid-template-columns:230px 1fr;gap:2.2rem}
+aside{position:sticky;top:calc(env(safe-area-inset-top,0px) + 70px);align-self:start;font-size:.95rem}
+aside ol{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule)}
+aside li a{display:block;padding:.3rem .8rem;text-decoration:none;color:var(--muted)}
+aside li a.done{color:var(--check)}
+aside li a.done::before{content:"\2713\00a0";}
+main{min-width:0}
+.hero{padding-bottom:1.6rem;border-bottom:1px solid var(--rule);margin-bottom:1.8rem}
+.hero p.lead{font-size:1.15rem;max-width:62ch;margin:.9rem 0}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.4rem 1.4rem;margin:1rem 0 0;padding:0;list-style:none;font-size:.98rem}
+.facts li span{display:block;color:var(--muted);font-size:.85rem}
+section.phase{padding:1.4rem 0 1.2rem;border-bottom:1px solid var(--rule)}
+.phase-head{display:flex;align-items:baseline;gap:.9rem}
+.phase-head .n{font-family:"Source Serif 4",Georgia,serif;color:var(--muted);font-size:1.1rem;min-width:2.2rem}
+.why{color:var(--muted);max-width:68ch;margin:.2rem 0 1rem}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:2rem 1.6rem 1fr;gap:.6rem;padding:.55rem 0;border-top:1px dashed var(--rule);align-items:start}
+ol.steps li::before{content:counter(s) ".";color:var(--muted);font-variant-numeric:tabular-nums;padding-top:.1rem}
+ol.steps li input{width:1.1rem;height:1.1rem;margin:.3rem 0 0;accent-color:var(--check)}
+ol.steps li.done .body{color:var(--muted)}
+.body b{color:var(--text)}
+.where{color:var(--muted);font-size:.92rem}
+.result{font-size:.95rem;margin-top:.15rem}
+.result::before{content:"You should see: ";color:var(--muted)}
+.mistake{font-size:.95rem;margin-top:.15rem}
+.mistake::before{content:"Common mistake: ";color:var(--warn)}
+.verify{display:inline-block;background:var(--warnbg);color:var(--warn);border:1px solid var(--warn);border-radius:3px;font-size:.78rem;padding:0 .4rem;margin-left:.3rem;vertical-align:middle}
+details{border:1px solid var(--rule);border-radius:4px;padding:.6rem .9rem;margin:.9rem 0;background:var(--wash)}
+details summary{cursor:pointer;font-weight:600;color:var(--ink)}
+details p,details ul{margin:.5rem 0}
+table{border-collapse:collapse;width:100%;font-size:.95rem;margin:.6rem 0 1rem}
+th,td{text-align:left;padding:.45rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+th{background:var(--wash);color:var(--ink)}
+.tablewrap{overflow-x:auto}
+.quiz .q{padding:.9rem 0;border-top:1px dashed var(--rule)}
+.quiz label{display:block;padding:.2rem 0;cursor:pointer}
+.quiz .fb{font-size:.95rem;margin-top:.4rem;display:none}
+.quiz .fb.ok{color:var(--check);display:block}
+.quiz .fb.no{color:var(--warn);display:block}
+button{font:inherit;background:var(--ink);color:#fff;border:0;border-radius:4px;padding:.5rem .9rem;cursor:pointer}
+button.secondary{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.checklist ul{list-style:none;padding:0;margin:0;columns:2;column-gap:2rem}
+.checklist li{break-inside:avoid;padding:.25rem 0;display:flex;gap:.5rem;align-items:flex-start}
+.checklist li::before{content:"\2610";color:var(--muted)}
+.sources li{margin:.25rem 0}
+img{max-width:100%}
+@media (max-width:860px){ .wrap{grid-template-columns:1fr} aside{position:static;border-bottom:1px solid var(--rule);padding-bottom:.8rem} aside ol{display:flex;flex-wrap:wrap;gap:.2rem;border:0} .checklist ul{columns:1} .top .nav{display:none} }
+@media print{ .top,aside,button{display:none} .wrap{display:block} details{break-inside:avoid} }
+@media (prefers-reduced-motion: reduce){ *{transition:none !important} }
+</style>
+</head>
+<body>
+<div class="top">
+  <a class="home" href="../index.html">&#8592; Workshop series</a>
+  <span class="title">Glasses Study Workshop</span>
+  <nav class="nav"><a href="#plan">Plan</a><a href="#type">Study type</a><a href="#connect">Connect</a><a href="#build">Build</a><a href="#field">Field day</a><a href="#import">Import</a><a href="#analysis">Analysis</a><a href="#map">Gaze map</a><a href="#aoi">AOIs</a><a href="#metrics">Metrics</a><a href="#checklist">Checklist</a><a href="#quiz">Quiz</a></nav>
+  <span class="progress" id="prog">0 of 0 steps checked</span>
+</div>
+<div class="wrap">
+<aside>
+  <ol id="toc">
+    <li><a href="#plan">1 Plan the study</a></li>
+    <li><a href="#type">2 Choose the study type</a></li>
+    <li><a href="#connect">3 Connect the Neon</a></li>
+    <li><a href="#build">4 Build the study</a></li>
+    <li><a href="#field">5 Run the field day</a></li>
+    <li><a href="#import">6 Transfer and import</a></li>
+    <li><a href="#analysis">7 Create the analysis</a></li>
+    <li><a href="#map">8 Map gaze to a reference image</a></li>
+    <li><a href="#aoi">9 Draw or automate AOIs</a></li>
+    <li><a href="#metrics">10 Pick metrics and export</a></li>
+    <li><a href="#checklist">Printable checklist</a></li>
+    <li><a href="#practice">Practice task</a></li>
+    <li><a href="#quiz">Self-check quiz</a></li>
+    <li><a href="#sources">Sources used</a></li>
+  </ol>
+  <p style="margin-top:1rem"><button class="secondary" id="reset">Clear my progress</button></p>
+</aside>
+<main>
+<div class="hero">
+  <h1>Running a Glasses Study with Pupil Labs Neon in iMotions Lab 11.1</h1>
+  <p class="lead">From the research question to exported AOI metrics, in the order the work actually happens. Written for the Martin's Family Clothing Consumer Behavior Research Laboratory and its Neon "Just act natural" frame, and checked against the iMotions Help Center and the lab's own iMotions correspondence.</p>
+  <ul class="facts">
+    <li>About 90 minutes to read and try<span>Estimated time</span></li>
+    <li>Neon glasses, companion phone, lab laptop with iMotions Lab 11.1, a Wi-Fi network both can join<span>Equipment</span></li>
+    <li>Eye Tracking Glasses module and, for section 9, the Automated AOIs module<span>Licenses used</span></li>
+    <li>Workshop 1 of the lab series<span>Series</span></li>
+  </ul>
+  <h3>Why this matters</h3>
+  <p style="max-width:68ch">Glasses studies are the lab's path into real places: a shelf at a local retailer, signage at a campus event, a batter's view from the plate. The recording is the easy part. The time goes into mapping gaze onto reference images and defining areas of interest, and a study designed without that in mind produces hours of video that cannot be compared across participants. This workshop puts the analysis decisions at the front, where they belong.</p>
+  <details><summary>What the Neon is, in one paragraph</summary>
+  <p>Neon is a wearable eye tracker from Pupil Labs that estimates gaze with a neural network rather than a per-person calibration. It records binocular gaze at 200 Hz and a forward-facing scene video at 30 Hz, plus head motion from an inertial sensor, and it stores the recording on an Android companion phone. iMotions lists the uncalibrated accuracy at about 1.8 degrees. A charged unit records for roughly four hours. The lab's frame is the standard adult "Just act natural" frame; the under-helmet "Ready set go" frame is the one iMotions recommended for batters.</p>
+  </details>
+  <details><summary>Glasses or the Aurora? A quick decision</summary>
+  <ul>
+    <li>The stimulus is a screen, an image, a video, or a website: use the Aurora. Analysis is faster because the stimulus is identical for everyone.</li>
+    <li>The participant moves, handles objects, or looks at a physical space: use the Neon.</li>
+    <li>The question is about fine timing (saccades, microsaccades): neither is the right tool at the lab's current setup; design around fixation and dwell measures.</li>
+  </ul>
+  </details>
+</div>
+
+<section class="phase" id="plan">
+  <div class="phase-head"><span class="n">1</span><h2>Plan the study around the analysis</h2></div>
+  <p class="why">Every decision here saves hours later. Gaze mapping needs a reference image per scene; AOIs need a master list; comparisons need enough usable recordings.</p>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="p1"><div class="body"><b>Write the question as a comparison.</b> For example: which of two shelf arrangements draws earlier and longer attention to the client's product? A comparison tells you the conditions, the AOIs, and the metrics in one sentence.<div class="mistake">starting with "let us see where people look" and deciding the comparison after collection.</div></div></li>
+    <li><input type="checkbox" data-step="p2"><div class="body"><b>Choose the task.</b> Find a product, choose a product, browse for a fixed time, or complete a purchase. Tasks with a clear start and end make time windows easy to define during gaze mapping.</div></li>
+    <li><input type="checkbox" data-step="p3"><div class="body"><b>Decide the design.</b> Between-subjects when the environment cannot be reset between conditions; within-subjects with counterbalanced order when it can. Record condition and order as respondent variables.</div></li>
+    <li><input type="checkbox" data-step="p4"><div class="body"><b>Set a sample target with losses built in.</b> A working heuristic for field eye tracking is 20 to 30 usable recordings per condition; plan to recruit about 25 percent more to cover recordings lost to fit, lighting, or mapping failures. Justify with a power estimate if the study is for publication.</div></li>
+    <li><input type="checkbox" data-step="p5"><div class="body"><b>List the scenes that need a reference image.</b> One image per fixed view participants will spend time on: the shelf, the end cap, the sign. Plan to photograph each one from a typical viewing position before the first participant arrives.</div></li>
+    <li><input type="checkbox" data-step="p6"><div class="body"><b>Write the AOI master list.</b> Name every area you will measure (Brand_A_Logo, Price_Tag_Row2, Promo_Sign) and keep the names identical across conditions. This list is pasted into the AOI window later.</div></li>
+    <li><input type="checkbox" data-step="p7"><div class="body"><b>Handle permissions.</b> Venue permission in writing, IRB consent that names the scene video and gaze recording, and signage or a script for bystanders who may appear in the scene camera.</div></li>
+    <li><input type="checkbox" data-step="p8"><div class="body"><b>Decide whether other sensors join.</b> GSR during a choice task is possible, but walking adds motion artifacts. If yes, the study type in section 2 changes.</div></li>
+  </ol>
+</section>
+
+<section class="phase" id="type">
+  <div class="phase-head"><span class="n">2</span><h2>Choose the study type in iMotions</h2></div>
+  <p class="why">iMotions offers three ways to work with Neon recordings. The choice decides whether the laptop controls the recording and whether other sensors are synchronized.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Study type</th><th>Who starts and stops the recording</th><th>Other sensors synchronized</th><th>Use it when</th></tr>
+    <tr><td>Glasses live recording</td><td>iMotions, over Wi-Fi, through the companion app</td><td>Yes, sensors set up in the study</td><td>You are present with the laptop and want one Start button for everything</td></tr>
+    <tr><td>Sensor Sync (glasses)</td><td>The companion app, by hand</td><td>Yes, after import, by merging with the sync study</td><td>Wi-Fi is unreliable but you still want GSR or other sensors aligned</td></tr>
+    <tr><td>Import glasses data</td><td>The companion app, by hand</td><td>No, glasses data only</td><td>Pure eye tracking in the field; simplest and most robust</td></tr>
+  </table></div>
+  <p>Whichever you choose, the video and data files still have to be moved from the phone to the laptop and imported (section 6). Live recording only removes the need to press record on the phone.</p>
+  <details><summary>Recommendation for the lab's first client shelf study</summary><p>Use <b>Import glasses data</b>. Campus and store Wi-Fi networks usually block device-to-device traffic, so the live connection in section 3 often fails outside the lab. Starting and stopping on the phone costs nothing, and the import path is identical. Move to live recording once you have run it successfully in the lab with your own router.</p></details>
+</section>
+
+<section class="phase" id="connect">
+  <div class="phase-head"><span class="n">3</span><h2>Connect the Neon to iMotions (live recording only)</h2></div>
+  <p class="why">Skip this section for Import or Sensor Sync studies. For live recording, the laptop talks to the companion phone over Wi-Fi.</p>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="c1"><div class="body"><b>Check the versions.</b> iMotions 10.1.13 or newer supports the current companion app line; the lab's 11.1 build qualifies. The phone shipped with the glasses runs a supported Android version; do not upgrade Android on the companion phone without checking Pupil Labs' compatibility list.<div class="where">Pupil Labs documentation: compatible devices</div></div></li>
+    <li><input type="checkbox" data-step="c2"><div class="body"><b>Plug the glasses into the phone</b> with the USB-C cable that came in the case. Other cables may power the unit without carrying data.</div></li>
+    <li><input type="checkbox" data-step="c3"><div class="body"><b>Open the Neon Companion app and create a wearer</b> the first time. A Pupil Cloud log-in is required by the standard app.</div></li>
+    <li><input type="checkbox" data-step="c4"><div class="body"><b>Join the same Wi-Fi network on both devices.</b> Confirm in Windows settings on the laptop and Android settings on the phone.<div class="mistake">institutional or public networks that block device-to-device traffic. If the connection test fails on campus, a small travel router with its own network is the reliable fix.</div></div></li>
+    <li><input type="checkbox" data-step="c5"><div class="body"><b>In iMotions, open Global Settings</b> from the Preferences menu, go to the Eye tracking tab, enable Eye Tracking Server, and choose Neon Glasses from the list.</div></li>
+    <li><input type="checkbox" data-step="c6"><div class="body"><b>Click Browse, pick the Neon Companion entry</b> (it shows IP address, device name, serial number, and phone model), click Select, then Test Connection, then OK twice.<div class="result">a successful connection message. If the device does not appear, read the phone's IP address from Settings, About phone, Status, and type it into the Host Address box, then test again.</div></div></li>
+    <li><input type="checkbox" data-step="c7"><div class="body"><b>If the app misbehaves, reboot the whole phone,</b> not just the app, and reconnect. iMotions cannot see error states inside the companion app.</div></li>
+  </ol>
+</section>
+
+<section class="phase" id="build">
+  <div class="phase-head"><span class="n">4</span><h2>Build the study in the Study Builder</h2></div>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="b1"><div class="body"><b>Create a new study</b> (New Study button or Ctrl+N) and name it with the lab convention, for example 2026_ClientName_Shelf.</div></li>
+    <li><input type="checkbox" data-step="b2"><div class="body"><b>Select Glasses as the overall study type,</b> then the glasses study type you chose in section 2 (Glasses live recording, or Import glasses data), then Neon Glasses as the eye tracking sensor.</div></li>
+    <li><input type="checkbox" data-step="b3"><div class="body"><b>Add respondent variables</b> for condition, order, and anything you will segment on later (store visited, group).</div></li>
+    <li><input type="checkbox" data-step="b4"><div class="body"><b>Add the respondents you expect,</b> or add them on the day using the lab ID format (last four digits of student ID plus first two letters of last name, or the client study's own format).</div></li>
+    <li><input type="checkbox" data-step="b5"><div class="body"><b>For live recording: select a respondent and click Start Recording.</b> The companion app shows recording status. Click End Recording in iMotions to stop the phone.<div class="result">the recording listed under the respondent, waiting for the file import in section 6.</div></div></li>
+    <li><input type="checkbox" data-step="b6"><div class="body"><b>Zip a backup of the study</b> before the field day, named with the lab's StudyName_backup_vN pattern.</div></li>
+  </ol>
+</section>
+
+<section class="phase" id="field">
+  <div class="phase-head"><span class="n">5</span><h2>Run the field day</h2></div>
+  <p class="why">Most lost recordings are lost here, to fit, light, and forgotten reference photos.</p>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="f1"><div class="body"><b>Charge everything the night before:</b> the phone, the laptop, and a power bank. Clear phone storage so there is room for the day's recordings.</div></li>
+    <li><input type="checkbox" data-step="f2"><div class="body"><b>Photograph every reference scene</b> from a typical viewing distance and height before the first participant, with the same lighting you expect during sessions. Name the images to match the AOI master list.</div></li>
+    <li><input type="checkbox" data-step="f3"><div class="body"><b>Fit the glasses and run a short gaze check:</b> ask the participant to look at three objects at different distances while you watch the live gaze overlay on the phone. If the dot sits consistently off, re-seat the frame and repeat. Note any remaining offset in the session log.</div></li>
+    <li><input type="checkbox" data-step="f4"><div class="body"><b>Read the task instructions from a script</b> so every participant hears the same words. Start the recording, then say a clear spoken marker ("Task begins now") so the start is visible in the audio and scene video.</div></li>
+    <li><input type="checkbox" data-step="f5"><div class="body"><b>Stay out of the scene camera</b> and keep bystanders aware of the recording per your IRB plan.</div></li>
+    <li><input type="checkbox" data-step="f6"><div class="body"><b>Stop the recording with a second spoken marker,</b> then run the post-task questions (choice made, recall, liking).</div></li>
+    <li><input type="checkbox" data-step="f7"><div class="body"><b>Log each session:</b> respondent ID, condition, start and end times, fit notes, lighting, interruptions. The log is what makes exclusions defensible later.</div></li>
+    <li><input type="checkbox" data-step="f8"><div class="body"><b>Keep the environment consistent</b> across participants: same shelf stock, same signage, low-traffic periods when the venue allows.</div></li>
+  </ol>
+</section>
+
+<section class="phase" id="import">
+  <div class="phase-head"><span class="n">6</span><h2>Transfer and import the recordings</h2></div>
+  <p class="why">The files move from the phone to a Data folder on the laptop, then into iMotions. The folder structure is strict.</p>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="i1"><div class="body"><b>In the companion app, open the Recordings list</b> (folder icon at the bottom), open the menu for each recording (the three dots), and choose Export.</div></li>
+    <li><input type="checkbox" data-step="i2"><div class="body"><b>Connect the phone to the laptop with the supplied USB-C cable</b> and open it in File Explorer: Internal shared storage, Documents, Neon Export.</div></li>
+    <li><input type="checkbox" data-step="i3"><div class="body"><b>Build the Data folder:</b> one parent folder for the study, one subfolder per respondent, each subfolder holding that recording's files. The import window expects, per recording: gaze ps1.raw, gaze ps1.time, Neon Scene Camera v1 ps1.time, Neon Scene Camera v1 ps1.mp4, extimu ps1.raw, extimu ps1.time, and info.json.<div class="mistake">dropping all recordings into one folder, or renaming files.</div></div></li>
+    <li><input type="checkbox" data-step="i4"><div class="body"><b>Live recording study: select the respondent, and in the Recorded Data panel click Import,</b> then browse to that respondent's folder.<div class="result">the sampling rate listed in the Recorded Data panel, and the scene video with gaze overlay in the Replay window.</div></div></li>
+    <li><input type="checkbox" data-step="i5"><div class="body"><b>Import glasses data study: in the Study Builder choose Glasses, Import glasses data, Neon Glasses,</b> then New study or Merge into an existing compatible study, click Next, Browse to the Data folder, and import. To align with a Sensor Sync study afterwards, right-click the imported study and choose Merge with another study.</div></li>
+    <li><input type="checkbox" data-step="i6"><div class="body"><b>Optional: remove the fisheye distortion</b> of the Neon scene camera during import if you want straight shelf edges for mapping and AOIs. iMotions offers this as an import option.</div></li>
+    <li><input type="checkbox" data-step="i7"><div class="body"><b>If you need blink, pupil, or eye-state signals,</b> enable Compute eye state and Compute fixations in the companion app (or in Pupil Cloud processing) before export; otherwise those columns are empty. Gaze and video import without Pupil Cloud.</div></li>
+  </ol>
+  <details><summary>Pupil Cloud as the alternative transfer route</summary><p>With Cloud upload enabled in the app's settings, each recording can be uploaded from the Recordings menu, processed (roughly as long as the recording itself), and downloaded from the Pupil Cloud project as files that import the same way. Use it when the phone is not with you, or when you want the Cloud-only processed signals.</p></details>
+</section>
+
+<section class="phase" id="analysis">
+  <div class="phase-head"><span class="n">7</span><h2>Create the analysis</h2></div>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="a1"><div class="body"><b>Hover over the study name in the Library and click Add Analysis.</b> Name it and add comments (for example, which exclusion rules apply).</div></li>
+    <li><input type="checkbox" data-step="a2"><div class="body"><b>Set segmentation criteria</b> to include only usable respondents, by hand or by group variable. Pilot recordings stay out.</div></li>
+    <li><input type="checkbox" data-step="a3"><div class="body"><b>Set up signal processing</b> only if other sensors were recorded (for GSR with two Shimmers: hardware, then Peak detection, then a Peaks binned aggregation row with "treat each hardware as individual respondents" checked). For glasses-only studies, click Next.</div></li>
+    <li><input type="checkbox" data-step="a4"><div class="body"><b>Select the stimuli</b> (the glasses recordings) and click Add.<div class="result">the analysis in the drop-down under the study, and analysis buttons along the bottom of the window.</div></div></li>
+    <li><input type="checkbox" data-step="a5"><div class="body"><b>Replay two recordings end to end</b> before doing anything else. Confirm gaze overlays, audio markers, and task boundaries are where the log says they are.</div></li>
+  </ol>
+</section>
+
+<section class="phase" id="map">
+  <div class="phase-head"><span class="n">8</span><h2>Map gaze onto a reference image</h2></div>
+  <p class="why">Gaze mapping converts each participant's moving-scene gaze into coordinates on one still image, so heat maps, scan paths, and static AOIs can be computed across people. It is the longest step; budget time for it.</p>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="m1"><div class="body"><b>Open the analysis, select a glasses recording in the stimulus menu, and click Gaze Map</b> in the lower menu. Gaze mapping only appears for dynamic stimuli.</div></li>
+    <li><input type="checkbox" data-step="m2"><div class="body"><b>Place the timeline cursor at the start of the task window,</b> click the Gaze Mapping button, and choose a reference image source: From image (your photographed shelf) or From current frame (a clean frame of the video).</div></li>
+    <li><input type="checkbox" data-step="m3"><div class="body"><b>Name the gaze map image and Save.</b> The image now spans the timeline from the cursor to the end.</div></li>
+    <li><input type="checkbox" data-step="m4"><div class="body"><b>Move the cursor to the end of the task window,</b> right-click in the timeline band belonging to the gaze map image, and choose Start/end interval at the timeline position. Annotation intervals can be used instead if you created them.</div></li>
+    <li><input type="checkbox" data-step="m5"><div class="body"><b>Right-click again and choose Queue gaze mapping processing,</b> then Use full-image algorithm (the vertical-motion option is for scrolling screens, not shelves).<div class="result">the interval turning green where mapping succeeded. Blue stretches mean mapping did not succeed there, which can simply mean the participant looked away from the reference scene.</div></div></li>
+    <li><input type="checkbox" data-step="m6"><div class="body"><b>Inspect the result by replaying:</b> original gaze on the right, mapped gaze on the reference image on the left. Apply corrections where the mapped point drifts.</div></li>
+    <li><input type="checkbox" data-step="m7"><div class="body"><b>Repeat for every other respondent using From existing,</b> which maps onto the same image and aggregates everyone onto it.</div></li>
+    <li><input type="checkbox" data-step="m8"><div class="body"><b>Speed up large studies:</b> use Batch import images from a folder to load reference images for all respondents at once, and queue the mapping jobs as a batch on the laptop. Cloud batch processing exists but needs a separate license the lab does not hold.</div></li>
+  </ol>
+  <details><summary>How many reference images?</summary><p>One per scene participants dwell on. A shelf study with a single shelf needs one image; a store walk with three displays needs three, each with its own time interval per respondent. Keep images the same for everyone in a condition, and keep the AOI master list aligned with the image names.</p></details>
+</section>
+
+<section class="phase" id="aoi">
+  <div class="phase-head"><span class="n">9</span><h2>Draw or automate the areas of interest</h2></div>
+  <p class="why">On a gaze map, static AOIs are enough. On the raw moving video, you need dynamic AOIs, and the Automated AOIs module does most of that work.</p>
+  <h3>Static AOIs on the gaze map</h3>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="o1"><div class="body"><b>Select the gaze map, click AOI, then Open analysis.</b> The AOI window has a Stimulus panel for drawing, an AOI Timeline, an AOI Metrics panel, and an AOI Editor for exact coordinates.</div></li>
+    <li><input type="checkbox" data-step="o2"><div class="body"><b>Click Draw AOI, choose a tool</b> (rectangle, circle, polygon, or grid), pick a color, and draw each area from the master list. Name them exactly as listed. Assign a keyboard key to speed up drawing.</div></li>
+    <li><input type="checkbox" data-step="o3"><div class="body"><b>Group AOIs where it helps</b> (all competitor facings, all price tags) so you can report at both levels.</div></li>
+    <li><input type="checkbox" data-step="o4"><div class="body"><b>Save an AOI template</b> from the AOI menu so the second condition and future studies reuse the same shapes and names.</div></li>
+  </ol>
+  <h3>Dynamic AOIs on the moving video (Automated AOIs module)</h3>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="o5"><div class="body"><b>Check the machine first.</b> Automated AOIs run best on a PC with an NVIDIA GPU; the first click on Automated AOI prompts an installation of the package. Do this in the lab, not on the client's day.</div></li>
+    <li><input type="checkbox" data-step="o6"><div class="body"><b>Find an input frame</b> where the object is clearly visible, then right-click the object and choose Automate, or open a new Input Frame from the panel.</div></li>
+    <li><input type="checkbox" data-step="o7"><div class="body"><b>Choose a geometry type</b> (rectangle, ellipse, or polygon) and mark the object: left-click adds positive points, right-click adds negative points where the mask spills outside the object, and Ctrl plus left-drag defines a region.<div class="result">an orange mask covering the object with a preview rectangle around it.</div></div></li>
+    <li><input type="checkbox" data-step="o8"><div class="body"><b>Set Skip frames.</b> The default of 2 is right for most shelf footage; lower it when the object moves constantly, raise it for slow scenes to save processing time.</div></li>
+    <li><input type="checkbox" data-step="o9"><div class="body"><b>Process the video,</b> then scrub the AOI Timeline: black dots mark input frames, key frames show where the shape was updated, and the AOI is interpolated between them. Add a second input frame where the object changes appearance or leaves and re-enters the view.</div></li>
+  </ol>
+</section>
+
+<section class="phase" id="metrics">
+  <div class="phase-head"><span class="n">10</span><h2>Pick the metrics and export</h2></div>
+  <p class="why">iMotions reports 48 AOI metrics in four groups. A client report needs five of them, chosen before you open the export.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Question</th><th>Metric to report</th><th>Group in the AOI window</th></tr>
+    <tr><td>Did people notice it at all?</td><td>Respondent ratio (%)</td><td>Fixation-based</td></tr>
+    <tr><td>How soon was it noticed?</td><td>Time to first fixation; use the max variant to count non-fixators at the full exposure time</td><td>Fixation-based</td></tr>
+    <tr><td>How much attention did it hold?</td><td>Dwell time (ms) and Dwell time (%)</td><td>Fixation-based</td></tr>
+    <tr><td>Did people come back to it?</td><td>Revisit count</td><td>Fixation-based</td></tr>
+    <tr><td>Is the data trustworthy?</td><td>Valid data (%) and Respondent data</td><td>Information</td></tr>
+  </table></div>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="x1"><div class="body"><b>In the AOI window, use the drop-down lists on the left to show the metric group,</b> and hover over the question-mark icons for the exact definitions. Gaze-based metrics use raw samples; fixation-based metrics apply the fixation classifier and are the ones to report.</div></li>
+    <li><input type="checkbox" data-step="x2"><div class="body"><b>Record the fixation classifier settings</b> used in the analysis (the I-VT filter is the common choice) so the methods section can state them.</div></li>
+    <li><input type="checkbox" data-step="x3"><div class="body"><b>Export the AOI metrics</b> to a dated Exports subfolder, and save a note beside the file listing respondents included, AOI template version, and classifier settings.</div></li>
+    <li><input type="checkbox" data-step="x4"><div class="body"><b>Export a heat map and a scan path per condition from the gaze map</b> for the client report; keep the statistics in the appendix.</div></li>
+  </ol>
+</section>
+
+<section class="phase checklist" id="checklist">
+  <h2>Printable checklist</h2>
+  <p class="why">Print this page (the navigation hides automatically) and keep the list in the field bag.</p>
+  <ul>
+    <li>Comparison question written</li><li>Task with clear start and end</li><li>Design and order plan</li><li>Sample target with 25 percent extra</li>
+    <li>Reference scenes listed</li><li>AOI master list written</li><li>Venue permission on file</li><li>IRB consent covers video and gaze</li>
+    <li>Study type chosen</li><li>Study built and backed up</li><li>Wi-Fi or router tested (live only)</li><li>Phone, laptop, power bank charged</li>
+    <li>Phone storage cleared</li><li>Reference photos taken on site</li><li>Instruction script printed</li><li>Session log sheet ready</li>
+    <li>Gaze check done per participant</li><li>Spoken start and end markers used</li><li>Recordings exported from app</li><li>Data folder with respondent subfolders</li>
+    <li>Imports replayed and checked</li><li>Analysis created with exclusions</li><li>Gaze mapping complete and inspected</li><li>AOIs drawn from master list and template saved</li>
+    <li>Five metrics chosen</li><li>Export saved with settings note</li>
+  </ul>
+</section>
+
+<section class="phase" id="practice">
+  <h2>Practice task: a two-person shelf pilot</h2>
+  <p>Before any client work, run this in the lab with one colleague as the participant and one as the researcher, then swap.</p>
+  <ol class="steps">
+    <li><input type="checkbox" data-step="t1"><div class="body">Set up a mock shelf with at least six distinct products on two rows. Photograph it from 1.2 meters.</div></li>
+    <li><input type="checkbox" data-step="t2"><div class="body">Build an Import glasses data study named 2026_Pilot_Shelf with two respondents and a condition variable.</div></li>
+    <li><input type="checkbox" data-step="t3"><div class="body">Record a 60-second "find the cheapest item" task for each person, starting and stopping in the companion app with spoken markers.</div></li>
+    <li><input type="checkbox" data-step="t4"><div class="body">Transfer, import, replay, create the analysis, and gaze map both recordings onto the shelf photo.</div></li>
+    <li><input type="checkbox" data-step="t5"><div class="body">Draw six product AOIs plus one price-row AOI, save the template, and export fixation-based metrics.</div></li>
+    <li><input type="checkbox" data-step="t6"><div class="body">Write three sentences a client could read: who looked first at what, which product held attention, and one caution about data quality. Time the whole exercise and note where the hours went.</div></li>
+  </ol>
+</section>
+
+<section class="phase quiz" id="quiz">
+  <h2>Self-check quiz</h2>
+  <div class="q" data-ans="b"><p>1. The Neon recording is finished on the phone. What must happen before iMotions can analyze it, regardless of study type?</p>
+    <label><input type="radio" name="q1" value="a"> Nothing; live recording streams the data into iMotions.</label>
+    <label><input type="radio" name="q1" value="b"> The files are exported from the companion app and imported from a respondent subfolder.</label>
+    <label><input type="radio" name="q1" value="c"> The phone is paired over Bluetooth.</label>
+    <div class="fb"></div></div>
+  <div class="q" data-ans="c"><p>2. A gaze mapping interval shows a blue stretch in the middle. What does it mean?</p>
+    <label><input type="radio" name="q2" value="a"> The recording is corrupt.</label>
+    <label><input type="radio" name="q2" value="b"> The AOI was not drawn.</label>
+    <label><input type="radio" name="q2" value="c"> Mapping did not succeed there, often because the participant looked away from the reference scene.</label>
+    <div class="fb"></div></div>
+  <div class="q" data-ans="a"><p>3. You have mapped the first respondent. Which option maps the next respondent onto the same image and aggregates them?</p>
+    <label><input type="radio" name="q3" value="a"> From existing</label>
+    <label><input type="radio" name="q3" value="b"> From current frame</label>
+    <label><input type="radio" name="q3" value="c"> Create from web stimulus recording</label>
+    <div class="fb"></div></div>
+  <div class="q" data-ans="b"><p>4. On a gaze map, which kind of AOI is normally sufficient?</p>
+    <label><input type="radio" name="q4" value="a"> Dynamic AOIs with key frames</label>
+    <label><input type="radio" name="q4" value="b"> Static AOIs</label>
+    <label><input type="radio" name="q4" value="c"> Automated AOIs only</label>
+    <div class="fb"></div></div>
+  <div class="q" data-ans="c"><p>5. In the Automated AOI input frame, what does a right-click do?</p>
+    <label><input type="radio" name="q5" value="a"> Starts processing</label>
+    <label><input type="radio" name="q5" value="b"> Adds a positive point</label>
+    <label><input type="radio" name="q5" value="c"> Adds a negative point to exclude an area from the object</label>
+    <div class="fb"></div></div>
+  <div class="q" data-ans="a"><p>6. Which metric answers "how soon was the product noticed" while still counting people who never fixated it?</p>
+    <label><input type="radio" name="q6" value="a"> TTFF max</label>
+    <label><input type="radio" name="q6" value="b"> Dwell count</label>
+    <label><input type="radio" name="q6" value="c"> Size (%)</label>
+    <div class="fb"></div></div>
+  <p><button id="grade">Check my answers</button> <span id="score" style="margin-left:.8rem"></span></p>
+</section>
+
+<section class="phase sources" id="sources">
+  <h2>Sources used for this workshop</h2>
+  <p class="why">Steps were rewritten in the lab's words from these pages. Open them for screenshots and version notes (the iMotions Help Center requires a sign in through my.imotions.com).</p>
+  <ul>
+    <li><a href="https://help.imotions.com/lab/sensor-setup/eye-tracking-glasses/pupil-labs/neon-by-pupil-labs-live-recording-and-other-study-types">Neon by Pupil Labs: Live Recording and Other Study Types</a> (iMotions Help Center)</li>
+    <li><a href="https://help.imotions.com/lab/sensor-setup/eye-tracking-glasses/using-eye-tracking-glasses-with-imotions">Using Eye Tracking Glasses with iMotions</a>, including the Data Folder requirements</li>
+    <li><a href="https://help.imotions.com/lab/getting-started/analysis-overview">Analysis Overview</a></li>
+    <li><a href="https://help.imotions.com/lab/analysis/eye-tracking/gaze-mapping/gaze-mapping">Gaze Mapping</a></li>
+    <li><a href="https://help.imotions.com/lab/analysis/eye-tracking/areas-of-interest/how-to-create-aois">How to Create AOIs</a> (manual, dynamic, and Automated AOIs)</li>
+    <li><a href="https://help.imotions.com/lab/analysis/eye-tracking/areas-of-interest/aoi-metrics">AOI Metrics</a></li>
+    <li><a href="https://imotions.com/products/hardware/neon-by-pupil-labs/">Just Act Natural: Neon Eye Tracking Glasses</a> and the Ready set go and Is This Thing On product pages (specifications)</li>
+    <li>Lab correspondence with iMotions Customer Success (September 2026) on sports frames and training before athlete sessions</li>
+  </ul>
+  <p>Prepared October 6, 2026 for iMotions Lab 11.1. If a screen or option in your build differs from a step above, tell Dr. Sciuchetti and the workshop will be updated.</p>
+</section>
+</main>
+</div>
+<script>
+(function(){
+  var KEY='lab-ws1-neon';
+  var boxes=document.querySelectorAll('input[type=checkbox][data-step]');
+  var state={};
+  try{ state=JSON.parse(localStorage.getItem(KEY)||'{}')||{}; }catch(e){ state={}; }
+  function save(){ try{ localStorage.setItem(KEY,JSON.stringify(state)); }catch(e){} }
+  function update(){
+    var done=0;
+    boxes.forEach(function(b){ var li=b.closest('li'); if(b.checked){done++; li.classList.add('done');} else li.classList.remove('done'); });
+    document.getElementById('prog').textContent=done+' of '+boxes.length+' steps checked';
+    document.querySelectorAll('#toc a').forEach(function(a){
+      var id=a.getAttribute('href').slice(1); var sec=document.getElementById(id); if(!sec) return;
+      var bs=sec.querySelectorAll('input[type=checkbox][data-step]'); if(!bs.length) return;
+      var all=Array.prototype.every.call(bs,function(x){return x.checked;}); a.classList.toggle('done',all);
+    });
+  }
+  boxes.forEach(function(b){ b.checked=!!state[b.dataset.step]; b.addEventListener('change',function(){ state[b.dataset.step]=b.checked; save(); update(); }); });
+  document.getElementById('reset').addEventListener('click',function(){ state={}; save(); boxes.forEach(function(b){b.checked=false;}); update(); });
+  update();
+  document.getElementById('grade').addEventListener('click',function(){
+    var qs=document.querySelectorAll('.quiz .q'); var right=0, answered=0;
+    qs.forEach(function(q){ var sel=q.querySelector('input:checked'); var fb=q.querySelector('.fb'); fb.className='fb';
+      if(!sel){ fb.textContent='No answer selected.'; fb.classList.add('no'); return; }
+      answered++; if(sel.value===q.dataset.ans){ right++; fb.textContent='Correct.'; fb.classList.add('ok'); } else { fb.textContent='Not this one. Reread the matching section above.'; fb.classList.add('no'); } });
+    document.getElementById('score').textContent=right+' of '+qs.length+' correct';
+  });
+})();
+</script>
+</body>
+</html>
