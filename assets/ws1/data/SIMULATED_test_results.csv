@@ -1,0 +1,6 @@
+comparison,m_posm,m_noposm,t,df,p,d,d_ci_low,d_ci_high
+TTFF Sensodyne_Products (s),2.252,3.588,-3.911,26.888,0.001,-1.446,-2.259,-0.613
+TTFF max. Sensodyne_Products (s),2.252,3.588,-3.911,26.888,0.001,-1.446,-2.259,-0.613
+Dwell time (%) Sensodyne_Products,18.433,10.755,3.908,23.868,0.001,1.468,0.631,2.283
+Competitor dwell (s),35.985,49.326,-2.323,26.946,0.028,-0.86,-1.616,-0.089
+Purchase intent (1 to 7),4.857,4.133,1.627,25.946,0.116,0.599,-0.152,1.341

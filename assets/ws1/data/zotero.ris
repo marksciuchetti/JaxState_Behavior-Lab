@@ -1,0 +1,738 @@
+TY  - JOUR
+AU  - Appelbaum, M.
+AU  - Cooper, H.
+AU  - Kline, R. B.
+AU  - Mayo-Wilson, E.
+AU  - Nezu, A. M.
+AU  - Rao, S. M.
+TI  - Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report
+PY  - 2018
+T2  - American Psychologist
+JO  - American Psychologist
+VL  - 73
+IS  - 1
+SP  - 3
+EP  - 25
+DO  - 10.1037/amp0000191
+UR  - https://doi.org/10.1037/amp0000191
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Results and discussion: the JARS checklist students follow when writing the method, results and discussion sections. Verified via https://api.openalex.org/works/doi:10.1037/amp0000191 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Bates, D.
+AU  - Mächler, M.
+AU  - Bolker, B.
+AU  - Walker, S.
+TI  - Fitting linear mixed-effects models using lme4
+PY  - 2015
+T2  - Journal of Statistical Software
+JO  - Journal of Statistical Software
+VL  - 67
+IS  - 1
+SP  - 1
+EP  - 48
+DO  - 10.18637/jss.v067.i01
+UR  - https://doi.org/10.18637/jss.v067.i01
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Analysis: the mixed model used for repeated AOI measures across the two shelf layouts with participant as a random effect. Verified via https://api.crossref.org/works/10.18637/jss.v067.i01 and https://api.openalex.org/works/doi:10.18637/jss.v067.i01 on 2026-10-07. Neither resolver returns a page range for this article; the page range 1-48 is the journal's own numbering and should be checked on the article page before final use.
+ER  - 
+
+TY  - RPRT
+AU  - Baumann, C.
+AU  - Dierkes, K.
+TI  - Neon accuracy test report
+PY  - 2023
+PB  - Pupil Labs
+DO  - 10.5281/zenodo.10420388
+UR  - https://doi.org/10.5281/zenodo.10420388
+KW  - neon_technical
+KW  - ws1-shelf-attention
+N1  - Use: Methods: the accuracy and precision figures students quote for the Neon when describing the apparatus; labeled as a vendor white paper, not peer reviewed. Verified via https://zenodo.org/records/10420388 on 2026-10-07. Vendor white paper (Pupil Labs), deposited on Zenodo 2023-12-22 as Version 1; Pupil Labs asks users to cite this DOI. A Version 2 was published 2026-02-13 as Zenodo record 18504792.
+ER  - 
+
+TY  - JOUR
+AU  - Bell, L.
+AU  - Vogt, J.
+AU  - Willemse, C.
+AU  - Routledge, T.
+AU  - Butler, L. T.
+AU  - Sakaki, M.
+TI  - Beyond self-report: A review of physiological and neuroscientific methods to investigate consumer behavior
+PY  - 2018
+T2  - Frontiers in Psychology
+JO  - Frontiers in Psychology
+VL  - 9
+M1  - 1655
+DO  - 10.3389/fpsyg.2018.01655
+UR  - https://doi.org/10.3389/fpsyg.2018.01655
+KW  - consumer_neuroscience
+KW  - ws1-shelf-attention
+N1  - Use: Question and design: why the workshop pairs eye tracking with a survey rather than relying on self-report alone. Verified via https://api.openalex.org/works/doi:10.3389/fpsyg.2018.01655 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Bialkova, S.
+AU  - Grunert, K. G.
+AU  - van Trijp, H.
+TI  - From desktop to supermarket shelf: Eye-tracking exploration on consumer attention and choice
+PY  - 2020
+T2  - Food Quality and Preference
+JO  - Food Quality and Preference
+VL  - 81
+M1  - 103839
+DO  - 10.1016/j.foodqual.2019.103839
+UR  - https://doi.org/10.1016/j.foodqual.2019.103839
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Design: compares screen-based and real-shelf attention and choice; supports the choice of glasses over the screen tracker and the ecological validity discussion. Verified via https://api.crossref.org/works/10.1016/j.foodqual.2019.103839 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Brysbaert, M.
+AU  - Stevens, M.
+TI  - Power analysis and effect size in mixed effects models: A tutorial
+PY  - 2018
+T2  - Journal of Cognition
+JO  - Journal of Cognition
+VL  - 1
+IS  - 1
+M1  - 9
+DO  - 10.5334/joc.10
+UR  - https://doi.org/10.5334/joc.10
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Design and analysis: how many participants and trials a mixed model needs; sets expectations for a small class sample. Verified via https://api.openalex.org/works/doi:10.5334/joc.10 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Chandon, P.
+AU  - Hutchinson, J. W.
+AU  - Bradlow, E. T.
+AU  - Young, S. H.
+TI  - Does in-store marketing work? Effects of the number and position of shelf facings on brand attention and evaluation at the point of purchase
+PY  - 2009
+T2  - Journal of Marketing
+JO  - Journal of Marketing
+VL  - 73
+IS  - 6
+SP  - 1
+EP  - 17
+DO  - 10.1509/jmkg.73.6.1
+UR  - https://doi.org/10.1509/jmkg.73.6.1
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Question: the anchor paper for the shelf facings and shelf position hypotheses and for linking attention metrics to brand evaluation at the point of purchase. Verified via https://api.crossref.org/works/10.1509/jmkg.73.6.1 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Clement, J.
+TI  - Visual influence on in-store buying decisions: An eye-track experiment on the visual influence of packaging design
+PY  - 2007
+T2  - Journal of Marketing Management
+JO  - Journal of Marketing Management
+VL  - 23
+IS  - 9-10
+SP  - 917
+EP  - 928
+DO  - 10.1362/026725707X250395
+UR  - https://doi.org/10.1362/026725707X250395
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Question and discussion: an early in-store glasses study of packaging that models how to interpret fixation sequences at a real shelf. Verified via https://api.crossref.org/works/10.1362/026725707X250395 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Cohen, J.
+TI  - A power primer
+PY  - 1992
+T2  - Psychological Bulletin
+JO  - Psychological Bulletin
+VL  - 112
+IS  - 1
+SP  - 155
+EP  - 159
+DO  - 10.1037/0033-2909.112.1.155
+UR  - https://doi.org/10.1037/0033-2909.112.1.155
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Design: the small, medium and large effect size conventions students enter in the G*Power calculation. Verified via https://api.openalex.org/works/doi:10.1037/0033-2909.112.1.155 on 2026-10-07. Crossref returned HTTP 429 for this DOI; resolved through OpenAlex.
+ER  - 
+
+TY  - JOUR
+AU  - Faul, F.
+AU  - Erdfelder, E.
+AU  - Lang, A.-G.
+AU  - Buchner, A.
+TI  - G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences
+PY  - 2007
+T2  - Behavior Research Methods
+JO  - Behavior Research Methods
+VL  - 39
+IS  - 2
+SP  - 175
+EP  - 191
+DO  - 10.3758/BF03193146
+UR  - https://doi.org/10.3758/BF03193146
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Design: the software citation for the a priori power analysis. Verified via https://api.openalex.org/works/doi:10.3758/BF03193146 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Gidlöf, K.
+AU  - Anikin, A.
+AU  - Lingonblad, M.
+AU  - Wallin, A.
+TI  - Looking is buying. How visual attention and choice are affected by consumer preferences and properties of the supermarket shelf
+PY  - 2017
+T2  - Appetite
+JO  - Appetite
+VL  - 116
+SP  - 29
+EP  - 38
+DO  - 10.1016/j.appet.2017.04.020
+UR  - https://doi.org/10.1016/j.appet.2017.04.020
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Question and discussion: shows that shelf position and visual salience predict both attention and purchase in a real supermarket, the core attention-to-choice argument. Verified via https://api.crossref.org/works/10.1016/j.appet.2017.04.020 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Gidlöf, K.
+AU  - Wallin, A.
+AU  - Dewhurst, R.
+AU  - Holmqvist, K.
+TI  - Using eye tracking to trace a cognitive process: Gaze behaviour during decision making in a natural environment
+PY  - 2013
+T2  - Journal of Eye Movement Research
+JO  - Journal of Eye Movement Research
+VL  - 6
+IS  - 1
+M1  - 3
+DO  - 10.16910/jemr.6.1.3
+UR  - https://doi.org/10.16910/jemr.6.1.3
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Methods and analysis: in-store glasses study that defines the orientation, evaluation and verification phases of a shelf decision, which the workshop uses to segment recordings. Verified via https://api.openalex.org/works/doi:10.16910/jemr.6.1.3 on 2026-10-07. Crossref was rate limited for this DOI; resolved through OpenAlex, which returns the same DOI, journal, volume and issue. No page numbers are returned; the journal numbers articles within an issue.
+ER  - 
+
+TY  - JOUR
+AU  - Harris, J. M.
+AU  - Ciorciari, J.
+AU  - Gountas, J.
+TI  - Consumer neuroscience for marketing researchers
+PY  - 2018
+T2  - Journal of Consumer Behaviour
+JO  - Journal of Consumer Behaviour
+VL  - 17
+IS  - 3
+SP  - 239
+EP  - 252
+DO  - 10.1002/cb.1710
+UR  - https://doi.org/10.1002/cb.1710
+KW  - consumer_neuroscience
+KW  - ws1-shelf-attention
+N1  - Use: Question: a plain-language review of consumer neuroscience tools for students who are new to the field. Verified via https://api.crossref.org/works/10.1002/cb.1710 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Hessels, R. S.
+AU  - Kemner, C.
+AU  - van den Boomen, C.
+AU  - Hooge, I. T. C.
+TI  - The area-of-interest problem in eyetracking research: A noise-robust solution for face and sparse stimuli
+PY  - 2016
+T2  - Behavior Research Methods
+JO  - Behavior Research Methods
+VL  - 48
+IS  - 4
+SP  - 1694
+EP  - 1712
+DO  - 10.3758/s13428-015-0676-y
+UR  - https://doi.org/10.3758/s13428-015-0676-y
+KW  - et_methodology
+KW  - ws1-shelf-attention
+N1  - Use: Methods: why AOI size matters when data are noisy; informs the margin rule for small POS elements such as shelf talkers. Verified via https://api.crossref.org/works/10.3758/s13428-015-0676-y on 2026-10-07. Crossref 'issued' is 2015 (online first); print publication year 2016 is used.
+ER  - 
+
+TY  - JOUR
+AU  - Hessels, R. S.
+AU  - Niehorster, D. C.
+AU  - Nyström, M.
+AU  - Andersson, R.
+AU  - Hooge, I. T. C.
+TI  - Is the eye-movement field confused about fixations and saccades? A survey among 124 researchers
+PY  - 2018
+T2  - Royal Society Open Science
+JO  - Royal Society Open Science
+VL  - 5
+IS  - 8
+M1  - 180502
+DO  - 10.1098/rsos.180502
+UR  - https://doi.org/10.1098/rsos.180502
+KW  - et_methodology
+KW  - ws1-shelf-attention
+N1  - Use: Methods: why students must define 'fixation' explicitly for a moving head and moving scene instead of assuming a shared definition. Verified via https://api.crossref.org/works/10.1098/rsos.180502 on 2026-10-07.
+ER  - 
+
+TY  - BOOK
+AU  - Holmqvist, K.
+AU  - Nyström, M.
+AU  - Andersson, R.
+AU  - Dewhurst, R.
+AU  - Jarodzka, H.
+AU  - van de Weijer, J.
+TI  - Eye tracking: A comprehensive guide to methods and measures
+PY  - 2011
+PB  - Oxford University Press
+SN  - 9780199697083
+UR  - https://books.google.com/books?vid=ISBN9780199697083
+KW  - et_methodology
+KW  - ws1-shelf-attention
+N1  - Use: Methods and analysis: the reference handbook for metric definitions (time to first fixation, dwell time, fixation count, revisits). Verified via https://openlibrary.org/isbn/9780199697083.json and https://books.google.com/books?vid=ISBN9780199697083 on 2026-10-07. No DOI. The OUP product page could not be fetched from this session (permission prompt withdrawn); Open Library confirms Oxford University Press, 2011, ISBN 9780199697083, and Google Books confirms the six authors.
+ER  - 
+
+TY  - JOUR
+AU  - Huddleston, P. T.
+AU  - Behe, B. K.
+AU  - Driesener, C.
+AU  - Minahan, S.
+TI  - Inside-outside: Using eye-tracking to investigate search-choice processes in the retail environment
+PY  - 2018
+T2  - Journal of Retailing and Consumer Services
+JO  - Journal of Retailing and Consumer Services
+VL  - 43
+SP  - 85
+EP  - 93
+DO  - 10.1016/j.jretconser.2018.03.006
+UR  - https://doi.org/10.1016/j.jretconser.2018.03.006
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Design and discussion: contrasts laboratory and field retail eye tracking; used in the limitations paragraph of the written discussion. Verified via https://api.crossref.org/works/10.1016/j.jretconser.2018.03.006 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Huddleston, P.
+AU  - Behe, B. K.
+AU  - Minahan, S.
+AU  - Fernandez, R. T.
+TI  - Seeking attention: An eye tracking study of in-store merchandise displays
+PY  - 2015
+T2  - International Journal of Retail & Distribution Management
+JO  - International Journal of Retail & Distribution Management
+VL  - 43
+IS  - 6
+SP  - 561
+EP  - 574
+DO  - 10.1108/IJRDM-06-2013-0120
+UR  - https://doi.org/10.1108/IJRDM-06-2013-0120
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Question: display and signage attention measured with eye tracking; the template for the point of sale material hypothesis. Verified via https://api.crossref.org/works/10.1108/IJRDM-06-2013-0120 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Judd, C. M.
+AU  - Westfall, J.
+AU  - Kenny, D. A.
+TI  - Treating stimuli as a random factor in social psychology: A new and comprehensive solution to a pervasive but largely ignored problem
+PY  - 2012
+T2  - Journal of Personality and Social Psychology
+JO  - Journal of Personality and Social Psychology
+VL  - 103
+IS  - 1
+SP  - 54
+EP  - 69
+DO  - 10.1037/a0028347
+UR  - https://doi.org/10.1037/a0028347
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Analysis: justification for treating products or shelf items as random effects alongside participants. Verified via https://api.crossref.org/works/10.1037/a0028347 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Karmarkar, U. R.
+AU  - Plassmann, H.
+TI  - Consumer neuroscience: Past, present, and future
+PY  - 2019
+T2  - Organizational Research Methods
+JO  - Organizational Research Methods
+VL  - 22
+IS  - 1
+SP  - 174
+EP  - 195
+DO  - 10.1177/1094428117730598
+UR  - https://doi.org/10.1177/1094428117730598
+KW  - consumer_neuroscience
+KW  - ws1-shelf-attention
+N1  - Use: Question and discussion: situates eye tracking among consumer neuroscience methods and discusses what each measure can and cannot claim. Verified via https://api.crossref.org/works/10.1177/1094428117730598 on 2026-10-07. Crossref 'issued' is 2017 (online first); print publication year 2019 is used.
+ER  - 
+
+TY  - CHAP
+AU  - Kröger, J. L.
+AU  - Lutz, O. H.-M.
+AU  - Müller, F.
+A2  - Friedewald, M.
+A2  - Önen, M.
+A2  - Lievens, E.
+A2  - Krenn, S.
+A2  - Fricker, S.
+TI  - What does your gaze reveal about you? On the privacy implications of eye tracking
+PY  - 2020
+T2  - Privacy and identity management. Data for better living: AI and privacy
+T3  - IFIP Advances in Information and Communication Technology
+VL  - 576
+SP  - 226
+EP  - 241
+PB  - Springer
+DO  - 10.1007/978-3-030-42504-3_15
+UR  - https://doi.org/10.1007/978-3-030-42504-3_15
+KW  - ethics
+KW  - ws1-shelf-attention
+N1  - Use: Ethics: what gaze and scene video can reveal about a person; informs consent wording and retention rules for recordings made in a store. Verified via https://api.crossref.org/works/10.1007/978-3-030-42504-3_15 and https://link.springer.com/book/10.1007/978-3-030-42504-3 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Lakens, D.
+TI  - Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs
+PY  - 2013
+T2  - Frontiers in Psychology
+JO  - Frontiers in Psychology
+VL  - 4
+M1  - 863
+DO  - 10.3389/fpsyg.2013.00863
+UR  - https://doi.org/10.3389/fpsyg.2013.00863
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Analysis and results: how to compute and report Cohen's d and eta squared for the two shelf layout comparison. Verified via https://api.openalex.org/works/doi:10.3389/fpsyg.2013.00863 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Lim, W. M.
+TI  - Demystifying neuromarketing
+PY  - 2018
+T2  - Journal of Business Research
+JO  - Journal of Business Research
+VL  - 91
+SP  - 205
+EP  - 220
+DO  - 10.1016/j.jbusres.2018.05.036
+UR  - https://doi.org/10.1016/j.jbusres.2018.05.036
+KW  - consumer_neuroscience
+KW  - ws1-shelf-attention
+N1  - Use: Question: overview of neuromarketing tools and claims that helps students write a realistic research question. Verified via https://api.crossref.org/works/10.1016/j.jbusres.2018.05.036 on 2026-10-07.
+ER  - 
+
+TY  - ELEC
+AU  - Neuromarketing Science & Business Association
+TI  - NMSBA code of ethics for the application of consumer neuroscience in business
+PB  - NMSBA
+UR  - https://nmsba.com/ethics
+KW  - ethics
+KW  - ws1-shelf-attention
+N1  - Use: Ethics: the consent, privacy and participant rights articles students map onto their study protocol. Verified via https://nmsba.com/ethics on 2026-10-07. The page states no version or date and says the code may be revised from time to time; cite with the retrieval date.
+ER  - 
+
+TY  - JOUR
+AU  - Niehorster, D. C.
+AU  - Santini, T.
+AU  - Hessels, R. S.
+AU  - Hooge, I. T. C.
+AU  - Kasneci, E.
+AU  - Nyström, M.
+TI  - The impact of slippage on the data quality of head-worn eye trackers
+PY  - 2020
+T2  - Behavior Research Methods
+JO  - Behavior Research Methods
+VL  - 52
+IS  - 3
+SP  - 1140
+EP  - 1160
+DO  - 10.3758/s13428-019-01307-0
+UR  - https://doi.org/10.3758/s13428-019-01307-0
+KW  - et_methodology
+KW  - ws1-shelf-attention
+N1  - Use: Methods: why the glasses must fit well and why data quality is rechecked after head movement; justifies the fit check step in the protocol. Verified via https://api.openalex.org/works/doi:10.3758/s13428-019-01307-0 on 2026-10-07. Crossref returned HTTP 429 for this DOI; resolved through OpenAlex.
+ER  - 
+
+TY  - JOUR
+AU  - Nosek, B. A.
+AU  - Ebersole, C. R.
+AU  - DeHaven, A. C.
+AU  - Mellor, D. T.
+TI  - The preregistration revolution
+PY  - 2018
+T2  - Proceedings of the National Academy of Sciences
+JO  - Proceedings of the National Academy of Sciences
+VL  - 115
+IS  - 11
+SP  - 2600
+EP  - 2606
+DO  - 10.1073/pnas.1708274114
+UR  - https://doi.org/10.1073/pnas.1708274114
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Design: why the class writes hypotheses and the analysis plan before collecting data. Verified via https://api.crossref.org/works/10.1073/pnas.1708274114 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Orquin, J. L.
+AU  - Ashby, N. J. S.
+AU  - Clarke, A. D. F.
+TI  - Areas of interest as a signal detection problem in behavioral eye-tracking research
+PY  - 2016
+T2  - Journal of Behavioral Decision Making
+JO  - Journal of Behavioral Decision Making
+VL  - 29
+IS  - 2-3
+SP  - 103
+EP  - 115
+DO  - 10.1002/bdm.1867
+UR  - https://doi.org/10.1002/bdm.1867
+KW  - et_methodology
+KW  - ws1-shelf-attention
+N1  - Use: Methods: how to size AOI margins given tracker accuracy; the rule students apply when drawing AOIs on the shelf and the POS material. Verified via https://api.crossref.org/works/10.1002/bdm.1867 on 2026-10-07. Crossref 'issued' is 2015 (online first); print publication year 2016 is used.
+ER  - 
+
+TY  - JOUR
+AU  - Orquin, J. L.
+AU  - Holmqvist, K.
+TI  - Threats to the validity of eye-movement research in psychology
+PY  - 2018
+T2  - Behavior Research Methods
+JO  - Behavior Research Methods
+VL  - 50
+IS  - 4
+SP  - 1645
+EP  - 1656
+DO  - 10.3758/s13428-017-0998-z
+UR  - https://doi.org/10.3758/s13428-017-0998-z
+KW  - et_methodology
+KW  - ws1-shelf-attention
+N1  - Use: Design and discussion: a checklist of validity threats (stimulus, task, participant, apparatus) that structures the limitations section. Verified via https://api.crossref.org/works/10.3758/s13428-017-0998-z on 2026-10-07. Crossref 'issued' is 2017 (online first); the issue year 2018 is used.
+ER  - 
+
+TY  - JOUR
+AU  - Orquin, J. L.
+AU  - Mueller Loose, S.
+TI  - Attention and choice: A review on eye movements in decision making
+PY  - 2013
+T2  - Acta Psychologica
+JO  - Acta Psychologica
+VL  - 144
+IS  - 1
+SP  - 190
+EP  - 206
+DO  - 10.1016/j.actpsy.2013.06.003
+UR  - https://doi.org/10.1016/j.actpsy.2013.06.003
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Question and discussion: the review that links attention to choice; supports interpretation of the attention-to-purchase result. Verified via https://api.crossref.org/works/10.1016/j.actpsy.2013.06.003 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Otterbring, T.
+AU  - Wästlund, E.
+AU  - Gustafsson, A.
+TI  - Eye-tracking customers' visual attention in the wild: Dynamic gaze behavior moderates the effect of store familiarity on navigational fluency
+PY  - 2016
+T2  - Journal of Retailing and Consumer Services
+JO  - Journal of Retailing and Consumer Services
+VL  - 28
+SP  - 165
+EP  - 170
+DO  - 10.1016/j.jretconser.2015.09.004
+UR  - https://doi.org/10.1016/j.jretconser.2015.09.004
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Discussion: store familiarity as a covariate; the survey item on familiarity in the workshop design comes from this paper. Verified via https://api.crossref.org/works/10.1016/j.jretconser.2015.09.004 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Otterbring, T.
+AU  - Wästlund, E.
+AU  - Gustafsson, A.
+AU  - Shams, P.
+TI  - Vision (im)possible? The effects of in-store signage on customers' visual attention
+PY  - 2014
+T2  - Journal of Retailing and Consumer Services
+JO  - Journal of Retailing and Consumer Services
+VL  - 21
+IS  - 5
+SP  - 676
+EP  - 684
+DO  - 10.1016/j.jretconser.2014.05.002
+UR  - https://doi.org/10.1016/j.jretconser.2014.05.002
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Question: in-store signage attention recorded with glasses; the closest published analog to the point of sale material manipulation in the worked example. Verified via https://api.crossref.org/works/10.1016/j.jretconser.2014.05.002 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Plassmann, H.
+AU  - Venkatraman, V.
+AU  - Huettel, S.
+AU  - Yoon, C.
+TI  - Consumer neuroscience: Applications, challenges, and possible solutions
+PY  - 2015
+T2  - Journal of Marketing Research
+JO  - Journal of Marketing Research
+VL  - 52
+IS  - 4
+SP  - 427
+EP  - 435
+DO  - 10.1509/jmr.14.0048
+UR  - https://doi.org/10.1509/jmr.14.0048
+KW  - consumer_neuroscience
+KW  - ws1-shelf-attention
+N1  - Use: Question and discussion: frames what consumer neuroscience adds and warns against reverse inference when interpreting attention data. Verified via https://api.crossref.org/works/10.1509/jmr.14.0048 on 2026-10-07.
+ER  - 
+
+TY  - ELEC
+AU  - Pupil Labs
+TI  - Neon documentation
+PB  - Pupil Labs
+UR  - https://docs.pupil-labs.com/neon/
+KW  - neon_technical
+KW  - ws1-shelf-attention
+N1  - Use: Methods: hardware description (binocular infrared eye cameras, scene camera, 9 degrees of freedom IMU) and the Companion app and Pupil Cloud workflow. Verified via https://docs.pupil-labs.com/neon/ and https://docs.pupil-labs.com/neon/hardware/module-technical-overview/ on 2026-10-07. Vendor documentation, undated and revised continuously; cite with the retrieval date. The technical overview page names the components but does not state sampling rate or accuracy; those figures come from Baumann and Dierkes (2023).
+ER  - 
+
+TY  - JOUR
+AU  - Salari, M.
+AU  - Niehorster, D. C.
+AU  - Nyström, M.
+AU  - Bednarik, R.
+TI  - The effect of pupil size on data quality in head-mounted eye trackers
+PY  - 2026
+T2  - Behavior Research Methods
+JO  - Behavior Research Methods
+VL  - 58
+IS  - 1
+M1  - 17
+DO  - 10.3758/s13428-025-02880-3
+UR  - https://doi.org/10.3758/s13428-025-02880-3
+KW  - neon_technical
+KW  - ws1-shelf-attention
+N1  - Use: Methods: peer reviewed evaluation that includes the Pupil Neon; reports pupil size artifacts in head-mounted trackers, with the smallest apparent gaze shift for the Neon. Verified via https://api.crossref.org/works?query.bibliographic=The+effect+of+pupil+size+on+data+quality+in+head-mounted+eye+trackers and https://link.springer.com/article/10.3758/s13428-025-02880-3 on 2026-10-07. Published online 2025-12-03; issue 58(1) is dated 2026. Crossref lists four authors. Devices tested: Pupil Core, Pupil Neon, SMI ETG 2w, Tobii Pro Glasses 2, with an EyeLink 1000 Plus reference.
+ER  - 
+
+TY  - CONF
+AU  - Salvucci, D. D.
+AU  - Goldberg, J. H.
+TI  - Identifying fixations and saccades in eye-tracking protocols
+PY  - 2000
+T2  - Proceedings of the 2000 Symposium on Eye Tracking Research & Applications (ETRA '00)
+SP  - 71
+EP  - 78
+PB  - ACM
+DO  - 10.1145/355017.355028
+UR  - https://doi.org/10.1145/355017.355028
+KW  - et_methodology
+KW  - ws1-shelf-attention
+N1  - Use: Methods: the I-VT and I-DT algorithm taxonomy behind the fixation filter settings students choose in iMotions. Verified via https://api.crossref.org/works/10.1145/355017.355028 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Simmons, J. P.
+AU  - Nelson, L. D.
+AU  - Simonsohn, U.
+TI  - False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant
+PY  - 2011
+T2  - Psychological Science
+JO  - Psychological Science
+VL  - 22
+IS  - 11
+SP  - 1359
+EP  - 1366
+DO  - 10.1177/0956797611417632
+UR  - https://doi.org/10.1177/0956797611417632
+KW  - design_statistics
+KW  - ws1-shelf-attention
+N1  - Use: Analysis and results: the rules on stopping data collection, exclusions and reporting all measures. Verified via https://api.crossref.org/works/10.1177/0956797611417632 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Stanton, S. J.
+AU  - Sinnott-Armstrong, W.
+AU  - Huettel, S. A.
+TI  - Neuromarketing: Ethical implications of its use and potential misuse
+PY  - 2017
+T2  - Journal of Business Ethics
+JO  - Journal of Business Ethics
+VL  - 144
+IS  - 4
+SP  - 799
+EP  - 811
+DO  - 10.1007/s10551-016-3059-0
+UR  - https://doi.org/10.1007/s10551-016-3059-0
+KW  - ethics
+KW  - ws1-shelf-attention
+N1  - Use: Ethics: the main reading on consumer neuroscience ethics; frames the recording-in-public and consent discussion. Verified via https://api.crossref.org/works/10.1007/s10551-016-3059-0 on 2026-10-07. Crossref 'issued' is 2016 (online first); print publication year 2017 is used.
+ER  - 
+
+TY  - JOUR
+AU  - Venkatraman, V.
+AU  - Dimoka, A.
+AU  - Pavlou, P. A.
+AU  - Vo, K.
+AU  - Hampton, W.
+AU  - Bollinger, B.
+AU  - Hershfield, H. E.
+AU  - Ishihara, M.
+AU  - Winer, R. S.
+TI  - Predicting advertising success beyond traditional measures: New insights from neurophysiological methods and market response modeling
+PY  - 2015
+T2  - Journal of Marketing Research
+JO  - Journal of Marketing Research
+VL  - 52
+IS  - 4
+SP  - 436
+EP  - 452
+DO  - 10.1509/jmr.13.0593
+UR  - https://doi.org/10.1509/jmr.13.0593
+KW  - consumer_neuroscience
+KW  - ws1-shelf-attention
+N1  - Use: Discussion: evidence on which biometric measures add predictive value beyond surveys; tempers claims in the discussion section. Verified via https://api.crossref.org/works/10.1509/jmr.13.0593 on 2026-10-07.
+ER  - 
+
+TY  - JOUR
+AU  - Wästlund, E.
+AU  - Otterbring, T.
+AU  - Gustafsson, A.
+AU  - Shams, P.
+TI  - Heuristics and resource depletion: Eye-tracking customers' in situ gaze behavior in the field
+PY  - 2015
+T2  - Journal of Business Research
+JO  - Journal of Business Research
+VL  - 68
+IS  - 1
+SP  - 95
+EP  - 101
+DO  - 10.1016/j.jbusres.2014.05.001
+UR  - https://doi.org/10.1016/j.jbusres.2014.05.001
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Design and methods: a field protocol for glasses in a real store and evidence that shoppers use simple heuristics at the shelf. Verified via https://api.openalex.org/works/doi:10.1016/j.jbusres.2014.05.001 on 2026-10-07. Crossref was rate limited for this DOI; resolved through OpenAlex. OpenAlex lists 2014 (online first); volume 68 issue 1 is the January 2015 issue, so the APA year is 2015.
+ER  - 
+
+TY  - JOUR
+AU  - Wedel, M.
+AU  - Pieters, R.
+TI  - Eye tracking for visual marketing
+PY  - 2008
+T2  - Foundations and Trends in Marketing
+JO  - Foundations and Trends in Marketing
+VL  - 1
+IS  - 4
+SP  - 231
+EP  - 320
+DO  - 10.1561/1700000011
+UR  - https://doi.org/10.1561/1700000011
+KW  - retail_shelf
+KW  - ws1-shelf-attention
+N1  - Use: Question and methods: the standard primer on eye tracking in marketing, assigned as reading before the workshop. Verified via https://api.crossref.org/works/10.1561/1700000011 on 2026-10-07.
+ER  - 
