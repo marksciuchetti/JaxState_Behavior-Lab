@@ -1,0 +1,229 @@
+SIMULATED ad test analysis, run on 2026-10-07 22:40 
+R4.3.3; lme4 1.1.35.1; lmerTest available: TRUE; effectsize available: TRUE
+
+---- 1. Files read ----
+AOI metrics rows: 240  respondents: 30  stimuli: Commercial_1_Balls, Commercial_2_Paint  AOIs: Product_TV, Brand_Logo, Tagline_Text, Hero_Element 
+Survey rows: 30   Session log rows: 30 
+
+---- 2. Cleaning ----
+Excluded (Valid data < 70 percent):
+  respondent order valid_pct
+1        R23     A        58
+Session log says for these respondents:
+  Respondent Name Calibration result Recalibrations Data complete
+1             R23               Poor              2           Yes
+Decision note: EXCLUDE: Valid data 58 percent is below the 70 percent rule set before collection; calibration stayed Poor after two recalibrations; recorded in full anyway because the session was scheduled 
+
+Respondents kept per order group (A = Balls first, B = Paint first):
+  order  n
+1     A 14
+2     B 15
+Respondents kept: 29 
+Rows with no fixation on the AOI (TTFF not observed, dwell set to 0): 5 of 232 
+Never fixated rows by commercial and AOI:
+ commercial          aoi n
+      Balls   Brand_Logo 2
+      Paint   Brand_Logo 2
+      Paint Tagline_Text 1
+TTFF max. (ms) on the never fixated rows (AOI Metrics article: the parent's presentation duration): 60000 
+
+---- 3. Descriptive table by AOI and commercial ----
+          aoi commercial aoi_active_ms  n resp_ratio_pct n_ttff
+   Product_TV      Balls         14000 29          100.0     29
+   Product_TV      Paint         20000 29          100.0     29
+   Brand_Logo      Balls          5000 29           93.1     27
+   Brand_Logo      Paint          5000 29           93.1     27
+ Tagline_Text      Balls          4000 29          100.0     29
+ Tagline_Text      Paint          4000 29           96.6     28
+ Hero_Element      Balls         40000 29          100.0     29
+ Hero_Element      Paint         32000 29          100.0     29
+ ttff_aoi_mean_ms ttff_aoi_sd_ms dwell_mean_pct dwell_sd_pct dwell_mean_ms
+          1057.07         475.44          21.24         6.62       2974.14
+           952.93         464.57          28.49         7.75       5697.72
+           906.93         249.81          38.28        17.31       1913.79
+           773.48         199.21          38.72        17.10       1936.10
+          1321.66         346.85          29.00        11.85       1160.03
+          1325.32         387.71          30.63        12.21       1225.17
+           708.28         298.80          53.73         9.93      21491.10
+           711.14         332.15          44.90         6.86      14369.41
+ fix_mean fix_sd fixdur_mean_ms
+    11.28   5.27         283.34
+    19.28   6.18         303.41
+     6.86   3.48         293.81
+     6.45   3.18         316.26
+     4.69   2.38         260.10
+     4.48   1.99         282.75
+    74.00  21.83         304.03
+    50.76   9.85         288.93
+written: SIMULATED_descriptives_by_commercial_AOI.csv
+
+Realized versus planned (generator assumptions in make_simulated_data.py):
+  Fixations per second of dwell: 3.50 (planned about 3.4 to 3.5)
+  Fixation duration (ms), rows with a fixation: M = 291, SD = 65 (planned about 290, 60)
+  Product_TV Dwell time (%): Balls 21.2, Paint 28.5 (planned 22, 29)
+  Hero_Element Dwell time (%): Balls 53.7, Paint 44.9 (planned 55, 48)
+  Tagline_Text Dwell time (%): Balls 29.0, Paint 30.6 (planned about 30)
+
+---- 4. H1: Product_TV Dwell time (%), Balls versus Paint (paired) ----
+Product_TV Dwell time (%) (all kept respondents)
+  Balls: M = 21.24 %, SD = 6.62, n = 29
+  Paint: M = 28.49 %, SD = 7.75, n = 29
+  Mean difference (Paint minus Balls) = 7.25 %, SD of differences = 7.40, 95% CI [4.43, 10.06]
+  Paired t(28) = 5.27, p = 1.31e-05
+  Cohen's d_z = 0.98, 95% CI [0.53, 1.42]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 402, p = 6.93e-05
+  Shapiro Wilk on the differences: W = 0.987, p = 0.970
+
+---- 5. H2: Brand_Logo TTFF AOI (ms), Balls versus Paint (paired) ----
+Respondent ratio (% of kept respondents who fixated the logo):
+  Balls: 27 of 29 (93.1%)
+  Paint: 27 of 29 (93.1%)
+Fixated the logo (TRUE) or never fixated it (FALSE), rows = Balls, columns = Paint:
+       Paint
+Balls   TRUE FALSE
+  TRUE    25     2
+  FALSE    2     0
+Respondents with a TTFF in both commercials (the pairs): 25
+Exact McNemar test of the two respondent ratios (2 fixated only Balls, 2 only Paint): p = 1.000
+
+Brand_Logo TTFF AOI (ms) (respondents with a TTFF in both commercials)
+  Balls: M = 906.76 ms, SD = 242.15, n = 25
+  Paint: M = 786.96 ms, SD = 192.27, n = 25
+  Mean difference (Paint minus Balls) = -119.80 ms, SD of differences = 330.69, 95% CI [-256.30, 16.70]
+  Paired t(24) = -1.81, p = 0.08262
+  Cohen's d_z = -0.36, 95% CI [-0.76, 0.05]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 88, p = 0.04647
+  Shapiro Wilk on the differences: W = 0.971, p = 0.676
+
+---- 5b. H2b sensitivity: never fixators assigned the AOI active duration (5000 ms) ----
+Brand_Logo TTFF AOI (ms), never fixated coded 5000 (all kept respondents)
+  Balls: M = 1189.21 ms, SD = 1082.63, n = 29
+  Paint: M = 1064.97 ms, SD = 1106.71, n = 29
+  Mean difference (Paint minus Balls) = -124.24 ms, SD of differences = 1635.97, 95% CI [-746.53, 498.05]
+  Paired t(28) = -0.41, p = 0.68567
+  Cohen's d_z = -0.08, 95% CI [-0.44, 0.29]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 142, p = 0.10486
+  Shapiro Wilk on the differences: W = 0.705, p = 0.000
+
+---- 6. H3: Liking (1 to 7), Balls versus Paint (paired) ----
+Liking of the commercial (1 to 7)
+  Balls: M = 5.52 points, SD = 0.91, n = 29
+  Paint: M = 5.00 points, SD = 1.13, n = 29
+  Mean difference (Paint minus Balls) = -0.52 points, SD of differences = 1.09, 95% CI [-0.93, -0.10]
+  Paired t(28) = -2.56, p = 0.01629
+  Cohen's d_z = -0.47, 95% CI [-0.86, -0.09]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 9, p = 0.01668
+  Shapiro Wilk on the differences: W = 0.766, p = 0.000
+
+Ad_preferred (counts):
+
+Balls Paint 
+   22     7 
+Exact binomial test of an even split: 22 of 29 preferred Balls (75.9%), 95% CI [56.5%, 89.7%], p = 0.008
+
+Exploratory: correlation of the Product_TV dwell difference with the liking difference (both Paint minus Balls): r = 0.04, 95% CI [-0.33, 0.40], p = 0.844
+Paint drew more Product_TV attention than Balls for 25 of 29 respondents. On liking, 10 rated Balls higher, 2 rated Paint higher, and 17 gave equal ratings.
+
+---- 7. Mixed model: Product_TV dwell_pct ~ commercial * order_position + (1 | respondent) ----
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: dwell_pct ~ commercial * order_position + (1 | respondent)
+   Data: mm_data
+
+REML criterion at convergence: 364.6
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-1.58505 -0.41171  0.03462  0.58028  1.69319 
+
+Random effects:
+ Groups     Name        Variance Std.Dev.
+ respondent (Intercept) 28.77    5.364   
+ Residual               21.37    4.623   
+Number of obs: 58, groups:  respondent, 29
+
+Fixed effects:
+                            Estimate Std. Error     df t value Pr(>|t|)    
+(Intercept)                   24.883      1.167 27.000  21.319  < 2e-16 ***
+commercial1                    7.370      1.215 27.000   6.067 1.77e-06 ***
+order_position1                3.612      1.215 27.000   2.974  0.00613 ** 
+commercial1:order_position1    1.874      4.669 27.000   0.401  0.69127    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Type III tests (Satterthwaite degrees of freedom):
+Type III Analysis of Variance Table with Satterthwaite's method
+                          Sum Sq Mean Sq NumDF DenDF F value    Pr(>F)    
+commercial                786.60  786.60     1    27 36.8068 1.774e-06 ***
+order_position            188.99  188.99     1    27  8.8433  0.006127 ** 
+commercial:order_position   3.44    3.44     1    27  0.1611  0.691266    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Fixed effects with 95% CI (estimate +/- t(Satterthwaite df) x SE):
+  Intercept (grand mean)                 b =  24.88, SE = 1.17, df =  27.0, t =  21.32, p = 2.01e-18, 95% CI [22.49, 27.28]
+  Commercial (Paint minus Balls)         b =   7.37, SE = 1.21, df =  27.0, t =   6.07, p = 1.77e-06, 95% CI [4.88, 9.86]
+  Order position (second minus first)    b =   3.61, SE = 1.21, df =  27.0, t =   2.97, p = 0.00613, 95% CI [1.12, 6.10]
+  Commercial x order position            b =   1.87, SE = 4.67, df =  27.0, t =   0.40, p = 0.69127, 95% CI [-7.71, 11.45]
+
+ICC (adjusted, from the fitted model) = 0.574  (respondent variance 28.77, residual variance 21.37)
+ICC (unconditional, intercept only model) = 0.185
+Correlation of a respondent's two Product_TV dwell shares (raw): r = 0.48
+Simple estimate of the order effect = (mean difference in Group A - mean difference in Group B) / 2 = (10.98 - 3.76) / 2 = 3.61 (n = 14 and 15)
+
+Raw cell means of Product_TV Dwell time (%):
+ commercial order_position  n mean_pct sd_pct
+      Balls          first 14    19.86   5.85
+      Balls         second 15    22.54   7.23
+      Paint          first 15    26.29   7.76
+      Paint         second 14    30.84   7.27
+
+---- 8. Brand_Logo dwell time and brand recall (point biserial) ----
+Brand recall: 24 Yes and 5 No of 29 (82.8% Yes)
+Total Brand_Logo Dwell time (ms) by recall:
+ recall  n mean_ms sd_ms
+     No  5    2532  1195
+    Yes 24    4124  1387
+Point biserial correlation: r_pb(27) = 0.42, 95% CI [0.06, 0.68], p = 0.02451
+Rank based check (Wilcoxon rank sum, Yes versus No): W = 21, p = 0.02623
+
+---- 9. Assumption checks ----
+Shapiro Wilk p for the paired differences (a low p flags non-normality; small n limits power):
+                                               test  n shapiro_p
+                            H1 Product_TV dwell (%) 29     0.970
+         H2 Brand_Logo TTFF AOI (ms), both observed 25     0.676
+ H2b Brand_Logo TTFF AOI (ms), never fixated = 5000 29     0.000
+                                 H3 Liking (1 to 7) 29     0.000
+Shapiro Wilk p for the mixed model residuals: 0.806
+Shapiro Wilk p for the respondent random intercepts: 0.976
+H3 differences are whole numbers (a 7 point scale), so they cannot be perfectly normal; the Wilcoxon result above is the companion check.
+saved figure: figures/SIMULATED_assumption_checks.png
+Reading the plots: points near the line = roughly normal; a fan shape in
+ residuals vs fitted = variance grows with the mean (consider a log or square
+ root transform of dwell share, or a rank based test). Staircase points in the
+ H3 plot are the whole number ratings.
+
+saved figure: figures/SIMULATED_fig1_product_dwell_paired.png 
+saved figure: figures/SIMULATED_fig2_brand_logo_TTFF.png 
+saved figure: figures/SIMULATED_fig3_liking.png 
+
+---- Summary of the paired tests (difference = Paint minus Balls) ----
+                                         comparison  n  m_balls  m_paint
+                       H1 Product_TV Dwell time (%) 29   21.244   28.489
+         H2 Brand_Logo TTFF AOI (ms), both observed 25  906.760  786.960
+ H2b Brand_Logo TTFF AOI (ms), never fixated = 5000 29 1189.207 1064.966
+                                 H3 Liking (1 to 7) 29    5.517    5.000
+ mean_diff  sd_diff diff_ci_low diff_ci_high      t df     p     dz dz_ci_low
+     7.245    7.397       4.432       10.059  5.275 28 0.000  0.979     0.529
+  -119.800  330.692    -256.303       16.703 -1.811 24 0.083 -0.362    -0.764
+  -124.241 1635.966    -746.529      498.047 -0.409 28 0.686 -0.076    -0.440
+    -0.517    1.090      -0.932       -0.103 -2.556 28 0.016 -0.475    -0.855
+ dz_ci_high wilcoxon_V wilcoxon_p
+      1.418        402      0.000
+      0.046         88      0.046
+      0.289        142      0.105
+     -0.086          9      0.017
+written: SIMULATED_test_results.csv
+written: SIMULATED_model_results.csv
+
+Done. Reminder: every number above is SIMULATED for teaching.

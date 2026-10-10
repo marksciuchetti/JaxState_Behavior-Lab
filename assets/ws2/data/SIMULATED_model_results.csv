@@ -1,0 +1,10 @@
+analysis,term,estimate,se,df,statistic,p,ci_low,ci_high
+Mixed model Product_TV dwell_pct,Intercept (grand mean),24.882536,1.167179,27,21.318533,2.007e-18,22.487683,27.277388
+Mixed model Product_TV dwell_pct,Commercial (Paint minus Balls),7.369738,1.214753,27,6.066859,1.774e-6,4.87727,9.862206
+Mixed model Product_TV dwell_pct,Order position (second minus first),3.612405,1.214753,27,2.973776,0.006127,1.119937,6.104873
+Mixed model Product_TV dwell_pct,Commercial x order position,1.874143,4.668714,27,0.401426,0.6913,-7.705268,11.453554
+Mixed model Product_TV dwell_pct,ICC adjusted (fitted model),0.573817,NA,NA,NA,NA,NA,NA
+Mixed model Product_TV dwell_pct,ICC unconditional (intercept only),0.184922,NA,NA,NA,NA,NA,NA
+Mixed model Product_TV dwell_pct,Simple order effect estimate ((Group A - Group B) / 2),3.612405,NA,NA,NA,NA,NA,NA
+Point biserial: total Brand_Logo dwell (ms) with recall,r_pb,0.416767,NA,27,2.382346,0.02451,0.059323,0.679483
+Exploratory: dwell difference with liking difference,r,0.038142,NA,27,0.198338,0.8443,-0.333019,0.399069
