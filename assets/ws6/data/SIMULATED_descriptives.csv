@@ -1,0 +1,81 @@
+measure,group,subgroup,n,mean,sd,median,min,max,ci_low,ci_high,pct_zero
+Funnel: sessions entering the step,STEP 1 Testing upload,All,260,100,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 2 Consent screen,All,258,99.23076923076923,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 3 Screen recording setup,All,244,93.84615384615384,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 4 Respondent camera setup,All,244,93.84615384615384,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 5 Screen size,All,232,89.23076923076923,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 6 Enter fullscreen,All,196,75.38461538461539,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 7 Prepare positioning,All,193,74.23076923076923,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 8 Positioning check,All,191,73.46153846153847,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 9 Stimuli presentation*,All,185,71.15384615384616,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions entering the step,STEP 10 Study data upload,All,181,69.61538461538461,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 1 Testing upload,All,2,0.7692307692307693,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 2 Consent screen,All,14,5.384615384615385,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 3 Screen recording setup,All,0,0,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 4 Respondent camera setup,All,12,4.615384615384615,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 5 Screen size,All,36,13.846153846153847,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 6 Enter fullscreen,All,3,1.1538461538461537,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 7 Prepare positioning,All,2,0.7692307692307693,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 8 Positioning check,All,6,2.3076923076923075,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 9 Stimuli presentation*,All,4,1.5384615384615385,NA,NA,NA,NA,NA,NA,NA
+Funnel: sessions that stopped at the step,STEP 10 Study data upload,All,3,1.1538461538461537,NA,NA,NA,NA,NA,NA,NA
+Funnel: completed (Status Processed),Completed,All,178,68.46153846153847,NA,NA,NA,NA,NA,NA,NA
+Funnel: kept after the exclusion rule,Kept (4.0 degrees),All,142,54.61538461538461,NA,NA,NA,NA,NA,NA,NA
+Funnel: kept after the exclusion rule,"Kept (3.0 degrees, sensitivity)",All,125,48.07692307692308,NA,NA,NA,NA,NA,NA,NA
+Exclusions: first reason,Pre-study calibration accuracy above 4.0 degrees,All,5,2.808988764044944,NA,NA,NA,NA,NA,NA,NA
+Exclusions: first reason,Post-study calibration accuracy above 4.0 degrees,All,12,6.741573033707865,NA,NA,NA,NA,NA,NA,NA
+Exclusions: first reason,Eye tracking quality on the infographic below 90 percent,All,14,7.865168539325842,NA,NA,NA,NA,NA,NA,NA
+Exclusions: first reason,Face quality below 80 percent during a video,All,5,2.808988764044944,NA,NA,NA,NA,NA,NA,NA
+Exclusions: failed the criterion (any),Pre-study calibration accuracy above 4.0 degrees,All,5,2.808988764044944,NA,NA,NA,NA,NA,NA,NA
+Exclusions: failed the criterion (any),Post-study calibration accuracy above 4.0 degrees,All,17,9.55056179775281,NA,NA,NA,NA,NA,NA,NA
+Exclusions: failed the criterion (any),Eye tracking quality on the infographic below 90 percent,All,20,11.235955056179776,NA,NA,NA,NA,NA,NA,NA
+Exclusions: failed the criterion (any),Face quality below 80 percent during a video,All,14,7.865168539325842,NA,NA,NA,NA,NA,NA,NA
+"Opened the link, by order",Narrative first,All,126,NA,NA,NA,NA,NA,NA,NA,NA
+"Opened the link, by order",Visual first,All,134,NA,NA,NA,NA,NA,NA,NA,NA
+"Completed, by order",Narrative first,All,87,69,NA,NA,NA,NA,NA,NA,NA
+"Completed, by order",Visual first,All,91,67.9,NA,NA,NA,NA,NA,NA,NA
+"Kept, by order",Narrative first,All,69,NA,NA,NA,NA,NA,NA,NA,NA
+"Kept, by order",Visual first,All,73,NA,NA,NA,NA,NA,NA,NA,NA
+"Kept at 3.0 degrees, by order",Narrative first,All,59,NA,NA,NA,NA,NA,NA,NA,NA
+"Kept at 3.0 degrees, by order",Visual first,All,66,NA,NA,NA,NA,NA,NA,NA,NA
+Calibration accuracy (degrees),Pre-study calibration,Completed,178,1.706011235955056,0.9864851374585997,1.505,0.32,6.29,1.5600934411862963,1.8519290307238159,0
+Calibration accuracy (degrees),Post-study calibration,Completed,178,2.423820224719101,1.2041439799959144,2.1799999999999997,0.45,6.73,2.2457070150282403,2.601933434409962,0
+Calibration accuracy (degrees),Post minus Pre (drift),Completed,178,0.717808988764045,0.5027171678779208,0.7199999999999999,-0.7,2.11,0.6434486383201224,0.7921693392079675,0.5617977528089888
+Calibration accuracy (degrees),Pre-study calibration,Kept,142,1.415,0.6362342113021003,1.29,0.32,3.52,1.309448486549777,1.520551513450223,0
+Calibration accuracy (degrees),Post-study calibration,Kept,142,2.045281690140845,0.8068428038712531,2.02,0.45,3.95,1.9114261420546477,2.1791372382270424,0
+Eye tracking quality (%),infographic,Completed,178,94.75112359550562,5.506885661683247,96.5,61,99.6,93.93656229976563,95.56568489124561,0
+Face quality (%),foodwaste_narrative,Completed,178,94.83988764044943,7.097841956488001,97.85,54.6,99.9,93.78999706776823,95.88977821313064,0
+Face quality (%),foodwaste_visual,Completed,178,95.18033707865169,6.869921824477816,97.6,51.5,99.9,94.1641597387233,96.19651441858008,0
+Eye tracking quality (%),infographic,Kept,142,96.49788732394366,2.190873018446926,96.8,90.4,99.6,96.13442060246533,96.86135404542199,0
+Face quality (%),foodwaste_narrative,Kept,142,96.5218309859155,3.516992513501553,98.1,83.6,99.9,95.93836050287835,97.10530146895265,0
+Face quality (%),foodwaste_visual,Kept,142,96.61197183098592,3.475108700669719,97.8,81.6,99.9,96.03544988946845,97.18849377250339,0
+Percent of time present: Engagement,foodwaste_narrative,All,142,19.49,19.971524764485054,13.219999999999999,0,77.94,16.17671594932662,22.803284050673376,14.788732394366196
+Percent of time present: Engagement,foodwaste_visual,All,142,43.6312676056338,26.392967520761907,42.959999999999994,0,98.17,39.25266359979511,48.00987161147249,2.8169014084507045
+Percent of time present: Joy,foodwaste_narrative,All,142,2.0752816901408453,4.013066547115468,0,0,22.83,1.4095123239233334,2.741051056358357,55.633802816901415
+Percent of time present: Joy,foodwaste_visual,All,142,3.8645774647887325,6.489756644864234,0.835,0,43.87,2.7879242078267246,4.94123072175074,35.91549295774648
+Percent of time present: Brow Furrow,foodwaste_narrative,All,142,4.319084507042254,6.8317441056236,1.03,0,39.83,3.185695391770656,5.4524736223138515,47.183098591549296
+Percent of time present: Brow Furrow,foodwaste_visual,All,142,8.65450704225352,11.246473526245719,4.245,0,53.76,6.788712527300215,10.520301557206825,21.830985915492956
+Percent of time present: Positive Valence,foodwaste_narrative,All,142,3.0898591549295773,5.7088847000994045,0,0,26.22,2.1427528700049008,4.036965439854254,56.33802816901409
+Percent of time present: Positive Valence,foodwaste_visual,All,142,6.65387323943662,10.880516117855347,2.095,0,70.91,4.848791206817252,8.458955272055988,35.2112676056338
+Percent of time present: Negative Valence,foodwaste_narrative,All,142,2.394788732394366,3.991938990691623,0,0,17.17,1.732524436348227,3.0570530284405053,56.33802816901409
+Percent of time present: Negative Valence,foodwaste_visual,All,142,7.692464788732394,9.451680790645382,4.68,0,48.71,6.124427115845743,9.260502461619046,18.30985915492958
+Intention to reduce food waste (1 to 7),All kept,All,142,5.197183098591549,1.2950502420206356,5,2,7,4.982333738700008,5.41203245848309,0
+Intention to reduce food waste (1 to 7),Narrative first,All,69,5.043478260869565,1.3659168716491332,5,2,7,4.715349200823962,5.371607320915169,0
+Intention to reduce food waste (1 to 7),Visual first,All,73,5.342465753424658,1.2158579284945692,5,2,7,5.05878510967269,5.626146397176625,0
+Tips recalled (0 to 4),All kept,All,142,2.119718309859155,1.3447159227865582,2,0,4,1.8966293934045524,2.3428072263137576,15.492957746478872
+Visual video named more persuasive (percent),All kept,All,142,59.15492957746479,49.32872737382596,100,0,100,50.971273718681545,67.33858543624804,40.845070422535215
+"Dwell time (ms), 0 if never fixated",Headline,All,142,379.90845070422534,367.58776449839866,280,0,2002,318.92549163136414,440.89140977708655,23.239436619718308
+"Dwell time (ms), 0 if never fixated",Tip_1,All,142,3742.2464788732395,1660.1318463688176,3580.5,858,8739,3466.8299328932276,4017.6630248532515,0
+"Dwell time (ms), 0 if never fixated",Tip_2,All,142,2099.6197183098593,1420.9700698700824,1839,0,7089,1863.8802079567463,2335.3592286629723,1.4084507042253522
+"Dwell time (ms), 0 if never fixated",Tip_3,All,142,2032.0704225352113,1239.1846704538284,1842,130,4935,1826.4891836027277,2237.651661467695,0
+"Dwell time (ms), 0 if never fixated",Tip_4,All,142,2003.3239436619717,1247.128148074811,1801,0,7126,1796.4248785735563,2210.223008750387,0.7042253521126761
+"TTFF AOI (ms), respondents with a hit",Headline,All,109,1561.8256880733945,2383.1849520400865,676,154,13197,1109.3594684542547,2014.2919076925343,0
+"TTFF AOI (ms), respondents with a hit",Tip_1,All,142,1094.0140845070423,1111.7606251992747,800.5,154,5883,909.5725463131308,1278.4556227009537,0
+"TTFF AOI (ms), respondents with a hit",Tip_2,All,140,2632.55,1778.2730743556845,2077.5,154,8818,2335.396983172794,2929.7030168272063,0
+"TTFF AOI (ms), respondents with a hit",Tip_3,All,142,3927.4718309859154,2358.55557340036,3474,176,12757,3536.1865056976485,4318.757156274182,0
+"TTFF AOI (ms), respondents with a hit",Tip_4,All,141,4597.709219858156,2466.6524873630633,4206,179,13376,4187.016615628235,5008.401824088077,0
+"Hit ratio (Respondent ratio, %)",Headline,All,109,76.76056338028168,NA,NA,NA,NA,NA,NA,NA
+"Hit ratio (Respondent ratio, %)",Tip_1,All,142,100,NA,NA,NA,NA,NA,NA,NA
+"Hit ratio (Respondent ratio, %)",Tip_2,All,140,98.59154929577466,NA,NA,NA,NA,NA,NA,NA
+"Hit ratio (Respondent ratio, %)",Tip_3,All,142,100,NA,NA,NA,NA,NA,NA,NA
+"Hit ratio (Respondent ratio, %)",Tip_4,All,141,99.29577464788733,NA,NA,NA,NA,NA,NA,NA

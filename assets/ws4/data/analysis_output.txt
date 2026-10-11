@@ -1,0 +1,373 @@
+SIMULATED GSR and heart rate analysis, run on 2026-10-08 18:38 
+R4.3.3; lme4 1.1.35.1; lmerTest available: TRUE; effectsize available: TRUE
+
+---- 1. Files read ----
+GSR Peak Metrics rows: 180  respondents: 30  stimuli: Baseline_Nike, Nike_Commercial, Recovery_Nike, Baseline_elf, elf_Commercial, Recovery_elf 
+GSR Signal Quality rows: 180   GSR Peak Table rows (one per peak): 394   Heart rate rows: 180 
+Survey rows: 30   Session log rows: 30 
+Peak Metrics columns: Study Name | Respondent Name | Gender | Age | Group | Type | Label | Start (ms) | Duration (ms) | Signal Duration (ms) | Parent Stimulus | Has Peaks | Peak Count | Peaks Per Minute | Average Peak Amplitude (microSiemens) 
+
+---- 2. Cleaning ----
+Rule: exclude when SNR < 0 dB or Signal missing > 20 percent in any commercial.
+Excluded respondents:
+ respondent order           label  snr miss_pct                             why
+        P11     B Nike_Commercial -3.4        0                  SNR below 0 dB
+        P24     B  elf_Commercial 22.6       38 Signal missing above 20 percent
+Session log says for these respondents:
+  P11: Seat 1, Shimmer3-8956, Warm up minutes = 2, Data complete = Yes
+  Decision note: EXCLUDE: SNR -3.4 dB in Nike_Commercial is below 0 dB, the rule written before collection; electrode lead loosened during the commercial (warm up cut to 2 minutes); Nike was the second sequence; recorded in full anyway because the session was scheduled 
+  P24: Seat 2, Shimmer3-B, Warm up minutes = 5, Data complete = No
+  Decision note: EXCLUDE: Signal missing 38.0 percent in elf_Commercial is above 20 percent, the rule written before collection; Bluetooth dropout of 11.4 s; GSR and PPG both lost for the gap 
+
+Respondents kept per order group (A = Nike first, B = e.l.f. first):
+ order  n
+     A 15
+     B 13
+Respondents kept: 28  Excluded: 2 
+
+Signal quality, kept respondents (168 rows): SNR M = 23.0 dB, SD = 3.3, range 14.5 to 30.6; 0 rows below 0 dB, 31 rows from 0 to 20 dB, 137 rows above 20 dB; 155 rows from 18 to 32 dB (92.3%)
+Signal missing (%), kept rows: M = 0.61, maximum = 8.5; rows with Signal Duration shorter than Duration: 3
+Kept respondents with an SNR below 18 dB in at least one row (look at the signal): P03 (min 14.5 dB), P14 (min 16.1 dB), P15 (min 15.8 dB), P16 (min 17.0 dB), P30 (min 17.2 dB) 
+
+Nonresponders (Has Peaks = 0 in at least 4 of 6 stimuli): 3 of 28 kept respondents (10.7%): P03, P16, P21
+Number of stimuli with Has Peaks = 0 for each nonresponder: P03 5, P16 5, P21 4 
+Largest number of stimuli with Has Peaks = 0 among the other kept respondents: 3
+Their rows in the session log (Decision note):
+  P03: Keep: Has Peaks = 0 in 5 of 6 stimuli (nonresponder) but signal quality is good; analyzed as recorded and checked in the sensitivity analysis
+  P16: Keep: Has Peaks = 0 in 5 of 6 stimuli (nonresponder) but signal quality is good; analyzed as recorded and checked in the sensitivity analysis
+  P21: Keep: Has Peaks = 0 in 4 of 6 stimuli (nonresponder) but signal quality is good; analyzed as recorded and checked in the sensitivity analysis
+
+Consistency checks across the exports (all 180 respondent by stimulus rows):
+  Peak Count equals the number of rows in the Peak Table: TRUE (largest gap 0)
+  Peaks Per Minute equals Peak Count / (Signal Duration / 60000): largest absolute gap = 0.0004
+  Average Peak Amplitude equals the mean Peak Amplitude in the Peak Table: largest absolute gap = 0.00005
+  Has Peaks = 1 exactly when Peak Count > 0: TRUE
+  Every peak lies inside its stimulus window (onset after Stimulus Start, offset before the stimulus ends): TRUE
+  Stimulus Start in the Peak Table matches Start (ms) in the Peak Metrics file: TRUE
+  Device in the Peak Table matches Device in the Signal Quality file: TRUE
+
+---- 3. Descriptive table by stimulus (kept respondents) ----
+        stimulus duration_s  n ppm_mean ppm_sd ppm_median ppm_min ppm_max
+   Baseline_Nike         60 28    2.296  1.092          2       0       5
+ Nike_Commercial         60 28    4.658  2.045          5       0       7
+   Recovery_Nike         15 28    3.286  2.447          4       0       8
+    Baseline_elf         60 28    2.471  1.345          3       0       5
+  elf_Commercial         30 28    3.500  1.856          4       0       6
+    Recovery_elf         15 28    3.286  2.192          4       0       8
+ pct_has_peaks peak_count_mean
+          96.4           2.286
+          96.4           4.643
+          71.4           0.821
+          85.7           2.464
+          89.3           1.750
+          75.0           0.821
+
+        stimulus n_amp amp_mean amp_sd hr_mean_bpm hr_sd_bpm snr_mean_db
+   Baseline_Nike    27    0.182  0.061      76.171     8.395      22.664
+ Nike_Commercial    27    0.274  0.107      74.664     8.327      23.557
+   Recovery_Nike    20    0.200  0.084      75.554     8.387      23.243
+    Baseline_elf    24    0.194  0.068      75.432     8.809      22.518
+  elf_Commercial    25    0.254  0.095      74.457     8.339      22.721
+    Recovery_elf    21    0.210  0.088      75.225     8.563      23.193
+ snr_sd_db missing_mean_pct signal_dur_mean_ms
+     2.903            1.018           59817.86
+     2.898            0.589           59835.71
+     3.751            0.375           15000.00
+     3.312            0.771           59825.00
+     3.593            0.304           30000.00
+     3.518            0.614           15000.00
+written: SIMULATED_descriptives_by_stimulus.csv
+
+Within respondent correlations of Peaks Per Minute (all kept respondents):
+  Baseline_Nike with Nike_Commercial: r = 0.50
+  Baseline_elf with elf_Commercial: r = 0.57
+  Nike_Commercial with elf_Commercial: r = 0.48
+  Mean of the three correlations: r = 0.52
+Realized versus planned (generator assumptions in make_simulated_data.py):
+  Peaks Per Minute, Baseline_Nike: M = 2.30, SD = 1.09 (planned 2.4, 1.3)
+  Peaks Per Minute, Baseline_elf: M = 2.47, SD = 1.34 (planned 2.4, 1.3)
+  Peaks Per Minute, Nike_Commercial: M = 4.66, SD = 2.04 (planned 4.6, 2.0)
+  Peaks Per Minute, elf_Commercial: M = 3.50, SD = 1.86 (planned 3.7, 1.8)
+  Peaks Per Minute, recoveries: M = 3.29 (Nike) and 3.29 (e.l.f.) (planned about 3.0)
+  Average Peak Amplitude (microSiemens): baselines 0.19, Nike_Commercial 0.27, elf_Commercial 0.25 (planned 0.20, 0.28, 0.25)
+  Baseline heart rate (BPM): M = 75.8, SD = 8.5 (planned 74, 9)
+
+---- 4. H1: Peaks Per Minute, commercial versus its own baseline (paired) ----
+Nike: Peaks Per Minute (all kept respondents)
+  Baseline_Nike: M = 2.30 peaks per minute, SD = 1.09, n = 28
+  Nike_Commercial: M = 4.66 peaks per minute, SD = 2.04, n = 28
+  Mean difference (Nike_Commercial minus Baseline_Nike) = 2.36 peaks per minute, SD of differences = 1.77, 95% CI [1.68, 3.05]
+  Paired t(27) = 7.06, p = 1.35e-07
+  Cohen's d_z = 1.33, 95% CI [0.82, 1.84]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 317, p = 3.12e-05
+  Shapiro Wilk on the differences: W = 0.917, p = 0.029
+
+e.l.f.: Peaks Per Minute (all kept respondents)
+  Baseline_elf: M = 2.47 peaks per minute, SD = 1.34, n = 28
+  elf_Commercial: M = 3.50 peaks per minute, SD = 1.86, n = 28
+  Mean difference (elf_Commercial minus Baseline_elf) = 1.03 peaks per minute, SD of differences = 1.55, 95% CI [0.43, 1.63]
+  Paired t(27) = 3.52, p = 0.00155
+  Cohen's d_z = 0.67, 95% CI [0.25, 1.07]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 190, p = 0.00140
+  Shapiro Wilk on the differences: W = 0.904, p = 0.014
+
+Respondents with more peaks per minute in the commercial than in its baseline: Nike 22 of 28 (lower for 3, equal for 3); e.l.f. 15 of 28 (lower for 5, equal for 8)
+Respondents with at least one peak during the commercial (respondent ratio): Nike 27 of 28 (96.4%); e.l.f. 25 of 28 (89.3%)
+
+---- 5. H2: Peaks Per Minute in the commercials, Nike versus e.l.f. (paired) ----
+Peaks Per Minute in the commercials (all kept respondents)
+  elf_Commercial: M = 3.50 peaks per minute, SD = 1.86, n = 28
+  Nike_Commercial: M = 4.66 peaks per minute, SD = 2.04, n = 28
+  Mean difference (Nike_Commercial minus elf_Commercial) = 1.16 peaks per minute, SD of differences = 2.00, 95% CI [0.38, 1.93]
+  Paired t(27) = 3.07, p = 0.00483
+  Cohen's d_z = 0.58, 95% CI [0.17, 0.98]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 179, p = 0.00561
+  Shapiro Wilk on the differences: W = 0.945, p = 0.144
+
+Nike_Commercial was higher than elf_Commercial for 16 of 28 respondents (lower for 4, equal for 8)
+
+---- 5b. Mixed model: ppm ~ commercial * order_position + (1 | respondent), commercials only ----
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: ppm ~ commercial * order_position + (1 | respondent)
+   Data: mm_data
+
+REML criterion at convergence: 218.5
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.8080 -0.5294  0.1559  0.5691  1.5804 
+
+Random effects:
+ Groups     Name        Variance Std.Dev.
+ respondent (Intercept) 1.726    1.314   
+ Residual               1.906    1.381   
+Number of obs: 56, groups:  respondent, 28
+
+Fixed effects:
+                            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)                   4.1131     0.3101 26.0000  13.262 4.43e-13 ***
+commercial1                   1.1185     0.3699 26.0000   3.024  0.00555 ** 
+order_position1              -0.5481     0.3699 26.0000  -1.482  0.15041    
+commercial1:order_position1   1.9191     1.2405 26.0000   1.547  0.13395    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Type III tests (Satterthwaite degrees of freedom):
+Type III Analysis of Variance Table with Satterthwaite's method
+                           Sum Sq Mean Sq NumDF DenDF F value   Pr(>F)   
+commercial                17.4260 17.4260     1    26  9.1433 0.005555 **
+order_position             4.1850  4.1850     1    26  2.1958 0.150406   
+commercial:order_position  4.5611  4.5611     1    26  2.3932 0.133952   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Fixed effects with 95% CI (estimate +/- t(Satterthwaite df) x SE):
+  Intercept (grand mean)                 b =   4.11, SE = 0.31, df =  26.0, t =  13.26, p = 4.43e-13, 95% CI [3.48, 4.75]
+  Commercial (Nike minus elf)            b =   1.12, SE = 0.37, df =  26.0, t =   3.02, p = 0.00555, 95% CI [0.36, 1.88]
+  Order position (second minus first)    b =  -0.55, SE = 0.37, df =  26.0, t =  -1.48, p = 0.15041, 95% CI [-1.31, 0.21]
+  Commercial x order position            b =   1.92, SE = 1.24, df =  26.0, t =   1.55, p = 0.13395, 95% CI [-0.63, 4.47]
+
+ICC (adjusted, from the fitted model) = 0.475  (respondent variance 1.73, residual variance 1.91)
+ICC (unconditional, intercept only model) = 0.370
+Correlation of a respondent's two commercial Peaks Per Minute values (raw): r = 0.48
+Simple estimate of the order effect = (mean difference in Group B - mean difference in Group A) / 2 = (0.57 - 1.67) / 2 = -0.55 (n = 13 and 15)
+Simple estimate of the commercial effect (order adjusted) = (1.67 + 0.57) / 2 = 1.12
+
+Raw cell means of Peaks Per Minute in the commercials:
+ brand order_position  n mean_ppm sd_ppm
+  Nike          first 15     4.47   2.13
+  Nike         second 13     4.88   2.00
+   elf          first 13     4.31   1.97
+   elf         second 15     2.80   1.47
+
+---- 6. H3: heart rate (BPM), commercial versus its own baseline, and the difference of the changes ----
+Nike: mean heart rate (all kept respondents)
+  Baseline_Nike: M = 76.17 BPM, SD = 8.39, n = 28
+  Nike_Commercial: M = 74.66 BPM, SD = 8.33, n = 28
+  Mean difference (Nike_Commercial minus Baseline_Nike) = -1.51 BPM, SD of differences = 1.92, 95% CI [-2.25, -0.76]
+  Paired t(27) = -4.16, p = 0.00029
+  Cohen's d_z = -0.79, 95% CI [-1.21, -0.36]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 44.5, p = 0.00054
+  Shapiro Wilk on the differences: W = 0.940, p = 0.112
+
+e.l.f.: mean heart rate (all kept respondents)
+  Baseline_elf: M = 75.43 BPM, SD = 8.81, n = 28
+  elf_Commercial: M = 74.46 BPM, SD = 8.34, n = 28
+  Mean difference (elf_Commercial minus Baseline_elf) = -0.98 BPM, SD of differences = 1.83, 95% CI [-1.68, -0.27]
+  Paired t(27) = -2.82, p = 0.00890
+  Cohen's d_z = -0.53, 95% CI [-0.93, -0.13]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 95.5, p = 0.01479
+  Shapiro Wilk on the differences: W = 0.960, p = 0.339
+
+Difference between the heart rate changes (all kept respondents)
+  Change_elf: M = -0.98 BPM, SD = 1.83, n = 28
+  Change_Nike: M = -1.51 BPM, SD = 1.92, n = 28
+  Mean difference (Change_Nike minus Change_elf) = -0.53 BPM, SD of differences = 2.39, 95% CI [-1.46, 0.39]
+  Paired t(27) = -1.18, p = 0.24864
+  Cohen's d_z = -0.22, 95% CI [-0.60, 0.15]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 153.5, p = 0.26448
+  Shapiro Wilk on the differences: W = 0.977, p = 0.785
+
+Heart rate was lower in the commercial than in its baseline for 21 of 28 respondents (Nike) and 17 of 28 (e.l.f.)
+Correlation of baseline heart rate with the commercial heart rate: Nike r = 0.97, e.l.f. r = 0.98
+Baseline heart rate (both baselines pooled): M = 75.8 BPM, SD = 8.5
+
+---- 7. Exploratory: self reported arousal (1 to 9) and Peaks Per Minute in the same commercial ----
+Self reported arousal: Nike M = 6.00, SD = 1.39; e.l.f. M = 5.43, SD = 1.85 (n = 28)
+Liking (1 to 7): Nike M = 5.29, SD = 1.30; e.l.f. M = 5.18, SD = 1.22
+Nike_Commercial Peaks Per Minute with Arousal_Nike_1to9: r(26) = 0.37, 95% CI [-0.01, 0.65], p = 0.05583; Spearman rho = 0.33, p = 0.08615
+elf_Commercial Peaks Per Minute with Arousal_elf_1to9: r(26) = 0.34, 95% CI [-0.03, 0.64], p = 0.07275; Spearman rho = 0.39, p = 0.03819
+Respondent means over the two commercials (arousal with Peaks Per Minute): r(26) = 0.30, 95% CI [-0.08, 0.61], p = 0.11623; Spearman rho = 0.25, p = 0.19617
+Nonresponders' self reported arousal (mean of the two commercials): M = 5.67 (n = 3) versus 5.72 for the other respondents (n = 25)
+
+---- 8. Sensitivity: the same tests without the nonresponders ----
+Nonresponders removed: P03, P16, P21; n = 25 responders remain
+
+Sensitivity H1, Nike: Peaks Per Minute (responders only)
+  Baseline_Nike: M = 2.49 peaks per minute, SD = 0.97, n = 25
+  Nike_Commercial: M = 5.14 peaks per minute, SD = 1.56, n = 25
+  Mean difference (Nike_Commercial minus Baseline_Nike) = 2.65 peaks per minute, SD of differences = 1.63, 95% CI [1.97, 3.32]
+  Paired t(24) = 8.11, p = 2.46e-08
+  Cohen's d_z = 1.62, 95% CI [1.01, 2.22]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 272.5, p = 4.13e-05
+  Shapiro Wilk on the differences: W = 0.908, p = 0.027
+
+Sensitivity H1, e.l.f.: Peaks Per Minute (responders only)
+  Baseline_elf: M = 2.77 peaks per minute, SD = 1.09, n = 25
+  elf_Commercial: M = 3.92 peaks per minute, SD = 1.47, n = 25
+  Mean difference (elf_Commercial minus Baseline_elf) = 1.15 peaks per minute, SD of differences = 1.60, 95% CI [0.49, 1.81]
+  Paired t(24) = 3.61, p = 0.00139
+  Cohen's d_z = 0.72, 95% CI [0.28, 1.16]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 190, p = 0.00140
+  Shapiro Wilk on the differences: W = 0.907, p = 0.026
+
+Sensitivity H2: Peaks Per Minute in the commercials (responders only)
+  elf_Commercial: M = 3.92 peaks per minute, SD = 1.47, n = 25
+  Nike_Commercial: M = 5.14 peaks per minute, SD = 1.56, n = 25
+  Mean difference (Nike_Commercial minus elf_Commercial) = 1.22 peaks per minute, SD of differences = 2.10, 95% CI [0.35, 2.08]
+  Paired t(24) = 2.89, p = 0.00796
+  Cohen's d_z = 0.58, 95% CI [0.15, 1.00]  (noncentral t (effectsize))
+  Wilcoxon signed rank V = 145, p = 0.00967
+  Shapiro Wilk on the differences: W = 0.949, p = 0.235
+
+Simple estimate of the order effect, responders only = (0.62 - 1.77) / 2 = -0.58 (n = 12 and 13)
+Within respondent correlations, responders only: Baseline_Nike with Nike_Commercial r = 0.24; Baseline_elf with elf_Commercial r = 0.25; Nike_Commercial with elf_Commercial r = 0.04
+Responders only: Nike_Commercial Peaks Per Minute with Arousal_Nike_1to9: r(23) = 0.50, 95% CI [0.13, 0.75], p = 0.01123; Spearman rho = 0.40, p = 0.04821
+Responders only: elf_Commercial Peaks Per Minute with Arousal_elf_1to9: r(23) = 0.45, 95% CI [0.07, 0.72], p = 0.02341; Spearman rho = 0.46, p = 0.02088
+Mean Peaks Per Minute over the four baseline and commercial stimuli: nonresponders 0.33, responders 3.58
+Heart rate change is not affected by GSR nonresponse (PPG is a separate sensor): the nonresponders' mean change was -2.13 BPM (Nike) and -1.67 BPM (e.l.f.) versus -1.43 and -0.89 for the responders
+
+---- 9. Why Peaks Per Minute divides by Signal Duration ----
+Peaks Per Minute = Peak Count / (Signal Duration / 60000). Signal Duration leaves out gaps longer than 4 s,
+so a Bluetooth dropout shortens the time in which a peak could have been detected. Dividing by Duration
+would treat the gap as time with no arousal. Rows where Signal Duration is shorter than Duration (all 30 respondents):
+ respondent           label dur_ms sig_ms miss_pct n_peaks ppm_signal
+        P02   Baseline_Nike  60000  54900      8.5       3      3.279
+        P19 Nike_Commercial  60000  55400      7.7       5      5.415
+        P24  elf_Commercial  30000  18600     38.0       2      6.452
+        P29    Baseline_elf  60000  55100      8.2       2      2.178
+ ppm_duration understatement  kept
+            3          0.279  TRUE
+            5          0.415  TRUE
+            4          2.452 FALSE
+            2          0.178  TRUE
+Largest understatement of Peaks Per Minute if Duration were used instead of Signal Duration: 2.452 peaks per minute (P24 elf_Commercial)
+Among kept respondents: 3 rows with a gap, largest understatement 0.415 peaks per minute
+
+Device check (the analysis pools Seat 1 and Seat 2; Device comes from the Signal Quality file):
+        device n_respondents snr_mean_db snr_sd_db ppm_mean ppm_sd
+ Shimmer3-8956            14       22.90      2.77     3.34   0.69
+    Shimmer3-B            14       23.07      2.92     3.12   1.64
+Welch t test of respondent mean SNR between devices: t(25.9) = -0.16, p = 0.87553
+Welch t test of respondent mean Peaks Per Minute (baselines and commercials) between devices: t(17.4) = 0.47, p = 0.64525
+
+---- 10. Moment to moment view: percent of kept respondents with a peak in each 5 s bin (1 s overlap) ----
+M2M Bin label in the Peak Table agrees with the first bin computed here for all 198 commercial peaks: TRUE
+
+Nike_Commercial (14 complete bins of 5 s, n = 28 respondents)
+ bin window_s n_resp  pct
+   1      0-5      8 28.6
+   2      4-9     12 42.9
+   3     8-13     10 35.7
+   4    12-17      9 32.1
+   5    16-21      8 28.6
+   6    20-25      9 32.1
+   7    24-29      9 32.1
+   8    28-33     12 42.9
+   9    32-37     10 35.7
+  10    36-41     12 42.9
+  11    40-45     11 39.3
+  12    44-49     15 53.6
+  13    48-53     16 57.1
+  14    52-57     10 35.7
+  Mean over bins = 38.5%; highest bin 13 (48 to 53 s) = 57.1% (16 respondents); lowest bin 1 (0 to 5 s) = 28.6%; first bin = 28.6%
+
+elf_Commercial (7 complete bins of 5 s, n = 28 respondents)
+ bin window_s n_resp  pct
+   1      0-5      4 14.3
+   2      4-9     10 35.7
+   3     8-13     10 35.7
+   4    12-17     12 42.9
+   5    16-21      7 25.0
+   6    20-25      6 21.4
+   7    24-29      9 32.1
+  Mean over bins = 29.6%; highest bin 4 (12 to 17 s) = 42.9% (12 respondents); lowest bin 1 (0 to 5 s) = 14.3%; first bin = 14.3%
+
+---- 11. Assumption checks ----
+Shapiro Wilk p for the paired differences (a low p flags non-normality; small n limits power):
+                                   test  n shapiro_p
+              H1 Nike: Peaks Per Minute 28     0.029
+            H1 e.l.f.: Peaks Per Minute 28     0.014
+ H2 Nike minus e.l.f.: Peaks Per Minute 28     0.144
+       H3 Nike: heart rate change (BPM) 28     0.112
+     H3 e.l.f.: heart rate change (BPM) 28     0.339
+         H3 difference of changes (BPM) 28     0.785
+Shapiro Wilk p for the mixed model residuals: 0.166
+Shapiro Wilk p for the respondent random intercepts: 0.002
+Peaks Per Minute is built from whole peak counts (a 30 s window gives steps of 2), so the differences cannot be perfectly normal; the Wilcoxon results above are the companion check.
+saved figure: figures/SIMULATED_assumption_checks.png
+Reading the plots: points near the line = roughly normal; a fan shape in
+ residuals vs fitted = variance grows with the mean (consider a square root
+ transform of the counts or a rank based test). Staircase points are the whole
+ number peak counts.
+
+saved figure: figures/SIMULATED_fig1_peaks_per_minute.png 
+saved figure: figures/SIMULATED_fig2_moment_to_moment.png 
+saved figure: figures/SIMULATED_fig3_heart_rate_change.png 
+
+---- Summary of the paired tests ----
+        id                                                     comparison  n
+   H1_Nike H1 Nike: Peaks Per Minute, Nike_Commercial minus Baseline_Nike 28
+    H1_elf H1 e.l.f.: Peaks Per Minute, elf_Commercial minus Baseline_elf 28
+        H2      H2 Peaks Per Minute, Nike_Commercial minus elf_Commercial 28
+   H3_Nike H3 Nike: heart rate (BPM), Nike_Commercial minus Baseline_Nike 28
+    H3_elf H3 e.l.f.: heart rate (BPM), elf_Commercial minus Baseline_elf 28
+   H3_diff   H3 difference of heart rate changes (BPM), Nike minus e.l.f. 28
+ S_H1_Nike                           Sensitivity H1 Nike, responders only 25
+  S_H1_elf                         Sensitivity H1 e.l.f., responders only 25
+      S_H2                                Sensitivity H2, responders only 25
+  m_ref  m_cmp mean_diff sd_diff diff_ci_low diff_ci_high      t df     p
+  2.296  4.658     2.362   1.769       1.676        3.048  7.064 27 0.000
+  2.471  3.500     1.029   1.547       0.429        1.629  3.520 27 0.002
+  3.500  4.658     1.158   1.995       0.384        1.931  3.070 27 0.005
+ 76.171 74.664    -1.507   1.915      -2.250       -0.764 -4.164 27 0.000
+ 75.432 74.457    -0.975   1.830      -1.684       -0.266 -2.820 27 0.009
+ -0.975 -1.507    -0.532   2.388      -1.458        0.394 -1.179 27 0.249
+  2.491  5.137     2.645   1.630       1.973        3.318  8.114 24 0.000
+  2.767  3.920     1.153   1.595       0.494        1.811  3.613 24 0.001
+  3.920  5.137     1.217   2.102       0.349        2.084  2.894 24 0.008
+     dz dz_ci_low dz_ci_high wilcoxon_V wilcoxon_p shapiro_p
+  1.335     0.816      1.841      317.0      0.000     0.029
+  0.665     0.250      1.071      190.0      0.001     0.014
+  0.580     0.175      0.977      179.0      0.006     0.144
+ -0.787    -1.207     -0.356       44.5      0.001     0.112
+ -0.533    -0.925     -0.132       95.5      0.015     0.339
+ -0.223    -0.596      0.154      153.5      0.264     0.785
+  1.623     1.014      2.217      272.5      0.000     0.027
+  0.723     0.275      1.158      190.0      0.001     0.026
+  0.579     0.149      0.998      145.0      0.010     0.235
+written: SIMULATED_test_results.csv
+written: SIMULATED_model_results.csv
+
+Done. Reminder: every number above is SIMULATED for teaching.

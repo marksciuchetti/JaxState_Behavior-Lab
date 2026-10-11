@@ -1,0 +1,15 @@
+analysis,term,estimate,se,df,statistic,p,ci_low,ci_high
+Mixed model Peaks Per Minute in the commercials,Intercept (grand mean),4.113108974358976,0.3101344193119024,25.99999964919299,13.262342772159126,4.427089969096024e-13,3.47561854510832,4.750599403609632
+Mixed model Peaks Per Minute in the commercials,Commercial (Nike minus elf),1.118525641025641,0.3699093889764835,26.000000223264443,3.0237827812928257,0.005554827550537106,0.3581660026718607,1.8788852793794213
+Mixed model Peaks Per Minute in the commercials,Order position (second minus first),-0.5481410256410256,0.36990938897648346,26.000000223264433,-1.481825122519053,0.15040619169303157,-1.3085006639948058,0.21221861271275444
+Mixed model Peaks Per Minute in the commercials,Commercial x order position,1.9191025641025636,1.2405376772476093,25.999999648908236,1.5469925656433843,0.1339519218341842,-0.6308591529014198,4.469064281106547
+Mixed model Peaks Per Minute in the commercials,ICC adjusted (fitted model),0.47529994591959696,NA,NA,NA,NA,NA,NA
+Mixed model Peaks Per Minute in the commercials,ICC unconditional (intercept only),0.3703479436532143,NA,NA,NA,NA,NA,NA
+Mixed model Peaks Per Minute in the commercials,Simple order effect estimate ((Group B - Group A) / 2),-0.5481410256410257,NA,NA,NA,NA,NA,NA
+Mixed model Peaks Per Minute in the commercials,Simple commercial effect estimate ((Group A + Group B) / 2),1.118525641025641,NA,NA,NA,NA,NA,NA
+Exploratory: self reported arousal with Peaks Per Minute,r Nike,0.3654488141198319,NA,26,2.001899119629833,0.0558311281774324,-0.008832317217063889,0.6499158737976626
+Exploratory: self reported arousal with Peaks Per Minute,r elf,0.3443506013380153,NA,26,1.8702316969704154,0.07275071371534626,-0.03296077361762597,0.6357528311830889
+Exploratory: self reported arousal with Peaks Per Minute,r respondent means,0.30363766717869495,NA,26,1.6249733174768426,0.11623067822330599,-0.07831026449887817,0.6078564863998401
+Sensitivity: responders only,r Nike,0.4983546253203635,NA,23,2.7567456556346492,0.01122974878108162,0.12853404873591012,0.7464901784361109
+Sensitivity: responders only,r elf,0.45168726250627217,NA,23,2.4280132991331094,0.02341369226010244,0.06884319361250756,0.7185708092618168
+Sensitivity: responders only,Simple order effect estimate ((Group B - Group A) / 2),-0.5756570512820512,NA,NA,NA,NA,NA,NA

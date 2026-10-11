@@ -1,0 +1,362 @@
+SIMULATED facial expression analysis, run on 2026-10-08 18:33 
+R4.3.3; lme4 1.1.35.1; lmerTest 3.1.3; effectsize available: TRUE; data seed 20265798
+
+---- 1. Files read ----
+FEA metrics rows: 1728  respondents: 32  intervals: Baseline, Commercial, Recovery, Bin_01, Bin_02, Bin_03, Bin_04, Bin_05, Bin_06 
+Expressions: Joy, Surprise, Brow Furrow, Positive Valence, Negative Valence, Engagement 
+Thresholds in the default file: 50, -50, NA ; in the two sensitivity files: 25, -25, NA and 75, -75, NA 
+Survey rows: 32   Session log rows: 32 
+
+---- 2. Cleaning ----
+Data quality (percentage of frames successfully analyzed, after post processing): all 32 respondents M = 93.0, SD = 7.53, range 61.0 to 98.8
+Kept respondents (Data quality >= 80): n = 30, M = 94.8, SD = 2.61, range 87.8 to 98.8
+Excluded (Data quality < 80 percent, the lab's own rule; the manuals state no minimum):
+  respondent dq
+1        V07 61
+2        V19 72
+Session log says for these respondents:
+  Respondent Name Session Date Glasses Face detection percent Data complete
+1             V07   2026-10-26     Yes                     61           Yes
+2             V19   2026-10-28      No                     72           Yes
+Lighting note: Overhead light reflecting on glasses lenses (glare) 
+Decision note: EXCLUDE: Data quality 61 percent is below the lab's 80 percent rule set before collection; glare on the glasses lenses hid the eyes and brows for long stretches; recorded in full anyway because the session was scheduled 
+Lighting note: Diffused light, lamp against wall behind respondent 
+Decision note: EXCLUDE: Data quality 72 percent is below the lab's 80 percent rule set before collection; respondent looked down at a phone during the commercial; recorded in full anyway because the session was scheduled 
+Session log Face detection percent equals Data quality (%) in the metrics file for all respondents: TRUE
+Lowest Data quality among kept respondents: 87.8 ( V20 )
+Respondents kept: 30 
+Kept respondents by gender: F = 17, M = 13; age M = 27.4, SD = 5.4, range 19 to 45
+Session dates: 2026-10-26 to 2026-10-29 
+
+---- 3. Descriptive table by expression and interval (kept respondents, default thresholds) ----
+mean_pct = mean Percent of time present; n_present = viewers with the expression present (pct > 0);
+mean_segments = mean Number of segments; Engagement is a raw mean score, not a thresholded metric.
+       expression   interval  n mean_pct sd_pct median_pct n_present
+              Joy   Baseline 30     1.61   3.40       0.00         8
+              Joy Commercial 30    10.37  13.57       5.86        25
+              Joy   Recovery 30     3.10   7.08       0.00         7
+              Joy     Bin_01 30     4.83  11.59       0.00         7
+              Joy     Bin_02 30     7.73  15.14       0.00         8
+              Joy     Bin_03 30     6.42  17.18       0.00         7
+              Joy     Bin_04 30     5.41  11.84       0.00         9
+              Joy     Bin_05 30    24.36  28.69      11.34        20
+              Joy     Bin_06 30    13.43  21.86       3.50        16
+         Surprise   Baseline 30     0.76   1.16       0.00        11
+         Surprise Commercial 30     2.52   2.02       2.42        23
+         Surprise   Recovery 30     0.60   2.38       0.00         3
+         Surprise     Bin_01 30     0.98   4.01       0.00         2
+         Surprise     Bin_02 30     0.59   1.82       0.00         3
+         Surprise     Bin_03 30     7.57   8.56       5.50        19
+         Surprise     Bin_04 30     3.54   6.03       0.00        10
+         Surprise     Bin_05 30     0.94   2.60       0.00         4
+         Surprise     Bin_06 30     1.49   4.18       0.00         4
+      Brow Furrow   Baseline 30     2.77   3.99       0.42        16
+      Brow Furrow Commercial 30     3.30   4.45       1.48        16
+      Brow Furrow   Recovery 30     5.56  10.54       0.00         9
+      Brow Furrow     Bin_01 30     2.37   9.45       0.00         2
+      Brow Furrow     Bin_02 30     3.29   7.46       0.00         6
+      Brow Furrow     Bin_03 30     3.68  10.24       0.00         6
+      Brow Furrow     Bin_04 30     3.81  11.19       0.00         6
+      Brow Furrow     Bin_05 30     3.86   9.77       0.00         6
+      Brow Furrow     Bin_06 30     2.78   7.59       0.00         4
+ Positive Valence   Baseline 30     1.72   4.06       0.00         9
+ Positive Valence Commercial 30    11.44  14.39       6.62        28
+ Positive Valence   Recovery 30     4.84   9.74       0.00         8
+ Positive Valence     Bin_01 30     4.48  12.72       0.00         7
+ Positive Valence     Bin_02 30     8.08  12.59       0.00        11
+ Positive Valence     Bin_03 30     8.00  18.02       0.00        10
+ Positive Valence     Bin_04 30     7.52  15.33       0.00        10
+ Positive Valence     Bin_05 30    24.37  28.11      13.50        22
+ Positive Valence     Bin_06 30    16.18  22.61       6.50        16
+ Negative Valence   Baseline 30     0.18   0.58       0.00         3
+ Negative Valence Commercial 30     0.45   0.90       0.00         8
+ Negative Valence   Recovery 30     0.00   0.00       0.00         0
+ Negative Valence     Bin_01 30     0.37   2.01       0.00         1
+ Negative Valence     Bin_02 30     0.00   0.00       0.00         0
+ Negative Valence     Bin_03 30     0.00   0.00       0.00         0
+ Negative Valence     Bin_04 30     1.56   3.97       0.00         5
+ Negative Valence     Bin_05 30     0.32   1.35       0.00         2
+ Negative Valence     Bin_06 30     0.48   1.82       0.00         2
+ pct_present mean_segments sd_segments
+       26.67          0.83        2.32
+       83.33          4.17        5.83
+       23.33          0.40        1.00
+       23.33          0.43        0.90
+       26.67          0.60        1.38
+       23.33          0.50        1.20
+       30.00          0.37        0.67
+       66.67          1.57        1.52
+       53.33          1.13        2.46
+       36.67          0.50        0.73
+       76.67          1.73        1.34
+       10.00          0.13        0.43
+        6.67          0.07        0.25
+       10.00          0.10        0.31
+       63.33          0.97        0.93
+       33.33          0.33        0.48
+       13.33          0.13        0.35
+       13.33          0.17        0.46
+       53.33          1.23        1.45
+       53.33          2.13        3.41
+       30.00          0.50        0.90
+        6.67          0.27        1.05
+       20.00          0.57        1.38
+       20.00          0.67        1.83
+       20.00          0.30        0.65
+       20.00          0.40        1.04
+       13.33          0.17        0.46
+       30.00          0.77        1.72
+       93.33          4.53        4.44
+       26.67          0.53        1.07
+       23.33          0.57        1.57
+       36.67          0.70        1.18
+       33.33          0.60        1.04
+       33.33          0.57        0.94
+       73.33          1.63        1.33
+       53.33          1.03        1.25
+       10.00          0.13        0.43
+       26.67          0.40        0.72
+        0.00          0.00        0.00
+        3.33          0.03        0.18
+        0.00          0.00        0.00
+        0.00          0.00        0.00
+       16.67          0.20        0.48
+        6.67          0.10        0.40
+        6.67          0.07        0.25
+
+Engagement (mean raw score, 0 to 100):
+ expression   interval  n mean_raw_score sd_raw_score
+ Engagement   Baseline 30           7.44         3.18
+ Engagement Commercial 30          15.25         8.29
+ Engagement   Recovery 30          10.14         6.05
+ Engagement     Bin_01 30           9.84         8.36
+ Engagement     Bin_02 30          12.32         8.91
+ Engagement     Bin_03 30          16.46        11.87
+ Engagement     Bin_04 30          13.54         9.02
+ Engagement     Bin_05 30          22.73        17.82
+ Engagement     Bin_06 30          16.64        12.22
+written: SIMULATED_descriptives_by_interval.csv
+
+Check: Joy Percent of time present in Commercial equals the mean of the six bins (largest absolute gap 0.01 percentage points, rounding only)
+Check: Joy Number of segments in Commercial versus the sum over the six bins (a segment that crosses a bin boundary counts in both bins): Commercial M = 4.17, sum of bins M = 4.60
+
+Realized versus planned (generator assumptions in make_simulated_data.py):
+  Joy Percent of time present: Baseline 1.6 (planned about 2), Commercial 10.4 (about 11), Recovery 3.1 (about 4)
+  Joy at Baseline: 22 of 30 viewers had 0 (planned: most viewers 0)
+  Joy by bin: 4.8, 7.7, 6.4, 5.4, 24.4, 13.4 (planned 5, 6, 8, 8, 24, 15)
+  Surprise by bin: 1.0, 0.6, 7.6, 3.5, 0.9, 1.5 (planned peak in Bin_03)
+  Brow Furrow by bin: 2.4, 3.3, 3.7, 3.8, 3.9, 2.8 (planned small and flat, 2 to 5)
+  Negative Valence, Commercial: 0.45 (planned near zero)
+
+---- 4. H1: Joy Percent of time present, Commercial versus Baseline (paired, default threshold 50) ----
+Joy Percent of time present (all kept respondents)
+  Baseline:   M = 1.61 %, SD = 3.40, Mdn = 0.00, n = 30
+  Commercial: M = 10.37 %, SD = 13.57, Mdn = 5.86, n = 30
+  Viewers with any Joy present: Baseline 8 of 30 (26.7%), Commercial 25 of 30 (83.3%)
+  Changed status: 1 with Joy only at Baseline, 18 with Joy only during the Commercial; exact McNemar test p = 7.63e-05
+  Mean difference (Commercial minus Baseline) = 8.76 %, SD of differences = 11.84, 95% CI [4.34, 13.18]
+  Signs of the differences: 23 positive, 3 negative, 4 zero (dropped by the signed rank test); sign test p = 8.80e-05
+  PRIMARY: Wilcoxon signed rank V = 331, p = 8.26e-05 (n = 26 nonzero differences; sum of negative ranks = 20.0)
+  Matched pairs rank biserial correlation r_rb = 0.89; Hodges-Lehmann median difference = 8.36 %, 95% CI [4.48, 13.64]
+  Paired t(29) = 4.05, p = 0.00035
+  Cohen's d_z = 0.74, 95% CI [0.33, 1.14]  (noncentral t (effectsize))
+  Shapiro Wilk on the differences: W = 0.816, p = 0.00013
+
+Recovery (descriptive, 15 s stimulus): M = 3.10 %, SD = 7.08, Mdn = 0.00; viewers with any Joy: 7 of 30
+
+---- 4b. H1 sensitivity: Joy Percent of time present at thresholds of 25 and 75 ----
+Threshold 25 (more permissive)
+  Baseline:   M = 3.44 %, SD = 5.93, Mdn = 0.00, n = 30
+  Commercial: M = 17.76 %, SD = 19.35, Mdn = 10.11, n = 30
+  Viewers with any Joy present: Baseline 13 of 30 (43.3%), Commercial 28 of 30 (93.3%)
+  Changed status: 0 with Joy only at Baseline, 15 with Joy only during the Commercial; exact McNemar test p = 6.10e-05
+  Mean difference (Commercial minus Baseline) = 14.32 %, SD of differences = 15.98, 95% CI [8.35, 20.28]
+  Signs of the differences: 26 positive, 2 negative, 2 zero (dropped by the signed rank test); sign test p = 3.03e-06
+  PRIMARY: Wilcoxon signed rank V = 389, p = 2.40e-05 (n = 28 nonzero differences; sum of negative ranks = 17.0)
+  Matched pairs rank biserial correlation r_rb = 0.92; Hodges-Lehmann median difference = 13.64 %, 95% CI [7.69, 21.31]
+  Paired t(29) = 4.91, p = 3.29e-05
+  Cohen's d_z = 0.90, 95% CI [0.47, 1.32]  (noncentral t (effectsize))
+  Shapiro Wilk on the differences: W = 0.872, p = 0.00183
+
+Threshold 75 (stricter)
+  Baseline:   M = 0.56 %, SD = 1.43, Mdn = 0.00, n = 30
+  Commercial: M = 4.21 %, SD = 7.10, Mdn = 1.61, n = 30
+  Viewers with any Joy present: Baseline 7 of 30 (23.3%), Commercial 18 of 30 (60.0%)
+  Changed status: 1 with Joy only at Baseline, 12 with Joy only during the Commercial; exact McNemar test p = 0.00342
+  Mean difference (Commercial minus Baseline) = 3.65 %, SD of differences = 6.35, 95% CI [1.28, 6.02]
+  Signs of the differences: 17 positive, 2 negative, 11 zero (dropped by the signed rank test); sign test p = 0.00073
+  PRIMARY: Wilcoxon signed rank V = 184, p = 0.00040 (n = 19 nonzero differences; sum of negative ranks = 6.5)
+  Matched pairs rank biserial correlation r_rb = 0.93; Hodges-Lehmann median difference = 4.17 %, 95% CI [2.08, 7.70]
+  Paired t(29) = 3.15, p = 0.00381
+  Cohen's d_z = 0.57, 95% CI [0.18, 0.96]  (noncentral t (effectsize))
+  Shapiro Wilk on the differences: W = 0.668, p = 5.50e-07
+
+Summary across thresholds (Commercial minus Baseline):
+ threshold m_base m_comm any_base any_comm mean_diff     V p_wilcoxon    t
+        25   3.44  17.76       13       28     14.32 389.0   2.40e-05 4.91
+        50   1.61  10.37        8       25      8.76 331.0   8.26e-05 4.05
+        75   0.56   4.21        7       18      3.65 183.5   3.97e-04 3.15
+      p_t   dz r_rb
+ 3.29e-05 0.90 0.92
+ 3.46e-04 0.74 0.89
+ 3.81e-03 0.57 0.93
+Ratio of the Commercial mean to the threshold 50 value: threshold 25 = 1.71, threshold 75 = 0.41
+
+---- 5. H2: Joy Percent of time present across the six bins ----
+5a. Viewers with Joy present per bin (Percent of time present above 0) and mean time percent:
+    bin  n n_joy prop prop_lo prop_hi mean_pct sd_pct mean_lo mean_hi mean_seg
+ Bin_01 30     7 23.3     9.9    42.3     4.83  11.59    0.51    9.16     0.43
+ Bin_02 30     8 26.7    12.3    45.9     7.73  15.14    2.08   13.39     0.60
+ Bin_03 30     7 23.3     9.9    42.3     6.42  17.18    0.01   12.84     0.50
+ Bin_04 30     9 30.0    14.7    49.4     5.41  11.84    0.99    9.83     0.37
+ Bin_05 30    20 66.7    47.2    82.7    24.36  28.69   13.64   35.07     1.57
+ Bin_06 30    16 53.3    34.3    71.7    13.43  21.86    5.27   21.60     1.13
+(prop, prop_lo, prop_hi are percentages of viewers; the interval is the exact Clopper Pearson 95% CI.)
+Highest proportion of viewers with Joy: Bin_05 (66.7%); highest mean time percent: Bin_05 (24.36 %)
+
+5b. Mixed model: pct ~ bin + (1 | respondent)
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: pct ~ interval + (1 | respondent)
+   Data: bins
+
+REML criterion at convergence: 1485
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.0318 -0.4819 -0.0420  0.2217  4.1568 
+
+Random effects:
+ Groups     Name        Variance Std.Dev.
+ respondent (Intercept) 150.9    12.29   
+ Residual               199.0    14.11   
+Number of obs: 180, groups:  respondent, 30
+
+Fixed effects:
+               Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)      4.8337     3.4155  90.1567   1.415   0.1604    
+intervalBin_02   2.8993     3.6427 145.0000   0.796   0.4274    
+intervalBin_03   1.5883     3.6427 145.0000   0.436   0.6635    
+intervalBin_04   0.5773     3.6427 145.0000   0.158   0.8743    
+intervalBin_05  19.5223     3.6427 145.0000   5.359 3.21e-07 ***
+intervalBin_06   8.5997     3.6427 145.0000   2.361   0.0196 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Type III test of the bin factor (Satterthwaite degrees of freedom):
+Type III Analysis of Variance Table with Satterthwaite's method
+         Sum Sq Mean Sq NumDF DenDF F value    Pr(>F)    
+interval 8483.3  1696.7     5   145  8.5243 4.251e-07 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+Bin factor: F(5, 145) = 8.52, p = 4.25e-07
+Respondent variance = 150.93 (SD 12.29), residual variance = 199.04 (SD 14.11)
+ICC (adjusted, from the fitted model) = 0.431; ICC (unconditional, intercept only model) = 0.364
+
+Contrasts against the mean of Bin_01 to Bin_04 (Satterthwaite df; Holm adjustment over the two contrasts):
+  Bin_05 minus mean(Bin_01..Bin_04) = 18.26 percentage points, SE = 2.88, df = 145.0, t = 6.34, p = 2.75e-09, Holm p = 5.50e-09, 95% CI [12.56, 23.95]
+  Bin_06 minus mean(Bin_01..Bin_04) = 7.33 percentage points, SE = 2.88, df = 145.0, t = 2.55, p = 0.01192, Holm p = 0.01192, 95% CI [1.64, 13.03]
+
+5c. Friedman rank sum test across the six bins (the nonparametric check):
+  Friedman chi-squared(5) = 34.68, p = 1.74e-06; Kendall's W = 0.231 (n = 30 respondents)
+  Rank sums by bin: Bin_01 = 89.0; Bin_02 = 97.5; Bin_03 = 91.0; Bin_04 = 94.0; Bin_05 = 144.0; Bin_06 = 114.5 
+
+5d. Robustness: model on sqrt(Percent of time present): F(5, 145) = 9.10, p = 1.53e-07
+
+---- 6. H3: Positive Valence Percent of time present (Commercial) and Ad_liking_1to7 ----
+Positive Valence during the commercial: M = 11.44 %, SD = 14.39, Mdn = 6.62, viewers with any: 28 of 30
+Ad_liking_1to7: M = 5.17, SD = 1.32, range 2 to 7 (n = 30); number of distinct values = 6
+Pearson r(28) = 0.45, 95% CI [0.11, 0.70], t = 2.70, p = 0.01156
+Spearman rho = 0.41, 95% CI [0.05, 0.68] (Bonett and Wright), t(28) = 2.41, p = 0.02273 (t approximation, ties present)
+Least squares line: Positive Valence % = -14.27 + 4.98 x liking; slope SE = 1.84, 95% CI [1.20, 8.75]; R squared = 0.21
+Shapiro Wilk: Positive Valence % W = 0.763, p = 1.50e-05; liking W = 0.919, p = 0.02478
+Exploratory: Joy Percent of time present (Commercial) with liking: r = 0.49
+
+---- 7. Other expressions by bin (descriptive, kept respondents, default thresholds) ----
+Mean Percent of time present by bin:
+       expression Bin_01 Bin_02 Bin_03 Bin_04 Bin_05 Bin_06
+         Surprise   0.98   0.59   7.57   3.54   0.94   1.49
+      Brow Furrow   2.37   3.29   3.68   3.81   3.86   2.78
+ Positive Valence   4.48   8.08   8.00   7.52  24.37  16.18
+ Negative Valence   0.37   0.00   0.00   1.56   0.32   0.48
+Viewers with Surprise present per bin (%): Bin_01 = 6.7; Bin_02 = 10.0; Bin_03 = 63.3; Bin_04 = 33.3; Bin_05 = 13.3; Bin_06 = 13.3 
+Surprise peaks in Bin_03 (mean 7.57 %); the next highest bin is 3.54 %
+Brow Furrow bin means range from 2.37 to 3.86 % (flat)
+Engagement mean raw score by bin: 9.84, 12.32, 16.46, 13.54, 22.73, 16.64 
+
+---- 8. Assumption checks ----
+Joy Percent of time present is zero inflated and right skewed: Baseline zeros 22 of 30, skewness 2.19; Commercial zeros 5 of 30, skewness 2.09
+Across the six bins, 113 of 180 Joy values are exactly 0 (62.8%)
+Shapiro Wilk on the H1 differences (Commercial minus Baseline): W = 0.816, p = 0.00013
+Shapiro Wilk on the mixed model residuals: W = 0.895, p = 5.64e-10
+Shapiro Wilk on the respondent random intercepts: W = 0.738, p = 5.79e-06
+Shapiro Wilk on the residuals of the sqrt(percent) model: W = 0.956, p = 1.97e-05
+Residual SD by bin (largest / smallest): 2.38
+The residuals are not normal and their spread grows with the bin mean, which is why the Friedman test and the sqrt model are reported beside the F test.
+H3: Pearson's r assumes a roughly linear relation and no extreme points; see figures/SIMULATED_fig3_valence_liking.png.
+saved figure: figures/SIMULATED_assumption_checks.png
+Reading the plots: points near the line = roughly normal. A curved QQ line and a fan shape in
+ residuals vs fitted = right skew and variance that grows with the mean (use the rank based
+ tests or the sqrt model). The Baseline histogram shows the spike at zero.
+
+saved figure: figures/SIMULATED_fig1_joy_by_stimulus.png 
+saved figure: figures/SIMULATED_fig2_joy_by_bin.png 
+saved figure: figures/SIMULATED_fig3_valence_liking.png 
+
+---- Summary of the tests (written to SIMULATED_test_results.csv) ----
+                  hypothesis                                 analysis                                                       quantity estimate ci_low ci_high statistic  df         p  n
+             H1 threshold 50                              Descriptive                          Baseline mean Percent of time present    1.606     NA      NA        NA  NA        NA 30
+             H1 threshold 50                              Descriptive                        Commercial mean Percent of time present   10.365     NA      NA        NA  NA        NA 30
+             H1 threshold 50                              Descriptive                                 Viewers with any Joy, Baseline    8.000     NA      NA        NA  NA        NA 30
+             H1 threshold 50                              Descriptive                               Viewers with any Joy, Commercial   25.000     NA      NA        NA  NA        NA 30
+             H1 threshold 50                       Exact McNemar test Joy present only at Baseline versus only during the Commercial   17.000     NA      NA        NA  NA 7.629e-05 30
+             H1 threshold 50           Wilcoxon signed rank (primary)                                      V (sum of positive ranks)       NA     NA      NA   331.000  NA 8.261e-05 26
+             H1 threshold 50           Wilcoxon signed rank (primary)                        Matched pairs rank biserial correlation    0.886     NA      NA        NA  NA        NA 26
+             H1 threshold 50           Wilcoxon signed rank (primary)                               Hodges-Lehmann median difference    8.360  4.475  13.640        NA  NA        NA 26
+             H1 threshold 50                            Paired t test                    Mean difference (Commercial minus Baseline)    8.759  4.340  13.179     4.053  29 3.460e-04 30
+             H1 threshold 50                            Paired t test                                                    Cohen's d_z    0.740  0.330   1.140        NA  NA        NA 30
+ H1 sensitivity threshold 25                              Descriptive                          Baseline mean Percent of time present    3.439     NA      NA        NA  NA        NA 30
+ H1 sensitivity threshold 25                              Descriptive                        Commercial mean Percent of time present   17.755     NA      NA        NA  NA        NA 30
+ H1 sensitivity threshold 25                              Descriptive                                 Viewers with any Joy, Baseline   13.000     NA      NA        NA  NA        NA 30
+ H1 sensitivity threshold 25                              Descriptive                               Viewers with any Joy, Commercial   28.000     NA      NA        NA  NA        NA 30
+ H1 sensitivity threshold 25                       Exact McNemar test Joy present only at Baseline versus only during the Commercial   15.000     NA      NA        NA  NA 6.104e-05 30
+ H1 sensitivity threshold 25           Wilcoxon signed rank (primary)                                      V (sum of positive ranks)       NA     NA      NA   389.000  NA 2.399e-05 28
+ H1 sensitivity threshold 25           Wilcoxon signed rank (primary)                        Matched pairs rank biserial correlation    0.916     NA      NA        NA  NA        NA 28
+ H1 sensitivity threshold 25           Wilcoxon signed rank (primary)                               Hodges-Lehmann median difference   13.637  7.695  21.305        NA  NA        NA 28
+ H1 sensitivity threshold 25                            Paired t test                    Mean difference (Commercial minus Baseline)   14.316  8.348  20.284     4.906  29 3.294e-05 30
+ H1 sensitivity threshold 25                            Paired t test                                                    Cohen's d_z    0.896  0.465   1.315        NA  NA        NA 30
+ H1 sensitivity threshold 75                              Descriptive                          Baseline mean Percent of time present    0.561     NA      NA        NA  NA        NA 30
+ H1 sensitivity threshold 75                              Descriptive                        Commercial mean Percent of time present    4.211     NA      NA        NA  NA        NA 30
+ H1 sensitivity threshold 75                              Descriptive                                 Viewers with any Joy, Baseline    7.000     NA      NA        NA  NA        NA 30
+ H1 sensitivity threshold 75                              Descriptive                               Viewers with any Joy, Commercial   18.000     NA      NA        NA  NA        NA 30
+ H1 sensitivity threshold 75                       Exact McNemar test Joy present only at Baseline versus only during the Commercial   11.000     NA      NA        NA  NA 3.418e-03 30
+ H1 sensitivity threshold 75           Wilcoxon signed rank (primary)                                      V (sum of positive ranks)       NA     NA      NA   183.500  NA 3.971e-04 19
+ H1 sensitivity threshold 75           Wilcoxon signed rank (primary)                        Matched pairs rank biserial correlation    0.932     NA      NA        NA  NA        NA 19
+ H1 sensitivity threshold 75           Wilcoxon signed rank (primary)                               Hodges-Lehmann median difference    4.174  2.080   7.695        NA  NA        NA 19
+ H1 sensitivity threshold 75                            Paired t test                    Mean difference (Commercial minus Baseline)    3.649  1.277   6.022     3.146  29 3.807e-03 30
+ H1 sensitivity threshold 75                            Paired t test                                                    Cohen's d_z    0.574  0.183   0.957        NA  NA        NA 30
+                          H2 Mixed model pct ~ bin + (1 | respondent)                                              Bin factor F test       NA     NA      NA     8.524 145 4.251e-07 30
+                          H2 Mixed model pct ~ bin + (1 | respondent)                                                   ICC adjusted    0.431     NA      NA        NA  NA        NA 30
+                          H2                 Contrast (Satterthwaite)                              Bin_05 minus mean(Bin_01..Bin_04)   18.256 12.564  23.948     6.339 145 2.751e-09 30
+                          H2                 Contrast (Satterthwaite)                              Bin_06 minus mean(Bin_01..Bin_04)    7.333  1.642  13.025     2.547 145 1.192e-02 30
+                          H2             Mixed model on sqrt(percent)                                              Bin factor F test       NA     NA      NA     9.095 145 1.526e-07 30
+                          H2                            Friedman test                                                    Chi-squared       NA     NA      NA    34.683   5 1.741e-06 30
+                          H2                            Friedman test                                                    Kendall's W    0.231     NA      NA        NA  NA        NA 30
+                          H2   Proportion of viewers with Joy present                            Bin_01: proportion with Joy present    0.233  0.099   0.423        NA  NA        NA 30
+                          H2   Proportion of viewers with Joy present                            Bin_02: proportion with Joy present    0.267  0.123   0.459        NA  NA        NA 30
+                          H2   Proportion of viewers with Joy present                            Bin_03: proportion with Joy present    0.233  0.099   0.423        NA  NA        NA 30
+                          H2   Proportion of viewers with Joy present                            Bin_04: proportion with Joy present    0.300  0.147   0.494        NA  NA        NA 30
+                          H2   Proportion of viewers with Joy present                            Bin_05: proportion with Joy present    0.667  0.472   0.827        NA  NA        NA 30
+                          H2   Proportion of viewers with Joy present                            Bin_06: proportion with Joy present    0.533  0.343   0.717        NA  NA        NA 30
+                          H2             Mean Percent of time present                                       Bin_01: mean Joy percent    4.834  0.507   9.161        NA  NA        NA 30
+                          H2             Mean Percent of time present                                       Bin_02: mean Joy percent    7.733  2.080  13.386        NA  NA        NA 30
+                          H2             Mean Percent of time present                                       Bin_03: mean Joy percent    6.422  0.007  12.837        NA  NA        NA 30
+                          H2             Mean Percent of time present                                       Bin_04: mean Joy percent    5.411  0.991   9.831        NA  NA        NA 30
+                          H2             Mean Percent of time present                                       Bin_05: mean Joy percent   24.356 13.642  35.070        NA  NA        NA 30
+                          H2             Mean Percent of time present                                       Bin_06: mean Joy percent   13.433  5.271  21.595        NA  NA        NA 30
+                          H3                                  Pearson                     r (Positive Valence % with Ad_liking_1to7)    0.455  0.113   0.700     2.703  28 1.156e-02 30
+                          H3                                 Spearman                   rho (Positive Valence % with Ad_liking_1to7)    0.415  0.048   0.683     2.411  28 2.273e-02 30
+                          H3                       Least squares line                     Slope (percentage points per liking point)    4.977  1.205   8.749     2.703  28 1.156e-02 30
+written: SIMULATED_test_results.csv
+
+Done. Reminder: every number above is SIMULATED for teaching.

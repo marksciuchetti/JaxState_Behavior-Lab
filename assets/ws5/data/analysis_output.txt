@@ -1,0 +1,427 @@
+SIMULATED EEG frontal alpha asymmetry analysis, run on 2026-10-10 15:22 
+R 4.3.3; lme4 1.1.35.1; lmerTest 3.1.3; effectsize available for the cross-check: TRUE
+
+---- STEP 1. Files read ----
+FA export rows: 312  respondents: 48 
+FA export columns: Study Name | Respondent Name | Gender | Age | Group | Type | Label | Start (ms) | Duration (ms) | Parent Stimulus | Mean Frontal Asymmetry Alpha | Algorithm Device Name 
+Type values: Annotation, Stimulus 
+Labels: Baseline_1, Commercial_2, Baseline_2, Commercial_1B, EndScene, Commercial_1A, KeyScene 
+FA export with default channels rows:312  PSD export rows:312 (29 columns)
+Artifact report rows: 384   Session log rows: 48   Survey rows: 48 
+PSD metric columns (18): Mean PSD Ch1 Theta (dB) | Mean PSD Ch1 Alpha (dB) | Mean PSD Ch2 Theta (dB) | Mean PSD Ch2 Alpha (dB) | ... | Mean PSD Electrode Cluster Average Theta (dB) | Mean PSD Electrode Cluster Average Alpha (dB)
+
+---- STEP 2. Channel map and notebook settings ----
+FA export settings: METADATA (modeled): Flow = EEG Frontal Asymmetry R Notebook; Device = Lab Streaming Layer, Enobio EEG, profile Enobio, 500 Hz; Left frontal electrode set = Ch5; Right frontal electrode set = Ch6; Powerbands = Alpha (8 - 12 Hz); Welch PSD (50% overlap), window 1 s; Band-pass 0.5 - 100 Hz; Notch 60 Hz; artifact threshold 120 microvolts; FA = ln(right alpha) - ln(left alpha) 
+ channel site_assumed                 used_for
+     Ch1           Fz  FA default LEFT (wrong)
+     Ch2           Cz                         
+     Ch3           Pz                         
+     Ch4           Oz                         
+     Ch5           F3           FA LEFT (used)
+     Ch6           F4          FA RIGHT (used)
+     Ch7           P3 FA default RIGHT (wrong)
+     Ch8           P4                         
+
+Mean alpha power (dB) in the baselines, all 48 respondents:
+ channel site_assumed mean_alpha_db_baselines
+     Ch1           Fz                    8.20
+     Ch2           Cz                    9.11
+     Ch3           Pz                   11.77
+     Ch4           Oz                   12.63
+     Ch5           F3                    8.25
+     Ch6           F4                    8.12
+     Ch7           P3                   11.12
+     Ch8           P4                   11.50
+Mean baseline FA: -0.029 with Ch5/Ch6 (F3/F4) versus 0.675 with the default Ch1/Ch7 (Fz/P3).
+A 'frontal asymmetry' near +0.7 is a warning sign: it is the alpha ratio of a parietal and a frontal site.
+
+---- STEP 3. Exclusion rule ----
+Rule (written before collection): exclude when more than 25 percent of the F3 or F4 samples were removed
+in any baseline or commercial (artifact report), or when the session log records a Red NIC2 quality status
+at F3 or F4 that could not be fixed (the log records the status at the last check before recording).
+
+Excluded respondents:
+ respondent version   order max_pct            worst   red
+        P27       A C2first   41.78 F4 Commercial_1A  TRUE
+        P41       A C1first   30.42  F4 Commercial_2 FALSE
+        P45       B C2first   30.64 F3 Commercial_1B FALSE
+                                                                  why
+ Red at F4 before recording; 41.78 percent removed (F4 Commercial_1A)
+                              30.42 percent removed (F4 Commercial_2)
+                             30.64 percent removed (F3 Commercial_1B)
+Session log for these respondents:
+  P27: NIC2 F3 Green, F4 Red; setup 34 minutes; data complete = Yes
+    Incidents: F4 Red in NIC2 Liveview at every check: electrode re-seated, hair parted, gel added twice, F4 and F3 leads swapped (the fault stayed at the F4 site); recorded because the participant was present; F4 Red before recording 
+    Decision note: EXCLUDE: Red NIC2 quality at F4 that could not be fixed (rule written before collection); the artifact report also shows 41.78 percent of F4 samples removed in Commercial_1A 
+  P41: NIC2 F3 Green, F4 Green; setup 19 minutes; data complete = No
+    Incidents: LSL stream gap of about 8.6 s during Commercial_2 (no samples in the iMotions sensor widget); the stream reconnected without operator action; slow drift on all channels for about 15 s after it 
+    Decision note: EXCLUDE: 30.42 percent of F4 samples removed in Commercial_2, above the 25 percent rule written before collection; Samples recorded is short of Samples expected for that stimulus 
+  P45: NIC2 F3 Yellow, F4 Green; setup 14 minutes; data complete = Yes
+    Incidents: Frequent large blinks and head movement from the first commercial on (participant reported dry contact lenses); reminded twice to sit still 
+    Decision note: EXCLUDE: 30.64 percent of F3 samples removed in Commercial_1B, above the 25 percent rule written before collection 
+Artifact report rows with fewer samples recorded than expected (a stream gap):
+ respondent        label site expected recorded removed   pct
+        P41 Commercial_2   F3    30000    25700    7427 28.90
+        P41 Commercial_2   F4    30000    25700    7818 30.42
+
+Kept respondents by version and order:
+ version   order  n
+       A C1first 11
+       A C2first 11
+       B C1first 12
+       B C2first 11
+Respondents kept: 45 (Version A 22, Version B 23); excluded: 3
+Percent removed, kept respondents (360 rows of F3 and F4): median = 1.46, mean = 2.67, 90th percentile = 6.01, maximum = 22.83
+Kept respondents: 24 female, 21 male; age M = 21.7, SD = 2.4, range 18 to 26
+Sessions (all 48): 2027-02-01 to 2027-02-22; connection USB for all; gel used for 48 of 48; cap size S 8, M 28, L 12
+Setup minutes (cap, gel, and impedance), kept respondents: M = 16.8, SD = 3.3, range 10 to 25
+Session log: 9 respondents had a Red status at the first check that was fixed before recording (kept): P01, P03, P07, P15, P31, P38, P39, P40, P42
+Respondents recorded with a Yellow status at F3 or F4 (allowed): 19
+FA values of the excluded respondents next to the range of the kept respondents (stimulus rows):
+  P27: Baseline_1 0.762; Commercial_2 0.630; Baseline_2 0.727; Commercial_1A 0.668
+  P41: Baseline_1 0.186; Commercial_1A 0.054; Baseline_2 0.076; Commercial_2 0.196
+  P45: Baseline_1 0.096; Commercial_2 0.100; Baseline_2 0.124; Commercial_1B 0.017
+  Kept respondents, stimulus rows: -0.357 to 0.385
+
+---- STEP 4. Consistency checks across the files (all 48 respondents) ----
+  Rows per respondent: Version A 7, Version B 6 (A has the extra KeyScene row)
+  KeyScene rows only on Commercial_1A: TRUE
+  Every annotation lies inside its parent stimulus: TRUE
+  EndScene starts 10000 ms before the end of its commercial: TRUE
+  KeyScene starts 32000 ms into Commercial_1A and lasts 6000 ms: TRUE
+  Version and order in the Group column match the session log: TRUE
+  Group in the survey matches the FA export: TRUE
+  Rows and Start (ms) identical in the FA, default channel, and PSD exports: TRUE
+  NA values: FA export 0, default channel export 0, PSD export 0
+  FA from the PSD export, (Ch6 alpha dB - Ch5 alpha dB) / 4.343, against the exported FA (kept respondents, 292 rows): r = 0.994, mean difference = 0.0008
+
+---- STEP 5. Analysis table: one row per kept respondent ----
+First six rows (FA units):
+ respondent version   order  bl_c1 KeyScene EndScene_C1     C1  bl_c2     C2
+        P01       B C2first  0.079       NA      -0.087  0.008 -0.060  0.017
+        P02       A C2first -0.177   -0.168      -0.202 -0.216 -0.106 -0.120
+        P03       B C1first  0.002       NA       0.198 -0.031 -0.025  0.043
+        P04       A C1first -0.012    0.131      -0.053 -0.036 -0.095 -0.060
+        P05       A C1first -0.058    0.035      -0.064 -0.130 -0.152 -0.166
+        P06       B C2first -0.203       NA      -0.282 -0.208 -0.191 -0.171
+ chg_ks chg_es1 chg_c1 chg_c2
+     NA  -0.166 -0.071  0.077
+  0.009  -0.025 -0.039 -0.013
+     NA   0.196 -0.033  0.068
+  0.143  -0.041 -0.025  0.035
+  0.093  -0.006 -0.072 -0.014
+     NA  -0.079 -0.005  0.020
+
+---- STEP 6. Descriptive statistics (kept respondents) ----
+                 measure                                       segment version
+                FA (raw)                                    Baseline_1       A
+                FA (raw)                                    Baseline_1       B
+                FA (raw)                                    Baseline_1     All
+                FA (raw)                                    Baseline_2       A
+                FA (raw)                                    Baseline_2       B
+                FA (raw)                                    Baseline_2     All
+                FA (raw)                       Commercial_1 (1A or 1B)       A
+                FA (raw)                       Commercial_1 (1A or 1B)       B
+                FA (raw)                       Commercial_1 (1A or 1B)     All
+                FA (raw)                                  Commercial_2       A
+                FA (raw)                                  Commercial_2       B
+                FA (raw)                                  Commercial_2     All
+                FA (raw)                      KeyScene (Commercial_1A)       A
+                FA (raw)                      EndScene of Commercial_1       A
+                FA (raw)                      EndScene of Commercial_1       B
+                FA (raw)                      EndScene of Commercial_1     All
+                FA (raw)                      EndScene of Commercial_2       A
+                FA (raw)                      EndScene of Commercial_2       B
+                FA (raw)                      EndScene of Commercial_2     All
+ FA change from baseline                   KeyScene minus its baseline       A
+ FA change from baseline                EndScene_C1 minus its baseline       A
+ FA change from baseline                EndScene_C1 minus its baseline       B
+ FA change from baseline                EndScene_C1 minus its baseline     All
+ FA change from baseline                EndScene_C2 minus its baseline       A
+ FA change from baseline                EndScene_C2 minus its baseline       B
+ FA change from baseline                EndScene_C2 minus its baseline     All
+ FA change from baseline               Commercial_1 minus its baseline       A
+ FA change from baseline               Commercial_1 minus its baseline       B
+ FA change from baseline               Commercial_1 minus its baseline     All
+ FA change from baseline               Commercial_2 minus its baseline       A
+ FA change from baseline               Commercial_2 minus its baseline       B
+ FA change from baseline               Commercial_2 minus its baseline     All
+ FA change from baseline Change Commercial_2 minus change Commercial_1       A
+ FA change from baseline Change Commercial_2 minus change Commercial_1       B
+ FA change from baseline Change Commercial_2 minus change Commercial_1     All
+  n   mean    sd    min   max
+ 22 -0.081 0.099 -0.297 0.068
+ 23 -0.023 0.151 -0.279 0.385
+ 45 -0.052 0.130 -0.297 0.385
+ 22 -0.090 0.111 -0.226 0.214
+ 23 -0.020 0.136 -0.221 0.297
+ 45 -0.054 0.128 -0.226 0.297
+ 22 -0.106 0.121 -0.357 0.156
+ 23 -0.065 0.140 -0.343 0.195
+ 45 -0.085 0.131 -0.357 0.195
+ 22 -0.088 0.108 -0.278 0.121
+ 23 -0.005 0.171 -0.304 0.343
+ 45 -0.046 0.148 -0.304 0.343
+ 22  0.008 0.157 -0.402 0.229
+ 22 -0.057 0.117 -0.225 0.214
+ 23 -0.036 0.160 -0.355 0.233
+ 45 -0.046 0.139 -0.355 0.233
+ 22 -0.104 0.113 -0.296 0.085
+ 23 -0.009 0.188 -0.369 0.458
+ 45 -0.055 0.162 -0.369 0.458
+ 22  0.097 0.142 -0.230 0.372
+ 22  0.033 0.124 -0.238 0.309
+ 23 -0.012 0.123 -0.177 0.209
+ 45  0.010 0.124 -0.238 0.309
+ 22 -0.022 0.087 -0.161 0.153
+ 23  0.010 0.140 -0.264 0.370
+ 45 -0.006 0.117 -0.264 0.370
+ 22 -0.017 0.098 -0.171 0.186
+ 23 -0.041 0.062 -0.133 0.064
+ 45 -0.029 0.081 -0.171 0.186
+ 22 -0.007 0.087 -0.154 0.188
+ 23  0.014 0.083 -0.255 0.139
+ 45  0.004 0.085 -0.255 0.188
+ 22  0.010 0.133 -0.226 0.301
+ 23  0.055 0.084 -0.188 0.180
+ 45  0.033 0.112 -0.226 0.301
+
+Most FA scores are negative: 61 of 90 baseline rows (67.8 percent) are below zero, as in the demo study chart.
+Baselines: Baseline_1 M = -0.052 (SD = 0.130), Baseline_2 M = -0.054 (SD = 0.128); paired t(44) = -0.21, p = 0.83441; r = 0.82
+The two baselines are comparable, and a respondent's FA is stable across them (a trait like level); this stable part
+is what the baseline correction removes.
+Why the key scene is noisier (Version A, n = 22): the 6 s KeyScene holds 11 one second Welch windows, Commercial_1A 119.
+  SD of the change from baseline: KeyScene 0.142 versus whole Commercial_1A 0.098 (ratio 1.46)
+  Correlation with the preceding baseline: KeyScene r = 0.46 versus whole Commercial_1A r = 0.63
+
+written: SIMULATED_descriptives.csv
+
+---- STEP 7. H1: KeyScene minus the baseline before Commercial_1A (Version A) ----
+H1: FA change during the key scene (Version A, kept, n = 22)
+  Baseline before Commercial_1A: M = -0.090, SD = 0.104, n = 22
+  KeyScene: M = 0.008, SD = 0.157, n = 22
+  Change (KeyScene minus Baseline before Commercial_1A): M = 0.097 FA units, SD = 0.142, 95% CI [0.034, 0.160]
+  One sample t on the change (= paired t): t(21) = 3.21, p = 0.00421 (two tailed); one tailed p = 0.00211 (teaching only)
+  Cohen's d_z = 0.68, 95% CI [0.21, 1.14] (noncentral t); approximation [0.22, 1.15]
+  Wilcoxon signed rank V = 210, p = 0.00705
+  Shapiro Wilk on the changes: W = 0.975, p = 0.821
+  Respondents with a positive change: 17 of 22
+
+Cross-check with the effectsize package: d_z = 0.6842, 95% CI [0.2119, 1.1434] (hand computed: 0.6842 [0.2119, 1.1434])
+
+---- STEP 8. H2: baseline corrected EndScene of Commercial 1, Version A versus Version B ----
+H2: EndScene_C1 change, Version A (with key scene) versus Version B (without), n = 22 and 23
+  Version A: M = 0.033, SD = 0.124, n = 22
+  Version B: M = -0.012, SD = 0.123, n = 23
+  Difference (Version A minus Version B) = 0.045, 95% CI [-0.029, 0.119] (Welch)
+  Welch t(42.87) = 1.22, p = 0.22864 (two tailed); one tailed p = 0.11432 (teaching only)
+  Student t(43) = 1.22, p = 0.22853 (equal variances assumed; used only for the d interval)
+  Pooled SD = 0.123; Cohen's d = 0.36, 95% CI [-0.23, 0.95]; Hedges' g = 0.36, 95% CI [-0.22, 0.94] (noncentral t)
+  Approximate intervals: d [-0.23, 0.95], g [-0.23, 0.95]
+  Mann Whitney W = 313, p = 0.17670
+  Shapiro Wilk: Version A p = 0.962, Version B p = 0.061; variance ratio (larger / smaller) = 1.02
+
+Power note: at the observed d = 0.36, a new study needs n = 120 respondents PER VERSION (240 in total) for 80% power
+(two tailed, alpha = .05). With 22 and 23 respondents (harmonic mean 22.5) the power at this d was 0.22.
+For comparison, a within subjects test like H1 at d_z = 0.68 needs n = 19 for 80% power.
+EndScene_C1 change above zero: Version A 13 of 22, Version B 8 of 23
+
+---- STEP 9. H3: baseline corrected whole commercial FA, Commercial_2 versus Commercial_1 (paired) ----
+H3: change Commercial_2 minus change Commercial_1 (all kept, n = 45)
+  Commercial_1 change: M = -0.029, SD = 0.081, n = 45
+  Commercial_2 change: M = 0.004, SD = 0.085, n = 45
+  Change (Commercial_2 change minus Commercial_1 change): M = 0.033 FA units, SD = 0.112, 95% CI [-0.001, 0.066]
+  One sample t on the change (= paired t): t(44) = 1.98, p = 0.05455 (two tailed); one tailed p = 0.02727 (teaching only)
+  Cohen's d_z = 0.29, 95% CI [-0.01, 0.59] (noncentral t); approximation [-0.00, 0.59]
+  Wilcoxon signed rank V = 703, p = 0.03678
+  Shapiro Wilk on the changes: W = 0.978, p = 0.558
+  Respondents with a positive change: 30 of 45
+
+Correlation of a respondent's two commercial changes: r = 0.10
+
+---- STEP 9b. Mixed model: FA_change ~ commercial * version + position + (1 | respondent) ----
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: fa_change ~ commercial * version + position + (1 | respondent)
+   Data: mm_data
+
+REML criterion at convergence: -165.1
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-3.03452 -0.58386 -0.03182  0.60751  2.33718 
+
+Random effects:
+ Groups     Name        Variance  Std.Dev.
+ respondent (Intercept) 0.0007695 0.02774 
+ Residual               0.0062508 0.07906 
+Number of obs: 90, groups:  respondent, 45
+
+Fixed effects:
+                      Estimate Std. Error        df t value Pr(>|t|)  
+(Intercept)          -0.012629   0.009306 43.000000  -1.357   0.1818  
+commercial1           0.032342   0.016676 42.000000   1.939   0.0592 .
+version1              0.002085   0.018611 43.000000   0.112   0.9113  
+position1             0.000619   0.016676 42.000000   0.037   0.9706  
+commercial1:version1 -0.045011   0.033352 42.000000  -1.350   0.1844  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Type III tests (Satterthwaite degrees of freedom):
+Type III Analysis of Variance Table with Satterthwaite's method
+                      Sum Sq   Mean Sq NumDF DenDF F value  Pr(>F)  
+commercial         0.0235119 0.0235119     1    42  3.7614 0.05918 .
+version            0.0000785 0.0000785     1    43  0.0126 0.91131  
+position           0.0000086 0.0000086     1    42  0.0014 0.97057  
+commercial:version 0.0113850 0.0113850     1    42  1.8214 0.18438  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Fixed effects with 95% CI (estimate +/- t(Satterthwaite df) x SE):
+  Intercept (grand mean change)                  b = -0.0126, SE = 0.0093, df =  43.0, t =  -1.36, p = 0.18182, 95% CI [-0.0314, 0.0061]
+  Commercial (Commercial_2 minus Commercial_1)   b =  0.0323, SE = 0.0167, df =  42.0, t =   1.94, p = 0.05918, 95% CI [-0.0013, 0.0660]
+  Version (A minus B)                            b =  0.0021, SE = 0.0186, df =  43.0, t =   0.11, p = 0.91131, 95% CI [-0.0354, 0.0396]
+  Position (second minus first)                  b =  0.0006, SE = 0.0167, df =  42.0, t =   0.04, p = 0.97057, 95% CI [-0.0330, 0.0343]
+  Commercial x version                           b = -0.0450, SE = 0.0334, df =  42.0, t =  -1.35, p = 0.18438, 95% CI [-0.1123, 0.0223]
+
+ICC (adjusted, from the fitted model) = 0.110  (respondent variance 0.00077, residual variance 0.00625)
+ICC (unconditional, intercept only model) = 0.069
+Singular fit: FALSE
+A low ICC is expected here: the baseline correction already removed the stable person level (the trait),
+so little of what remains is shared by a respondent's two change scores.
+Simple position estimate = (mean difference C1first - mean difference C2first) / 2 = (0.0339 - 0.0317) / 2 = 0.0011 (n = 23 and 22)
+Simple commercial estimate (position balanced) = (0.0339 + 0.0317) / 2 = 0.0328
+Simple commercial x version estimate = mean difference Version A - mean difference Version B = 0.0098 - 0.0549 = -0.0450
+(The model estimates differ slightly from the simple ones because the four version by order cells are unequal after the exclusions.)
+
+Cell means of the FA change:
+ version commercial  n mean_change sd_change
+       B         C1 23     -0.0411    0.0616
+       B         C2 23      0.0138    0.0835
+       A         C1 22     -0.0165    0.0977
+       A         C2 22     -0.0067    0.0873
+
+---- STEP 10. Exploratory ----
+Liking (1 to 7): Commercial_1A M = 5.55 (SD = 1.26, n = 22), Commercial_1B M = 4.96 (SD = 1.58, n = 23), Commercial_2 M = 5.31 (SD = 1.35, n = 45)
+Key scene recalled (Version A): 19 of 22 (86.4 percent); brand named correctly: 34 of 45 (75.6 percent)
+Commercial_1 FA change with Liking_Commercial_1_1to7: r(43) = 0.17, 95% CI [-0.13, 0.44], p = 0.26067; Spearman rho = 0.23, p = 0.12994
+Commercial_2 FA change with Liking_Commercial_2_1to7: r(43) = 0.29, 95% CI [-0.00, 0.54], p = 0.05103; Spearman rho = 0.29, p = 0.05552
+Approach is not the same as liking (approach can come from anger or curiosity), so a modest correlation is the expected result.
+KeyScene change by recall (descriptive only): recalled M = 0.113 (n = 19), not recalled M = -0.003 (n = 3)
+
+Frontal midline theta (Mean PSD Ch1 Theta (dB), assumed Fz), commercial minus its preceding baseline:
+  Commercial_1: M = +0.44 dB, SD = 0.74, 95% CI [+0.22, +0.66], higher than baseline for 33 of 45 respondents
+  Commercial_2: M = +0.35 dB, SD = 0.59, 95% CI [+0.17, +0.53], higher than baseline for 31 of 45 respondents
+  Mean of the two commercials: M = +0.40 dB, SD = 0.53, 95% CI [+0.24, +0.56], higher than baseline for 34 of 45 respondents
+Electrode cluster average alpha (all 8 channels), commercial minus its preceding baseline:
+  Commercial_1: M = -0.51 dB, SD = 0.64, 95% CI [-0.70, -0.31], higher than baseline for 11 of 45 respondents
+  Commercial_2: M = -0.51 dB, SD = 0.70, 95% CI [-0.72, -0.30], higher than baseline for 9 of 45 respondents
+Theta at Fz rose slightly and alpha fell during the commercials, the pattern expected when attention and
+processing load increase; with no hypothesis and no test this stays a description.
+
+---- STEP 11. Sensitivity analyses ----
+(a) Threshold 15 percent: 7 respondents excluded (4 more than the main rule): P04 (Version A, 22.83 percent, F4 Baseline_1); P18 (Version A, 17.28 percent, F4 Commercial_1A); P22 (Version B, 19.79 percent, F4 Baseline_1); P32 (Version B, 21.01 percent, F3 Commercial_1B)
+    Kept: 41 (Version A 20, Version B 21)
+
+Sensitivity H1, 15 percent threshold (n = 20)
+  Baseline before Commercial_1A: M = -0.096, SD = 0.107, n = 20
+  KeyScene: M = 0.004, SD = 0.162, n = 20
+  Change (KeyScene minus Baseline before Commercial_1A): M = 0.100 FA units, SD = 0.147, 95% CI [0.031, 0.169]
+  One sample t on the change (= paired t): t(19) = 3.03, p = 0.00683 (two tailed); one tailed p = 0.00342 (teaching only)
+  Cohen's d_z = 0.68, 95% CI [0.18, 1.16] (noncentral t); approximation [0.19, 1.16]
+  Wilcoxon signed rank V = 174, p = 0.01055
+  Shapiro Wilk on the changes: W = 0.974, p = 0.836
+  Respondents with a positive change: 16 of 20
+
+Sensitivity H2, 15 percent threshold (n = 20 and 21)
+  Version A: M = 0.036, SD = 0.129, n = 20
+  Version B: M = -0.004, SD = 0.123, n = 21
+  Difference (Version A minus Version B) = 0.040, 95% CI [-0.040, 0.119] (Welch)
+  Welch t(38.63) = 1.01, p = 0.31816 (two tailed); one tailed p = 0.15908 (teaching only)
+  Student t(39) = 1.01, p = 0.31753 (equal variances assumed; used only for the d interval)
+  Pooled SD = 0.126; Cohen's d = 0.32, 95% CI [-0.30, 0.93]; Hedges' g = 0.31, 95% CI [-0.30, 0.91] (noncentral t)
+  Approximate intervals: d [-0.30, 0.93], g [-0.31, 0.93]
+  Mann Whitney W = 255, p = 0.24578
+  Shapiro Wilk: Version A p = 0.988, Version B p = 0.070; variance ratio (larger / smaller) = 1.10
+
+(b) Without baseline correction
+Sensitivity H1 without baseline correction: raw KeyScene FA against 0 (n = 22)
+  M = 0.008, SD = 0.157, n = 22, 95% CI [-0.062, 0.077]
+  One sample t against 0: t(21) = 0.23, p = 0.81897 (two tailed); one tailed p = 0.40949
+  Cohen's d = 0.05, 95% CI [-0.37, 0.47] (noncentral t)
+  Wilcoxon signed rank V = 147, p = 0.51614
+  Respondents with a positive score: 14 of 22
+
+Sensitivity H2 without baseline correction: raw EndScene_C1 FA (n = 22 and 23)
+  Version A: M = -0.057, SD = 0.117, n = 22
+  Version B: M = -0.036, SD = 0.160, n = 23
+  Difference (Version A minus Version B) = -0.021, 95% CI [-0.105, 0.063] (Welch)
+  Welch t(40.36) = -0.50, p = 0.61873 (two tailed); one tailed p = 0.69064 (teaching only)
+  Student t(43) = -0.50, p = 0.62094 (equal variances assumed; used only for the d interval)
+  Pooled SD = 0.141; Cohen's d = -0.15, 95% CI [-0.73, 0.44]; Hedges' g = -0.15, 95% CI [-0.72, 0.43] (noncentral t)
+  Approximate intervals: d [-0.73, 0.44], g [-0.73, 0.44]
+  Mann Whitney W = 227, p = 0.56259
+  Shapiro Wilk: Version A p = 0.259, Version B p = 0.777; variance ratio (larger / smaller) = 1.86
+
+The SD of the raw EndScene_C1 FA (pooled 0.141) is larger than the SD of its change score (pooled 0.123): the baseline
+correction removes the stable between person differences. The baselines of the two versions differed by -0.066 by chance
+(Version A minus Version B), and the raw comparison carries that difference along with the effect.
+
+---- STEP 12. Teaching contrast: FA computed with the notebook defaults (left Ch1 = Fz, right Ch7 = P3) ----
+Mean baseline 'FA' with the default channels: 0.681 (SD = 0.180) versus -0.053 (SD = 0.128) with F3 and F4
+H1 with the DEFAULT channels (Version A, n = 22)
+  Baseline before Commercial_1A: M = 0.744, SD = 0.192, n = 22
+  KeyScene: M = 0.734, SD = 0.237, n = 22
+  Change (KeyScene minus Baseline before Commercial_1A): M = -0.011 FA units, SD = 0.123, 95% CI [-0.065, 0.044]
+  One sample t on the change (= paired t): t(21) = -0.40, p = 0.69070 (two tailed); one tailed p = 0.65465 (teaching only)
+  Cohen's d_z = -0.09, 95% CI [-0.50, 0.33] (noncentral t); approximation [-0.50, 0.33]
+  Wilcoxon signed rank V = 118, p = 0.79508
+  Shapiro Wilk on the changes: W = 0.979, p = 0.893
+  Respondents with a positive change: 10 of 22
+
+Correlation between the default channel KeyScene change and the F3/F4 KeyScene change: r = 0.17
+With the wrong channel pair the key scene effect disappears: Ch7 minus Ch1 compares a left parietal with a midline
+frontal site, so it cannot see a left versus right frontal difference. The export looks normal; only the channel map shows the error.
+
+---- STEP 13. Assumption checks ----
+Shapiro Wilk p (a low p flags non-normality; small groups have little power to detect it):
+                                    test  n shapiro_p
+          H1 KeyScene change (Version A) 22     0.821
+        H2 EndScene_C1 change, Version A 22     0.962
+        H2 EndScene_C1 change, Version B 23     0.061
+ H3 difference of the commercial changes 45     0.558
+Variance ratio of the H2 groups (larger / smaller) = 1.02; Welch's t does not need equal variances.
+Shapiro Wilk p for the mixed model residuals: 0.675; for the respondent random intercepts: 0.876
+saved figure: figures/SIMULATED_assumption_checks.png
+Reading the plots: points near the line = roughly normal; a fan shape in residuals vs fitted = unequal
+variance; the KeyScene box is wider than the whole commercial box because 11 windows average out less noise than 119.
+
+---- STEP 14. Figures ----
+saved figure: figures/SIMULATED_fig1_keyscene_vs_baseline.png 
+saved figure: figures/SIMULATED_fig2_endscene_by_version.png 
+saved figure: figures/SIMULATED_fig3_commercials_by_version.png 
+saved figure: figures/SIMULATED_fig4_artifact_screening.png 
+
+---- Summary of the tests ----
+         id  n n1 n2      m1      m2 mean_diff       t      df      p
+         H1 22 NA NA -0.0896  0.0077    0.0973  3.2092 21.0000 0.0042
+         H2 45 22 23  0.0326 -0.0122    0.0448  1.2213 42.8705 0.2286
+         H3 45 NA NA -0.0291  0.0038    0.0329  1.9751 44.0000 0.0545
+     S15_H1 20 NA NA -0.0964  0.0037    0.1000  3.0337 19.0000 0.0068
+     S15_H2 41 20 21  0.0358 -0.0040    0.0398  1.0113 38.6284 0.3182
+     RAW_H1 22 NA NA      NA  0.0077    0.0077  0.2318 21.0000 0.8190
+     RAW_H2 45 22 23 -0.0570 -0.0361   -0.0209 -0.5015 40.3553 0.6187
+ DEFAULT_H1 22 NA NA  0.7445  0.7339   -0.0106 -0.4034 21.0000 0.6907
+        es_type      es es_ci_low es_ci_high nonparam_stat nonparam_p
+            d_z  0.6842    0.2119     1.1434           210     0.0070
+  d (pooled SD)  0.3643   -0.2273     0.9517           313     0.1767
+            d_z  0.2944   -0.0057     0.5914           703     0.0368
+            d_z  0.6784    0.1834     1.1590           174     0.0105
+  d (pooled SD)  0.3164   -0.3020     0.9307           255     0.2458
+ d (one sample)  0.0494   -0.3693     0.4670           147     0.5161
+  d (pooled SD) -0.1485   -0.7330     0.4376           227     0.5626
+            d_z -0.0860   -0.5037     0.3337           118     0.7951
+written: SIMULATED_test_results.csv
+written: SIMULATED_model_results.csv
+
+Done. Reminder: every number above is SIMULATED for teaching.

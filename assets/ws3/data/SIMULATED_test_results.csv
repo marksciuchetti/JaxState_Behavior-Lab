@@ -1,0 +1,53 @@
+hypothesis,analysis,quantity,estimate,ci_low,ci_high,statistic,df,p,n
+H1 threshold 50,Descriptive,Baseline mean Percent of time present,1.606,NA,NA,NA,NA,NA,30
+H1 threshold 50,Descriptive,Commercial mean Percent of time present,10.365333,NA,NA,NA,NA,NA,30
+H1 threshold 50,Descriptive,"Viewers with any Joy, Baseline",8,NA,NA,NA,NA,NA,30
+H1 threshold 50,Descriptive,"Viewers with any Joy, Commercial",25,NA,NA,NA,NA,NA,30
+H1 threshold 50,Exact McNemar test,Joy present only at Baseline versus only during the Commercial,17,NA,NA,NA,NA,7.629e-5,30
+H1 threshold 50,Wilcoxon signed rank (primary),V (sum of positive ranks),NA,NA,NA,331,NA,8.261e-5,26
+H1 threshold 50,Wilcoxon signed rank (primary),Matched pairs rank biserial correlation,0.88604,NA,NA,NA,NA,NA,26
+H1 threshold 50,Wilcoxon signed rank (primary),Hodges-Lehmann median difference,8.360068,4.475048,13.639941,NA,NA,NA,26
+H1 threshold 50,Paired t test,Mean difference (Commercial minus Baseline),8.759333,4.339579,13.179087000000001,4.053359,29,3.46e-4,30
+H1 threshold 50,Paired t test,Cohen's d_z,0.740039,0.330068,1.140004,NA,NA,NA,30
+H1 sensitivity threshold 25,Descriptive,Baseline mean Percent of time present,3.439333,NA,NA,NA,NA,NA,30
+H1 sensitivity threshold 25,Descriptive,Commercial mean Percent of time present,17.755333,NA,NA,NA,NA,NA,30
+H1 sensitivity threshold 25,Descriptive,"Viewers with any Joy, Baseline",13,NA,NA,NA,NA,NA,30
+H1 sensitivity threshold 25,Descriptive,"Viewers with any Joy, Commercial",28,NA,NA,NA,NA,NA,30
+H1 sensitivity threshold 25,Exact McNemar test,Joy present only at Baseline versus only during the Commercial,15,NA,NA,NA,NA,6.104e-5,30
+H1 sensitivity threshold 25,Wilcoxon signed rank (primary),V (sum of positive ranks),NA,NA,NA,389,NA,2.399e-5,28
+H1 sensitivity threshold 25,Wilcoxon signed rank (primary),Matched pairs rank biserial correlation,0.916256,NA,NA,NA,NA,NA,28
+H1 sensitivity threshold 25,Wilcoxon signed rank (primary),Hodges-Lehmann median difference,13.63734,7.694974,21.30505,NA,NA,NA,28
+H1 sensitivity threshold 25,Paired t test,Mean difference (Commercial minus Baseline),14.316,8.347916,20.284084,4.906014,29,3.294e-5,30
+H1 sensitivity threshold 25,Paired t test,Cohen's d_z,0.895712,0.465096,1.315295,NA,NA,NA,30
+H1 sensitivity threshold 75,Descriptive,Baseline mean Percent of time present,0.561333,NA,NA,NA,NA,NA,30
+H1 sensitivity threshold 75,Descriptive,Commercial mean Percent of time present,4.210667,NA,NA,NA,NA,NA,30
+H1 sensitivity threshold 75,Descriptive,"Viewers with any Joy, Baseline",7,NA,NA,NA,NA,NA,30
+H1 sensitivity threshold 75,Descriptive,"Viewers with any Joy, Commercial",18,NA,NA,NA,NA,NA,30
+H1 sensitivity threshold 75,Exact McNemar test,Joy present only at Baseline versus only during the Commercial,11,NA,NA,NA,NA,0.003418,30
+H1 sensitivity threshold 75,Wilcoxon signed rank (primary),V (sum of positive ranks),NA,NA,NA,183.5,NA,3.971e-4,19
+H1 sensitivity threshold 75,Wilcoxon signed rank (primary),Matched pairs rank biserial correlation,0.931579,NA,NA,NA,NA,NA,19
+H1 sensitivity threshold 75,Wilcoxon signed rank (primary),Hodges-Lehmann median difference,4.173724,2.080001,7.695007,NA,NA,NA,19
+H1 sensitivity threshold 75,Paired t test,Mean difference (Commercial minus Baseline),3.649333,1.27693,6.021737,3.14606,29,0.003807,30
+H1 sensitivity threshold 75,Paired t test,Cohen's d_z,0.574389,0.18323,0.957071,NA,NA,NA,30
+H2,Mixed model pct ~ bin + (1 | respondent),Bin factor F test,NA,NA,NA,8.524304,145,4.251e-7,30
+H2,Mixed model pct ~ bin + (1 | respondent),ICC adjusted,0.431271,NA,NA,NA,NA,NA,30
+H2,Contrast (Satterthwaite),Bin_05 minus mean(Bin_01..Bin_04),18.256083,12.56429,23.947877,6.339375,145,2.751e-9,30
+H2,Contrast (Satterthwaite),Bin_06 minus mean(Bin_01..Bin_04),7.333417,1.641623,13.02521,2.546509,145,0.01192,30
+H2,Mixed model on sqrt(percent),Bin factor F test,NA,NA,NA,9.095109,145,1.526e-7,30
+H2,Friedman test,Chi-squared,NA,NA,NA,34.682663,5,1.741e-6,30
+H2,Friedman test,Kendall's W,0.231218,NA,NA,NA,NA,NA,30
+H2,Proportion of viewers with Joy present,Bin_01: proportion with Joy present,0.233333,0.099338,0.422837,NA,NA,NA,30
+H2,Proportion of viewers with Joy present,Bin_02: proportion with Joy present,0.266667,0.122795,0.458894,NA,NA,NA,30
+H2,Proportion of viewers with Joy present,Bin_03: proportion with Joy present,0.233333,0.099338,0.422837,NA,NA,NA,30
+H2,Proportion of viewers with Joy present,Bin_04: proportion with Joy present,0.3,0.147345,0.493959,NA,NA,NA,30
+H2,Proportion of viewers with Joy present,Bin_05: proportion with Joy present,0.666667,0.47188,0.827126,NA,NA,NA,30
+H2,Proportion of viewers with Joy present,Bin_06: proportion with Joy present,0.533333,0.343255,0.716582,NA,NA,NA,30
+H2,Mean Percent of time present,Bin_01: mean Joy percent,4.833667,0.506511,9.160823,NA,NA,NA,30
+H2,Mean Percent of time present,Bin_02: mean Joy percent,7.733,2.079505,13.386495,NA,NA,NA,30
+H2,Mean Percent of time present,Bin_03: mean Joy percent,6.422,0.007096,12.836904,NA,NA,NA,30
+H2,Mean Percent of time present,Bin_04: mean Joy percent,5.411,0.991386,9.830614,NA,NA,NA,30
+H2,Mean Percent of time present,Bin_05: mean Joy percent,24.356,13.641919,35.070081,NA,NA,NA,30
+H2,Mean Percent of time present,Bin_06: mean Joy percent,13.433333,5.271304,21.595363,NA,NA,NA,30
+H3,Pearson,r (Positive Valence % with Ad_liking_1to7),0.454838,0.113102,0.700346,2.7025,28,0.01156,30
+H3,Spearman,rho (Positive Valence % with Ad_liking_1to7),0.414595,0.04804,0.682734,2.410788,28,0.02273,30
+H3,Least squares line,Slope (percentage points per liking point),4.976645,1.20451,8.748779,2.7025,28,0.01156,30

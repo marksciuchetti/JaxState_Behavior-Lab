@@ -1,0 +1,25 @@
+analysis,term,estimate,se,df,statistic,p,ci_low,ci_high
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Intercept (grand mean change),-0.012629051383399202,0.009305676116328087,42.99999992094779,-1.3571342077164923,0.18181988454175874,-0.03139573581673646,0.006137633049938055
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Commercial (Commercial_2 minus Commercial_1),0.03234168278529981,0.0166757786988644,41.99999966745128,1.9394406323887134,0.05918411150953007,-0.001311401095022209,0.06599476666562182
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Version (A minus B),0.0020853754940711533,0.018611352232656173,42.99999992582353,0.11204857486991598,0.9113063252388858,-0.03544799337248029,0.03961874436062259
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Position (second minus first),6.189555125725274e-4,0.0166757786988644,41.99999966745128,0.03711703805560082,0.9705675477275079,-0.033034128367749487,0.03427203939289455
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Commercial x version,-0.04501063829787233,0.0333515573977288,41.99999966745128,-1.3495813032388557,0.18438026074949634,-0.11231680605851636,0.022295529462771704
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Respondent variance,7.694826922289683e-4,NA,NA,NA,NA,NA,NA
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Residual variance,0.006250790640233883,NA,NA,NA,NA,NA,NA
+Mixed model FA change ~ commercial * version + position + (1 | respondent),ICC adjusted (fitted model),0.10960865137127339,NA,NA,NA,NA,NA,NA
+Mixed model FA change ~ commercial * version + position + (1 | respondent),ICC unconditional (intercept only),0.0693360666952967,NA,NA,NA,NA,NA,NA
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Simple position estimate ((C1first - C2first) / 2),0.0011082015810276631,NA,NA,NA,NA,NA,NA
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Simple commercial estimate ((C1first + C2first) / 2),0.03283092885375494,NA,NA,NA,NA,NA,NA
+Mixed model FA change ~ commercial * version + position + (1 | respondent),Simple commercial x version estimate (A - B),-0.04503754940711463,NA,NA,NA,NA,NA,NA
+Exploratory: whole commercial FA change with liking,r Commercial_1,0.1712518288862106,NA,43,1.139811445103344,0.26067434360844505,-0.12875433406544756,0.4425400409411409
+Exploratory: whole commercial FA change with liking,r Commercial_2,0.2927081750337289,NA,43,2.007333409450815,0.05102565205046433,-9.03352684242758e-4,0.5398576396129967
+Exploratory: whole commercial FA change with liking,Spearman rho Commercial_1,0.22917781620807487,NA,NA,NA,0.12993822707056338,NA,NA
+Exploratory: whole commercial FA change with liking,Spearman rho Commercial_2,0.2874704962395739,NA,NA,NA,0.0555206269385539,NA,NA
+Power note for H2,Observed d (pooled SD),0.3642917049791735,NA,NA,NA,NA,NA,NA
+Power note for H2,"n per version for 80 percent power (power.t.test, rounded up)",120,NA,NA,NA,NA,NA,NA
+Power note for H2,Power achieved with the kept sample,0.22196200105378938,NA,NA,NA,NA,NA,NA
+"Exploratory: frontal midline theta (Ch1, dB)",Change Commercial_1 (mean),0.4408,NA,NA,NA,NA,0.21841530029456543,0.6631846997054346
+"Exploratory: frontal midline theta (Ch1, dB)",Change Commercial_2 (mean),0.3507555555555557,NA,NA,NA,NA,0.1723204876740649,0.5291906234370465
+Baselines,Baseline_2 minus Baseline_1 (paired),-0.0024288888888888884,NA,44,-0.21029364020506516,0.8344093092189524,-0.0257063589246922,0.020848581146914423
+Baselines,r Baseline_1 with Baseline_2,0.8196952746746411,NA,NA,NA,NA,NA,NA
+Consistency,r exported FA with (Ch6 - Ch5 alpha dB) / 4.343,0.9940916384797109,NA,NA,NA,NA,NA,NA
