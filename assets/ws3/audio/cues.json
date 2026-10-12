@@ -7636,8 +7636,8 @@
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 509.356,
-      "mp3_duration": 509.424,
+      "duration": 865.599,
+      "mp3_duration": 865.656,
       "starts": [
         0.0,
         2.62,
@@ -7667,42 +7667,92 @@
         202.655,
         214.355,
         218.447,
-        219.842,
-        232.147,
-        242.426,
-        252.043,
-        267.89,
-        277.251,
-        293.717,
-        300.39,
-        301.401,
-        315.392,
-        316.702,
-        322.543,
-        323.533,
-        333.471,
-        341.501,
-        342.875,
-        347.457,
-        348.597,
-        353.96,
-        356.614,
-        362.434,
-        369.491,
-        372.559,
-        373.443,
-        380.457,
-        392.775,
-        394.149,
-        396.471,
-        409.544,
-        424.409,
-        440.725,
-        446.972,
-        461.197,
-        470.281,
-        490.693,
-        492.695
+        220.192,
+        238.919,
+        249.197,
+        258.815,
+        274.661,
+        289.527,
+        296.255,
+        299.025,
+        306.039,
+        309.15,
+        312.017,
+        316.634,
+        322.189,
+        325.321,
+        327.997,
+        341.475,
+        346.945,
+        355.219,
+        361.478,
+        369.453,
+        374.505,
+        376.156,
+        385.637,
+        390.369,
+        392.425,
+        398.194,
+        401.305,
+        406.732,
+        412.125,
+        421.465,
+        425.357,
+        435.87,
+        445.018,
+        453.355,
+        465.319,
+        479.246,
+        482.22,
+        491.539,
+        499.151,
+        502.082,
+        512.723,
+        515.463,
+        521.871,
+        526.817,
+        543.922,
+        555.033,
+        557.004,
+        565.034,
+        569.126,
+        583.394,
+        595.913,
+        597.735,
+        605.112,
+        620.276,
+        624.133,
+        633.495,
+        649.96,
+        656.633,
+        657.645,
+        671.635,
+        672.945,
+        678.787,
+        679.777,
+        689.714,
+        697.744,
+        699.118,
+        703.701,
+        704.84,
+        710.203,
+        712.857,
+        718.677,
+        725.735,
+        728.803,
+        729.686,
+        736.701,
+        749.019,
+        750.393,
+        752.714,
+        765.787,
+        780.653,
+        796.969,
+        803.215,
+        817.441,
+        826.525,
+        846.937,
+        848.938
       ],
       "sentences": [
         {
@@ -7903,254 +7953,604 @@
         },
         {
           "index": 28,
-          "paragraph": 19,
-          "start": 219.842,
-          "end": 231.447,
-          "text": "Open the Signals menu, where 'Affectiva aff decks' should be listed with its Behavioral, Emotion, and Facial Expression groups, and click to the left of a signal to show it in the Signals panel."
+          "paragraph": 20,
+          "start": 220.192,
+          "end": 238.219,
+          "text": "Open the Signals menu, where 'Affectiva aff decks' is listed with four groups on the lab computer (Behavioral, E M F A C S Expressions, Facial Action Units, and Other Measures; 5.4 explains every signal), and click a signal's name to show its chart in the Signals panel."
         },
         {
           "index": 29,
-          "paragraph": 20,
-          "start": 232.147,
-          "end": 241.726,
+          "paragraph": 21,
+          "start": 238.919,
+          "end": 248.497,
           "text": "\"Check that the graphs are streaming live and that the data fluctuates as expected\": on your own face, smile and frown to see Joy and Brow Furrow move."
         },
         {
           "index": 30,
-          "paragraph": 21,
-          "start": 242.426,
-          "end": 251.343,
+          "paragraph": 22,
+          "start": 249.197,
+          "end": 258.115,
           "text": "With a viewer, check only the Facebox and the numbers; asking a viewer to smile rehearses the very response the study measures, a demand effect."
         },
         {
           "index": 31,
-          "paragraph": 22,
-          "start": 252.043,
-          "end": 267.19,
+          "paragraph": 23,
+          "start": 258.815,
+          "end": 273.961,
           "text": "The help center says the Sensor Data Preview during a recording is \"only available when running the experiment on a dual-screen setup,\" so whether the operator can watch the face while the commercial plays depends on the lab layout; verify on the lab machine."
         },
         {
           "index": 32,
-          "paragraph": 23,
-          "start": 267.89,
-          "end": 276.551,
-          "text": "Before the viewer arrives: the camera and aff decks checked on your own face, the study selected, the log open, and any live markers defined."
+          "paragraph": 24,
+          "start": 274.661,
+          "end": 288.827,
+          "text": "On the lab computer the Signals menu sorts the Affectiva aff decks channels into four lists: Behavioral (4 signals), E M F A C S Expressions (7), Facial Action Units (20), and Other Measures (13)."
         },
         {
           "index": 33,
-          "paragraph": 24,
-          "start": 277.251,
-          "end": 293.017,
-          "text": "A live marker is a time stamp the operator adds with a key during recording, and \"You have to define your Live Markers before starting the data recording\": on the study's Live Markers tab, type a Name, choose a key combination and a color, and click Add Marker."
+          "paragraph": 25,
+          "start": 289.527,
+          "end": 295.905,
+          "text": "The count beside a list, such as 0 of 7, says how many of its signals are shown in the Signals panel."
         },
         {
           "index": 34,
           "paragraph": 25,
-          "start": 293.717,
-          "end": 299.69,
-          "text": "Useful operator markers name the problems of a face study, such as \"Face covered\" or \"Talking.\""
+          "start": 296.255,
+          "end": 298.325,
+          "text": "Click a name to show or hide its chart."
         },
         {
           "index": 35,
           "paragraph": 26,
-          "start": 300.39,
-          "end": 301.051,
-          "text": "Consent."
+          "start": 299.025,
+          "end": 305.339,
+          "text": "Each list answers a different question and is read on its own scale, so learn the scale before you judge a line."
         },
         {
           "index": 36,
-          "paragraph": 26,
-          "start": 301.401,
-          "end": 314.692,
-          "text": "Obtain informed consent with the form from section 02, which names the face video, who may watch it, where it is stored, and when it is deleted (Neuromarketing Science and Business Association, n.d.)"
+          "paragraph": 27,
+          "start": 306.039,
+          "end": 308.45,
+          "text": "Four rules apply to every aff decks signal."
         },
         {
           "index": 37,
-          "paragraph": 27,
-          "start": 315.392,
-          "end": 316.352,
-          "text": "Seat and check."
+          "paragraph": 28,
+          "start": 309.15,
+          "end": 311.667,
+          "text": "A value exists only when a face is found."
         },
         {
           "index": 38,
-          "paragraph": 27,
-          "start": 316.702,
-          "end": 321.843,
-          "text": "Seat the viewer, adjust the camera and the light, and confirm the Facebox in the preview."
+          "paragraph": 28,
+          "start": 312.017,
+          "end": 316.284,
+          "text": "\"Data is provided for each frame of video where a face is detected.\""
         },
         {
           "index": 39,
           "paragraph": 28,
-          "start": 322.543,
-          "end": 323.183,
-          "text": "Record."
+          "start": 316.634,
+          "end": 321.839,
+          "text": "A gap, or a straight line bridging a stretch of the chart, means no face was found then."
         },
         {
           "index": 40,
           "paragraph": 28,
-          "start": 323.533,
-          "end": 332.771,
-          "text": "Select or add the respondent with the anonymous I D from the log (V 01, V 02, and so on) and click Start Recording."
+          "start": 322.189,
+          "end": 324.621,
+          "text": "It is missing data, not a score of 0."
         },
         {
           "index": 41,
           "paragraph": 29,
-          "start": 333.471,
-          "end": 341.151,
-          "text": "iMotions warns at the start if the study and Global Settings disagree; stop and fix the setting instead of clicking past it."
+          "start": 325.321,
+          "end": 327.647,
+          "text": "The live view is a check, not the result."
         },
         {
           "index": 42,
           "paragraph": 29,
-          "start": 341.501,
-          "end": 342.525,
-          "text": "Common mistake."
+          "start": 327.997,
+          "end": 340.775,
+          "text": "\"aff decks renders at 15 hertz during live collection and must be post-processed up to 30 hertz,\" so the numbers you analyze come from post processing (section 07), not from this window."
         },
         {
           "index": 43,
-          "paragraph": 29,
-          "start": 342.875,
-          "end": 346.757,
-          "text": "Recording a respondent a second time, which overwrites the data."
+          "paragraph": 30,
+          "start": 341.475,
+          "end": 346.595,
+          "text": "Expression scores run from 0 to 100 and are probabilities, not strengths."
         },
         {
           "index": 44,
           "paragraph": 30,
-          "start": 347.457,
-          "end": 348.247,
-          "text": "Let it run."
+          "start": 346.945,
+          "end": 354.519,
+          "text": "0 means not expressed and 100 means expressed; \"50 equals 50 percent probability it was expressed.\""
         },
         {
           "index": 45,
-          "paragraph": 30,
-          "start": 348.597,
-          "end": 353.61,
-          "text": "The Instructions, Baseline, commercial, Recovery, and questionnaire run on their own."
+          "paragraph": 31,
+          "start": 355.219,
+          "end": 361.128,
+          "text": "The help center warns that a high probability and the intensity of the expression \"are not the same.\""
         },
         {
           "index": 46,
-          "paragraph": 30,
-          "start": 353.96,
-          "end": 356.264,
-          "text": "Sit out of the viewer's sight and stay silent."
+          "paragraph": 31,
+          "start": 361.478,
+          "end": 368.753,
+          "text": "Valence is the exception: it runs from -100 (negative) through 0 to 100 (positive)."
         },
         {
           "index": 47,
-          "paragraph": 30,
-          "start": 356.614,
-          "end": 361.734,
-          "text": "If something happens, press a live marker key where the preview allows it and note the time."
+          "paragraph": 32,
+          "start": 369.453,
+          "end": 373.805,
+          "text": "The head angles are in degrees and Interocular Distance is in pixels."
         },
         {
           "index": 48,
-          "paragraph": 31,
-          "start": 362.434,
-          "end": 368.791,
-          "text": "End Recording (Shift-F1) is only for stopping early; an aborted recording is still saved."
+          "paragraph": 33,
+          "start": 374.505,
+          "end": 375.806,
+          "text": "Read the axis first."
         },
         {
           "index": 49,
-          "paragraph": 32,
-          "start": 369.491,
-          "end": 371.859,
-          "text": "Debrief the viewer and answer questions."
+          "paragraph": 33,
+          "start": 376.156,
+          "end": 385.287,
+          "text": "The Signals menu lets you change \"the color, filling, and range of the graphs,\" and a chart set to Fit stretches a tiny wobble to fill the panel."
         },
         {
           "index": 50,
           "paragraph": 33,
-          "start": 372.559,
-          "end": 373.093,
-          "text": "Log."
+          "start": 385.637,
+          "end": 389.669,
+          "text": "Check the numbers on the right edge before calling a line high or low."
         },
         {
           "index": 51,
-          "paragraph": 33,
-          "start": 373.443,
-          "end": 379.757,
-          "text": "Write the row in the session log, the operator's record of each session, before the next viewer sits down."
+          "paragraph": 34,
+          "start": 390.369,
+          "end": 392.075,
+          "text": "Behavioral: where the head is."
         },
         {
           "index": 52,
           "paragraph": 34,
-          "start": 380.457,
-          "end": 392.425,
-          "text": "The simulated log has Respondent Name, Session Date, Operator, Glasses, Lighting note, Face detection percent (filled in after post processing), Data complete, and Decision note."
+          "start": 392.425,
+          "end": 397.844,
+          "text": "These four come from face detection and the landmark positions, not from any expression."
         },
         {
           "index": 53,
           "paragraph": 34,
-          "start": 392.775,
-          "end": 393.799,
-          "text": "Common mistake."
+          "start": 398.194,
+          "end": 400.605,
+          "text": "Use them to judge the seat and the camera."
         },
         {
           "index": 54,
-          "paragraph": 34,
-          "start": 394.149,
-          "end": 395.771,
-          "text": "Excluding a viewer on the spot."
+          "paragraph": 35,
+          "start": 401.305,
+          "end": 406.382,
+          "text": "The manuals do not say whose right (the viewer's or the camera's) a positive Yaw is."
         },
         {
           "index": 55,
           "paragraph": 35,
-          "start": 396.471,
-          "end": 408.844,
-          "text": "V 19 looked down at a phone during the commercial; the log says so, the recording ran in full, and the 80 percent rule decided after post processing (72 percent, excluded)."
+          "start": 406.732,
+          "end": 411.425,
+          "text": "Check it on your own face: turn your head to your right and watch which way the line moves."
         },
         {
           "index": 56,
           "paragraph": 36,
-          "start": 409.544,
-          "end": 423.709,
-          "text": "After the last stimulus iMotions opens the Recorded Data screen, where each recording shows a quality box per sensor, and \"A red outline indicates that the recorded data is below the expected quality for a given sensor.\""
+          "start": 412.125,
+          "end": 420.765,
+          "text": "In the lab capture above, both lines move steadily, then run straight across a span, which is most likely a stretch with no face found."
         },
         {
           "index": 57,
           "paragraph": 37,
-          "start": 424.409,
-          "end": 440.025,
-          "text": "For aff decks that is normal: \"if using the aff decks engine, ALL sessions will show sub-standard data quality at first,\" because aff decks \"renders at 15 hertz during live collection and must be post-processed up to 30 hertz after recording.\""
+          "start": 421.465,
+          "end": 425.007,
+          "text": "E M F A C S Expressions: the seven emotions."
         },
         {
           "index": 58,
-          "paragraph": 38,
-          "start": 440.725,
-          "end": 446.272,
-          "text": "Before post processing, a value of 40 to 50 percent \"is not cause for concern.\""
+          "paragraph": 37,
+          "start": 425.357,
+          "end": 435.17,
+          "text": "Each emotion is \"calculated from Facial Expression scores that correspond with each emotion,\" following Ekman and Friesen's E M F A C S."
         },
         {
           "index": 59,
-          "paragraph": 39,
-          "start": 446.972,
-          "end": 460.497,
-          "text": "Watch the recording for real problems instead (turning away, a missing face), \"especially if the data quality is less than 40 percent\": select the study, the respondent, the 'Recorded data' page, and 'Play'."
+          "paragraph": 38,
+          "start": 435.87,
+          "end": 444.318,
+          "text": "The manuals define each emotion by the action units that raise or lower it, not in words, so read an emotion through its movements."
         },
         {
           "index": 60,
-          "paragraph": 40,
-          "start": 461.197,
-          "end": 469.581,
-          "text": "Privacy concerns raised for gaze data apply even more to a face video, so only the people the consent form names may watch it."
+          "paragraph": 39,
+          "start": 445.018,
+          "end": 452.655,
+          "text": "The manual's table says Outer Brow Raise and Lip Stretcher; the lab computer calls the same movements Brow Raise and Lip Stretch."
         },
         {
           "index": 61,
-          "paragraph": 41,
-          "start": 470.281,
-          "end": 489.993,
-          "text": "Help center articles for this section: Enabling Affectiva aff decks in iMotions, Camera Setup (Audio and Video Settings), Collecting Data, Sensor Preview Window, Creating Live Markers (During Data Collection), Facial Expression Analysis: Why does aff decks show low QA in subject replay?"
+          "paragraph": 40,
+          "start": 453.355,
+          "end": 464.619,
+          "text": "Read the rows this way: Joy cannot rise without a smile, so a Joy line that climbs while the face is still points to a problem with the light or the Facebox, not a happy viewer."
         },
         {
           "index": 62,
-          "paragraph": 42,
-          "start": 490.693,
-          "end": 491.995,
-          "text": ", Respondent Replay."
+          "paragraph": 41,
+          "start": 465.319,
+          "end": 478.546,
+          "text": "Several emotions share Brow Furrow, so one furrow can lift Anger, Contempt, Fear, and Sadness at once; that is why the plan names one primary expression before the data exist (section 01)."
         },
         {
           "index": 63,
+          "paragraph": 42,
+          "start": 479.246,
+          "end": 481.87,
+          "text": "Facial Action Units: the 20 movements."
+        },
+        {
+          "index": 64,
+          "paragraph": 42,
+          "start": 482.22,
+          "end": 490.839,
+          "text": "Each is a movement of the face \"as defined by the Facial Action Coding System,\" scored 0 to 100 in every frame with a face."
+        },
+        {
+          "index": 65,
           "paragraph": 43,
-          "start": 492.695,
-          "end": 509.356,
+          "start": 491.539,
+          "end": 498.451,
+          "text": "These are the definitions printed in the aff decks articles; section 00 shows each one as a photograph."
+        },
+        {
+          "index": 66,
+          "paragraph": 44,
+          "start": 499.151,
+          "end": 501.732,
+          "text": "An action unit is a movement, not a feeling."
+        },
+        {
+          "index": 67,
+          "paragraph": 44,
+          "start": 502.082,
+          "end": 512.023,
+          "text": "Talking, chewing, and a hand near the mouth move the same muscles, which is why the session rules in 5.5 keep the face clear and the viewer quiet."
+        },
+        {
+          "index": 68,
+          "paragraph": 45,
+          "start": 512.723,
+          "end": 515.113,
+          "text": "Other Measures: summaries and housekeeping."
+        },
+        {
+          "index": 69,
+          "paragraph": 45,
+          "start": 515.463,
+          "end": 521.521,
+          "text": "This list mixes summary scores built from the action units with signals that describe the face's state."
+        },
+        {
+          "index": 70,
+          "paragraph": 45,
+          "start": 521.871,
+          "end": 526.117,
+          "text": "Some are explained in the manuals and some are not; the table says which."
+        },
+        {
+          "index": 71,
+          "paragraph": 46,
+          "start": 526.817,
+          "end": 543.222,
+          "text": "Thresholds turn a line into yes or no. For counting, the notebook in section 07 treats a frame as \"expressed\" when the score passes a threshold, 50 by default for emotions and action units and +50 and -50 for Valence."
+        },
+        {
+          "index": 72,
+          "paragraph": 47,
+          "start": 543.922,
+          "end": 554.333,
+          "text": "The help center reads 50 as \"a moderately strong display of facial response\" and 25 or lower as \"only 1 in 4 manual coders\" seeing the expression."
+        },
+        {
+          "index": 73,
+          "paragraph": 48,
+          "start": 555.033,
+          "end": 556.654,
+          "text": "Other lists in the same menu."
+        },
+        {
+          "index": 74,
+          "paragraph": 48,
+          "start": 557.004,
+          "end": 564.684,
+          "text": "Eye Tracker (Smart Eye Aurora) holds Pupil, Distance, Pitch, Yaw, and Roll from the screen eye tracker (Workshop 2)."
+        },
+        {
+          "index": 75,
+          "paragraph": 48,
+          "start": 565.034,
+          "end": 568.426,
+          "text": "Shimmer holds skin conductance and pulse (Workshop 4)."
+        },
+        {
+          "index": 76,
+          "paragraph": 49,
+          "start": 569.126,
+          "end": 582.694,
+          "text": "External Events A P I holds the System Load Monitor: C P U System percent, Memory System percent, C P U iMotions percent, and Memory iMotions M B, sampled \"once a second.\""
+        },
+        {
+          "index": 77,
+          "paragraph": 50,
+          "start": 583.394,
+          "end": 595.213,
+          "text": "\"Too high data loads (typically above 80 percent) can impact your data collection and synchronization of sensors,\" so glance at C P U System percent before a long session."
+        },
+        {
+          "index": 78,
+          "paragraph": 51,
+          "start": 595.913,
+          "end": 597.385,
+          "text": "What the manuals leave open."
+        },
+        {
+          "index": 79,
+          "paragraph": 51,
+          "start": 597.735,
+          "end": 604.412,
+          "text": "The units of Adaptive Engagement, Adaptive Valence, Neutral, Blink, Yawn, and Pain are not in the manuals."
+        },
+        {
+          "index": 80,
+          "paragraph": 52,
+          "start": 605.112,
+          "end": 619.576,
+          "text": "The Sensor Data export can show them: on its Sensors page, turn on 'show signal descriptions', and on the File info page tick 'Channel metadata', which adds \"a short description of the data, the unit, etc.\" for every column."
+        },
+        {
+          "index": 81,
+          "paragraph": 53,
+          "start": 620.276,
+          "end": 623.433,
+          "text": "Do this on a pilot recording, never on a lab study."
+        },
+        {
+          "index": 82,
+          "paragraph": 54,
+          "start": 624.133,
+          "end": 632.795,
+          "text": "Before the viewer arrives: the camera and aff decks checked on your own face, the study selected, the log open, and any live markers defined."
+        },
+        {
+          "index": 83,
+          "paragraph": 55,
+          "start": 633.495,
+          "end": 649.26,
+          "text": "A live marker is a time stamp the operator adds with a key during recording, and \"You have to define your Live Markers before starting the data recording\": on the study's Live Markers tab, type a Name, choose a key combination and a color, and click Add Marker."
+        },
+        {
+          "index": 84,
+          "paragraph": 56,
+          "start": 649.96,
+          "end": 655.933,
+          "text": "Useful operator markers name the problems of a face study, such as \"Face covered\" or \"Talking.\""
+        },
+        {
+          "index": 85,
+          "paragraph": 57,
+          "start": 656.633,
+          "end": 657.295,
+          "text": "Consent."
+        },
+        {
+          "index": 86,
+          "paragraph": 57,
+          "start": 657.645,
+          "end": 670.935,
+          "text": "Obtain informed consent with the form from section 02, which names the face video, who may watch it, where it is stored, and when it is deleted (Neuromarketing Science and Business Association, n.d.)"
+        },
+        {
+          "index": 87,
+          "paragraph": 58,
+          "start": 671.635,
+          "end": 672.595,
+          "text": "Seat and check."
+        },
+        {
+          "index": 88,
+          "paragraph": 58,
+          "start": 672.945,
+          "end": 678.087,
+          "text": "Seat the viewer, adjust the camera and the light, and confirm the Facebox in the preview."
+        },
+        {
+          "index": 89,
+          "paragraph": 59,
+          "start": 678.787,
+          "end": 679.427,
+          "text": "Record."
+        },
+        {
+          "index": 90,
+          "paragraph": 59,
+          "start": 679.777,
+          "end": 689.014,
+          "text": "Select or add the respondent with the anonymous I D from the log (V 01, V 02, and so on) and click Start Recording."
+        },
+        {
+          "index": 91,
+          "paragraph": 60,
+          "start": 689.714,
+          "end": 697.394,
+          "text": "iMotions warns at the start if the study and Global Settings disagree; stop and fix the setting instead of clicking past it."
+        },
+        {
+          "index": 92,
+          "paragraph": 60,
+          "start": 697.744,
+          "end": 698.768,
+          "text": "Common mistake."
+        },
+        {
+          "index": 93,
+          "paragraph": 60,
+          "start": 699.118,
+          "end": 703.001,
+          "text": "Recording a respondent a second time, which overwrites the data."
+        },
+        {
+          "index": 94,
+          "paragraph": 61,
+          "start": 703.701,
+          "end": 704.49,
+          "text": "Let it run."
+        },
+        {
+          "index": 95,
+          "paragraph": 61,
+          "start": 704.84,
+          "end": 709.853,
+          "text": "The Instructions, Baseline, commercial, Recovery, and questionnaire run on their own."
+        },
+        {
+          "index": 96,
+          "paragraph": 61,
+          "start": 710.203,
+          "end": 712.507,
+          "text": "Sit out of the viewer's sight and stay silent."
+        },
+        {
+          "index": 97,
+          "paragraph": 61,
+          "start": 712.857,
+          "end": 717.977,
+          "text": "If something happens, press a live marker key where the preview allows it and note the time."
+        },
+        {
+          "index": 98,
+          "paragraph": 62,
+          "start": 718.677,
+          "end": 725.035,
+          "text": "End Recording (Shift-F1) is only for stopping early; an aborted recording is still saved."
+        },
+        {
+          "index": 99,
+          "paragraph": 63,
+          "start": 725.735,
+          "end": 728.103,
+          "text": "Debrief the viewer and answer questions."
+        },
+        {
+          "index": 100,
+          "paragraph": 64,
+          "start": 728.803,
+          "end": 729.336,
+          "text": "Log."
+        },
+        {
+          "index": 101,
+          "paragraph": 64,
+          "start": 729.686,
+          "end": 736.001,
+          "text": "Write the row in the session log, the operator's record of each session, before the next viewer sits down."
+        },
+        {
+          "index": 102,
+          "paragraph": 65,
+          "start": 736.701,
+          "end": 748.669,
+          "text": "The simulated log has Respondent Name, Session Date, Operator, Glasses, Lighting note, Face detection percent (filled in after post processing), Data complete, and Decision note."
+        },
+        {
+          "index": 103,
+          "paragraph": 65,
+          "start": 749.019,
+          "end": 750.043,
+          "text": "Common mistake."
+        },
+        {
+          "index": 104,
+          "paragraph": 65,
+          "start": 750.393,
+          "end": 752.014,
+          "text": "Excluding a viewer on the spot."
+        },
+        {
+          "index": 105,
+          "paragraph": 66,
+          "start": 752.714,
+          "end": 765.087,
+          "text": "V 19 looked down at a phone during the commercial; the log says so, the recording ran in full, and the 80 percent rule decided after post processing (72 percent, excluded)."
+        },
+        {
+          "index": 106,
+          "paragraph": 67,
+          "start": 765.787,
+          "end": 779.953,
+          "text": "After the last stimulus iMotions opens the Recorded Data screen, where each recording shows a quality box per sensor, and \"A red outline indicates that the recorded data is below the expected quality for a given sensor.\""
+        },
+        {
+          "index": 107,
+          "paragraph": 68,
+          "start": 780.653,
+          "end": 796.269,
+          "text": "For aff decks that is normal: \"if using the aff decks engine, ALL sessions will show sub-standard data quality at first,\" because aff decks \"renders at 15 hertz during live collection and must be post-processed up to 30 hertz after recording.\""
+        },
+        {
+          "index": 108,
+          "paragraph": 69,
+          "start": 796.969,
+          "end": 802.515,
+          "text": "Before post processing, a value of 40 to 50 percent \"is not cause for concern.\""
+        },
+        {
+          "index": 109,
+          "paragraph": 70,
+          "start": 803.215,
+          "end": 816.741,
+          "text": "Watch the recording for real problems instead (turning away, a missing face), \"especially if the data quality is less than 40 percent\": select the study, the respondent, the 'Recorded data' page, and 'Play'."
+        },
+        {
+          "index": 110,
+          "paragraph": 71,
+          "start": 817.441,
+          "end": 825.825,
+          "text": "Privacy concerns raised for gaze data apply even more to a face video, so only the people the consent form names may watch it."
+        },
+        {
+          "index": 111,
+          "paragraph": 72,
+          "start": 826.525,
+          "end": 846.237,
+          "text": "Help center articles for this section: Enabling Affectiva aff decks in iMotions, Camera Setup (Audio and Video Settings), Collecting Data, Sensor Preview Window, Creating Live Markers (During Data Collection), Facial Expression Analysis: Why does aff decks show low QA in subject replay?"
+        },
+        {
+          "index": 112,
+          "paragraph": 73,
+          "start": 846.937,
+          "end": 848.238,
+          "text": ", Respondent Replay."
+        },
+        {
+          "index": 113,
+          "paragraph": 74,
+          "start": 848.938,
+          "end": 865.599,
           "text": "Place the camera and the light for a face, read the Sensor Preview (Facebox, processing rate, signals) without asking a viewer to perform, run a session in order with live markers and a log row, and read the red aff decks quality box before post processing correctly."
         }
       ]
@@ -8909,5 +9309,5 @@
       ]
     }
   },
-  "generated": "2026-10-11T16:16:07+00:00"
+  "generated": "2026-10-12T22:56:45+00:00"
 }

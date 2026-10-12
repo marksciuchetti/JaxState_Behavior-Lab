@@ -2523,8 +2523,8 @@
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 659.055,
-      "mp3_duration": 659.112,
+      "duration": 768.899,
+      "mp3_duration": 768.96,
       "starts": [
         0.0,
         2.044,
@@ -2620,10 +2620,22 @@
         589.276,
         604.739,
         609.407,
-        615.141,
-        619.639,
-        640.989,
-        645.551
+        614.544,
+        626.905,
+        629.141,
+        636.445,
+        641.625,
+        644.309,
+        660.668,
+        668.941,
+        691.337,
+        695.643,
+        710.956,
+        719.251,
+        724.985,
+        729.483,
+        750.833,
+        755.395
       ],
       "sentences": [
         {
@@ -3281,35 +3293,119 @@
           "index": 93,
           "paragraph": 57,
           "start": 609.407,
-          "end": 614.441,
-          "text": "iMotions, \"Advanced Eye Tracking with Smart Eye and iMotions\" (YouTube)"
+          "end": 613.844,
+          "text": "The Sensor Preview (the button beside Start Recording) shows the live data."
         },
         {
           "index": 94,
           "paragraph": 58,
-          "start": 615.141,
-          "end": 618.939,
-          "text": "iMotions, \"iMotions Eye Tracking Solution\" (YouTube)"
+          "start": 614.544,
+          "end": 626.555,
+          "text": "On the lab computer its Signals menu lists the Aurora as \"Eye Tracker (Smart Eye Aurora)\" with two groups: Pupil and Distance (Pupil and Distance) and Behavioral (Pitch, Yaw, and Roll)."
         },
         {
           "index": 95,
-          "paragraph": 59,
-          "start": 619.639,
-          "end": 640.289,
-          "text": "Help center articles for this section: Setting up Aurora or A I X in iMotions, Planning for Eye Tracker Calibration, Setting up Participant-guided Eye Tracker Calibration, One-Screen Calibration: Configurations and Settings, Data Collection Overview, Using Event Markers, Export: Data Quality Statistics."
+          "paragraph": 58,
+          "start": 626.905,
+          "end": 628.441,
+          "text": "Click a name to show its chart."
         },
         {
           "index": 96,
-          "paragraph": 60,
-          "start": 640.989,
-          "end": 644.851,
-          "text": "Set up and connect the Aurora once per computer and monitor, fix the \"!\""
+          "paragraph": 59,
+          "start": 629.141,
+          "end": 636.095,
+          "text": "Where the viewer looks is not in this list; the gaze point is drawn on the stimulus in the replay (section 07)."
         },
         {
           "index": 97,
+          "paragraph": 59,
+          "start": 636.445,
+          "end": 640.925,
+          "text": "These five signals tell you whether the eyes are being found and where the head is."
+        },
+        {
+          "index": 98,
+          "paragraph": 60,
+          "start": 641.625,
+          "end": 643.609,
+          "text": "Two habits make the preview useful."
+        },
+        {
+          "index": 99,
           "paragraph": 61,
-          "start": 645.551,
-          "end": 659.055,
+          "start": 644.309,
+          "end": 659.968,
+          "text": "First, read gaps before heights: a stretch with no line means the tracker found no eyes, which is missing data, not a value of 0, and it lowers the percentage of data obtained in the DataQuality dot T X T file (5.5)."
+        },
+        {
+          "index": 100,
+          "paragraph": 62,
+          "start": 660.668,
+          "end": 668.241,
+          "text": "Second, read the axis on the right before judging a line, because a chart set to Fit stretches tiny changes to fill the panel."
+        },
+        {
+          "index": 101,
+          "paragraph": 63,
+          "start": 668.941,
+          "end": 690.637,
+          "text": "The same Signals menu also lists Affectiva aff decks (Workshop 3), Shimmer (Workshop 4), and the System Load Monitor, whose four signals (C P U System percent, Memory System percent, C P U iMotions percent, Memory iMotions M B) warn when \"Too high data loads (typically above 80 percent)\" could disturb collection."
+        },
+        {
+          "index": 102,
+          "paragraph": 64,
+          "start": 691.337,
+          "end": 694.943,
+          "text": "The units of the five Aurora signals are not in the manuals."
+        },
+        {
+          "index": 103,
+          "paragraph": 65,
+          "start": 695.643,
+          "end": 710.256,
+          "text": "The Sensor Data export can show them: on its Sensors page turn on 'show signal descriptions', and on the File info page tick 'Channel metadata', which adds \"a short description of the data, the unit, etc.\" for every column."
+        },
+        {
+          "index": 104,
+          "paragraph": 66,
+          "start": 710.956,
+          "end": 718.551,
+          "text": "Do this on a pilot recording with the Aurora connected, never on a lab study, and add what it says to the session log template."
+        },
+        {
+          "index": 105,
+          "paragraph": 67,
+          "start": 719.251,
+          "end": 724.285,
+          "text": "iMotions, \"Advanced Eye Tracking with Smart Eye and iMotions\" (YouTube)"
+        },
+        {
+          "index": 106,
+          "paragraph": 68,
+          "start": 724.985,
+          "end": 728.783,
+          "text": "iMotions, \"iMotions Eye Tracking Solution\" (YouTube)"
+        },
+        {
+          "index": 107,
+          "paragraph": 69,
+          "start": 729.483,
+          "end": 750.133,
+          "text": "Help center articles for this section: Setting up Aurora or A I X in iMotions, Planning for Eye Tracker Calibration, Setting up Participant-guided Eye Tracker Calibration, One-Screen Calibration: Configurations and Settings, Data Collection Overview, Using Event Markers, Export: Data Quality Statistics."
+        },
+        {
+          "index": 108,
+          "paragraph": 70,
+          "start": 750.833,
+          "end": 754.695,
+          "text": "Set up and connect the Aurora once per computer and monitor, fix the \"!\""
+        },
+        {
+          "index": 109,
+          "paragraph": 71,
+          "start": 755.395,
+          "end": 768.899,
           "text": "and connection warnings, position a viewer, calibrate and act on Excellent, Good, and Poor, run a session in order with live markers and a log row, and export the data quality statistics to apply the exclusion rule."
         }
       ]
@@ -8829,5 +8925,5 @@
       ]
     }
   },
-  "generated": "2026-10-12T13:07:18+00:00"
+  "generated": "2026-10-12T23:05:45+00:00"
 }

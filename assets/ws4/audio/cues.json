@@ -8188,8 +8188,8 @@
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 711.683,
-      "mp3_duration": 711.744,
+      "duration": 964.537,
+      "mp3_duration": 964.608,
       "starts": [
         0.0,
         2.876,
@@ -8249,42 +8249,73 @@
         411.767,
         413.141,
         420.603,
-        428.322,
-        441.502,
-        451.845,
-        452.856,
-        462.815,
-        468.592,
-        470.158,
-        480.202,
-        487.699,
-        489.073,
-        492.546,
-        493.536,
-        497.001,
-        503.687,
-        506.221,
-        517.707,
-        519.431,
-        528.067,
-        528.993,
-        536.627,
-        537.638,
-        546.893,
-        552.137,
-        565.521,
-        567.373,
-        573.803,
-        581.799,
-        591.118,
-        606.09,
-        619.846,
-        622.765,
-        638.398,
-        652.41,
-        669.302,
-        671.901,
-        694.083
+        434.445,
+        443.849,
+        462.853,
+        466.945,
+        475.529,
+        477.701,
+        484.963,
+        488.394,
+        491.219,
+        503.588,
+        505.965,
+        518.633,
+        520.625,
+        534.808,
+        536.865,
+        548.679,
+        559.449,
+        573.717,
+        578.705,
+        580.42,
+        583.317,
+        585.374,
+        594.437,
+        608.107,
+        610.429,
+        631.993,
+        643.423,
+        645.245,
+        654.287,
+        669.6,
+        673.457,
+        681.176,
+        694.356,
+        704.699,
+        705.71,
+        715.669,
+        721.446,
+        723.012,
+        733.056,
+        740.553,
+        741.927,
+        745.4,
+        746.39,
+        749.855,
+        756.541,
+        759.075,
+        770.561,
+        772.285,
+        780.921,
+        781.847,
+        789.481,
+        790.492,
+        799.747,
+        804.991,
+        818.375,
+        820.227,
+        826.657,
+        834.653,
+        843.972,
+        858.944,
+        872.7,
+        875.619,
+        891.252,
+        905.264,
+        922.156,
+        924.755,
+        946.937
       ],
       "sentences": [
         {
@@ -8690,259 +8721,476 @@
           "index": 57,
           "paragraph": 36,
           "start": 420.603,
-          "end": 427.622,
-          "text": "Two respondents run at once, one at each seat, and each seat always uses the same unit (section 02)."
+          "end": 433.745,
+          "text": "On the lab computer the Signals menu lists the unit, Shimmer 3, unit 8 9 5 6, with four groups: Accelerometer (3 signals), G S R (2), P P G (3), and Other (11)."
         },
         {
           "index": 58,
           "paragraph": 37,
-          "start": 428.322,
-          "end": 440.802,
-          "text": "The seats play different orders, so neither respondent may see the other's screen, the respondents must not talk, and if the commercials have sound each seat needs headphones (a lab rule for the two seat setup)."
+          "start": 434.445,
+          "end": 443.149,
+          "text": "The count beside a group, such as 1 of 2, says how many of its signals are shown in the Signals panel; click a name to show or hide its chart."
         },
         {
           "index": 59,
           "paragraph": 38,
-          "start": 441.502,
-          "end": 451.145,
-          "text": "One operator prepares Seat 1, then Seat 2, and starts the two recordings one after the other; each seat gets its own warm up and its own log row."
+          "start": 443.849,
+          "end": 462.153,
+          "text": "Only three of the 19 are needed for this workshop's live check: G S R Conductance, C A L, Internal A D C, A 13, P P G, C A L, and Heart Rate P P G, A L G. The rest are worth knowing so that a strange name in an export does not stop you."
         },
         {
           "index": 60,
           "paragraph": 39,
-          "start": 451.845,
-          "end": 452.506,
-          "text": "Consent."
+          "start": 462.853,
+          "end": 466.245,
+          "text": "The last word of each name tells you what kind of number it is."
         },
         {
           "index": 61,
-          "paragraph": 39,
-          "start": 452.856,
-          "end": 462.115,
-          "text": "Informed consent comes first, with the form from section 02 that names the finger electrodes, the pulse probe, and the signals recorded."
+          "paragraph": 40,
+          "start": 466.945,
+          "end": 475.179,
+          "text": "C A L means calibrated: converted into physical units such as microsiemens, kilo-ohms, or meters per second squared."
         },
         {
           "index": 62,
           "paragraph": 40,
-          "start": 462.815,
-          "end": 467.892,
-          "text": "Electrodes, instructions, and warm up, as in 5.2 and 5.3."
+          "start": 475.529,
+          "end": 477.001,
+          "text": "Analyze C A L signals."
         },
         {
           "index": 63,
           "paragraph": 41,
-          "start": 468.592,
-          "end": 469.808,
-          "text": "Add the respondent."
+          "start": 477.701,
+          "end": 484.613,
+          "text": "raw means the unit's own uncalibrated numbers, listed in the Shimmer E C G article as \"(no units).\""
         },
         {
           "index": 64,
           "paragraph": 41,
-          "start": 470.158,
-          "end": 479.502,
-          "text": "Click the \"+\" beside RESPONDENTS and enter the anonymous I D (P 01), the group (A or B), and the flow from the allocation list."
+          "start": 484.963,
+          "end": 487.694,
+          "text": "They exist for troubleshooting, not for results."
         },
         {
           "index": 65,
           "paragraph": 42,
-          "start": 480.202,
-          "end": 487.349,
-          "text": "You should see the respondent in the list; how 11 point 1 offers the flow choice should be verified on the lab machine."
+          "start": 488.394,
+          "end": 490.869,
+          "text": "A L G is not defined in the manuals."
         },
         {
           "index": 66,
           "paragraph": 42,
-          "start": 487.699,
-          "end": 488.723,
-          "text": "Common mistake."
+          "start": 491.219,
+          "end": 502.888,
+          "text": "On the lab computer it appears only on Heart Rate and I B I, the two values calculated from the pulse wave, so read it as \"calculated by an algorithm,\" not measured directly."
         },
         {
           "index": 67,
-          "paragraph": 42,
-          "start": 489.073,
-          "end": 491.846,
-          "text": "A real name instead of an anonymous I D."
+          "paragraph": 43,
+          "start": 503.588,
+          "end": 505.615,
+          "text": "G S R: the skin signal."
         },
         {
           "index": 68,
           "paragraph": 43,
-          "start": 492.546,
-          "end": 493.186,
-          "text": "Record."
+          "start": 505.965,
+          "end": 517.933,
+          "text": "Analysis \"is conventionally done on microsiemens values,\" and the notebooks in section 07 work from conductance, so G S R Conductance, C A L is the one to watch."
         },
         {
           "index": 69,
-          "paragraph": 43,
-          "start": 493.536,
-          "end": 496.651,
-          "text": "Click Start Recording and sit out of the respondent's view."
+          "paragraph": 44,
+          "start": 518.633,
+          "end": 520.275,
+          "text": "P P G: the pulse."
         },
         {
           "index": 70,
-          "paragraph": 43,
-          "start": 497.001,
-          "end": 503.337,
-          "text": "The flow runs itself: baseline, commercial, Recovery, questionnaire, rest, then the second sequence."
+          "paragraph": 44,
+          "start": 520.625,
+          "end": 534.108,
+          "text": "P P G, photoplethysmography, measures blood volume optically with the ear clip or finger probe; iMotions shows \"the P P G signal as well as a continuously calculated beats per minute value.\""
         },
         {
           "index": 71,
-          "paragraph": 43,
-          "start": 503.687,
-          "end": 505.521,
-          "text": "Press a marker key for any incident."
+          "paragraph": 45,
+          "start": 534.808,
+          "end": 536.515,
+          "text": "Accelerometer: movement."
         },
         {
           "index": 72,
-          "paragraph": 44,
-          "start": 506.221,
-          "end": 517.357,
-          "text": "If a lead comes loose, press the lead loose key, let the stimulus that is playing finish, and reseat the lead during the questionnaire or the rest, never during a baseline or a commercial."
+          "paragraph": 45,
+          "start": 536.865,
+          "end": 547.979,
+          "text": "Wide Range Accelerometer X C A L, Y C A L, and Z C A L give the unit's acceleration along three axes, \"all with the unit meters per second squared.\""
         },
         {
           "index": 73,
-          "paragraph": 44,
-          "start": 517.707,
-          "end": 518.731,
-          "text": "Common mistake."
+          "paragraph": 46,
+          "start": 548.679,
+          "end": 558.749,
+          "text": "Gravity is part of the signal (\"approximately 9.8 meters per second squared\"), so a still unit does not read 0; look for changes, not levels."
         },
         {
           "index": 74,
-          "paragraph": 45,
-          "start": 519.431,
-          "end": 527.367,
-          "text": "Stopping the recording at the first problem; the rule written in advance, not the operator, decides later whether the data are used."
+          "paragraph": 47,
+          "start": 559.449,
+          "end": 573.017,
+          "text": "The help center uses them to find stretches where G S R \"is filled with noise due to movement,\" and its movement notebook's default threshold is 0.2 meters per second squared after gravity is filtered out."
         },
         {
           "index": 75,
-          "paragraph": 46,
-          "start": 528.067,
-          "end": 528.643,
-          "text": "End."
+          "paragraph": 48,
+          "start": 573.717,
+          "end": 578.005,
+          "text": "Which way each axis points on the unit is not stated in the manuals."
         },
         {
           "index": 76,
-          "paragraph": 46,
-          "start": 528.993,
-          "end": 535.927,
-          "text": "After the thank you slide, click End Recording (Shift F 1 also stops it), then debrief the respondent."
+          "paragraph": 49,
+          "start": 578.705,
+          "end": 580.07,
+          "text": "Other: housekeeping."
         },
         {
           "index": 77,
-          "paragraph": 47,
-          "start": 536.627,
-          "end": 537.288,
-          "text": "Clean."
+          "paragraph": 49,
+          "start": 580.42,
+          "end": 582.617,
+          "text": "None of these is analyzed in this workshop."
         },
         {
           "index": 78,
-          "paragraph": 47,
-          "start": 537.638,
-          "end": 546.193,
-          "text": "Discard the electrodes, unplug the hardware, and disinfect the probe, the unit, and the work surface with at least 70 percent alcohol."
+          "paragraph": 50,
+          "start": 583.317,
+          "end": 585.024,
+          "text": "Three pictures of the same unit."
         },
         {
           "index": 79,
-          "paragraph": 48,
-          "start": 546.893,
-          "end": 551.437,
-          "text": "Log the row before the next respondent sits down, while the details are fresh."
+          "paragraph": 50,
+          "start": 585.374,
+          "end": 593.737,
+          "text": "Compare the live check above (ready to record), the ragged pulse (moving), and the next figure, taken with the electrodes and probe off."
         },
         {
           "index": 80,
-          "paragraph": 49,
-          "start": 552.137,
-          "end": 565.171,
-          "text": "The simulated session log shows what a row holds: Respondent Name, Session Date, Operator, Seat, Device, Electrode placement (fingers), Skin note, Warm up minutes, Data complete, and Decision note."
+          "paragraph": 51,
+          "start": 594.437,
+          "end": 607.407,
+          "text": "Two habits catch all three: read the widget, where G S R Quality turned from High to Low when the electrodes came off (the manuals do not describe this indicator), and read the axis before the line."
         },
         {
           "index": 81,
-          "paragraph": 49,
-          "start": 565.521,
-          "end": 566.673,
-          "text": "Read three rows."
+          "paragraph": 52,
+          "start": 608.107,
+          "end": 609.729,
+          "text": "Other lists in the same menu."
         },
         {
           "index": 82,
-          "paragraph": 50,
-          "start": 567.373,
-          "end": 573.453,
-          "text": "P 02's note records \"one Bluetooth gap of 5.1 seconds in Baseline Nike.\""
+          "paragraph": 53,
+          "start": 610.429,
+          "end": 631.293,
+          "text": "Affectiva aff decks holds the face signals (Workshop 3), Eye Tracker (Smart Eye Aurora) the eye tracker signals (Workshop 2), and External Events A P I the System Load Monitor: C P U System percent, Memory System percent, C P U iMotions percent, and Memory iMotions M B, sampled \"once a second.\""
         },
         {
           "index": 83,
-          "paragraph": 50,
-          "start": 573.803,
-          "end": 581.099,
-          "text": "P 11's records an electrode lead that loosened during Nike Commercial after a warm up cut to 2 minutes."
+          "paragraph": 54,
+          "start": 631.993,
+          "end": 642.723,
+          "text": "\"Too high data loads (typically above 80 percent) can impact your data collection and synchronization of sensors,\" which matters with two Shimmer units streaming at once."
         },
         {
           "index": 84,
-          "paragraph": 51,
-          "start": 581.799,
-          "end": 590.418,
-          "text": "P 24's records a Bluetooth dropout of 11.4 seconds in E L F Commercial, with Data complete equals No."
+          "paragraph": 55,
+          "start": 643.423,
+          "end": 644.895,
+          "text": "What the manuals leave open."
         },
         {
           "index": 85,
-          "paragraph": 52,
-          "start": 591.118,
-          "end": 605.39,
-          "text": "The incident is written when it happens; the Keep or exclude decision is added later, after the G S R Signal Quality notebook (section 07), by the rule written before collection and before anyone looks at the peaks."
+          "paragraph": 55,
+          "start": 645.245,
+          "end": 653.587,
+          "text": "The units of the pulse wave and I B I, the meaning of A L G, the clock channels, and Packet reception rate are not in the manuals."
         },
         {
           "index": 86,
-          "paragraph": 53,
-          "start": 606.09,
-          "end": 619.146,
-          "text": "P 11 was excluded for a Signal-to-Noise ratio of -3.4 decibels, P 24 for 38.0 percent Signal missing, and P 02 was kept (all simulated)."
+          "paragraph": 56,
+          "start": 654.287,
+          "end": 668.9,
+          "text": "The Sensor Data export can show them: on its Sensors page turn on 'show signal descriptions', and on the File info page tick 'Channel metadata', which adds \"a short description of the data, the unit, etc.\" for every column."
         },
         {
           "index": 87,
-          "paragraph": 54,
-          "start": 619.846,
-          "end": 622.065,
-          "text": "Check each recording before the next pair."
+          "paragraph": 57,
+          "start": 669.6,
+          "end": 672.757,
+          "text": "Do this on a pilot recording, never on a lab study."
         },
         {
           "index": 88,
-          "paragraph": 55,
-          "start": 622.765,
-          "end": 637.698,
-          "text": "Each recording appears on the study's Recorded Data tab, and the Collecting Data article says \"A red outline indicates that the recorded data is below the expected quality for a given sensor\"; open the replay of any outlined recording."
+          "paragraph": 58,
+          "start": 673.457,
+          "end": 680.476,
+          "text": "Two respondents run at once, one at each seat, and each seat always uses the same unit (section 02)."
         },
         {
           "index": 89,
-          "paragraph": 56,
-          "start": 638.398,
-          "end": 651.71,
-          "text": "Then click Export on the Recorded Data tab for the data quality statistics, a file ending in DataQuality dot T X T with \"the effective sampling rate\" and the percentage of data obtained for each device."
+          "paragraph": 59,
+          "start": 681.176,
+          "end": 693.656,
+          "text": "The seats play different orders, so neither respondent may see the other's screen, the respondents must not talk, and if the commercials have sound each seat needs headphones (a lab rule for the two seat setup)."
         },
         {
           "index": 90,
-          "paragraph": 57,
-          "start": 652.41,
-          "end": 668.602,
-          "text": "For the Shimmer the rate should sit near the Sample Frequency set for that unit, 128 hertz in this plan; a low percentage can point to a Bluetooth gap, since Bluetooth \"is more susceptible to data loss\" (Timestamping and synchronization method article)."
+          "paragraph": 60,
+          "start": 694.356,
+          "end": 703.999,
+          "text": "One operator prepares Seat 1, then Seat 2, and starts the two recordings one after the other; each seat gets its own warm up and its own log row."
         },
         {
           "index": 91,
-          "paragraph": 58,
-          "start": 669.302,
-          "end": 671.201,
-          "text": "Write any gap into the log that day."
+          "paragraph": 61,
+          "start": 704.699,
+          "end": 705.36,
+          "text": "Consent."
         },
         {
           "index": 92,
-          "paragraph": 59,
-          "start": 671.901,
-          "end": 693.383,
-          "text": "Help center articles for this section: Shimmer 3 G S R plus: Sensor Placement and Respondent Instructions, P P G, B V P, and Optical Heart Rate, Sensor Preview Window, Collecting Data, Creating Live Markers (During Data Collection), Timestamping and synchronization method, and Export: Data Quality Statistics."
+          "paragraph": 61,
+          "start": 705.71,
+          "end": 714.969,
+          "text": "Informed consent comes first, with the form from section 02 that names the finger electrodes, the pulse probe, and the signals recorded."
         },
         {
           "index": 93,
-          "paragraph": 60,
-          "start": 694.083,
-          "end": 711.683,
+          "paragraph": 62,
+          "start": 715.669,
+          "end": 720.746,
+          "text": "Electrodes, instructions, and warm up, as in 5.2 and 5.3."
+        },
+        {
+          "index": 94,
+          "paragraph": 63,
+          "start": 721.446,
+          "end": 722.662,
+          "text": "Add the respondent."
+        },
+        {
+          "index": 95,
+          "paragraph": 63,
+          "start": 723.012,
+          "end": 732.356,
+          "text": "Click the \"+\" beside RESPONDENTS and enter the anonymous I D (P 01), the group (A or B), and the flow from the allocation list."
+        },
+        {
+          "index": 96,
+          "paragraph": 64,
+          "start": 733.056,
+          "end": 740.203,
+          "text": "You should see the respondent in the list; how 11 point 1 offers the flow choice should be verified on the lab machine."
+        },
+        {
+          "index": 97,
+          "paragraph": 64,
+          "start": 740.553,
+          "end": 741.577,
+          "text": "Common mistake."
+        },
+        {
+          "index": 98,
+          "paragraph": 64,
+          "start": 741.927,
+          "end": 744.7,
+          "text": "A real name instead of an anonymous I D."
+        },
+        {
+          "index": 99,
+          "paragraph": 65,
+          "start": 745.4,
+          "end": 746.04,
+          "text": "Record."
+        },
+        {
+          "index": 100,
+          "paragraph": 65,
+          "start": 746.39,
+          "end": 749.505,
+          "text": "Click Start Recording and sit out of the respondent's view."
+        },
+        {
+          "index": 101,
+          "paragraph": 65,
+          "start": 749.855,
+          "end": 756.191,
+          "text": "The flow runs itself: baseline, commercial, Recovery, questionnaire, rest, then the second sequence."
+        },
+        {
+          "index": 102,
+          "paragraph": 65,
+          "start": 756.541,
+          "end": 758.375,
+          "text": "Press a marker key for any incident."
+        },
+        {
+          "index": 103,
+          "paragraph": 66,
+          "start": 759.075,
+          "end": 770.211,
+          "text": "If a lead comes loose, press the lead loose key, let the stimulus that is playing finish, and reseat the lead during the questionnaire or the rest, never during a baseline or a commercial."
+        },
+        {
+          "index": 104,
+          "paragraph": 66,
+          "start": 770.561,
+          "end": 771.585,
+          "text": "Common mistake."
+        },
+        {
+          "index": 105,
+          "paragraph": 67,
+          "start": 772.285,
+          "end": 780.221,
+          "text": "Stopping the recording at the first problem; the rule written in advance, not the operator, decides later whether the data are used."
+        },
+        {
+          "index": 106,
+          "paragraph": 68,
+          "start": 780.921,
+          "end": 781.497,
+          "text": "End."
+        },
+        {
+          "index": 107,
+          "paragraph": 68,
+          "start": 781.847,
+          "end": 788.781,
+          "text": "After the thank you slide, click End Recording (Shift F 1 also stops it), then debrief the respondent."
+        },
+        {
+          "index": 108,
+          "paragraph": 69,
+          "start": 789.481,
+          "end": 790.142,
+          "text": "Clean."
+        },
+        {
+          "index": 109,
+          "paragraph": 69,
+          "start": 790.492,
+          "end": 799.047,
+          "text": "Discard the electrodes, unplug the hardware, and disinfect the probe, the unit, and the work surface with at least 70 percent alcohol."
+        },
+        {
+          "index": 110,
+          "paragraph": 70,
+          "start": 799.747,
+          "end": 804.291,
+          "text": "Log the row before the next respondent sits down, while the details are fresh."
+        },
+        {
+          "index": 111,
+          "paragraph": 71,
+          "start": 804.991,
+          "end": 818.025,
+          "text": "The simulated session log shows what a row holds: Respondent Name, Session Date, Operator, Seat, Device, Electrode placement (fingers), Skin note, Warm up minutes, Data complete, and Decision note."
+        },
+        {
+          "index": 112,
+          "paragraph": 71,
+          "start": 818.375,
+          "end": 819.527,
+          "text": "Read three rows."
+        },
+        {
+          "index": 113,
+          "paragraph": 72,
+          "start": 820.227,
+          "end": 826.307,
+          "text": "P 02's note records \"one Bluetooth gap of 5.1 seconds in Baseline Nike.\""
+        },
+        {
+          "index": 114,
+          "paragraph": 72,
+          "start": 826.657,
+          "end": 833.953,
+          "text": "P 11's records an electrode lead that loosened during Nike Commercial after a warm up cut to 2 minutes."
+        },
+        {
+          "index": 115,
+          "paragraph": 73,
+          "start": 834.653,
+          "end": 843.272,
+          "text": "P 24's records a Bluetooth dropout of 11.4 seconds in E L F Commercial, with Data complete equals No."
+        },
+        {
+          "index": 116,
+          "paragraph": 74,
+          "start": 843.972,
+          "end": 858.244,
+          "text": "The incident is written when it happens; the Keep or exclude decision is added later, after the G S R Signal Quality notebook (section 07), by the rule written before collection and before anyone looks at the peaks."
+        },
+        {
+          "index": 117,
+          "paragraph": 75,
+          "start": 858.944,
+          "end": 872.0,
+          "text": "P 11 was excluded for a Signal-to-Noise ratio of -3.4 decibels, P 24 for 38.0 percent Signal missing, and P 02 was kept (all simulated)."
+        },
+        {
+          "index": 118,
+          "paragraph": 76,
+          "start": 872.7,
+          "end": 874.919,
+          "text": "Check each recording before the next pair."
+        },
+        {
+          "index": 119,
+          "paragraph": 77,
+          "start": 875.619,
+          "end": 890.552,
+          "text": "Each recording appears on the study's Recorded Data tab, and the Collecting Data article says \"A red outline indicates that the recorded data is below the expected quality for a given sensor\"; open the replay of any outlined recording."
+        },
+        {
+          "index": 120,
+          "paragraph": 78,
+          "start": 891.252,
+          "end": 904.564,
+          "text": "Then click Export on the Recorded Data tab for the data quality statistics, a file ending in DataQuality dot T X T with \"the effective sampling rate\" and the percentage of data obtained for each device."
+        },
+        {
+          "index": 121,
+          "paragraph": 79,
+          "start": 905.264,
+          "end": 921.456,
+          "text": "For the Shimmer the rate should sit near the Sample Frequency set for that unit, 128 hertz in this plan; a low percentage can point to a Bluetooth gap, since Bluetooth \"is more susceptible to data loss\" (Timestamping and synchronization method article)."
+        },
+        {
+          "index": 122,
+          "paragraph": 80,
+          "start": 922.156,
+          "end": 924.055,
+          "text": "Write any gap into the log that day."
+        },
+        {
+          "index": 123,
+          "paragraph": 81,
+          "start": 924.755,
+          "end": 946.237,
+          "text": "Help center articles for this section: Shimmer 3 G S R plus: Sensor Placement and Respondent Instructions, P P G, B V P, and Optical Heart Rate, Sensor Preview Window, Collecting Data, Creating Live Markers (During Data Collection), Timestamping and synchronization method, and Export: Data Quality Statistics."
+        },
+        {
+          "index": 124,
+          "paragraph": 82,
+          "start": 946.937,
+          "end": 964.537,
           "text": "Place the electrodes and the pulse probe where the article puts them, instruct the respondent, run a logged 5 minute warm up, tell a movement spike from a breathing drift, run two seats with live markers and a log row each, and check every recording and its data quality before the next pair."
         }
       ]
@@ -9661,5 +9909,5 @@
       ]
     }
   },
-  "generated": "2026-10-12T22:20:06+00:00"
+  "generated": "2026-10-12T22:58:26+00:00"
 }
