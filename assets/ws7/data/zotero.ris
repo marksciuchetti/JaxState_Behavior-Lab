@@ -1,0 +1,720 @@
+TY  - JOUR
+AU  - Broman, K. W.
+AU  - Woo, K. H.
+TI  - Data organization in spreadsheets
+PY  - 2018
+T2  - The American Statistician
+JO  - The American Statistician
+VL  - 72
+IS  - 1
+SP  - 2
+EP  - 10
+DO  - 10.1080/00031305.2017.1375989
+UR  - https://doi.org/10.1080/00031305.2017.1375989
+KW  - tidy_data_spreadsheets
+KW  - ws7-export-clean-merge
+N1  - The copy of the Taylor and Francis article file posted at ispa-finba.es (ispa-finba.es/wp-content/uploads/2019/05/Data-Organization-in-Spreadsheets.pdf) read on 2026-10-11 prints the cover page of the published article with the title, Karl W. Broman and Kara H. Woo, a citation line giving The American Statistician, volume 72, issue 1, pages 2 to 10, DOI 10.1080/00031305.2017.1375989, online publication on 29 September 2017, and an open access Creative Commons Attribution-NonCommercial-NoDerivatives license, and the RePEc IDEAS record (ideas.repec.org/a/taf/amstat/v72y2018i1p2-10.html) read the same day gives The American Statistician, volume 72, issue 1, January 2018, pages 2 to 10, and the same DOI, with no correction listed. Caveat: the Taylor and Francis article page returned an error and Crossref could not be queried, so no retraction check was possible beyond these two records; the year follows the 2018 issue (online 2017); the PeerJ Preprint (3183) is not cited.
+ER  - 
+
+TY  - JOUR
+AU  - Panko, R. R.
+TI  - What we know about spreadsheet errors
+PY  - 1998
+T2  - Journal of Organizational and End User Computing
+JO  - Journal of Organizational and End User Computing
+VL  - 10
+IS  - 2
+SP  - 15
+EP  - 21
+DO  - 10.4018/joeuc.1998040102
+UR  - https://doi.org/10.4018/joeuc.1998040102
+KW  - tidy_data_spreadsheets
+KW  - ws7-export-clean-merge
+N1  - The IGI Global article page (igi-global.com/article/know-spreadsheet-errors/55750) read on 2026-10-11 gives the title, Raymond R. Panko, the journal as Journal of Organizational and End User Computing (JOEUC), volume 10, issue 2, pages 15 to 21, copyright 1998, and DOI 10.4018/joeuc.1998040102, in its own APA citation line. Caveat: the publisher page gives the journal under its current title; the candidate list named it Journal of End User Computing, and no page read confirms the title the journal carried in 1998, so the entry follows the publisher page; the ACM Digital Library record returned an error and the author's web page (panko.shidler.hawaii.edu) refused the fetch tool, so no retraction check was possible beyond the IGI Global page; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Wickham, H.
+TI  - Tidy data
+PY  - 2014
+T2  - Journal of Statistical Software
+JO  - Journal of Statistical Software
+VL  - 59
+IS  - 10
+SP  - 1
+EP  - 23
+DO  - 10.18637/jss.v059.i10
+UR  - https://doi.org/10.18637/jss.v059.i10
+KW  - tidy_data_spreadsheets
+KW  - ws7-export-clean-merge
+N1  - The Journal of Statistical Software article page (jstatsoft.org/article/view/v059i10) read on 2026-10-11 gives the title Tidy Data, Hadley Wickham, volume 59, issue 10, pages 1 to 23, publication on 12 September 2014, and DOI 10.18637/jss.v059.i10, with no correction or retraction notice, and the DOAJ record (doaj.org/article/10d611fd6e81405d8cf3f689b8dfa3a2) read the same day gives volume 59, pages 1 to 23, September 2014, and the same DOI. Caveat: the DOAJ record shows the issue as no. 1, which conflicts with the journal page and the DOI, so the entry follows the journal page; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Wickham, H.
+AU  - Averick, M.
+AU  - Bryan, J.
+AU  - Chang, W.
+AU  - McGowan, L. D.
+AU  - François, R.
+AU  - Grolemund, G.
+AU  - Hayes, A.
+AU  - Henry, L.
+AU  - Hester, J.
+AU  - Kuhn, M.
+AU  - Pedersen, T. L.
+AU  - Miller, E.
+AU  - Bache, S. M.
+AU  - Müller, K.
+AU  - Ooms, J.
+AU  - Robinson, D.
+AU  - Seidel, D. P.
+AU  - Spinu, V.
+AU  - Takahashi, K.
+AU  - Vaughan, D.
+AU  - Wilke, C.
+AU  - Woo, K.
+AU  - Yutani, H.
+TI  - Welcome to the tidyverse
+PY  - 2019
+T2  - Journal of Open Source Software
+JO  - Journal of Open Source Software
+VL  - 4
+IS  - 43
+M1  - 1686
+DO  - 10.21105/joss.01686
+UR  - https://doi.org/10.21105/joss.01686
+KW  - tidy_data_spreadsheets
+KW  - ws7-export-clean-merge
+N1  - The Journal of Open Source Software article file (joss.theoj.org/papers/10.21105/joss.01686.pdf) read on 2026-10-11 gives the title Welcome to the Tidyverse, 24 authors from Hadley Wickham to Hiroaki Yutani, the citation Journal of Open Source Software, volume 4, issue 43, 1686, DOI 10.21105/joss.01686, submission on 9 August 2019, publication on 21 November 2019, editor Karthik Ram, and a CC BY license, and the tidyverse package citation on a CRAN mirror (archive.linux.duke.edu/cran/web/packages/tidyverse/citation.html) read the same day gives the same 24 authors in the same order, volume 4, number 43, page 1686, and the same DOI. Caveat: 1686 is the article number; the fifth author, Lucy D'Agostino McGowan, is given as McGowan, L. D. following the package citation; no retraction check was possible beyond the journal file; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Ziemann, M.
+AU  - Eren, Y.
+AU  - El-Osta, A.
+TI  - Gene name errors are widespread in the scientific literature
+PY  - 2016
+T2  - Genome Biology
+JO  - Genome Biology
+VL  - 17
+M1  - 177
+DO  - 10.1186/s13059-016-1044-7
+UR  - https://doi.org/10.1186/s13059-016-1044-7
+KW  - tidy_data_spreadsheets
+KW  - ws7-export-clean-merge
+N1  - The copy of the published Comment in the University of Melbourne Minerva Access repository (minerva-access.unimelb.edu.au) read on 2026-10-11 prints the title, Mark Ziemann, Yotam Eren, and Assam El-Osta, the citation line Genome Biology (2016) 17:177, the article type Comment, open access, and DOI 10.1186/s13059-016-1044-7, and the Baker Heart and Diabetes Institute repository record (oar.baker.edu.au/F4579) read the same day gives Genome Biology, volume 17, article 177, publication on 23 August 2016, and the same DOI, with no correction note; the Deakin University record gives the same volume and article number. Caveat: the Genome Biology link redirected to a Springer address that the fetch tool could not follow, so no retraction check was possible beyond the repository records, and a search for a correction found none; the Baker and Deakin records list issue 1, which the article's own citation line does not print, so no issue is given; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Arslan, R. C.
+TI  - How to automatically document data with the codebook package to facilitate data reuse
+PY  - 2019
+T2  - Advances in Methods and Practices in Psychological Science
+JO  - Advances in Methods and Practices in Psychological Science
+VL  - 2
+IS  - 2
+SP  - 169
+EP  - 187
+DO  - 10.1177/2515245919838783
+UR  - https://doi.org/10.1177/2515245919838783
+KW  - codebooks_documentation
+KW  - ws7-export-clean-merge
+N1  - The SAGE Journals article file (journals.sagepub.com/doi/pdf/10.1177/2515245919838783) read on 2026-10-11 prints Advances in Methods and Practices in Psychological Science, 2019, volume 2, issue 2, pages 169 to 187, DOI 10.1177/2515245919838783, the article type Tutorial, the title, Ruben C. Arslan, receipt on 7 September 2018, and revision accepted on 25 February 2019, and the SAGE article page read the same day gives online publication on 16 May 2019 and the June 2019 issue, with no correction or retraction notice in the portion read. Caveat: the last part of the SAGE article page was not read; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Buchanan, E. M.
+AU  - Crain, S. E.
+AU  - Cunningham, A. L.
+AU  - Johnson, H. R.
+AU  - Stash, H.
+AU  - Papadatou-Pastou, M.
+AU  - Isager, P. M.
+AU  - Carlsson, R.
+AU  - Aczel, B.
+TI  - Getting started creating data dictionaries: How to create a shareable data set
+PY  - 2021
+T2  - Advances in Methods and Practices in Psychological Science
+JO  - Advances in Methods and Practices in Psychological Science
+VL  - 4
+IS  - 1
+M1  - 2515245920928007
+DO  - 10.1177/2515245920928007
+UR  - https://doi.org/10.1177/2515245920928007
+KW  - codebooks_documentation
+KW  - ws7-export-clean-merge
+N1  - The SAGE Journals article page (journals.sagepub.com/doi/10.1177/2515245920928007) read on 2026-10-11 gives the title, nine authors from Erin M. Buchanan to Balazs Aczel, Advances in Methods and Practices in Psychological Science, volume 4, issue 1, online publication on 4 February 2021, the January to March 2021 issue, the article type Research article, and DOI 10.1177/2515245920928007, with no correction or retraction notice, and the Missouri State University BearWorks record (bearworks.missouristate.edu/articles-chhs/1209/) read the same day gives the same authors, volume, issue, and DOI and the article number 2515245920928007. Caveat: the SAGE page shows no page range or article number, so the article number rests on the BearWorks record; the BearWorks author list spells the third author Arielle L. Cunningham while its citation line and the SAGE page give Ari L. Cunningham, which yields the same initials; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Ellis, S. E.
+AU  - Leek, J. T.
+TI  - How to share data for collaboration
+PY  - 2018
+T2  - The American Statistician
+JO  - The American Statistician
+VL  - 72
+IS  - 1
+SP  - 53
+EP  - 57
+DO  - 10.1080/00031305.2017.1375987
+UR  - https://doi.org/10.1080/00031305.2017.1375987
+KW  - codebooks_documentation
+KW  - ws7-export-clean-merge
+N1  - The Johns Hopkins University Pure record (pure.johnshopkins.edu/en/publications/how-to-share-data-for-collaboration) read on 2026-10-11 gives the title, Shannon E. Ellis and Jeffrey T. Leek, American Statistician, publication on 2 January 2018, volume 72, issue 1, pages 53 to 57, and DOI 10.1080/00031305.2017.1375987, with no correction note, and the RePEc IDEAS record (ideas.repec.org/a/taf/amstat/v72y2018i1p53-57.html) read the same day gives The American Statistician, volume 72, issue 1, January 2018, pages 53 to 57, and the same DOI. Caveat: the Taylor and Francis page was not read and the PubMed Central record (PMC7518408) was behind a browser check, so no retraction check was possible beyond these two records; Crossref could not be queried; the PeerJ Preprint (3139) is not cited.
+ER  - 
+
+TY  - JOUR
+AU  - Kovacs, M.
+AU  - Hoekstra, R.
+AU  - Aczel, B.
+TI  - The role of human fallibility in psychological research: A survey of mistakes in data management
+PY  - 2021
+T2  - Advances in Methods and Practices in Psychological Science
+JO  - Advances in Methods and Practices in Psychological Science
+VL  - 4
+IS  - 4
+M1  - 25152459211045930
+DO  - 10.1177/25152459211045930
+UR  - https://doi.org/10.1177/25152459211045930
+KW  - codebooks_documentation
+KW  - ws7-export-clean-merge
+N1  - The SAGE Journals article page (journals.sagepub.com/doi/full/10.1177/25152459211045930) read on 2026-10-11 gives the title, Marton Kovacs, Rink Hoekstra, and Balazs Aczel, Advances in Methods and Practices in Psychological Science, volume 4, issue 4, online publication on 21 October 2021, the October to December 2021 issue, the article type Research article, and DOI 10.1177/25152459211045930, with no correction or retraction notice; the University of Groningen research portal record (research.rug.nl) read the same day gives the same volume, issue, and DOI, and the publication list on Rink Hoekstra's University of Groningen staff page (rug.nl/staff/r.hoekstra/cv) gives the article number 25152459211045930. Caveat: no publisher page read shows a page range or article number, so the article number rests on the staff page; Crossref could not be queried; the PsyArXiv preprint is not cited.
+ER  - 
+
+TY  - JOUR
+AU  - Kothe, C.
+AU  - Shirazi, S. Y.
+AU  - Stenner, T.
+AU  - Medine, D.
+AU  - Boulay, C.
+AU  - Grivich, M. I.
+AU  - Artoni, F.
+AU  - Mullen, T.
+AU  - Delorme, A.
+AU  - Makeig, S.
+TI  - The lab streaming layer for synchronized multimodal recording
+PY  - 2025
+T2  - Imaging Neuroscience
+JO  - Imaging Neuroscience
+VL  - 3
+M1  - IMAG.a.136
+DO  - 10.1162/IMAG.a.136
+UR  - https://doi.org/10.1162/IMAG.a.136
+KW  - reproducible_workflows
+KW  - ws7-export-clean-merge
+N1  - The author-hosted copy of the published article (neuromechanist.github.io/papers/lsl/Kothe2025_LSL.pdf) read on 2026-10-10 prints Imaging Neuroscience, Volume 3, 2025, the article type Software Toolbox, the title, ten authors from Christian Kothe to Scott Makeig, DOI 10.1162/IMAG.a.136, acceptance on 11 August 2025, online availability on 18 August 2025, and a CC BY 4.0 license, and the MIT Press page (direct.mit.edu/imag/article/doi/10.1162/IMAG.a.136/132678) appeared in search results with the same title. Caveat: the MIT Press page returned an error, so the article identifier IMAG.a.136 is taken from the DOI and no retraction check was possible; the 2024 bioRxiv preprint (10.1101/2024.02.13.580071) is not cited. Reused from Workshop 5.
+ER  - 
+
+TY  - JOUR
+AU  - Peng, R. D.
+TI  - Reproducible research in computational science
+PY  - 2011
+T2  - Science
+JO  - Science
+VL  - 334
+IS  - 6060
+SP  - 1226
+EP  - 1227
+DO  - 10.1126/science.1213847
+UR  - https://doi.org/10.1126/science.1213847
+KW  - reproducible_workflows
+KW  - ws7-export-clean-merge
+N1  - The copy of the published Perspective posted at cs.nyu.edu (cs.nyu.edu/~shasha/papers/Science-2011-Peng-1226-7.pdf) read on 2026-10-11 prints the title, Roger D. Peng (Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health), Science, 2 December 2011, volume 334, page headers 1226 and 1227, and DOI 10.1126/science.1213847, with links to sciencemag.org/content/334/6060/1226 that give issue 6060, and the ModelDB citation record (modeldb.science/citations/224258) read the same day gives Science volume 334, the same DOI, and PubMed ID 22144613. Caveat: the Science page and Crossref were not read, so the issue rests on the addresses printed in the copy and no retraction check was possible beyond the copy.
+ER  - 
+
+TY  - JOUR
+AU  - Sandve, G. K.
+AU  - Nekrutenko, A.
+AU  - Taylor, J.
+AU  - Hovig, E.
+TI  - Ten simple rules for reproducible computational research
+PY  - 2013
+T2  - PLOS Computational Biology
+JO  - PLOS Computational Biology
+VL  - 9
+IS  - 10
+M1  - e1003285
+DO  - 10.1371/journal.pcbi.1003285
+UR  - https://doi.org/10.1371/journal.pcbi.1003285
+KW  - reproducible_workflows
+KW  - ws7-export-clean-merge
+N1  - The PLOS Computational Biology article page (journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) read on 2026-10-11 gives the title, Geir Kjetil Sandve, Anton Nekrutenko, James Taylor, and Eivind Hovig, publication on 24 October 2013, volume 9, issue 10, article number e1003285, DOI 10.1371/journal.pcbi.1003285, and editor Philip E. Bourne, with no correction or retraction notice, and the Penn State University Pure record (pure.psu.edu) read the same day gives the same volume, issue, article number, and DOI and PubMed ID 24204232. Caveat: the PubMed Central record was behind a browser check; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Wilson, G.
+AU  - Bryan, J.
+AU  - Cranston, K.
+AU  - Kitzes, J.
+AU  - Nederbragt, L.
+AU  - Teal, T. K.
+TI  - Good enough practices in scientific computing
+PY  - 2017
+T2  - PLOS Computational Biology
+JO  - PLOS Computational Biology
+VL  - 13
+IS  - 6
+M1  - e1005510
+DO  - 10.1371/journal.pcbi.1005510
+UR  - https://doi.org/10.1371/journal.pcbi.1005510
+KW  - reproducible_workflows
+KW  - ws7-export-clean-merge
+N1  - The PLOS Computational Biology article page (journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) read on 2026-10-11 gives the title, Greg Wilson, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal, publication on 22 June 2017, volume 13, issue 6, article number e1005510, DOI 10.1371/journal.pcbi.1005510, and editor Francis Ouellette, with no correction or retraction notice. Caveat: the PubMed Central record was behind a browser check and Crossref could not be queried; the arXiv preprint (1609.00037) is not cited.
+ER  - 
+
+TY  - JOUR
+AU  - Leys, C.
+AU  - Delacre, M.
+AU  - Mora, Y. L.
+AU  - Lakens, D.
+AU  - Ley, C.
+TI  - How to classify, detect, and manage univariate and multivariate outliers, with emphasis on pre-registration
+PY  - 2019
+T2  - International Review of Social Psychology
+JO  - International Review of Social Psychology
+VL  - 32
+IS  - 1
+M1  - 5
+DO  - 10.5334/irsp.289
+UR  - https://doi.org/10.5334/irsp.289
+KW  - missing_outliers_exclusions
+KW  - ws7-export-clean-merge
+N1  - The copy of the published article in the University of Luxembourg ORBilu repository (orbilu.uni.lu/bitstream/10993/57867/1/289-1-1844-3-10-20190621.pdf) read on 2026-10-11 prints the article type Research Article, the title, Christophe Leys, Marie Delacre, Youri L. Mora, Daniël Lakens, and Christophe Ley, the citation International Review of Social Psychology, 32(1): 5, pages 1 to 10, DOI 10.5334/irsp.289, and a CC BY 4.0 license, and the Eindhoven University of Technology research portal record (research.tue.nl) read the same day gives publication on 30 April 2019, volume 32, issue 1, article number 5, and the same DOI, with no correction note. Caveat: the publisher page was not read, so no retraction check was possible beyond these records; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Leys, C.
+AU  - Ley, C.
+AU  - Klein, O.
+AU  - Bernard, P.
+AU  - Licata, L.
+TI  - Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median
+PY  - 2013
+T2  - Journal of Experimental Social Psychology
+JO  - Journal of Experimental Social Psychology
+VL  - 49
+IS  - 4
+SP  - 764
+EP  - 766
+DO  - 10.1016/j.jesp.2013.03.013
+UR  - https://doi.org/10.1016/j.jesp.2013.03.013
+KW  - missing_outliers_exclusions
+KW  - ws7-export-clean-merge
+N1  - The University of Luxembourg ORBilu record (orbilu.uni.lu/handle/10993/59204) read on 2026-10-11 gives the title, Christophe Leys, Christophe Ley, Olivier Klein, Philippe Bernard, and Laurent Licata, Journal of Experimental Social Psychology, July 2013, volume 49, issue 4, and pages 764 to 766, with no correction note, and the Université libre de Bruxelles DI-fusion record (difusion.ulb.ac.be, record 2013/139499) read the same day gives the same authors, volume, and pages and DOI 10.1016/j.jesp.2013.03.013. Caveat: the ScienceDirect page was not read, so the DOI rests on the ULB record and no retraction check was possible; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Meade, A. W.
+AU  - Craig, S. B.
+TI  - Identifying careless responses in survey data
+PY  - 2012
+T2  - Psychological Methods
+JO  - Psychological Methods
+VL  - 17
+IS  - 3
+SP  - 437
+EP  - 455
+DO  - 10.1037/a0028085
+UR  - https://doi.org/10.1037/a0028085
+KW  - missing_outliers_exclusions
+KW  - ws7-export-clean-merge
+N1  - The copy of the article posted at ubc-emotionlab.ca (ubc-emotionlab.ca/wp-content/uploads/2012/06/Meade-Craig-2012-Careless-Responding-in-Survey-Data.pdf) read on 2026-10-10 is the Online First version of 16 April 2012 and prints the title, Adam W. Meade and S. Bartholomew Craig (North Carolina State University), Psychological Methods, and DOI 10.1037/a0028085; the Scientific Research Publishing reference listing (scirp.org, reference 3347850) gives Psychological Methods, 17, 437 to 455, and the same DOI, and the BibBase record gives volume 17, number 3, and start page 437. Caveat: APA PsycNet refused the fetch tool and the ProQuest and Ovid pages returned errors, so the volume, issue, and pages rest on secondary listings, and no retraction check was possible. Reused from Workshop 6.
+ER  - 
+
+TY  - JOUR
+AU  - Schafer, J. L.
+AU  - Graham, J. W.
+TI  - Missing data: Our view of the state of the art
+PY  - 2002
+T2  - Psychological Methods
+JO  - Psychological Methods
+VL  - 7
+IS  - 2
+SP  - 147
+EP  - 177
+DO  - 10.1037/1082-989X.7.2.147
+UR  - https://doi.org/10.1037/1082-989X.7.2.147
+KW  - missing_outliers_exclusions
+KW  - ws7-export-clean-merge
+N1  - The Penn State University Pure record (pure.psu.edu/en/publications/missing-data-our-view-of-the-state-of-the-art/) read on 2026-10-11 gives the title, Joseph L. Schafer and John W. Graham, Psychological Methods, 1 June 2002, volume 7, issue 2, pages 147 to 177, and PubMed ID 12090408, with no correction note, and a copy of the published article in a University of Chile course folder (educa.saludpublica.uchile.cl) read the same day prints Psychological Methods, 2002, Vol. 7, No. 2, pages 147 to 177, the authors' Pennsylvania State University affiliations, and the DOI line 10.1037//1082-989X.7.2.147. Caveat: the article prints the DOI with a double slash; the single slash form 10.1037/1082-989X.7.2.147 used here is taken from a Scientific Research Publishing reference listing (scirp.org, reference 242679), because PsycNet, ProQuest, and Crossref could not be read, so the DOI rests on a secondary listing and no retraction check was possible.
+ER  - 
+
+TY  - JOUR
+AU  - Munafò, M. R.
+AU  - Nosek, B. A.
+AU  - Bishop, D. V. M.
+AU  - Button, K. S.
+AU  - Chambers, C. D.
+AU  - Percie du Sert, N.
+AU  - Simonsohn, U.
+AU  - Wagenmakers, E.-J.
+AU  - Ware, J. J.
+AU  - Ioannidis, J. P. A.
+TI  - A manifesto for reproducible science
+PY  - 2017
+T2  - Nature Human Behaviour
+JO  - Nature Human Behaviour
+VL  - 1
+IS  - 1
+M1  - 0021
+DO  - 10.1038/s41562-016-0021
+UR  - https://doi.org/10.1038/s41562-016-0021
+KW  - preregistration_flexibility
+KW  - ws7-export-clean-merge
+N1  - The Cardiff University ORCA record (orca.cardiff.ac.uk/id/eprint/97336/) read on 2026-10-11 gives the title, ten authors from Marcus R. Munafò to John P. A. Ioannidis, Nature Human Behaviour, volume 1, issue 1, article number 0021, online publication on 10 January 2017, and DOI 10.1038/s41562-016-0021, with no correction note, and the RePEc IDEAS record (ideas.repec.org/a/nat/nathum/v1y2017i1d10.1038_s41562-016-0021.html) read the same day gives the same authors in the same order, volume 1, issue 1, January 2017, and the same DOI. Caveat: the RePEc record gives pages 1 to 9 instead of an article number, so the article number follows the Cardiff record; the Nature page could not be found through search, so no retraction check was possible on the publisher page, and a search for an Author Correction or Publisher Correction found none; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Nosek, B. A.
+AU  - Ebersole, C. R.
+AU  - DeHaven, A. C.
+AU  - Mellor, D. T.
+TI  - The preregistration revolution
+PY  - 2018
+T2  - Proceedings of the National Academy of Sciences
+JO  - Proceedings of the National Academy of Sciences
+VL  - 115
+IS  - 11
+SP  - 2600
+EP  - 2606
+DO  - 10.1073/pnas.1708274114
+UR  - https://doi.org/10.1073/pnas.1708274114
+KW  - preregistration_flexibility
+KW  - ws7-export-clean-merge
+N1  - The ScienceOpen record (scienceopen.com/document/vid/1ade547f-8d6b-4b78-951b-8dd7c1c249ad) read on 2026-10-11 gives The preregistration revolution, Proceedings of the National Academy of Sciences, 13 March 2018, volume 115, issue 11, pages 2600 to 2606, DOI 10.1073/pnas.1708274114, PubMed ID 29531091, and PubMed Central ID 5856500; the PubPeer record read the same day gives Brian A. Nosek, Charles R. Ebersole, Alexander C. DeHaven, and David T. Mellor, the same DOI and PubMed ID, and no comment on a correction or retraction; and the BibBase record and a CNR bibliography listing (chloe.cnr.it) give the same authors, volume, issue, and pages. Caveat: the PNAS article, PDF, and table of contents pages returned errors and the PubMed Central record was behind a browser check, so the volume, issue, and pages rest on index records and no retraction check was possible on the publisher page; a copy posted at errorstatistics.com carries no journal identifiers and was not used; Crossref could not be queried; this article also appears in the Workshop 1 list, which was not among the lists approved for reuse, so it was checked anew.
+ER  - 
+
+TY  - JOUR
+AU  - Simmons, J. P.
+AU  - Nelson, L. D.
+AU  - Simonsohn, U.
+TI  - False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant
+PY  - 2011
+T2  - Psychological Science
+JO  - Psychological Science
+VL  - 22
+IS  - 11
+SP  - 1359
+EP  - 1366
+DO  - 10.1177/0956797611417632
+UR  - https://doi.org/10.1177/0956797611417632
+KW  - preregistration_flexibility
+KW  - ws7-export-clean-merge
+N1  - The SAGE Journals abstract page (journals.sagepub.com/doi/abs/10.1177/0956797611417632) read on 2026-10-11 gives the title, Joseph P. Simmons, Leif D. Nelson, and Uri Simonsohn, Psychological Science, volume 22, issue 11, pages 1359 to 1366, online publication on 17 October 2011, the November 2011 issue, and DOI 10.1177/0956797611417632, with no correction or retraction notice, and the Ramon Llull University research portal record (merit.url.edu) read the same day gives the same volume, issue, pages, and DOI. Caveat: Crossref could not be queried; this article also appears in the Workshop 1 list, which was not among the lists approved for reuse, so it was checked anew.
+ER  - 
+
+TY  - JOUR
+AU  - Steegen, S.
+AU  - Tuerlinckx, F.
+AU  - Gelman, A.
+AU  - Vanpaemel, W.
+TI  - Increasing transparency through a multiverse analysis
+PY  - 2016
+T2  - Perspectives on Psychological Science
+JO  - Perspectives on Psychological Science
+VL  - 11
+IS  - 5
+SP  - 702
+EP  - 712
+DO  - 10.1177/1745691616658637
+UR  - https://doi.org/10.1177/1745691616658637
+KW  - preregistration_flexibility
+KW  - ws7-export-clean-merge
+N1  - The Association for Psychological Science journal page (psychologicalscience.org/journals/perspectives/1745691616658637/) read on 2026-10-11 gives the title, Sara Steegen, Francis Tuerlinckx, Andrew Gelman, and Wolf Vanpaemel, Perspectives on Psychological Science, volume 11, issue 5, September 2016, and DOI 10.1177/1745691616658637, with no correction note, and a copy of the published article posted at errorstatistics.com read the same day prints 2016, Vol. 11(5), pages 702 to 712, the same DOI, and the authors' affiliations at KU Leuven and Columbia University. Caveat: the SAGE page and Crossref were not read, so the pages rest on the posted copy and no retraction check was possible beyond the APS page.
+ER  - 
+
+TY  - JOUR
+AU  - Gilmore, R. O.
+AU  - Kennedy, J. L.
+AU  - Adolph, K. E.
+TI  - Practical solutions for sharing data and materials from psychological research
+PY  - 2018
+T2  - Advances in Methods and Practices in Psychological Science
+JO  - Advances in Methods and Practices in Psychological Science
+VL  - 1
+IS  - 1
+SP  - 121
+EP  - 130
+DO  - 10.1177/2515245917746500
+UR  - https://doi.org/10.1177/2515245917746500
+KW  - data_sharing_privacy
+KW  - ws7-export-clean-merge
+N1  - The SAGE Journals article page (journals.sagepub.com/doi/10.1177/2515245917746500) read on 2026-10-11 gives the title, Rick O. Gilmore, Joy Lorenzo Kennedy, and Karen E. Adolph, Advances in Methods and Practices in Psychological Science, volume 1, issue 1, pages 121 to 130, online publication on 10 January 2018, the March 2018 issue, and DOI 10.1177/2515245917746500, with no correction or retraction notice in the portion read, and the Penn State University Pure record (pure.psu.edu) read the same day gives the same volume, issue, pages, and DOI. Caveat: the last part of the SAGE page was not read; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Hardwicke, T. E.
+AU  - Mathur, M. B.
+AU  - MacDonald, K.
+AU  - Nilsonne, G.
+AU  - Banks, G. C.
+AU  - Kidwell, M. C.
+AU  - Hofelich Mohr, A.
+AU  - Clayton, E.
+AU  - Yoon, E. J.
+AU  - Tessler, M. H.
+AU  - Lenne, R. L.
+AU  - Altman, S.
+AU  - Long, B.
+AU  - Frank, M. C.
+TI  - Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition
+PY  - 2018
+T2  - Royal Society Open Science
+JO  - Royal Society Open Science
+VL  - 5
+IS  - 8
+M1  - 180448
+DO  - 10.1098/rsos.180448
+UR  - https://doi.org/10.1098/rsos.180448
+KW  - data_sharing_privacy
+KW  - ws7-export-clean-merge
+N1  - The DOAJ record (doaj.org/article/9159a399ecf14bc3a5b4b2656e011149) read on 2026-10-11 gives the title, 14 authors from Tom E. Hardwicke to Michael C. Frank, Royal Society Open Science, volume 5, number 8, and DOI 10.1098/rsos.180448, and the MEDLINE record in the Virtual Health Library (busqueda.bvsalud.org, mdl-30225032) read the same day gives the same authors and the citation R Soc Open Sci 5(8): 180448, August 2018. Caveat: the Royal Society Publishing article page returned an error on two attempts and the PubMed Central record was behind a browser check, so the article number rests on the MEDLINE record and no correction or retraction check was possible on the publisher page; the DOAJ record dates the volume January 2018; the MEDLINE record splits two names as Hofelich Mohr, Alicia and Henry Tessler, Michael, and the entry gives Hofelich Mohr, A. and Tessler, M. H. following the full names Alicia Hofelich Mohr and Michael Henry Tessler in the DOAJ record; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Klein, O.
+AU  - Hardwicke, T. E.
+AU  - Aust, F.
+AU  - Breuer, J.
+AU  - Danielsson, H.
+AU  - Mohr, A. H.
+AU  - IJzerman, H.
+AU  - Nilsonne, G.
+AU  - Vanpaemel, W.
+AU  - Frank, M. C.
+TI  - A practical guide for transparency in psychological science
+PY  - 2018
+T2  - Collabra: Psychology
+JO  - Collabra: Psychology
+VL  - 4
+IS  - 1
+M1  - 20
+DO  - 10.1525/collabra.158
+UR  - https://doi.org/10.1525/collabra.158
+KW  - data_sharing_privacy
+KW  - ws7-export-clean-merge
+N1  - The copy of the published Review Article in the KU Leuven Lirias repository (lirias.kuleuven.be/retrieve/522566) read on 2026-10-11 prints the title, ten authors from Olivier Klein to Michael C. Frank, the citation Collabra: Psychology, 4(1): 20, DOI 10.1525/collabra.158, submission on 25 March 2018, acceptance on 29 May 2018, publication on 29 June 2018, and a CC BY 4.0 license, and the University of Cologne KUPS record (kups.ub.uni-koeln.de/18245) and the DOAJ record read the same day give volume 4, issue 1, and the same DOI, with no correction note. Caveat: the author names follow the article's own citation line, which gives the sixth author, Alicia Hofelich Mohr, as Mohr, A. H.; the University of California Press page was not read, so no retraction check was possible beyond these records; Crossref could not be queried.
+ER  - 
+
+TY  - CHAP
+AU  - Kröger, J. L.
+AU  - Lutz, O. H.-M.
+AU  - Müller, F.
+A2  - Friedewald, M.
+A2  - Önen, M.
+A2  - Lievens, E.
+A2  - Krenn, S.
+A2  - Fricker, S.
+TI  - What does your gaze reveal about you? On the privacy implications of eye tracking
+PY  - 2020
+T2  - Privacy and identity management. Data for better living: AI and privacy
+T3  - IFIP Advances in Information and Communication Technology
+VL  - 576
+SP  - 226
+EP  - 241
+PB  - Springer
+DO  - 10.1007/978-3-030-42504-3_15
+UR  - https://doi.org/10.1007/978-3-030-42504-3_15
+KW  - data_sharing_privacy
+KW  - ws7-export-clean-merge
+N1  - Workshop 1 check on 2026-10-07 through https://api.crossref.org/works/10.1007/978-3-030-42504-3_15 and https://link.springer.com/book/10.1007/978-3-030-42504-3; carried over without re-checking the DOI redirect or retraction status for Workshop 2, because Crossref and OpenAlex were not used in this build. Reused from Workshop 2.
+ER  - 
+
+TY  - JOUR
+AU  - Meyer, M. N.
+TI  - Practical tips for ethical data sharing
+PY  - 2018
+T2  - Advances in Methods and Practices in Psychological Science
+JO  - Advances in Methods and Practices in Psychological Science
+VL  - 1
+IS  - 1
+SP  - 131
+EP  - 144
+DO  - 10.1177/2515245917747656
+UR  - https://doi.org/10.1177/2515245917747656
+KW  - data_sharing_privacy
+KW  - ws7-export-clean-merge
+N1  - The SAGE Journals article page (journals.sagepub.com/doi/full/10.1177/2515245917747656) read on 2026-10-11 gives the title, Michelle N. Meyer, Advances in Methods and Practices in Psychological Science, volume 1, issue 1, pages 131 to 144, online publication on 23 February 2018, the March 2018 issue, and DOI 10.1177/2515245917747656, with no correction or retraction notice in the portion read, and the Geisinger research repository record (discovery.geisinger.org) read the same day gives the same volume, issue, pages, and DOI. Caveat: the last part of the SAGE page was not read; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Rocher, L.
+AU  - Hendrickx, J. M.
+AU  - de Montjoye, Y.-A.
+TI  - Estimating the success of re-identifications in incomplete datasets using generative models
+PY  - 2019
+T2  - Nature Communications
+JO  - Nature Communications
+VL  - 10
+M1  - 3069
+DO  - 10.1038/s41467-019-10933-3
+UR  - https://doi.org/10.1038/s41467-019-10933-3
+KW  - data_sharing_privacy
+KW  - ws7-export-clean-merge
+N1  - The Nature Communications article page (nature.com/articles/s41467-019-10933-3) read on 2026-10-11 gives the title, Luc Rocher, Julien M. Hendrickx, and Yves-Alexandre de Montjoye, volume 10, article number 3069, publication on 23 July 2019, the article type Article, and DOI 10.1038/s41467-019-10933-3, with no correction or retraction notice, and the Imperial College London Spiral record and the RePEc IDEAS record read the same day give the same volume and DOI, with Spiral giving article number 3069. Caveat: the Spiral record gives issue 7 while the RePEc and UCLouvain records give issue 1, and the Nature page shows only the volume and article number, so no issue is given; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Wilkinson, M. D.
+AU  - Dumontier, M.
+AU  - Aalbersberg, I. J.
+AU  - Appleton, G.
+AU  - Axton, M.
+AU  - Baak, A.
+AU  - Blomberg, N.
+AU  - Boiten, J.-W.
+AU  - da Silva Santos, L. B.
+AU  - Bourne, P. E.
+AU  - Bouwman, J.
+AU  - Brookes, A. J.
+AU  - Clark, T.
+AU  - Crosas, M.
+AU  - Dillo, I.
+AU  - Dumon, O.
+AU  - Edmunds, S.
+AU  - Evelo, C. T.
+AU  - Finkers, R.
+AU  - Gonzalez-Beltran, A.
+AU  - Gray, A. J. G.
+AU  - Groth, P.
+AU  - Goble, C.
+AU  - Grethe, J. S.
+AU  - Heringa, J.
+AU  - 't Hoen, P. A. C.
+AU  - Hooft, R.
+AU  - Kuhn, T.
+AU  - Kok, R.
+AU  - Kok, J.
+AU  - Lusher, S. J.
+AU  - Martone, M. E.
+AU  - Mons, A.
+AU  - Packer, A. L.
+AU  - Persson, B.
+AU  - Rocca-Serra, P.
+AU  - Roos, M.
+AU  - van Schaik, R.
+AU  - Sansone, S.-A.
+AU  - Schultes, E.
+AU  - Sengstag, T.
+AU  - Slater, T.
+AU  - Strawn, G.
+AU  - Swertz, M. A.
+AU  - Thompson, M.
+AU  - van der Lei, J.
+AU  - van Mulligen, E.
+AU  - Velterop, J.
+AU  - Waagmeester, A.
+AU  - Wittenburg, P.
+AU  - Wolstencroft, K.
+AU  - Zhao, J.
+AU  - Mons, B.
+TI  - The FAIR Guiding Principles for scientific data management and stewardship
+PY  - 2016
+T2  - Scientific Data
+JO  - Scientific Data
+VL  - 3
+M1  - 160018
+DO  - 10.1038/sdata.2016.18
+UR  - https://doi.org/10.1038/sdata.2016.18
+KW  - data_sharing_privacy
+KW  - ws7-export-clean-merge
+N1  - The Erasmus University Rotterdam Pure record (pure.eur.nl) read on 2026-10-11 gives the title, 53 authors from Mark D. Wilkinson to Barend Mons, Scientific Data, publication on 15 March 2016, volume 3, article number 160018, DOI 10.1038/sdata.2016.18, and PubMed ID 26978244, with the record type Comment/Letter to the editor and no correction note; the University of Leicester Figshare record read the same day gives the same 53 authors in the same order with initials, volume 3, and article number 160018; and the Harvard DASH record gives the same DOI and article number. Correction: an Addendum (Scientific Data, volume 6, article 6, 2019, DOI 10.1038/s41597-019-0009-6), read in the Wageningen University copy (edepot.wur.nl/474627) and the Leicester Figshare record, states that the FAIR principles living document moved from datafairport.org to go-fair.org/fair-principles. Caveat: the Nature page could not be found through search, so the Addendum is the only notice checked; the surname forms da Silva Santos, L. B. and 't Hoen, P. A. C. follow the Leicester and DASH records; the DASH record lists issue 1, which the other records do not give, so no issue is given; Crossref could not be queried.
+ER  - 
+
+TY  - JOUR
+AU  - Appelbaum, M.
+AU  - Cooper, H.
+AU  - Kline, R. B.
+AU  - Mayo-Wilson, E.
+AU  - Nezu, A. M.
+AU  - Rao, S. M.
+TI  - Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report
+PY  - 2018
+T2  - American Psychologist
+JO  - American Psychologist
+VL  - 73
+IS  - 1
+SP  - 3
+EP  - 25
+DO  - 10.1037/amp0000191
+UR  - https://doi.org/10.1037/amp0000191
+KW  - statistics_reporting
+KW  - ws7-export-clean-merge
+N1  - The Johns Hopkins University Pure record (pure.johnshopkins.edu) read on 2026-10-10 gives the title, Mark Appelbaum, Harris Cooper, Rex B. Kline, Evan Mayo-Wilson, Arthur M. Nezu, and Stephen M. Rao, American Psychologist, January 2018, volume 73, issue 1, pages 3 to 25, DOI 10.1037/amp0000191, and PubMed ID 29345484, with no correction note. Caveat: the PsycNet page and Crossref were not read, so no retraction check was possible. Reused from Workshop 5.
+ER  - 
+
+TY  - JOUR
+AU  - Bates, D.
+AU  - Mächler, M.
+AU  - Bolker, B.
+AU  - Walker, S.
+TI  - Fitting linear mixed-effects models using lme4
+PY  - 2015
+T2  - Journal of Statistical Software
+JO  - Journal of Statistical Software
+VL  - 67
+IS  - 1
+SP  - 1
+EP  - 48
+DO  - 10.18637/jss.v067.i01
+UR  - https://doi.org/10.18637/jss.v067.i01
+KW  - statistics_reporting
+KW  - ws7-export-clean-merge
+N1  - The Journal of Statistical Software article page (jstatsoft.org/v67/i01) read on 2026-10-10 gives the title, Douglas Bates, Martin Mächler, Ben Bolker, and Steve Walker, volume 67, issue 1, pages 1 to 48, publication on 7 October 2015, and DOI 10.18637/jss.v067.i01, with no correction notice. Caveat: Crossref could not be queried. Reused from Workshop 5.
+ER  - 
+
+TY  - JOUR
+AU  - Faul, F.
+AU  - Erdfelder, E.
+AU  - Lang, A.-G.
+AU  - Buchner, A.
+TI  - G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences
+PY  - 2007
+T2  - Behavior Research Methods
+JO  - Behavior Research Methods
+VL  - 39
+IS  - 2
+SP  - 175
+EP  - 191
+DO  - 10.3758/BF03193146
+UR  - https://doi.org/10.3758/BF03193146
+KW  - statistics_reporting
+KW  - ws7-export-clean-merge
+N1  - The G*Power page of Heinrich Heine University Düsseldorf (psycho.uni-duesseldorf.de/abteilungen/aap/gpower3) read on 2026-10-10 gives Faul, F., Erdfelder, E., Lang, A.-G., & Buchner, A. (2007), the title, Behavior Research Methods, volume 39, pages 175 to 191, and the Wikipedia article on G*Power gives issue 2 and DOI 10.3758/bf03193146, which also forms the address of the SpringerLink search result for the article. Caveat: the SpringerLink page returned HTTP 429 (rate limited), PubMed returned no content, and Crossref could not be queried, so issue and DOI were not read from a publisher record and no retraction check was possible. Reused from Workshop 5.
+ER  - 
+
+TY  - JOUR
+AU  - Judd, C. M.
+AU  - Westfall, J.
+AU  - Kenny, D. A.
+TI  - Treating stimuli as a random factor in social psychology: A new and comprehensive solution to a pervasive but largely ignored problem
+PY  - 2012
+T2  - Journal of Personality and Social Psychology
+JO  - Journal of Personality and Social Psychology
+VL  - 103
+IS  - 1
+SP  - 54
+EP  - 69
+DO  - 10.1037/a0028347
+UR  - https://doi.org/10.1037/a0028347
+KW  - statistics_reporting
+KW  - ws7-export-clean-merge
+N1  - The University of Colorado Experts record (experts.colorado.edu/display/pubid_52505) read on 2026-10-10 gives the title, Judd CM, Westfall J, and Kenny DA, Journal of Personality and Social Psychology, 1 July 2012, volume 103, issue 1, pages 54 to 69, and DOI 10.1037/a0028347, with no correction note. Caveat: the PsycNet page and Crossref were not read, so no retraction check was possible. Reused from Workshop 5.
+ER  - 
+
+TY  - JOUR
+AU  - Lakens, D.
+TI  - Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs
+PY  - 2013
+T2  - Frontiers in Psychology
+JO  - Frontiers in Psychology
+VL  - 4
+M1  - 863
+DO  - 10.3389/fpsyg.2013.00863
+UR  - https://doi.org/10.3389/fpsyg.2013.00863
+KW  - statistics_reporting
+KW  - ws7-export-clean-merge
+N1  - The Frontiers page (frontiersin.org/articles/10.3389/fpsyg.2013.00863/full) read on 2026-10-10 gives the title, Daniël Lakens, Frontiers in Psychology, volume 4, publication on 26 November 2013, and DOI 10.3389/fpsyg.2013.00863, with no correction or retraction notice in the portion read. Caveat: the page does not label an article number, so Article 863 follows the DOI suffix under the Frontiers numbering convention; the end of the reference list was not read and Crossref could not be queried. Reused from Workshop 5.
+ER  - 

@@ -1,0 +1,59 @@
+# SIMULATED DATA for teaching (seed 20271231). Codebook of analysis_ready_long.csv and analysis_ready_wide.csv. Made by prepare_data.R from the export bundle in exports/. No real person was recorded.
+variable,label,source_file,source_column,type,units,allowed_range,missing_code,dataset
+participant_id,Participant code from the session log (P01 to P24),08_Session_Log/SIMULATED_AdStudy_SessionLog.csv,Participant ID,text,,text,never missing,"long, wide"
+recording,iMotions respondent name of the recording used,08_Session_Log/SIMULATED_AdStudy_SessionLog.csv,iMotions respondent name,text,,text,never missing,wide
+stimulus,"Stimulus (Baseline, Ad_A, Ad_B)",04_GSR_Metrics/GSRPeakMetrics.csv,Label (Type = Stimulus),text,,text,never missing,long
+ad_position,"Position of the ad in the order (1 = first, 2 = second)",04_GSR_Metrics/GSRPeakMetrics.csv,Start (ms) of Ad_A and Ad_B,integer,,1 to 2,NA = Baseline row,long
+order,"Order of the ads (AB = Ad_A first, BA = Ad_B first), recovered from Start (ms)",04_GSR_Metrics/GSRPeakMetrics.csv,Start (ms); Group,text,,text,never missing,"long, wide"
+gender,Gender as typed in RESPONDENT DETAILS,04_GSR_Metrics/GSRPeakMetrics.csv,Gender,text,,text,NA = details not entered (iMotions default OTHER),"long, wide"
+age,Age in years as typed in RESPONDENT DETAILS,04_GSR_Metrics/GSRPeakMetrics.csv,Age,number,years,18 to 40,NA = details not entered (iMotions default 0),"long, wide"
+include,1 = in the analysis sample; 0 = excluded by rule R2,06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Eye tracking_Quality; Affectiva AFFDEX_Quality,integer,,0 to 1,never missing,"long, wide"
+exclusion_reason,Why rule R2 excluded the participant,06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Eye tracking_Quality; Affectiva AFFDEX_Quality,text,,text,empty = included,"long, wide"
+et_quality_pct,Percent of valid gaze samples in the stimulus,06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Eye tracking_Quality,number,percent,0 to 100,never missing,long
+face_quality_pct,Percent of frames with a face found in the stimulus,06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Affectiva AFFDEX_Quality,number,percent,0 to 100,never missing,long
+gsr_quality_pct,Percent of GSR samples received in the stimulus,06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Shimmer GSR_Quality,number,percent,0 to 100,never missing,long
+gsr_signal_pct,Signal Duration as a percent of Duration,04_GSR_Metrics/GSRPeakMetrics.csv,Signal Duration (ms) / Duration (ms),number,percent,0 to 100,never missing,long
+gsr_valid,"1 = GSR usable (signal 80 percent or more, rule R3)",04_GSR_Metrics/GSRPeakMetrics.csv,Signal Duration (ms); Duration (ms),integer,,0 to 1,never missing,long
+gsr_peaks_per_min,GSR peaks per minute of signal,04_GSR_Metrics/GSRPeakMetrics.csv,Peaks Per Minute,number,peaks per minute,0 to 40,NA = GSR not valid (rule R3),long
+gsr_peak_count,Number of GSR peaks,04_GSR_Metrics/GSRPeakMetrics.csv,Peak Count,number,peaks,0 to 40,NA = GSR not valid (rule R3),long
+gsr_avg_amp_us,Average GSR peak amplitude,04_GSR_Metrics/GSRPeakMetrics.csv,Average Peak Amplitude (microSiemens),number,microSiemens,0 to 5,"NA = no peaks, or GSR not valid",long
+joy_pct,Percent of time Joy at or above 50,03_FEA_Metrics/FEAMetrics.csv,Percent of time present (Expression = Joy),number,percent,0 to 100,never missing,long
+engagement_pct,Percent of time Engagement at or above 50,03_FEA_Metrics/FEAMetrics.csv,Percent of time present (Expression = Engagement),number,percent,0 to 100,never missing,long
+browfurrow_pct,Percent of time Brow Furrow at or above 50,03_FEA_Metrics/FEAMetrics.csv,Percent of time present (Expression = Brow Furrow),number,percent,0 to 100,never missing,long
+logo_fixated,1 = at least one fixation in the Logo AOI,02_AOI_Metrics/IndividualAOIMetrics.csv,TTFF AOI (ms) not NA; Respondent ratio (%) = 100,integer,,0 to 1,NA = Baseline row,long
+logo_ttff_ms,Time to first fixation on the Logo,02_AOI_Metrics/IndividualAOIMetrics.csv,TTFF AOI (ms),number,ms,0 to 30000,"NA = never fixated, or Baseline row",long
+logo_fix_count,Number of fixations in the Logo AOI,02_AOI_Metrics/IndividualAOIMetrics.csv,Fixation count,number,fixations,0 to 200,NA = Baseline row (0 = never fixated),long
+logo_revisits,Revisits to the Logo after the first dwell (fixation based),02_AOI_Metrics/IndividualAOIMetrics.csv,Revisit count,number,revisits,0 to 50,NA = Baseline row (0 = never fixated),long
+logo_gaze_dwell_ms,Gaze based dwell time on the Logo,02_AOI_Metrics/IndividualAOIMetrics.csv,Gaze Dwell time (ms),number,ms,0 to 30000,NA = Baseline row (0 = never gazed),long
+logo_gaze_dwell_pct,"Gaze based dwell time on the Logo, percent of the ad",02_AOI_Metrics/IndividualAOIMetrics.csv,Gaze Dwell time (%),number,percent,0 to 100,NA = Baseline row (0 = never gazed),long
+product_gaze_dwell_pct,"Gaze based dwell time on the Product, percent of the ad",02_AOI_Metrics/IndividualAOIMetrics.csv,Gaze Dwell time (%),number,percent,0 to 100,NA = Baseline row,long
+headline_gaze_dwell_pct,"Gaze based dwell time on the Headline, percent of the ad",02_AOI_Metrics/IndividualAOIMetrics.csv,Gaze Dwell time (%),number,percent,0 to 100,NA = Baseline row,long
+liking,"Liking of the ad (1 = not at all, 7 = very much)",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_Liking_A or _Liking_B,integer,scale points,1 to 7,NA = Baseline row,long
+recall_correct,"Brand recalled correctly (1 = yes, 0 = no)",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_Recall_A (correct = 1) or _Recall_B (correct = 2),integer,,0 to 1,NA = Baseline row,long
+att_1,I like reusable water bottles (1 to 7),05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_ATT_1,integer,scale points,1 to 7,never missing,wide
+att_2,Buying a reusable water bottle is a smart choice (1 to 7),05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_ATT_2,integer,scale points,1 to 7,never missing,wide
+att_3r_raw,"Reusable water bottles are a waste of money (1 to 7), as answered",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_ATT_3R,integer,scale points,1 to 7,never missing,wide
+att_3_recoded,ATT_3R reverse coded (8 minus the answer),05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_ATT_3R,integer,scale points,1 to 7,never missing,wide
+attitude,"Attitude toward reusable water bottles: mean of att_1, att_2, att_3_recoded",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,"ATT_1, ATT_2, ATT_3R",number,scale points,1 to 7,never missing,wide
+purchase_intention,"Purchase intention, next three months (1 to 7)",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_PI,integer,scale points,1 to 7,never missing,wide
+liking_ad_a,"Liking of the ad (1 = not at all, 7 = very much) (Ad_A)",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_Liking_A or _Liking_B,integer,scale points,1 to 7,never missing,wide
+liking_ad_b,"Liking of the ad (1 = not at all, 7 = very much) (Ad_B)",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_Liking_A or _Liking_B,integer,scale points,1 to 7,never missing,wide
+recall_correct_ad_a,"Brand recalled correctly (1 = yes, 0 = no) (Ad_A)",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_Recall_A (correct = 1) or _Recall_B (correct = 2),integer,,0 to 1,never missing,wide
+recall_correct_ad_b,"Brand recalled correctly (1 = yes, 0 = no) (Ad_B)",05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt,LABELVALUE_Questionnaire_Recall_A (correct = 1) or _Recall_B (correct = 2),integer,,0 to 1,never missing,wide
+logo_fixated_ad_a,1 = at least one fixation in the Logo AOI (Ad_A),02_AOI_Metrics/IndividualAOIMetrics.csv,TTFF AOI (ms) not NA; Respondent ratio (%) = 100,integer,,0 to 1,never missing,wide
+logo_fixated_ad_b,1 = at least one fixation in the Logo AOI (Ad_B),02_AOI_Metrics/IndividualAOIMetrics.csv,TTFF AOI (ms) not NA; Respondent ratio (%) = 100,integer,,0 to 1,never missing,wide
+joy_pct_baseline,Percent of time Joy at or above 50 (Baseline),03_FEA_Metrics/FEAMetrics.csv,Percent of time present (Expression = Joy),number,percent,0 to 100,never missing,wide
+joy_pct_ad_a,Percent of time Joy at or above 50 (Ad_A),03_FEA_Metrics/FEAMetrics.csv,Percent of time present (Expression = Joy),number,percent,0 to 100,never missing,wide
+joy_pct_ad_b,Percent of time Joy at or above 50 (Ad_B),03_FEA_Metrics/FEAMetrics.csv,Percent of time present (Expression = Joy),number,percent,0 to 100,never missing,wide
+gsr_peaks_per_min_baseline,GSR peaks per minute of signal (Baseline),04_GSR_Metrics/GSRPeakMetrics.csv,Peaks Per Minute,number,peaks per minute,0 to 40,NA = GSR not valid (rule R3),wide
+gsr_peaks_per_min_ad_a,GSR peaks per minute of signal (Ad_A),04_GSR_Metrics/GSRPeakMetrics.csv,Peaks Per Minute,number,peaks per minute,0 to 40,NA = GSR not valid (rule R3),wide
+gsr_peaks_per_min_ad_b,GSR peaks per minute of signal (Ad_B),04_GSR_Metrics/GSRPeakMetrics.csv,Peaks Per Minute,number,peaks per minute,0 to 40,NA = GSR not valid (rule R3),wide
+gsr_valid_baseline,"1 = GSR usable (signal 80 percent or more, rule R3) (Baseline)",04_GSR_Metrics/GSRPeakMetrics.csv,Signal Duration (ms); Duration (ms),integer,,0 to 1,never missing,wide
+gsr_valid_ad_a,"1 = GSR usable (signal 80 percent or more, rule R3) (Ad_A)",04_GSR_Metrics/GSRPeakMetrics.csv,Signal Duration (ms); Duration (ms),integer,,0 to 1,never missing,wide
+gsr_valid_ad_b,"1 = GSR usable (signal 80 percent or more, rule R3) (Ad_B)",04_GSR_Metrics/GSRPeakMetrics.csv,Signal Duration (ms); Duration (ms),integer,,0 to 1,never missing,wide
+et_quality_pct_baseline,Percent of valid gaze samples in the stimulus (Baseline),06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Eye tracking_Quality,number,percent,0 to 100,never missing,wide
+et_quality_pct_ad_a,Percent of valid gaze samples in the stimulus (Ad_A),06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Eye tracking_Quality,number,percent,0 to 100,never missing,wide
+et_quality_pct_ad_b,Percent of valid gaze samples in the stimulus (Ad_B),06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Eye tracking_Quality,number,percent,0 to 100,never missing,wide
+face_quality_pct_baseline,Percent of frames with a face found in the stimulus (Baseline),06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Affectiva AFFDEX_Quality,number,percent,0 to 100,never missing,wide
+face_quality_pct_ad_a,Percent of frames with a face found in the stimulus (Ad_A),06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Affectiva AFFDEX_Quality,number,percent,0 to 100,never missing,wide
+face_quality_pct_ad_b,Percent of frames with a face found in the stimulus (Ad_B),06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt,Affectiva AFFDEX_Quality,number,percent,0 to 100,never missing,wide

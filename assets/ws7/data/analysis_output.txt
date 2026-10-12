@@ -1,0 +1,156 @@
+SIMULATED Multimodal Ad Study: hypothesis tests on the merged data, run on 2026-10-11 12:00 
+R 4.3.3; lme4 1.1.35.1; lmerTest 3.1.3
+
+---- STEP 1. Files read ----
+Seed of the simulation: 20271231; long table 72 x 29; wide table 24 x 34; codebook 57 variables
+Every column is in the codebook; participant x stimulus is unique.
+
+---- STEP 2. Analysis sample ----
+Participants: 22 of 24 (excluded by rule R2: P18, eye tracking quality below 90 percent on an ad; P21, face found below 80 percent on an ad)
+Order: AB 11, BA 11; gender: Female = 12, Male = 9, NA = 1; age M = 21.33, SD = 1.88 (n = 21; one age not entered)
+Rows: 66 participant x stimulus rows; 44 participant x ad rows; GSR valid rows: 65 (missing: P05 Ad_B)
+
+---- STEP 3. Descriptive statistics (analysis sample) ----
+                     measure stimulus  n   mean     sd median min   max
+        GSR Peaks Per Minute Baseline 22  2.063  1.859  2.000   0  6.00
+        GSR Peaks Per Minute     Ad_A 22  7.273  6.805  6.000   0 26.00
+        GSR Peaks Per Minute     Ad_B 21  6.000  4.940  6.000   0 18.00
+        Joy, percent of time Baseline 22  0.379  1.422  0.000   0  6.50
+        Joy, percent of time     Ad_A 22 12.131 10.808  9.665   0 39.33
+        Joy, percent of time     Ad_B 22  8.329  9.464  3.780   0 27.00
+ Engagement, percent of time Baseline 22  2.330  2.360  1.385   0  7.33
+ Engagement, percent of time     Ad_A 22 14.516 11.719 11.445   0 41.67
+ Engagement, percent of time     Ad_B 22  9.950 10.014  6.110   0 28.44
+    Eye tracking quality (%) Baseline 22 95.545  1.101 96.000  92 97.00
+    Eye tracking quality (%)     Ad_A 22 95.318  1.249 95.000  93 98.00
+    Eye tracking quality (%)     Ad_B 22 95.136  0.889 95.000  94 97.00
+             Liking (1 to 7)     Ad_A 22  4.591  1.403  5.000   1  7.00
+             Liking (1 to 7)     Ad_B 22  4.045  1.290  4.000   1  6.00
+   Logo fixated (proportion)     Ad_A 22  0.545  0.510  1.000   0  1.00
+   Logo fixated (proportion)     Ad_B 22  0.545  0.510  1.000   0  1.00
+ Brand recalled (proportion)     Ad_A 22  0.545  0.510  1.000   0  1.00
+ Brand recalled (proportion)     Ad_B 22  0.545  0.510  1.000   0  1.00
+   Logo gaze dwell (% of ad)     Ad_A 22  1.782  2.820  0.525   0 11.11
+   Logo gaze dwell (% of ad)     Ad_B 22  1.396  1.891  0.750   0  7.50
+
+Attitude (mean of ATT_1, ATT_2, recoded ATT_3R): M = 4.56, SD = 1.00; purchase intention: M = 3.68, SD = 1.39 (n = 22)
+
+---- STEP 4. H1: Logo fixated (eye tracking) and brand recall (survey) ----
+Pooled over the two ads (two observations per participant) (N = 44)
+                  
+                   Not recalled Recalled Sum
+  Logo not fixated           13        7  20
+  Logo fixated                7       17  24
+  Sum                        20       24  44
+  Recalled when fixated: 17 of 24 (70.8%); when not fixated: 7 of 20 (35.0%)
+  Sample odds ratio = (17 x 13) / (7 x 7) = 4.51; Fisher conditional estimate OR = 4.34, 95% CI [1.08, 19.55], p = 0.03238
+  Pearson chi square (no continuity correction) X2(1, N = 44) = 5.650, p = 0.01746; phi = 0.358; Yates corrected X2 = 4.297, p = 0.03818
+  Smallest expected count = 9.09
+
+Ad_A only (one observation per participant) (N = 22)
+                  
+                   Not recalled Recalled Sum
+  Logo not fixated            7        3  10
+  Logo fixated                3        9  12
+  Sum                        10       12  22
+  Recalled when fixated: 9 of 12 (75.0%); when not fixated: 3 of 10 (30.0%)
+  Sample odds ratio = (9 x 7) / (3 x 3) = 7.00; Fisher conditional estimate OR = 6.31, 95% CI [0.80, 68.43], p = 0.08356
+  Pearson chi square (no continuity correction) X2(1, N = 22) = 4.455, p = 0.03480; phi = 0.450; Yates corrected X2 = 2.825, p = 0.09281
+  Smallest expected count = 4.55
+
+Ad_B only (one observation per participant) (N = 22)
+                  
+                   Not recalled Recalled Sum
+  Logo not fixated            6        4  10
+  Logo fixated                4        8  12
+  Sum                        10       12  22
+  Recalled when fixated: 8 of 12 (66.7%); when not fixated: 4 of 10 (40.0%)
+  Sample odds ratio = (8 x 6) / (4 x 4) = 3.00; Fisher conditional estimate OR = 2.85, 95% CI [0.39, 24.13], p = 0.39128
+  Pearson chi square (no continuity correction) X2(1, N = 22) = 1.564, p = 0.21102; phi = 0.267; Yates corrected X2 = 0.674, p = 0.41175
+  Smallest expected count = 4.55
+
+Mixed logistic model, recall ~ logo_fixated + ad + (1 | participant): OR = 4.51, 95% Wald CI [1.26, 16.10], z = 2.32, p = 0.02032;
+  SD of the participant intercepts = 0.000 (logit scale); the fit is singular: the data show no extra similarity within participants, so the model reduces to ordinary logistic regression.
+
+---- STEP 5. H2: percent of time with Joy (AFFDEX) and liking (survey) ----
+Model: liking ~ Joy (per 10 points) + ad + (1 | participant); 44 observations, 22 participants
+            Estimate Std. Error      df t value Pr(>|t|)
+(Intercept)   4.1980     0.3715 39.7792 11.3001   0.0000
+joy10         0.3239     0.1983 40.6560  1.6336   0.1101
+ad_b         -0.4223     0.3257 21.6773 -1.2966   0.2084
+Joy slope b = 0.3239 liking points per 10 percentage points of Joy, SE = 0.1983, 95% CI [-0.0647, 0.7125] (Wald), t(40.66) = 1.6336, p = 0.11007
+Ad_B minus Ad_A (at equal Joy): b = -0.422, p = 0.20839
+Random intercept SD = 0.8120, residual SD = 1.0508; share of liking variance between participants (ICC) = 0.3739
+Standardized slope (both variables in SD units) = 0.2434
+Correlations for each ad (one rating per participant):
+  Ad_A: Pearson r(20) = 0.2654, 95% CI [-0.1758, 0.6179], p = 0.23249; Spearman rho = 0.3276, p = 0.13665
+  Ad_B: Pearson r(20) = 0.1794, 95% CI [-0.2620, 0.5588], p = 0.42425; Spearman rho = 0.1382, p = 0.53972
+Percent of time with Joy: Ad_A M = 12.13 (SD = 10.81), Ad_B M = 8.33 (SD = 9.46); zero Joy in 11 of 44 participant x ad rows
+
+---- STEP 6. H3: GSR Peaks Per Minute, each ad versus Baseline ----
+Ad_A versus Baseline (n = 22)
+  Baseline: M = 2.0627, SD = 1.8591, median = 2.000; Ad_A: M = 7.2727, SD = 6.8046, median = 6.000
+  Difference: M = 5.2100 peaks per minute, SD = 6.3076, 95% CI [2.4134, 8.0066]
+  Paired t(21) = 3.8742, p = 0.00088; d_z = 0.8260, 95% CI [0.3327, 1.3048] (noncentral t), approximation [0.3421, 1.3099]
+  For the Excel check: SE of the mean difference = 1.3448; critical t (95%) = 2.0796; SE of d_z (approximation) = 0.2469
+  Wilcoxon signed rank V = 212, p = 0.00083; Shapiro Wilk on the differences W = 0.862, p = 0.00555; increases: 19 of 22
+
+Ad_B versus Baseline (n = 21; missing GSR: P05)
+  Baseline: M = 1.8752, SD = 1.6784, median = 2.000; Ad_B: M = 6.0000, SD = 4.9396, median = 6.000
+  Difference: M = 4.1248 peaks per minute, SD = 4.3466, 95% CI [2.1462, 6.1033]
+  Paired t(20) = 4.3487, p = 0.00031; d_z = 0.9490, 95% CI [0.4229, 1.4588] (noncentral t), approximation [0.4339, 1.4640]
+  For the Excel check: SE of the mean difference = 0.9485; critical t (95%) = 2.0860; SE of d_z (approximation) = 0.2628
+  Wilcoxon signed rank V = 165, p = 0.00056; Shapiro Wilk on the differences W = 0.921, p = 0.09152; increases: 16 of 21
+
+Holm adjusted p: Ad_A 0.00088, Ad_B 0.00062
+
+---- STEP 7. Assumption checks ----
+saved figure: figures/SIMULATED_assumption_checks.png
+
+---- STEP 8. Overview of the merged measures ----
+saved figure: figures/SIMULATED_fig4_merged_overview.png
+
+---- STEP 9. Summary of the tests (SIMULATED_test_results.csv) ----
+        id                                                                           test  n     statistic_name statistic    df         p
+        H1                Fisher exact test, pooled 2 x 2 (Logo fixated x brand recalled) 44 X2 (no correction)    5.6500  1.00 0.0323800
+   H1_AD_A                                                        Fisher exact test, Ad_A 22 X2 (no correction)    4.4550  1.00 0.0835600
+   H1_AD_B                                                        Fisher exact test, Ad_B 22 X2 (no correction)    1.5640  1.00 0.3913000
+   H1_GLMM                   Mixed logistic regression (random intercept per participant) 44                  z    2.3200    NA 0.0203200
+        H2 Linear mixed model: liking ~ Joy/10 + ad + (1 | participant), Satterthwaite df 44                  t    1.6340 40.66 0.1101000
+ H2_R_AD_A                                                      Pearson correlation, Ad_A 22                  r    0.2654 20.00 0.2325000
+ H2_R_AD_B                                                      Pearson correlation, Ad_B 22                  r    0.1794 20.00 0.4243000
+   H3_AD_A                       Paired t test, GSR Peaks Per Minute, Ad_A minus Baseline 22                  t    3.8740 21.00 0.0008772
+   H3_AD_B                       Paired t test, GSR Peaks Per Minute, Ad_B minus Baseline 21                  t    4.3490 20.00 0.0003114
+                es_type     es es_ci_low es_ci_high    m1     m2
+    odds ratio (Fisher) 4.3430   1.07600    19.5500 0.350 0.7083
+    odds ratio (Fisher) 6.3110   0.80100    68.4300 0.300 0.7500
+    odds ratio (Fisher) 2.8460   0.39420    24.1300 0.400 0.6667
+   odds ratio (Wald CI) 4.5100   1.26400    16.1000    NA     NA
+ b per 10 points of Joy 0.3239  -0.06471     0.7125    NA     NA
+                      r 0.2654  -0.17580     0.6179    NA     NA
+                      r 0.1794  -0.26200     0.5588    NA     NA
+                    d_z 0.8260   0.33270     1.3050 2.063 7.2730
+                    d_z 0.9490   0.42290     1.4590 1.875 6.0000
+                                                                                                                           note   sd1   sd2 mean_diff sd_diff
+                                                                         phi = 0.358; chi square p = 0.01746; sample OR = 4.510    NA    NA        NA      NA
+                                                                                                                    phi = 0.450    NA    NA        NA      NA
+                                                                                                                    phi = 0.267    NA    NA        NA      NA
+                                                                                          SD of intercepts 0.000; singular TRUE    NA    NA        NA      NA
+                                                                                 standardized slope 0.243; SE 0.1983; ICC 0.374    NA    NA        NA      NA
+                                                                                                  Spearman rho 0.328, p 0.13665    NA    NA        NA      NA
+                                                                                                  Spearman rho 0.138, p 0.53972    NA    NA        NA      NA
+ Holm p 0.000877; mean diff 5.2100 (SD 6.3076), CI [2.4134, 8.0066]; d_z approx CI [0.3421, 1.3099]; Wilcoxon V 212, p 0.000826 1.859 6.805     5.210   6.308
+ Holm p 0.000623; mean diff 4.1248 (SD 4.3466), CI [2.1462, 6.1033]; d_z approx CI [0.4339, 1.4640]; Wilcoxon V 165, p 0.000560 1.678 4.940     4.125   4.347
+ diff_ci_low diff_ci_high es_ci_low_approx es_ci_high_approx    p_holm np_stat      np_p
+          NA           NA               NA                NA        NA      NA        NA
+          NA           NA               NA                NA        NA      NA        NA
+          NA           NA               NA                NA        NA      NA        NA
+          NA           NA               NA                NA        NA      NA        NA
+          NA           NA               NA                NA        NA      NA        NA
+          NA           NA               NA                NA        NA      NA        NA
+          NA           NA               NA                NA        NA      NA        NA
+       2.413        8.007           0.3421             1.310 0.0008772     212 0.0008264
+       2.146        6.103           0.4339             1.464 0.0006227     165 0.0005599
+
+wrote SIMULATED_test_results.csv and SIMULATED_descriptives.csv
+References: Bates et al. (2015); Lakens (2013). See refs/references.json.

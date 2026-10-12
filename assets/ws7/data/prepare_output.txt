@@ -1,0 +1,306 @@
+SIMULATED data preparation pipeline (Workshop 7), run on 2026-10-11 12:00 
+R 4.3.3; readr 2.1.5; dplyr 1.1.4; tidyr 1.3.1
+
+---- STEP 1. Inventory of the export bundle ----
+          folder                                          file     kb lines header_line separator
+  01_Sensor_Data                                   001_P01.csv 1604.9 26235          27     comma
+  01_Sensor_Data                                   002_P02.csv 1605.7 26157          27     comma
+  01_Sensor_Data                                   003_P03.csv 1613.8 26241          27     comma
+  01_Sensor_Data                                   004_P04.csv  301.8  5175          27     comma
+  01_Sensor_Data                             005_P04_rerun.csv 1601.4 26195          27     comma
+  01_Sensor_Data                                   006_P05.csv 1446.5 23399          27     comma
+  01_Sensor_Data                                   007_P06.csv 1613.5 26248          27     comma
+  02_AOI_Metrics                      AggregatedAOIMetrics.csv    1.3    12           6     comma
+  02_AOI_Metrics                      IndividualAOIMetrics.csv   22.9   153           9     comma
+  03_FEA_Metrics                                FEAMetrics.csv   52.7   519           9     comma
+  04_GSR_Metrics                            GSRPeakMetrics.csv   18.6   181          11     comma
+       05_Survey             MERGED_SURVEY_RESPONSE_MATRIX.txt    5.0    26           2       tab
+       05_Survey                          SurveyStatistics.txt    1.2    10           2       tab
+       05_Survey             SurveyStatistics_student_copy.csv    1.2    10           2 semicolon
+ 06_Data_Quality SIMULATED Multimodal Ad Study_DataQuality.txt    4.5   126           4       tab
+  07_Annotations               Aggregate Annotation Result.csv    0.5     6           4     comma
+  07_Annotations                Individual Annotation Data.csv    6.6    52           4     comma
+  08_Session_Log              SIMULATED_AdStudy_SessionLog.csv    3.4    27           2     comma
+Files: 18 in 8 folders; simulation seed: 20271231
+Header row = the line number of the column names (line 1 is the SIMULATED banner, which a real export does not have).
+The separator is judged on the first data row: the survey HEADER contains commas inside the question texts.
+
+---- STEP 2. Session log: roster and crosswalk ----
+Session log rows (recordings): 25; participants: 24 (P01 to P24)
+Participants with more than one recording:
+ participant_id recording rec_no   use
+            P04       P04      1 FALSE
+            P04 P04_rerun      2  TRUE
+                                                                                                                                                                         notes
+ Aurora calibration failed (gaze not tracked in the live view). Recording stopped 23 s into Baseline. Recalibrated and recorded again as P04_rerun. Do not use this recording.
+                                                             Rerun of P04 after recalibration (Baseline had not finished, so no ad was seen twice). Use this recording as P04.
+Recordings marked Use recording = No: P04 
+
+---- STEP 3. R metrics exports ----
+04_GSR_Metrics/GSRPeakMetrics.csv: header on line 11, 170 rows, 15 columns
+03_FEA_Metrics/FEAMetrics.csv: header on line 9, 510 rows, 14 columns
+02_AOI_Metrics/IndividualAOIMetrics.csv: header on line 9, 144 rows, 28 columns
+02_AOI_Metrics/AggregatedAOIMetrics.csv: header on line 6, 6 rows, 13 columns
+Type values: GSR Annotation = 48, Stimulus = 122 | FEA Annotation = 144, Stimulus = 366 | AOI Stimulus = 144 
+Labels in GSR: Ad_A, Ad_B, Baseline, EndCard, Instructions, Questionnaire 
+Expressions in FEA: Joy, Engagement, Brow Furrow ; AOIs: Logo, Product, Headline 
+Note: Label alone is not a unique key. 'EndCard' exists in Ad_A and in Ad_B; Type + Label + Parent Stimulus is.
+
+---- STEP 4. Survey exports ----
+MERGED_SURVEY_RESPONSE_MATRIX.txt: 24 rows, 21 columns; first five: STUDY, RESPONDENT, GENDER, AGE, GROUP
+A LABELVALUE header, as exported: "LABELVALUE_Questionnaire_Liking_A,Question1 "How much did you like the hiking ad? (1 = not at all, 7 = very much)"" 
+For comparison, the same file read as COMMA separated gives 29 columns of nonsense (the commas sit inside the headers).
+SurveyStatistics.txt: 8 rows; columns Stimulus Name, Question ID, Question Text, Average, Median, StdDev, Count
+ Question ID Average Median StdDev Count
+    Liking_A    4.58    5.0   1.35    24
+    Liking_B    4.17    4.0   1.31    24
+    Recall_A    2.42    1.0   1.77    24
+    Recall_B    2.38    2.0   1.44    24
+       ATT_1    4.58    5.0   1.25    24
+       ATT_2    4.58    5.0   0.88    24
+      ATT_3R    3.67    4.0   1.24    24
+          PI    3.62    4.0   1.35    24
+(iMotions averaged the raw label values: the Recall 'Average' is the mean of brand label numbers and means nothing.)
+Student copy read as an ordinary CSV: 1 column(s); the first column name is "Stimulus Name;Question ID;Question Text;Average;Median;StdDev;Count"
+Read with delim ';' and decimal ',': 7 columns; largest difference from SurveyStatistics.txt: Average 0.0000, StdDev 0.0000
+Decision: the copy holds the same numbers; it is NOT used. Analysis reads the raw export only.
+
+---- STEP 5. Data quality and annotation exports ----
+SIMULATED Multimodal Ad Study_DataQuality.txt: lines above the header: "#Study Name : SIMULATED Multimodal Ad Study" and "#Study Date : 02-11-2026 14:31:07" | 122 rows
+Columns: Respondent_Name | Stim_Name | Eye tracking_SamplingRate | Eye tracking_Quality | Affectiva AFFDEX_SamplingRate | Affectiva AFFDEX_Quality | Shimmer GSR_SamplingRate | Shimmer GSR_Quality 
+Individual Annotation Data.csv: 48 rows (line 2 reads "Segmentation: Default (all respondents)"); Aggregate Annotation Result.csv: 2 rows
+Aggregate file:
+ Stimuli Name Gender From Age To Age Marker Name Base Avg Duration (ms)
+         Ad_A   BOTH      >=0   <=26     EndCard   24           5000.00
+         Ad_B   BOTH      >=0   <=26     EndCard   24           5000.00
+Color values such as "#FF9BBB59" start with '#': reading with comment = '#' would cut them off.
+
+---- STEP 6. Raw respondent keys ----
+                              file          column distinct_names exact_matches not_matching
+                    FEAMetrics.csv Respondent Name             25            25       (none)
+                GSRPeakMetrics.csv Respondent Name             25            25       (none)
+    Individual Annotation Data.csv Respondent Name             24            24       (none)
+          IndividualAOIMetrics.csv Respondent Name             24            24       (none)
+ MERGED_SURVEY_RESPONSE_MATRIX.txt      RESPONDENT             24            23        "p07"
+                  _DataQuality.txt Respondent_Name             25            24       "P07 "
+Characters of the problem keys (utf8ToInt shows the hidden space as 32):
+  "p07"    -> 112 48 55
+  "P07 "   -> 80 48 55 32
+A join on the RAW keys would lose 5 data quality rows and 1 survey row(s).
+
+---- STEP 7. Standardized keys, crosswalk, aborted recording dropped ----
+Rows dropped by rule R1 (the aborted recording 'P04'):
+  04_GSR_Metrics/GSRPeakMetrics.csv              rows before  170, dropped 2 (recording P04), after  168
+  03_FEA_Metrics/FEAMetrics.csv                  rows before  510, dropped 6 (recording P04), after  504
+  02_AOI_Metrics/IndividualAOIMetrics.csv        rows before  144, dropped 0 (the aborted recording never reached these stimuli), after  144
+  05_Survey/MERGED_SURVEY_RESPONSE_MATRIX.txt    rows before   24, dropped 0 (the aborted recording never reached these stimuli), after   24
+  06_Data_Quality/SIMULATED Multimodal Ad Study_DataQuality.txt rows before  122, dropped 2 (recording P04), after  120
+  07_Annotations/Individual Annotation Data.csv  rows before   48, dropped 0 (the aborted recording never reached these stimuli), after   48
+  gsr_k  participants: 24; roster participants missing here: none; codes here that are not in the roster: none
+  fea_k  participants: 24; roster participants missing here: none; codes here that are not in the roster: none
+  aoi_k  participants: 24; roster participants missing here: none; codes here that are not in the roster: none
+  sv_k   participants: 24; roster participants missing here: none; codes here that are not in the roster: none
+  dq_k   participants: 24; roster participants missing here: none; codes here that are not in the roster: none
+  an_k   participants: 24; roster participants missing here: none; codes here that are not in the roster: none
+Every file now holds the same 24 participants.
+
+---- STEP 8. Stimulus keys ----
+GSR rows by Type and stimulus after step 7: Annotation EndCard = 48, Stimulus Ad_A = 24, Stimulus Ad_B = 24, Stimulus Baseline = 24, Stimulus Instructions = 24, Stimulus Questionnaire = 24
+Duplicate check of the keys (after the rerun was mapped and the aborted recording dropped):
+  GSR (Stimulus rows)                rows   72; duplicated (participant_id + stimulus): 0
+  FEA (Stimulus rows)                rows  216; duplicated (participant_id + stimulus + Expression): 0
+  AOI individual                     rows  144; duplicated (participant_id + stimulus + AOI Name): 0
+  Data quality                       rows   72; duplicated (participant_id + stimulus): 0
+  Survey                             rows   24; duplicated (participant_id): 0
+
+---- STEP 9. Respondent details: Gender, Age, Group, order of the ads ----
+Gender, Age, Group identical in the GSR export and the survey export: TRUE
+Respondents whose details are the iMotions defaults:
+ participant_id Gender Age   Group order_from_data order_log
+            P22  OTHER   0 Default              BA        BA
+Group equals the order found in the data for 23 of 24 participants; the session log order equals it for 24 of 24.
+After cleaning: age M = 21.22, SD = 1.83, range 19 to 26 (n = 23, 1 missing); gender: Female = 13, Male = 10, NA = 1
+
+---- STEP 10. Survey: reshape, score, Cronbach's alpha ----
+Tidy survey: 192 rows = 24 participants x 8 questions; questions: Liking_A, Liking_B, Recall_A, Recall_B, ATT_1, ATT_2, ATT_3R, PI
+Check: LABELID number equals LABELVALUE in 192 of 192 answers; missing answers: 0
+Raw item means and SDs agree with SurveyStatistics.txt at two decimals: TRUE (largest gap 0.0050)
+Recall answers as exported (label value counts):
+Recall_A
+ 1  2  3  4  5 
+13  2  1  2  6 
+Recall_B
+ 1  2  5 
+ 6 13  5 
+Brand recalled correctly: Ad_A 13 of 24, Ad_B 13 of 24
+Correlation of ATT_3R with ATT_1 before recoding: r = -0.66; after: r = 0.66
+Cronbach's alpha = k / (k - 1) x (1 - sum of item variances / variance of the sum), k = 3:
+  item variances 1.5580, 0.7754, 1.5362 (sum 3.8696); variance of the sum 8.7826; alpha = 1.5 x (1 - 3.8696 / 8.7826) = 0.839
+Alpha WITHOUT recoding ATT_3R = -1.101 (the mistake); WITH recoding = 0.839 (n = 24)
+Attitude score (mean of the three items, 1 to 7): M = 4.50, SD = 0.99; purchase intention: M = 3.62, SD = 1.35
+
+---- STEP 11. GSR signal check (rule R3) ----
+Stimuli with Signal Duration below 100 percent:
+ participant_id stimulus duration_ms signal_ms signal_pct peaks_per_min_raw valid
+            P05     Ad_B       30000      7812       26.0              7.68     0
+            P12 Baseline       60000     54797       91.3              4.38     1
+  P05 Ad_B: 7.8 s of signal in 30.0 s (gap or loss 22.2 s)
+  P12 Baseline: 54.8 s of signal in 60.0 s (gap or loss 5.2 s)
+GSR stimulus values set to missing: 1; kept with a gap: 1
+
+---- STEP 12. FEA: from long (one row per expression) to one column per expression ----
+FEA rows: 216 long -> 72 wide (participant x stimulus); columns: participant_id, stimulus, joy_pct, engagement_pct, browfurrow_pct
+
+---- STEP 13. AOI metrics: Logo hit, NA versus 0, the aggregated file ----
+Logo rows: 48; never fixated (TTFF NA, Respondent ratio 0): 21. Respondent ratio (%) = 100 exactly when TTFF is not NA: TRUE
+Respondent ratio (%) recomputed from the individual file versus the aggregated export (all 24 participants):
+ stimulus      aoi ratio_all n_all ratio_export base
+     Ad_A Headline     100.0    24        100.0   24
+     Ad_A     Logo      54.2    24         54.2   24
+     Ad_A  Product     100.0    24        100.0   24
+     Ad_B Headline     100.0    24        100.0   24
+     Ad_B     Logo      58.3    24         58.3   24
+     Ad_B  Product     100.0    24        100.0   24
+They agree. The aggregated file averages over EVERY respondent in the iMotions analysis, before any exclusion,
+so it cannot be used for the analysis sample or for tests (one number per AOI, not one per person).
+
+---- STEP 14. Three time bases ----
+Annotation export: EndCard Start Time(ms) = 25000 and End Time(ms) = 30000 for all 48 rows (relative to the ad's onset).
+R metrics: EndCard Start (ms) minus its ad's Start (ms) = 25000 ms for all 48 annotation rows (study clock).
+(The Sensor Data clock is checked in step 15, where the raw files are read.)
+
+---- STEP 15. Sensor Data: raw samples versus the metrics exports ----
+              file recording header_row  rows eventsource_cols participant_id   use
+       001_P01.csv       P01         27 26208                4            P01  TRUE
+       002_P02.csv       P02         27 26130                4            P02  TRUE
+       003_P03.csv       P03         27 26214                4            P03  TRUE
+       004_P04.csv       P04         27  5148                4            P04 FALSE
+ 005_P04_rerun.csv P04_rerun         27 26168                4            P04  TRUE
+       006_P05.csv       P05         27 23372                4            P05  TRUE
+       007_P06.csv       P06         27 26221                4            P06  TRUE
+Names after rebuilding the duplicated headers (file 1): EventSource (SlideEvents) | EventSource (Eyetracker Smart Eye Aurora) | EventSource (Affectiva AFFDEX) | EventSource (Shimmer3-8956 GSR) 
+Files used: 6 (the file of the aborted recording, 004_P04.csv, is skipped by rule R1).
+(a) Sensor Data StartMedia (recording clock) minus GSR Start (ms) (study clock), per participant:
+ participant_id offset_min offset_max spread_ms
+            P01    24814.6    24815.2       0.7
+            P02    28063.4    28064.1       0.7
+            P03    23913.7    23914.3       0.6
+            P04    18429.2    18429.4       0.2
+            P05    24171.3    24172.0       0.6
+            P06    25968.5    25969.0       0.5
+The offset is constant within each participant (largest spread 0.7 ms, rounding) and differs between participants
+(18429 to 28064 ms): the two files count from different zero points. Offset 0 would mean 'start of the study' = recording start.
+(b) EndCard: first Sensor Data sample with EndCard = 1, in ms after the ad's StartMedia (annotation export says 25000):
+ participant_id stimulus start_media endcard_first_ms endcard_recording_clock
+            P01     Ad_A    105011.6          25001.2                130011.6
+            P01     Ad_B    135083.2          25002.8                160083.2
+            P02     Ad_A    134453.1          25002.7                159453.1
+            P02     Ad_B    104378.9          25002.4                129378.9
+            P03     Ad_A    111836.0          25004.8                136836.0
+            P03     Ad_B    141925.3          25003.8                166925.3
+            P04     Ad_A    125663.4          25000.8                150663.4
+            P04     Ad_B     95611.2          25002.4                120611.2
+            P05     Ad_A    102321.8          25002.7                127321.8
+            P05     Ad_B    132423.3          25004.9                157423.3
+            P06     Ad_A    142749.8          25006.7                167749.8
+            P06     Ad_B    112661.5          25001.3                137661.5
+All within one sample of 25000 ms (largest gap 6.7 ms): the annotation export counts from the stimulus onset.
+(c) Raw samples versus the exports (ads; 6 participants):
+ participant_id stimulus et_rows logo_share_et logo_gaze_dwell_pct logo_diff logo_share_allrows joy_share joy_pct
+            P01     Ad_A    1800          0.00                0.00      0.00               0.00      0.00    0.00
+            P01     Ad_B    1800          0.72                0.72      0.00               0.20      0.00    0.00
+            P02     Ad_A    1800          0.00                0.00      0.00               0.00      3.44    3.44
+            P02     Ad_B    1800          2.44                2.44      0.00               0.68     13.22   13.22
+            P03     Ad_A    1800          4.83                4.83      0.00               1.33     26.44   26.44
+            P03     Ad_B    1800          0.00                0.00      0.00               0.00      3.44    3.44
+            P04     Ad_A    1799          0.00                0.00      0.00               0.00     17.22   17.22
+            P04     Ad_B    1800          1.06                1.06      0.00               0.29      0.00    0.00
+            P05     Ad_A    1800          4.22                3.94      0.28               1.16      9.11    9.11
+            P05     Ad_B    1800          1.83                1.83      0.00               0.89     21.67   21.67
+            P06     Ad_A    1800          0.00                0.00      0.00               0.00     10.22   10.22
+            P06     Ad_B    1800          2.11                2.11      0.00               0.58     17.56   17.56
+Logo: share of EYE TRACKER rows with Logo_gazed = 1 versus Gaze Dwell time (%): mean absolute difference 0.03, largest 0.28 percentage points;
+  correlation r = 0.999 over 12 participant x ad pairs. Small differences are expected: the export drops dwells shorter than 100 ms.
+  The WRONG denominator (all rows of every device) gives 0.43 percent on average instead of 1.44: count eye tracker rows only.
+Joy: share of AFFDEX rows with Joy >= 50 versus Percent of time present: largest difference 0.00 percentage points.
+Consistency check passed (Logo within 2 points, Joy within 0.5 points).
+GSR samples below 98 percent of the expected number (128 per second):
+ participant_id stimulus gsr_rows gsr_expected pct
+            P05     Ad_B     1000         3840  26
+This is P05's Shimmer dropout, visible in the raw file too: the GSR rows stop about 8 s into Ad_B.
+
+---- STEP 16. Data quality and the exclusion rule (R2) ----
+Lowest quality on the two ads, all participants: eye tracking 77 to 96 percent, face 65 to 98 percent
+Participants who fail rule R2:
+ participant_id et_min_ads face_min_ads fail_et fail_face include                               exclusion_reason
+            P18         77           97    TRUE     FALSE       0 eye tracking quality below 90 percent on an ad
+            P21         94           65   FALSE      TRUE       0           face found below 80 percent on an ad
+Closest to a threshold without failing:
+ participant_id et_min_ads face_min_ads fail_et fail_face include exclusion_reason
+            P22         93           96   FALSE     FALSE       1                 
+            P02         94           97   FALSE     FALSE       1                 
+Lesson: joined on the RAW keys, 2 participants get NA quality (P04 and P07: "P07 " has a space, P04's ads are under P04_rerun).
+filter(et >= 90, face >= 80) drops NA rows WITHOUT a warning: it would keep 20 participants instead of 22.
+Analysis sample: 22 of 24 participants.
+
+---- STEP 17. Join: long table (participant x stimulus) and wide table (participant) ----
+  + respondent details rows 72 -> 72
+  + exclusion rule     rows 72 -> 72
+  + data quality       rows 72 -> 72
+  + GSR                rows 72 -> 72
+  + FEA                rows 72 -> 72
+  + AOI                rows 72 -> 72
+  + survey (ad items)  rows 72 -> 72
+Missing values in the ad rows after the joins (should be 0): liking = 0, recall_correct = 0, logo_fixated = 0, joy_pct = 0, et_quality_pct = 0 
+Long table: 72 rows x 29 columns; wide table: 24 rows x 34 columns
+
+---- STEP 18. Codebook, cleaning log, QA report ----
+QA: values outside the codebook range: 0; duplicated keys: long 0, wide 0
+Variables with missing values (and why, from the codebook):
+ table                variable  n missing                                      missing_code
+  long             ad_position 72      24                                 NA = Baseline row
+  long                  gender 72       3 NA = details not entered (iMotions default OTHER)
+  long                     age 72       3     NA = details not entered (iMotions default 0)
+  long        exclusion_reason 72      66                                  empty = included
+  long       gsr_peaks_per_min 72       1                      NA = GSR not valid (rule R3)
+  long          gsr_peak_count 72       1                      NA = GSR not valid (rule R3)
+  long          gsr_avg_amp_us 72      11                   NA = no peaks, or GSR not valid
+  long            logo_fixated 72      24                                 NA = Baseline row
+  long            logo_ttff_ms 72      45               NA = never fixated, or Baseline row
+  long          logo_fix_count 72      24             NA = Baseline row (0 = never fixated)
+  long           logo_revisits 72      24             NA = Baseline row (0 = never fixated)
+  long      logo_gaze_dwell_ms 72      24               NA = Baseline row (0 = never gazed)
+  long     logo_gaze_dwell_pct 72      24               NA = Baseline row (0 = never gazed)
+  long  product_gaze_dwell_pct 72      24                                 NA = Baseline row
+  long headline_gaze_dwell_pct 72      24                                 NA = Baseline row
+  long                  liking 72      24                                 NA = Baseline row
+  long          recall_correct 72      24                                 NA = Baseline row
+  wide                  gender 24       1 NA = details not entered (iMotions default OTHER)
+  wide                     age 24       1     NA = details not entered (iMotions default 0)
+  wide        exclusion_reason 24      22                                  empty = included
+  wide  gsr_peaks_per_min_ad_b 24       1                      NA = GSR not valid (rule R3)
+wrote analysis_ready_long.csv (72 rows, 29 columns)
+wrote analysis_ready_wide.csv (24 rows, 34 columns)
+wrote codebook.csv (57 rows, 9 columns)
+wrote cleaning_log.csv (20 rows, 10 columns)
+wrote qa_report.txt
+
+---- STEP 19. Figures ----
+saved figure: figures/SIMULATED_fig1_pipeline_counts.png 
+saved figure: figures/SIMULATED_fig2_key_mismatches.png 
+saved figure: figures/SIMULATED_fig3_consistency_check.png 
+
+---- STEP 20. Pipeline counts ----
+                                                           stage respondents rows                                                    note
+                1 Read GSRPeakMetrics.csv (all Types and slides)          25  170                        recordings, not yet participants
+                 2 Keys standardized, matched to the session log          24  170                        25 recordings -> 24 participants
+                           3 Aborted recording dropped (rule R1)          24  168                                 P04 recording 1 removed
+ 4 Analysis stimuli only (Type = Stimulus; Baseline, Ad_A, Ad_B)          24   72 Instructions, Questionnaire, and EndCard rows set aside
+                    5 Joined with FEA, AOI, survey, data quality          24   72                                  no rows gained or lost
+                       6 Exclusion rule R2 applied (include = 1)          22   66                                    P18 and P21 excluded
+                        7 GSR analyses: valid GSR only (rule R3)          22   65                                P05 Ad_B missing for GSR
+
+Cleaning log: 20 entries. Analysis sample: 22 participants (66 long rows); excluded: P18, P21; GSR missing: P05 Ad_B.
+Cleaning log entries by step: 10 = 2, 11 = 2, 13 = 1, 15 = 4, 16 = 2, 4 = 1, 7 = 6, 8 = 1, 9 = 1 
+
+References cited in the comments: Broman and Woo (2018); Wickham (2014); Wilson et al. (2017). See refs/references.json.
