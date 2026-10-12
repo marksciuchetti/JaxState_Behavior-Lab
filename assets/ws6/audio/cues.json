@@ -992,8 +992,8 @@
     },
     "design": {
       "file": "design.mp3",
-      "duration": 804.122,
-      "mp3_duration": 804.192,
+      "duration": 817.997,
+      "mp3_duration": 818.064,
       "starts": [
         0.0,
         2.151,
@@ -1050,24 +1050,25 @@
         546.973,
         550.319,
         563.904,
-        567.015,
-        586.701,
-        595.529,
-        614.683,
-        618.873,
-        628.959,
-        649.798,
-        664.13,
-        667.838,
-        691.877,
-        704.907,
-        709.853,
-        716.142,
-        733.589,
-        743.675,
-        760.375,
-        778.121,
-        783.962
+        566.665,
+        574.895,
+        600.577,
+        609.405,
+        628.558,
+        632.748,
+        642.835,
+        663.673,
+        678.005,
+        681.713,
+        705.752,
+        718.783,
+        723.728,
+        730.017,
+        747.464,
+        757.551,
+        774.251,
+        791.996,
+        797.837
       ],
       "sentences": [
         {
@@ -1457,128 +1458,135 @@
         },
         {
           "index": 55,
-          "paragraph": 43,
-          "start": 567.015,
-          "end": 586.001,
-          "text": "R D C \"requires a desktop or laptop computer,\" and \"Participation can not be done on phones or tablets\"; iMotions Online has a Devices setting for desktop and tablet (whether webcam eye tracking works on a tablet is not stated; verify), and neither allows phones."
+          "paragraph": 42,
+          "start": 566.665,
+          "end": 574.195,
+          "text": "R D C \"requires a desktop or laptop computer,\" and \"Participation can not be done on phones or tablets.\""
         },
         {
           "index": 56,
-          "paragraph": 44,
-          "start": 586.701,
-          "end": 594.829,
-          "text": "R D C supports Chrome, Firefox, Edge, or Safari; iMotions Online names Chrome, Edge, and Firefox."
+          "paragraph": 43,
+          "start": 574.895,
+          "end": 599.877,
+          "text": "On my dot imotions dot com (checked October 12, 2026), the Devices setting of a remote study lists Desktop, Tablet, and Phone, with tablets and phones \"Not supported when the study contains stimuli that record the screen\"; whether webcam eye tracking works on a tablet or a phone is not stated (verify), so keep a remote eye tracking study to desktop and laptop computers."
         },
         {
           "index": 57,
-          "paragraph": 45,
-          "start": 595.529,
-          "end": 613.983,
-          "text": "The invitation asks for even light on the face (\"Do not sit in a dark room or with a bright light behind you\"), the camera at the top center of the screen, a fixed chair, and no other faces in view, because a respondent on a phone cannot finish and one in front of a bright window risks failing the quality rule."
+          "paragraph": 44,
+          "start": 600.577,
+          "end": 608.705,
+          "text": "R D C supports Chrome, Firefox, Edge, or Safari; iMotions Online names Chrome, Edge, and Firefox."
         },
         {
           "index": 58,
-          "paragraph": 46,
-          "start": 614.683,
-          "end": 618.523,
-          "text": "Consent and privacy are part of the design, not paperwork."
+          "paragraph": 45,
+          "start": 609.405,
+          "end": 627.858,
+          "text": "The invitation asks for even light on the face (\"Do not sit in a dark room or with a bright light behind you\"), the camera at the top center of the screen, a fixed chair, and no other faces in view, because a respondent on a phone cannot finish and one in front of a bright window risks failing the quality rule."
         },
         {
           "index": 59,
           "paragraph": 46,
-          "start": 618.873,
-          "end": 628.259,
-          "text": "Facial video is identifiable data, and in R D C it goes to iMotions cloud servers and then to the lab computer for post processing."
+          "start": 628.558,
+          "end": 632.398,
+          "text": "Consent and privacy are part of the design, not paperwork."
         },
         {
           "index": 60,
-          "paragraph": 47,
-          "start": 628.959,
-          "end": 649.098,
-          "text": "Informed consent is a documented explanation, given before participation, of the purpose, the right to stop at any time, how the data will be handled, and the risks; for a remote study the consent screen must also say what is recorded, where it is stored and processed, for how long, and who sees it (section 05)."
+          "paragraph": 46,
+          "start": 632.748,
+          "end": 642.135,
+          "text": "Facial video is identifiable data, and in R D C it goes to iMotions cloud servers and then to the lab computer for post processing."
         },
         {
           "index": 61,
-          "paragraph": 48,
-          "start": 649.798,
-          "end": 663.43,
-          "text": "The study first goes to the J S U Institutional Review Board (I R B), the committee that reviews research with human participants, and the lab manual allows cloud upload only with I R B approval."
+          "paragraph": 47,
+          "start": 642.835,
+          "end": 662.973,
+          "text": "Informed consent is a documented explanation, given before participation, of the purpose, the right to stop at any time, how the data will be handled, and the risks; for a remote study the consent screen must also say what is recorded, where it is stored and processed, for how long, and who sees it (section 05)."
         },
         {
           "index": 62,
-          "paragraph": 49,
-          "start": 664.13,
-          "end": 667.138,
-          "text": "Minors need a parent's permission and their own assent."
+          "paragraph": 48,
+          "start": 663.673,
+          "end": 677.305,
+          "text": "The study first goes to the J S U Institutional Review Board (I R B), the committee that reviews research with human participants, and the lab manual allows cloud upload only with I R B approval."
         },
         {
           "index": 63,
-          "paragraph": 50,
-          "start": 667.838,
-          "end": 691.177,
-          "text": "R D C requires acceptance of a Data Processing Agreement (D P A) with iMotions (the text says for E U server users, the portal screen says for every institution; whether J S U has accepted it is not recorded, so verify), and the General Data Protection Regulation (G D P R) applies as soon as E U residents take part."
+          "paragraph": 49,
+          "start": 678.005,
+          "end": 681.013,
+          "text": "Minors need a parent's permission and their own assent."
         },
         {
           "index": 64,
-          "paragraph": 51,
-          "start": 691.877,
-          "end": 704.207,
-          "text": "Background reading covers ethics committees' concerns about online survey tools, ethical considerations and practical guidelines for using Facebook as a research tool (Kosinski and colleagues"
+          "paragraph": 50,
+          "start": 681.713,
+          "end": 705.052,
+          "text": "R D C requires acceptance of a Data Processing Agreement (D P A) with iMotions (the text says for E U server users, the portal screen says for every institution; whether J S U has accepted it is not recorded, so verify), and the General Data Protection Regulation (G D P R) applies as soon as E U residents take part."
         },
         {
           "index": 65,
-          "paragraph": 52,
-          "start": 704.907,
-          "end": 709.153,
-          "text": ", 2015), and the privacy implications of eye tracking."
+          "paragraph": 51,
+          "start": 705.752,
+          "end": 718.083,
+          "text": "Background reading covers ethics committees' concerns about online survey tools, ethical considerations and practical guidelines for using Facebook as a research tool (Kosinski and colleagues"
         },
         {
           "index": 66,
-          "paragraph": 53,
-          "start": 709.853,
-          "end": 715.442,
-          "text": "Last, the exclusion rule, the written condition under which a completed respondent is left out."
+          "paragraph": 52,
+          "start": 718.783,
+          "end": 723.028,
+          "text": ", 2015), and the privacy implications of eye tracking."
         },
         {
           "index": 67,
-          "paragraph": 54,
-          "start": 716.142,
-          "end": 732.889,
-          "text": "The manuals disagree on its threshold: two Online articles say \"We recommend a threshold of 3.0\" degrees, while the Online study setup guide calls \"0 to 4 degrees of visual angle\" (degrees of visual angle) the \"Generally acceptable range.\""
+          "paragraph": 53,
+          "start": 723.728,
+          "end": 729.317,
+          "text": "Last, the exclusion rule, the written condition under which a completed respondent is left out."
         },
         {
           "index": 68,
-          "paragraph": 55,
-          "start": 733.589,
-          "end": 742.975,
-          "text": "The plan uses 4.0 degrees for the rule and 3.0 for a sensitivity analysis, the same tests repeated under the stricter choice."
+          "paragraph": 54,
+          "start": 730.017,
+          "end": 746.764,
+          "text": "The manuals disagree on its threshold: two Online articles say \"We recommend a threshold of 3.0\" degrees, while the Online study setup guide calls \"0 to 4 degrees of visual angle\" (degrees of visual angle) the \"Generally acceptable range.\""
         },
         {
           "index": 69,
-          "paragraph": 56,
-          "start": 743.675,
-          "end": 759.675,
-          "text": "Eye tracking quality percent is \"the ratio of valid eye tracking samples in relation to the total number of samples collected\" (at least 90 percent recommended); face quality is the share of samples in which a face was found (at least 80 percent)."
+          "paragraph": 55,
+          "start": 747.464,
+          "end": 756.851,
+          "text": "The plan uses 4.0 degrees for the rule and 3.0 for a sensitivity analysis, the same tests repeated under the stricter choice."
         },
         {
           "index": 70,
-          "paragraph": 57,
-          "start": 760.375,
-          "end": 777.421,
-          "text": "The rule: exclude a completed respondent when the Pre-study or the Post-study calibration accuracy is above 4.0 degrees, when eye tracking quality on the infographic is below 90 percent, or when face quality is below 80 percent during either video."
+          "paragraph": 56,
+          "start": 757.551,
+          "end": 773.551,
+          "text": "Eye tracking quality percent is \"the ratio of valid eye tracking samples in relation to the total number of samples collected\" (at least 90 percent recommended); face quality is the share of samples in which a face was found (at least 80 percent)."
         },
         {
           "index": 71,
-          "paragraph": 58,
-          "start": 778.121,
-          "end": 783.262,
-          "text": "One rule serves every hypothesis, and every exclusion is logged with its reason."
+          "paragraph": 57,
+          "start": 774.251,
+          "end": 791.296,
+          "text": "The rule: exclude a completed respondent when the Pre-study or the Post-study calibration accuracy is above 4.0 degrees, when eye tracking quality on the infographic is below 90 percent, or when face quality is below 80 percent during either video."
         },
         {
           "index": 72,
+          "paragraph": 58,
+          "start": 791.996,
+          "end": 797.137,
+          "text": "One rule serves every hypothesis, and every exclusion is logged with its reason."
+        },
+        {
+          "index": 73,
           "paragraph": 59,
-          "start": 783.962,
-          "end": 804.122,
+          "start": 797.837,
+          "end": 817.997,
           "text": "Defend a within subjects design with the order randomized by study flow, size A O I's for a webcam's error, bookend the study with two calibrations, plan the sample with remote losses included, choose a recruitment route, and fix the device rules, consent plan, and exclusion rule before the first link goes out."
         }
       ]
@@ -3675,8 +3683,8 @@
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 1005.717,
-      "mp3_duration": 1005.768,
+      "duration": 1045.641,
+      "mp3_duration": 1045.704,
       "starts": [
         0.0,
         5.265,
@@ -3717,76 +3725,79 @@
         323.477,
         326.409,
         330.373,
-        339.691,
-        352.957,
-        356.131,
-        372.063,
-        378.835,
-        385.542,
-        386.925,
-        388.448,
-        392.881,
-        409.88,
-        412.641,
-        414.015,
-        418.512,
-        419.481,
-        426.209,
-        435.251,
-        445.35,
-        452.962,
-        455.872,
-        466.471,
-        500.337,
-        501.711,
-        505.163,
-        508.009,
-        518.885,
-        523.959,
-        548.957,
-        564.399,
-        581.248,
-        586.334,
-        593.199,
-        606.977,
-        626.194,
-        634.019,
-        642.335,
-        658.801,
-        659.663,
-        665.653,
-        682.332,
-        684.056,
-        685.814,
-        694.889,
-        697.915,
-        707.425,
-        715.071,
-        719.995,
-        722.735,
-        730.005,
-        745.105,
-        752.005,
-        753.08,
-        758.836,
-        770.48,
-        771.811,
-        775.916,
-        784.189,
-        794.255,
-        796.631,
-        807.2,
-        810.225,
-        834.136,
-        835.51,
-        843.399,
-        853.635,
-        871.615,
-        891.451,
-        905.583,
-        909.056,
-        945.227,
-        974.001
+        339.341,
+        346.825,
+        367.067,
+        375.084,
+        378.259,
+        394.191,
+        400.962,
+        407.669,
+        409.052,
+        410.575,
+        415.009,
+        432.007,
+        434.768,
+        436.142,
+        440.639,
+        441.608,
+        459.076,
+        464.619,
+        475.623,
+        485.274,
+        492.886,
+        495.796,
+        506.395,
+        540.261,
+        541.635,
+        545.087,
+        547.933,
+        558.809,
+        563.883,
+        588.881,
+        604.323,
+        621.172,
+        626.258,
+        633.123,
+        646.901,
+        666.118,
+        673.943,
+        682.259,
+        698.725,
+        699.587,
+        705.577,
+        722.256,
+        723.98,
+        725.738,
+        734.813,
+        737.839,
+        747.349,
+        754.995,
+        759.919,
+        762.659,
+        769.929,
+        785.029,
+        791.929,
+        793.004,
+        798.76,
+        810.404,
+        811.735,
+        815.84,
+        824.113,
+        834.179,
+        836.555,
+        847.124,
+        850.149,
+        874.06,
+        875.434,
+        883.323,
+        893.559,
+        911.539,
+        931.375,
+        945.507,
+        948.98,
+        985.151,
+        1013.925
       ],
       "sentences": [
         {
@@ -4064,492 +4075,513 @@
         },
         {
           "index": 39,
-          "paragraph": 30,
-          "start": 339.691,
-          "end": 352.257,
-          "text": "The 2024 R D C screenshot shows a \"Preview\" button beside \"Copy\" for each flow; verify on my dot imotions dot com that the 2026 page has it."
+          "paragraph": 29,
+          "start": 339.341,
+          "end": 346.125,
+          "text": "The 2024 R D C screenshot shows a \"Preview\" button beside \"Copy\" for each flow."
         },
         {
           "index": 40,
-          "paragraph": 31,
-          "start": 352.957,
-          "end": 355.431,
-          "text": "Take it yourself, then with two volunteers."
+          "paragraph": 30,
+          "start": 346.825,
+          "end": 366.367,
+          "text": "The 2026 page (checked October 12, 2026) has no separate Preview button: each flow's link has buttons to copy it, open it, or show it as a QR code, and before collection starts the page says \"you can use this link only to preview the study, and only when you are logged in.\""
         },
         {
           "index": 41,
-          "paragraph": 32,
-          "start": 356.131,
-          "end": 371.363,
-          "text": "Open the pilot's link on a second computer that is not the lab computer, as a respondent would, then run two adult volunteers \"on the same kind of computer, browser, room, and network as the real sessions\" (fix checklist, proposed)."
+          "paragraph": 31,
+          "start": 367.067,
+          "end": 374.384,
+          "text": "A reviewer without the lab login therefore cannot use it; for outside reviewers, use the pilot copy in the next step."
         },
         {
           "index": 42,
-          "paragraph": 33,
-          "start": 372.063,
-          "end": 378.485,
-          "text": "Open it once on a phone too, to see where a phone is stopped; that step is modeled in this workshop's data."
+          "paragraph": 32,
+          "start": 375.084,
+          "end": 377.559,
+          "text": "Take it yourself, then with two volunteers."
         },
         {
           "index": 43,
           "paragraph": 33,
-          "start": 378.835,
-          "end": 385.192,
-          "text": "You should see every screen of 5.4, both video orders across the volunteers, and the \"Thank you!\""
+          "start": 378.259,
+          "end": 393.491,
+          "text": "Open the pilot's link on a second computer that is not the lab computer, as a respondent would, then run two adult volunteers \"on the same kind of computer, browser, room, and network as the real sessions\" (fix checklist, proposed)."
         },
         {
           "index": 44,
-          "paragraph": 33,
-          "start": 385.542,
-          "end": 386.225,
-          "text": "page."
+          "paragraph": 34,
+          "start": 394.191,
+          "end": 400.612,
+          "text": "Open it once on a phone too, to see where a phone is stopped; that step is modeled in this workshop's data."
         },
         {
           "index": 45,
           "paragraph": 34,
-          "start": 386.925,
-          "end": 388.098,
-          "text": "Bring the pilot home."
+          "start": 400.962,
+          "end": 407.319,
+          "text": "You should see every screen of 5.4, both video orders across the volunteers, and the \"Thank you!\""
         },
         {
           "index": 46,
           "paragraph": 34,
-          "start": 388.448,
-          "end": 392.181,
-          "text": "Check that each pilot session reaches \"Processed\", with Est."
+          "start": 407.669,
+          "end": 408.352,
+          "text": "page."
         },
         {
           "index": 47,
           "paragraph": 35,
-          "start": 392.881,
-          "end": 409.18,
-          "text": "face percent at least 80 and an eye tracking value of 3.0 degrees or better (fix checklist), then download, load, and post process it and run one F E A thresholding flow and one F E A Metrics Export (section 07)."
+          "start": 409.052,
+          "end": 410.225,
+          "text": "Bring the pilot home."
         },
         {
           "index": 48,
-          "paragraph": 36,
-          "start": 409.88,
-          "end": 412.291,
-          "text": "Only then upload and start the real study."
+          "paragraph": 35,
+          "start": 410.575,
+          "end": 414.309,
+          "text": "Check that each pilot session reaches \"Processed\", with Est."
         },
         {
           "index": 49,
           "paragraph": 36,
-          "start": 412.641,
-          "end": 413.665,
-          "text": "Common mistake."
+          "start": 415.009,
+          "end": 431.307,
+          "text": "face percent at least 80 and an eye tracking value of 3.0 degrees or better (fix checklist), then download, load, and post process it and run one F E A thresholding flow and one F E A Metrics Export (section 07)."
         },
         {
           "index": 50,
-          "paragraph": 36,
-          "start": 414.015,
-          "end": 417.812,
-          "text": "Testing on the real study, even once; one session locks it."
+          "paragraph": 37,
+          "start": 432.007,
+          "end": 434.418,
+          "text": "Only then upload and start the real study."
         },
         {
           "index": 51,
           "paragraph": 37,
-          "start": 418.512,
-          "end": 419.131,
-          "text": "Start."
+          "start": 434.768,
+          "end": 435.792,
+          "text": "Common mistake."
         },
         {
           "index": 52,
           "paragraph": 37,
-          "start": 419.481,
-          "end": 425.859,
-          "text": "On the real study's page press \"Update\" if anything changed, then \"Start remote data collection\"."
+          "start": 436.142,
+          "end": 439.939,
+          "text": "Testing on the real study, even once; one session locks it."
         },
         {
           "index": 53,
-          "paragraph": 37,
-          "start": 426.209,
-          "end": 434.551,
-          "text": "You should see, as in the 2024 screenshot, \"Copy a link address and send it to respondents, to let them start the study.\""
+          "paragraph": 38,
+          "start": 440.639,
+          "end": 441.258,
+          "text": "Start."
         },
         {
           "index": 54,
           "paragraph": 38,
-          "start": 435.251,
-          "end": 445.0,
-          "text": ", a \"BLOCK\" and \"LINK\" table with one row per flow, the buttons \"Copy\" and \"Preview\", \"Stop data collection\", and \"Sessions\" reading \"No respondents yet.\""
+          "start": 441.608,
+          "end": 458.376,
+          "text": "On the real study's Data Collection page, press \"Start collection\" in the Status box (the label on my dot imotions dot com on October 12, 2026; the 2024 screenshot says \"Start remote data collection\", after \"Update\")."
         },
         {
           "index": 55,
-          "paragraph": 38,
-          "start": 445.35,
-          "end": 452.262,
-          "text": "Each collect link begins https://my dot imotions dot com/collect/."
+          "paragraph": 39,
+          "start": 459.076,
+          "end": 463.919,
+          "text": "You should see the Status move from Preview to Collecting, \"The collection is in progress.\""
         },
         {
           "index": 56,
-          "paragraph": 39,
-          "start": 452.962,
-          "end": 455.522,
-          "text": "Send one flow's link to each half of the list."
+          "paragraph": 40,
+          "start": 464.619,
+          "end": 474.923,
+          "text": ", a \"Stop collection\" button, and a Links table with one row per flow (Study flow 1 and so on) whose link can be copied, opened, or shown as a QR code."
         },
         {
           "index": 57,
-          "paragraph": 39,
-          "start": 455.872,
-          "end": 465.771,
-          "text": "Split the invitation list at random into two halves before sending (modeled in this workshop) and send each half one flow's link from the lab's own email."
+          "paragraph": 41,
+          "start": 475.623,
+          "end": 484.924,
+          "text": "The 2024 page listed sessions under \"Sessions\"; the 2026 page has a separate Respondents item in its left menu."
         },
         {
           "index": 58,
-          "paragraph": 40,
-          "start": 466.471,
-          "end": 499.637,
-          "text": "The invitation says what respondents need, because R D C \"requires a desktop or laptop computer\" and \"Participation can not be done on phones or tablets\": a computer with a webcam; \"Chrome, Firefox, Edge, or Safari\"; a desk with light on the face and no window behind; a \"fixed-position chair (avoiding rolling or reclining chairs)\"; the camera \"positioned on the top-center of the screen\"; about ten minutes; and free disk space (about \"50 MB per minute of recording\" in the Online article)."
+          "paragraph": 41,
+          "start": 485.274,
+          "end": 492.186,
+          "text": "Each collect link begins https://my dot imotions dot com/collect/."
         },
         {
           "index": 59,
-          "paragraph": 41,
-          "start": 500.337,
-          "end": 501.361,
-          "text": "Common mistake."
+          "paragraph": 42,
+          "start": 492.886,
+          "end": 495.446,
+          "text": "Send one flow's link to each half of the list."
         },
         {
           "index": 60,
-          "paragraph": 41,
-          "start": 501.711,
-          "end": 504.463,
-          "text": "An invitation that does not say \"computer only\"."
+          "paragraph": 42,
+          "start": 495.796,
+          "end": 505.695,
+          "text": "Split the invitation list at random into two halves before sending (modeled in this workshop) and send each half one flow's link from the lab's own email."
         },
         {
           "index": 61,
-          "paragraph": 42,
-          "start": 505.163,
-          "end": 507.659,
-          "text": "Add I Ds for a panel, if one is used."
+          "paragraph": 43,
+          "start": 506.395,
+          "end": 539.561,
+          "text": "The invitation says what respondents need, because R D C \"requires a desktop or laptop computer\" and \"Participation can not be done on phones or tablets\": a computer with a webcam; \"Chrome, Firefox, Edge, or Safari\"; a desk with light on the face and no window behind; a \"fixed-position chair (avoiding rolling or reclining chairs)\"; the camera \"positioned on the top-center of the screen\"; about ten minutes; and free disk space (about \"50 MB per minute of recording\" in the Online article)."
         },
         {
           "index": 62,
-          "paragraph": 42,
-          "start": 508.009,
-          "end": 518.185,
-          "text": "A panel provider is a company that recruits and pays respondents, such as \"Forsta, Prolific, Qualtrics, CINT, Amazon mTurk, or Sona Systems\"."
+          "paragraph": 44,
+          "start": 540.261,
+          "end": 541.285,
+          "text": "Common mistake."
         },
         {
           "index": 63,
-          "paragraph": 43,
-          "start": 518.885,
-          "end": 523.259,
-          "text": "It adds its respondent I D to the link as a query string, the part after \"?\""
+          "paragraph": 44,
+          "start": 541.635,
+          "end": 544.387,
+          "text": "An invitation that does not say \"computer only\"."
         },
         {
           "index": 64,
-          "paragraph": 44,
-          "start": 523.959,
-          "end": 548.257,
-          "text": ", such as ?transaction id equals 88888andpanel equals 67890, and gets it back through a redirect: tick \"Redirect to a specific U R L once the study has been completed\" and put the token ${query} in the \"Study completed U R L\" (other tokens: ${respondentLabel}, ${respondentId}, ${studyId})."
+          "paragraph": 45,
+          "start": 545.087,
+          "end": 547.583,
+          "text": "Add I Ds for a panel, if one is used."
         },
         {
           "index": 65,
           "paragraph": 45,
-          "start": 548.957,
-          "end": 563.699,
-          "text": "Names starting with iMotions \"are reserved for iMotions Online's own use\", and because \"U R L parameters end up in browser history and server logs\", \"pass only I Ds, never names or other personal data\"."
+          "start": 547.933,
+          "end": 558.109,
+          "text": "A panel provider is a company that recruits and pays respondents, such as \"Forsta, Prolific, Qualtrics, CINT, Amazon mTurk, or Sona Systems\"."
         },
         {
           "index": 66,
           "paragraph": 46,
-          "start": 564.399,
-          "end": 580.548,
-          "text": "Prolific, a panel for online research, has an integration on the portal that is not enabled for the lab account (\"please contact iMotions support\"), and no other panel account is recorded, so lab studies recruit through the lab's own link distribution."
+          "start": 558.809,
+          "end": 563.183,
+          "text": "It adds its respondent I D to the link as a query string, the part after \"?\""
         },
         {
           "index": 67,
           "paragraph": 47,
-          "start": 581.248,
-          "end": 585.984,
-          "text": "Knowing what respondents see lets you write the invitation and read the funnel."
+          "start": 563.883,
+          "end": 588.181,
+          "text": ", such as ?transaction id equals 88888andpanel equals 67890, and gets it back through a redirect: tick \"Redirect to a specific U R L once the study has been completed\" and put the token ${query} in the \"Study completed U R L\" (other tokens: ${respondentLabel}, ${respondentId}, ${studyId})."
         },
         {
           "index": 68,
-          "paragraph": 47,
-          "start": 586.334,
-          "end": 592.499,
-          "text": "The screens below come from Participating in R D C Studies, which shows them with every setting on."
+          "paragraph": 48,
+          "start": 588.881,
+          "end": 603.623,
+          "text": "Names starting with iMotions \"are reserved for iMotions Online's own use\", and because \"U R L parameters end up in browser history and server logs\", \"pass only I Ds, never names or other personal data\"."
         },
         {
           "index": 69,
-          "paragraph": 48,
-          "start": 593.199,
-          "end": 606.277,
-          "text": "The respondent funnel, a my dot imotions dot com view that counts the sessions reaching each step, names ten steps; the right column pairs them with the screens by name, a pairing the manuals do not make."
+          "paragraph": 49,
+          "start": 604.323,
+          "end": 620.472,
+          "text": "Prolific, a panel for online research, has an integration on the portal that is not enabled for the lab account (\"please contact iMotions support\"), and no other panel account is recorded, so lab studies recruit through the lab's own link distribution."
         },
         {
           "index": 70,
-          "paragraph": 49,
-          "start": 606.977,
-          "end": 625.494,
-          "text": "At the face oval, the oval turns green when a face is found and red when it is not, with a message asking the respondent to put their head inside the oval; the study continues only with a face found, unless \"Allow skipping after timeout\" is on, when it \"will proceed after 25 seconds\"."
+          "paragraph": 50,
+          "start": 621.172,
+          "end": 625.908,
+          "text": "Knowing what respondents see lets you write the invitation and read the funnel."
         },
         {
           "index": 71,
           "paragraph": 50,
-          "start": 626.194,
-          "end": 633.319,
-          "text": "That is the head position check, and \"Eye detection will similarly ensure sufficient lighting and view of the respondent's eyes\"."
+          "start": 626.258,
+          "end": 632.423,
+          "text": "The screens below come from Participating in R D C Studies, which shows them with every setting on."
         },
         {
           "index": 72,
           "paragraph": 51,
-          "start": 634.019,
-          "end": 641.635,
-          "text": "During calibration, respondents \"must maintain their gaze on the calibration points\" and avoid \"significant head movements\"."
+          "start": 633.123,
+          "end": 646.201,
+          "text": "The respondent funnel, a my dot imotions dot com view that counts the sessions reaching each step, names ten steps; the right column pairs them with the screens by name, a pairing the manuals do not make."
         },
         {
           "index": 73,
           "paragraph": 52,
-          "start": 642.335,
-          "end": 658.101,
-          "text": "If the upload fails and the \"Data upload alternative\" is on, a download page replaces the upload page; the respondent emails the file, the session shows \"Respondent Status: manual zip\", and you click \"Upload respondent zip file\"."
+          "start": 646.901,
+          "end": 665.418,
+          "text": "At the face oval, the oval turns green when a face is found and red when it is not, with a message asking the respondent to put their head inside the oval; the study continues only with a face found, unless \"Allow skipping after timeout\" is on, when it \"will proceed after 25 seconds\"."
         },
         {
           "index": 74,
           "paragraph": 53,
-          "start": 658.801,
-          "end": 659.313,
-          "text": "Why."
+          "start": 666.118,
+          "end": 673.243,
+          "text": "That is the head position check, and \"Eye detection will similarly ensure sufficient lighting and view of the respondent's eyes\"."
         },
         {
           "index": 75,
-          "paragraph": 53,
-          "start": 659.663,
-          "end": 664.953,
-          "text": "Attrition, people leaving before the end, is a result of a remote study, not a nuisance."
+          "paragraph": 54,
+          "start": 673.943,
+          "end": 681.559,
+          "text": "During calibration, respondents \"must maintain their gaze on the calibration points\" and avoid \"significant head movements\"."
         },
         {
           "index": 76,
-          "paragraph": 54,
-          "start": 665.653,
-          "end": 681.632,
-          "text": "If one condition loses more people than the other, those who finish are no longer comparable (selective attrition), which can produce false conclusions, so this workshop reports dropout at every step; see also the standards for Internet based experimenting."
+          "paragraph": 55,
+          "start": 682.259,
+          "end": 698.025,
+          "text": "If the upload fails and the \"Data upload alternative\" is on, a download page replaces the upload page; the respondent emails the file, the session shows \"Respondent Status: manual zip\", and you click \"Upload respondent zip file\"."
         },
         {
           "index": 77,
-          "paragraph": 55,
-          "start": 682.332,
-          "end": 683.356,
-          "text": "Check once a day."
+          "paragraph": 56,
+          "start": 698.725,
+          "end": 699.237,
+          "text": "Why."
         },
         {
           "index": 78,
           "paragraph": 56,
-          "start": 684.056,
-          "end": 685.464,
-          "text": "Read the respondent list."
+          "start": 699.587,
+          "end": 704.877,
+          "text": "Attrition, people leaving before the end, is a result of a remote study, not a nuisance."
         },
         {
           "index": 79,
-          "paragraph": 56,
-          "start": 685.814,
-          "end": 694.539,
-          "text": "Under Respondents, the \"Session data\" tab lists \"Id\", \"Respondent\", \"Study\", \"Machine\", \"Started\", \"Ended\", \"Eye tracking\", \"Est."
+          "paragraph": 57,
+          "start": 705.577,
+          "end": 721.556,
+          "text": "If one condition loses more people than the other, those who finish are no longer comparable (selective attrition), which can produce false conclusions, so this workshop reports dropout at every step; see also the standards for Internet based experimenting."
         },
         {
           "index": 80,
-          "paragraph": 56,
-          "start": 694.889,
-          "end": 697.215,
-          "text": "face percent\", \"Block\", and \"Status\"."
+          "paragraph": 58,
+          "start": 722.256,
+          "end": 723.28,
+          "text": "Check once a day."
         },
         {
           "index": 81,
-          "paragraph": 57,
-          "start": 697.915,
-          "end": 706.725,
-          "text": "Status is \"In Progress\" (opened the link), \"Processing\" (completed the study and the upload), \"Processed\" (\"Data are available for download.\")"
+          "paragraph": 59,
+          "start": 723.98,
+          "end": 725.388,
+          "text": "Read the respondent list."
         },
         {
           "index": 82,
-          "paragraph": 58,
-          "start": 707.425,
-          "end": 714.721,
-          "text": ", \"Abandoned\" (the \"upload was interrupted\"), or \"Errors\" (\"data files contain errors or are invalid file types\")."
+          "paragraph": 59,
+          "start": 725.738,
+          "end": 734.463,
+          "text": "Under Respondents, the \"Session data\" tab lists \"Id\", \"Respondent\", \"Study\", \"Machine\", \"Started\", \"Ended\", \"Eye tracking\", \"Est."
         },
         {
           "index": 83,
-          "paragraph": 58,
-          "start": 715.071,
-          "end": 719.295,
-          "text": "You should see counts per status above the table and the Block of each session."
+          "paragraph": 59,
+          "start": 734.813,
+          "end": 737.139,
+          "text": "face percent\", \"Block\", and \"Status\"."
         },
         {
           "index": 84,
-          "paragraph": 59,
-          "start": 719.995,
-          "end": 722.385,
-          "text": "Read the quality columns, and their names."
+          "paragraph": 60,
+          "start": 737.839,
+          "end": 746.649,
+          "text": "Status is \"In Progress\" (opened the link), \"Processing\" (completed the study and the upload), \"Processed\" (\"Data are available for download.\")"
         },
         {
           "index": 85,
-          "paragraph": 59,
-          "start": 722.735,
-          "end": 729.305,
-          "text": "\"Eye tracking\" pairs a number in degrees with the percent of the recording with eye tracking data, the quality percent."
+          "paragraph": 61,
+          "start": 747.349,
+          "end": 754.645,
+          "text": ", \"Abandoned\" (the \"upload was interrupted\"), or \"Errors\" (\"data files contain errors or are invalid file types\")."
         },
         {
           "index": 86,
-          "paragraph": 60,
-          "start": 730.005,
-          "end": 744.405,
-          "text": "The R D C article calls the degrees \"Precision\"; the iMotions Online articles call the same kind of number accuracy, \"the mean distance between the actual and expected gaze positions calculated during calibration\"."
+          "paragraph": 61,
+          "start": 754.995,
+          "end": 759.219,
+          "text": "You should see counts per status above the table and the Block of each session."
         },
         {
           "index": 87,
-          "paragraph": 61,
-          "start": 745.105,
-          "end": 751.655,
-          "text": "Precision usually means how consistent repeated gaze estimates are, so this workshop says accuracy."
+          "paragraph": 62,
+          "start": 759.919,
+          "end": 762.309,
+          "text": "Read the quality columns, and their names."
         },
         {
           "index": 88,
-          "paragraph": 61,
-          "start": 752.005,
-          "end": 752.73,
-          "text": "\"Est."
+          "paragraph": 62,
+          "start": 762.659,
+          "end": 769.229,
+          "text": "\"Eye tracking\" pairs a number in degrees with the percent of the recording with eye tracking data, the quality percent."
         },
         {
           "index": 89,
-          "paragraph": 61,
-          "start": 753.08,
-          "end": 758.136,
-          "text": "face percent\", the \"Percentage of recording with face data\", estimates face quality."
+          "paragraph": 63,
+          "start": 769.929,
+          "end": 784.329,
+          "text": "The R D C article calls the degrees \"Precision\"; the iMotions Online articles call the same kind of number accuracy, \"the mean distance between the actual and expected gaze positions calculated during calibration\"."
         },
         {
           "index": 90,
-          "paragraph": 62,
-          "start": 758.836,
-          "end": 769.78,
-          "text": "The Online articles recommend accuracy of 3.0 degrees or better, eye tracking quality \"of at least 90 percent\", and face quality \"of at least 80 percent\"."
+          "paragraph": 64,
+          "start": 785.029,
+          "end": 791.579,
+          "text": "Precision usually means how consistent repeated gaze estimates are, so this workshop says accuracy."
         },
         {
           "index": 91,
-          "paragraph": 63,
-          "start": 770.48,
-          "end": 771.461,
-          "text": "Open the funnel."
+          "paragraph": 64,
+          "start": 791.929,
+          "end": 792.654,
+          "text": "\"Est."
         },
         {
           "index": 92,
-          "paragraph": 63,
-          "start": 771.811,
-          "end": 775.566,
-          "text": "The \"Respondent funnel\" tab shows \"where respondents dropped off."
+          "paragraph": 64,
+          "start": 793.004,
+          "end": 798.06,
+          "text": "face percent\", the \"Percentage of recording with face data\", estimates face quality."
         },
         {
           "index": 93,
-          "paragraph": 63,
-          "start": 775.916,
-          "end": 783.489,
-          "text": "Sessions that are in progress are not included.\"; light orange marks completed steps and darker orange the abandoned ones."
+          "paragraph": 65,
+          "start": 798.76,
+          "end": 809.704,
+          "text": "The Online articles recommend accuracy of 3.0 degrees or better, eye tracking quality \"of at least 90 percent\", and face quality \"of at least 80 percent\"."
         },
         {
           "index": 94,
-          "paragraph": 64,
-          "start": 784.189,
-          "end": 793.555,
-          "text": "Whether an R D C study's funnel lists the same ten steps as the Online funnel is not confirmed (verify on my dot imotions dot com)."
+          "paragraph": 66,
+          "start": 810.404,
+          "end": 811.385,
+          "text": "Open the funnel."
         },
         {
           "index": 95,
-          "paragraph": 65,
-          "start": 794.255,
-          "end": 796.281,
-          "text": "Act on patterns, not on people."
+          "paragraph": 66,
+          "start": 811.735,
+          "end": 815.49,
+          "text": "The \"Respondent funnel\" tab shows \"where respondents dropped off."
         },
         {
           "index": 96,
-          "paragraph": 65,
-          "start": 796.631,
-          "end": 806.85,
-          "text": "A cluster of stops at one step points to a fixable cause, but the study is locked, so the fix goes into the invitation or a reminder, never into the study."
+          "paragraph": 66,
+          "start": 815.84,
+          "end": 823.413,
+          "text": "Sessions that are in progress are not included.\"; light orange marks completed steps and darker orange the abandoned ones."
         },
         {
           "index": 97,
-          "paragraph": 65,
-          "start": 807.2,
-          "end": 809.525,
-          "text": "Compare completion between the two Blocks."
+          "paragraph": 67,
+          "start": 824.113,
+          "end": 833.479,
+          "text": "Whether an R D C study's funnel lists the same ten steps as the Online funnel is not confirmed (verify on my dot imotions dot com)."
         },
         {
           "index": 98,
-          "paragraph": 66,
-          "start": 810.225,
-          "end": 833.436,
-          "text": "Exclude nobody now: the exclusion rule written before collection (section 02) is applied afterward to every completed session (section 08), and the rounded session value in this list can hide a failed calibration (in the simulated data, 6 respondents with a calibration above 4.0 degrees showed 4.0 or less in this column)."
+          "paragraph": 68,
+          "start": 834.179,
+          "end": 836.205,
+          "text": "Act on patterns, not on people."
         },
         {
           "index": 99,
-          "paragraph": 67,
-          "start": 834.136,
-          "end": 835.16,
-          "text": "Common mistake."
+          "paragraph": 68,
+          "start": 836.555,
+          "end": 846.774,
+          "text": "A cluster of stops at one step points to a fixable cause, but the study is locked, so the fix goes into the invitation or a reminder, never into the study."
         },
         {
           "index": 100,
-          "paragraph": 67,
-          "start": 835.51,
-          "end": 842.699,
-          "text": "Deleting an odd looking session; delete only staff test sessions or a respondent who withdraws, and log why."
+          "paragraph": 68,
+          "start": 847.124,
+          "end": 849.449,
+          "text": "Compare completion between the two Blocks."
         },
         {
           "index": 101,
-          "paragraph": 68,
-          "start": 843.399,
-          "end": 852.935,
-          "text": "An example from the simulated data set: 260 sessions opened a link and 178 completed (68.5 percent)."
+          "paragraph": 69,
+          "start": 850.149,
+          "end": 873.36,
+          "text": "Exclude nobody now: the exclusion rule written before collection (section 02) is applied afterward to every completed session (section 08), and the rounded session value in this list can hide a failed calibration (in the simulated data, 6 respondents with a calibration above 4.0 degrees showed 4.0 or less in this column)."
         },
         {
           "index": 102,
-          "paragraph": 69,
-          "start": 853.635,
-          "end": 870.915,
-          "text": "Fourteen stopped at the consent screen, 12 at the camera setup, and 36 at step 5 Screen size, 34 of them on phones or tablets; none of the 29 phone and 7 tablet sessions completed (all simulated; the step at which a phone is stopped is modeled)."
+          "paragraph": 70,
+          "start": 874.06,
+          "end": 875.084,
+          "text": "Common mistake."
         },
         {
           "index": 103,
           "paragraph": 70,
-          "start": 871.615,
-          "end": 890.751,
-          "text": "Decide in advance when collection ends, by a number of completed sessions or a date, and send enough invitations for the losses: in the simulated study 260 opened links became 142 kept respondents, a loss of about 45 percent (simulated; section 02)."
+          "start": 875.434,
+          "end": 882.623,
+          "text": "Deleting an odd looking session; delete only staff test sessions or a respondent who withdraws, and log why."
         },
         {
           "index": 104,
           "paragraph": 71,
-          "start": 891.451,
-          "end": 905.233,
-          "text": "When the plan is met and no session shows \"In Progress\", press \"Stop data collection\" (the label in the manuals; the lab's fix checklist update writes \"Stop collection\", so verify on my dot imotions dot com)."
+          "start": 883.323,
+          "end": 892.859,
+          "text": "An example from the simulated data set: 260 sessions opened a link and 178 completed (68.5 percent)."
         },
         {
           "index": 105,
-          "paragraph": 71,
-          "start": 905.583,
-          "end": 908.356,
-          "text": "Then bring the data home (section 07)."
+          "paragraph": 72,
+          "start": 893.559,
+          "end": 910.839,
+          "text": "Fourteen stopped at the consent screen, 12 at the camera setup, and 36 at step 5 Screen size, 34 of them on phones or tablets; none of the 29 phone and 7 tablet sessions completed (all simulated; the step at which a phone is stopped is modeled)."
         },
         {
           "index": 106,
-          "paragraph": 72,
-          "start": 909.056,
-          "end": 944.527,
-          "text": "Help center articles for this section: Respondent informed consent and data privacy F A Q, iMotions Online privacy policy, Introduction to iMotions Online, Getting Started with Remote Data Collection (R D C), Creating R D C Studies, Data Collection - Behavioral Research Online, Collecting Data with iMotions Online, Participating in R D C Studies, Using iMotions Online with a panel provider, R D C Cross Communication with Other Websites, and Accessing R D C Study Data."
+          "paragraph": 73,
+          "start": 911.539,
+          "end": 930.675,
+          "text": "Decide in advance when collection ends, by a number of completed sessions or a date, and send enough invitations for the losses: in the simulated study 260 opened links became 142 kept respondents, a loss of about 45 percent (simulated; section 02)."
         },
         {
           "index": 107,
-          "paragraph": 73,
-          "start": 945.227,
-          "end": 973.301,
-          "text": "Manual PDFs on this site: Respondent informed consent and data privacy F A Q, iMotions Online privacy policy, An introduction to iMotions Online, Data collection - iMotions Online, Collecting Data with iMotions Online, Participating in R D C Studies, Using iMotions Online with a panel provider, R D C Cross Communication with Other Websites, and Accessing R D C Study Data (P D F)."
+          "paragraph": 74,
+          "start": 931.375,
+          "end": 945.157,
+          "text": "When the plan is met and no session shows \"In Progress\", press \"Stop data collection\" (the label in the manuals; the lab's fix checklist update writes \"Stop collection\", so verify on my dot imotions dot com)."
         },
         {
           "index": 108,
           "paragraph": 74,
-          "start": 974.001,
-          "end": 1005.717,
+          "start": 945.507,
+          "end": 948.28,
+          "text": "Then bring the data home (section 07)."
+        },
+        {
+          "index": 109,
+          "paragraph": 75,
+          "start": 948.98,
+          "end": 984.451,
+          "text": "Help center articles for this section: Respondent informed consent and data privacy F A Q, iMotions Online privacy policy, Introduction to iMotions Online, Getting Started with Remote Data Collection (R D C), Creating R D C Studies, Data Collection - Behavioral Research Online, Collecting Data with iMotions Online, Participating in R D C Studies, Using iMotions Online with a panel provider, R D C Cross Communication with Other Websites, and Accessing R D C Study Data."
+        },
+        {
+          "index": 110,
+          "paragraph": 76,
+          "start": 985.151,
+          "end": 1013.225,
+          "text": "Manual PDFs on this site: Respondent informed consent and data privacy F A Q, iMotions Online privacy policy, An introduction to iMotions Online, Data collection - iMotions Online, Collecting Data with iMotions Online, Participating in R D C Studies, Using iMotions Online with a panel provider, R D C Cross Communication with Other Websites, and Accessing R D C Study Data (P D F)."
+        },
+        {
+          "index": 111,
+          "paragraph": 77,
+          "start": 1013.925,
+          "end": 1045.641,
           "text": "Get I R B approval first, write a personalized consent text that says what is recorded, where it is stored and processed, for how long, and who may see it, pilot on a clone from a second computer and send reviewers only the preview, start collection and send one flow's link to each half of the list with a computer only invitation, recognize every screen a respondent passes and its funnel step, watch statuses, quality, and the funnel without excluding anyone, and stop collection by a rule set in advance."
         }
       ]
@@ -12341,5 +12373,5 @@
       ]
     }
   },
-  "generated": "2026-10-11T15:44:57+00:00"
+  "generated": "2026-10-12T13:21:07+00:00"
 }
