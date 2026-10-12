@@ -1,0 +1,40 @@
+# SIMULATED DATA for teaching (seed 20271231). Descriptive statistics of every modality by stimulus, analysis sample (include = 1). Made by analysis_full.R (Workshop 8) from the Workshop 7 analysis ready files. No real person was recorded.
+modality,measure,variable,units,stimulus,n,mean,sd,median,q1,q3,iqr,min,max,pct_zero
+Eye tracking,Gaze dwell on the Logo,logo_gaze_dwell_pct,percent of the ad,Ad_A,22,1.7822727272727272,2.820443956641243,0.525,0,2.095,2.095,0,11.11,45.45454545454545
+Eye tracking,Gaze dwell on the Logo,logo_gaze_dwell_pct,percent of the ad,Ad_B,22,1.3963636363636365,1.8912896719901537,0.75,0,2.04,2.04,0,7.5,45.45454545454545
+Eye tracking,Gaze dwell on the Product,product_gaze_dwell_pct,percent of the ad,Ad_A,22,42.58409090909091,8.4224098231704,43.885,38.4,48.155,9.755000000000003,22.83,55.44,0
+Eye tracking,Gaze dwell on the Product,product_gaze_dwell_pct,percent of the ad,Ad_B,22,41.34409090909091,6.168348284814223,41.53,38.515,45.61,7.094999999999999,28.72,50.39,0
+Eye tracking,Gaze dwell on the Headline,headline_gaze_dwell_pct,percent of the ad,Ad_A,22,17.84409090909091,7.1191476610555995,19.195,13.3925,22.93,9.5375,3.22,30.39,0
+Eye tracking,Gaze dwell on the Headline,headline_gaze_dwell_pct,percent of the ad,Ad_B,22,20.267272727272726,6.4416436691401335,21.75,15.93,23.79,7.859999999999999,7.44,33.67,0
+Eye tracking,Logo fixated at least once,logo_fixated,proportion,Ad_A,22,0.5454545454545454,0.5096471914376255,1,0,1,1,0,1,NA
+Eye tracking,Logo fixated at least once,logo_fixated,proportion,Ad_B,22,0.5454545454545454,0.5096471914376255,1,0,1,1,0,1,NA
+Eye tracking,Logo time to first fixation (fixated only),logo_ttff_ms,ms,Ad_A,12,11849.25,9361.014961724843,8802,5144.5,18168.75,13024.25,1591,29236,NA
+Eye tracking,Logo time to first fixation (fixated only),logo_ttff_ms,ms,Ad_B,12,14922.166666666666,8569.896157568955,17296.5,8845.5,19979.25,11133.75,1093,29792,NA
+Eye tracking,Fixations on the Logo,logo_fix_count,fixations,Ad_A,22,1.7727272727272727,2.8773635118317564,1,0,2,2,0,12,45.45454545454545
+Eye tracking,Fixations on the Logo,logo_fix_count,fixations,Ad_B,22,1.5,1.8961113087680521,1,0,2,2,0,7,45.45454545454545
+Facial expression,Joy,joy_pct,percent of time,Baseline,22,0.37863636363636366,1.4216834268689238,0,0,0,0,0,6.5,90.9090909090909
+Facial expression,Joy,joy_pct,percent of time,Ad_A,22,12.131363636363636,10.808293242406629,9.665,3.1925,18.974999999999998,15.782499999999999,0,39.33,13.636363636363635
+Facial expression,Joy,joy_pct,percent of time,Ad_B,22,8.328636363636363,9.463886896767374,3.7800000000000002,0,16.474999999999998,16.474999999999998,0,27,36.36363636363637
+Facial expression,Engagement,engagement_pct,percent of time,Baseline,22,2.33,2.3596347578547383,1.385,0.14,4.1225000000000005,3.9825000000000004,0,7.33,27.27272727272727
+Facial expression,Engagement,engagement_pct,percent of time,Ad_A,22,14.51590909090909,11.719298150239167,11.445,4.3925,20.17,15.777500000000002,0,41.67,4.545454545454546
+Facial expression,Engagement,engagement_pct,percent of time,Ad_B,22,9.949545454545454,10.014374657638378,6.109999999999999,0.36,19.135,18.775000000000002,0,28.44,27.27272727272727
+Facial expression,Brow Furrow,browfurrow_pct,percent of time,Baseline,22,0.43727272727272726,1.1801217928194723,0,0,0,0,0,5.06,81.81818181818183
+Facial expression,Brow Furrow,browfurrow_pct,percent of time,Ad_A,22,0.6463636363636364,1.5169566822284597,0,0,0,0,0,5.22,81.81818181818183
+Facial expression,Brow Furrow,browfurrow_pct,percent of time,Ad_B,22,0.3840909090909091,1.3096733838229944,0,0,0,0,0,5.56,90.9090909090909
+GSR,GSR Peaks Per Minute,gsr_peaks_per_min,peaks per minute,Baseline,22,2.0627272727272725,1.8590555252297996,2,0.25,3,2.75,0,6,27.27272727272727
+GSR,GSR Peaks Per Minute,gsr_peaks_per_min,peaks per minute,Ad_A,22,7.2727272727272725,6.804633002817294,6,2,8,6,0,26,4.545454545454546
+GSR,GSR Peaks Per Minute,gsr_peaks_per_min,peaks per minute,Ad_B,21,6,4.9396356140913875,6,2,8,6,0,18,14.285714285714285
+GSR,"GSR Peaks Per Minute, change from Baseline",gsr_change,peaks per minute,Ad_A,22,5.21,6.307569904110306,4,2,6,4,-5,21,4.545454545454546
+GSR,"GSR Peaks Per Minute, change from Baseline",gsr_change,peaks per minute,Ad_B,21,4.124761904761905,4.346593630703955,3,1,6,5,-2,14,14.285714285714285
+Survey,Liking of the ad,liking,1 to 7,Ad_A,22,4.590909090909091,1.402687587288227,5,4,5,1,1,7,NA
+Survey,Liking of the ad,liking,1 to 7,Ad_B,22,4.045454545454546,1.2901558682973793,4,3,5,2,1,6,NA
+Survey,Brand recalled correctly,recall_correct,proportion,Ad_A,22,0.5454545454545454,0.5096471914376255,1,0,1,1,0,1,NA
+Survey,Brand recalled correctly,recall_correct,proportion,Ad_B,22,0.5454545454545454,0.5096471914376255,1,0,1,1,0,1,NA
+Survey,Attitude toward reusable water bottles,attitude,1 to 7,"Study (once, after both ads)",22,4.5606,0.9994010715947637,4.5,4.083325,5.249975,1.1666499999999997,2.6667,6.6667,NA
+Survey,Purchase intention (any reusable bottle),purchase_intention,1 to 7,"Study (once, after both ads)",22,3.6818181818181817,1.3933981633253438,4,3,5,2,1,6,NA
+Data quality,Eye tracking quality,et_quality_pct,percent,Baseline,22,95.54545454545455,1.1009637651263606,96,95,96,1,92,97,NA
+Data quality,Eye tracking quality,et_quality_pct,percent,Ad_A,22,95.31818181818181,1.249242194534775,95,95,96,1,93,98,NA
+Data quality,Eye tracking quality,et_quality_pct,percent,Ad_B,22,95.13636363636364,0.8888437939499212,95,94.25,96,1.75,94,97,NA
+Data quality,Face found (AFFDEX quality),face_quality_pct,percent,Baseline,22,95,2.5448360411214073,95,93,96.75,3.75,90,99,NA
+Data quality,Face found (AFFDEX quality),face_quality_pct,percent,Ad_A,22,94.63636363636364,2.401298350108492,95.5,93,96,3,90,98,NA
+Data quality,Face found (AFFDEX quality),face_quality_pct,percent,Ad_B,22,94.5,2.5213375135318272,94.5,93,96.75,3.75,90,98,NA

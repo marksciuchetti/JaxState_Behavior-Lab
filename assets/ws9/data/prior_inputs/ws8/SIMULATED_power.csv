@@ -1,0 +1,17 @@
+# SIMULATED DATA for teaching (seed 20271231). Sensitivity power analysis (alpha .05, two tailed, power .80). Made by analysis_full.R (Workshop 8) from the Workshop 7 analysis ready files. No real person was recorded.
+item,value,exact,method
+"Smallest d_z detectable, n = 22 paired",0.6264206877175355,0.6264206877175355,"power.t.test, type = paired"
+Power of n = 22 for d_z = 0.30,0.2686852032320245,0.2686852032320245,"power.t.test, type = paired"
+Power of n = 22 for d_z = 0.50,0.6091717236237684,0.6091717236237684,"power.t.test, type = paired"
+n for d_z = 0.30 (paired),90,89.14957724562697,"power.t.test, type = paired"
+n for d_z = 0.50 (paired),34,33.367204088022,"power.t.test, type = paired"
+"n for d_z = 0.30, alpha .05/3",120,119.20401761192885,"power.t.test, type = paired"
+"n for d_z = 0.50, alpha .05/3",45,44.78087061433694,"power.t.test, type = paired"
+H1: recall rate when Logo not fixated,0.35,0.35,observed (7 of 20)
+H1: recall rate when fixated implied by OR,0.7004854993978206,0.7004854993978206,OR x odds / (1 + OR x odds)
+"H1: n per group, power.prop.test",31,30.66007466103036,power.prop.test
+"H1: total N, power.prop.test (equal groups)",62,61.32014932206072,power.prop.test
+H1: simulated power at N = 44,0.5695,0.5695,"simulation, Fisher exact test, 4,000 studies"
+H1: smallest N with simulated power >= .80,72,72,"simulation, Fisher exact test, 4,000 studies per N"
+H1: simulated power at that N,0.80725,0.80725,"simulation, Fisher exact test, 4,000 studies"
+H2: n for r equal to the standardized slope (Fisher z),131,130.1954752075731,((z.975 + z.80) / atanh(r))^2 + 3

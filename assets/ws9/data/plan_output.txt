@@ -1,0 +1,268 @@
+PLANNED STUDY, SIMULATED DATA: power and planning for the follow up ad study (Workshop 9). No real person was recorded.
+Run on 2026-10-11 18:40 
+R 4.3.3; lme4 1.1.35.1; lmerTest 3.1.3; ggplot2 3.4.4
+Simulated studies per cell: grid 500, checks 500, H1 200; cores used: 1; seed 20270208
+
+---- STEP 0. Inputs from Workshops 6 to 8 and the planning assumptions ----
+Read from the Workshop 6 to 8 folders; prior_inputs/ holds byte identical copies of all 8 files (MD5 checksums agree)
+A1   Mean liking of an ad (1 to 7) = 4.32 scale points
+       source: ws8/data/SIMULATED_descriptives.csv, line 29 and the next line
+       how: Average of the Ad_A and Ad_B means (4.59 and 4.05)
+A2   Participant SD of liking (random intercept) = 0.799 scale points
+       source: ws7/data/analysis_ready_long.csv (include = 1; Ad_A and Ad_B rows)
+       how: lmer(liking ~ stimulus + (1 | participant_id)) fitted here
+A3   Residual SD of liking (within person) = 1.085 scale points
+       source: ws7/data/analysis_ready_long.csv (include = 1; Ad_A and Ad_B rows)
+       how: Same model; the residual includes the rounding to whole scale points
+A4   Brand effect on liking to plan for (smallest effect of interest) = 0.5 scale points (ALTAVO minus BRENLOW)
+       source: ws8/data/results_text.md, line 37
+       how: Decision of the (fictional) client: half a scale point. For reference, the Workshop 8 difference between the two ads was 0.55, 95% CI [-0.13, 1.23], and it mixes brand and execution
+A5   SD of the ads within a brand (ad random intercept) = 0.2 scale points
+       source: ws8/data/results_text.md, line 51
+       how: JUDGMENT, no lab estimate exists (one ad per brand). Two ads of one campaign then differ by about 0.23 points on average (1.128 x 0.20), less than half the 0.55 between two ads of different brands
+A6   Ad SD for the sensitivity checks = 0.10 and 0.30 scale points
+       source: STEP 2, part B
+       how: Half and one and a half times A5
+A7   SD of a participant's own brand preference (participant by brand slope) = 0 in the grid; 0.50 in a check scale points
+       source: STEP 2, part B
+       how: Not estimable from Workshop 7 (one ad per brand); the residual of A3 is reduced so that the total within person variance stays the same
+A8   Liking is a whole number from 1 to 7 = 1 to 7 scale points
+       source: ws8/data/SIMULATED_descriptives.csv, line 29
+       how: Simulated ratings are rounded and kept inside 1 to 7
+A9   Probability that the Logo of an ad is fixated = 0.545 proportion
+       source: ws8/data/SIMULATED_descriptives.csv, line 9
+       how: 12 of 22 participants in each ad; fixation is simulated as independent across ads (4 of 22 never fixated either Logo; 4.6 expected if independent)
+A10  Brand recall when the Logo was not fixated = 0.35 proportion
+       source: ws8/data/SIMULATED_power.csv, line 10
+       how: Observed 7 of 20 in Workshop 7
+A11  Odds ratio of recall, Logo fixated versus not (Workshop 8 estimate) = 4.34 odds ratio
+       source: ws8/data/SIMULATED_all_tests.csv, line 3
+       how: Fisher conditional estimate, 95% CI [1.08, 19.55]: wide, so a smaller value is also planned (A12)
+A12  Smallest odds ratio of interest for H1 = 2 odds ratio
+       source: decision
+       how: A doubling of the odds of recall; protects against planning on an overestimate from 44 observations
+A13  Participant SD of recall (logit scale) = 0.5 logit
+       source: ws8/data/results_text.md, line 27
+       how: Workshop 7 estimated zero (a singular fit) from 22 people; a modest positive value is assumed to be cautious
+A14  Ad SD of recall (logit scale) = 0.3 logit
+       source: judgment
+       how: Ads may differ in how memorable their brand is
+A15  Exclusion rate in the lab (rule R2) = 0.0833 proportion
+       source: ws8/data/analysis_output.txt, line 91
+       how: 22 of 24 participants kept in Workshop 7 (2 of 24 excluded)
+A16  Remote study: completed of those who opened the link = 0.6846 proportion
+       source: ws6/data/analysis_output.txt, line 67
+       how: 178 of 260 in Workshop 6; then 36 of 178 completed respondents were excluded, so 142 of 260 (54.6%) were kept
+A17  Paired effect sizes from Workshop 8 for STEP 1 = liking 0.355; GSR 0.826 d_z
+       source: ws8/data/SIMULATED_all_tests.csv, line 30; ws8/data/SIMULATED_all_tests.csv, line 10
+       how: Q6 liking (Ad_A minus Ad_B) and H3 GSR (Ad_A minus Baseline)
+A18  Session slot length and slots per day (one Aurora seat) = 90 min; 5 per day minutes
+       source: ws7/data/exports/08_Session_Log/SIMULATED_AdStudy_SessionLog.csv (Start time)
+       how: Median gap between session starts on a day in Workshop 7 = 91 min (range 80 to 99), rounded to the nearest 15 min; first sessions near 09:00
+A19  Alpha, sidedness, and the power target = .05, two tailed, .80 
+       source: ws8/data/analysis_output.txt, line 386
+       how: As in Workshops 7 and 8; a Holm family of three has .05 / 3 = .0167 at its strictest step
+
+Workshop 8 called for this study (ws8/data/results_text.md, line 53):
+  "The power analysis gives concrete targets. To detect a moderate difference between two ads on a paired measure (d_z = 0.50) with 80 percent power,
+   the next study needs at least 34 participants for a single test and 45 if three measures are corrected as a Holm family; a small difference (d_z =
+   0.30) needs 90 and 120 participants, respectively. H1 needs about 72 independent observations, which means planning the number of people from one ad
+   per person or from a simulation of the mixed model, not from two observations per person. The next study should also present several ads per brand so
+   that brand effects can be separated from executions, ask purchase intention separately for each brand so that the ads can be compared on it, fix
+   every question and its test in a preregistration before data collection (Nosek et al., 2018), and name in advance the smallest difference that would
+   matter to the client, so that a null result can be tested for equivalence rather than left uninterpretable."
+
+Simulation values: mean 4.32; participant SD 0.799; residual SD 1.085 (latent 1.046 before rounding); brand effect 0.50; ad SD 0.20
+
+---- STEP 1. Analytic power for a paired comparison (base R power.t.test, type = "paired") ----
+                             effect   d_z                            alpha n_exact   n power n=22 power n=36 power n=48 power n=60
+                       small (0.30) 0.300                .05 (single test)   89.15  90      0.269      0.417      0.530      0.628
+                       small (0.30) 0.300 .0167 (strictest Holm step of 3)  119.20 120      0.140      0.252      0.352      0.450
+                    moderate (0.50) 0.500                .05 (single test)   33.37  34      0.609      0.831      0.924      0.968
+                    moderate (0.50) 0.500 .0167 (strictest Holm step of 3)   44.78  45      0.418      0.685      0.832      0.917
+    Workshop 8 liking estimate (Q6) 0.355                .05 (single test)   64.07  65      0.356      0.545      0.674      0.773
+    Workshop 8 liking estimate (Q6) 0.355 .0167 (strictest Holm step of 3)   85.75  86      0.201      0.364      0.497      0.615
+ Workshop 7 GSR estimate (H3, Ad_A) 0.826                .05 (single test)   13.55  14      0.958      0.998      1.000      1.000
+ Workshop 7 GSR estimate (H3, Ad_A) 0.826 .0167 (strictest Holm step of 3)   18.30  19      0.887      0.991      0.999      1.000
+Continuity check: the 4 sample sizes of Workshop 8 STEP 9 are reproduced (largest difference 0.0e+00): n for d_z = 0.30 (paired) = 90; n for d_z = 0.50 (paired) = 34; n for d_z = 0.30, alpha .05/3 = 120; n for d_z = 0.50, alpha .05/3 = 45
+Read: for a moderate paired difference (d_z = 0.50), 34 participants give 80% power for one test and 45 at the strictest step of a
+Holm family of three. The H3 arousal effect of Workshop 7 (d_z = 0.83) needs only 14. The Workshop 8 liking estimate (d_z = 0.36) needs 65,
+but that estimate mixes brand and execution and comes from 22 people, so it is not used to plan the brand test.
+
+---- STEP 2. Power by simulation: brand effect on liking, crossed random intercepts for participants and ads ----
+Model: liking ~ brand + (1 | participant) + (1 | ad), REML (lme4); brand = +0.5 ALTAVO, -0.5 BRENLOW. Test: the brand effect against
+the variation between ads (t test on the ad means, df = ads - 2), which is the lmerTest Satterthwaite test of this balanced design
+(checked below) and the singular fit rule at the same time. Alpha .05 two tailed; power also at .0167 (strictest Holm step of 3).
+Part A: 20 cells x 500 simulated studies = 10,000 mixed model fits in 5.1 min
+Planning values: brand effect 0.50, ad SD 0.20, participant SD 0.799, residual SD 1.085; MC SE = Monte Carlo standard error of the power
+
+ participants ads per brand ratings power MC SE MC 95% interval power, Holm step formula naive (singular accepted) % singular df
+           24             2      96 0.152 0.016  [0.121, 0.183]            0.052   0.171                     0.218       37.6  2
+           36             2     144 0.158 0.016  [0.126, 0.190]            0.062   0.197                     0.224       32.8  2
+           48             2     192 0.186 0.017  [0.152, 0.220]            0.072   0.213                     0.240       27.6  2
+           60             2     240 0.248 0.019  [0.210, 0.286]            0.112   0.226                     0.282       28.8  2
+           72             2     288 0.200 0.018  [0.165, 0.235]            0.066   0.235                     0.244       22.6  2
+           24             3     144 0.350 0.021  [0.308, 0.392]            0.158   0.350                     0.378       33.4  4
+           36             3     216 0.402 0.022  [0.359, 0.445]            0.208   0.411                     0.402       21.6  4
+           48             3     288 0.474 0.022  [0.430, 0.518]            0.216   0.451                     0.476       12.8  4
+           60             3     360 0.474 0.022  [0.430, 0.518]            0.252   0.480                     0.478       15.8  4
+           72             3     432 0.510 0.022  [0.466, 0.554]            0.282   0.500                     0.512       12.4  4
+           24             4     192 0.532 0.022  [0.488, 0.576]            0.302   0.511                     0.550       25.6  6
+           36             4     288 0.588 0.022  [0.545, 0.631]            0.396   0.593                     0.592       16.8  6
+           48             4     384 0.628 0.022  [0.586, 0.670]            0.368   0.643                     0.630        9.8  6
+           60             4     480 0.726 0.020  [0.687, 0.765]            0.454   0.677                     0.726       10.2  6
+           72             4     576 0.688 0.021  [0.647, 0.729]            0.420   0.701                     0.686        8.0  6
+           24             6     288 0.760 0.019  [0.723, 0.797]            0.500   0.744                     0.760       14.6 10
+           36             6     432 0.850 0.016  [0.819, 0.881]            0.646   0.824                     0.850        8.0 10
+           48             6     576 0.880 0.015  [0.852, 0.908]            0.706   0.866                     0.880        3.6 10
+           60             6     720 0.880 0.015  [0.852, 0.908]            0.716   0.891                     0.880        3.4 10
+           72             6     864 0.938 0.011  [0.917, 0.959]            0.778   0.907                     0.938        1.4 10
+
+Power (p < .05) by participants (rows) and ads per brand (columns):
+ participants 2 per brand 3 per brand 4 per brand 6 per brand
+           24       0.152       0.350       0.532       0.760
+           36       0.158       0.402       0.588       0.850
+           48       0.186       0.474       0.628       0.880
+           60       0.248       0.474       0.726       0.880
+           72       0.200       0.510       0.688       0.938
+
+Check (grid): the first 20 studies of every cell (400 in all) were also analyzed with lmerTest (Satterthwaite df).
+  ad variance clearly above zero (326 studies): lmerTest t and df equal the test on the ad means (largest |difference|: t 1.5e-03, df 3.8e-03)
+  singular fits (73): the naive lmerTest p equals the computed naive p (largest |difference| 4.4e-08); the planned test uses the ad means
+  ad SD estimated near zero but not flagged singular (1): lmerTest's numerical df are unstable there, which is why the rule exists
+  the lmerTest p and the computed p lead to the same decision at .05 in 400 of 400 studies
+Simulation versus the formula for a balanced design: mean difference +0.002; 3 of 20 cells differ by more than 1.96 MC SE (about 1.0
+expected by chance alone); largest difference 0.049 (2.9 MC SE). The formula treats liking as continuous; the simulation rounds it to 1 to 7.
+Neighboring cells can therefore be out of order by a few points (for example 60 and 72 participants with 4 ads per brand); the formula
+lines in figures/SIMULATED_fig1_power_curves.png show the smooth trend.
+Read: more participants help only up to a point, because the brand difference must be judged against the variation BETWEEN ads, and
+with 2 or 3 ads per brand that variation is estimated from 2 or 4 degrees of freedom. With 3 ads per brand (six ads in all) power is
+at most 0.51 even with 72 participants. Accepting singular fits would overstate power (naive column), most of all with few ads.
+
+Part B: checks at 6 ads per brand and 48 participants (500 simulated studies each; 1.3 min)
+Check (checks): the first 20 studies of every cell (100 in all) were also analyzed with lmerTest (Satterthwaite df).
+  ad variance clearly above zero (90 studies): lmerTest t and df equal the test on the ad means (largest |difference|: t 2.5e-04, df 2.1e-02)
+  singular fits (10): the naive lmerTest p equals the computed naive p (largest |difference| 1.1e-11); the planned test uses the ad means
+  ad SD estimated near zero but not flagged singular (0): lmerTest's numerical df are unstable there, which is why the rule exists
+  the lmerTest p and the computed p lead to the same decision at .05 in 100 of 100 studies
+                                                       check rejects at .05 MC SE formula naive (singular accepted) % singular % 90% CI inside +/-0.5
+                        C1 Type I error: no brand difference          0.052 0.010   0.050                     0.056        4.8                   88.2
+                 C2 Ad SD 0.10 (ads of a brand very similar)          0.976 0.007   0.987                     0.976       29.0                    6.0
+               C3 Ad SD 0.30 (ads of a brand more different)          0.640 0.021   0.637                     0.640        1.2                    5.0
+ C4 Type I error with a participant by brand slope (SD 0.50)          0.060 0.011     -                       0.058        5.0                   83.4
+        C5 Power with a participant by brand slope (SD 0.50)          0.886 0.014     -                       0.886        5.2                    7.6
+Read: C1 shows that the planned test keeps its 5% false positive rate when the brands do not differ; the column '% 90% CI inside +/-0.5'
+in C1 is the chance that the equivalence test (two one sided tests at .05 against +/-0.50) concludes that the brands do not differ by a
+meaningful amount. C2 and C3 show how strongly the plan depends on the unknown ad SD. C4 and C5 show what happens if participants also
+differ in their own brand preference, which the planned model does not include (the robustness model in the analysis plan does).
+
+---- STEP 3. Power by simulation for H1: recall ~ logo_fixated + (1 | participant) + (1 | ad), mixed logistic ----
+6 cells x 200 simulated studies (2.5 min); 6 ads per brand, so 12 observations per participant
+ participants observations odds ratio power MC SE MC 95% interval % singular mean estimated OR failed
+           24          288       2.00 0.750 0.031  [0.690, 0.810]       42.5              1.96      0
+           36          432       2.00 0.920 0.019  [0.882, 0.958]       21.0              1.99      0
+           48          576       2.00 0.975 0.011  [0.953, 0.997]       13.5              2.00      0
+           24          288       4.34 1.000 0.000  [1.000, 1.000]       30.0              4.37      0
+           36          432       4.34 1.000 0.000  [1.000, 1.000]       20.5              4.38      0
+           48          576       4.34 1.000 0.000  [1.000, 1.000]       13.0              4.36      0
+Read: with 12 ads per person, even 24 participants give several hundred observations, and H1 is well powered for the Workshop 8 odds ratio.
+For the smaller odds ratio of 2.0 the number of participants matters more. N_SIM_H1 is smaller than in STEP 2 because a mixed logistic fit
+takes about four times as long as a linear one; the Monte Carlo SE column shows the precision this buys.
+
+---- STEP 4. The chosen design ----
+Rule: the smallest number of ads per brand with power >= 0.80 somewhere in the grid, then the smallest number of participants with
+power >= 0.80 that also covers the secondary Holm family (n >= 45, STEP 1).
+Ads per brand: best power with 3 per brand = 0.510, with 4 per brand = 0.726; 6 per brand reaches the target -> 6 ads per brand (12 ads)
+Participants: 48 (power 0.880, MC SE 0.015, MC 95% interval [0.852, 0.908]; formula 0.866; at the strictest Holm step 0.706)
+  for comparison: 72 participants with 6 per brand = 0.938; 48 participants with 3 per brand = 0.474
+Type I error of the planned test at this design (C1): 0.052 (MC SE 0.010); naive test accepting singular fits: 0.056
+Sensitivity to the ad SD: 0.10 -> 0.976; 0.20 -> 0.880; 0.30 -> 0.640
+With a participant by brand slope (SD 0.50): Type I error 0.060, power 0.886
+H1 at 48 participants: power 0.975 for OR = 2.00 and 1.000 for OR = 4.34
+Attrition: Workshop 7 exclusion rate 2/24 = 0.083 -> 48 / (1 - 0.083) = 52.36 -> 53 sessions: 48 main + 5 reserve; hard cap 60 sessions
+Remote comparison (Workshop 6: 142 of 260 kept, 54.6%): 48 analyzable participants would need about 88 people to open the link
+Stopping rule: stop when 48 participants meet rules R1 to R2, or after 60 sessions, whichever comes first; an excluded participant is
+replaced by the next reserve code, who takes the same Latin square row. Outcome data are not analyzed before the stopping point.
+
+---- STEP 5. Counterbalancing: Williams design, brand order, assignment of participants to rows ----
+t =  4 ads: each ad once per row TRUE, once per position TRUE, each ordered pair adjacent exactly once TRUE
+t =  6 ads: each ad once per row TRUE, once per position TRUE, each ordered pair adjacent exactly once TRUE
+t =  8 ads: each ad once per row TRUE, once per position TRUE, each ordered pair adjacent exactly once TRUE
+t = 12 ads: each ad once per row TRUE, once per position TRUE, each ordered pair adjacent exactly once TRUE
+
+Brand labeling: 462 ways to split 12 ads into two brands; longest run of one brand within a row ranges from 2 to 6;
+1 of them reach the minimum of 2; the parity labeling (even symbols ALTAVO, odd BRENLOW) gives 2
+
+The square for the chosen design (12 ads; A = ALTAVO, B = BRENLOW):
+  row  1: ALTAVO_1  BRENLOW_1 BRENLOW_6 ALTAVO_2  ALTAVO_6  BRENLOW_2 BRENLOW_5 ALTAVO_3  ALTAVO_5  BRENLOW_3 BRENLOW_4 ALTAVO_4    brands ABBAABBAABBA
+  row  2: BRENLOW_1 ALTAVO_2  ALTAVO_1  BRENLOW_2 BRENLOW_6 ALTAVO_3  ALTAVO_6  BRENLOW_3 BRENLOW_5 ALTAVO_4  ALTAVO_5  BRENLOW_4   brands BAABBAABBAAB
+  row  3: ALTAVO_2  BRENLOW_2 BRENLOW_1 ALTAVO_3  ALTAVO_1  BRENLOW_3 BRENLOW_6 ALTAVO_4  ALTAVO_6  BRENLOW_4 BRENLOW_5 ALTAVO_5    brands ABBAABBAABBA
+  row  4: BRENLOW_2 ALTAVO_3  ALTAVO_2  BRENLOW_3 BRENLOW_1 ALTAVO_4  ALTAVO_1  BRENLOW_4 BRENLOW_6 ALTAVO_5  ALTAVO_6  BRENLOW_5   brands BAABBAABBAAB
+  row  5: ALTAVO_3  BRENLOW_3 BRENLOW_2 ALTAVO_4  ALTAVO_2  BRENLOW_4 BRENLOW_1 ALTAVO_5  ALTAVO_1  BRENLOW_5 BRENLOW_6 ALTAVO_6    brands ABBAABBAABBA
+  row  6: BRENLOW_3 ALTAVO_4  ALTAVO_3  BRENLOW_4 BRENLOW_2 ALTAVO_5  ALTAVO_2  BRENLOW_5 BRENLOW_1 ALTAVO_6  ALTAVO_1  BRENLOW_6   brands BAABBAABBAAB
+  row  7: ALTAVO_4  BRENLOW_4 BRENLOW_3 ALTAVO_5  ALTAVO_3  BRENLOW_5 BRENLOW_2 ALTAVO_6  ALTAVO_2  BRENLOW_6 BRENLOW_1 ALTAVO_1    brands ABBAABBAABBA
+  row  8: BRENLOW_4 ALTAVO_5  ALTAVO_4  BRENLOW_5 BRENLOW_3 ALTAVO_6  ALTAVO_3  BRENLOW_6 BRENLOW_2 ALTAVO_1  ALTAVO_2  BRENLOW_1   brands BAABBAABBAAB
+  row  9: ALTAVO_5  BRENLOW_5 BRENLOW_4 ALTAVO_6  ALTAVO_4  BRENLOW_6 BRENLOW_3 ALTAVO_1  ALTAVO_3  BRENLOW_1 BRENLOW_2 ALTAVO_2    brands ABBAABBAABBA
+  row 10: BRENLOW_5 ALTAVO_6  ALTAVO_5  BRENLOW_6 BRENLOW_4 ALTAVO_1  ALTAVO_4  BRENLOW_1 BRENLOW_3 ALTAVO_2  ALTAVO_3  BRENLOW_2   brands BAABBAABBAAB
+  row 11: ALTAVO_6  BRENLOW_6 BRENLOW_5 ALTAVO_1  ALTAVO_5  BRENLOW_1 BRENLOW_4 ALTAVO_2  ALTAVO_4  BRENLOW_2 BRENLOW_3 ALTAVO_3    brands ABBAABBAABBA
+  row 12: BRENLOW_6 ALTAVO_1  ALTAVO_6  BRENLOW_1 BRENLOW_5 ALTAVO_2  ALTAVO_5  BRENLOW_2 BRENLOW_4 ALTAVO_3  ALTAVO_4  BRENLOW_3   brands BAABBAABBAAB
+Brand order: ALTAVO ads per position across the 12 rows = 6 6 6 6 6 6 6 6 6 6 6 6 (always 6 of 12); rows that start with ALTAVO = 6, with BRENLOW = 6;
+longest run of one brand within a row = 2 ads (rows: 2 2 2 2 2 2 2 2 2 2 2 2)
+Main participants: 48 in 4 blocks of 12; every row used 4 times; every ad in every position 4 times (TRUE);
+every ordered pair of different ads adjacent 4 times (TRUE); first brand ALTAVO for 24 and BRENLOW for 24 participants
+Rows by participant (main): P01=4 P02=3 P03=2 P04=9 P05=1 P06=5 P07=12 P08=8 P09=7 P10=11 P11=6 P12=10 P13=7 P14=9 P15=6 P16=3 P17=12 P18=5 P19=11 P20=4 P21=8 P22=1 P23=2 P24=10 P25=11 P26=10 P27=5 P28=8 P29=3 P30=7 P31=9 P32=1 P33=4 P34=2 P35=12 P36=6 P37=2 P38=5 P39=12 P40=10 P41=9 P42=11 P43=1 P44=4 P45=6 P46=8 P47=7 P48=3 
+In iMotions, the sequences can be entered as study flows or as a test plan (Using a Test Plan for Study Design: a CSV file with the
+respondents and their stimulus sequences). The test plan article says respondents cannot be added after recording starts, so the reserve
+codes must be in the file from the beginning (Items to verify in README.md).
+wrote SIMULATED_latin_square.csv and SIMULATED_order_schedule.csv
+
+---- STEP 6. Session schedule (one Aurora seat, two staff per session) ----
+                                                                                                                    part ws7_seconds seconds
+                                                                                               Instructions (self paced)          60      60
+                                                                             Baseline, gray screen with a fixation cross          60      60
+                                                                           Ads, 30 s each (Workshop 7: 2; follow up: 12)          60     360
+                                                         Liking and purchase intention after each ad (about 20 s per ad)           0     240
+ End questions about each ad (Workshop 7: liking and recall of 2 ads; follow up: recall of each ad), about 10 s per item          40     120
+                                                                                         Attitude items and demographics         100     100
+                                                  source
+       Workshop 7 design (ws7/data/README.md, section 1)
+                                       Workshop 7 design
+                                       Workshop 7 design
+                    PLANNED; time to verify in the pilot
+                    PLANNED; time to verify in the pilot
+ Workshop 7 survey (ATT_1 to ATT_3R) plus age and gender
+Recording: 15.7 min for the follow up design (Workshop 7 design: 5.3 min); planned as 20 min with time for a recalibration
+                                                                                         part minutes
+                                                                  Arrival, consent, screening      15
+ Sensor setup: Shimmer3 GSR+ on two fingers, Aurora positioning and calibration, camera check      10
+                                                                Recording (above, rounded up)      20
+                                                           Sensors off, debrief, compensation      15
+                                    Backup, session log, cleaning, room empty for ventilation      30
+                                                                                                                              source
+                                                                                             lab procedure manual 7.1.3 (15 minutes)
+              PLANNED: the manual's 20 to 30 minutes (7.1.4) include the EEG cap, which this study does not use; verify in the pilot
+                                                                                                                        STEP 6 above
+                                                                                             lab procedure manual 7.1.6 (15 minutes)
+ lab procedure manual 7.1.7 (30 minutes); 3.4 (at least 10 minutes with the room empty); 7.2 (20 to 30 minutes between participants)
+Participant time 60 min (the consent form says about 60 minutes); slot 90 min, the same as the Workshop 7 slots (A18); setup 45 min before
+the first session of a day (lab procedure manual 7.1.2).
+Main collection: 55 slots on 11 weekdays (Monday, February 8, 2027 to Monday, February 22, 2027): 48 main, 5 reserve, 2 open; pilot on Monday, February 1, 2027 (2 sessions)
+Staff time: 53 sessions x 2 people x 90 min = 159 person hours, plus 45 min setup per day for the first pair
+PLACEHOLDER DATES: set them after IRB approval and check the JSU academic calendar. wrote SIMULATED_session_schedule.csv
+
+---- STEP 7. Figures ----
+saved figure: figures/SIMULATED_fig1_power_curves.png
+saved figure: figures/SIMULATED_fig2_power_by_ads.png
+saved figure: figures/SIMULATED_fig3_power_h1.png
+saved figure: figures/SIMULATED_fig4_williams_square.png
+
+---- STEP 8. Summary tables ----
+wrote SIMULATED_planning_assumptions.csv, SIMULATED_power_analytic.csv, SIMULATED_power_grid.csv, SIMULATED_power_checks.csv, SIMULATED_power_h1.csv
+(and in STEP 5 and 6: SIMULATED_latin_square.csv, SIMULATED_order_schedule.csv, SIMULATED_session_schedule.csv)
+
+SUMMARY (PLANNED):
+  Design: 12 ads (6 per brand), within subjects, Williams order; 48 participants analyzed; 53 sessions booked (48 main + 5 reserve) + 2 open; cap 60
+  P1 brand test on liking: power 0.880 (MC SE 0.015) for 0.50 points with ad SD 0.20; Type I error 0.052
+  Six ads in all (3 per brand) would give 0.474 at 48 participants and 0.510 at 72
+  Sessions: 60 min participant time, 90 min slots, 5 per weekday, 11 weekdays (February 8 to February 22, 2027) after a pilot day (February 1)
+Total runtime: 9.0 min

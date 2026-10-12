@@ -1,0 +1,23 @@
+# SIMULATED DATA for teaching (seed 20271231). Simulated power of Fisher's exact test for the H1 odds ratio by total N (4,000 studies per N). Made by analysis_full.R (Workshop 8) from the Workshop 7 analysis ready files. No real person was recorded.
+N,power
+40,0.49375
+44,0.5695
+48,0.6405
+52,0.68175
+56,0.696
+60,0.73775
+64,0.789
+68,0.78525
+72,0.80725
+76,0.83625
+80,0.871
+84,0.886
+88,0.89175
+92,0.89975
+96,0.92475
+100,0.935
+104,0.9385
+108,0.94475
+112,0.94775
+116,0.95975
+120,0.96975

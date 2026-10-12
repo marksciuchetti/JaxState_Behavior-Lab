@@ -1,0 +1,23 @@
+# SIMULATED DATA for teaching (seed 20271231). EXPLORATORY Spearman correlations, participant level, with 95% CIs (Fisher z, Bonett and Wright variance). No p values by design. Made by analysis_full.R (Workshop 8) from the Workshop 7 analysis ready files. No real person was recorded.
+var1,var2,label1,label2,n,rho,lo,hi,excludes_zero
+logo_dwell,joy,Logo dwell (%),Joy (%),22,-0.017006827315643385,-0.4355190403721599,0.40755076675004015,FALSE
+logo_dwell,gsr_change,Logo dwell (%),GSR change (peaks/min),21,0.08380019039424887,-0.36164844342843067,0.4980995805407822,FALSE
+logo_dwell,liking,Logo dwell (%),Liking,22,0.2024730955675282,-0.24390461330141763,0.5780582581539677,FALSE
+logo_dwell,recall,Logo dwell (%),Recall (0 to 2),22,0.4240175635645023,-0.01684057088908674,0.7268433298959702,FALSE
+logo_dwell,purchase_intention,Logo dwell (%),Purchase intention,22,-0.04051509873899973,-0.4545087365289503,0.3878728636339724,FALSE
+logo_dwell,attitude,Logo dwell (%),Attitude,22,-0.05369990921404757,-0.4650394602411962,0.3767091547646014,FALSE
+joy,gsr_change,Joy (%),GSR change (peaks/min),21,-0.06362922922220733,-0.4824330994256371,0.3788531995779934,FALSE
+joy,liking,Joy (%),Liking,22,0.3256041568805009,-0.12288299230497222,0.6636528245842159,FALSE
+joy,recall,Joy (%),Recall (0 to 2),22,0.054736688458634004,-0.3758273771733367,0.4658639132711501,FALSE
+joy,purchase_intention,Joy (%),Purchase intention,22,-0.30145553342136394,-0.647434135329241,0.1475438526312519,FALSE
+joy,attitude,Joy (%),Attitude,22,0.058741404441856035,-0.3724159668712166,0.46904354191752756,FALSE
+gsr_change,liking,GSR change (peaks/min),Liking,21,-0.20963538560244957,-0.5913931494008358,0.24888698367594345,FALSE
+gsr_change,recall,GSR change (peaks/min),Recall (0 to 2),21,0.03576441105223631,-0.4022546858163875,0.46046032293394423,FALSE
+gsr_change,purchase_intention,GSR change (peaks/min),Purchase intention,21,0.2874538136668748,-0.1738422214127639,0.6453000651562982,FALSE
+gsr_change,attitude,GSR change (peaks/min),Attitude,21,0.17586777820464627,-0.28011880537321326,0.567102745063748,FALSE
+liking,recall,Liking,Recall (0 to 2),22,0.3719788607448699,-0.07408689121462017,0.6940140355862253,FALSE
+liking,purchase_intention,Liking,Purchase intention,22,-0.2325350123835482,-0.5996190424237577,0.2153899398315446,FALSE
+liking,attitude,Liking,Attitude,22,0.2491502432811829,-0.19935876688511134,0.6113523180699569,FALSE
+recall,purchase_intention,Recall (0 to 2),Purchase intention,22,-0.010319294428634176,-0.43006644928407844,0.41309629564995226,FALSE
+recall,attitude,Recall (0 to 2),Attitude,22,0.05454684890867505,-0.37598887816214166,0.4657129911427008,FALSE
+purchase_intention,attitude,Purchase intention,Attitude,22,0.5653458191444785,0.1551484137216578,0.809266478775213,TRUE

@@ -1,0 +1,544 @@
+SIMULATED remote study analysis (webcam eye tracking and AFFDEX), run on 2026-10-10 21:47 
+R 4.3.3; ggplot2 3.4.4; effectsize available for the cross-check: TRUE
+
+---- STEP 1. Files read ----
+Seed of the simulation: 20276200 
+Session data rows: 260  columns: Id | Started | Ended | Eye tracking | Est. face % | Block | Status | Last funnel step (modeled) | Device type (modeled) | Browser (modeled) 
+Quality table rows: 1246  columns: Respondent Name | Block | Slide position | Slide | Eye tracking accuracy (degrees) | Eye tracking quality (%) | Face quality (%) 
+FEA export rows: 1780  columns: Study Name | Respondent Name | Interval type | Interval label | Interval duration (s) | Expression | Threshold | Percent of time present | Number of segments | Mean raw score (0-100) | Data quality (%) 
+AOI export rows: 890  columns: Study Name | Respondent Name | Stimulus | AOI Name | Stimulus duration | AOI duration (ms) | AOI duration (%) | Size (px2) | Size (%) | Valid data | Dwells with fixations | Revisit count | Fixation count | TTFF AOI (ms) | TTFF parent (ms) | Dwell time (ms) | Dwell time (%) | Fixation duration (ms) | First fixation duration (ms) | Last fixation duration (ms) 
+Survey rows: 178  columns: Study Name | Respondent Name | Age | Gender | Intention_reduce_food_waste_1to7 | More_persuasive_video | Tips_recalled_0to4 
+Expressions: Engagement, Joy, Brow Furrow, Positive Valence, Negative Valence ; thresholds: Engagement 50, Joy 50, Brow Furrow 50, Positive Valence 50, Negative Valence -50 
+AOIs: Headline, Tip_1, Tip_2, Tip_3, Tip_4 
+
+---- STEP 2. Session data ----
+Sessions (opened a link): 260, from 2027-03-01 to 2027-03-12
+Status:
+
+Abandoned    Errors Processed 
+       81         1       178 
+Block (study flow) and order:
+              
+               Narrative first Visual first
+  Study flow 1             126            0
+  Study flow 2               0          134
+
+Device type (modeled column) by completion:
+  device opened completed pct_completed
+  Laptop    158       124          78.5
+ Desktop     66        54          81.8
+   Phone     29         0           0.0
+  Tablet      7         0           0.0
+Browser (modeled column) by completion, computers only:
+ browser opened completed pct_completed
+  Chrome    133       104          78.2
+    Edge     38        29          76.3
+  Safari     28        23          82.1
+ Firefox     25        22          88.0
+Phones and tablets: 36 sessions, 0 completed; last step reached: 2 = 1, 4 = 1, 5 = 34
+Sessions that stopped at STEP 5 Screen size: 36 (34 phones or tablets, 2 computers)
+(RDC 'requires a desktop or laptop computer'; 'Participation can not be done on phones or tablets'.)
+Completed sessions: 178; minutes from opening the link to the end of the upload: median = 8.7, range 7.2 to 10.2
+Session level 'Eye tracking' (completed): accuracy median = 1.9 degrees, quality median = 96 percent; Est. face %: median = 98
+
+---- STEP 3. Respondent funnel ----
+ step                           name entered stopped continued pct_of_opened
+    1          STEP 1 Testing upload     260       2       258         100.0
+    2          STEP 2 Consent screen     258      14       244          99.2
+    3  STEP 3 Screen recording setup     244       0       244          93.8
+    4 STEP 4 Respondent camera setup     244      12       232          93.8
+    5             STEP 5 Screen size     232      36       196          89.2
+    6        STEP 6 Enter fullscreen     196       3       193          75.4
+    7     STEP 7 Prepare positioning     193       2       191          74.2
+    8       STEP 8 Positioning check     191       6       185          73.5
+    9   STEP 9 Stimuli presentation*     185       4       181          71.2
+   10      STEP 10 Study data upload     181       3       178          69.6
+ pct_of_previous
+           100.0
+            99.2
+            94.6
+           100.0
+            95.1
+            84.5
+            98.5
+            99.0
+            96.9
+            97.8
+Completed (Status Processed): 178 of 260 (68.5 percent). Stopped at STEP 10: 3 (Abandoned 2, Errors 1).
+Largest single loss: STEP 5 Screen size (36 sessions); lost before the videos started (STEP 1 to STEP 8): 75 (28.8 percent of those who opened the link).
+Screen recording was off in this study, so nobody could stop at STEP 3 (modeled).
+By order (study flow):
+           order opened reached_step5 reached_step9 completed pct_completed
+ Narrative first    126           108            91        87          69.0
+    Visual first    134           124            94        91          67.9
+
+---- STEP 4. Exclusion rule ----
+Rule (written before collection): exclude when Pre-study OR Post-study accuracy > 4.0 degrees, eye tracking quality on
+the infographic < 90 percent, or face quality < 80 percent during either video. Sensitivity: both accuracies <= 3.0.
+Slides in the quality table: Pre-study calibration, Instructions1, foodwaste_visual, foodwaste_narrative, infographic, Questionnaire, Post-study calibration 
+
+Completed respondents screened: 178; excluded: 36 (20.2 percent); kept: 142
+Exclusions by reason (failed_any counts every respondent who failed the criterion; first_reason assigns each
+excluded respondent to the first criterion failed, in the order of the rule, so the column adds up to the total):
+                                                   reason failed_any
+         Pre-study calibration accuracy above 4.0 degrees          5
+        Post-study calibration accuracy above 4.0 degrees         17
+ Eye tracking quality on the infographic below 90 percent         20
+             Face quality below 80 percent during a video         14
+ first_reason
+            5
+           12
+           14
+            5
+Respondents who failed more than one criterion: 14
+Failed ONLY at the Post-study calibration (Pre-study fine, Post-study above 4.0): 12. Their accuracy went from M = 3.25 to M = 4.75 degrees.
+These respondents calibrated well and then drifted: a single calibration at the start would have kept them.
+Kept by order:
+           order completed kept kept_strict
+ Narrative first        87   69          59
+    Visual first        91   73          66
+Kept under the 3.0 degree sensitivity rule: 125 (a further 17 removed)
+Respondents whose session level accuracy (the rounded mean of the two calibrations) is 4.0 or less although one
+calibration is above 4.0: 6. Screening on the session list alone would have kept them.
+
+---- STEP 5. Differential attrition and exclusion by order ----
+(a) Completion by order, all 260 sessions that opened a link
+                 Completed
+Order             Completed Not completed Sum
+  Narrative first        87            39 126
+  Visual first           91            43 134
+  Sum                   178            82 260
+  Expected counts if the row and the outcome were unrelated:
+                 Completed
+Order             Completed Not completed
+  Narrative first     86.26         39.74
+  Visual first        91.74         42.26
+  Pearson chi square (no continuity correction) X2(1, N = 260) = 0.039, p = 0.84366; phi = 0.012
+  With the Yates continuity correction (R default): X2 = 0.004, p = 0.94922
+  Fisher exact test: p = 0.89410; odds ratio = 1.05, 95% CI [0.60, 1.84]
+  Smallest expected count = 39.74 (5 or more: the chi square approximation is fine)
+
+(b) Completion by order among the 185 sessions that reached STEP 9 (the videos started)
+                 Completed
+Order             Completed Not completed Sum
+  Narrative first        87             4  91
+  Visual first           91             3  94
+  Sum                   178             7 185
+  Expected counts if the row and the outcome were unrelated:
+                 Completed
+Order             Completed Not completed
+  Narrative first     87.56          3.44
+  Visual first        90.44          3.56
+  Pearson chi square (no continuity correction) X2(1, N = 185) = 0.184, p = 0.66784; phi = 0.032
+  With the Yates continuity correction (R default): X2 = 0.002, p = 0.96511
+  Fisher exact test: p = 0.71760; odds ratio = 0.72, 95% CI [0.10, 4.38]
+  Smallest expected count = 3.44 (below 5: report the Fisher exact test)
+
+Only the losses from STEP 9 on can depend on the order: before STEP 9 nobody had seen a video. Test (b) is the sharper
+check; its expected counts are small, so read its Fisher exact p.
+
+(c) Exclusion by order among the 178 completed respondents
+                 Kept
+Order             Kept Excluded Sum
+  Narrative first   69       18  87
+  Visual first      73       18  91
+  Sum              142       36 178
+  Expected counts if the row and the outcome were unrelated:
+                 Kept
+Order             Kept Excluded
+  Narrative first 69.4     17.6
+  Visual first    72.6     18.4
+  Pearson chi square (no continuity correction) X2(1, N = 178) = 0.023, p = 0.87998; phi = 0.011
+  With the Yates continuity correction (R default): X2 = 0.000, p = 1.00000
+  Fisher exact test: p = 1.00000; odds ratio = 0.95, 95% CI [0.43, 2.10]
+  Smallest expected count = 17.60 (5 or more: the chi square approximation is fine)
+
+---- STEP 6. Consistency checks across the files ----
+  Processed sessions = respondents in the quality table                    OK
+  Processed sessions = respondents in the FEA export                       OK
+  Processed sessions = respondents in the AOI export                       OK
+  Processed sessions = respondents in the survey                           OK
+  7 slides per respondent in the quality table                             OK
+  10 FEA rows (2 videos x 5 expressions) per respondent                    OK
+  5 AOI rows per respondent                                                OK
+  Block in the quality table = Block in the session data                   OK
+  Slide order matches the Block (flow 1: narrative before visual)          OK
+  FEA Data quality (%) = face quality of the same video                    OK
+  AOI Valid data = eye tracking quality on the infographic                 OK
+  Session accuracy = mean of the two calibrations, rounded to 0.1          OK
+  Percent of time present between 0 and Data quality (%)                   OK
+  Dwell time (ms) = Fixation count x Fixation duration (ms), within rounding OK
+  TTFF parent (ms) = TTFF AOI (ms) (every AOI is active from the start)    OK
+  No completed session without an Ended time                               OK
+
+---- STEP 7. Calibration drift: Pre-study versus Post-study accuracy ----
+Accuracy (degrees), all 178 completed respondents
+  Pre-study calibration: M = 1.706, SD = 0.986, median = 1.505, n = 178
+  Post-study calibration: M = 2.424, SD = 1.204, median = 2.180, n = 178
+  Difference (Post-study calibration minus Pre-study calibration): M = 0.718 degrees, SD = 0.503, 95% CI [0.643, 0.792]
+  Paired t (one sample t on the differences): t(177) = 19.05, p = 9.96e-45 (two tailed)
+  Cohen's d_z = 1.43, 95% CI [1.22, 1.64] (noncentral t); approximation [1.22, 1.64]
+  Wilcoxon signed rank V = 15415, p = 2.39e-28 (zero differences are dropped: 1)
+  Shapiro Wilk on the differences: W = 0.996, p = 0.91205
+  Respondents with a positive difference: 165 of 178; negative: 12; zero: 1
+
+Correlation of the two calibrations: r = 0.91; Post-study worse than Pre-study for 165 of 178 (92.7 percent)
+Pre-study above 4.0: 5; Post-study above 4.0: 17
+Accuracy (degrees), kept respondents (n = 142; both values are 4.0 or less by the rule)
+  Pre-study calibration: M = 1.415, SD = 0.636, median = 1.290, n = 142
+  Post-study calibration: M = 2.045, SD = 0.807, median = 2.020, n = 142
+  Difference (Post-study calibration minus Pre-study calibration): M = 0.630 degrees, SD = 0.469, 95% CI [0.552, 0.708]
+  Paired t (one sample t on the differences): t(141) = 16.02, p = 1.50e-33 (two tailed)
+  Cohen's d_z = 1.34, 95% CI [1.12, 1.57] (noncentral t); approximation [1.12, 1.57]
+  Wilcoxon signed rank V = 9696.5, p = 4.76e-22 (zero differences are dropped: 1)
+  Shapiro Wilk on the differences: W = 0.993, p = 0.75458
+  Respondents with a positive difference: 129 of 142; negative: 12; zero: 1
+
+---- STEP 8. Analysis table ----
+Kept respondents: 142 (Narrative first 69, Visual first 73)
+Kept respondents: 75 female, 65 male, 2 prefer not to say; age M = 29.9, SD = 13.2, range 18 to 64; 86 aged 18 to 24
+Kept respondents by device: Desktop 43, Laptop 99; by browser: Chrome 85, Edge 24, Firefox 14, Safari 19
+First six rows:
+       id           order  pre post etq_info face_narr face_vis Engagement_narr
+ RESP0001    Visual first 0.94 1.70     96.5      98.8     99.0           32.56
+ RESP0002 Narrative first 2.00 3.45     96.8      97.6     98.8           20.50
+ RESP0004    Visual first 2.31 3.73     97.4      96.6     96.5            0.00
+ RESP0005    Visual first 0.93 1.19     99.1      90.6     93.0           21.78
+ RESP0006    Visual first 1.60 1.86     96.4      99.3     99.0            7.06
+ RESP0007 Narrative first 1.24 2.36     96.7      94.9     97.2           31.17
+ Engagement_vis dwell_Tip_1 dwell_Tip_4 intention      pref recall
+          65.32        4104        1363         5    Visual      2
+          66.99        2439        2556         7    Visual      4
+          20.32        3273        1862         5 Narrative      4
+          24.25        3284        1723         3    Visual      1
+          12.20        2183        3490         5 Narrative      3
+          61.40        4533         680         6    Visual      4
+
+---- STEP 9. Descriptive statistics ----
+Facial expressions, percent of time present (kept respondents; pct_zero = percent of respondents at exactly 0):
+                                   measure               group   n  mean    sd
+       Percent of time present: Engagement foodwaste_narrative 142 19.49 19.97
+       Percent of time present: Engagement    foodwaste_visual 142 43.63 26.39
+              Percent of time present: Joy foodwaste_narrative 142  2.08  4.01
+              Percent of time present: Joy    foodwaste_visual 142  3.86  6.49
+      Percent of time present: Brow Furrow foodwaste_narrative 142  4.32  6.83
+      Percent of time present: Brow Furrow    foodwaste_visual 142  8.65 11.25
+ Percent of time present: Positive Valence foodwaste_narrative 142  3.09  5.71
+ Percent of time present: Positive Valence    foodwaste_visual 142  6.65 10.88
+ Percent of time present: Negative Valence foodwaste_narrative 142  2.39  3.99
+ Percent of time present: Negative Valence    foodwaste_visual 142  7.69  9.45
+ median   max pct_zero
+  13.22 77.94    14.79
+  42.96 98.17     2.82
+   0.00 22.83    55.63
+   0.84 43.87    35.92
+   1.03 39.83    47.18
+   4.24 53.76    21.83
+   0.00 26.22    56.34
+   2.10 70.91    35.21
+   0.00 17.17    56.34
+   4.68 48.71    18.31
+Engagement by order (descriptive; each video is seen first in one order and second in the other):
+           order  n narrative visual
+ Narrative first 69     21.50  42.57
+    Visual first 73     17.59  44.63
+Data quality:
+                        measure                  group  subgroup   n  mean   sd
+ Calibration accuracy (degrees)  Pre-study calibration Completed 178  1.71 0.99
+ Calibration accuracy (degrees) Post-study calibration Completed 178  2.42 1.20
+ Calibration accuracy (degrees) Post minus Pre (drift) Completed 178  0.72 0.50
+ Calibration accuracy (degrees)  Pre-study calibration      Kept 142  1.42 0.64
+ Calibration accuracy (degrees) Post-study calibration      Kept 142  2.05 0.81
+       Eye tracking quality (%)            infographic Completed 178 94.75 5.51
+               Face quality (%)    foodwaste_narrative Completed 178 94.84 7.10
+               Face quality (%)       foodwaste_visual Completed 178 95.18 6.87
+       Eye tracking quality (%)            infographic      Kept 142 96.50 2.19
+               Face quality (%)    foodwaste_narrative      Kept 142 96.52 3.52
+               Face quality (%)       foodwaste_visual      Kept 142 96.61 3.48
+ median   min   max
+   1.50  0.32  6.29
+   2.18  0.45  6.73
+   0.72 -0.70  2.11
+   1.29  0.32  3.52
+   2.02  0.45  3.95
+  96.50 61.00 99.60
+  97.85 54.60 99.90
+  97.60 51.50 99.90
+  96.80 90.40 99.60
+  98.10 83.60 99.90
+  97.80 81.60 99.90
+Survey (kept respondents):
+                                      measure           group   n  mean    sd
+      Intention to reduce food waste (1 to 7)        All kept 142  5.20  1.30
+      Intention to reduce food waste (1 to 7) Narrative first  69  5.04  1.37
+      Intention to reduce food waste (1 to 7)    Visual first  73  5.34  1.22
+                       Tips recalled (0 to 4)        All kept 142  2.12  1.34
+ Visual video named more persuasive (percent)        All kept 142 59.15 49.33
+ median min max
+      5   2   7
+      5   2   7
+      5   2   7
+      2   0   4
+    100   0 100
+Visual video named more persuasive: 84 of 142 (59.2 percent); tips recalled: 0 = 22, 1 = 28, 2 = 29, 3 = 37, 4 = 26
+
+---- STEP 10. H1: percent of time Engaged, foodwaste_visual versus foodwaste_narrative ----
+H1: Engagement (percent of time above 50), kept respondents, n = 142
+  foodwaste_narrative: M = 19.490, SD = 19.972, median = 13.220, n = 142
+  foodwaste_visual: M = 43.631, SD = 26.393, median = 42.960, n = 142
+  Difference (foodwaste_visual minus foodwaste_narrative): M = 24.141 percentage points, SD = 28.834, 95% CI [19.358, 28.925]
+  Paired t (one sample t on the differences): t(141) = 9.98, p = 4.57e-18 (two tailed)
+  Cohen's d_z = 0.84, 95% CI [0.64, 1.03] (noncentral t); approximation [0.65, 1.03]
+  Wilcoxon signed rank V = 8852, p = 2.47e-15 (zero differences are dropped: 1)
+  Shapiro Wilk on the differences: W = 0.984, p = 0.10467
+  Respondents with a positive difference: 113 of 142; negative: 28; zero: 1
+
+Respondents with Engagement exactly 0: narrative 21 (14.8 percent), visual 4 (2.8 percent); both 0: 1
+Median difference = 23.82 percentage points; the Wilcoxon test compares ranks, so the many zeros and the long right tail do not drive it.
+Cross-check with the effectsize package: d_z = 0.8373, 95% CI [0.6449, 1.0274] (hand computed: 0.8373 [0.6449, 1.0274])
+
+---- STEP 11. H2: dwell time on the four tip AOIs (infographic) ----
+Repeated measures descriptive table (kept respondents; dwell time 0 when the AOI was never fixated; hit ratio = the
+percent of respondents with at least one fixation in the AOI, which iMotions calls Respondent ratio (%)):
+      aoi   n size_px2 size_pct hit_ratio_pct dwell_mean dwell_sd dwell_median
+ Headline 142   176000      8.5          76.8      379.9    367.6        280.0
+    Tip_1 142   262400     12.7         100.0     3742.2   1660.1       3580.5
+    Tip_2 142   262400     12.7          98.6     2099.6   1421.0       1839.0
+    Tip_3 142   262400     12.7         100.0     2032.1   1239.2       1842.0
+    Tip_4 142   262400     12.7          99.3     2003.3   1247.1       1801.0
+ dwell_pct_mean ttff_median fix_count_mean mean_rank_tips
+            2.5       676.0            1.2             NA
+           24.9       800.5           11.8            3.3
+           14.0      2077.5            6.5            2.2
+           13.5      3474.0            6.3            2.3
+           13.4      4206.0            6.4            2.2
+Mean rank of each tip (1 = least dwell, 4 = most, within each respondent): Tip_1 3.33, Tip_2 2.24, Tip_3 2.27, Tip_4 2.16
+Respondents whose longest dwell was on Tip_1: 83 of 142 (58.5 percent)
+H2: dwell time (ms) on Tip_1 to Tip_4, kept respondents, n = 142
+  Friedman chi square(3) = 78.95, p = 5.14e-17, n = 142; Kendall's W = 0.185
+  Pairwise Wilcoxon signed rank tests, Holm adjusted (mean_diff and median_diff in ms, first AOI minus second):
+           pair mean_diff median_diff    dz n_a_more n_b_more      V        p
+ Tip_1 vs Tip_2    1642.6      1618.5 0.663      108       34 8420.5 9.84e-12
+ Tip_1 vs Tip_3    1710.2      1638.0 0.735      110       32   8602 7.05e-13
+ Tip_1 vs Tip_4    1738.9      1593.0 0.713      113       29   8599 7.37e-13
+ Tip_2 vs Tip_3      67.5        14.5 0.032       71       71 5169.5  0.85059
+ Tip_2 vs Tip_4      96.3        -6.0 0.049       71       71   5246  0.73073
+ Tip_3 vs Tip_4      28.7       136.0 0.015       77       65 5379.5  0.53788
+   p_holm sig_holm
+ 3.94e-11     TRUE
+ 4.23e-12     TRUE
+ 4.23e-12     TRUE
+  1.00000    FALSE
+  1.00000    FALSE
+  1.00000    FALSE
+  Pairs significant after the Holm adjustment: 3 of 6
+
+Reading the result: Tip_1 (top left) drew the most dwell time and was ranked first by most respondents; the other
+three tips are close to each other. Position on the page (Tip_1 is read first) and content are confounded here.
+
+---- STEP 12. H3: intention to reduce food waste by order (randomization check) ----
+H3: Intention_reduce_food_waste_1to7, Narrative first versus Visual first, n = 69 and 73
+  Narrative first: M = 5.043, SD = 1.366, median = 5.0, n = 69
+  Visual first: M = 5.342, SD = 1.216, median = 5.0, n = 73
+  Difference (Narrative first minus Visual first) = -0.299, 95% CI [-0.729, 0.131] (Welch)
+  Welch t(135.97) = -1.37, p = 0.17143 (two tailed)
+  Student t(140) = -1.38, p = 0.16997 (equal variances assumed; used only for the effect size interval)
+  Pooled SD = 1.291; Cohen's d = -0.23, 95% CI [-0.56, 0.10]; Hedges' g = -0.23, 95% CI [-0.56, 0.10] (noncentral t)
+  Approximate intervals: d [-0.56, 0.10], g [-0.56, 0.10]
+  Mann Whitney W = 2243, p = 0.24912
+  Shapiro Wilk: Narrative first p = 0.00020, Visual first p = 0.00011; variance ratio (larger / smaller) = 1.26
+
+Distribution of the answers (1 to 7) by order:
+                 
+                   2  3  4  5  6  7
+  Narrative first  3  7 14 14 22  9
+  Visual first     1  4 12 23 18 15
+
+---- STEP 13. Calibration accuracy and the AOI hit on the smallest AOI (Headline) ----
+AOI sizes (Size (px2), Size (%)):
+      aoi size_px size_pct
+ Headline  176000     8.49
+    Tip_1  262400    12.65
+    Tip_2  262400    12.65
+    Tip_3  262400    12.65
+    Tip_4  262400    12.65
+Smallest AOI: Headline
+Sample: completed respondents whose eye tracking and face quality passed: n = 151 (9 of them excluded for accuracy only), 115 hits (76.2 percent)
+Mean calibration accuracy in this sample: M = 1.88, SD = 0.94, range 0.46 to 6.51 degrees
+Logistic regression: logit(P(hit)) = 2.141 -0.495 x mean accuracy
+  b = -0.495, SE = 0.200, Wald z = -2.48, p = 0.01329; odds ratio per degree = 0.61, 95% CI [0.40, 0.89] (profile likelihood)
+  Predicted hit probability at 1, 2, 3, 4 degrees: 0.84, 0.76, 0.66, 0.54
+  Kept respondents only (accuracy 4.0 or less by the rule, n = 142): b = -0.914, SE = 0.304, p = 0.00261; odds ratio = 0.40
+Headline hit ratio by mean calibration accuracy (degrees); excluded_accuracy = respondents in the band excluded because a
+calibration was above 4.0; all_tips_hit_pct = percent who hit all four large tips:
+        band  n excluded_accuracy hits hit_ratio_pct all_tips_hit_pct
+ 1.5 or less 60                 0   54          90.0             98.3
+  1.5 to 2.5 62                 0   42          67.7             98.4
+  2.5 to 3.5 22                 3   14          63.6             95.5
+   above 3.5  7                 6    5          71.4            100.0
+The large tips are hit by nearly everyone at any accuracy; the thin Headline loses hits as accuracy worsens. A wide banner
+still catches gaze when the error is sideways, which is why the hit ratio levels off instead of falling to zero.
+
+---- STEP 14. Sensitivity: accuracy 3.0 degrees or less at both calibrations ----
+Kept: 125 of 142 (a further 17 removed; Narrative first 59, Visual first 66)
+Sensitivity H1 (3.0 degrees), n = 125
+  foodwaste_narrative: M = 18.075, SD = 18.722, median = 12.390, n = 125
+  foodwaste_visual: M = 42.430, SD = 26.117, median = 41.770, n = 125
+  Difference (foodwaste_visual minus foodwaste_narrative): M = 24.355 percentage points, SD = 27.590, 95% CI [19.471, 29.239]
+  Paired t (one sample t on the differences): t(124) = 9.87, p = 2.62e-17 (two tailed)
+  Cohen's d_z = 0.88, 95% CI [0.67, 1.09] (noncentral t); approximation [0.68, 1.09]
+  Wilcoxon signed rank V = 6949, p = 1.80e-14 (zero differences are dropped: 1)
+  Shapiro Wilk on the differences: W = 0.987, p = 0.25397
+  Respondents with a positive difference: 101 of 125; negative: 23; zero: 1
+
+Sensitivity H2 (3.0 degrees): dwell time on the four tips, n = 125
+  Friedman chi square(3) = 73.18, p = 8.91e-16, n = 125; Kendall's W = 0.195
+  Pairwise Wilcoxon signed rank tests, Holm adjusted (mean_diff and median_diff in ms, first AOI minus second):
+           pair mean_diff median_diff     dz n_a_more n_b_more      V        p
+ Tip_1 vs Tip_2    1688.2        1701  0.669       95       30 6525.5 1.82e-10
+ Tip_1 vs Tip_3    1889.4        1942  0.815       99       26   6863 5.72e-13
+ Tip_1 vs Tip_4    1801.2        1740  0.724      100       25   6689 1.22e-11
+ Tip_2 vs Tip_3     201.2         161  0.092       67       58   4326  0.33907
+ Tip_2 vs Tip_4     113.0          58  0.055       64       61 4096.5  0.69614
+ Tip_3 vs Tip_4     -88.2           4 -0.046       63       62 3908.5  0.94402
+   p_holm sig_holm
+ 7.30e-10     TRUE
+ 3.43e-12     TRUE
+ 6.08e-11     TRUE
+  1.00000    FALSE
+  1.00000    FALSE
+  1.00000    FALSE
+  Pairs significant after the Holm adjustment: 3 of 6
+
+Sensitivity H3 (3.0 degrees), n = 59 and 66
+  Narrative first: M = 5.034, SD = 1.351, median = 5.0, n = 59
+  Visual first: M = 5.288, SD = 1.225, median = 5.0, n = 66
+  Difference (Narrative first minus Visual first) = -0.254, 95% CI [-0.713, 0.205] (Welch)
+  Welch t(117.79) = -1.10, p = 0.27527 (two tailed)
+  Student t(123) = -1.10, p = 0.27253 (equal variances assumed; used only for the effect size interval)
+  Pooled SD = 1.286; Cohen's d = -0.20, 95% CI [-0.55, 0.15]; Hedges' g = -0.20, 95% CI [-0.55, 0.15] (noncentral t)
+  Approximate intervals: d [-0.55, 0.15], g [-0.55, 0.16]
+  Mann Whitney W = 1774.5, p = 0.38213
+  Shapiro Wilk: Narrative first p = 0.00058, Visual first p = 0.00029; variance ratio (larger / smaller) = 1.22
+
+Summary: H1 d_z 0.84 -> 0.88; H2 Kendall's W 0.185 -> 0.195 with 3 -> 3 significant pairs; H3 p 0.17143 -> 0.27527.
+
+---- STEP 15. Exploratory analyses ----
+(a) Engagement difference (visual minus narrative) with preference (1 = Visual): r(140) = 0.25, 95% CI [0.09, 0.40], p = 0.00251; Spearman rho = 0.23, p = 0.00582 (point biserial)
+    Engagement difference by stated preference: Visual M = 30.15 (SD = 26.18, n = 84), Narrative M = 15.44 (SD = 30.47, n = 58)
+(b) Total dwell time on the four tips (ms) with tips recalled (0 to 4): r(140) = 0.16, 95% CI [-0.01, 0.32], p = 0.05750; Spearman rho = 0.16, p = 0.05621 
+    Mean total tip dwell (ms) by number of tips recalled:
+ recall  n tips_dwell_mean
+      0 22            9354
+      1 28            9948
+      2 29            9758
+      3 37           10075
+      4 26           10096
+Both are correlations in a self selected sample with no hypothesis: they describe, they do not show causes.
+
+---- STEP 16. Assumption checks ----
+Shapiro Wilk p (a low p flags non-normality; with 140 respondents even mild departures give a low p, so read the plots):
+                                   check   n shapiro_p
+ H1 differences (visual minus narrative) 142   0.10467
+           H3 intention, Narrative first  69   0.00020
+              H3 intention, Visual first  73   0.00011
+   Drift (post minus pre), all completed 178   0.91205
+Skewness of Engagement: narrative 1.20, visual 0.06; of the H1 differences -0.32
+With n of about 140 the t test on the mean difference is robust to this skew (central limit theorem); the Wilcoxon test is the check.
+Intention is a single 1 to 7 item: the Welch t test treats it as interval; the Mann Whitney test is the check.
+saved figure: figures/SIMULATED_assumption_checks.png
+Reading the plots: the narrative Engagement histogram piles up at 0 and has a long right tail (the reason for the
+Wilcoxon check); the H1 differences are roughly symmetric; the drift differences are close to the line.
+
+---- STEP 17. Figures ----
+saved figure: figures/SIMULATED_fig1_funnel.png 
+saved figure: figures/SIMULATED_fig2_engagement_by_video.png 
+saved figure: figures/SIMULATED_fig3_tip_dwell.png 
+saved figure: figures/SIMULATED_fig4_calibration_drift.png
+
+---- Summary of the tests ----
+                      id   n n1 n2         m1        m2  mean_diff   statistic
+                      H1 142 NA NA   19.49000   43.6310   24.14100    9.977100
+             H2_FRIEDMAN 142 NA NA         NA        NA         NA   78.955000
+     H2_PAIR_Tip_1_Tip_2 142 NA NA 3742.20000 2099.6000 1642.60000 8420.500000
+     H2_PAIR_Tip_1_Tip_3 142 NA NA 3742.20000 2032.1000 1710.20000 8602.000000
+     H2_PAIR_Tip_1_Tip_4 142 NA NA 3742.20000 2003.3000 1738.90000 8599.000000
+     H2_PAIR_Tip_2_Tip_3 142 NA NA 2099.60000 2032.1000   67.54900 5169.500000
+     H2_PAIR_Tip_2_Tip_4 142 NA NA 2099.60000 2003.3000   96.29600 5246.000000
+     H2_PAIR_Tip_3_Tip_4 142 NA NA 2032.10000 2003.3000   28.74600 5379.500000
+                      H3 142 69 73    5.04350    5.3425   -0.29899   -1.374900
+           ATTRITION_ALL 260 NA NA         NA        NA         NA    0.038893
+       ATTRITION_STIMULI 185 NA NA         NA        NA         NA    0.184140
+         EXCLUSION_ORDER 178 NA NA         NA        NA         NA    0.022800
+               DRIFT_ALL 178 NA NA    1.70600    2.4238    0.71781   19.050000
+              DRIFT_KEPT 142 NA NA    1.41500    2.0453    0.63028   16.019000
+            HIT_HEADLINE 151 NA NA    0.76159        NA         NA   -2.476000
+                  S30_H1 125 NA NA   18.07500   42.4300   24.35500    9.869400
+         S30_H2_FRIEDMAN 125 NA NA         NA        NA         NA   73.176000
+ S30_H2_PAIR_Tip_1_Tip_2 125 NA NA 3864.50000 2176.2000 1688.20000 6525.500000
+ S30_H2_PAIR_Tip_1_Tip_3 125 NA NA 3864.50000 1975.0000 1889.40000 6863.000000
+ S30_H2_PAIR_Tip_1_Tip_4 125 NA NA 3864.50000 2063.3000 1801.20000 6689.000000
+ S30_H2_PAIR_Tip_2_Tip_3 125 NA NA 2176.20000 1975.0000  201.22000 4326.000000
+ S30_H2_PAIR_Tip_2_Tip_4 125 NA NA 2176.20000 2063.3000  112.98000 4096.500000
+ S30_H2_PAIR_Tip_3_Tip_4 125 NA NA 1975.00000 2063.3000  -88.24000 3908.500000
+                  S30_H3 125 59 66    5.03390    5.2879   -0.25398   -1.096100
+                EXP_PREF 142 NA NA         NA        NA         NA    3.078000
+              EXP_RECALL 142 NA NA         NA        NA         NA    1.915200
+     df          p     p_holm               es_type        es  es_ci_low
+ 141.00 4.5703e-18         NA                   d_z  0.837260  0.6448700
+   3.00 5.1426e-17         NA           Kendall's W  0.185340         NA
+     NA 9.8395e-12 3.9358e-11     d_z (descriptive)  0.663100         NA
+     NA 7.0511e-13 4.2307e-12     d_z (descriptive)  0.734650         NA
+     NA 7.3729e-13 4.2307e-12     d_z (descriptive)  0.713050         NA
+     NA 8.5059e-01 1.0000e+00     d_z (descriptive)  0.031678         NA
+     NA 7.3073e-01 1.0000e+00     d_z (descriptive)  0.048643         NA
+     NA 5.3788e-01 1.0000e+00     d_z (descriptive)  0.014789         NA
+ 135.97 1.7143e-01         NA         d (pooled SD) -0.231610 -0.5613900
+   1.00 8.4366e-01         NA                   phi  0.012231         NA
+   1.00 6.6784e-01         NA                   phi  0.031550         NA
+   1.00 8.7998e-01         NA                   phi  0.011318         NA
+ 177.00 9.9570e-45         NA                   d_z  1.427900  1.2178000
+ 141.00 1.5046e-33         NA                   d_z  1.344300  1.1158000
+     NA 1.3286e-02         NA odds ratio per degree  0.609770  0.4034100
+ 124.00 2.6231e-17         NA                   d_z  0.882750  0.6746200
+   3.00 8.9120e-16         NA           Kendall's W  0.195140         NA
+     NA 1.8246e-10 7.2982e-10     d_z (descriptive)  0.668810         NA
+     NA 5.7199e-13 3.4320e-12     d_z (descriptive)  0.815190         NA
+     NA 1.2162e-11 6.0808e-11     d_z (descriptive)  0.723790         NA
+     NA 3.3907e-01 1.0000e+00     d_z (descriptive)  0.092462         NA
+     NA 6.9614e-01 1.0000e+00     d_z (descriptive)  0.055036         NA
+     NA 9.4402e-01 1.0000e+00     d_z (descriptive) -0.045903         NA
+ 117.79 2.7527e-01         NA         d (pooled SD) -0.197470 -0.5491000
+ 140.00 2.5078e-03         NA             Pearson r  0.251760  0.0907990
+ 140.00 5.7501e-02         NA             Pearson r  0.159790 -0.0050731
+ es_ci_high
+   1.027400
+         NA
+         NA
+         NA
+         NA
+         NA
+         NA
+         NA
+   0.099001
+         NA
+         NA
+         NA
+   1.635800
+   1.570200
+   0.892860
+   1.088300
+         NA
+         NA
+         NA
+         NA
+         NA
+         NA
+         NA
+   0.154950
+   0.399900
+   0.316190
+written: SIMULATED_test_results.csv
+written: SIMULATED_descriptives.csv
+
+Done. Reminder: every number above is SIMULATED for teaching.

@@ -1,0 +1,473 @@
+SIMULATED DATA: SIMULATED Multimodal Ad Study, full analysis for Workshop 8 (no real person was recorded)
+Run on 2026-10-11 17:17 
+R 4.3.3; readr 2.1.5; dplyr 1.1.4; tidyr 1.3.1; ggplot2 3.4.4; lme4 1.1.35.1; lmerTest 3.1.3
+
+---- STEP 1. Files read and checked against the codebook ----
+Workshop 7 files read from: ../../ws7/data (the Workshop 7 folder)
+ws7_inputs/ holds byte identical copies of the 5 Workshop 7 files (MD5 checksums agree)
+Seed of the simulation: 20271231; long table 72 x 29; wide table 24 x 34; codebook 57 variables
+Range check: 53 numeric columns compared with the allowed range in the codebook; outside the range: 0
+                variable  n     min      max    allowed inside
+             ad_position 48    1.00     2.00     1 to 2   TRUE
+                     age 69   19.00    26.00   18 to 40   TRUE
+                 include 72    0.00     1.00     0 to 1   TRUE
+          et_quality_pct 72   77.00    98.00   0 to 100   TRUE
+        face_quality_pct 72   65.00    99.00   0 to 100   TRUE
+         gsr_quality_pct 72   26.00   100.00   0 to 100   TRUE
+          gsr_signal_pct 72   26.04   100.00   0 to 100   TRUE
+               gsr_valid 72    0.00     1.00     0 to 1   TRUE
+       gsr_peaks_per_min 71    0.00    26.00    0 to 40   TRUE
+          gsr_peak_count 71    0.00    13.00    0 to 40   TRUE
+          gsr_avg_amp_us 61    0.06     0.31     0 to 5   TRUE
+                 joy_pct 72    0.00    39.33   0 to 100   TRUE
+          engagement_pct 72    0.00    41.67   0 to 100   TRUE
+          browfurrow_pct 72    0.00     5.56   0 to 100   TRUE
+            logo_fixated 48    0.00     1.00     0 to 1   TRUE
+            logo_ttff_ms 27 1093.00 29792.00 0 to 30000   TRUE
+          logo_fix_count 48    0.00    12.00   0 to 200   TRUE
+           logo_revisits 48    0.00     3.00    0 to 50   TRUE
+      logo_gaze_dwell_ms 48    0.00  3333.00 0 to 30000   TRUE
+     logo_gaze_dwell_pct 48    0.00    11.11   0 to 100   TRUE
+  product_gaze_dwell_pct 48   22.83    55.44   0 to 100   TRUE
+ headline_gaze_dwell_pct 48    3.22    33.67   0 to 100   TRUE
+                  liking 48    1.00     7.00     1 to 7   TRUE
+          recall_correct 48    0.00     1.00     0 to 1   TRUE
+Every column is in the codebook; participant x stimulus is unique; every value lies in its allowed range.
+
+---- STEP 2. Analysis plan ----
+ id  family                 correction        status                    
+ H1  Attention and memory   none (own family) planned (Workshop 7)      
+ H2  Emotion and liking     none (own family) planned (Workshop 7)      
+ H3  Arousal                Holm over 2 ads   planned (Workshop 7)      
+ Q4  Attention              none (omnibus)    planned (Workshop 8)      
+ Q4a Attention              Holm over 6       planned (Workshop 8)      
+ Q4b Attention              Holm over 3       planned (Workshop 8)      
+ Q5  Emotion                Holm over 3       planned (Workshop 8)      
+ Q6  Client comparisons     Holm over 3       planned (Workshop 8)      
+ O1  Counterbalancing check Holm over 8       planned check (Workshop 8)
+ E1  Triangulation          none (no tests)   exploratory               
+ P1  Planning               not applicable    sensitivity analysis      
+
+ id  question                                                                       
+ H1  Is brand recall more likely when the Logo was fixated?                         
+ H2  Do ads that produce more Joy get liked more?                                   
+ H3  Are GSR peaks per minute higher during each ad than during Baseline?           
+ Q4  Does gaze dwell differ by AOI, and does the AOI pattern differ between the ads?
+ Q4a Which AOIs differ within each ad?                                              
+ Q4b Does each AOI hold more gaze in one ad than in the other?                      
+ Q5  Do Joy, Engagement, and Brow Furrow differ between Ad_A and Ad_B?              
+ Q6  Do the ads differ on liking, brand recall, and arousal?                        
+ O1  Did order (AB or BA) or position (first or second) change liking or dwell?     
+ E1  How do the measures of different modalities go together across participants?   
+ P1  What could n = 22 detect, and what n does the next study need?                 
+
+ id 
+ H1 
+ H2 
+ H3 
+ Q4 
+ Q4a
+ Q4b
+ Q5 
+ Q6 
+ O1 
+ E1 
+ P1 
+ test                                                                                                                                                               
+ Fisher exact test on the pooled 2 x 2 table; each ad; mixed logistic regression                                                                                    
+ Linear mixed model, liking ~ Joy/10 + ad + (1 | participant); correlations for each ad                                                                             
+ Paired t tests, d_z with 95% CI, Wilcoxon checks                                                                                                                   
+ Linear mixed model, dwell ~ ad x AOI + (1 | participant): Type III F (Satterthwaite) and likelihood ratio tests; check: repeated measures ANOVA, Greenhouse Geisser
+ 6 paired t tests, d_z with 95% CI, Wilcoxon checks                                                                                                                 
+ 3 paired t tests, d_z with 95% CI, Wilcoxon checks                                                                                                                 
+ 3 paired t tests, d_z with 95% CI, Wilcoxon checks (values pile up at zero)                                                                                        
+ Paired t tests (liking, GSR), exact McNemar test (recall)                                                                                                          
+ Linear mixed model, y ~ ad x order + (1 | participant): order effect and position effect                                                                           
+ Spearman rho with 95% CI (Fisher z, Bonett and Wright), 21 pairs, no p values                                                                                      
+ power.t.test (paired); power.prop.test and a Fisher exact test simulation for H1                                                                                   
+wrote SIMULATED_analysis_plan.csv
+
+---- STEP 2 (continued). Analysis sample ----
+Participants: 22 of 24 (excluded by rule R2: P18, eye tracking quality below 90 percent on an ad; P21, face found below 80 percent on an ad)
+Order: AB 11, BA 11; rows: 66 participant x stimulus, 44 participant x ad; GSR valid rows: 65 (missing: P05 Ad_B)
+
+---- STEP 3. Descriptive statistics (analysis sample, n = 22) ----
+                                    measure                     stimulus  n     mean      sd   median      q1       q3      iqr     min      max pct_zero
+                     Gaze dwell on the Logo                         Ad_A 22     1.78    2.82     0.52    0.00     2.10     2.10    0.00    11.11    45.45
+                     Gaze dwell on the Logo                         Ad_B 22     1.40    1.89     0.75    0.00     2.04     2.04    0.00     7.50    45.45
+                  Gaze dwell on the Product                         Ad_A 22    42.58    8.42    43.88   38.40    48.16     9.76   22.83    55.44     0.00
+                  Gaze dwell on the Product                         Ad_B 22    41.34    6.17    41.53   38.52    45.61     7.09   28.72    50.39     0.00
+                 Gaze dwell on the Headline                         Ad_A 22    17.84    7.12    19.20   13.39    22.93     9.54    3.22    30.39     0.00
+                 Gaze dwell on the Headline                         Ad_B 22    20.27    6.44    21.75   15.93    23.79     7.86    7.44    33.67     0.00
+                 Logo fixated at least once                         Ad_A 22     0.55    0.51     1.00    0.00     1.00     1.00    0.00     1.00       NA
+                 Logo fixated at least once                         Ad_B 22     0.55    0.51     1.00    0.00     1.00     1.00    0.00     1.00       NA
+ Logo time to first fixation (fixated only)                         Ad_A 12 11849.25 9361.01  8802.00 5144.50 18168.75 13024.25 1591.00 29236.00       NA
+ Logo time to first fixation (fixated only)                         Ad_B 12 14922.17 8569.90 17296.50 8845.50 19979.25 11133.75 1093.00 29792.00       NA
+                      Fixations on the Logo                         Ad_A 22     1.77    2.88     1.00    0.00     2.00     2.00    0.00    12.00    45.45
+                      Fixations on the Logo                         Ad_B 22     1.50    1.90     1.00    0.00     2.00     2.00    0.00     7.00    45.45
+                                        Joy                     Baseline 22     0.38    1.42     0.00    0.00     0.00     0.00    0.00     6.50    90.91
+                                        Joy                         Ad_A 22    12.13   10.81     9.66    3.19    18.97    15.78    0.00    39.33    13.64
+                                        Joy                         Ad_B 22     8.33    9.46     3.78    0.00    16.47    16.47    0.00    27.00    36.36
+                                 Engagement                     Baseline 22     2.33    2.36     1.39    0.14     4.12     3.98    0.00     7.33    27.27
+                                 Engagement                         Ad_A 22    14.52   11.72    11.45    4.39    20.17    15.78    0.00    41.67     4.55
+                                 Engagement                         Ad_B 22     9.95   10.01     6.11    0.36    19.14    18.78    0.00    28.44    27.27
+                                Brow Furrow                     Baseline 22     0.44    1.18     0.00    0.00     0.00     0.00    0.00     5.06    81.82
+                                Brow Furrow                         Ad_A 22     0.65    1.52     0.00    0.00     0.00     0.00    0.00     5.22    81.82
+                                Brow Furrow                         Ad_B 22     0.38    1.31     0.00    0.00     0.00     0.00    0.00     5.56    90.91
+                       GSR Peaks Per Minute                     Baseline 22     2.06    1.86     2.00    0.25     3.00     2.75    0.00     6.00    27.27
+                       GSR Peaks Per Minute                         Ad_A 22     7.27    6.80     6.00    2.00     8.00     6.00    0.00    26.00     4.55
+                       GSR Peaks Per Minute                         Ad_B 21     6.00    4.94     6.00    2.00     8.00     6.00    0.00    18.00    14.29
+ GSR Peaks Per Minute, change from Baseline                         Ad_A 22     5.21    6.31     4.00    2.00     6.00     4.00   -5.00    21.00     4.55
+ GSR Peaks Per Minute, change from Baseline                         Ad_B 21     4.12    4.35     3.00    1.00     6.00     5.00   -2.00    14.00    14.29
+                           Liking of the ad                         Ad_A 22     4.59    1.40     5.00    4.00     5.00     1.00    1.00     7.00       NA
+                           Liking of the ad                         Ad_B 22     4.05    1.29     4.00    3.00     5.00     2.00    1.00     6.00       NA
+                   Brand recalled correctly                         Ad_A 22     0.55    0.51     1.00    0.00     1.00     1.00    0.00     1.00       NA
+                   Brand recalled correctly                         Ad_B 22     0.55    0.51     1.00    0.00     1.00     1.00    0.00     1.00       NA
+     Attitude toward reusable water bottles Study (once, after both ads) 22     4.56    1.00     4.50    4.08     5.25     1.17    2.67     6.67       NA
+   Purchase intention (any reusable bottle) Study (once, after both ads) 22     3.68    1.39     4.00    3.00     5.00     2.00    1.00     6.00       NA
+                       Eye tracking quality                     Baseline 22    95.55    1.10    96.00   95.00    96.00     1.00   92.00    97.00       NA
+                       Eye tracking quality                         Ad_A 22    95.32    1.25    95.00   95.00    96.00     1.00   93.00    98.00       NA
+                       Eye tracking quality                         Ad_B 22    95.14    0.89    95.00   94.25    96.00     1.75   94.00    97.00       NA
+                Face found (AFFDEX quality)                     Baseline 22    95.00    2.54    95.00   93.00    96.75     3.75   90.00    99.00       NA
+                Face found (AFFDEX quality)                         Ad_A 22    94.64    2.40    95.50   93.00    96.00     3.00   90.00    98.00       NA
+                Face found (AFFDEX quality)                         Ad_B 22    94.50    2.52    94.50   93.00    96.75     3.75   90.00    98.00       NA
+wrote SIMULATED_descriptives.csv
+Purchase intention was asked ONCE, about any reusable water bottle (not about ALTAVO or BRENLOW, not per ad): M = 3.68, SD = 1.39, n = 22.
+Top 2 box (6 or 7 on the 1 to 7 scale): liking Ad_A 5 of 22 (22.7%), liking Ad_B 3 of 22 (13.6%); purchase intention 1 of 22 (4.5%)
+
+---- STEP 4. H1 to H3 reproduced from Workshop 7 (continuity check) ----
+Pooled over the two ads (two observations per participant) (N = 44)
+                  
+                   Not recalled Recalled Sum
+  Logo not fixated           13        7  20
+  Logo fixated                7       17  24
+  Sum                        20       24  44
+  Recalled when fixated: 17 of 24 (70.8%); when not fixated: 7 of 20 (35.0%)
+  Sample odds ratio = (17 x 13) / (7 x 7) = 4.51; Fisher conditional estimate OR = 4.34, 95% CI [1.08, 19.55], p = 0.03238
+  Pearson chi square (no continuity correction) X2(1, N = 44) = 5.650, p = 0.01746; phi = 0.358; Yates corrected X2 = 4.297, p = 0.03818
+  Smallest expected count = 9.09
+
+Ad_A only (one observation per participant) (N = 22)
+                  
+                   Not recalled Recalled Sum
+  Logo not fixated            7        3  10
+  Logo fixated                3        9  12
+  Sum                        10       12  22
+  Recalled when fixated: 9 of 12 (75.0%); when not fixated: 3 of 10 (30.0%)
+  Sample odds ratio = (9 x 7) / (3 x 3) = 7.00; Fisher conditional estimate OR = 6.31, 95% CI [0.80, 68.43], p = 0.08356
+  Pearson chi square (no continuity correction) X2(1, N = 22) = 4.455, p = 0.03480; phi = 0.450; Yates corrected X2 = 2.825, p = 0.09281
+  Smallest expected count = 4.55
+
+Ad_B only (one observation per participant) (N = 22)
+                  
+                   Not recalled Recalled Sum
+  Logo not fixated            6        4  10
+  Logo fixated                4        8  12
+  Sum                        10       12  22
+  Recalled when fixated: 8 of 12 (66.7%); when not fixated: 4 of 10 (40.0%)
+  Sample odds ratio = (8 x 6) / (4 x 4) = 3.00; Fisher conditional estimate OR = 2.85, 95% CI [0.39, 24.13], p = 0.39128
+  Pearson chi square (no continuity correction) X2(1, N = 22) = 1.564, p = 0.21102; phi = 0.267; Yates corrected X2 = 0.674, p = 0.41175
+  Smallest expected count = 4.55
+
+Mixed logistic model, recall ~ logo_fixated + ad + (1 | participant): OR = 4.51, 95% Wald CI [1.26, 16.10], z = 2.32, p = 0.02032;
+  SD of the participant intercepts = 0.000 (logit scale); the fit is singular: the data show no extra similarity within participants, so the model reduces to ordinary logistic regression.
+
+Model: liking ~ Joy (per 10 points) + ad + (1 | participant); 44 observations, 22 participants
+            Estimate Std. Error      df t value Pr(>|t|)
+(Intercept)   4.1980     0.3715 39.7792 11.3001   0.0000
+joy10         0.3239     0.1983 40.6560  1.6336   0.1101
+ad_b         -0.4223     0.3257 21.6773 -1.2966   0.2084
+Joy slope b = 0.3239 liking points per 10 percentage points of Joy, SE = 0.1983, 95% CI [-0.0647, 0.7125] (Wald), t(40.66) = 1.6336, p = 0.11007
+Ad_B minus Ad_A (at equal Joy): b = -0.422, p = 0.20839
+Random intercept SD = 0.8120, residual SD = 1.0508; share of liking variance between participants (ICC) = 0.3739
+Standardized slope (both variables in SD units) = 0.2434
+Correlations for each ad (one rating per participant):
+  Ad_A: Pearson r(20) = 0.2654, 95% CI [-0.1758, 0.6179], p = 0.23249; Spearman rho = 0.3276, p = 0.13665
+  Ad_B: Pearson r(20) = 0.1794, 95% CI [-0.2620, 0.5588], p = 0.42425; Spearman rho = 0.1382, p = 0.53972
+Percent of time with Joy: Ad_A M = 12.13 (SD = 10.81), Ad_B M = 8.33 (SD = 9.46); zero Joy in 11 of 44 participant x ad rows
+
+Ad_A versus Baseline (n = 22)
+  Baseline: M = 2.0627, SD = 1.8591, median = 2.000; Ad_A: M = 7.2727, SD = 6.8046, median = 6.000
+  Difference: M = 5.2100 peaks per minute, SD = 6.3076, 95% CI [2.4134, 8.0066]
+  Paired t(21) = 3.8742, p = 0.00088; d_z = 0.8260, 95% CI [0.3327, 1.3048] (noncentral t), approximation [0.3421, 1.3099]
+  For the Excel check: SE of the mean difference = 1.3448; critical t (95%) = 2.0796; SE of d_z (approximation) = 0.2469
+  Wilcoxon signed rank V = 212, p = 0.00083; Shapiro Wilk on the differences W = 0.862, p = 0.00555; increases: 19 of 22
+
+Ad_B versus Baseline (n = 21; missing GSR: P05)
+  Baseline: M = 1.8752, SD = 1.6784, median = 2.000; Ad_B: M = 6.0000, SD = 4.9396, median = 6.000
+  Difference: M = 4.1248 peaks per minute, SD = 4.3466, 95% CI [2.1462, 6.1033]
+  Paired t(20) = 4.3487, p = 0.00031; d_z = 0.9490, 95% CI [0.4229, 1.4588] (noncentral t), approximation [0.4339, 1.4640]
+  For the Excel check: SE of the mean difference = 0.9485; critical t (95%) = 2.0860; SE of d_z (approximation) = 0.2628
+  Wilcoxon signed rank V = 165, p = 0.00056; Shapiro Wilk on the differences W = 0.921, p = 0.09152; increases: 16 of 21
+
+Holm adjusted p: Ad_A 0.00088, Ad_B 0.00062
+
+CONTINUITY CHECK against Workshop 7
+  Printed lines: 55 of 55 non-empty lines of the H1 to H3 output appear verbatim in Workshop 7's analysis_output.txt
+  Stored values: 94 values for 9 tests (H1, H1_AD_A, H1_AD_B, H1_GLMM, H2, H2_R_AD_A, H2_R_AD_B, H3_AD_A, H3_AD_B) compared with Workshop 7's SIMULATED_test_results.csv; largest relative difference = 1.9e-16; missing values that differ: 0
+  RESULT: H1 to H3 match Workshop 7 exactly (H1 Fisher OR = 4.34, p = .032; H2 b = 0.32 per 10 points, p = .110; H3 d_z = 0.83 and 0.95).
+
+---- STEP 5. Q4: gaze dwell by ad and AOI ----
+Data: 132 observations (22 participants x 2 ads x 3 AOIs); missing: 0
+Cell means (percent of the 30 s ad), with 95% t intervals from each cell's own SD:
+   ad      aoi  n   mean    sd median pct_zero     lo     hi
+ Ad_A     Logo 22  1.782 2.820  0.525   45.455  0.532  3.033
+ Ad_A  Product 22 42.584 8.422 43.885    0.000 38.850 46.318
+ Ad_A Headline 22 17.844 7.119 19.195    0.000 14.688 21.001
+ Ad_B     Logo 22  1.396 1.891  0.750   45.455  0.558  2.235
+ Ad_B  Product 22 41.344 6.168 41.530    0.000 38.609 44.079
+ Ad_B Headline 22 20.267 6.442 21.750    0.000 17.411 23.123
+Participants with no gaze on the Logo: Ad_A 10 of 22, Ad_B 10 of 22, in both ads 4
+Sum of the three AOIs per participant and ad: M = 62.61 percent, SD = 8.77, range 46.61 to 80.00 (the rest of the time the gaze was elsewhere or lost)
+
+Model: dwell ~ ad * AOI + (1 | participant), REML; random intercept SD = 0.0000, residual SD = 5.9539; singular fit: TRUE
+Type III tests (Satterthwaite degrees of freedom):
+  ad      F(1, 126.00) = 0.0657, p = 0.79805; partial eta squared (from F) = 0.0005
+  aoi     F(2, 126.00) = 508.8973, p = 4.44e-61; partial eta squared (from F) = 0.8898
+  ad:aoi  F(2, 126.00) = 1.1398, p = 0.32315; partial eta squared (from F) = 0.0178
+Likelihood ratio tests (models fitted by ML):
+  ad x AOI (additive vs full model)        chi2(2) = 2.3668, p = 0.30623 (ML log likelihoods -420.907 and -419.724)
+  AOI (ad only vs additive model)          chi2(2) = 289.0648, p = 1.70e-63 (ML log likelihoods -565.440 and -420.907)
+  ad (AOI only vs additive model)          chi2(1) = 0.0676, p = 0.79481 (ML log likelihoods -420.941 and -420.907)
+Estimated marginal means from the model (equal to the cell means because every participant has every cell; the SE pools the residual variance):
+       ad      aoi    emm    se  df  lower  upper
+     Ad_A     Logo  1.782 1.269 126 -0.730  4.294
+     Ad_B     Logo  1.396 1.269 126 -1.116  3.908
+     Ad_A  Product 42.584 1.269 126 40.072 45.096
+     Ad_B  Product 41.344 1.269 126 38.832 43.856
+     Ad_A Headline 17.844 1.269 126 15.332 20.356
+     Ad_B Headline 20.267 1.269 126 17.755 22.779
+ both ads     Logo  1.589 0.898 126 -0.187  3.366
+ both ads  Product 41.964 0.898 126 40.188 43.740
+ both ads Headline 19.056 0.898 126 17.279 20.832
+     Ad_A all AOIs 20.737 0.733 126 19.286 22.187
+     Ad_B all AOIs 21.003 0.733 126 19.552 22.453
+wrote SIMULATED_q4_marginal_means.csv
+Check: repeated measures ANOVA (each effect tested against its own participant x effect error term):
+  ad      F(1, 21) = 0.1224, p = 0.72991; partial eta squared = 0.0058
+  AOI     F(2, 42) = 356.5388, p = 4.47e-27; Greenhouse Geisser epsilon = 0.7605, corrected p = 3.92e-21; partial eta squared = 0.9444
+  ad:AOI  F(2, 42) = 1.3681, p = 0.26570; Greenhouse Geisser epsilon = 0.8637, corrected p = 0.26544; partial eta squared = 0.0612
+
+Q4a: pairwise comparisons of the AOIs within each ad (paired t tests, Holm over 6)
+Ad_A, Product minus Headline
+  Product: M = 42.5841, SD = 8.4224; Headline: M = 17.8441, SD = 7.1191 (n = 22)
+  Difference (Product minus Headline): M = 24.7400 percentage points, SD = 12.8690, 95% CI [19.0342, 30.4458]; SE = 2.7437, critical t = 2.0796
+  Paired t(21) = 9.0171, p = 1.15e-08, Holm p = 2.25e-08; d_z = 1.9224, 95% CI [1.2016, 2.6271] (noncentral t), approximation [1.2173, 2.6276] (SE of d_z = 0.3598)
+  Wilcoxon signed rank V = 253, p = 4.30e-05 (nonzero differences: 22 of 22); Shapiro Wilk W = 0.940, p = 0.20007; Product higher: 22, Headline higher: 0, equal: 0
+Ad_A, Product minus Logo
+  Product: M = 42.5841, SD = 8.4224; Logo: M = 1.7823, SD = 2.8204 (n = 22)
+  Difference (Product minus Logo): M = 40.8018 percentage points, SD = 9.2393, 95% CI [36.7053, 44.8983]; SE = 1.9698, critical t = 2.0796
+  Paired t(21) = 20.7133, p = 1.86e-15, Holm p = 9.29e-15; d_z = 4.4161, 95% CI [3.0208, 5.8001] (noncentral t), approximation [3.0459, 5.7862] (SE of d_z = 0.6991)
+  Wilcoxon signed rank V = 253, p = 4.30e-05 (nonzero differences: 22 of 22); Shapiro Wilk W = 0.954, p = 0.37547; Product higher: 22, Logo higher: 0, equal: 0
+Ad_A, Headline minus Logo
+  Headline: M = 17.8441, SD = 7.1191; Logo: M = 1.7823, SD = 2.8204 (n = 22)
+  Difference (Headline minus Logo): M = 16.0618 percentage points, SD = 8.3438, 95% CI [12.3624, 19.7613]; SE = 1.7789, critical t = 2.0796
+  Paired t(21) = 9.0290, p = 1.12e-08, Holm p = 2.25e-08; d_z = 1.9250, 95% CI [1.2035, 2.6302] (noncentral t), approximation [1.2192, 2.6308] (SE of d_z = 0.3601)
+  Wilcoxon signed rank V = 252, p = 4.95e-05 (nonzero differences: 22 of 22); Shapiro Wilk W = 0.972, p = 0.76684; Headline higher: 21, Logo higher: 1, equal: 0
+Ad_B, Product minus Headline
+  Product: M = 41.3441, SD = 6.1683; Headline: M = 20.2673, SD = 6.4416 (n = 22)
+  Difference (Product minus Headline): M = 21.0768 percentage points, SD = 8.5050, 95% CI [17.3059, 24.8477]; SE = 1.8133, critical t = 2.0796
+  Paired t(21) = 11.6236, p = 1.31e-10, Holm p = 3.92e-10; d_z = 2.4782, 95% CI [1.6173, 3.3241] (noncentral t), approximation [1.6351, 3.3213] (SE of d_z = 0.4302)
+  Wilcoxon signed rank V = 253, p = 4.30e-05 (nonzero differences: 22 of 22); Shapiro Wilk W = 0.972, p = 0.75892; Product higher: 22, Headline higher: 0, equal: 0
+Ad_B, Product minus Logo
+  Product: M = 41.3441, SD = 6.1683; Logo: M = 1.3964, SD = 1.8913 (n = 22)
+  Difference (Product minus Logo): M = 39.9477 percentage points, SD = 6.5882, 95% CI [37.0267, 42.8688]; SE = 1.4046, critical t = 2.0796
+  Paired t(21) = 28.4403, p = 2.98e-18, Holm p = 1.79e-17; d_z = 6.0635, 95% CI [4.1918, 7.9255] (noncentral t), approximation [4.2238, 7.9032] (SE of d_z = 0.9386)
+  Wilcoxon signed rank V = 253, p = 4.30e-05 (nonzero differences: 22 of 22); Shapiro Wilk W = 0.931, p = 0.13185; Product higher: 22, Logo higher: 0, equal: 0
+Ad_B, Headline minus Logo
+  Headline: M = 20.2673, SD = 6.4416; Logo: M = 1.3964, SD = 1.8913 (n = 22)
+  Difference (Headline minus Logo): M = 18.8709 percentage points, SD = 6.6672, 95% CI [15.9148, 21.8270]; SE = 1.4215, critical t = 2.0796
+  Paired t(21) = 13.2758, p = 1.11e-11, Holm p = 4.42e-11; d_z = 2.8304, 95% CI [1.8765, 3.7703] (noncentral t), approximation [1.8955, 3.7653] (SE of d_z = 0.4770)
+  Wilcoxon signed rank V = 253, p = 4.30e-05 (nonzero differences: 22 of 22); Shapiro Wilk W = 0.958, p = 0.45592; Headline higher: 22, Logo higher: 0, equal: 0
+
+Q4b: each AOI, Ad_A versus Ad_B (paired t tests, Holm over 3)
+Logo, Ad_A minus Ad_B
+  Ad_A: M = 1.7823, SD = 2.8204; Ad_B: M = 1.3964, SD = 1.8913 (n = 22)
+  Difference (Ad_A minus Ad_B): M = 0.3859 percentage points, SD = 3.6492, 95% CI [-1.2321, 2.0039]; SE = 0.7780, critical t = 2.0796
+  Paired t(21) = 0.4960, p = 0.62503, Holm p = 1.00000; d_z = 0.1058, 95% CI [-0.3146, 0.5236] (noncentral t), approximation [-0.3133, 0.5248] (SE of d_z = 0.2138)
+  Wilcoxon signed rank V = 85.5, p = 1.00000 (nonzero differences: 18 of 22); Shapiro Wilk W = 0.907, p = 0.04146; Ad_A higher: 8, Ad_B higher: 10, equal: 4
+Product, Ad_A minus Ad_B
+  Ad_A: M = 42.5841, SD = 8.4224; Ad_B: M = 41.3441, SD = 6.1683 (n = 22)
+  Difference (Ad_A minus Ad_B): M = 1.2400 percentage points, SD = 9.0260, 95% CI [-2.7619, 5.2419]; SE = 1.9243, critical t = 2.0796
+  Paired t(21) = 0.6444, p = 0.52631, Holm p = 1.00000; d_z = 0.1374, 95% CI [-0.2841, 0.5557] (noncentral t), approximation [-0.2825, 0.5572] (SE of d_z = 0.2142)
+  Wilcoxon signed rank V = 146, p = 0.53734 (nonzero differences: 22 of 22); Shapiro Wilk W = 0.986, p = 0.98209; Ad_A higher: 14, Ad_B higher: 8, equal: 0
+Headline, Ad_A minus Ad_B
+  Ad_A: M = 17.8441, SD = 7.1191; Ad_B: M = 20.2673, SD = 6.4416 (n = 22)
+  Difference (Ad_A minus Ad_B): M = -2.4232 percentage points, SD = 7.8375, 95% CI [-5.8981, 1.0518]; SE = 1.6710, critical t = 2.0796
+  Paired t(21) = -1.4502, p = 0.16178, Holm p = 0.48535; d_z = -0.3092, 95% CI [-0.7338, 0.1224] (noncentral t), approximation [-0.7369, 0.1186] (SE of d_z = 0.2182)
+  Wilcoxon signed rank V = 85, p = 0.18316 (nonzero differences: 22 of 22); Shapiro Wilk W = 0.923, p = 0.08720; Ad_A higher: 7, Ad_B higher: 15, equal: 0
+
+---- STEP 6. Q5: facial expression, Ad_A versus Ad_B (paired t tests, Holm over 3) ----
+Joy (percent of time), Ad_A minus Ad_B; at zero: Ad_A 3 of 22, Ad_B 8 of 22, both ads 3
+  Ad_A: M = 12.1314, SD = 10.8083; Ad_B: M = 8.3286, SD = 9.4639 (n = 22)
+  Difference (Ad_A minus Ad_B): M = 3.8027 percentage points, SD = 12.0785, 95% CI [-1.5526, 9.1580]; SE = 2.5751, critical t = 2.0796
+  Paired t(21) = 1.4767, p = 0.15459, Holm p = 0.33096; d_z = 0.3148, 95% CI [-0.1172, 0.7397] (noncentral t), approximation [-0.1133, 0.7429] (SE of d_z = 0.2184)
+  Wilcoxon signed rank V = 128.5, p = 0.18414 (nonzero differences: 19 of 22); Shapiro Wilk W = 0.963, p = 0.54719; Ad_A higher: 12, Ad_B higher: 7, equal: 3
+Engagement (percent of time), Ad_A minus Ad_B; at zero: Ad_A 1 of 22, Ad_B 6 of 22, both ads 1
+  Ad_A: M = 14.5159, SD = 11.7193; Ad_B: M = 9.9495, SD = 10.0144 (n = 22)
+  Difference (Ad_A minus Ad_B): M = 4.5664 percentage points, SD = 12.8467, 95% CI [-1.1296, 10.2623]; SE = 2.7389, critical t = 2.0796
+  Paired t(21) = 1.6672, p = 0.11032, Holm p = 0.33096; d_z = 0.3554, 95% CI [-0.0798, 0.7828] (noncentral t), approximation [-0.0754, 0.7863] (SE of d_z = 0.2198)
+  Wilcoxon signed rank V = 163.5, p = 0.09872 (nonzero differences: 21 of 22); Shapiro Wilk W = 0.971, p = 0.74130; Ad_A higher: 15, Ad_B higher: 6, equal: 1
+Brow Furrow (percent of time), Ad_A minus Ad_B; at zero: Ad_A 18 of 22, Ad_B 20 of 22, both ads 17
+  Ad_A: M = 0.6464, SD = 1.5170; Ad_B: M = 0.3841, SD = 1.3097 (n = 22)
+  Difference (Ad_A minus Ad_B): M = 0.2623 percentage points, SD = 1.6477, 95% CI [-0.4683, 0.9928]; SE = 0.3513, critical t = 2.0796
+  Paired t(21) = 0.7466, p = 0.46359, Holm p = 0.46359; d_z = 0.1592, 95% CI [-0.2633, 0.5779] (noncentral t), approximation [-0.2613, 0.5797] (SE of d_z = 0.2145)
+  Wilcoxon signed rank V = 10, p = 0.58964 (nonzero differences: 5 of 22); Shapiro Wilk W = 0.646, p = 4.37e-06; Ad_A higher: 3, Ad_B higher: 2, equal: 17
+
+---- STEP 6B. Q6: head to head comparisons for the client (Holm over 3) ----
+Liking (1 to 7), Ad_A minus Ad_B
+  Ad_A: M = 4.5909, SD = 1.4027; Ad_B: M = 4.0455, SD = 1.2902 (n = 22)
+  Difference (Ad_A minus Ad_B): M = 0.5455 scale points, SD = 1.5346, 95% CI [-0.1349, 1.2259]; SE = 0.3272, critical t = 2.0796
+  Paired t(21) = 1.6672, p = 0.11033, Holm p = 0.33099; d_z = 0.3554, 95% CI [-0.0798, 0.7828] (noncentral t), approximation [-0.0754, 0.7863] (SE of d_z = 0.2198)
+  Wilcoxon signed rank V = 145.5, p = 0.12359 (nonzero differences: 20 of 22); Shapiro Wilk W = 0.926, p = 0.10143; Ad_A higher: 13, Ad_B higher: 7, equal: 2
+Brand recall: Ad_A 12 of 22 (54.5%), Ad_B 12 of 22 (54.5%); recalled only after Ad_A: 5, only after Ad_B: 5, both: 7, neither: 5
+  Exact McNemar test (binomial test on the 10 discordant pairs): p = 1.00000, Holm p = 1.00000; difference = 0.0 percentage points, 95% CI [-28.2, 28.2] (Wald)
+GSR Peaks Per Minute, Ad_A minus Ad_B (participants with valid GSR in both ads)
+  Ad_A: M = 7.0476, SD = 6.8882; Ad_B: M = 6.0000, SD = 4.9396 (n = 21)
+  Difference (Ad_A minus Ad_B): M = 1.0476 peaks per minute, SD = 4.7167, 95% CI [-1.0994, 3.1947]; SE = 1.0293, critical t = 2.0860
+  Paired t(20) = 1.0178, p = 0.32092, Holm p = 0.64184; d_z = 0.2221, 95% CI [-0.2137, 0.6525] (noncentral t), approximation [-0.2108, 0.6551] (SE of d_z = 0.2209)
+  Wilcoxon signed rank V = 97, p = 0.33967 (nonzero differences: 17 of 21); Shapiro Wilk W = 0.980, p = 0.92171; Ad_A higher: 10, Ad_B higher: 7, equal: 4
+  (Because Baseline is the same for both ads, this is also the difference between the two changes from Baseline.)
+
+---- STEP 7. Order effects (counterbalancing check, Holm over 8) ----
+Liking (1 to 7): cell means AB group: Ad_A 4.545, Ad_B 3.545; BA group: Ad_A 4.636, Ad_B 4.545 (n = 11 and 11); singular fit: FALSE
+Gaze dwell on the Logo (%): cell means AB group: Ad_A 2.524, Ad_B 1.131; BA group: Ad_A 1.041, Ad_B 1.662 (n = 11 and 11); singular fit: TRUE
+Gaze dwell on the Product (%): cell means AB group: Ad_A 41.427, Ad_B 39.677; BA group: Ad_A 43.741, Ad_B 43.011 (n = 11 and 11); singular fit: FALSE
+Gaze dwell on the Headline (%): cell means AB group: Ad_A 14.824, Ad_B 17.954; BA group: Ad_A 20.865, Ad_B 22.581 (n = 11 and 11); singular fit: FALSE
+  Liking (1 to 7)                  order    AB minus BA = -0.5455, 95% CI [-1.5226, 0.4317], t(20.00) = -1.1644, p = 0.25795, Holm p = 1.00000
+  Liking (1 to 7)                  position first minus second = 0.4545, 95% CI [-0.2119, 1.1210], t(20.00) = 1.4228, p = 0.17021, Holm p = 1.00000
+  Gaze dwell on the Logo (%)       order    AB minus BA = 0.4759, 95% CI [-0.9806, 1.9325], t(40.00) = 0.6604, p = 0.51281, Holm p = 1.00000
+  Gaze dwell on the Logo (%)       position first minus second = 1.0068, 95% CI [-0.4497, 2.4634], t(40.00) = 1.3970, p = 0.17010, Holm p = 1.00000
+  Gaze dwell on the Product (%)    order    AB minus BA = -2.8236, 95% CI [-7.9824, 2.3352], t(20.00) = -1.1417, p = 0.26705, Holm p = 1.00000
+  Gaze dwell on the Product (%)    position first minus second = 0.5100, 95% CI [-3.5964, 4.6164], t(20.00) = 0.2591, p = 0.79823, Holm p = 1.00000
+  Gaze dwell on the Headline (%)   order    AB minus BA = -5.3341, 95% CI [-9.7317, -0.9365], t(20.00) = -2.5302, p = 0.01990, Holm p = 0.15924
+  Gaze dwell on the Headline (%)   position first minus second = -0.7068, 95% CI [-4.2632, 2.8496], t(20.00) = -0.4146, p = 0.68287, Holm p = 1.00000
+Order checks with Holm p below .05: 0 of 8
+
+---- STEP 8. EXPLORATORY: cross modality correlation matrix (Spearman, participant level) ----
+Spearman rho (n = 22; n = 21 for pairs with GSR change):
+                   logo_dwell   joy gsr_change liking recall purchase_intention attitude
+logo_dwell               1.00 -0.02       0.08   0.20   0.42              -0.04    -0.05
+joy                     -0.02  1.00      -0.06   0.33   0.05              -0.30     0.06
+gsr_change               0.08 -0.06       1.00  -0.21   0.04               0.29     0.18
+liking                   0.20  0.33      -0.21   1.00   0.37              -0.23     0.25
+recall                   0.42  0.05       0.04   0.37   1.00              -0.01     0.05
+purchase_intention      -0.04 -0.30       0.29  -0.23  -0.01               1.00     0.57
+attitude                -0.05  0.06       0.18   0.25   0.05               0.57     1.00
+
+Each pair with its 95% CI:
+  Logo dwell (%)           x Joy (%)                n = 22, rho = -0.017, 95% CI [-0.436,  0.408]
+  Logo dwell (%)           x GSR change (peaks/min) n = 21, rho =  0.084, 95% CI [-0.362,  0.498]
+  Logo dwell (%)           x Liking                 n = 22, rho =  0.202, 95% CI [-0.244,  0.578]
+  Logo dwell (%)           x Recall (0 to 2)        n = 22, rho =  0.424, 95% CI [-0.017,  0.727]
+  Logo dwell (%)           x Purchase intention     n = 22, rho = -0.041, 95% CI [-0.455,  0.388]
+  Logo dwell (%)           x Attitude               n = 22, rho = -0.054, 95% CI [-0.465,  0.377]
+  Joy (%)                  x GSR change (peaks/min) n = 21, rho = -0.064, 95% CI [-0.482,  0.379]
+  Joy (%)                  x Liking                 n = 22, rho =  0.326, 95% CI [-0.123,  0.664]
+  Joy (%)                  x Recall (0 to 2)        n = 22, rho =  0.055, 95% CI [-0.376,  0.466]
+  Joy (%)                  x Purchase intention     n = 22, rho = -0.301, 95% CI [-0.647,  0.148]
+  Joy (%)                  x Attitude               n = 22, rho =  0.059, 95% CI [-0.372,  0.469]
+  GSR change (peaks/min)   x Liking                 n = 21, rho = -0.210, 95% CI [-0.591,  0.249]
+  GSR change (peaks/min)   x Recall (0 to 2)        n = 21, rho =  0.036, 95% CI [-0.402,  0.460]
+  GSR change (peaks/min)   x Purchase intention     n = 21, rho =  0.287, 95% CI [-0.174,  0.645]
+  GSR change (peaks/min)   x Attitude               n = 21, rho =  0.176, 95% CI [-0.280,  0.567]
+  Liking                   x Recall (0 to 2)        n = 22, rho =  0.372, 95% CI [-0.074,  0.694]
+  Liking                   x Purchase intention     n = 22, rho = -0.233, 95% CI [-0.600,  0.215]
+  Liking                   x Attitude               n = 22, rho =  0.249, 95% CI [-0.199,  0.611]
+  Recall (0 to 2)          x Purchase intention     n = 22, rho = -0.010, 95% CI [-0.430,  0.413]
+  Recall (0 to 2)          x Attitude               n = 22, rho =  0.055, 95% CI [-0.376,  0.466]
+  Purchase intention       x Attitude               n = 22, rho =  0.565, 95% CI [ 0.155,  0.809]  (interval excludes 0)
+
+Correlations estimated: 21 (7 measures, every pair once). Intervals that exclude 0: 1. If no measure were related to any other, about 1.05 of 21
+95% intervals would still exclude 0 by chance alone. These estimates are EXPLORATORY: they suggest hypotheses for a new study and test none.
+
+wrote SIMULATED_participant_level.csv and SIMULATED_correlations.csv
+
+---- STEP 9. Sensitivity power analysis (alpha = .05, two tailed, power = .80) ----
+Paired design with n = 22: the smallest d_z detectable with 80% power = 0.6264 (base R power.t.test, type = "paired")
+  Power of the present design: 0.2687 for d_z = 0.30 and 0.6092 for d_z = 0.50
+  Participants needed for 80% power: d_z = 0.30: 89.15, so 90; d_z = 0.50: 33.37, so 34
+  At the strictest Holm step of a family of three tests (alpha = .05 / 3 = .0167): d_z = 0.30: 120; d_z = 0.50: 45 participants
+H1, observed odds ratio 4.3434 (Fisher), recall when not fixated 0.3500, so recall when fixated 0.7005:
+  Standard formula (base R power.prop.test, normal approximation, equal groups): 30.66 observations per group, so 31 per group and 62 in total
+  Simulation (Fisher's exact test, 54.5% of observations with the Logo fixated, 4,000 studies per N, N = 40 to 120 in steps of 4):
+    power at N = 44 (the pooled H1 table) = 0.5695; smallest N with power of at least .80 = 72 (power 0.8073)
+    N counts INDEPENDENT observations; with two ads per person, the observations of one person may be related, so the number of people
+    should be planned from N (one ad per person) or with a mixed model simulation, not by halving N.
+H2, for orientation: a correlation the size of the standardized Joy slope (0.2434) needs about 131 participants (Fisher z formula, one rating per person)
+
+wrote SIMULATED_power.csv and SIMULATED_power_h1_simulation.csv
+
+---- STEP 10. Figures ----
+saved figure: figures/SIMULATED_fig1_dwell_by_ad_aoi.png
+saved figure: figures/SIMULATED_fig2_expressions_by_ad.png
+saved figure: figures/SIMULATED_fig3_gsr_change.png
+saved figure: figures/SIMULATED_fig4_correlation_matrix.png
+saved figure: figures/SIMULATED_fig5_client_dashboard.png
+saved figure: figures/SIMULATED_assumption_checks.png
+
+---- STEP 11. Summary of all tests (SIMULATED_all_tests.csv) ----
+ id                               status            n   stat   statistic df1   df2 p         p_holm    es_type                es     ci_low ci_high
+ H1                               planned WS7        44 X2 (no   5.650    1.00  NA 3.238e-02        NA odds ratio (Fisher)     4.343  1.076 19.555 
+ H1_AD_A                          planned check WS7  22 X2 (no   4.455    1.00  NA 8.356e-02        NA odds ratio (Fisher)     6.311  0.801 68.433 
+ H1_AD_B                          planned check WS7  22 X2 (no   1.564    1.00  NA 3.913e-01        NA odds ratio (Fisher)     2.846  0.394 24.127 
+ H1_GLMM                          planned check WS7  44 z        2.320      NA  NA 2.032e-02        NA odds ratio (Wald CI)    4.510  1.264 16.099 
+ H2                               planned WS7        44 t        1.634   40.66  NA 1.101e-01        NA b per 10 points of Joy  0.324 -0.065  0.712 
+ H2_R_AD_A                        planned check WS7  22 r        0.265   20.00  NA 2.325e-01        NA r                       0.265 -0.176  0.618 
+ H2_R_AD_B                        planned check WS7  22 r        0.179   20.00  NA 4.243e-01        NA r                       0.179 -0.262  0.559 
+ H3_AD_A                          planned WS7        22 t        3.874   21.00  NA 8.772e-04 8.772e-04 d_z                     0.826  0.333  1.305 
+ H3_AD_B                          planned WS7        21 t        4.349   20.00  NA 3.114e-04 6.227e-04 d_z                     0.949  0.423  1.459 
+ Q4_AD                            planned WS8       132 F        0.066    1.00 126 7.981e-01        NA partial eta squared (f  0.001     NA     NA 
+ Q4_AOI                           planned WS8       132 F      508.897    2.00 126 4.440e-61        NA partial eta squared (f  0.890     NA     NA 
+ Q4_AD_X_AOI                      planned WS8       132 F        1.140    2.00 126 3.232e-01        NA partial eta squared (f  0.018     NA     NA 
+ Q4_RM_AD                         planned check WS8 132 F        0.122    1.00  21 7.299e-01        NA partial eta squared     0.006     NA     NA 
+ Q4_RM_AOI                        planned check WS8 132 F      356.539    2.00  42 4.471e-27        NA partial eta squared     0.944     NA     NA 
+ Q4_RM_AD_X_AOI                   planned check WS8 132 F        1.368    2.00  42 2.657e-01        NA partial eta squared     0.061     NA     NA 
+ Q4a_Ad_A_PRODUCT_HEADLINE        planned WS8        22 t        9.017   21.00  NA 1.148e-08 2.246e-08 d_z                     1.922  1.202  2.627 
+ Q4a_Ad_A_PRODUCT_LOGO            planned WS8        22 t       20.713   21.00  NA 1.859e-15 9.295e-15 d_z                     4.416  3.021  5.800 
+ Q4a_Ad_A_HEADLINE_LOGO           planned WS8        22 t        9.029   21.00  NA 1.123e-08 2.246e-08 d_z                     1.925  1.204  2.630 
+ Q4a_Ad_B_PRODUCT_HEADLINE        planned WS8        22 t       11.624   21.00  NA 1.308e-10 3.923e-10 d_z                     2.478  1.617  3.324 
+ Q4a_Ad_B_PRODUCT_LOGO            planned WS8        22 t       28.440   21.00  NA 2.982e-18 1.789e-17 d_z                     6.063  4.192  7.925 
+ Q4a_Ad_B_HEADLINE_LOGO           planned WS8        22 t       13.276   21.00  NA 1.106e-11 4.422e-11 d_z                     2.830  1.876  3.770 
+ Q4b_LOGO                         planned WS8        22 t        0.496   21.00  NA 6.250e-01 1.000e+00 d_z                     0.106 -0.315  0.524 
+ Q4b_PRODUCT                      planned WS8        22 t        0.644   21.00  NA 5.263e-01 1.000e+00 d_z                     0.137 -0.284  0.556 
+ Q4b_HEADLINE                     planned WS8        22 t       -1.450   21.00  NA 1.618e-01 4.854e-01 d_z                    -0.309 -0.734  0.122 
+ Q5_JOY                           planned WS8        22 t        1.477   21.00  NA 1.546e-01 3.310e-01 d_z                     0.315 -0.117  0.740 
+ Q5_ENGAGEMENT                    planned WS8        22 t        1.667   21.00  NA 1.103e-01 3.310e-01 d_z                     0.355 -0.080  0.783 
+ Q5_BROWFURROW                    planned WS8        22 t        0.747   21.00  NA 4.636e-01 4.636e-01 d_z                     0.159 -0.263  0.578 
+ Q6_LIKING                        planned WS8        22 t        1.667   21.00  NA 1.103e-01 3.310e-01 d_z                     0.355 -0.080  0.783 
+ Q6_RECALL                        planned WS8        22 discor   5.000    5.00  NA 1.000e+00 1.000e+00 difference in proporti  0.000 -0.282  0.282 
+ Q6_GSR                           planned WS8        21 t        1.018   20.00  NA 3.209e-01 6.418e-01 d_z                     0.222 -0.214  0.653 
+ O1_LIKING_ORDER                  planned check WS8  44 t       -1.164   20.00  NA 2.579e-01 1.000e+00 difference AB minus BA -0.545 -1.523  0.432 
+ O1_LIKING_POSITION               planned check WS8  44 t        1.423   20.00  NA 1.702e-01 1.000e+00 difference first minus  0.455 -0.212  1.121 
+ O1_LOGO_ORDER                    planned check WS8  44 t        0.660   40.00  NA 5.128e-01 1.000e+00 difference AB minus BA  0.476 -0.981  1.932 
+ O1_LOGO_POSITION                 planned check WS8  44 t        1.397   40.00  NA 1.701e-01 1.000e+00 difference first minus  1.007 -0.450  2.463 
+ O1_PRODUCT_ORDER                 planned check WS8  44 t       -1.142   20.00  NA 2.670e-01 1.000e+00 difference AB minus BA -2.824 -7.982  2.335 
+ O1_PRODUCT_POSITION              planned check WS8  44 t        0.259   20.00  NA 7.982e-01 1.000e+00 difference first minus  0.510 -3.596  4.616 
+ O1_HEADLINE_ORDER                planned check WS8  44 t       -2.530   20.00  NA 1.990e-02 1.592e-01 difference AB minus BA -5.334 -9.732 -0.937 
+ O1_HEADLINE_POSITION             planned check WS8  44 t       -0.415   20.00  NA 6.829e-01 1.000e+00 difference first minus -0.707 -4.263  2.850 
+ E1_LOGO_DWELL_JOY                exploratory        22 rho     -0.017      NA  NA        NA        NA Spearman rho (Fisher z -0.017 -0.436  0.408 
+ E1_LOGO_DWELL_GSR_CHANGE         exploratory        21 rho      0.084      NA  NA        NA        NA Spearman rho (Fisher z  0.084 -0.362  0.498 
+ E1_LOGO_DWELL_LIKING             exploratory        22 rho      0.202      NA  NA        NA        NA Spearman rho (Fisher z  0.202 -0.244  0.578 
+ E1_LOGO_DWELL_RECALL             exploratory        22 rho      0.424      NA  NA        NA        NA Spearman rho (Fisher z  0.424 -0.017  0.727 
+ E1_LOGO_DWELL_PURCHASE_INTENTION exploratory        22 rho     -0.041      NA  NA        NA        NA Spearman rho (Fisher z -0.041 -0.455  0.388 
+ E1_LOGO_DWELL_ATTITUDE           exploratory        22 rho     -0.054      NA  NA        NA        NA Spearman rho (Fisher z -0.054 -0.465  0.377 
+ E1_JOY_GSR_CHANGE                exploratory        21 rho     -0.064      NA  NA        NA        NA Spearman rho (Fisher z -0.064 -0.482  0.379 
+ E1_JOY_LIKING                    exploratory        22 rho      0.326      NA  NA        NA        NA Spearman rho (Fisher z  0.326 -0.123  0.664 
+ E1_JOY_RECALL                    exploratory        22 rho      0.055      NA  NA        NA        NA Spearman rho (Fisher z  0.055 -0.376  0.466 
+ E1_JOY_PURCHASE_INTENTION        exploratory        22 rho     -0.301      NA  NA        NA        NA Spearman rho (Fisher z -0.301 -0.647  0.148 
+ E1_JOY_ATTITUDE                  exploratory        22 rho      0.059      NA  NA        NA        NA Spearman rho (Fisher z  0.059 -0.372  0.469 
+ E1_GSR_CHANGE_LIKING             exploratory        21 rho     -0.210      NA  NA        NA        NA Spearman rho (Fisher z -0.210 -0.591  0.249 
+ E1_GSR_CHANGE_RECALL             exploratory        21 rho      0.036      NA  NA        NA        NA Spearman rho (Fisher z  0.036 -0.402  0.460 
+ E1_GSR_CHANGE_PURCHASE_INTENTION exploratory        21 rho      0.287      NA  NA        NA        NA Spearman rho (Fisher z  0.287 -0.174  0.645 
+ E1_GSR_CHANGE_ATTITUDE           exploratory        21 rho      0.176      NA  NA        NA        NA Spearman rho (Fisher z  0.176 -0.280  0.567 
+ E1_LIKING_RECALL                 exploratory        22 rho      0.372      NA  NA        NA        NA Spearman rho (Fisher z  0.372 -0.074  0.694 
+ E1_LIKING_PURCHASE_INTENTION     exploratory        22 rho     -0.233      NA  NA        NA        NA Spearman rho (Fisher z -0.233 -0.600  0.215 
+ E1_LIKING_ATTITUDE               exploratory        22 rho      0.249      NA  NA        NA        NA Spearman rho (Fisher z  0.249 -0.199  0.611 
+ E1_RECALL_PURCHASE_INTENTION     exploratory        22 rho     -0.010      NA  NA        NA        NA Spearman rho (Fisher z -0.010 -0.430  0.413 
+ E1_RECALL_ATTITUDE               exploratory        22 rho      0.055      NA  NA        NA        NA Spearman rho (Fisher z  0.055 -0.376  0.466 
+ E1_PURCHASE_INTENTION_ATTITUDE   exploratory        22 rho      0.565      NA  NA        NA        NA Spearman rho (Fisher z  0.565  0.155  0.809 
+
+Rows: 59 (planned Workshop 7: 4; planned Workshop 8: 18; planned checks: 16; exploratory: 21). Tests with a p value: 38.
+wrote SIMULATED_all_tests.csv
+References: Bates et al. (2015); Bonett and Wright (2000); Holm (1979); Kuznetsova et al. (2017); Lakens (2013). See results_text.md.
