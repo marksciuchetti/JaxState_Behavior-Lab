@@ -2114,8 +2114,8 @@
     },
     "build": {
       "file": "build.mp3",
-      "duration": 1178.993,
-      "mp3_duration": 1179.048,
+      "duration": 1248.033,
+      "mp3_duration": 1248.096,
       "starts": [
         0.0,
         2.364,
@@ -2250,15 +2250,19 @@
         1003.613,
         1022.382,
         1034.346,
-        1041.041,
-        1063.266,
-        1076.275,
-        1082.074,
-        1097.75,
-        1103.399,
-        1113.187,
-        1138.293,
-        1154.182
+        1048.678,
+        1064.845,
+        1079.07,
+        1091.439,
+        1106.689,
+        1128.914,
+        1141.923,
+        1147.722,
+        1166.79,
+        1172.439,
+        1182.227,
+        1207.333,
+        1223.222
       ],
       "sentences": [
         {
@@ -3189,78 +3193,106 @@
           "index": 132,
           "paragraph": 87,
           "start": 1034.346,
-          "end": 1040.341,
-          "text": "The downloaded manuals add only the button itself, in one screenshot of the Heatmaps article."
+          "end": 1047.978,
+          "text": "On October 11, 2026, Dashboard was clicked on the Analysis of the vendor demonstration study Demo - Sony Bravia on the lab computer, as a read only check in which nothing was run or saved."
         },
         {
           "index": 133,
           "paragraph": 88,
-          "start": 1041.041,
-          "end": 1062.566,
-          "text": "The release notes add hints (Project doc 10): release 11.0.2 lets you \"include Voice Analysis Metrics in the dashboard's Circumplex\" and fixed a problem with A O I's on \"stimuli whose names contained only digits\", and 11.0.4 fixed \"barplots in the dashboard\" for numeric stimulus names."
+          "start": 1048.678,
+          "end": 1064.145,
+          "text": "That analysis had no results of the kind the Dashboard needs, so a window titled Generate Dashboard Data opened (figure below): \"The dashboard is driven by the multi-modal R export results, which are currently not available for this analysis.\""
         },
         {
           "index": 134,
           "paragraph": 89,
-          "start": 1063.266,
-          "end": 1075.575,
-          "text": "So the Dashboard appears to draw bar plots per stimulus, to offer a circumplex view (section 07), and to use A O I data, and stimuli should be named with letters, such as Ad A."
+          "start": 1064.845,
+          "end": 1078.37,
+          "text": "It asks whether to run the report now, with the buttons Cancel, No, and Yes, and adds that \"You can also open the dashboard without results and browse to any folder containing saved multi-modal export files.\""
         },
         {
           "index": 135,
           "paragraph": 90,
-          "start": 1076.275,
-          "end": 1081.374,
-          "text": "The help center article \"Data Visualization Dashboard\" has not been downloaded."
+          "start": 1079.07,
+          "end": 1090.739,
+          "text": "Choosing No opened a separate window titled Data Visualizations, empty until data are loaded, with four icons down its left edge and a Show help link (second figure below)."
         },
         {
           "index": 136,
           "paragraph": 91,
-          "start": 1082.074,
-          "end": 1097.05,
-          "text": "Everything else (its views and metrics, whether it shows N, error bars, or segments, its export, and whether its numbers match the R exports) will be added after it is checked on the lab computer (Items to verify, section 11)."
+          "start": 1091.439,
+          "end": 1105.989,
+          "text": "So the Dashboard appears to draw on the same single multimodal export that section 5.4 teaches: run that export first, or answer Yes and let the Dashboard run the report, and the charts come from those results."
         },
         {
           "index": 137,
           "paragraph": 92,
-          "start": 1097.75,
-          "end": 1102.699,
-          "text": "Until then, treat a Dashboard chart like a heatmap: for seeing, not for testing."
+          "start": 1106.689,
+          "end": 1128.214,
+          "text": "The release notes add hints (Project doc 10): release 11.0.2 lets you \"include Voice Analysis Metrics in the dashboard's Circumplex\" and fixed a problem with A O I's on \"stimuli whose names contained only digits\", and 11.0.4 fixed \"barplots in the dashboard\" for numeric stimulus names."
         },
         {
           "index": 138,
           "paragraph": 93,
-          "start": 1103.399,
-          "end": 1112.487,
-          "text": "iMotions, \"iMotions 11 - New Features\" (YouTube), an overview of Lab 11 that includes the data visualization dashboard."
+          "start": 1128.914,
+          "end": 1141.223,
+          "text": "So the Dashboard appears to draw bar plots per stimulus, to offer a circumplex view (section 07), and to use A O I data, and stimuli should be named with letters, such as Ad A."
         },
         {
           "index": 139,
           "paragraph": 94,
-          "start": 1113.187,
-          "end": 1137.593,
-          "text": "Help center articles for this section: Analysis Overview, Replay and Analysis Windows, Aggregate Replay, Heatmaps, Basic Heatmap Explanation and Generation, Scan Paths and Individual Heatmaps, Emotional Heatmap, A O I Metrics, Areas of Interest (A O I's), Data Visualization Dashboard (not yet read for this workshop), and the iMotions 11 release notes."
+          "start": 1141.923,
+          "end": 1147.022,
+          "text": "The help center article \"Data Visualization Dashboard\" has not been downloaded."
         },
         {
           "index": 140,
           "paragraph": 95,
-          "start": 1138.293,
-          "end": 1153.482,
-          "text": "Manual PDFs on this site: Analysis Overview, Replay and Analysis Windows, Aggregate Replay, Heatmaps, Basic Heatmap Explanation and Generation, Scan Paths, Emotional Heatmap, and A O I Metrics (P D F)."
+          "start": 1147.722,
+          "end": 1166.09,
+          "text": "What the Dashboard shows once its data are loaded (its views and metrics, whether it shows N, error bars, or segments, its export, and whether its numbers match the R exports) was not checked, because the check did not run the report; it stays on the Items to verify list (section 11)."
         },
         {
           "index": 141,
           "paragraph": 96,
-          "start": 1154.182,
-          "end": 1178.993,
+          "start": 1166.79,
+          "end": 1171.739,
+          "text": "Until then, treat a Dashboard chart like a heatmap: for seeing, not for testing."
+        },
+        {
+          "index": 142,
+          "paragraph": 97,
+          "start": 1172.439,
+          "end": 1181.527,
+          "text": "iMotions, \"iMotions 11 - New Features\" (YouTube), an overview of Lab 11 that includes the data visualization dashboard."
+        },
+        {
+          "index": 143,
+          "paragraph": 98,
+          "start": 1182.227,
+          "end": 1206.633,
+          "text": "Help center articles for this section: Analysis Overview, Replay and Analysis Windows, Aggregate Replay, Heatmaps, Basic Heatmap Explanation and Generation, Scan Paths and Individual Heatmaps, Emotional Heatmap, A O I Metrics, Areas of Interest (A O I's), Data Visualization Dashboard (not yet read for this workshop), and the iMotions 11 release notes."
+        },
+        {
+          "index": 144,
+          "paragraph": 99,
+          "start": 1207.333,
+          "end": 1222.522,
+          "text": "Manual PDFs on this site: Analysis Overview, Replay and Analysis Windows, Aggregate Replay, Heatmaps, Basic Heatmap Explanation and Generation, Scan Paths, Emotional Heatmap, and A O I Metrics (P D F)."
+        },
+        {
+          "index": 145,
+          "paragraph": 100,
+          "start": 1223.222,
+          "end": 1248.033,
           "text": "Open the Aggregate Replay and add group curves on a fixed range; mark stimulus annotations; draw, record, and export a dynamic heatmap, and say what its relative colors cannot show; show a scan path without a face; know when the Emotional Heatmap applies and read it as co-occurrence; report time to first fixation next to the share who looked; and state what is and is not known about the Dashboard."
         }
       ]
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 785.846,
-      "mp3_duration": 785.904,
+      "duration": 809.309,
+      "mp3_duration": 809.376,
       "starts": [
         0.0,
         2.727,
@@ -3340,17 +3372,18 @@
         627.759,
         637.495,
         639.497,
-        641.199,
-        661.334,
-        662.708,
-        671.728,
-        677.74,
-        703.976,
-        712.996,
-        721.133,
-        726.867,
-        746.426,
-        758.411
+        662.959,
+        664.662,
+        684.797,
+        686.171,
+        695.191,
+        701.203,
+        727.439,
+        736.459,
+        744.595,
+        750.33,
+        769.889,
+        781.874
       ],
       "sentences": [
         {
@@ -3896,84 +3929,91 @@
           "index": 77,
           "paragraph": 52,
           "start": 639.497,
-          "end": 640.499,
-          "text": "Find the table."
+          "end": 662.259,
+          "text": "On the lab computer the two choices read Individual metrics exports, with the button Export individual files, and Single multi-modal export, with the button Export single file; for the demonstration study the multi-modal list held the eye tracking and facial expression exports, while the A O I Metrics Export appeared only under Individual metrics exports."
         },
         {
           "index": 78,
           "paragraph": 53,
-          "start": 641.199,
-          "end": 660.634,
-          "text": "In the vendor example, rows 1 to 4 hold \"hash metadata\", \"hash device\", \"hash AlgorithmType\", and \"hash data\", the column names are in row 5, and each row is one respondent and one stimulus or annotation (\"Type\" and \"Label\"); check both in 11 point 1 (Items to verify)."
+          "start": 662.959,
+          "end": 663.962,
+          "text": "Find the table."
         },
         {
           "index": 79,
           "paragraph": 54,
-          "start": 661.334,
-          "end": 662.358,
-          "text": "Common mistake."
+          "start": 664.662,
+          "end": 684.097,
+          "text": "In the vendor example, rows 1 to 4 hold \"hash metadata\", \"hash device\", \"hash AlgorithmType\", and \"hash data\", the column names are in row 5, and each row is one respondent and one stimulus or annotation (\"Type\" and \"Label\"); check both in 11 point 1 (Items to verify)."
         },
         {
           "index": 80,
-          "paragraph": 54,
-          "start": 662.708,
-          "end": 671.028,
-          "text": "Averaging over every row: stimulus and annotation rows share the table, so filter \"Type\" first, as the article advises."
+          "paragraph": 55,
+          "start": 684.797,
+          "end": 685.821,
+          "text": "Common mistake."
         },
         {
           "index": 81,
           "paragraph": 55,
-          "start": 671.728,
-          "end": 677.04,
-          "text": "A heatmap, a replay still, or a group curve becomes evidence only with its context."
+          "start": 686.171,
+          "end": 694.491,
+          "text": "Averaging over every row: stimulus and annotation rows share the table, so filter \"Type\" first, as the article advises."
         },
         {
           "index": 82,
           "paragraph": 56,
-          "start": 677.74,
-          "end": 703.276,
-          "text": "Export it as in section 4.4 and caption it with the stimulus and the moment or time window; the analysis and N (the respondents behind the picture, not the number recruited); for a heatmap, dynamic or static, gaze points or fixations, Gaze history, and Gaze width; for a curve, the notebook, its bin settings, and whether the y axis counts respondents or gives percentages; and the iMotions version."
+          "start": 695.191,
+          "end": 700.503,
+          "text": "A heatmap, a replay still, or a group curve becomes evidence only with its context."
         },
         {
           "index": 83,
           "paragraph": 57,
-          "start": 703.976,
-          "end": 712.296,
-          "text": "A comparison of two segments needs two exports made with the same settings, shown with the warning that heatmap colors do not share a scale."
+          "start": 701.203,
+          "end": 726.739,
+          "text": "Export it as in section 4.4 and caption it with the stimulus and the moment or time window; the analysis and N (the respondents behind the picture, not the number recruited); for a heatmap, dynamic or static, gaze points or fixations, Gaze history, and Gaze width; for a curve, the notebook, its bin settings, and whether the y axis counts respondents or gives percentages; and the iMotions version."
         },
         {
           "index": 84,
           "paragraph": 58,
-          "start": 712.996,
-          "end": 720.783,
-          "text": "Faces never appear: export the stimulus, not the respondent camera, and hide any face in a vendor screenshot (lab rule)."
+          "start": 727.439,
+          "end": 735.759,
+          "text": "A comparison of two segments needs two exports made with the same settings, shown with the warning that heatmap colors do not share a scale."
         },
         {
           "index": 85,
-          "paragraph": 58,
-          "start": 721.133,
-          "end": 726.167,
-          "text": "Section 09 shows how a report page can also carry N and uncertainty."
+          "paragraph": 59,
+          "start": 736.459,
+          "end": 744.245,
+          "text": "Faces never appear: export the stimulus, not the respondent camera, and hide any face in a vendor screenshot (lab rule)."
         },
         {
           "index": 86,
           "paragraph": 59,
-          "start": 726.867,
-          "end": 745.726,
-          "text": "Help center articles for this section: R Notebook: Raw Data Aggregation, R Notebook Epoching, iMotions Reports, Analysis Overview, and Replay and Analysis Windows; How to Make Your Own Visualizations has no online article in the lab's index (local P D F only)."
+          "start": 744.595,
+          "end": 749.63,
+          "text": "Section 09 shows how a report page can also carry N and uncertainty."
         },
         {
           "index": 87,
           "paragraph": 60,
-          "start": 746.426,
-          "end": 757.711,
-          "text": "Manual PDFs on this site: R Notebook: Raw Data Aggregation, R Notebook Epoching, iMotions Reports, and How to Make Your Own Visualizations (P D F)."
+          "start": 750.33,
+          "end": 769.189,
+          "text": "Help center articles for this section: R Notebook: Raw Data Aggregation, R Notebook Epoching, iMotions Reports, Analysis Overview, and Replay and Analysis Windows; How to Make Your Own Visualizations has no online article in the lab's index (local P D F only)."
         },
         {
           "index": 88,
           "paragraph": 61,
-          "start": 758.411,
-          "end": 785.846,
+          "start": 769.889,
+          "end": 781.174,
+          "text": "Manual PDFs on this site: R Notebook: Raw Data Aggregation, R Notebook Epoching, iMotions Reports, and How to Make Your Own Visualizations (P D F)."
+        },
+        {
+          "index": 89,
+          "paragraph": 62,
+          "start": 781.874,
+          "end": 809.309,
           "text": "Add a notebook as an Active flow, in the right order; use Raw Data Aggregation for a group curve and read its falloff first; pre-process and export G S R epochs with every parameter recorded, and read the file by column name; open iMotions Reports, know why its button can be gray, and copy the parameters of your own run into the methods section; make a single multimodal export for a quick chart; and caption every exported figure with N and its settings."
         }
       ]
@@ -9641,8 +9681,8 @@
     },
     "resources": {
       "file": "resources.mp3",
-      "duration": 2202.723,
-      "mp3_duration": 2202.792,
+      "duration": 2228.157,
+      "mp3_duration": 2228.208,
       "starts": [
         0.0,
         3.943,
@@ -9698,173 +9738,174 @@
         449.65,
         454.339,
         456.673,
-        467.199,
-        469.115,
-        472.281,
-        481.941,
-        490.867,
-        497.135,
-        499.363,
-        508.267,
-        512.415,
-        515.248,
-        519.553,
-        538.749,
-        542.884,
-        547.373,
-        556.649,
-        559.217,
-        560.89,
-        570.358,
-        574.74,
-        579.664,
-        585.603,
-        592.021,
-        609.147,
-        618.274,
-        631.262,
-        644.527,
-        655.19,
-        667.751,
-        681.379,
-        691.359,
-        701.595,
-        716.589,
-        728.873,
-        738.298,
-        751.35,
-        765.831,
-        781.251,
-        798.442,
-        815.547,
-        822.724,
-        833.493,
-        845.257,
-        848.495,
-        851.009,
-        865.759,
-        868.741,
-        883.5,
-        888.808,
-        896.689,
-        906.903,
-        909.886,
-        912.732,
-        920.783,
-        923.766,
-        925.929,
-        935.653,
-        938.636,
-        942.442,
-        953.787,
-        956.77,
-        961.545,
-        969.925,
-        982.017,
-        985.417,
-        998.704,
-        1003.598,
-        1011.658,
-        1021.595,
-        1031.981,
-        1039.251,
-        1053.925,
-        1064.182,
-        1086.855,
-        1095.939,
-        1106.495,
-        1132.262,
-        1138.991,
-        1146.517,
-        1170.172,
-        1184.035,
-        1204.937,
-        1209.81,
-        1222.606,
-        1226.485,
-        1228.422,
-        1245.549,
-        1247.635,
-        1270.501,
-        1282.614,
-        1295.239,
-        1309.742,
-        1327.978,
-        1342.971,
-        1352.887,
-        1364.787,
-        1382.682,
-        1398.913,
-        1416.551,
-        1432.931,
-        1443.978,
-        1453.361,
-        1464.642,
-        1472.915,
-        1482.341,
-        1496.651,
-        1506.717,
-        1520.025,
-        1538.069,
-        1549.35,
-        1563.981,
-        1576.755,
-        1589.317,
-        1601.622,
-        1618.023,
-        1634.446,
-        1641.623,
-        1645.693,
-        1649.252,
-        1667.936,
-        1670.769,
-        1684.461,
-        1687.286,
-        1702.087,
-        1705.518,
-        1723.69,
-        1725.704,
-        1743.535,
-        1745.719,
-        1752.798,
-        1756.007,
-        1766.575,
-        1770.283,
-        1773.599,
-        1787.461,
-        1789.667,
-        1797.045,
-        1799.848,
-        1808.271,
-        1810.861,
-        1824.062,
-        1826.874,
-        1840.971,
-        1843.903,
-        1855.845,
-        1858.883,
-        1865.13,
-        1868.253,
-        1882.159,
-        1889.28,
-        1902.844,
-        1910.669,
-        1931.529,
-        1936.283,
-        1951.297,
-        1968.893,
-        1984.036,
-        2008.608,
-        2026.46,
-        2039.533,
-        2050.943,
-        2069.477,
-        2090.615,
-        2111.197,
-        2128.367,
-        2152.192,
-        2172.22,
-        2189.752
+        460.189,
+        480.708,
+        482.624,
+        485.79,
+        495.45,
+        504.376,
+        510.644,
+        512.871,
+        521.776,
+        525.923,
+        528.757,
+        533.062,
+        552.258,
+        556.393,
+        560.881,
+        570.157,
+        572.726,
+        574.399,
+        583.867,
+        588.249,
+        593.173,
+        599.112,
+        605.529,
+        622.656,
+        631.783,
+        644.771,
+        658.036,
+        668.699,
+        681.26,
+        694.888,
+        704.868,
+        715.104,
+        730.097,
+        742.381,
+        751.807,
+        764.859,
+        779.34,
+        794.76,
+        811.951,
+        829.056,
+        836.233,
+        847.002,
+        858.765,
+        862.004,
+        864.517,
+        879.267,
+        882.25,
+        897.009,
+        902.317,
+        910.197,
+        920.412,
+        923.395,
+        926.241,
+        934.292,
+        937.275,
+        939.438,
+        949.162,
+        952.145,
+        955.951,
+        967.296,
+        970.279,
+        975.053,
+        983.433,
+        995.525,
+        998.926,
+        1012.213,
+        1017.107,
+        1025.167,
+        1035.104,
+        1045.489,
+        1052.76,
+        1067.433,
+        1077.691,
+        1100.364,
+        1109.448,
+        1120.004,
+        1145.771,
+        1152.499,
+        1160.026,
+        1183.681,
+        1197.543,
+        1218.446,
+        1223.319,
+        1236.115,
+        1239.993,
+        1241.931,
+        1259.057,
+        1261.144,
+        1284.009,
+        1296.123,
+        1308.748,
+        1323.251,
+        1341.487,
+        1356.48,
+        1366.396,
+        1378.296,
+        1396.191,
+        1412.421,
+        1430.06,
+        1446.44,
+        1457.487,
+        1466.869,
+        1478.151,
+        1486.424,
+        1495.849,
+        1510.16,
+        1520.225,
+        1533.533,
+        1551.577,
+        1562.859,
+        1577.489,
+        1590.264,
+        1602.825,
+        1615.131,
+        1631.532,
+        1647.955,
+        1655.131,
+        1659.202,
+        1662.761,
+        1681.445,
+        1684.278,
+        1697.97,
+        1700.795,
+        1715.596,
+        1719.027,
+        1737.199,
+        1739.213,
+        1757.043,
+        1759.228,
+        1766.307,
+        1769.515,
+        1780.084,
+        1783.792,
+        1787.107,
+        1800.97,
+        1803.176,
+        1810.553,
+        1813.357,
+        1821.779,
+        1824.369,
+        1837.571,
+        1840.383,
+        1854.48,
+        1857.411,
+        1869.354,
+        1872.392,
+        1878.639,
+        1881.762,
+        1895.667,
+        1902.789,
+        1916.353,
+        1924.178,
+        1945.038,
+        1949.791,
+        1964.806,
+        1982.402,
+        1997.545,
+        2022.117,
+        2039.969,
+        2053.042,
+        2064.451,
+        2090.73,
+        2111.867,
+        2136.631,
+        2153.801,
+        2177.626,
+        2197.654,
+        2215.186
       ],
       "sentences": [
         {
@@ -10242,1176 +10283,1183 @@
           "index": 53,
           "paragraph": 41,
           "start": 456.673,
-          "end": 466.849,
-          "text": "Not downloaded and not read for this workshop; nothing beyond the toolbar button and the release notes is documented locally, so the Dashboard is on the list under (g)."
+          "end": 459.489,
+          "text": "Not downloaded and not read for this workshop."
         },
         {
           "index": 54,
-          "paragraph": 41,
-          "start": 467.199,
-          "end": 468.415,
-          "text": "(Step 04)"
+          "paragraph": 42,
+          "start": 460.189,
+          "end": 480.008,
+          "text": "What is documented locally is the toolbar button, the release notes, and what the lab computer showed on October 11, 2026 (the Generate Dashboard Data dialog and the empty Data Visualizations window, section 4.8); the Dashboard with data loaded is on the list under (g)."
         },
         {
           "index": 55,
-          "paragraph": 42,
-          "start": 469.115,
-          "end": 471.931,
-          "text": "General Data Analysis and Interpretation."
+          "paragraph": 43,
+          "start": 480.708,
+          "end": 481.924,
+          "text": "(Step 04)"
         },
         {
           "index": 56,
-          "paragraph": 42,
-          "start": 472.281,
-          "end": 481.241,
-          "text": "Descriptive statistics first, the median against the mean, the decision chart for choosing a test, multiple comparisons, and reverse inference."
+          "paragraph": 44,
+          "start": 482.624,
+          "end": 485.44,
+          "text": "General Data Analysis and Interpretation."
         },
         {
           "index": 57,
-          "paragraph": 43,
-          "start": 481.941,
-          "end": 490.517,
-          "text": "Its definition of a p value is a common simplification, and its chart has no branch for ranks, paired proportions, or mixed models."
+          "paragraph": 44,
+          "start": 485.79,
+          "end": 494.75,
+          "text": "Descriptive statistics first, the median against the mean, the decision chart for choosing a test, multiple comparisons, and reverse inference."
         },
         {
           "index": 58,
-          "paragraph": 43,
-          "start": 490.867,
-          "end": 496.435,
-          "text": "(Steps 01, 02, 06, 07, 08, 09, and 10)"
+          "paragraph": 45,
+          "start": 495.45,
+          "end": 504.026,
+          "text": "Its definition of a p value is a common simplification, and its chart has no branch for ranks, paired proportions, or mixed models."
         },
         {
           "index": 59,
-          "paragraph": 44,
-          "start": 497.135,
-          "end": 499.013,
-          "text": "Creating Excel Pivot Tables."
+          "paragraph": 45,
+          "start": 504.376,
+          "end": 509.944,
+          "text": "(Steps 01, 02, 06, 07, 08, 09, and 10)"
         },
         {
           "index": 60,
-          "paragraph": 44,
-          "start": 499.363,
-          "end": 507.917,
-          "text": "Insert, then pivot table, a category in Rows and a metric in Values, and the switch from Sum to Average in Value Field Settings."
+          "paragraph": 46,
+          "start": 510.644,
+          "end": 512.521,
+          "text": "Creating Excel Pivot Tables."
         },
         {
           "index": 61,
-          "paragraph": 44,
-          "start": 508.267,
-          "end": 512.065,
-          "text": "The local P D F is titled Making Excel Pivot Tables."
+          "paragraph": 46,
+          "start": 512.871,
+          "end": 521.426,
+          "text": "Insert, then pivot table, a category in Rows and a metric in Values, and the switch from Sum to Average in Value Field Settings."
         },
         {
           "index": 62,
-          "paragraph": 44,
-          "start": 512.415,
-          "end": 514.548,
-          "text": "(Steps 07 and 08)"
+          "paragraph": 46,
+          "start": 521.776,
+          "end": 525.573,
+          "text": "The local P D F is titled Making Excel Pivot Tables."
         },
         {
           "index": 63,
-          "paragraph": 45,
-          "start": 515.248,
-          "end": 518.853,
-          "text": "Standard Methodologies: TV and Digital Ad Testing."
+          "paragraph": 46,
+          "start": 525.923,
+          "end": 528.057,
+          "text": "(Steps 07 and 08)"
         },
         {
           "index": 64,
-          "paragraph": 46,
-          "start": 519.553,
-          "end": 538.049,
-          "text": "The vendor template for ad tests: business objectives, modalities, \"N equals 30 per cell\", target videos in a clutter reel, and the key deliverables (time course of emotional response, attention heatmaps, percent time of facial expressions); no metric names and no statistics."
+          "paragraph": 47,
+          "start": 528.757,
+          "end": 532.362,
+          "text": "Standard Methodologies: TV and Digital Ad Testing."
         },
         {
           "index": 65,
-          "paragraph": 47,
-          "start": 538.749,
-          "end": 542.184,
-          "text": "(Steps 01, 06, 09, and 10)"
+          "paragraph": 48,
+          "start": 533.062,
+          "end": 551.558,
+          "text": "The vendor template for ad tests: business objectives, modalities, \"N equals 30 per cell\", target videos in a clutter reel, and the key deliverables (time course of emotional response, attention heatmaps, percent time of facial expressions); no metric names and no statistics."
         },
         {
           "index": 66,
-          "paragraph": 48,
-          "start": 542.884,
-          "end": 547.023,
-          "text": "Statistical Analysis [Which Test To Use] (iMotions website)."
+          "paragraph": 49,
+          "start": 552.258,
+          "end": 555.693,
+          "text": "(Steps 01, 06, 09, and 10)"
         },
         {
           "index": 67,
-          "paragraph": 48,
-          "start": 547.373,
-          "end": 555.949,
-          "text": "The vendor's guide to choosing a statistical test; a companion to the decision chart of General Data Analysis and Interpretation."
+          "paragraph": 50,
+          "start": 556.393,
+          "end": 560.531,
+          "text": "Statistical Analysis [Which Test To Use] (iMotions website)."
         },
         {
           "index": 68,
-          "paragraph": 49,
-          "start": 556.649,
-          "end": 558.867,
-          "text": "Why Are Citations Important In Science?"
+          "paragraph": 50,
+          "start": 560.881,
+          "end": 569.457,
+          "text": "The vendor's guide to choosing a statistical test; a companion to the decision chart of General Data Analysis and Interpretation."
         },
         {
           "index": 69,
-          "paragraph": 49,
-          "start": 559.217,
-          "end": 560.54,
-          "text": "(iMotions website)."
+          "paragraph": 51,
+          "start": 570.157,
+          "end": 572.376,
+          "text": "Why Are Citations Important In Science?"
         },
         {
           "index": 70,
-          "paragraph": 49,
-          "start": 560.89,
-          "end": 569.658,
-          "text": "The vendor's citation format for the software: iMotions (version number), iMotions A/S, Copenhagen, Denmark, (year)."
+          "paragraph": 51,
+          "start": 572.726,
+          "end": 574.049,
+          "text": "(iMotions website)."
         },
         {
           "index": 71,
-          "paragraph": 50,
-          "start": 570.358,
-          "end": 574.39,
-          "text": "What is New (iMotions Lab 11) (iMotions website)."
+          "paragraph": 51,
+          "start": 574.399,
+          "end": 583.167,
+          "text": "The vendor's citation format for the software: iMotions (version number), iMotions A/S, Copenhagen, Denmark, (year)."
         },
         {
           "index": 72,
-          "paragraph": 50,
-          "start": 574.74,
-          "end": 578.964,
-          "text": "The vendor's page on the features of Lab 11, the dashboard among them."
+          "paragraph": 52,
+          "start": 583.867,
+          "end": 587.899,
+          "text": "What is New (iMotions Lab 11) (iMotions website)."
         },
         {
           "index": 73,
-          "paragraph": 51,
-          "start": 579.664,
-          "end": 585.253,
-          "text": "Local copies of the articles above, for the moments at the lab computer when you cannot sign in."
+          "paragraph": 52,
+          "start": 588.249,
+          "end": 592.473,
+          "text": "The vendor's page on the features of Lab 11, the dashboard among them."
         },
         {
           "index": 74,
-          "paragraph": 51,
-          "start": 585.603,
-          "end": 591.321,
-          "text": "Four are new with this workshop; eleven were already listed in earlier workshops and are marked so."
+          "paragraph": 53,
+          "start": 593.173,
+          "end": 598.762,
+          "text": "Local copies of the articles above, for the moments at the lab computer when you cannot sign in."
         },
         {
           "index": 75,
-          "paragraph": 52,
-          "start": 592.021,
-          "end": 608.447,
-          "text": "How to Make Your Own Visualizations dot P D F has no page in the help center and exists only as a P D F. Several local titles drop the punctuation of the online title or use another title; where the online title differs, it is given."
+          "paragraph": 53,
+          "start": 599.112,
+          "end": 604.829,
+          "text": "Four are new with this workshop; eleven were already listed in earlier workshops and are marked so."
         },
         {
           "index": 76,
-          "paragraph": 53,
-          "start": 609.147,
-          "end": 617.574,
-          "text": "Analysis Overview dot P D F. Creating an analysis, the four wizard pages, and the R notebooks it lists (6 pages)."
+          "paragraph": 54,
+          "start": 605.529,
+          "end": 621.956,
+          "text": "How to Make Your Own Visualizations dot P D F has no page in the help center and exists only as a P D F. Several local titles drop the punctuation of the online title or use another title; where the online title differs, it is given."
         },
         {
           "index": 77,
-          "paragraph": 54,
-          "start": 618.274,
-          "end": 630.562,
-          "text": "Replay and Analysis Windows dot P D F. The Replay, Aggregate, and A O I windows, and the A O I Metrics panel (11 pages); already listed in earlier workshops."
+          "paragraph": 55,
+          "start": 622.656,
+          "end": 631.083,
+          "text": "Analysis Overview dot P D F. Creating an analysis, the four wizard pages, and the R notebooks it lists (6 pages)."
         },
         {
           "index": 78,
-          "paragraph": 55,
-          "start": 631.262,
-          "end": 643.827,
-          "text": "Aggregate Replay dot P D F. Access at the analysis level, panels, aggregated signals, stimulus annotations, and exports (10 pages); already listed in earlier workshops."
+          "paragraph": 56,
+          "start": 631.783,
+          "end": 644.071,
+          "text": "Replay and Analysis Windows dot P D F. The Replay, Aggregate, and A O I windows, and the A O I Metrics panel (11 pages); already listed in earlier workshops."
         },
         {
           "index": 79,
-          "paragraph": 56,
-          "start": 644.527,
-          "end": 654.49,
-          "text": "Heatmaps dot P D F. Static and dynamic heatmaps, their settings, and individual heatmaps (6 pages); already listed in earlier workshops."
+          "paragraph": 57,
+          "start": 644.771,
+          "end": 657.336,
+          "text": "Aggregate Replay dot P D F. Access at the analysis level, panels, aggregated signals, stimulus annotations, and exports (10 pages); already listed in earlier workshops."
         },
         {
           "index": 80,
-          "paragraph": 57,
-          "start": 655.19,
-          "end": 667.051,
-          "text": "Basic Heatmap Explanation and Generation dot P D F. The paint by numbers explanation and the quartile scale (7 pages); already listed in earlier workshops."
+          "paragraph": 58,
+          "start": 658.036,
+          "end": 667.999,
+          "text": "Heatmaps dot P D F. Static and dynamic heatmaps, their settings, and individual heatmaps (6 pages); already listed in earlier workshops."
         },
         {
           "index": 81,
-          "paragraph": 58,
-          "start": 667.751,
-          "end": 680.679,
-          "text": "Scan Paths dot P D F. Static and dynamic scan paths and their settings (7 pages); online title: Scan Paths and Individual Heatmaps; already listed in earlier workshops."
+          "paragraph": 59,
+          "start": 668.699,
+          "end": 680.56,
+          "text": "Basic Heatmap Explanation and Generation dot P D F. The paint by numbers explanation and the quartile scale (7 pages); already listed in earlier workshops."
         },
         {
           "index": 82,
-          "paragraph": 59,
-          "start": 681.379,
-          "end": 690.659,
-          "text": "Emotional Heatmap dot P D F. Requirements, settings, and the missing data error (6 pages); already listed in earlier workshops."
+          "paragraph": 60,
+          "start": 681.26,
+          "end": 694.188,
+          "text": "Scan Paths dot P D F. Static and dynamic scan paths and their settings (7 pages); online title: Scan Paths and Individual Heatmaps; already listed in earlier workshops."
         },
         {
           "index": 83,
-          "paragraph": 60,
-          "start": 691.359,
-          "end": 700.895,
-          "text": "A O I Metrics dot P D F. The 48 A O I metrics and their definitions (6 pages); already listed in earlier workshops."
+          "paragraph": 61,
+          "start": 694.888,
+          "end": 704.168,
+          "text": "Emotional Heatmap dot P D F. Requirements, settings, and the missing data error (6 pages); already listed in earlier workshops."
         },
         {
           "index": 84,
-          "paragraph": 61,
-          "start": 701.595,
-          "end": 715.889,
-          "text": "R Notebook Raw Data Aggregation dot P D F. The aggregated mean signal and the Falloff curve (6 pages); online title: R Notebook: Raw Data Aggregation; already listed in earlier workshops."
+          "paragraph": 62,
+          "start": 704.868,
+          "end": 714.404,
+          "text": "A O I Metrics dot P D F. The 48 A O I metrics and their definitions (6 pages); already listed in earlier workshops."
         },
         {
           "index": 85,
-          "paragraph": 62,
-          "start": 716.589,
-          "end": 728.173,
-          "text": "R Notebook Epoching dot P D F. G S R pre-processing, the two epoching methods, and the exported file (11 pages); already listed in earlier workshops."
+          "paragraph": 63,
+          "start": 715.104,
+          "end": 729.397,
+          "text": "R Notebook Raw Data Aggregation dot P D F. The aggregated mean signal and the Falloff curve (6 pages); online title: R Notebook: Raw Data Aggregation; already listed in earlier workshops."
         },
         {
           "index": 86,
-          "paragraph": 63,
-          "start": 728.873,
-          "end": 737.598,
-          "text": "iMotions Reports dot P D F. The Reports window, the Html report of a notebook, and troubleshooting (4 pages)."
+          "paragraph": 64,
+          "start": 730.097,
+          "end": 741.681,
+          "text": "R Notebook Epoching dot P D F. G S R pre-processing, the two epoching methods, and the exported file (11 pages); already listed in earlier workshops."
         },
         {
           "index": 87,
-          "paragraph": 64,
-          "start": 738.298,
-          "end": 750.65,
-          "text": "How to Make Your Own Visualizations dot P D F. A pivot table and an emotional circumplex scatter chart from the single multi-modal export (6 pages); no help center page."
+          "paragraph": 65,
+          "start": 742.381,
+          "end": 751.107,
+          "text": "iMotions Reports dot P D F. The Reports window, the Html report of a notebook, and troubleshooting (4 pages)."
         },
         {
           "index": 88,
-          "paragraph": 65,
-          "start": 751.35,
-          "end": 765.131,
-          "text": "General Data Analysis and Interpretation dot P D F. Descriptive statistics, the decision chart, multiple comparisons, and reverse inference (7 pages); already listed in earlier workshops."
+          "paragraph": 66,
+          "start": 751.807,
+          "end": 764.159,
+          "text": "How to Make Your Own Visualizations dot P D F. A pivot table and an emotional circumplex scatter chart from the single multi-modal export (6 pages); no help center page."
         },
         {
           "index": 89,
-          "paragraph": 66,
-          "start": 765.831,
-          "end": 780.551,
-          "text": "Making Excel Pivot Tables dot P D F. PivotTables from an A O I export and the switch from Sum to Average (8 pages); online title: Creating Excel Pivot Tables; already listed in earlier workshops."
+          "paragraph": 67,
+          "start": 764.859,
+          "end": 778.64,
+          "text": "General Data Analysis and Interpretation dot P D F. Descriptive statistics, the decision chart, multiple comparisons, and reverse inference (7 pages); already listed in earlier workshops."
         },
         {
           "index": 90,
-          "paragraph": 67,
-          "start": 781.251,
-          "end": 797.742,
-          "text": "Standard Methodologies TV and Digital Ad Testing dot P D F. The vendor's ad testing template; the page is an image without a text layer (3 pages); online title: Standard Methodologies: TV and Digital Ad Testing."
+          "paragraph": 68,
+          "start": 779.34,
+          "end": 794.06,
+          "text": "Making Excel Pivot Tables dot P D F. PivotTables from an A O I export and the switch from Sum to Average (8 pages); online title: Creating Excel Pivot Tables; already listed in earlier workshops."
         },
         {
           "index": 91,
-          "paragraph": 68,
-          "start": 798.442,
-          "end": 814.847,
-          "text": "Five of the six vendor sample report files in the lab folder (four reports and the vendor's list of sample reports) are not posted here, because some of their pages show faces, name real brands and companies, or list the contact details of vendor staff."
+          "paragraph": 69,
+          "start": 794.76,
+          "end": 811.251,
+          "text": "Standard Methodologies TV and Digital Ad Testing dot P D F. The vendor's ad testing template; the page is an image without a text layer (3 pages); online title: Standard Methodologies: TV and Digital Ad Testing."
         },
         {
           "index": 92,
-          "paragraph": 69,
-          "start": 815.547,
-          "end": 822.374,
-          "text": "The figures in this workshop are single slides from four of the reports, with any face hidden, used with permission."
+          "paragraph": 70,
+          "start": 811.951,
+          "end": 828.356,
+          "text": "Five of the six vendor sample report files in the lab folder (four reports and the vendor's list of sample reports) are not posted here, because some of their pages show faces, name real brands and companies, or list the contact details of vendor staff."
         },
         {
           "index": 93,
-          "paragraph": 69,
-          "start": 822.724,
-          "end": 832.793,
-          "text": "The full reports are in the lab folder (C:\\JaxState Behavior Lab, folder iMotion Manual\\1Printed); ask the instructor."
+          "paragraph": 71,
+          "start": 829.056,
+          "end": 835.883,
+          "text": "The figures in this workshop are single slides from four of the reports, with any face hidden, used with permission."
         },
         {
           "index": 94,
-          "paragraph": 70,
-          "start": 833.493,
-          "end": 844.907,
-          "text": "They are vendor deliverables made for teaching and sales: they show the structure and the visuals of a client report, and they are not evidence for any claim about advertising or product effects."
+          "paragraph": 71,
+          "start": 836.233,
+          "end": 846.302,
+          "text": "The full reports are in the lab folder (C:\\JaxState Behavior Lab, folder iMotion Manual\\1Printed); ask the instructor."
         },
         {
           "index": 95,
-          "paragraph": 70,
-          "start": 845.257,
-          "end": 847.795,
-          "text": "In class, refer to them by title only."
+          "paragraph": 72,
+          "start": 847.002,
+          "end": 858.415,
+          "text": "They are vendor deliverables made for teaching and sales: they show the structure and the visuals of a client report, and they are not evidence for any claim about advertising or product effects."
         },
         {
           "index": 96,
-          "paragraph": 71,
-          "start": 848.495,
-          "end": 850.309,
-          "text": "Food Testing Sample Report."
+          "paragraph": 72,
+          "start": 858.765,
+          "end": 861.304,
+          "text": "In class, refer to them by title only."
         },
         {
           "index": 97,
-          "paragraph": 72,
-          "start": 851.009,
-          "end": 865.409,
-          "text": "Four food samples measured with G S R, E E G, and a survey (N equals 10); a circumplex sorts the samples into \"Exciting\", \"Boring\", and \"Aversive\" although the report says the sample is too small for it."
+          "paragraph": 73,
+          "start": 862.004,
+          "end": 863.817,
+          "text": "Food Testing Sample Report."
         },
         {
           "index": 98,
-          "paragraph": 72,
-          "start": 865.759,
-          "end": 868.041,
-          "text": "In the lab folder; ask the instructor."
+          "paragraph": 74,
+          "start": 864.517,
+          "end": 878.917,
+          "text": "Four food samples measured with G S R, E E G, and a survey (N equals 10); a circumplex sorts the samples into \"Exciting\", \"Boring\", and \"Aversive\" although the report says the sample is too small for it."
         },
         {
           "index": 99,
-          "paragraph": 73,
-          "start": 868.741,
-          "end": 882.8,
-          "text": "In-Store Shopper Sample Report 2020 dot P D F. Two shelf layouts with eye tracking glasses (N equals 15); A O I cards with order noticed, time to first notice, and percent to notice."
+          "paragraph": 74,
+          "start": 879.267,
+          "end": 881.55,
+          "text": "In the lab folder; ask the instructor."
         },
         {
           "index": 100,
-          "paragraph": 74,
-          "start": 883.5,
-          "end": 888.108,
-          "text": "Workshop 1 uses this report, so it is on the Manuals page of this site."
+          "paragraph": 75,
+          "start": 882.25,
+          "end": 896.309,
+          "text": "In-Store Shopper Sample Report 2020 dot P D F. Two shelf layouts with eye tracking glasses (N equals 15); A O I cards with order noticed, time to first notice, and percent to notice."
         },
         {
           "index": 101,
-          "paragraph": 75,
-          "start": 888.808,
-          "end": 896.339,
-          "text": "Soft Drink Report (2017; 36 pages; its title page reads Soft Drink Comparison)."
+          "paragraph": 76,
+          "start": 897.009,
+          "end": 901.617,
+          "text": "Workshop 1 uses this report, so it is on the Manuals page of this site."
         },
         {
           "index": 102,
-          "paragraph": 75,
-          "start": 896.689,
-          "end": 906.203,
-          "text": "Six drinks measured with facial expressions and a survey; the ranking slide of Exercise 2, and the only sample report with inferential output."
+          "paragraph": 77,
+          "start": 902.317,
+          "end": 909.847,
+          "text": "Soft Drink Report (2017; 36 pages; its title page reads Soft Drink Comparison)."
         },
         {
           "index": 103,
-          "paragraph": 76,
-          "start": 906.903,
-          "end": 909.186,
-          "text": "In the lab folder; ask the instructor."
+          "paragraph": 77,
+          "start": 910.197,
+          "end": 919.712,
+          "text": "Six drinks measured with facial expressions and a survey; the ranking slide of Exercise 2, and the only sample report with inferential output."
         },
         {
           "index": 104,
-          "paragraph": 77,
-          "start": 909.886,
-          "end": 912.382,
-          "text": "UX Web Usability Sample Report."
+          "paragraph": 78,
+          "start": 920.412,
+          "end": 922.695,
+          "text": "In the lab folder; ask the instructor."
         },
         {
           "index": 105,
-          "paragraph": 77,
-          "start": 912.732,
-          "end": 920.433,
-          "text": "Three websites and three tasks (N equals 10) with G S R, facial expression, eye tracking, and ease ratings."
+          "paragraph": 79,
+          "start": 923.395,
+          "end": 925.891,
+          "text": "UX Web Usability Sample Report."
         },
         {
           "index": 106,
-          "paragraph": 77,
-          "start": 920.783,
-          "end": 923.066,
-          "text": "In the lab folder; ask the instructor."
+          "paragraph": 79,
+          "start": 926.241,
+          "end": 933.942,
+          "text": "Three websites and three tasks (N equals 10) with G S R, facial expression, eye tracking, and ease ratings."
         },
         {
           "index": 107,
-          "paragraph": 78,
-          "start": 923.766,
-          "end": 925.579,
-          "text": "Website UX Sample Report."
+          "paragraph": 79,
+          "start": 934.292,
+          "end": 936.575,
+          "text": "In the lab folder; ask the instructor."
         },
         {
           "index": 108,
-          "paragraph": 78,
-          "start": 925.929,
-          "end": 934.953,
-          "text": "A current and a new website, 15 people each; hit time, dwell time, revisits, and a brow furrow measure read in two opposite directions."
+          "paragraph": 80,
+          "start": 937.275,
+          "end": 939.088,
+          "text": "Website UX Sample Report."
         },
         {
           "index": 109,
-          "paragraph": 79,
-          "start": 935.653,
-          "end": 937.936,
-          "text": "In the lab folder; ask the instructor."
+          "paragraph": 80,
+          "start": 939.438,
+          "end": 948.462,
+          "text": "A current and a new website, 15 people each; hit time, dwell time, revisits, and a brow furrow measure read in two opposite directions."
         },
         {
           "index": 110,
-          "paragraph": 80,
-          "start": 938.636,
-          "end": 942.092,
-          "text": "Standard Methodology Sample Reports (4 pages)."
-        },
-        {
-          "index": 111,
-          "paragraph": 80,
-          "start": 942.442,
-          "end": 953.087,
-          "text": "The vendor's list of nine sample reports with one line on each; four of the nine (Static Image, Sensory, Fatigue, and Logo Testing) are not in the lab folder."
-        },
-        {
-          "index": 112,
           "paragraph": 81,
-          "start": 953.787,
-          "end": 956.07,
+          "start": 949.162,
+          "end": 951.445,
           "text": "In the lab folder; ask the instructor."
         },
         {
-          "index": 113,
+          "index": 111,
           "paragraph": 82,
-          "start": 956.77,
-          "end": 960.845,
-          "text": "Only videos listed in the lab's verified vendor index appear here."
+          "start": 952.145,
+          "end": 955.601,
+          "text": "Standard Methodology Sample Reports (4 pages)."
+        },
+        {
+          "index": 112,
+          "paragraph": 82,
+          "start": 955.951,
+          "end": 966.596,
+          "text": "The vendor's list of nine sample reports with one line on each; four of the nine (Static Image, Sensory, Fatigue, and Logo Testing) are not in the lab folder."
+        },
+        {
+          "index": 113,
+          "paragraph": 83,
+          "start": 967.296,
+          "end": 969.579,
+          "text": "In the lab folder; ask the instructor."
         },
         {
           "index": 114,
-          "paragraph": 83,
-          "start": 961.545,
-          "end": 969.225,
-          "text": "Four of them fit analysis and reporting; the index lists no video about statistics, figures, or client reports."
+          "paragraph": 84,
+          "start": 970.279,
+          "end": 974.353,
+          "text": "Only videos listed in the lab's verified vendor index appear here."
         },
         {
           "index": 115,
-          "paragraph": 84,
-          "start": 969.925,
-          "end": 981.317,
-          "text": "None is listed as showing iMotions Lab 11 point 1 step by step, and the index gives no length for any of them, so use them for the idea and the lab computer for the labels."
+          "paragraph": 85,
+          "start": 975.053,
+          "end": 982.733,
+          "text": "Four of them fit analysis and reporting; the index lists no video about statistics, figures, or client reports."
         },
         {
           "index": 116,
-          "paragraph": 85,
-          "start": 982.017,
-          "end": 985.067,
-          "text": "iMotions 11 - New Features (iMotions)."
+          "paragraph": 86,
+          "start": 983.433,
+          "end": 994.825,
+          "text": "None is listed as showing iMotions Lab 11 point 1 step by step, and the index gives no length for any of them, so use them for the idea and the lab computer for the labels."
         },
         {
           "index": 117,
-          "paragraph": 85,
-          "start": 985.417,
-          "end": 998.004,
-          "text": "An overview of iMotions Lab 11, including the data visualization dashboard and the multi-stimulus replay; the only video in the index that shows the Dashboard (section 04)."
+          "paragraph": 87,
+          "start": 995.525,
+          "end": 998.576,
+          "text": "iMotions 11 - New Features (iMotions)."
         },
         {
           "index": 118,
-          "paragraph": 86,
-          "start": 998.704,
-          "end": 1003.248,
-          "text": "iMotions 8.1 - Data Reports from R Notebooks (iMotions)."
+          "paragraph": 87,
+          "start": 998.926,
+          "end": 1011.513,
+          "text": "An overview of iMotions Lab 11, including the data visualization dashboard and the multi-stimulus replay; the only video in the index that shows the Dashboard (section 04)."
         },
         {
           "index": 119,
-          "paragraph": 86,
-          "start": 1003.598,
-          "end": 1010.958,
-          "text": "Generating data reports from the built-in R Notebooks, the reports behind the Reports button (section 05)."
+          "paragraph": 88,
+          "start": 1012.213,
+          "end": 1016.757,
+          "text": "iMotions 8.1 - Data Reports from R Notebooks (iMotions)."
         },
         {
           "index": 120,
-          "paragraph": 87,
-          "start": 1011.658,
-          "end": 1020.895,
-          "text": "iMotions Lab R Notebooks: Sensor data analysis and visualization (iMotions webinar, recording embedded on the vendor's page)."
+          "paragraph": 88,
+          "start": 1017.107,
+          "end": 1024.467,
+          "text": "Generating data reports from the built-in R Notebooks, the reports behind the Reports button (section 05)."
         },
         {
           "index": 121,
-          "paragraph": 88,
-          "start": 1021.595,
-          "end": 1031.281,
-          "text": "How the built-in R Notebooks process facial expression, eye tracking, skin conductance, heart rate, and E E G data (section 05)."
+          "paragraph": 89,
+          "start": 1025.167,
+          "end": 1034.404,
+          "text": "iMotions Lab R Notebooks: Sensor data analysis and visualization (iMotions webinar, recording embedded on the vendor's page)."
         },
         {
           "index": 122,
-          "paragraph": 89,
-          "start": 1031.981,
-          "end": 1038.551,
-          "text": "Auswertung eines Eyetracking und Emotionstest mit iMotions (Fachhochschule Westküste; in German)."
+          "paragraph": 90,
+          "start": 1035.104,
+          "end": 1044.789,
+          "text": "How the built-in R Notebooks process facial expression, eye tracking, skin conductance, heart rate, and E E G data (section 05)."
         },
         {
           "index": 123,
-          "paragraph": 90,
-          "start": 1039.251,
-          "end": 1053.225,
-          "text": "A university's walkthrough of analyzing an eye tracking and facial expression study in iMotions; listed in the vendor index as a third party video, useful only to those who follow German (section 04)."
+          "paragraph": 91,
+          "start": 1045.489,
+          "end": 1052.06,
+          "text": "Auswertung eines Eyetracking und Emotionstest mit iMotions (Fachhochschule Westküste; in German)."
         },
         {
           "index": 124,
-          "paragraph": 91,
-          "start": 1053.925,
-          "end": 1063.482,
-          "text": "The 50 sources this workshop draws on, in A P A style, grouped by topic as in the lab's reading list, each with a note on how the workshop uses it."
+          "paragraph": 92,
+          "start": 1052.76,
+          "end": 1066.733,
+          "text": "A university's walkthrough of analyzing an eye tracking and facial expression study in iMotions; listed in the vendor index as a third party video, useful only to those who follow German (section 04)."
         },
         {
           "index": 125,
-          "paragraph": 92,
-          "start": 1064.182,
-          "end": 1086.155,
-          "text": "New entries were checked on October 11, 2026 against the publisher, repository, library, or index pages named in the reading list (references dot M D under (e)); the 14 entries reused from the Workshop 2, 3, 5, and 7 lists keep their earlier checks; and fields that no page showed are left blank rather than guessed."
+          "paragraph": 93,
+          "start": 1067.433,
+          "end": 1076.991,
+          "text": "The 50 sources this workshop draws on, in A P A style, grouped by topic as in the lab's reading list, each with a note on how the workshop uses it."
         },
         {
           "index": 126,
-          "paragraph": 93,
-          "start": 1086.855,
-          "end": 1095.239,
-          "text": "Where an entry has a D O I, the link opens it, and zotero dot R I S under (e) imports all 50 into Zotero."
+          "paragraph": 94,
+          "start": 1077.691,
+          "end": 1099.664,
+          "text": "New entries were checked on October 11, 2026 against the publisher, repository, library, or index pages named in the reading list (references dot M D under (e)); the 14 entries reused from the Workshop 2, 3, 5, and 7 lists keep their earlier checks; and fields that no page showed are left blank rather than guessed."
         },
         {
           "index": 127,
-          "paragraph": 94,
-          "start": 1095.939,
-          "end": 1105.795,
-          "text": "Crossref could not be queried, so retraction and correction status was checked only on the pages that were read; no retraction notice appeared for any entry."
+          "paragraph": 95,
+          "start": 1100.364,
+          "end": 1108.748,
+          "text": "Where an entry has a D O I, the link opens it, and zotero dot R I S under (e) imports all 50 into Zotero."
         },
         {
           "index": 128,
-          "paragraph": 95,
-          "start": 1106.495,
-          "end": 1131.562,
-          "text": "Two corrections were found and are linked in their notes: Button and colleagues (2013) has an Erratum that corrects the definition of R, the pre-study odds, on page 366, and Franconeri and colleagues (2021) has a Corrigendum (2022) that replaces Figures 5 and 23 and revises the text and caption of Figure 20; read each with its article."
+          "paragraph": 96,
+          "start": 1109.448,
+          "end": 1119.304,
+          "text": "Crossref could not be queried, so retraction and correction status was checked only on the pages that were read; no retraction notice appeared for any entry."
         },
         {
           "index": 129,
-          "paragraph": 96,
-          "start": 1132.262,
-          "end": 1138.641,
-          "text": "The raincloud plot article (Allen and colleagues) is cited in version 2 (2021)."
+          "paragraph": 97,
+          "start": 1120.004,
+          "end": 1145.071,
+          "text": "Two corrections were found and are linked in their notes: Button and colleagues (2013) has an Erratum that corrects the definition of R, the pre-study odds, on page 366, and Franconeri and colleagues (2021) has a Corrigendum (2022) that replaces Figures 5 and 23 and revises the text and caption of Figure 20; read each with its article."
         },
         {
           "index": 130,
-          "paragraph": 96,
-          "start": 1138.991,
-          "end": 1145.817,
-          "text": "Holm (1979) has no D O I, so its link is the Jstor stable U R L."
+          "paragraph": 98,
+          "start": 1145.771,
+          "end": 1152.149,
+          "text": "The raincloud plot article (Allen and colleagues) is cited in version 2 (2021)."
         },
         {
           "index": 131,
-          "paragraph": 97,
-          "start": 1146.517,
-          "end": 1169.472,
-          "text": "Some fields rest on secondary sources, as each note says; published titles keep their own capitalization (P values, p-values, harking, L M E 4, L M E R test, G G plot 2, G*Power); and the iMotions entry follows the vendor's published citation format, not the A P A 7 software form, which its note gives."
+          "paragraph": 98,
+          "start": 1152.499,
+          "end": 1159.326,
+          "text": "Holm (1979) has no D O I, so its link is the Jstor stable U R L."
         },
         {
           "index": 132,
-          "paragraph": 98,
-          "start": 1170.172,
-          "end": 1183.335,
-          "text": "Every file is simulated teaching data, computed from the simulated Multimodal Ad Study of Workshop 7 (generated with seed 20271231)."
+          "paragraph": 99,
+          "start": 1160.026,
+          "end": 1182.981,
+          "text": "Some fields rest on secondary sources, as each note says; published titles keep their own capitalization (P values, p-values, harking, L M E 4, L M E R test, G G plot 2, G*Power); and the iMotions entry follows the vendor's published citation format, not the A P A 7 software form, which its note gives."
         },
         {
           "index": 133,
-          "paragraph": 99,
-          "start": 1184.035,
-          "end": 1204.237,
-          "text": "No person was recorded, no camera or sensor was switched on, and no file from a lab study was used; participants carry codes (P 01 to P 24) only, Altavo and Brenlow are invented brands, the Altavo brand team is a fictional client, and none of these numbers may be quoted as findings."
+          "paragraph": 100,
+          "start": 1183.681,
+          "end": 1196.843,
+          "text": "Every file is simulated teaching data, computed from the simulated Multimodal Ad Study of Workshop 7 (generated with seed 20271231)."
         },
         {
           "index": 134,
-          "paragraph": 100,
-          "start": 1204.937,
-          "end": 1209.46,
-          "text": "The C S V files start with one hash sign simulated Data line."
+          "paragraph": 101,
+          "start": 1197.543,
+          "end": 1217.746,
+          "text": "No person was recorded, no camera or sensor was switched on, and no file from a lab study was used; participants carry codes (P 01 to P 24) only, Altavo and Brenlow are invented brands, the Altavo brand team is a fictional client, and none of these numbers may be quoted as findings."
         },
         {
           "index": 135,
-          "paragraph": 100,
-          "start": 1209.81,
-          "end": 1221.906,
-          "text": "analysis full dot R reads the Workshop 7 files from ws7 inputs/, byte identical copies of the five files it needs, so you can start here without Workshop 7."
+          "paragraph": 102,
+          "start": 1218.446,
+          "end": 1222.969,
+          "text": "The C S V files start with one hash sign simulated Data line."
         },
         {
           "index": 136,
-          "paragraph": 101,
-          "start": 1222.606,
-          "end": 1225.785,
-          "text": "Keep the originals read only and work on copies."
+          "paragraph": 102,
+          "start": 1223.319,
+          "end": 1235.415,
+          "text": "analysis full dot R reads the Workshop 7 files from ws7 inputs/, byte identical copies of the five files it needs, so you can start here without Workshop 7."
         },
         {
           "index": 137,
-          "paragraph": 102,
-          "start": 1226.485,
-          "end": 1227.722,
-          "text": "read me dot M D."
+          "paragraph": 103,
+          "start": 1236.115,
+          "end": 1239.293,
+          "text": "Keep the originals read only and work on copies."
         },
         {
           "index": 138,
-          "paragraph": 103,
-          "start": 1228.422,
-          "end": 1244.849,
-          "text": "The simulated study, the continuity rule (section 1), the files (section 2), how to run the scripts (section 3), the analysis at a glance (section 4), five things that look like errors but are not (section 5), and the items to verify (section 6)."
+          "paragraph": 104,
+          "start": 1239.993,
+          "end": 1241.231,
+          "text": "read me dot M D."
         },
         {
           "index": 139,
-          "paragraph": 104,
-          "start": 1245.549,
-          "end": 1246.935,
-          "text": "analysis full dot R."
+          "paragraph": 105,
+          "start": 1241.931,
+          "end": 1258.357,
+          "text": "The simulated study, the continuity rule (section 1), the files (section 2), how to run the scripts (section 3), the analysis at a glance (section 4), five things that look like errors but are not (section 5), and the items to verify (section 6)."
         },
         {
           "index": 140,
-          "paragraph": 105,
-          "start": 1247.635,
-          "end": 1269.801,
-          "text": "The full analysis in Step blocks 0 to 11 plus 6B: the codebook checks, the analysis plan, the descriptive statistics, H 1 to H 3 reproduced from Workshop 7 (the continuity check), Q 4 to Q 6 , the order checks, the exploratory correlations, the sensitivity power analysis, the figures, and the summary of all tests."
+          "paragraph": 106,
+          "start": 1259.057,
+          "end": 1260.444,
+          "text": "analysis full dot R."
         },
         {
           "index": 141,
-          "paragraph": 106,
-          "start": 1270.501,
-          "end": 1281.914,
-          "text": "analysis output dot T X T. The full console log of analysis full dot R; every simulated number quoted in sections 00 to 10 comes from it."
+          "paragraph": 107,
+          "start": 1261.144,
+          "end": 1283.309,
+          "text": "The full analysis in Step blocks 0 to 11 plus 6B: the codebook checks, the analysis plan, the descriptive statistics, H 1 to H 3 reproduced from Workshop 7 (the continuity check), Q 4 to Q 6 , the order checks, the exploratory correlations, the sensitivity power analysis, the figures, and the summary of all tests."
         },
         {
           "index": 142,
-          "paragraph": 107,
-          "start": 1282.614,
-          "end": 1294.539,
-          "text": "simulated analysis plan dot C S V. The analysis plan: id, family, question, measures, test, correction, and status for H 1 to P 1 (11 rows)."
+          "paragraph": 108,
+          "start": 1284.009,
+          "end": 1295.423,
+          "text": "analysis output dot T X T. The full console log of analysis full dot R; every simulated number quoted in sections 00 to 10 comes from it."
         },
         {
           "index": 143,
-          "paragraph": 108,
-          "start": 1295.239,
-          "end": 1309.042,
-          "text": "simulated descriptives dot C S V. Table 1: n, mean, standard deviation, median, quartiles, I Q R, minimum, maximum, and percent at zero for every modality by stimulus."
+          "paragraph": 109,
+          "start": 1296.123,
+          "end": 1308.048,
+          "text": "simulated analysis plan dot C S V. The analysis plan: id, family, question, measures, test, correction, and status for H 1 to P 1 (11 rows)."
         },
         {
           "index": 144,
-          "paragraph": 109,
-          "start": 1309.742,
-          "end": 1327.278,
-          "text": "simulated all tests dot C S V. Every test and estimate (59 rows): family, status, statistic, df, p, the Holm p and its family, the effect size with its 95 percent confidence interval, means, SDs, and the Wilcoxon check."
+          "paragraph": 110,
+          "start": 1308.748,
+          "end": 1322.551,
+          "text": "simulated descriptives dot C S V. Table 1: n, mean, standard deviation, median, quartiles, I Q R, minimum, maximum, and percent at zero for every modality by stimulus."
         },
         {
           "index": 145,
-          "paragraph": 110,
-          "start": 1327.978,
-          "end": 1342.271,
-          "text": "simulated q4 marginal means dot C S V. The Q 4 estimated marginal means of dwell by ad and A O I, with standard error, df, and 95 percent confidence interval from the mixed model."
+          "paragraph": 111,
+          "start": 1323.251,
+          "end": 1340.787,
+          "text": "simulated all tests dot C S V. Every test and estimate (59 rows): family, status, statistic, df, p, the Holm p and its family, the effect size with its 95 percent confidence interval, means, SDs, and the Wilcoxon check."
         },
         {
           "index": 146,
-          "paragraph": 111,
-          "start": 1342.971,
-          "end": 1352.187,
-          "text": "simulated participant level dot C S V. One row per participant with the seven measures of the exploratory correlation matrix."
+          "paragraph": 112,
+          "start": 1341.487,
+          "end": 1355.78,
+          "text": "simulated q4 marginal means dot C S V. The Q 4 estimated marginal means of dwell by ad and A O I, with standard error, df, and 95 percent confidence interval from the mixed model."
         },
         {
           "index": 147,
-          "paragraph": 112,
-          "start": 1352.887,
-          "end": 1364.087,
-          "text": "simulated correlations dot C S V. The 21 exploratory Spearman correlations with their 95 percent CIs; no p values by design."
+          "paragraph": 113,
+          "start": 1356.48,
+          "end": 1365.696,
+          "text": "simulated participant level dot C S V. One row per participant with the seven measures of the exploratory correlation matrix."
         },
         {
           "index": 148,
-          "paragraph": 113,
-          "start": 1364.787,
-          "end": 1381.982,
-          "text": "simulated power dot C S V. The sensitivity power analysis: the smallest detectable d z, the power for d z equals 0.30 and 0.50, the sample sizes for the next study, and the H 1 calculations."
+          "paragraph": 114,
+          "start": 1366.396,
+          "end": 1377.596,
+          "text": "simulated correlations dot C S V. The 21 exploratory Spearman correlations with their 95 percent CIs; no p values by design."
         },
         {
           "index": 149,
-          "paragraph": 114,
-          "start": 1382.682,
-          "end": 1398.213,
-          "text": "simulated power h1 simulation dot C S V. The simulated power of Fisher's exact test for H 1 by total N, from 40 to 120 in steps of 4 (4,000 simulated studies per N)."
+          "paragraph": 115,
+          "start": 1378.296,
+          "end": 1395.491,
+          "text": "simulated power dot C S V. The sensitivity power analysis: the smallest detectable d z, the power for d z equals 0.30 and 0.50, the sample sizes for the next study, and the H 1 calculations."
         },
         {
           "index": 150,
-          "paragraph": 115,
-          "start": 1398.913,
-          "end": 1415.851,
-          "text": "results text dot M D. The model paragraphs of sections 09 and 10: (a) the analysis strategy, (b) the results in A P A style, and (c) the discussion, the limitations, and what the next study needs, with sources and the items to verify."
+          "paragraph": 116,
+          "start": 1396.191,
+          "end": 1411.721,
+          "text": "simulated power h1 simulation dot C S V. The simulated power of Fisher's exact test for H 1 by total N, from 40 to 120 in steps of 4 (4,000 simulated studies per N)."
         },
         {
           "index": 151,
-          "paragraph": 116,
-          "start": 1416.551,
-          "end": 1432.231,
-          "text": "client report model dot M D. The model client report for the fictional Altavo brand team: executive summary, findings, what the results do not show, recommendations, and a methods appendix; the basis of Exercise 5."
+          "paragraph": 117,
+          "start": 1412.421,
+          "end": 1429.36,
+          "text": "results text dot M D. The model paragraphs of sections 09 and 10: (a) the analysis strategy, (b) the results in A P A style, and (c) the discussion, the limitations, and what the next study needs, with sources and the items to verify."
         },
         {
           "index": 152,
-          "paragraph": 117,
-          "start": 1432.931,
-          "end": 1443.278,
-          "text": "simulated analysis report dot X L S X. The Excel route (sheets read me, Data, A O I long, Descriptives, Pivot, Q 5 , Holm, and Check)."
+          "paragraph": 118,
+          "start": 1430.06,
+          "end": 1445.74,
+          "text": "client report model dot M D. The model client report for the fictional Altavo brand team: executive summary, findings, what the results do not show, recommendations, and a methods appendix; the basis of Exercise 5."
         },
         {
           "index": 153,
-          "paragraph": 118,
-          "start": 1443.978,
-          "end": 1452.661,
-          "text": "excel walkthrough dot M D. The Excel route step by step, with the exact sheet names and cell references used in Exercise 4."
+          "paragraph": 119,
+          "start": 1446.44,
+          "end": 1456.787,
+          "text": "simulated analysis report dot X L S X. The Excel route (sheets read me, Data, A O I long, Descriptives, Pivot, Q 5 , Holm, and Check)."
         },
         {
           "index": 154,
-          "paragraph": 119,
-          "start": 1453.361,
-          "end": 1463.942,
-          "text": "make excel workbook dot P Y. The script that builds the workbook and its walkthrough from one list of cells, verifies every formula, and compares every result with R."
+          "paragraph": 120,
+          "start": 1457.487,
+          "end": 1466.169,
+          "text": "excel walkthrough dot M D. The Excel route step by step, with the exact sheet names and cell references used in Exercise 4."
         },
         {
           "index": 155,
-          "paragraph": 120,
-          "start": 1464.642,
-          "end": 1472.215,
-          "text": "references dot M D. The reading list of (d) with the verification line of every entry and the open caveats."
+          "paragraph": 121,
+          "start": 1466.869,
+          "end": 1477.451,
+          "text": "make excel workbook dot P Y. The script that builds the workbook and its walkthrough from one list of cells, verifies every formula, and compares every result with R."
         },
         {
           "index": 156,
-          "paragraph": 121,
-          "start": 1472.915,
-          "end": 1481.641,
-          "text": "zotero dot R I S. The 50 readings of (d) in R I S format, for import into Zotero or any reference manager."
+          "paragraph": 122,
+          "start": 1478.151,
+          "end": 1485.724,
+          "text": "references dot M D. The reading list of (d) with the verification line of every entry and the open caveats."
         },
         {
           "index": 157,
-          "paragraph": 122,
-          "start": 1482.341,
-          "end": 1495.951,
-          "text": "ws7 inputs/analysis ready long dot C S V. One row per participant and stimulus (72 rows, 29 columns); include equals 1 marks the analysis sample."
+          "paragraph": 123,
+          "start": 1486.424,
+          "end": 1495.149,
+          "text": "zotero dot R I S. The 50 readings of (d) in R I S format, for import into Zotero or any reference manager."
         },
         {
           "index": 158,
-          "paragraph": 123,
-          "start": 1496.651,
-          "end": 1506.017,
-          "text": "ws7 inputs/analysis ready wide dot C S V. One row per participant (24 rows, 34 columns)."
+          "paragraph": 124,
+          "start": 1495.849,
+          "end": 1509.46,
+          "text": "ws7 inputs/analysis ready long dot C S V. One row per participant and stimulus (72 rows, 29 columns); include equals 1 marks the analysis sample."
         },
         {
           "index": 159,
-          "paragraph": 124,
-          "start": 1506.717,
-          "end": 1519.325,
-          "text": "ws7 inputs/codebook dot C S V. Every variable of the two tables with its label, source, type, units, allowed range, and missing code (57 variables)."
+          "paragraph": 125,
+          "start": 1510.16,
+          "end": 1519.525,
+          "text": "ws7 inputs/analysis ready wide dot C S V. One row per participant (24 rows, 34 columns)."
         },
         {
           "index": 160,
-          "paragraph": 125,
-          "start": 1520.025,
-          "end": 1537.369,
-          "text": "ws7 inputs/analysis output dot T X T. The console output of Workshop 7's analysis dot R; step 4 of analysis full dot R checks that its own 55 printed lines for H 1 to H 3 appear here word for word."
+          "paragraph": 126,
+          "start": 1520.225,
+          "end": 1532.833,
+          "text": "ws7 inputs/codebook dot C S V. Every variable of the two tables with its label, source, type, units, allowed range, and missing code (57 variables)."
         },
         {
           "index": 161,
-          "paragraph": 126,
-          "start": 1538.069,
-          "end": 1548.65,
-          "text": "ws7 inputs/simulated test results dot C S V. Workshop 7's nine stored tests; step 4 compares their 94 values."
+          "paragraph": 127,
+          "start": 1533.533,
+          "end": 1550.877,
+          "text": "ws7 inputs/analysis output dot T X T. The console output of Workshop 7's analysis dot R; step 4 of analysis full dot R checks that its own 55 printed lines for H 1 to H 3 appear here word for word."
         },
         {
           "index": 162,
-          "paragraph": 127,
-          "start": 1549.35,
-          "end": 1563.281,
-          "text": "simulated fig1 dwell by ad aoi dot P N G. Figure 1: gaze dwell by ad and A O I, every participant with the means and their 95 percent CIs (Q 4 ; simulated)."
+          "paragraph": 128,
+          "start": 1551.577,
+          "end": 1562.159,
+          "text": "ws7 inputs/simulated test results dot C S V. Workshop 7's nine stored tests; step 4 compares their 94 values."
         },
         {
           "index": 163,
-          "paragraph": 128,
-          "start": 1563.981,
-          "end": 1576.055,
-          "text": "simulated fig2 expressions by ad dot P N G. Figure 2: Joy, Engagement, and Brow Furrow during each ad, paired by participant (Q 5 ; simulated)."
+          "paragraph": 129,
+          "start": 1562.859,
+          "end": 1576.789,
+          "text": "simulated fig1 dwell by ad aoi dot P N G. Figure 1: gaze dwell by ad and A O I, every participant with the means and their 95 percent CIs (Q 4 ; simulated)."
         },
         {
           "index": 164,
-          "paragraph": 129,
-          "start": 1576.755,
-          "end": 1588.617,
-          "text": "simulated fig3 gsr change dot P N G. Figure 3: G S R peaks per minute, change from Baseline in each ad (H 3 and Q 6 ; simulated)."
+          "paragraph": 130,
+          "start": 1577.489,
+          "end": 1589.564,
+          "text": "simulated fig2 expressions by ad dot P N G. Figure 2: Joy, Engagement, and Brow Furrow during each ad, paired by participant (Q 5 ; simulated)."
         },
         {
           "index": 165,
-          "paragraph": 130,
-          "start": 1589.317,
-          "end": 1600.922,
-          "text": "simulated fig4 correlation matrix dot P N G. Figure 4: the exploratory correlation matrix with 95 percent CIs (E1; simulated)."
+          "paragraph": 131,
+          "start": 1590.264,
+          "end": 1602.125,
+          "text": "simulated fig3 gsr change dot P N G. Figure 3: G S R peaks per minute, change from Baseline in each ad (H 3 and Q 6 ; simulated)."
         },
         {
           "index": 166,
-          "paragraph": 131,
-          "start": 1601.622,
-          "end": 1617.323,
-          "text": "simulated fig5 client dashboard dot P N G. Figure 5: the one page client dashboard: one tile per measure with both ads' averages, 95 percent CIs, and a plain verdict from the planned test (simulated)."
+          "paragraph": 132,
+          "start": 1602.825,
+          "end": 1614.431,
+          "text": "simulated fig4 correlation matrix dot P N G. Figure 4: the exploratory correlation matrix with 95 percent CIs (E1; simulated)."
         },
         {
           "index": 167,
-          "paragraph": 132,
-          "start": 1618.023,
-          "end": 1633.746,
-          "text": "simulated assumption checks dot P N G. The assumption checks: residuals of the Q 4 model by A O I, normal Q-Q plots of the Q 4 residuals and the Q 5 differences, and the percent of values at zero (simulated)."
+          "paragraph": 133,
+          "start": 1615.131,
+          "end": 1630.832,
+          "text": "simulated fig5 client dashboard dot P N G. Figure 5: the one page client dashboard: one tile per measure with both ads' averages, 95 percent CIs, and a plain verdict from the planned test (simulated)."
         },
         {
           "index": 168,
-          "paragraph": 133,
-          "start": 1634.446,
-          "end": 1641.273,
-          "text": "These fifteen documents live in the iMotions Research Project on claude dot A I (folder lab-reference)."
+          "paragraph": 134,
+          "start": 1631.532,
+          "end": 1647.255,
+          "text": "simulated assumption checks dot P N G. The assumption checks: residuals of the Q 4 model by A O I, normal Q-Q plots of the Q 4 residuals and the Q 5 differences, and the percent of values at zero (simulated)."
         },
         {
           "index": 169,
-          "paragraph": 133,
-          "start": 1641.623,
-          "end": 1644.993,
-          "text": "They are not on this site; ask Doctor Sciuchetti for access."
+          "paragraph": 135,
+          "start": 1647.955,
+          "end": 1654.781,
+          "text": "These fifteen documents live in the iMotions Research Project on claude dot A I (folder lab-reference)."
         },
         {
           "index": 170,
-          "paragraph": 134,
-          "start": 1645.693,
-          "end": 1648.552,
-          "text": "00 Lab Inventory and Licenses."
+          "paragraph": 135,
+          "start": 1655.131,
+          "end": 1658.502,
+          "text": "They are not on this site; ask Doctor Sciuchetti for access."
         },
         {
           "index": 171,
-          "paragraph": 135,
-          "start": 1649.252,
-          "end": 1667.236,
-          "text": "What the lab owns and licenses: iMotions Lab 11 point 1 on two computers with different modules (license keys 0001 and 0002, both with the Analysis Dashboard), the sensors, and the settings confirmed on the lab computer."
+          "paragraph": 136,
+          "start": 1659.202,
+          "end": 1662.061,
+          "text": "00 Lab Inventory and Licenses."
         },
         {
           "index": 172,
-          "paragraph": 136,
-          "start": 1667.936,
-          "end": 1670.069,
-          "text": "01 Study Type Decision Guide."
+          "paragraph": 137,
+          "start": 1662.761,
+          "end": 1680.745,
+          "text": "What the lab owns and licenses: iMotions Lab 11 point 1 on two computers with different modules (license keys 0001 and 0002, both with the Analysis Dashboard), the sensors, and the settings confirmed on the lab computer."
         },
         {
           "index": 173,
-          "paragraph": 137,
-          "start": 1670.769,
-          "end": 1683.761,
-          "text": "How to go from a question to a study the lab can run; its section 8 gives the vendor's citation format and the settings every methods section must report, and its planning checklist names the client deliverable."
+          "paragraph": 138,
+          "start": 1681.445,
+          "end": 1683.578,
+          "text": "01 Study Type Decision Guide."
         },
         {
           "index": 174,
-          "paragraph": 138,
-          "start": 1684.461,
-          "end": 1686.936,
-          "text": "02a Eye Tracking Pipeline."
+          "paragraph": 139,
+          "start": 1684.278,
+          "end": 1697.27,
+          "text": "How to go from a question to a study the lab can run; its section 8 gives the vendor's citation format and the settings every methods section must report, and its planning checklist names the client deliverable."
         },
         {
           "index": 175,
-          "paragraph": 138,
-          "start": 1687.286,
-          "end": 1701.387,
-          "text": "The Aurora, the Neon glasses, and webcam eye tracking, with A O I's and the A O I exports; \"Heatmaps are qualitative; use A O I's for numbers\" and \"For statistics export Individual A O I metrics\"."
+          "paragraph": 140,
+          "start": 1697.97,
+          "end": 1700.445,
+          "text": "02a Eye Tracking Pipeline."
         },
         {
           "index": 176,
-          "paragraph": 139,
-          "start": 1702.087,
-          "end": 1704.818,
-          "text": "02b Biometrics Survey Pipeline."
+          "paragraph": 140,
+          "start": 1700.795,
+          "end": 1714.896,
+          "text": "The Aurora, the Neon glasses, and webcam eye tracking, with A O I's and the A O I exports; \"Heatmaps are qualitative; use A O I's for numbers\" and \"For statistics export Individual A O I metrics\"."
         },
         {
           "index": 177,
-          "paragraph": 140,
-          "start": 1705.518,
-          "end": 1722.99,
-          "text": "Facial expression analysis, G S R, E E G, surveys, and exports: the order of the signal processing flows, the reports to open before exporting, top 2 box for survey items, and the table that maps each research question to an export and a column."
+          "paragraph": 141,
+          "start": 1715.596,
+          "end": 1718.327,
+          "text": "02b Biometrics Survey Pipeline."
         },
         {
           "index": 178,
-          "paragraph": 141,
-          "start": 1723.69,
-          "end": 1725.354,
-          "text": "04 Where To Look Index."
+          "paragraph": 142,
+          "start": 1719.027,
+          "end": 1736.499,
+          "text": "Facial expression analysis, G S R, E E G, surveys, and exports: the order of the signal processing flows, the reports to open before exporting, top 2 box for survey items, and the table that maps each research question to an export and a column."
         },
         {
           "index": 179,
-          "paragraph": 141,
-          "start": 1725.704,
-          "end": 1742.835,
-          "text": "Every task mapped to the exact help center U R L, the local P D F under C:\\JaxState Behavior Lab, and the vendor video; its sections 2.15 and 2.16 list the analysis and reporting articles and the sample reports."
+          "paragraph": 143,
+          "start": 1737.199,
+          "end": 1738.863,
+          "text": "04 Where To Look Index."
         },
         {
           "index": 180,
-          "paragraph": 142,
-          "start": 1743.535,
-          "end": 1745.369,
-          "text": "05 Study Registry."
+          "paragraph": 143,
+          "start": 1739.213,
+          "end": 1756.343,
+          "text": "Every task mapped to the exact help center U R L, the local P D F under C:\\JaxState Behavior Lab, and the vendor video; its sections 2.15 and 2.16 list the analysis and reporting articles and the sample reports."
         },
         {
           "index": 181,
-          "paragraph": 142,
-          "start": 1745.719,
-          "end": 1752.098,
-          "text": "Which studies exist, their status, folders, and documents; no lab study appears in this workshop."
+          "paragraph": 144,
+          "start": 1757.043,
+          "end": 1758.878,
+          "text": "05 Study Registry."
         },
         {
           "index": 182,
-          "paragraph": 143,
-          "start": 1752.798,
-          "end": 1755.657,
-          "text": "06 Folder Organization Proposal."
+          "paragraph": 144,
+          "start": 1759.228,
+          "end": 1765.607,
+          "text": "Which studies exist, their status, folders, and documents; no lab study appears in this workshop."
         },
         {
           "index": 183,
-          "paragraph": 143,
-          "start": 1756.007,
-          "end": 1766.225,
-          "text": "The proposed study folder template, with 05 Analysis for scripts and figures and 06 Deliverables for client reports, and the document name rule."
+          "paragraph": 145,
+          "start": 1766.307,
+          "end": 1769.165,
+          "text": "06 Folder Organization Proposal."
         },
         {
           "index": 184,
-          "paragraph": 143,
-          "start": 1766.575,
-          "end": 1769.583,
-          "text": "It is a proposal, not yet adopted; see (g)."
+          "paragraph": 145,
+          "start": 1769.515,
+          "end": 1779.734,
+          "text": "The proposed study folder template, with 05 Analysis for scripts and figures and 06 Deliverables for client reports, and the document name rule."
         },
         {
           "index": 185,
-          "paragraph": 144,
-          "start": 1770.283,
-          "end": 1773.249,
-          "text": "07 iMotions Correspondence Digest."
+          "paragraph": 145,
+          "start": 1780.084,
+          "end": 1783.092,
+          "text": "It is a proposal, not yet adopted; see (g)."
         },
         {
           "index": 186,
-          "paragraph": 144,
-          "start": 1773.599,
-          "end": 1786.761,
-          "text": "What iMotions has told the lab by email about licenses, modules, and support, including the materials sent on November 14, 2025, among them a P D F about the dashboard."
+          "paragraph": 146,
+          "start": 1783.792,
+          "end": 1786.757,
+          "text": "07 iMotions Correspondence Digest."
         },
         {
           "index": 187,
-          "paragraph": 145,
-          "start": 1787.461,
-          "end": 1789.317,
-          "text": "08 Help Center Index."
+          "paragraph": 146,
+          "start": 1787.107,
+          "end": 1800.27,
+          "text": "What iMotions has told the lab by email about licenses, modules, and support, including the materials sent on November 14, 2025, among them a P D F about the dashboard."
         },
         {
           "index": 188,
-          "paragraph": 145,
-          "start": 1789.667,
-          "end": 1796.345,
-          "text": "The full map of help dot imotions dot com with U R Ls; every article under (a) appears in it."
+          "paragraph": 147,
+          "start": 1800.97,
+          "end": 1802.826,
+          "text": "08 Help Center Index."
         },
         {
           "index": 189,
-          "paragraph": 146,
-          "start": 1797.045,
-          "end": 1799.498,
-          "text": "09 Vendor Resources Index."
+          "paragraph": 147,
+          "start": 1803.176,
+          "end": 1809.853,
+          "text": "The full map of help dot imotions dot com with U R Ls; every article under (a) appears in it."
         },
         {
           "index": 190,
-          "paragraph": 146,
-          "start": 1799.848,
-          "end": 1807.571,
-          "text": "The verified vendor documentation pages and videos, including the videos under (c) and the vendor pages under (a)."
+          "paragraph": 148,
+          "start": 1810.553,
+          "end": 1813.007,
+          "text": "09 Vendor Resources Index."
         },
         {
           "index": 191,
-          "paragraph": 147,
-          "start": 1808.271,
-          "end": 1810.511,
-          "text": "10 iMotions 11 Release Notes."
+          "paragraph": 148,
+          "start": 1813.357,
+          "end": 1821.079,
+          "text": "The verified vendor documentation pages and videos, including the videos under (c) and the vendor pages under (a)."
         },
         {
           "index": 192,
-          "paragraph": 147,
-          "start": 1810.861,
-          "end": 1823.362,
-          "text": "What changed in iMotions Lab 11.x, including the heatmap, annotation, A O I, and dashboard changes listed under (a) and the 11 point 1 point 13 update."
+          "paragraph": 149,
+          "start": 1821.779,
+          "end": 1824.019,
+          "text": "10 iMotions 11 Release Notes."
         },
         {
           "index": 193,
-          "paragraph": 148,
-          "start": 1824.062,
-          "end": 1826.174,
-          "text": "11 Workshop Series Build Notes."
+          "paragraph": 149,
+          "start": 1824.369,
+          "end": 1836.871,
+          "text": "What changed in iMotions Lab 11.x, including the heatmap, annotation, A O I, and dashboard changes listed under (a) and the 11 point 1 point 13 update."
         },
         {
           "index": 194,
-          "paragraph": 149,
-          "start": 1826.874,
-          "end": 1840.271,
-          "text": "How the workshops are built and published, the house rules (no em dashes, no contractions, every statistic traceable to an output file), the figure credit line, and the items already confirmed on the lab computers."
+          "paragraph": 150,
+          "start": 1837.571,
+          "end": 1839.683,
+          "text": "11 Workshop Series Build Notes."
         },
         {
           "index": 195,
-          "paragraph": 150,
-          "start": 1840.971,
-          "end": 1843.553,
-          "text": "12 aff decks R D C Diagnostic."
+          "paragraph": 151,
+          "start": 1840.383,
+          "end": 1853.78,
+          "text": "How the workshops are built and published, the house rules (no em dashes, no contractions, every statistic traceable to an output file), the figure credit line, and the items already confirmed on the lab computers."
         },
         {
           "index": 196,
-          "paragraph": 150,
-          "start": 1843.903,
-          "end": 1855.145,
-          "text": "A read only inspection of why facial expression results were missing from a remote study; it models how to inspect a study without changing it and how to protect respondent video."
+          "paragraph": 152,
+          "start": 1854.48,
+          "end": 1857.061,
+          "text": "12 aff decks R D C Diagnostic."
         },
         {
           "index": 197,
-          "paragraph": 151,
-          "start": 1855.845,
-          "end": 1858.533,
-          "text": "13 aff decks R D C Fix Checklist."
+          "paragraph": 152,
+          "start": 1857.411,
+          "end": 1868.654,
+          "text": "A read only inspection of why facial expression results were missing from a remote study; it models how to inspect a study without changing it and how to protect respondent video."
         },
         {
           "index": 198,
-          "paragraph": 151,
-          "start": 1858.883,
-          "end": 1864.43,
-          "text": "The lessons of that inspection as a checklist for remote studies built in iMotions Lab."
+          "paragraph": 153,
+          "start": 1869.354,
+          "end": 1872.042,
+          "text": "13 aff decks R D C Fix Checklist."
         },
         {
           "index": 199,
-          "paragraph": 152,
-          "start": 1865.13,
-          "end": 1867.903,
-          "text": "14 Study Recovery After Computer Move."
+          "paragraph": 153,
+          "start": 1872.392,
+          "end": 1877.939,
+          "text": "The lessons of that inspection as a checklist for remote studies built in iMotions Lab."
         },
         {
           "index": 200,
-          "paragraph": 152,
-          "start": 1868.253,
-          "end": 1881.459,
-          "text": "The record of how the lab once lost the studies on a computer that became unavailable and recovered those that had been saved as study zip files; the reason analyses start from saved, documented files."
+          "paragraph": 154,
+          "start": 1878.639,
+          "end": 1881.412,
+          "text": "14 Study Recovery After Computer Move."
         },
         {
           "index": 201,
-          "paragraph": 153,
-          "start": 1882.159,
-          "end": 1888.58,
-          "text": "The manuals describe iMotions 8.1 to 10.0, and some of them contradict each other."
+          "paragraph": 154,
+          "start": 1881.762,
+          "end": 1894.967,
+          "text": "The record of how the lab once lost the studies on a computer that became unavailable and recovered those that had been saved as study zip files; the reason analyses start from saved, documented files."
         },
         {
           "index": 202,
-          "paragraph": 154,
-          "start": 1889.28,
-          "end": 1902.144,
-          "text": "Before you teach or report any of these items as fact, check them on the lab computer (read only: never record or change a study), write down what the screen shows, and tell Doctor Sciuchetti what you find."
+          "paragraph": 155,
+          "start": 1895.667,
+          "end": 1902.089,
+          "text": "The manuals describe iMotions 8.1 to 10.0, and some of them contradict each other."
         },
         {
           "index": 203,
-          "paragraph": 155,
-          "start": 1902.844,
-          "end": 1909.969,
-          "text": "The list combines the open questions of the workshop's fact file and section 6 of the data read me dot M D."
+          "paragraph": 156,
+          "start": 1902.789,
+          "end": 1915.653,
+          "text": "Before you teach or report any of these items as fact, check them on the lab computer (read only: never record or change a study), write down what the screen shows, and tell Doctor Sciuchetti what you find."
         },
         {
           "index": 204,
-          "paragraph": 156,
-          "start": 1910.669,
-          "end": 1930.829,
-          "text": "The installed build: 11 point 1, build 4 7 1 3 6 on October 10, 2026, against the 11 point 1 point 13 update scheduled for October 7; the heatmap and annotation features of 11 point 1.10 to 11 point 1.12 depend on it."
+          "paragraph": 157,
+          "start": 1916.353,
+          "end": 1923.478,
+          "text": "The list combines the open questions of the workshop's fact file and section 6 of the data read me dot M D."
         },
         {
           "index": 205,
-          "paragraph": 157,
-          "start": 1931.529,
-          "end": 1935.583,
-          "text": "For a real report, the version on the computer that collected the data."
+          "paragraph": 158,
+          "start": 1924.178,
+          "end": 1944.338,
+          "text": "The installed build: 11 point 1, build 4 7 1 3 6 on October 10, 2026, against the 11 point 1 point 13 update scheduled for October 7; the heatmap and annotation features of 11 point 1.10 to 11 point 1.12 depend on it."
         },
         {
           "index": 206,
-          "paragraph": 158,
-          "start": 1936.283,
-          "end": 1950.597,
-          "text": "The analysis toolbar (Replay, Aggregate, A O I's, Gaze Map, Heatmap, Survey, Signal Processing, Reports, Dashboard, Export) and which buttons are gray for a video stimulus (Heatmap and Survey are expected)."
+          "paragraph": 159,
+          "start": 1945.038,
+          "end": 1949.091,
+          "text": "For a real report, the version on the computer that collected the data."
         },
         {
           "index": 207,
-          "paragraph": 159,
-          "start": 1951.297,
-          "end": 1968.193,
-          "text": "Creating an analysis: the button tooltip (Add Analysis or Create Analysis), the wizard tab names, the check box Use fixations for heat maps and its default, and the Segmentation Criteria fields, including any Advanced Segmentation by data quality."
+          "paragraph": 160,
+          "start": 1949.791,
+          "end": 1964.106,
+          "text": "The analysis toolbar (Replay, Aggregate, A O I's, Gaze Map, Heatmap, Survey, Signal Processing, Reports, Dashboard, Export) and which buttons are gray for a video stimulus (Heatmap and Survey are expected)."
         },
         {
           "index": 208,
-          "paragraph": 160,
-          "start": 1968.893,
-          "end": 1983.336,
-          "text": "Opening the analysis window (Open analysis or Edit Result), its tabs (Replay, Aggregate, A O I), and the name of the overlay panel (Settings or Visualization) with the full list under Stimulus overlays."
+          "paragraph": 161,
+          "start": 1964.806,
+          "end": 1981.702,
+          "text": "Creating an analysis: the button tooltip (Add Analysis or Create Analysis), the wizard tab names, the check box Use fixations for heat maps and its default, and the Segmentation Criteria fields, including any Advanced Segmentation by data quality."
         },
         {
           "index": 209,
-          "paragraph": 161,
-          "start": 1984.036,
-          "end": 2007.908,
-          "text": "Heatmaps: whether Static is offered for a video when an annotation is chosen as the time range; the options and units of Gaze history and Gaze width; whether any opacity, radius, or color scale setting exists; whether a legend can be exported; whether Heatmap is a third export type beside Video and Image; and where the per respondent heatmap of 11 point 1.6 is switched on."
+          "paragraph": 162,
+          "start": 1982.402,
+          "end": 1996.845,
+          "text": "Opening the analysis window (Open analysis or Edit Result), its tabs (Replay, Aggregate, A O I), and the name of the overlay panel (Settings or Visualization) with the full list under Stimulus overlays."
         },
         {
           "index": 210,
-          "paragraph": 162,
-          "start": 2008.608,
-          "end": 2025.76,
-          "text": "The aggregate signals for the lab's sensors after F E A thresholding Aggregation and G S R Peak Binned Aggregation: their names, the unit of the y axis (respondents or percent), and whether one Aggregate Replay can show two segments at once."
+          "paragraph": 163,
+          "start": 1997.545,
+          "end": 2021.417,
+          "text": "Heatmaps: whether Static is offered for a video when an annotation is chosen as the time range; the options and units of Gaze history and Gaze width; whether any opacity, radius, or color scale setting exists; whether a legend can be exported; whether Heatmap is a third export type beside Video and Image; and where the per respondent heatmap of 11 point 1.6 is switched on."
         },
         {
           "index": 211,
-          "paragraph": 163,
-          "start": 2026.46,
-          "end": 2038.833,
-          "text": "The Emotional Heatmap: whether the Reports button opens with no Active flows or stays gray, the aff decks signal list, the scale of the threshold, and whether video stimuli are still unsupported."
+          "paragraph": 164,
+          "start": 2022.117,
+          "end": 2039.269,
+          "text": "The aggregate signals for the lab's sensors after F E A thresholding Aggregation and G S R Peak Binned Aggregation: their names, the unit of the y axis (respondents or percent), and whether one Aggregate Replay can show two segments at once."
         },
         {
           "index": 212,
-          "paragraph": 164,
-          "start": 2039.533,
-          "end": 2050.243,
-          "text": "The Reports window: the report names for the lab's notebooks, what Open in browser does, and the default G S R Peak Detection parameters shown in the Methods section."
+          "paragraph": 165,
+          "start": 2039.969,
+          "end": 2052.342,
+          "text": "The Emotional Heatmap: whether the Reports button opens with no Active flows or stays gray, the aff decks signal list, the scale of the threshold, and whether video stimuli are still unsupported."
         },
         {
           "index": 213,
-          "paragraph": 165,
-          "start": 2050.943,
-          "end": 2068.777,
-          "text": "The Analysis Dashboard, opened on a vendor demonstration study: its views, the metrics it accepts, whether it shows N, error bars, or segments, how charts are exported, and whether its numbers match the R exports; and the Data Visualization Dashboard article itself."
+          "paragraph": 166,
+          "start": 2053.042,
+          "end": 2063.751,
+          "text": "The Reports window: the report names for the lab's notebooks, what Open in browser does, and the default G S R Peak Detection parameters shown in the Methods section."
         },
         {
           "index": 214,
-          "paragraph": 166,
-          "start": 2069.477,
-          "end": 2089.915,
-          "text": "The R notebooks: the name of the Raw Data Aggregation algorithm and whether its output can be exported; whether G S R Epoching Pre-processing and Epoch Export exist for the Shimmer 3 G S R plus, their defaults, the exported file's name, separator, header rows, and columns, and the epoch boundary rule."
+          "paragraph": 167,
+          "start": 2064.451,
+          "end": 2090.03,
+          "text": "The Analysis Dashboard with data loaded (the read only check of October 11, 2026 stopped at the Generate Dashboard Data dialog and the empty Data Visualizations window): its views, the metrics it accepts, whether it shows N, error bars, or segments, how charts are exported, and whether its numbers match the R exports; and the Data Visualization Dashboard article itself."
         },
         {
           "index": 215,
-          "paragraph": 167,
-          "start": 2090.615,
-          "end": 2110.497,
-          "text": "The A O I metrics in 11 point 1: whether the list still has 48 entries, how T T F F A O I and Hit time treat respondents who never looked, and whether the panel says Respondent base or Respondent data; and the single multi-modal export (its button label and the rows above its header)."
+          "paragraph": 168,
+          "start": 2090.73,
+          "end": 2111.167,
+          "text": "The R notebooks: the name of the Raw Data Aggregation algorithm and whether its output can be exported; whether G S R Epoching Pre-processing and Epoch Export exist for the Shimmer 3 G S R plus, their defaults, the exported file's name, separator, header rows, and columns, and the epoch boundary rule."
         },
         {
           "index": 216,
-          "paragraph": 168,
-          "start": 2111.197,
-          "end": 2127.667,
-          "text": "The settings a methods section must report: the fixation filter and its parameters for an Aurora study, the aff decks threshold, and the G S R peak detection parameters actually used (the simulated study assumed threshold 50 and the notebook defaults)."
+          "paragraph": 169,
+          "start": 2111.867,
+          "end": 2135.931,
+          "text": "The A O I metrics in 11 point 1: whether the list still has 48 entries, how T T F F A O I and Hit time treat respondents who never looked, and whether the panel says Respondent base or Respondent data; and the rows above the header of the single multi-modal export (its button label, Export single file, was confirmed on October 12, 2026)."
         },
         {
           "index": 217,
-          "paragraph": 169,
-          "start": 2128.367,
-          "end": 2151.492,
-          "text": "Excel on the lab computers: the version (Excel 365 takes array formulas with Enter and has Filter and X lookup; Excel 2019 or older needs control plus Shift+Enter), the pivot table labels, whether the Analysis ToolPak is installed, and the Windows regional settings (expected: dot decimal, comma list separator)."
+          "paragraph": 170,
+          "start": 2136.631,
+          "end": 2153.101,
+          "text": "The settings a methods section must report: the fixation filter and its parameters for an Aurora study, the aff decks threshold, and the G S R peak detection parameters actually used (the simulated study assumed threshold 50 and the notebook defaults)."
         },
         {
           "index": 218,
-          "paragraph": 170,
-          "start": 2152.192,
-          "end": 2171.52,
-          "text": "The last box of the decision chart in General Data Analysis and Interpretation, which reads approximately \"Kappa's alpha\" at the resolution of the P D F; whether the course should obtain the four sample reports the lab does not hold; and every chosen vendor figure checked for faces at full resolution."
+          "paragraph": 171,
+          "start": 2153.801,
+          "end": 2176.926,
+          "text": "Excel on the lab computers: the version (Excel 365 takes array formulas with Enter and has Filter and X lookup; Excel 2019 or older needs control plus Shift+Enter), the pivot table labels, whether the Analysis ToolPak is installed, and the Windows regional settings (expected: dot decimal, comma list separator)."
         },
         {
           "index": 219,
-          "paragraph": 171,
-          "start": 2172.22,
-          "end": 2189.052,
-          "text": "Everything in Workshop 7's list of modeled export layouts (its data read me dot M D, section 5), because the analysis ready files rest on them; and whether the lab adopts the folder plan of Project document 06, which is a proposal."
+          "paragraph": 172,
+          "start": 2177.626,
+          "end": 2196.954,
+          "text": "The last box of the decision chart in General Data Analysis and Interpretation, which reads approximately \"Kappa's alpha\" at the resolution of the P D F; whether the course should obtain the four sample reports the lab does not hold; and every chosen vendor figure checked for faces at full resolution."
         },
         {
           "index": 220,
-          "paragraph": 172,
-          "start": 2189.752,
-          "end": 2202.723,
+          "paragraph": 173,
+          "start": 2197.654,
+          "end": 2214.486,
+          "text": "Everything in Workshop 7's list of modeled export layouts (its data read me dot M D, section 5), because the analysis ready files rest on them; and whether the lab adopts the folder plan of Project document 06, which is a proposal."
+        },
+        {
+          "index": 221,
+          "paragraph": 174,
+          "start": 2215.186,
+          "end": 2228.157,
           "text": "Find the original article, manual page, video, reading, or data file behind any step of this workshop, and tell a documented label or number from one that still has to be checked on the lab computer."
         }
       ]
@@ -11733,5 +11781,5 @@
       ]
     }
   },
-  "generated": "2026-10-12T01:03:59+00:00"
+  "generated": "2026-10-12T12:19:08+00:00"
 }
