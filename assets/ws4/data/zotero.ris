@@ -142,6 +142,30 @@ N1  - Use: Numbers: the practical guide to artifact checking and response scorin
 ER  - 
 
 TY  - JOUR
+AU  - Kleckner, I. R.
+AU  - Jones, R. M.
+AU  - Wilder-Smith, O.
+AU  - Wormwood, J. B.
+AU  - Akcakaya, M.
+AU  - Quigley, K. S.
+AU  - Lord, C.
+AU  - Goodwin, M. S.
+TI  - Simple, transparent, and flexible automated quality assessment procedures for ambulatory electrodermal activity data
+PY  - 2018
+T2  - IEEE Transactions on Biomedical Engineering
+JO  - IEEE Transactions on Biomedical Engineering
+VL  - 65
+IS  - 7
+SP  - 1460
+EP  - 1467
+DO  - 10.1109/TBME.2017.2758643
+UR  - https://doi.org/10.1109/TBME.2017.2758643
+KW  - scr_signal_processing
+KW  - ws4-gsr-hr
+N1  - Use: Numbers: the published quality rules (skin conductance outside 0.05 to 60 microsiemens, or changing faster than 10 microsiemens per second, plus 5 seconds around such data) used to judge the artifact in the October 12, 2026 pilot export. Checked on 2026-10-12 against the authors' posted copy of the article (affective-science.org), which gives the journal, volume, issue, pages, DOI, and the rule wording in Table I.
+ER  - 
+
+TY  - JOUR
 AU  - Allen, J.
 TI  - Photoplethysmography and its application in clinical physiological measurement
 PY  - 2007
