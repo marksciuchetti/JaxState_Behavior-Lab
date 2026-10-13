@@ -1818,8 +1818,8 @@
     },
     "build": {
       "file": "build.mp3",
-      "duration": 594.335,
-      "mp3_duration": 594.384,
+      "duration": 840.413,
+      "mp3_duration": 840.48,
       "starts": [
         0.0,
         4.135,
@@ -1841,73 +1841,108 @@
         105.804,
         111.027,
         124.612,
-        144.341,
-        148.318,
-        149.692,
-        152.312,
-        163.969,
-        166.196,
-        167.92,
-        170.519,
-        186.493,
-        200.975,
-        202.327,
-        205.545,
-        218.332,
-        220.056,
-        223.188,
-        224.455,
-        227.173,
-        236.023,
-        245.311,
-        247.197,
-        248.921,
-        255.531,
-        257.161,
-        268.229,
-        275.363,
-        280.918,
-        282.996,
-        284.72,
-        287.767,
-        289.546,
-        300.251,
-        306.852,
-        314.571,
-        321.171,
-        322.545,
-        327.107,
-        328.566,
-        343.261,
-        344.635,
-        348.684,
-        354.367,
-        361.041,
-        362.585,
-        375.317,
-        379.379,
-        386.62,
-        388.344,
-        392.82,
-        394.429,
-        399.877,
-        407.267,
-        408.991,
-        415.366,
-        429.847,
-        439.435,
-        445.745,
-        465.133,
-        475.86,
-        494.523,
-        502.979,
-        508.705,
-        511.368,
-        527.3,
-        537.493,
-        550.183,
-        560.376,
-        576.201
+        144.533,
+        148.51,
+        149.884,
+        152.504,
+        164.161,
+        166.388,
+        168.112,
+        170.711,
+        186.685,
+        201.167,
+        202.519,
+        205.737,
+        218.524,
+        220.248,
+        223.38,
+        224.647,
+        227.365,
+        236.215,
+        245.503,
+        247.389,
+        249.113,
+        255.723,
+        257.353,
+        268.421,
+        275.555,
+        281.11,
+        283.188,
+        284.912,
+        287.959,
+        289.738,
+        300.443,
+        307.044,
+        314.763,
+        321.363,
+        322.737,
+        327.299,
+        328.758,
+        343.453,
+        344.827,
+        348.876,
+        354.559,
+        361.233,
+        362.777,
+        375.509,
+        379.571,
+        386.812,
+        388.536,
+        393.012,
+        394.621,
+        400.069,
+        407.459,
+        409.183,
+        415.558,
+        430.039,
+        439.627,
+        445.937,
+        465.325,
+        476.052,
+        494.715,
+        503.171,
+        508.897,
+        511.56,
+        525.892,
+        537.408,
+        545.532,
+        563.917,
+        565.654,
+        569.076,
+        577.221,
+        581.975,
+        584.202,
+        595.185,
+        599.289,
+        600.663,
+        609.769,
+        612.636,
+        618.874,
+        622.923,
+        642.717,
+        645.349,
+        649.697,
+        665.032,
+        666.406,
+        671.394,
+        673.109,
+        684.156,
+        692.655,
+        696.035,
+        700.916,
+        702.29,
+        706.587,
+        717.185,
+        719.199,
+        722.024,
+        730.532,
+        737.333,
+        746.673,
+        762.605,
+        772.799,
+        785.488,
+        795.681,
+        819.101
       ],
       "sentences": [
         {
@@ -2047,484 +2082,729 @@
           "index": 19,
           "paragraph": 11,
           "start": 124.612,
-          "end": 143.641,
-          "text": "Windows scaling distorts auto detection (a 1920 x 1080 monitor at 125 percent reads as 1536 x 864), and survey slides need Display Scaling at 100 percent, so set 100 percent first."
+          "end": 143.833,
+          "text": "Windows scaling distorts auto detection (a 1920 by 1080 monitor at 125 percent reads as 1536 by 864), and survey slides need Display Scaling at 100 percent, so set 100 percent first."
         },
         {
           "index": 20,
           "paragraph": 12,
-          "start": 144.341,
-          "end": 147.968,
+          "start": 144.533,
+          "end": 148.16,
           "text": "You should see the monitor's real size and native resolution."
         },
         {
           "index": 21,
           "paragraph": 12,
-          "start": 148.318,
-          "end": 149.342,
+          "start": 148.51,
+          "end": 149.534,
           "text": "Common mistake."
         },
         {
           "index": 22,
           "paragraph": 12,
-          "start": 149.692,
-          "end": 151.612,
+          "start": 149.884,
+          "end": 151.804,
           "text": "Accepting the laptop's own screen."
         },
         {
           "index": 23,
           "paragraph": 13,
-          "start": 152.312,
-          "end": 163.619,
+          "start": 152.504,
+          "end": 163.811,
           "text": "Name the study on the \"Name your study\" page by the lab convention year, client, topic (for example 2026 ClassPractice TwoCommercials) and finish the wizard."
         },
         {
           "index": 24,
           "paragraph": 13,
-          "start": 163.969,
-          "end": 165.846,
+          "start": 164.161,
+          "end": 166.038,
           "text": "You should see the study in the Library."
         },
         {
           "index": 25,
           "paragraph": 13,
-          "start": 166.196,
-          "end": 167.22,
+          "start": 166.388,
+          "end": 167.412,
           "text": "Common mistake."
         },
         {
           "index": 26,
           "paragraph": 14,
-          "start": 167.92,
-          "end": 169.819,
+          "start": 168.112,
+          "end": 170.011,
           "text": "Keeping the default timestamp name."
         },
         {
           "index": 27,
           "paragraph": 15,
-          "start": 170.519,
-          "end": 185.793,
+          "start": 170.711,
+          "end": 185.985,
           "text": "The flow is the session in order: Welcome, Instructions, a Baseline (a neutral rest screen before each commercial), the first commercial and its rating slide, a second Baseline, the second commercial and its rating slide, and a thank you."
         },
         {
           "index": 28,
           "paragraph": 16,
-          "start": 186.493,
-          "end": 200.275,
+          "start": 186.685,
+          "end": 200.467,
           "text": "The the demo Sony Bravia study study uses names such as Baseline1, Commercial1A Balls, and Commercial1A Balls Rating, which suggest the same pattern; open the study on the lab laptop to see its flow."
         },
         {
           "index": 29,
           "paragraph": 17,
-          "start": 200.975,
-          "end": 201.977,
+          "start": 201.167,
+          "end": 202.169,
           "text": "Open the builder."
         },
         {
           "index": 30,
           "paragraph": 17,
-          "start": 202.327,
-          "end": 204.845,
+          "start": 202.519,
+          "end": 205.037,
           "text": "Select your study and click Edit stimuli."
         },
         {
           "index": 31,
           "paragraph": 18,
-          "start": 205.545,
-          "end": 217.982,
+          "start": 205.737,
+          "end": 218.174,
           "text": "You should see the Flow designer tab (Study flows, Repository, and Properties panels; tiles for Block, Media, Survey, Screen recording, Website, and Qualtrics) and the Stimuli overview tab."
         },
         {
           "index": 32,
           "paragraph": 18,
-          "start": 218.332,
-          "end": 219.356,
+          "start": 218.524,
+          "end": 219.548,
           "text": "Common mistake."
         },
         {
           "index": 33,
           "paragraph": 19,
-          "start": 220.056,
-          "end": 222.488,
+          "start": 220.248,
+          "end": 222.68,
           "text": "Editing the demo study instead of your own."
         },
         {
           "index": 34,
           "paragraph": 20,
-          "start": 223.188,
-          "end": 224.105,
+          "start": 223.38,
+          "end": 224.297,
           "text": "Add the media."
         },
         {
           "index": 35,
           "paragraph": 20,
-          "start": 224.455,
-          "end": 226.823,
+          "start": 224.647,
+          "end": 227.015,
           "text": "Click Media and add the two commercials."
         },
         {
           "index": 36,
           "paragraph": 20,
-          "start": 227.173,
-          "end": 235.323,
+          "start": 227.365,
+          "end": 235.515,
           "text": "The manual prints the video formats as \"MP4 or wave\", probably a misprint, so play every video in the study preview."
         },
         {
           "index": 37,
           "paragraph": 21,
-          "start": 236.023,
-          "end": 244.961,
+          "start": 236.215,
+          "end": 245.153,
           "text": "If one lags, flickers, or has poor sound, right-click the study in the Library, choose \"Convert videos for compatibility\", and preview again."
         },
         {
           "index": 38,
           "paragraph": 21,
-          "start": 245.311,
-          "end": 246.847,
+          "start": 245.503,
+          "end": 247.039,
           "text": "You should see smooth playback."
         },
         {
           "index": 39,
           "paragraph": 21,
-          "start": 247.197,
-          "end": 248.221,
+          "start": 247.389,
+          "end": 248.413,
           "text": "Common mistake."
         },
         {
           "index": 40,
           "paragraph": 22,
-          "start": 248.921,
-          "end": 254.831,
+          "start": 249.113,
+          "end": 255.023,
           "text": "Expecting a new file type: the command replaces the original and does not change the format."
         },
         {
           "index": 41,
           "paragraph": 23,
-          "start": 255.531,
-          "end": 256.811,
+          "start": 255.723,
+          "end": 257.003,
           "text": "Add the rating slides."
         },
         {
           "index": 42,
           "paragraph": 23,
-          "start": 257.161,
-          "end": 267.529,
+          "start": 257.353,
+          "end": 267.721,
           "text": "Click Survey, add a Scale element for liking from 1 to 7, give it a Question I D that names the commercial (Liking Balls, Liking Paint), and click Save to Study."
         },
         {
           "index": 43,
           "paragraph": 24,
-          "start": 268.229,
-          "end": 275.013,
+          "start": 268.421,
+          "end": 275.205,
           "text": "A survey slide asks a question on screen; the Question I D labels the answer in the survey results."
         },
         {
           "index": 44,
           "paragraph": 24,
-          "start": 275.363,
-          "end": 280.568,
+          "start": 275.555,
+          "end": 280.76,
           "text": "Do not randomize questions or labels, which ties all video replays to one image."
         },
         {
           "index": 45,
           "paragraph": 24,
-          "start": 280.918,
-          "end": 282.646,
+          "start": 281.11,
+          "end": 282.838,
           "text": "You should see the slide in the flow."
         },
         {
           "index": 46,
           "paragraph": 24,
-          "start": 282.996,
-          "end": 284.02,
+          "start": 283.188,
+          "end": 284.212,
           "text": "Common mistake."
         },
         {
           "index": 47,
           "paragraph": 25,
-          "start": 284.72,
-          "end": 287.067,
+          "start": 284.912,
+          "end": 287.259,
           "text": "Two slides with the same Question I D."
         },
         {
           "index": 48,
           "paragraph": 26,
-          "start": 287.767,
-          "end": 289.196,
+          "start": 287.959,
+          "end": 289.388,
           "text": "Group and fix the order."
         },
         {
           "index": 49,
           "paragraph": 26,
-          "start": 289.546,
-          "end": 299.551,
+          "start": 289.738,
+          "end": 299.743,
           "text": "Select a commercial and its rating slide and press control plus G to make a block, a group of stimuli that moves as a unit: Block Balls and Block Paint."
         },
         {
           "index": 50,
           "paragraph": 27,
-          "start": 300.251,
-          "end": 306.502,
+          "start": 300.443,
+          "end": 306.694,
           "text": "The pin icon fixes a stimulus in place and the arrow icon randomizes it, so pin both."
         },
         {
           "index": 51,
           "paragraph": 27,
-          "start": 306.852,
-          "end": 313.871,
+          "start": 307.044,
+          "end": 314.063,
           "text": "Baseline1 and Baseline2 are separate stimuli because a stimulus cannot appear twice in one flow."
         },
         {
           "index": 52,
           "paragraph": 28,
-          "start": 314.571,
-          "end": 320.821,
+          "start": 314.763,
+          "end": 321.013,
           "text": "You should see Welcome, Instructions, Baseline1, Block Balls, Baseline2, Block Paint, Thank You."
         },
         {
           "index": 53,
           "paragraph": 28,
-          "start": 321.171,
-          "end": 322.195,
+          "start": 321.363,
+          "end": 322.387,
           "text": "Common mistake."
         },
         {
           "index": 54,
           "paragraph": 28,
-          "start": 322.545,
-          "end": 326.407,
+          "start": 322.737,
+          "end": 326.599,
           "text": "An arrow left on a rating slide, which can show the rating first."
         },
         {
           "index": 55,
           "paragraph": 29,
-          "start": 327.107,
-          "end": 328.216,
+          "start": 327.299,
+          "end": 328.408,
           "text": "Set the properties."
         },
         {
           "index": 56,
           "paragraph": 29,
-          "start": 328.566,
-          "end": 342.561,
+          "start": 328.758,
+          "end": 342.753,
           "text": "Select several stimuli to edit them together, then check the Stimuli overview tab: presentation duration and display order for each, the same duration for both Baselines, and manual advance for the rating slides."
         },
         {
           "index": 57,
           "paragraph": 30,
-          "start": 343.261,
-          "end": 344.285,
+          "start": 343.453,
+          "end": 344.477,
           "text": "Common mistake."
         },
         {
           "index": 58,
           "paragraph": 30,
-          "start": 344.635,
-          "end": 347.984,
+          "start": 344.827,
+          "end": 348.176,
           "text": "A rating slide that advances before the viewer answers."
         },
         {
           "index": 59,
           "paragraph": 31,
-          "start": 348.684,
-          "end": 354.017,
+          "start": 348.876,
+          "end": 354.209,
           "text": "Why: the second commercial carries practice, fatigue, and comparison with the first."
         },
         {
           "index": 60,
           "paragraph": 31,
-          "start": 354.367,
-          "end": 360.341,
+          "start": 354.559,
+          "end": 360.533,
           "text": "Counterbalancing shows half the viewers each order, so these order effects cancel out of the comparison."
         },
         {
           "index": 61,
           "paragraph": 32,
-          "start": 361.041,
-          "end": 362.235,
+          "start": 361.233,
+          "end": 362.427,
           "text": "Duplicate the flow."
         },
         {
           "index": 62,
           "paragraph": 32,
-          "start": 362.585,
-          "end": 374.617,
+          "start": 362.777,
+          "end": 374.809,
           "text": "In the Study flows panel click Duplicate flow (Add flow starts an empty one) and, in the copy, swap Block Balls and Block Paint: Order A shows Balls first, Order B Paint first."
         },
         {
           "index": 63,
           "paragraph": 33,
-          "start": 375.317,
-          "end": 379.029,
+          "start": 375.509,
+          "end": 379.221,
           "text": "You should see two flows with the same stimuli in different orders."
         },
         {
           "index": 64,
           "paragraph": 33,
-          "start": 379.379,
-          "end": 386.27,
+          "start": 379.571,
+          "end": 386.462,
           "text": "Flows share stimulus properties (a duration changed in one changes in both), but each keeps its own order."
         },
         {
           "index": 65,
           "paragraph": 33,
-          "start": 386.62,
-          "end": 387.644,
+          "start": 386.812,
+          "end": 387.836,
           "text": "Common mistake."
         },
         {
           "index": 66,
           "paragraph": 34,
-          "start": 388.344,
-          "end": 392.12,
+          "start": 388.536,
+          "end": 392.312,
           "text": "Moving a commercial without its rating slide; move whole blocks."
         },
         {
           "index": 67,
           "paragraph": 35,
-          "start": 392.82,
-          "end": 394.079,
+          "start": 393.012,
+          "end": 394.271,
           "text": "Choose the allocation."
         },
         {
           "index": 68,
           "paragraph": 35,
-          "start": 394.429,
-          "end": 399.527,
+          "start": 394.621,
+          "end": 399.719,
           "text": "On Study Settings choose manual selection or randomization by iMotions."
         },
         {
           "index": 69,
           "paragraph": 35,
-          "start": 399.877,
-          "end": 406.917,
+          "start": 400.069,
+          "end": 407.109,
           "text": "This workshop selects manually from a list written in advance (A, B, A, B), which keeps the groups equal."
         },
         {
           "index": 70,
           "paragraph": 35,
-          "start": 407.267,
-          "end": 408.291,
+          "start": 407.459,
+          "end": 408.483,
           "text": "Common mistake."
         },
         {
           "index": 71,
           "paragraph": 36,
-          "start": 408.991,
-          "end": 414.666,
+          "start": 409.183,
+          "end": 414.858,
           "text": "Not logging each viewer's order, which makes the order effect untestable in section 08."
         },
         {
           "index": 72,
           "paragraph": 37,
-          "start": 415.366,
-          "end": 429.147,
+          "start": 415.558,
+          "end": 429.339,
           "text": "A test plan, created through the Test Plan tile from a C S V of respondents (NAME, GENDER, AGE, CITY) and a Stimuli folder, is the alternative for many versions; for two orders, two flows are simpler."
         },
         {
           "index": 73,
           "paragraph": 38,
-          "start": 429.847,
-          "end": 439.085,
+          "start": 430.039,
+          "end": 439.277,
           "text": "Click the study name to see its tabs: Study Settings, Sensors, Gaze Analysis, Live Markers, Export, Recorded Data, and Latency Settings."
         },
         {
           "index": 74,
           "paragraph": 38,
-          "start": 439.435,
-          "end": 445.045,
+          "start": 439.627,
+          "end": 445.237,
           "text": "Study Settings holds the name, screen parameters, flow allocation, and calibration mode."
         },
         {
           "index": 75,
           "paragraph": 39,
-          "start": 445.745,
-          "end": 464.433,
+          "start": 445.937,
+          "end": 464.625,
           "text": "The manuals name the calibration modes differently from one version to another: the Study Builder article calls the recommended mode experimenter guided calibration, the One-Screen Calibration article names Regular (the default) and Compact, and the Participant-guided article names Respondent guided."
         },
         {
           "index": 76,
           "paragraph": 40,
-          "start": 465.133,
-          "end": 475.16,
+          "start": 465.325,
+          "end": 475.352,
           "text": "This workshop uses the mode that the Study Builder article recommends; verify the mode names in 11 point 1 on Study Settings on the lab machine."
         },
         {
           "index": 77,
           "paragraph": 41,
-          "start": 475.86,
-          "end": 493.823,
+          "start": 476.052,
+          "end": 494.015,
           "text": "Gaze Analysis is the fixation filter page, not an analysis launcher: it sets the I V T filter, which sorts the raw gaze points into fixations (moments when the eye rests on one spot) and saccades (the quick jumps between them) by eye speed (section 06)."
         },
         {
           "index": 78,
           "paragraph": 42,
-          "start": 494.523,
-          "end": 502.629,
+          "start": 494.715,
+          "end": 502.821,
           "text": "Live Markers defines the keys for a live marker, a time stamp the operator adds during recording (section 05)."
         },
         {
           "index": 79,
           "paragraph": 42,
-          "start": 502.979,
-          "end": 508.355,
+          "start": 503.171,
+          "end": 508.547,
           "text": "Export and Recorded Data return in sections 05 and 07."
         },
         {
           "index": 80,
           "paragraph": 42,
-          "start": 508.705,
-          "end": 510.668,
+          "start": 508.897,
+          "end": 510.86,
           "text": "Leave Latency Settings unchanged."
         },
         {
           "index": 81,
           "paragraph": 43,
-          "start": 511.368,
-          "end": 526.6,
-          "text": "Six mistakes that surface only on session day Scaling at 125 percent; an unpreviewed video; two rating slides with one Question I D; one flow; an unrecorded allocation; a single copy of the study."
+          "start": 511.56,
+          "end": 525.192,
+          "text": "Why: iMotions shows the commercials on one screen and turns every gaze point into degrees using that screen's resolution and physical size, and the Aurora measures the eyes relative to the monitor it sits on."
         },
         {
           "index": 82,
           "paragraph": 44,
-          "start": 527.3,
-          "end": 536.793,
-          "text": "Back up the empty study before the first session and the full study after each day with Save To File (in the right-click menu shown in the re-encoding figure)."
+          "start": 525.892,
+          "end": 536.708,
+          "text": "So the screen is a chain with four links, always set in this order: Windows, then the Aurora setup (5.1), then iMotions Global Settings, then each study."
         },
         {
           "index": 83,
           "paragraph": 45,
-          "start": 537.493,
-          "end": 549.483,
-          "text": "Scaling at 125 percent; an unpreviewed video; two rating slides with one Question I D; one flow; an unrecorded allocation; a single copy of the study."
+          "start": 537.408,
+          "end": 544.832,
+          "text": "Change one link, for example a new monitor or a new display scale in Windows, and every link after it must be set again."
         },
         {
           "index": 84,
           "paragraph": 46,
-          "start": 550.183,
-          "end": 559.676,
-          "text": "Back up the empty study before the first session and the full study after each day with Save To File (in the right-click menu shown in the re-encoding figure)."
+          "start": 545.532,
+          "end": 563.217,
+          "text": "In the lab today the viewer watches the display named \"MARKS\" (2560 by 1440, 34.4 by 19.4 centimeters), which carries the Aurora, and the operator works on the Dell U 27 17 D."
         },
         {
           "index": 85,
           "paragraph": 47,
-          "start": 560.376,
-          "end": 575.501,
-          "text": "Help center articles for this section: Using the iMotions Study Builder, Re-Encoding of Incompatible Video Stimuli, Using a Test Plan for Study Design, and the manual iMotions Survey Stimuli and Elements (P D F)."
+          "start": 563.917,
+          "end": 565.304,
+          "text": "Extend and identify."
         },
         {
           "index": 86,
+          "paragraph": 47,
+          "start": 565.654,
+          "end": 568.726,
+          "text": "Right-click the desktop and select Display settings."
+        },
+        {
+          "index": 87,
+          "paragraph": 47,
+          "start": 569.076,
+          "end": 576.521,
+          "text": "Select Extend these displays in the list next to Identify, then click Identify to see which number belongs to which monitor."
+        },
+        {
+          "index": 88,
           "paragraph": 48,
-          "start": 576.201,
-          "end": 594.335,
-          "text": "Create a Screen-based study with only the eye tracker selected, describe the monitor correctly, build a flow of baselines, commercials, and rating slides in pinned blocks, counterbalance it with a duplicated flow and a written allocation list, read the study tabs, and back the study up."
+          "start": 577.221,
+          "end": 581.275,
+          "text": "You should see a large number on each monitor and two separate desktops."
+        },
+        {
+          "index": 89,
+          "paragraph": 49,
+          "start": 581.975,
+          "end": 583.852,
+          "text": "Use one scale on both monitors."
+        },
+        {
+          "index": 90,
+          "paragraph": 49,
+          "start": 584.202,
+          "end": 594.485,
+          "text": "Under Scale and layout, select each monitor in turn and give Scale the same value; the lab uses 100 percent, which also keeps survey slides correct."
+        },
+        {
+          "index": 91,
+          "paragraph": 50,
+          "start": 595.185,
+          "end": 598.939,
+          "text": "Select the viewer's monitor and write down its Display resolution."
+        },
+        {
+          "index": 92,
+          "paragraph": 50,
+          "start": 599.289,
+          "end": 600.313,
+          "text": "Common mistake."
+        },
+        {
+          "index": 93,
+          "paragraph": 50,
+          "start": 600.663,
+          "end": 609.069,
+          "text": "Two different scale values: \"If the two monitors use different scale values, iMotions shows a resolution error when you start a recording.\""
+        },
+        {
+          "index": 94,
+          "paragraph": 51,
+          "start": 609.769,
+          "end": 612.286,
+          "text": "Make the operator's monitor the main display."
+        },
+        {
+          "index": 95,
+          "paragraph": 51,
+          "start": 612.636,
+          "end": 618.524,
+          "text": "Select the operator's monitor and, under Multiple displays, select Make this my main display."
+        },
+        {
+          "index": 96,
+          "paragraph": 51,
+          "start": 618.874,
+          "end": 622.223,
+          "text": "You should see that option ticked for the operator's monitor only."
+        },
+        {
+          "index": 97,
+          "paragraph": 52,
+          "start": 622.923,
+          "end": 642.017,
+          "text": "Create a new Aurora setup in the Smart Eye Setup Tool (5.1) whenever the Aurora's monitor or any display setting has changed, and name it for the monitor, resolution, and scale (for example MARKS, 2560 by 1440, 100 percent)."
+        },
+        {
+          "index": 98,
+          "paragraph": 53,
+          "start": 642.717,
+          "end": 644.999,
+          "text": "Point iMotions at the viewer's monitor."
+        },
+        {
+          "index": 99,
+          "paragraph": 53,
+          "start": 645.349,
+          "end": 648.997,
+          "text": "Open Preferences, then Global Settings, then Slide Show."
+        },
+        {
+          "index": 100,
+          "paragraph": 54,
+          "start": 649.697,
+          "end": 664.332,
+          "text": "Under Screen for stimulus display, select Use secondary screen; the Windows main display is the iMotions primary screen, so the secondary screen is the viewer's. Check that Resolution matches the viewer's monitor and click OK."
+        },
+        {
+          "index": 101,
+          "paragraph": 55,
+          "start": 665.032,
+          "end": 666.056,
+          "text": "Common mistake."
+        },
+        {
+          "index": 102,
+          "paragraph": 55,
+          "start": 666.406,
+          "end": 670.694,
+          "text": "Use primary screen, which plays the commercials on the operator's monitor."
+        },
+        {
+          "index": 103,
+          "paragraph": 56,
+          "start": 671.394,
+          "end": 672.759,
+          "text": "Set each study's screen."
+        },
+        {
+          "index": 104,
+          "paragraph": 56,
+          "start": 673.109,
+          "end": 683.456,
+          "text": "Click the study, open Study Settings, then Screen, then Edit size, then Load from preset, choose the viewer's monitor under Detected Screens, and click Ok."
+        },
+        {
+          "index": 105,
+          "paragraph": 57,
+          "start": 684.156,
+          "end": 692.305,
+          "text": "If iMotions warns that \"The study contains survey slides\", click OK, then Update, and preview every survey slide."
+        },
+        {
+          "index": 106,
+          "paragraph": 57,
+          "start": 692.655,
+          "end": 695.685,
+          "text": "A measured custom screen (4.1) works too."
+        },
+        {
+          "index": 107,
+          "paragraph": 57,
+          "start": 696.035,
+          "end": 700.216,
+          "text": "You should see Resolution, Width, and Height that match the viewer's monitor."
+        },
+        {
+          "index": 108,
+          "paragraph": 58,
+          "start": 700.916,
+          "end": 701.94,
+          "text": "Common mistake."
+        },
+        {
+          "index": 109,
+          "paragraph": 58,
+          "start": 702.29,
+          "end": 706.237,
+          "text": "Changing the screen of a study that already holds recorded viewers."
+        },
+        {
+          "index": 110,
+          "paragraph": 58,
+          "start": 706.587,
+          "end": 716.485,
+          "text": "The gaze angles of those recordings depend on the old values, so clone the study (a clone keeps the design but not the respondents) and change the clone."
+        },
+        {
+          "index": 111,
+          "paragraph": 59,
+          "start": 717.185,
+          "end": 718.849,
+          "text": "Test before a real session."
+        },
+        {
+          "index": 112,
+          "paragraph": 59,
+          "start": 719.199,
+          "end": 721.674,
+          "text": "Record a test viewer on a copy of the study."
+        },
+        {
+          "index": 113,
+          "paragraph": 59,
+          "start": 722.024,
+          "end": 729.832,
+          "text": "You should see the recording start without the message \"Inconsistent screen resolutions\" and the commercials fill the viewer's monitor."
+        },
+        {
+          "index": 114,
+          "paragraph": 60,
+          "start": 730.532,
+          "end": 736.633,
+          "text": "Write the screen's name, resolution, size, scale, and Aurora setup name in the study read me."
+        },
+        {
+          "index": 115,
+          "paragraph": 61,
+          "start": 737.333,
+          "end": 745.973,
+          "text": "The lab's one-page procedure for this chain, with the menu paths and checks for lab techs, is the guide Setting Up the Stimulus Screen (Word)."
+        },
+        {
+          "index": 116,
+          "paragraph": 62,
+          "start": 746.673,
+          "end": 761.905,
+          "text": "Six mistakes that surface only on session day Scaling at 125 percent; an unpreviewed video; two rating slides with one Question I D; one flow; an unrecorded allocation; a single copy of the study."
+        },
+        {
+          "index": 117,
+          "paragraph": 63,
+          "start": 762.605,
+          "end": 772.099,
+          "text": "Back up the empty study before the first session and the full study after each day with Save To File (in the right-click menu shown in the re-encoding figure)."
+        },
+        {
+          "index": 118,
+          "paragraph": 64,
+          "start": 772.799,
+          "end": 784.788,
+          "text": "Scaling at 125 percent; an unpreviewed video; two rating slides with one Question I D; one flow; an unrecorded allocation; a single copy of the study."
+        },
+        {
+          "index": 119,
+          "paragraph": 65,
+          "start": 785.488,
+          "end": 794.981,
+          "text": "Back up the empty study before the first session and the full study after each day with Save To File (in the right-click menu shown in the re-encoding figure)."
+        },
+        {
+          "index": 120,
+          "paragraph": 66,
+          "start": 795.681,
+          "end": 818.401,
+          "text": "Help center articles for this section: Using the iMotions Study Builder, Re-Encoding of Incompatible Video Stimuli, Using a Test Plan for Study Design, How to use two monitors with iMotions, iMotions Global Settings, and the manuals iMotions Survey Stimuli and Elements and Lab Setup: How to use two monitors with iMotions (P D F)."
+        },
+        {
+          "index": 121,
+          "paragraph": 67,
+          "start": 819.101,
+          "end": 840.413,
+          "text": "Create a Screen-based study with only the eye tracker selected, describe the monitor correctly, set up the stimulus screen and set it up again when it changes, build a flow of baselines, commercials, and rating slides in pinned blocks, counterbalance it with a duplicated flow and a written allocation list, read the study tabs, and back the study up."
         }
       ]
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 772.397,
-      "mp3_duration": 772.464,
+      "duration": 807.056,
+      "mp3_duration": 807.12,
       "starts": [
         0.0,
         2.044,
@@ -2533,109 +2813,111 @@
         34.843,
         41.644,
         48.531,
-        59.599,
-        60.61,
-        65.909,
-        77.553,
-        78.757,
-        83.757,
-        93.097,
-        97.765,
-        98.67,
-        114.09,
-        115.464,
-        118.169,
-        119.501,
-        125.547,
-        128.563,
-        131.269,
-        132.259,
-        141.769,
-        155.312,
-        173.113,
-        175.861,
-        182.376,
-        183.75,
-        186.349,
-        188.128,
-        188.969,
-        195.377,
-        199.576,
-        208.788,
-        211.271,
-        214.48,
-        221.665,
-        233.523,
-        244.783,
-        253.12,
-        262.439,
-        275.384,
-        276.694,
-        285.927,
-        294.96,
-        296.761,
-        300.554,
-        301.608,
-        307.044,
-        308.397,
-        312.8,
-        314.622,
-        318.202,
-        325.558,
-        337.151,
-        338.875,
-        343.628,
-        354.163,
-        368.367,
-        374.733,
-        382.409,
-        396.975,
-        398.337,
-        413.565,
-        419.427,
-        420.993,
-        431.869,
-        438.905,
-        440.514,
-        446.432,
-        454.3,
-        468.261,
-        469.985,
-        473.586,
-        474.64,
-        480.844,
-        481.983,
-        486.395,
-        502.925,
-        505.993,
-        506.876,
-        511.843,
-        527.361,
-        529.085,
-        532.259,
-        534.977,
-        544.445,
-        559.673,
-        576.48,
-        589.276,
-        604.739,
-        609.407,
-        614.544,
-        626.905,
-        629.141,
-        636.445,
-        643.567,
-        646.251,
-        662.609,
-        672.44,
-        694.836,
-        699.141,
-        714.455,
-        722.749,
-        728.484,
-        732.981,
-        754.332,
-        758.893
+        65.892,
+        66.903,
+        72.553,
+        92.047,
+        93.251,
+        98.251,
+        107.591,
+        112.259,
+        113.164,
+        128.584,
+        129.958,
+        132.663,
+        133.995,
+        140.041,
+        143.057,
+        145.763,
+        146.753,
+        156.263,
+        169.806,
+        187.607,
+        190.355,
+        196.87,
+        198.244,
+        200.843,
+        202.622,
+        203.463,
+        209.871,
+        214.07,
+        223.282,
+        225.765,
+        228.974,
+        236.415,
+        248.273,
+        259.533,
+        267.87,
+        277.189,
+        290.134,
+        291.444,
+        300.677,
+        309.71,
+        311.511,
+        315.304,
+        316.358,
+        321.794,
+        323.147,
+        327.55,
+        329.372,
+        332.952,
+        340.308,
+        351.901,
+        353.625,
+        358.378,
+        368.913,
+        383.117,
+        389.483,
+        397.159,
+        411.725,
+        413.087,
+        428.315,
+        434.177,
+        435.743,
+        446.619,
+        453.655,
+        455.264,
+        461.182,
+        469.05,
+        483.011,
+        484.735,
+        488.336,
+        489.39,
+        495.594,
+        496.733,
+        501.145,
+        517.675,
+        520.743,
+        521.626,
+        526.593,
+        542.111,
+        543.835,
+        547.009,
+        549.727,
+        559.195,
+        574.423,
+        591.23,
+        604.026,
+        619.489,
+        624.157,
+        629.294,
+        641.655,
+        643.891,
+        651.195,
+        658.317,
+        661.001,
+        677.359,
+        687.19,
+        709.586,
+        713.891,
+        730.911,
+        742.747,
+        748.921,
+        757.408,
+        763.143,
+        767.64,
+        788.991,
+        793.552
       ],
       "sentences": [
         {
@@ -2684,728 +2966,742 @@
           "index": 6,
           "paragraph": 6,
           "start": 48.531,
-          "end": 58.899,
-          "text": "A new setup is required \"if Windows Display Settings are changed or a different eye tracker model is used\", so a new monitor or scaling value means a new setup."
+          "end": 65.192,
+          "text": "The current article says a new setup is needed when display settings change, naming a \"different Windows display setting or monitors\", or when another tracker model is used, so a new monitor or scale value means a new setup (the whole screen chain is in 4.5)."
         },
         {
           "index": 7,
           "paragraph": 7,
-          "start": 59.599,
-          "end": 60.26,
+          "start": 65.892,
+          "end": 66.553,
           "text": "Install."
         },
         {
           "index": 8,
           "paragraph": 7,
-          "start": 60.61,
-          "end": 65.559,
+          "start": 66.903,
+          "end": 71.853,
           "text": "The box holds the tracker, a mount with adhesive strips, and a U S B cable."
         },
         {
           "index": 9,
-          "paragraph": 7,
-          "start": 65.909,
-          "end": 76.853,
-          "text": "Install the Smart Eye Tracker software (the article names version 13.0.1 and Windows 10 or newer) and note the version on each lab computer."
+          "paragraph": 8,
+          "start": 72.553,
+          "end": 91.347,
+          "text": "Install the Smart Eye Tracker software (the current article links installer 16.0.0, as of July 2026; the 2023 manual named 13.0.1) on Windows 10 or newer, and note the version on each lab computer."
         },
         {
           "index": 10,
-          "paragraph": 8,
-          "start": 77.553,
-          "end": 78.407,
+          "paragraph": 9,
+          "start": 92.047,
+          "end": 92.901,
           "text": "Start a setup."
         },
         {
           "index": 11,
-          "paragraph": 8,
-          "start": 78.757,
-          "end": 83.407,
+          "paragraph": 9,
+          "start": 93.251,
+          "end": 97.901,
           "text": "Open the Smart Eye Setup Tool, select Aurora, and click \"+New setup\"."
         },
         {
           "index": 12,
-          "paragraph": 8,
-          "start": 83.757,
-          "end": 92.397,
+          "paragraph": 9,
+          "start": 98.251,
+          "end": 106.891,
           "text": "Select the stimulus monitor and click \"Show center marker\" (the manual's text spells it \"Show center maker\"; use the wording on the screen)."
         },
         {
           "index": 13,
-          "paragraph": 9,
-          "start": 93.097,
-          "end": 97.065,
+          "paragraph": 10,
+          "start": 107.591,
+          "end": 111.559,
           "text": "You should see a \"Center of display\" mark at the bottom of that screen."
         },
         {
           "index": 14,
-          "paragraph": 10,
-          "start": 97.765,
-          "end": 98.32,
+          "paragraph": 11,
+          "start": 112.259,
+          "end": 112.814,
           "text": "Mount."
         },
         {
           "index": 15,
-          "paragraph": 10,
-          "start": 98.67,
-          "end": 113.39,
+          "paragraph": 11,
+          "start": 113.164,
+          "end": 127.884,
           "text": "Attach the mount flat and stable at the bottom center of the bezel (the bezel must be at least 14 mm), just below the display without covering it, and seat the Aurora so the square pegs fit the square slots, glass toward the viewer."
         },
         {
           "index": 16,
-          "paragraph": 11,
-          "start": 114.09,
-          "end": 115.114,
+          "paragraph": 12,
+          "start": 128.584,
+          "end": 129.608,
           "text": "Common mistake."
         },
         {
           "index": 17,
-          "paragraph": 11,
-          "start": 115.464,
-          "end": 117.469,
+          "paragraph": 12,
+          "start": 129.958,
+          "end": 131.963,
           "text": "A mount that is off center or tilted."
         },
         {
           "index": 18,
-          "paragraph": 12,
-          "start": 118.169,
-          "end": 119.151,
+          "paragraph": 13,
+          "start": 132.663,
+          "end": 133.645,
           "text": "Align and save."
         },
         {
           "index": 19,
-          "paragraph": 12,
-          "start": 119.501,
-          "end": 125.197,
+          "paragraph": 13,
+          "start": 133.995,
+          "end": 139.691,
           "text": "Press any key, click Next, drag the two guidelines to the ends of the tracker, and press Enter."
         },
         {
           "index": 20,
-          "paragraph": 12,
-          "start": 125.547,
-          "end": 128.213,
+          "paragraph": 13,
+          "start": 140.041,
+          "end": 142.707,
           "text": "Name the setup after the monitor and click Finish."
         },
         {
           "index": 21,
-          "paragraph": 12,
-          "start": 128.563,
-          "end": 130.569,
+          "paragraph": 13,
+          "start": 143.057,
+          "end": 145.063,
           "text": "You should see the setup in the tool's list."
         },
         {
           "index": 22,
-          "paragraph": 13,
-          "start": 131.269,
-          "end": 131.909,
+          "paragraph": 14,
+          "start": 145.763,
+          "end": 146.403,
           "text": "Connect."
         },
         {
           "index": 23,
-          "paragraph": 13,
-          "start": 132.259,
-          "end": 141.069,
+          "paragraph": 14,
+          "start": 146.753,
+          "end": 155.563,
           "text": "Plug in the U S B cable, close the Setup Tool, and open Preferences, then Global Settings (Alt plus G), then Eye tracking tab."
         },
         {
           "index": 24,
-          "paragraph": 14,
-          "start": 141.769,
-          "end": 154.612,
+          "paragraph": 15,
+          "start": 156.263,
+          "end": 169.106,
           "text": "Check Eye Tracking Server and choose the Smart Eye entry in Model (the manuals spell it \"Smart Eye A I X/Aurora\" and \"Smart Eye Aurora or Smart Eye A I X\"; verify on the lab machine)."
         },
         {
           "index": 25,
-          "paragraph": 15,
-          "start": 155.312,
-          "end": 172.763,
+          "paragraph": 16,
+          "start": 169.806,
+          "end": 187.257,
           "text": "Host Address 127.0.0.1 is the U S B default; 10.0.0.1 is for an EPU, an external processing unit supplied only with the 120 hertz and 250 hertz models."
         },
         {
           "index": 26,
-          "paragraph": 15,
-          "start": 173.113,
-          "end": 175.161,
+          "paragraph": 16,
+          "start": 187.607,
+          "end": 189.655,
           "text": "Click Test Connection, then OK."
         },
         {
           "index": 27,
-          "paragraph": 16,
-          "start": 175.861,
-          "end": 182.026,
+          "paragraph": 17,
+          "start": 190.355,
+          "end": 196.52,
           "text": "You should see the eye tracker widget, a small window showing the connection and whether the eyes are detected."
         },
         {
           "index": 28,
-          "paragraph": 16,
-          "start": 182.376,
-          "end": 183.4,
+          "paragraph": 17,
+          "start": 196.87,
+          "end": 197.894,
           "text": "Common mistake."
         },
         {
           "index": 29,
-          "paragraph": 16,
-          "start": 183.75,
-          "end": 185.649,
+          "paragraph": 17,
+          "start": 198.244,
+          "end": 200.143,
           "text": "Eye Tracking Server left unchecked."
         },
         {
           "index": 30,
-          "paragraph": 17,
-          "start": 186.349,
-          "end": 187.778,
+          "paragraph": 18,
+          "start": 200.843,
+          "end": 202.272,
           "text": "Three signs need a fix."
         },
         {
           "index": 31,
-          "paragraph": 17,
-          "start": 188.128,
-          "end": 188.619,
+          "paragraph": 18,
+          "start": 202.622,
+          "end": 203.113,
           "text": "A \"!\""
         },
         {
           "index": 32,
-          "paragraph": 17,
-          "start": 188.969,
-          "end": 195.027,
+          "paragraph": 18,
+          "start": 203.463,
+          "end": 209.521,
           "text": "in the widget means that no setup exists for this display: run the Setup Tool and create one."
         },
         {
           "index": 33,
-          "paragraph": 17,
-          "start": 195.377,
-          "end": 198.876,
+          "paragraph": 18,
+          "start": 209.871,
+          "end": 213.37,
           "text": "\"Re-Profile\" helps when the tracker does not track a viewer."
         },
         {
           "index": 34,
-          "paragraph": 18,
-          "start": 199.576,
-          "end": 208.088,
+          "paragraph": 19,
+          "start": 214.07,
+          "end": 222.582,
           "text": "\"Tracker not connected\" usually means too little U S B power or a security restriction; try a higher power U S B port."
         },
         {
           "index": 35,
-          "paragraph": 19,
-          "start": 208.788,
-          "end": 210.921,
+          "paragraph": 20,
+          "start": 223.282,
+          "end": 225.415,
           "text": "The planning article's rules are short."
         },
         {
           "index": 36,
-          "paragraph": 19,
-          "start": 211.271,
-          "end": 214.13,
+          "paragraph": 20,
+          "start": 225.765,
+          "end": 228.624,
           "text": "No sunlight, and no fluorescent office lights."
         },
         {
           "index": 37,
-          "paragraph": 19,
-          "start": 214.48,
-          "end": 220.965,
-          "text": "A chair without moving parts, the head about 60 cm from the screen, the eyes near the middle of the screen."
+          "paragraph": 20,
+          "start": 228.974,
+          "end": 235.715,
+          "text": "A chair without moving parts, the head about 60 centimeters from the screen, the eyes near the middle of the screen."
         },
         {
           "index": 38,
-          "paragraph": 20,
-          "start": 221.665,
-          "end": 232.823,
+          "paragraph": 21,
+          "start": 236.415,
+          "end": 247.573,
           "text": "The widget, which the planning article calls the Eye Finder (double-click detaches it), shows the sample rate and the distance, and the position is right when the two dotted squares merge."
         },
         {
           "index": 39,
-          "paragraph": 21,
-          "start": 233.523,
-          "end": 244.083,
+          "paragraph": 22,
+          "start": 248.273,
+          "end": 258.833,
           "text": "Glasses and contact lenses can be tracked but take longer to calibrate; thick rims, strong prescriptions, astigmatism, and laser surgery make tracking hard."
         },
         {
           "index": 40,
-          "paragraph": 22,
-          "start": 244.783,
-          "end": 252.42,
+          "paragraph": 23,
+          "start": 259.533,
+          "end": 267.17,
           "text": "Head movement and changes in distance lower data quality even for trackers built to tolerate them, hence the fixed chair."
         },
         {
           "index": 41,
-          "paragraph": 23,
-          "start": 253.12,
-          "end": 261.739,
+          "paragraph": 24,
+          "start": 267.87,
+          "end": 276.489,
           "text": "Why: eyes differ, so before recording the viewer looks at known points and the tracker learns how that viewer's eye images map onto the screen."
         },
         {
           "index": 42,
-          "paragraph": 24,
-          "start": 262.439,
-          "end": 274.684,
+          "paragraph": 25,
+          "start": 277.189,
+          "end": 289.434,
           "text": "That is calibration, and both the method and the viewer's eyes shape the quality of the data, above all the accuracy, how close the measured gaze lands to where the eye really looks (section 06)."
         },
         {
           "index": 43,
-          "paragraph": 25,
-          "start": 275.384,
-          "end": 276.344,
+          "paragraph": 26,
+          "start": 290.134,
+          "end": 291.094,
           "text": "Set the points."
         },
         {
           "index": 44,
-          "paragraph": 25,
-          "start": 276.694,
-          "end": 285.227,
+          "paragraph": 26,
+          "start": 291.444,
+          "end": 299.977,
           "text": "Open Preferences, then Global Settings and find the Eye Tracker Calibration settings (number, size, color, and speed of the points)."
         },
         {
           "index": 45,
-          "paragraph": 26,
-          "start": 285.927,
-          "end": 294.61,
+          "paragraph": 27,
+          "start": 300.677,
+          "end": 309.36,
           "text": "The planning article places them on the Calibration tab and the Global Settings article on the Eye tracking tab; verify on the lab machine."
         },
         {
           "index": 46,
-          "paragraph": 26,
-          "start": 294.96,
-          "end": 296.411,
+          "paragraph": 27,
+          "start": 309.71,
+          "end": 311.161,
           "text": "Use at least 9 points."
         },
         {
           "index": 47,
-          "paragraph": 26,
-          "start": 296.761,
-          "end": 299.854,
+          "paragraph": 27,
+          "start": 311.511,
+          "end": 314.604,
           "text": "You should see the number of points set to 9 or more."
         },
         {
           "index": 48,
-          "paragraph": 27,
-          "start": 300.554,
-          "end": 301.258,
+          "paragraph": 28,
+          "start": 315.304,
+          "end": 316.008,
           "text": "Instruct."
         },
         {
           "index": 49,
-          "paragraph": 27,
-          "start": 301.608,
-          "end": 306.344,
+          "paragraph": 28,
+          "start": 316.358,
+          "end": 321.094,
           "text": "Tell the viewer to follow the red circle and focus on the black dot inside it."
         },
         {
           "index": 50,
-          "paragraph": 28,
-          "start": 307.044,
-          "end": 308.047,
+          "paragraph": 29,
+          "start": 321.794,
+          "end": 322.797,
           "text": "Read the result."
         },
         {
           "index": 51,
-          "paragraph": 28,
-          "start": 308.397,
-          "end": 312.45,
+          "paragraph": 29,
+          "start": 323.147,
+          "end": 327.2,
           "text": "After a spinning wheel the result appears as Excellent, Good, or Poor."
         },
         {
           "index": 52,
-          "paragraph": 28,
-          "start": 312.8,
-          "end": 314.272,
+          "paragraph": 29,
+          "start": 327.55,
+          "end": 329.022,
           "text": "Excellent: continue."
         },
         {
           "index": 53,
-          "paragraph": 28,
-          "start": 314.622,
-          "end": 317.502,
+          "paragraph": 29,
+          "start": 329.372,
+          "end": 332.252,
           "text": "Good: recalibrate once or twice, or continue."
         },
         {
           "index": 54,
-          "paragraph": 29,
-          "start": 318.202,
-          "end": 324.858,
+          "paragraph": 30,
+          "start": 332.952,
+          "end": 339.608,
           "text": "Poor: work through the four checks on the screen (lighting, positioning, screen angle, eyesight) and recalibrate."
         },
         {
           "index": 55,
-          "paragraph": 30,
-          "start": 325.558,
-          "end": 336.801,
+          "paragraph": 31,
+          "start": 340.308,
+          "end": 351.551,
           "text": "If it never improves, the manual says to skip the respondent; this workshop either records and flags the session in the log, so the exclusion rule decides later, or stops."
         },
         {
           "index": 56,
-          "paragraph": 30,
-          "start": 337.151,
-          "end": 338.175,
+          "paragraph": 31,
+          "start": 351.901,
+          "end": 352.925,
           "text": "Common mistake."
         },
         {
           "index": 57,
-          "paragraph": 31,
-          "start": 338.875,
-          "end": 342.928,
+          "paragraph": 32,
+          "start": 353.625,
+          "end": 357.678,
           "text": "Recalibrating again and again; a tired viewer calibrates worse."
         },
         {
           "index": 58,
-          "paragraph": 32,
-          "start": 343.628,
-          "end": 353.463,
+          "paragraph": 33,
+          "start": 358.378,
+          "end": 368.213,
           "text": "The calibration mode (section 04) changes what appears, so verify the mode names in 11 point 1 on Study Settings on the lab machine."
         },
         {
           "index": 59,
-          "paragraph": 33,
-          "start": 354.163,
-          "end": 367.667,
+          "paragraph": 34,
+          "start": 368.913,
+          "end": 382.417,
           "text": "The One-Screen article describes a window after Record with a bar per sensor, green when optimal and red when not, and Continue, Back, or Override (not recommended); it is not for dual screen setups."
         },
         {
           "index": 60,
-          "paragraph": 34,
-          "start": 368.367,
-          "end": 374.383,
+          "paragraph": 35,
+          "start": 383.117,
+          "end": 389.133,
           "text": "The Participant-guided article describes preview widgets on the viewer's screen after Start Recording."
         },
         {
           "index": 61,
-          "paragraph": 34,
-          "start": 374.733,
-          "end": 381.709,
+          "paragraph": 35,
+          "start": 389.483,
+          "end": 396.459,
           "text": "The articles disagree on how Compact and Respondent guided relate, so verify that on the lab machine as well."
         },
         {
           "index": 62,
-          "paragraph": 35,
-          "start": 382.409,
-          "end": 396.275,
+          "paragraph": 36,
+          "start": 397.159,
+          "end": 411.025,
           "text": "Before the viewer arrives: widget connected, study selected, allocation list and session log at hand, and live markers defined on the Live Markers tab (Name, Key, optional Shift or Control, Color, then \"+\")."
         },
         {
           "index": 63,
-          "paragraph": 36,
-          "start": 396.975,
-          "end": 397.637,
+          "paragraph": 37,
+          "start": 411.725,
+          "end": 412.387,
           "text": "Consent."
         },
         {
           "index": 64,
-          "paragraph": 37,
-          "start": 398.337,
-          "end": 412.865,
+          "paragraph": 38,
+          "start": 413.087,
+          "end": 427.615,
           "text": "Gaze records reveal more about a person than they seem to, so obtain informed consent: a signed agreement after the viewer has been told the purpose, the right to withdraw, and how the data are handled (the form from section 02)."
         },
         {
           "index": 65,
-          "paragraph": 38,
-          "start": 413.565,
-          "end": 418.727,
+          "paragraph": 39,
+          "start": 428.315,
+          "end": 433.477,
           "text": "Seat and position the viewer as in 5.2 until the Eye Finder squares merge."
         },
         {
           "index": 66,
-          "paragraph": 39,
-          "start": 419.427,
-          "end": 420.643,
+          "paragraph": 40,
+          "start": 434.177,
+          "end": 435.393,
           "text": "Add the respondent."
         },
         {
           "index": 67,
-          "paragraph": 39,
-          "start": 420.993,
-          "end": 431.169,
+          "paragraph": 40,
+          "start": 435.743,
+          "end": 445.919,
           "text": "Select the study and click Add Respondent; enter the anonymous I D (R 01) and the group (A or B) and choose the flow from the allocation list."
         },
         {
           "index": 68,
-          "paragraph": 40,
-          "start": 431.869,
-          "end": 438.205,
+          "paragraph": 41,
+          "start": 446.619,
+          "end": 452.955,
           "text": "You should see the respondent in the list; how the flow is chosen on screen should be verified on the lab machine."
         },
         {
           "index": 69,
-          "paragraph": 41,
-          "start": 438.905,
-          "end": 440.164,
+          "paragraph": 42,
+          "start": 453.655,
+          "end": 454.914,
           "text": "Record and calibrate."
         },
         {
           "index": 70,
-          "paragraph": 41,
-          "start": 440.514,
-          "end": 446.082,
+          "paragraph": 42,
+          "start": 455.264,
+          "end": 460.832,
           "text": "Click Start Recording, run the calibration, and act on the result as in 5.3."
         },
         {
           "index": 71,
-          "paragraph": 41,
-          "start": 446.432,
-          "end": 453.6,
+          "paragraph": 42,
+          "start": 461.182,
+          "end": 468.35,
           "text": "Calibration runs at the start of the recording, before the study flow (Welcome, Instructions, and so on) plays."
         },
         {
           "index": 72,
-          "paragraph": 42,
-          "start": 454.3,
-          "end": 467.911,
+          "paragraph": 43,
+          "start": 469.05,
+          "end": 482.661,
           "text": "The Planning article says Record starts calibration after an instruction slide in the Compact and One Screen Calibration setup, so verify on the lab machine whether an instruction slide appears before the calibration."
         },
         {
           "index": 73,
-          "paragraph": 42,
-          "start": 468.261,
-          "end": 469.285,
+          "paragraph": 43,
+          "start": 483.011,
+          "end": 484.035,
           "text": "Common mistake."
         },
         {
           "index": 74,
-          "paragraph": 43,
-          "start": 469.985,
-          "end": 472.886,
+          "paragraph": 44,
+          "start": 484.735,
+          "end": 487.636,
           "text": "Starting before the Eye Finder shows a good position."
         },
         {
           "index": 75,
-          "paragraph": 44,
-          "start": 473.586,
-          "end": 474.29,
+          "paragraph": 45,
+          "start": 488.336,
+          "end": 489.04,
           "text": "Instruct."
         },
         {
           "index": 76,
-          "paragraph": 44,
-          "start": 474.64,
-          "end": 480.144,
+          "paragraph": 45,
+          "start": 489.39,
+          "end": 494.894,
           "text": "The Instructions slide gives the task, \"Watch the screen as you would watch television at home.\""
         },
         {
           "index": 77,
-          "paragraph": 45,
-          "start": 480.844,
-          "end": 481.633,
+          "paragraph": 46,
+          "start": 495.594,
+          "end": 496.383,
           "text": "Let it run."
         },
         {
           "index": 78,
-          "paragraph": 45,
-          "start": 481.983,
-          "end": 485.695,
+          "paragraph": 46,
+          "start": 496.733,
+          "end": 500.445,
           "text": "The commercials and rating slides run themselves; sit out of sight."
         },
         {
           "index": 79,
-          "paragraph": 46,
-          "start": 486.395,
-          "end": 502.225,
+          "paragraph": 47,
+          "start": 501.145,
+          "end": 516.975,
           "text": "If something happens (a cough, a look away), press a live marker key in the Sensor Data Preview, the operator's live view; the article gives F3 as the default key and says the preview needs a dual screen setup, so confirm both on the lab machine."
         },
         {
           "index": 80,
-          "paragraph": 47,
-          "start": 502.925,
-          "end": 505.293,
+          "paragraph": 48,
+          "start": 517.675,
+          "end": 520.043,
           "text": "Debrief the viewer and answer questions."
         },
         {
           "index": 81,
-          "paragraph": 48,
-          "start": 505.993,
-          "end": 506.526,
+          "paragraph": 49,
+          "start": 520.743,
+          "end": 521.276,
           "text": "Log."
         },
         {
           "index": 82,
-          "paragraph": 48,
-          "start": 506.876,
-          "end": 511.143,
+          "paragraph": 49,
+          "start": 521.626,
+          "end": 525.893,
           "text": "Write one row in the session log, the operator's record of each session."
         },
         {
           "index": 83,
-          "paragraph": 49,
-          "start": 511.843,
-          "end": 527.011,
+          "paragraph": 50,
+          "start": 526.593,
+          "end": 541.761,
           "text": "The simulated log shows the columns: Respondent Name, Session Date, Operator, Group, Calibration result, Recalibrations, Distance to screen (cm), Glasses worn, Valid data ( percent), Data complete, and Decision note."
         },
         {
           "index": 84,
-          "paragraph": 49,
-          "start": 527.361,
-          "end": 528.385,
+          "paragraph": 50,
+          "start": 542.111,
+          "end": 543.135,
           "text": "Common mistake."
         },
         {
           "index": 85,
-          "paragraph": 50,
-          "start": 529.085,
-          "end": 531.559,
+          "paragraph": 51,
+          "start": 543.835,
+          "end": 546.309,
           "text": "Filling in the log at the end of the day from memory."
         },
         {
           "index": 86,
-          "paragraph": 51,
-          "start": 532.259,
-          "end": 534.627,
+          "paragraph": 52,
+          "start": 547.009,
+          "end": 549.377,
           "text": "Check the recording before the next viewer."
         },
         {
           "index": 87,
-          "paragraph": 51,
-          "start": 534.977,
-          "end": 543.745,
+          "paragraph": 52,
+          "start": 549.727,
+          "end": 558.495,
           "text": "Each recording appears as a card on the respondent's Recorded Data tab; what the card shows for the Aurora should be verified on the lab machine."
         },
         {
           "index": 88,
-          "paragraph": 52,
-          "start": 544.445,
-          "end": 558.973,
+          "paragraph": 53,
+          "start": 559.195,
+          "end": 573.723,
           "text": "For the numbers, click the study name, open the study's Recorded Data tab, and click the Export button at its top right, next to the grid and list view buttons (confirmed on the lab laptop on October 7, 2026)."
         },
         {
           "index": 89,
-          "paragraph": 53,
-          "start": 559.673,
-          "end": 575.78,
+          "paragraph": 54,
+          "start": 574.423,
+          "end": 590.53,
           "text": "You should see a file ending in DataQuality dot T X T that holds the effective sampling rate and the percentage of data obtained, the data quality statistics; the manual does not list the file's columns, so verify its layout on the lab machine."
         },
         {
           "index": 90,
-          "paragraph": 54,
-          "start": 576.48,
-          "end": 588.576,
+          "paragraph": 55,
+          "start": 591.23,
+          "end": 603.326,
           "text": "The A O I metrics export also carries a Valid data value per respondent, and the section 02 rule applies to it: keep a viewer only with Valid data of at least 70 percent."
         },
         {
           "index": 91,
-          "paragraph": 55,
-          "start": 589.276,
-          "end": 604.039,
+          "paragraph": 56,
+          "start": 604.026,
+          "end": 618.789,
           "text": "In the simulated log, R 23 stayed Poor after two recalibrations, had Valid data of 58 percent, and is excluded; R 09 and R 17 went from Poor to Good after one recalibration and are kept."
         },
         {
           "index": 92,
-          "paragraph": 56,
-          "start": 604.739,
-          "end": 608.707,
+          "paragraph": 57,
+          "start": 619.489,
+          "end": 623.457,
           "text": "Write the decision in the log that day, before anyone sees results."
         },
         {
           "index": 93,
-          "paragraph": 57,
-          "start": 609.407,
-          "end": 613.844,
+          "paragraph": 58,
+          "start": 624.157,
+          "end": 628.594,
           "text": "The Sensor Preview (the button beside Start Recording) shows the live data."
         },
         {
           "index": 94,
-          "paragraph": 58,
-          "start": 614.544,
-          "end": 626.555,
+          "paragraph": 59,
+          "start": 629.294,
+          "end": 641.305,
           "text": "On the lab computer its Signals menu lists the Aurora as \"Eye Tracker (Smart Eye Aurora)\" with two groups: Pupil and Distance (Pupil and Distance) and Behavioral (Pitch, Yaw, and Roll)."
         },
         {
           "index": 95,
-          "paragraph": 58,
-          "start": 626.905,
-          "end": 628.441,
+          "paragraph": 59,
+          "start": 641.655,
+          "end": 643.191,
           "text": "Click a name to show its chart."
         },
         {
           "index": 96,
-          "paragraph": 59,
-          "start": 629.141,
-          "end": 636.095,
+          "paragraph": 60,
+          "start": 643.891,
+          "end": 650.845,
           "text": "Where the viewer looks is not in this list; the gaze point is drawn on the stimulus in the replay (section 07)."
         },
         {
           "index": 97,
-          "paragraph": 59,
-          "start": 636.445,
-          "end": 642.867,
+          "paragraph": 60,
+          "start": 651.195,
+          "end": 657.617,
           "text": "These five signals tell you whether the eyes are being found and, judging from the names, how the head is turned."
         },
         {
           "index": 98,
-          "paragraph": 60,
-          "start": 643.567,
-          "end": 645.551,
+          "paragraph": 61,
+          "start": 658.317,
+          "end": 660.301,
           "text": "Two habits make the preview useful."
         },
         {
           "index": 99,
-          "paragraph": 61,
-          "start": 646.251,
-          "end": 661.909,
+          "paragraph": 62,
+          "start": 661.001,
+          "end": 676.659,
           "text": "First, read gaps before heights: a stretch with no line means the tracker found no eyes, which is missing data, not a value of 0, and it lowers the percentage of data obtained in the DataQuality dot T X T file (5.5)."
         },
         {
           "index": 100,
-          "paragraph": 62,
-          "start": 662.609,
-          "end": 671.74,
+          "paragraph": 63,
+          "start": 677.359,
+          "end": 686.49,
           "text": "Second, read the axis on the right before judging a line, because each chart's axis scales itself to the data, so a tiny change can fill the chart."
         },
         {
           "index": 101,
-          "paragraph": 63,
-          "start": 672.44,
-          "end": 694.136,
+          "paragraph": 64,
+          "start": 687.19,
+          "end": 708.886,
           "text": "The same Signals menu also lists Affectiva aff decks (Workshop 3), Shimmer (Workshop 4), and the System Load Monitor, whose four signals (C P U System percent, Memory System percent, C P U iMotions percent, Memory iMotions M B) warn when \"Too high data loads (typically above 80 percent)\" could disturb collection."
         },
         {
           "index": 102,
-          "paragraph": 64,
-          "start": 694.836,
-          "end": 698.441,
+          "paragraph": 65,
+          "start": 709.586,
+          "end": 713.191,
           "text": "The units of the five Aurora signals are not in the manuals."
         },
         {
           "index": 103,
-          "paragraph": 65,
-          "start": 699.141,
-          "end": 713.755,
-          "text": "The Sensor Data export can show them: on its Sensors page turn on 'show signal descriptions', and on the File info page tick 'Channel metadata', which adds \"a short description of the data, the unit, etc.\" for every column."
+          "paragraph": 66,
+          "start": 713.891,
+          "end": 730.211,
+          "text": "The Sensor Data export can show them: iMotions writes a Metadata block at the top of every export file, with a description, a unit, and a data format for each column, and 'show signal descriptions' on the export's Sensors page shows the same descriptions."
         },
         {
           "index": 104,
-          "paragraph": 66,
-          "start": 714.455,
-          "end": 722.049,
-          "text": "Do this on a pilot recording with the Aurora connected, never on a lab study, and add what it says to the session log template."
+          "paragraph": 67,
+          "start": 730.911,
+          "end": 742.047,
+          "text": "The export article says to tick 'Channel metadata' on the File info page; on the lab computer in 11 point 1 that option was not there, and the block was written anyway."
         },
         {
           "index": 105,
-          "paragraph": 67,
-          "start": 722.749,
-          "end": 727.784,
-          "text": "iMotions, \"Advanced Eye Tracking with Smart Eye and iMotions\" (YouTube)"
+          "paragraph": 68,
+          "start": 742.747,
+          "end": 748.571,
+          "text": "The lab's first such export settled every Shimmer unit (Workshop 4, section 5.4)."
         },
         {
           "index": 106,
           "paragraph": 68,
-          "start": 728.484,
-          "end": 732.281,
-          "text": "iMotions, \"iMotions Eye Tracking Solution\" (YouTube)"
+          "start": 748.921,
+          "end": 756.708,
+          "text": "Do the same on a pilot recording with the Aurora connected, never on a lab study, and add what it says to the session log template."
         },
         {
           "index": 107,
           "paragraph": 69,
-          "start": 732.981,
-          "end": 753.632,
-          "text": "Help center articles for this section: Setting up Aurora or A I X in iMotions, Planning for Eye Tracker Calibration, Setting up Participant-guided Eye Tracker Calibration, One-Screen Calibration: Configurations and Settings, Data Collection Overview, Using Event Markers, Export: Data Quality Statistics."
+          "start": 757.408,
+          "end": 762.443,
+          "text": "iMotions, \"Advanced Eye Tracking with Smart Eye and iMotions\" (YouTube)"
         },
         {
           "index": 108,
           "paragraph": 70,
-          "start": 754.332,
-          "end": 758.193,
-          "text": "Set up and connect the Aurora once per computer and monitor, fix the \"!\""
+          "start": 763.143,
+          "end": 766.94,
+          "text": "iMotions, \"iMotions Eye Tracking Solution\" (YouTube)"
         },
         {
           "index": 109,
           "paragraph": 71,
-          "start": 758.893,
-          "end": 772.397,
+          "start": 767.64,
+          "end": 788.291,
+          "text": "Help center articles for this section: Setting up Aurora or A I X in iMotions, Planning for Eye Tracker Calibration, Setting up Participant-guided Eye Tracker Calibration, One-Screen Calibration: Configurations and Settings, Data Collection Overview, Using Event Markers, Export: Data Quality Statistics."
+        },
+        {
+          "index": 110,
+          "paragraph": 72,
+          "start": 788.991,
+          "end": 792.852,
+          "text": "Set up and connect the Aurora once per computer and monitor, fix the \"!\""
+        },
+        {
+          "index": 111,
+          "paragraph": 73,
+          "start": 793.552,
+          "end": 807.056,
           "text": "and connection warnings, position a viewer, calibrate and act on Excellent, Good, and Poor, run a session in order with live markers and a log row, and export the data quality statistics to apply the exclusion rule."
         }
       ]
@@ -6633,8 +6929,8 @@
     },
     "resources": {
       "file": "resources.mp3",
-      "duration": 1391.572,
-      "mp3_duration": 1391.64,
+      "duration": 1454.273,
+      "mp3_duration": 1454.328,
       "starts": [
         0.0,
         3.943,
@@ -6677,216 +6973,226 @@
         223.675,
         233.262,
         235.242,
-        238.429,
-        246.118,
-        248.098,
-        250.411,
-        259.955,
-        261.935,
-        265.272,
-        269.462,
-        271.442,
-        275.227,
-        282.51,
-        284.49,
-        286.376,
-        294.449,
-        296.429,
-        298.059,
-        303.699,
-        305.679,
-        307.267,
-        315.382,
-        318.173,
-        320.784,
-        330.563,
-        333.354,
-        338.077,
-        346.705,
-        348.578,
-        350.144,
-        354.761,
-        356.634,
-        358.093,
-        370.155,
-        372.946,
-        375.323,
-        383.374,
-        386.165,
-        387.645,
-        391.515,
-        393.495,
-        395.808,
-        400.339,
-        402.319,
-        403.843,
-        411.169,
-        413.149,
-        414.736,
-        419.609,
-        421.589,
-        426.632,
-        428.612,
-        429.687,
-        435.755,
-        437.735,
-        440.901,
-        445.645,
-        447.625,
-        450.151,
-        455.365,
-        457.345,
-        458.89,
-        465.661,
-        467.641,
-        469.613,
-        476.213,
-        478.193,
-        480.143,
-        485.229,
-        487.209,
-        489.799,
-        495.931,
-        498.764,
-        501.93,
-        510.067,
-        511.94,
-        517.879,
-        521.203,
-        524.049,
-        534.925,
-        538.945,
-        546.813,
-        549.957,
-        556.609,
-        560.245,
-        566.577,
-        570.724,
-        575.563,
-        579.625,
-        589.05,
-        592.301,
-        598.889,
-        603.207,
-        612.505,
-        616.929,
-        627.443,
-        629.819,
-        635.469,
-        638.699,
-        643.473,
-        645.871,
-        649.921,
-        652.788,
-        660.592,
-        663.545,
-        668.533,
-        670.888,
-        676.857,
-        679.106,
-        684.521,
-        688.455,
-        692.227,
-        694.582,
-        699.826,
-        702.267,
-        706.572,
-        708.97,
-        712.23,
-        715.865,
-        720.085,
-        724.113,
-        726.938,
-        733.825,
-        737.097,
-        741.851,
-        746.809,
-        752.287,
-        757.437,
-        761.679,
-        763.97,
-        769.363,
-        771.889,
-        777.816,
-        779.595,
-        784.349,
-        786.341,
-        794.06,
-        796.565,
-        802.875,
-        807.257,
-        816.149,
-        819.486,
-        828.079,
-        831.096,
-        836.895,
-        840.701,
-        848.867,
-        851.927,
-        859.368,
+        237.811,
+        251.289,
+        253.205,
+        255.198,
+        261.628,
+        263.544,
+        266.731,
+        274.42,
+        276.4,
+        278.713,
+        288.513,
+        290.493,
+        293.83,
+        298.02,
+        300.0,
+        303.785,
+        311.068,
+        313.048,
+        314.934,
+        323.007,
+        324.987,
+        326.617,
+        332.257,
+        334.237,
+        335.825,
+        343.94,
+        346.731,
+        349.342,
+        359.121,
+        361.912,
+        366.635,
+        375.263,
+        377.136,
+        378.702,
+        383.319,
+        385.192,
+        386.651,
+        398.713,
+        401.504,
+        403.881,
+        411.932,
+        414.723,
+        416.203,
+        420.073,
+        422.053,
+        424.366,
+        428.897,
+        430.877,
+        432.401,
+        439.727,
+        441.707,
+        443.294,
+        448.167,
+        450.147,
+        455.19,
+        457.17,
+        458.245,
+        464.313,
+        466.293,
+        469.459,
+        474.203,
+        476.183,
+        478.709,
+        483.923,
+        485.903,
+        487.448,
+        494.219,
+        496.199,
+        498.171,
+        504.771,
+        506.751,
+        508.701,
+        513.787,
+        515.767,
+        518.357,
+        524.489,
+        527.322,
+        530.488,
+        538.625,
+        540.498,
+        546.437,
+        549.761,
+        552.607,
+        563.483,
+        567.503,
+        575.371,
+        578.515,
+        585.167,
+        589.4,
+        601.684,
+        605.319,
+        611.651,
+        615.799,
+        620.637,
+        624.699,
+        634.125,
+        637.376,
+        643.964,
+        648.282,
+        657.579,
+        662.004,
+        672.517,
+        674.894,
+        680.543,
+        683.773,
+        688.548,
+        690.946,
+        694.995,
+        697.863,
+        705.667,
+        708.619,
+        713.607,
+        715.963,
+        721.932,
+        724.181,
+        729.595,
+        733.529,
+        737.301,
+        739.657,
+        744.901,
+        747.341,
+        751.647,
+        754.045,
+        757.305,
+        760.94,
+        765.16,
+        769.188,
+        772.013,
+        778.899,
+        782.172,
+        786.925,
+        791.883,
+        797.362,
+        802.512,
+        806.753,
+        809.045,
+        814.438,
+        816.964,
+        822.891,
+        824.67,
+        829.423,
+        831.416,
+        839.135,
+        841.639,
+        847.95,
+        852.332,
+        861.224,
         864.561,
-        872.173,
-        877.259,
-        887.196,
-        891.215,
-        901.857,
-        904.425,
-        905.778,
-        913.113,
-        922.239,
-        940.198,
-        949.645,
-        964.608,
-        966.503,
-        976.952,
-        986.356,
-        994.087,
-        997.966,
-        1015.349,
-        1026.651,
-        1042.199,
-        1052.862,
-        1065.978,
-        1078.411,
-        1093.063,
-        1103.449,
-        1113.706,
-        1125.457,
-        1135.159,
-        1149.47,
-        1164.399,
-        1172.95,
-        1186.471,
-        1201.017,
-        1208.906,
-        1218.694,
-        1236.111,
-        1239.029,
-        1241.073,
-        1244.282,
-        1254.177,
-        1256.66,
-        1264.635,
-        1267.459,
-        1278.122,
-        1281.203,
-        1292.079,
-        1294.093,
-        1304.307,
-        1306.492,
-        1310.819,
-        1314.027,
-        1319.463,
-        1322.779,
-        1329.537,
-        1331.743,
-        1338.161,
-        1340.964,
-        1349.941,
-        1352.531,
-        1368.826,
-        1371.288,
-        1380.905
+        873.154,
+        876.171,
+        881.969,
+        885.775,
+        893.942,
+        897.001,
+        904.443,
+        909.635,
+        917.247,
+        922.333,
+        932.271,
+        936.29,
+        946.931,
+        949.5,
+        950.853,
+        958.187,
+        967.314,
+        985.273,
+        994.719,
+        1009.683,
+        1011.577,
+        1022.027,
+        1031.431,
+        1039.162,
+        1043.041,
+        1060.423,
+        1071.726,
+        1087.274,
+        1097.937,
+        1111.053,
+        1123.486,
+        1138.138,
+        1148.523,
+        1158.781,
+        1170.51,
+        1180.213,
+        1194.523,
+        1209.453,
+        1218.003,
+        1231.525,
+        1246.07,
+        1253.959,
+        1263.747,
+        1281.313,
+        1284.232,
+        1286.276,
+        1289.485,
+        1299.379,
+        1301.863,
+        1309.837,
+        1312.662,
+        1323.325,
+        1326.405,
+        1337.281,
+        1339.295,
+        1349.51,
+        1351.695,
+        1356.021,
+        1359.23,
+        1366.735,
+        1370.051,
+        1376.809,
+        1379.015,
+        1385.433,
+        1388.236,
+        1397.213,
+        1399.803,
+        1416.098,
+        1418.56,
+        1428.177,
+        1430.277,
+        1443.606
       ],
       "sentences": [
         {
@@ -7173,1477 +7479,1547 @@
           "index": 40,
           "paragraph": 19,
           "start": 235.242,
-          "end": 238.079,
-          "text": "Setting up Aurora or A I X in iMotions."
+          "end": 237.461,
+          "text": "How to use two monitors with iMotions."
         },
         {
           "index": 41,
           "paragraph": 19,
-          "start": 238.429,
-          "end": 245.768,
-          "text": "The Smart Eye Tracker software, the Smart Eye Setup Tool, mounting the Aurora, connecting it, and the Eye Tracker widget."
+          "start": 237.811,
+          "end": 250.589,
+          "text": "Windows display settings for an operator screen and a stimulus screen: Extend these displays, one Scale value on both monitors, the main display, and Use secondary screen on the Slide Show tab."
         },
         {
           "index": 42,
-          "paragraph": 19,
-          "start": 246.118,
-          "end": 247.398,
-          "text": "(Step 05)"
+          "paragraph": 20,
+          "start": 251.289,
+          "end": 252.505,
+          "text": "(Step 04)"
         },
         {
           "index": 43,
-          "paragraph": 20,
-          "start": 248.098,
-          "end": 250.061,
-          "text": "Planning for Eye Tracker Calibration."
+          "paragraph": 21,
+          "start": 253.205,
+          "end": 254.848,
+          "text": "iMotions Global Settings."
         },
         {
           "index": 44,
-          "paragraph": 20,
-          "start": 250.411,
-          "end": 259.605,
-          "text": "Lighting, the 60 cm seating distance, the Eye Finder, at least 9 calibration points, and what to do after Excellent, Good, or Poor."
+          "paragraph": 21,
+          "start": 255.198,
+          "end": 261.278,
+          "text": "The nine tabs of Global Settings, including the Slide Show tab where the stimulus screen is chosen."
         },
         {
           "index": 45,
-          "paragraph": 20,
-          "start": 259.955,
-          "end": 261.235,
-          "text": "(Step 05)"
+          "paragraph": 21,
+          "start": 261.628,
+          "end": 262.844,
+          "text": "(Step 04)"
         },
         {
           "index": 46,
-          "paragraph": 21,
-          "start": 261.935,
-          "end": 264.922,
-          "text": "Setting up Participant-guided Eye Tracker Calibration."
+          "paragraph": 22,
+          "start": 263.544,
+          "end": 266.381,
+          "text": "Setting up Aurora or A I X in iMotions."
         },
         {
           "index": 47,
-          "paragraph": 21,
-          "start": 265.272,
-          "end": 269.112,
-          "text": "The Respondent guided calibration mode on the study settings."
+          "paragraph": 22,
+          "start": 266.731,
+          "end": 274.07,
+          "text": "The Smart Eye Tracker software, the Smart Eye Setup Tool, mounting the Aurora, connecting it, and the Eye Tracker widget."
         },
         {
           "index": 48,
-          "paragraph": 21,
-          "start": 269.462,
-          "end": 270.742,
+          "paragraph": 22,
+          "start": 274.42,
+          "end": 275.7,
           "text": "(Step 05)"
         },
         {
           "index": 49,
-          "paragraph": 22,
-          "start": 271.442,
-          "end": 274.877,
-          "text": "One-Screen Calibration: Configurations and Settings."
+          "paragraph": 23,
+          "start": 276.4,
+          "end": 278.363,
+          "text": "Planning for Eye Tracker Calibration."
         },
         {
           "index": 50,
-          "paragraph": 22,
-          "start": 275.227,
-          "end": 282.16,
-          "text": "Regular and Compact calibration modes, the green and red sensor bars, and Continue, Back, and Override."
+          "paragraph": 23,
+          "start": 278.713,
+          "end": 288.163,
+          "text": "Lighting, the 60 centimeters seating distance, the Eye Finder, at least 9 calibration points, and what to do after Excellent, Good, or Poor."
         },
         {
           "index": 51,
-          "paragraph": 22,
-          "start": 282.51,
-          "end": 283.79,
+          "paragraph": 23,
+          "start": 288.513,
+          "end": 289.793,
           "text": "(Step 05)"
         },
         {
           "index": 52,
-          "paragraph": 23,
-          "start": 284.49,
-          "end": 286.026,
-          "text": "Data Collection Overview."
+          "paragraph": 24,
+          "start": 290.493,
+          "end": 293.48,
+          "text": "Setting up Participant-guided Eye Tracker Calibration."
         },
         {
           "index": 53,
-          "paragraph": 23,
-          "start": 286.376,
-          "end": 294.099,
-          "text": "Selecting the study, adding a respondent, and starting a recording, with the eye tracker widget showing whether the eyes are detected."
+          "paragraph": 24,
+          "start": 293.83,
+          "end": 297.67,
+          "text": "The Respondent guided calibration mode on the study settings."
         },
         {
           "index": 54,
-          "paragraph": 23,
-          "start": 294.449,
-          "end": 295.729,
+          "paragraph": 24,
+          "start": 298.02,
+          "end": 299.3,
           "text": "(Step 05)"
         },
         {
           "index": 55,
-          "paragraph": 24,
-          "start": 296.429,
-          "end": 297.709,
-          "text": "Sensor Preview Window."
+          "paragraph": 25,
+          "start": 300.0,
+          "end": 303.435,
+          "text": "One-Screen Calibration: Configurations and Settings."
         },
         {
           "index": 56,
-          "paragraph": 24,
-          "start": 298.059,
-          "end": 303.349,
-          "text": "The experimenter's live view during a recording, available only on a two screen setup."
+          "paragraph": 25,
+          "start": 303.785,
+          "end": 310.718,
+          "text": "Regular and Compact calibration modes, the green and red sensor bars, and Continue, Back, and Override."
         },
         {
           "index": 57,
-          "paragraph": 24,
-          "start": 303.699,
-          "end": 304.979,
+          "paragraph": 25,
+          "start": 311.068,
+          "end": 312.348,
           "text": "(Step 05)"
         },
         {
           "index": 58,
-          "paragraph": 25,
-          "start": 305.679,
-          "end": 306.917,
-          "text": "Using Event Markers."
+          "paragraph": 26,
+          "start": 313.048,
+          "end": 314.584,
+          "text": "Data Collection Overview."
         },
         {
           "index": 59,
-          "paragraph": 25,
-          "start": 307.267,
-          "end": 315.032,
-          "text": "Live markers defined on the study's Live Markers tab before recording and pressed during a session (default key F3)."
+          "paragraph": 26,
+          "start": 314.934,
+          "end": 322.657,
+          "text": "Selecting the study, adding a respondent, and starting a recording, with the eye tracker widget showing whether the eyes are detected."
         },
         {
           "index": 60,
-          "paragraph": 25,
-          "start": 315.382,
-          "end": 317.473,
-          "text": "(Steps 05 and 07)"
+          "paragraph": 26,
+          "start": 323.007,
+          "end": 324.287,
+          "text": "(Step 05)"
         },
         {
           "index": 61,
-          "paragraph": 26,
-          "start": 318.173,
-          "end": 320.434,
-          "text": "Export: Data Quality Statistics."
+          "paragraph": 27,
+          "start": 324.987,
+          "end": 326.267,
+          "text": "Sensor Preview Window."
         },
         {
           "index": 62,
-          "paragraph": 26,
-          "start": 320.784,
-          "end": 330.213,
-          "text": "The DataQuality dot T X T file exported from a study's Recorded Data tab, with the effective sampling rate and the percentage of data obtained."
+          "paragraph": 27,
+          "start": 326.617,
+          "end": 331.907,
+          "text": "The experimenter's live view during a recording, available only on a two screen setup."
         },
         {
           "index": 63,
-          "paragraph": 26,
-          "start": 330.563,
-          "end": 332.654,
-          "text": "(Steps 05 and 07)"
+          "paragraph": 27,
+          "start": 332.257,
+          "end": 333.537,
+          "text": "(Step 05)"
         },
         {
           "index": 64,
-          "paragraph": 27,
-          "start": 333.354,
-          "end": 337.727,
-          "text": "Fixation and saccade classification with the I V T filter."
+          "paragraph": 28,
+          "start": 334.237,
+          "end": 335.475,
+          "text": "Using Event Markers."
         },
         {
           "index": 65,
-          "paragraph": 27,
-          "start": 338.077,
-          "end": 346.355,
-          "text": "The filter parameters on the Gaze Analysis tab and the note that I V T is typically used for data sampled at 200 hertz or more."
+          "paragraph": 28,
+          "start": 335.825,
+          "end": 343.59,
+          "text": "Live markers defined on the study's Live Markers tab before recording and pressed during a session (default key F3)."
         },
         {
           "index": 66,
-          "paragraph": 27,
-          "start": 346.705,
-          "end": 347.878,
-          "text": "(Step 06)"
+          "paragraph": 28,
+          "start": 343.94,
+          "end": 346.031,
+          "text": "(Steps 05 and 07)"
         },
         {
           "index": 67,
-          "paragraph": 28,
-          "start": 348.578,
-          "end": 349.794,
-          "text": "Gaze smoothing filter."
+          "paragraph": 29,
+          "start": 346.731,
+          "end": 348.992,
+          "text": "Export: Data Quality Statistics."
         },
         {
           "index": 68,
-          "paragraph": 28,
-          "start": 350.144,
-          "end": 354.411,
-          "text": "A filter for the picture only; fixations and exports do not change."
+          "paragraph": 29,
+          "start": 349.342,
+          "end": 358.771,
+          "text": "The DataQuality dot T X T file exported from a study's Recorded Data tab, with the effective sampling rate and the percentage of data obtained."
         },
         {
           "index": 69,
-          "paragraph": 28,
-          "start": 354.761,
-          "end": 355.934,
-          "text": "(Step 06)"
+          "paragraph": 29,
+          "start": 359.121,
+          "end": 361.212,
+          "text": "(Steps 05 and 07)"
         },
         {
           "index": 70,
-          "paragraph": 29,
-          "start": 356.634,
-          "end": 357.743,
-          "text": "A O I Metrics."
+          "paragraph": 30,
+          "start": 361.912,
+          "end": 366.285,
+          "text": "Fixation and saccade classification with the I V T filter."
         },
         {
           "index": 71,
-          "paragraph": 29,
-          "start": 358.093,
-          "end": 369.805,
-          "text": "The 48 metric definitions, including T T F F A O I, T T F F parent, T T F F max., Dwell time ( percent), and Respondent ratio ( percent)."
+          "paragraph": 30,
+          "start": 366.635,
+          "end": 374.913,
+          "text": "The filter parameters on the Gaze Analysis tab and the note that I V T is typically used for data sampled at 200 hertz or more."
         },
         {
           "index": 72,
-          "paragraph": 29,
-          "start": 370.155,
-          "end": 372.246,
-          "text": "(Steps 06 and 07)"
+          "paragraph": 30,
+          "start": 375.263,
+          "end": 376.436,
+          "text": "(Step 06)"
         },
         {
           "index": 73,
-          "paragraph": 30,
-          "start": 372.946,
-          "end": 374.973,
-          "text": "Areas of Interest (A O I's)."
+          "paragraph": 31,
+          "start": 377.136,
+          "end": 378.352,
+          "text": "Gaze smoothing filter."
         },
         {
           "index": 74,
-          "paragraph": 30,
-          "start": 375.323,
-          "end": 383.024,
-          "text": "The A O I editor, dynamic A O I's with key frames and active intervals, groups and templates, and the export options."
+          "paragraph": 31,
+          "start": 378.702,
+          "end": 382.969,
+          "text": "A filter for the picture only; fixations and exports do not change."
         },
         {
           "index": 75,
-          "paragraph": 30,
-          "start": 383.374,
-          "end": 385.465,
-          "text": "(Steps 06 and 07)"
+          "paragraph": 31,
+          "start": 383.319,
+          "end": 384.492,
+          "text": "(Step 06)"
         },
         {
           "index": 76,
-          "paragraph": 31,
-          "start": 386.165,
-          "end": 387.295,
-          "text": "Analysis Overview."
+          "paragraph": 32,
+          "start": 385.192,
+          "end": 386.301,
+          "text": "A O I Metrics."
         },
         {
           "index": 77,
-          "paragraph": 31,
-          "start": 387.645,
-          "end": 391.165,
-          "text": "Adding an analysis from the Library and choosing its stimuli."
+          "paragraph": 32,
+          "start": 386.651,
+          "end": 398.363,
+          "text": "The 48 metric definitions, including T T F F A O I, T T F F parent, T T F F max., Dwell time ( percent), and Respondent ratio ( percent)."
         },
         {
           "index": 78,
-          "paragraph": 31,
-          "start": 391.515,
-          "end": 392.795,
-          "text": "(Step 07)"
+          "paragraph": 32,
+          "start": 398.713,
+          "end": 400.804,
+          "text": "(Steps 06 and 07)"
         },
         {
           "index": 79,
-          "paragraph": 32,
-          "start": 393.495,
-          "end": 395.458,
-          "text": "Replay and Analysis Windows."
+          "paragraph": 33,
+          "start": 401.504,
+          "end": 403.531,
+          "text": "Areas of Interest (A O I's)."
         },
         {
           "index": 80,
-          "paragraph": 32,
-          "start": 395.808,
-          "end": 399.989,
-          "text": "Create Analysis, the segmentation screens, and the replay window."
+          "paragraph": 33,
+          "start": 403.881,
+          "end": 411.582,
+          "text": "The A O I editor, dynamic A O I's with key frames and active intervals, groups and templates, and the export options."
         },
         {
           "index": 81,
-          "paragraph": 32,
-          "start": 400.339,
-          "end": 401.619,
-          "text": "(Step 07)"
+          "paragraph": 33,
+          "start": 411.932,
+          "end": 414.023,
+          "text": "(Steps 06 and 07)"
         },
         {
           "index": 82,
-          "paragraph": 33,
-          "start": 402.319,
-          "end": 403.493,
-          "text": "Respondent Replay."
+          "paragraph": 34,
+          "start": 414.723,
+          "end": 415.853,
+          "text": "Analysis Overview."
         },
         {
           "index": 83,
-          "paragraph": 33,
-          "start": 403.843,
-          "end": 410.819,
-          "text": "Replaying one viewer with gaze visualization, stepping by time, frame, gaze, fixation, or marker."
+          "paragraph": 34,
+          "start": 416.203,
+          "end": 419.723,
+          "text": "Adding an analysis from the Library and choosing its stimuli."
         },
         {
           "index": 84,
-          "paragraph": 33,
-          "start": 411.169,
-          "end": 412.449,
+          "paragraph": 34,
+          "start": 420.073,
+          "end": 421.353,
           "text": "(Step 07)"
         },
         {
           "index": 85,
-          "paragraph": 34,
-          "start": 413.149,
-          "end": 414.386,
-          "text": "Aggregate Replay."
+          "paragraph": 35,
+          "start": 422.053,
+          "end": 424.016,
+          "text": "Replay and Analysis Windows."
         },
         {
           "index": 86,
-          "paragraph": 34,
-          "start": 414.736,
-          "end": 419.259,
-          "text": "Replaying all viewers of a stimulus together and making the dynamic heatmap."
+          "paragraph": 35,
+          "start": 424.366,
+          "end": 428.547,
+          "text": "Create Analysis, the segmentation screens, and the replay window."
         },
         {
           "index": 87,
-          "paragraph": 34,
-          "start": 419.609,
-          "end": 420.889,
+          "paragraph": 35,
+          "start": 428.897,
+          "end": 430.177,
           "text": "(Step 07)"
         },
         {
           "index": 88,
-          "paragraph": 35,
-          "start": 421.589,
-          "end": 426.282,
-          "text": "How to Create A O I's. Drawing static and dynamic A O I's step by step."
+          "paragraph": 36,
+          "start": 430.877,
+          "end": 432.051,
+          "text": "Respondent Replay."
         },
         {
           "index": 89,
-          "paragraph": 35,
-          "start": 426.632,
-          "end": 427.912,
-          "text": "(Step 07)"
+          "paragraph": 36,
+          "start": 432.401,
+          "end": 439.377,
+          "text": "Replaying one viewer with gaze visualization, stepping by time, frame, gaze, fixation, or marker."
         },
         {
           "index": 90,
           "paragraph": 36,
-          "start": 428.612,
-          "end": 429.337,
-          "text": "Heatmaps."
+          "start": 439.727,
+          "end": 441.007,
+          "text": "(Step 07)"
         },
         {
           "index": 91,
-          "paragraph": 36,
-          "start": 429.687,
-          "end": 435.405,
-          "text": "Static and dynamic heatmaps; on a video, the color shows how many viewers looked at each moment."
+          "paragraph": 37,
+          "start": 441.707,
+          "end": 442.944,
+          "text": "Aggregate Replay."
         },
         {
           "index": 92,
-          "paragraph": 36,
-          "start": 435.755,
-          "end": 437.035,
-          "text": "(Step 07)"
+          "paragraph": 37,
+          "start": 443.294,
+          "end": 447.817,
+          "text": "Replaying all viewers of a stimulus together and making the dynamic heatmap."
         },
         {
           "index": 93,
           "paragraph": 37,
-          "start": 437.735,
-          "end": 440.551,
-          "text": "Basic Heatmap Explanation and Generation."
+          "start": 448.167,
+          "end": 449.447,
+          "text": "(Step 07)"
         },
         {
           "index": 94,
-          "paragraph": 37,
-          "start": 440.901,
-          "end": 445.295,
-          "text": "How the heatmap grid is computed and why its scale can be read as quartiles."
+          "paragraph": 38,
+          "start": 450.147,
+          "end": 454.84,
+          "text": "How to Create A O I's. Drawing static and dynamic A O I's step by step."
         },
         {
           "index": 95,
-          "paragraph": 37,
-          "start": 445.645,
-          "end": 446.925,
+          "paragraph": 38,
+          "start": 455.19,
+          "end": 456.47,
           "text": "(Step 07)"
         },
         {
           "index": 96,
-          "paragraph": 38,
-          "start": 447.625,
-          "end": 449.801,
-          "text": "Scan Paths and Individual Heatmaps."
+          "paragraph": 39,
+          "start": 457.17,
+          "end": 457.895,
+          "text": "Heatmaps."
         },
         {
           "index": 97,
-          "paragraph": 38,
-          "start": 450.151,
-          "end": 455.015,
-          "text": "Per viewer fixation circles and saccade lines, static or with a gaze trail."
+          "paragraph": 39,
+          "start": 458.245,
+          "end": 463.963,
+          "text": "Static and dynamic heatmaps; on a video, the color shows how many viewers looked at each moment."
         },
         {
           "index": 98,
-          "paragraph": 38,
-          "start": 455.365,
-          "end": 456.645,
+          "paragraph": 39,
+          "start": 464.313,
+          "end": 465.593,
           "text": "(Step 07)"
         },
         {
           "index": 99,
-          "paragraph": 39,
-          "start": 457.345,
-          "end": 458.54,
-          "text": "Using Annotations."
+          "paragraph": 40,
+          "start": 466.293,
+          "end": 469.109,
+          "text": "Basic Heatmap Explanation and Generation."
         },
         {
           "index": 100,
-          "paragraph": 39,
-          "start": 458.89,
-          "end": 465.311,
-          "text": "Stimulus annotations for the scenes of a commercial and automated time bins with Subdivide intervals."
+          "paragraph": 40,
+          "start": 469.459,
+          "end": 473.853,
+          "text": "How the heatmap grid is computed and why its scale can be read as quartiles."
         },
         {
           "index": 101,
-          "paragraph": 39,
-          "start": 465.661,
-          "end": 466.941,
+          "paragraph": 40,
+          "start": 474.203,
+          "end": 475.483,
           "text": "(Step 07)"
         },
         {
           "index": 102,
-          "paragraph": 40,
-          "start": 467.641,
-          "end": 469.263,
-          "text": "Export: Sensor Data."
+          "paragraph": 41,
+          "start": 476.183,
+          "end": 478.359,
+          "text": "Scan Paths and Individual Heatmaps."
         },
         {
           "index": 103,
-          "paragraph": 40,
-          "start": 469.613,
-          "end": 475.863,
-          "text": "The sample by sample export, its file sections, and the per A O I Active and Gazed columns."
+          "paragraph": 41,
+          "start": 478.709,
+          "end": 483.573,
+          "text": "Per viewer fixation circles and saccade lines, static or with a gaze trail."
         },
         {
           "index": 104,
-          "paragraph": 40,
-          "start": 476.213,
-          "end": 477.493,
+          "paragraph": 41,
+          "start": 483.923,
+          "end": 485.203,
           "text": "(Step 07)"
         },
         {
           "index": 105,
-          "paragraph": 41,
-          "start": 478.193,
-          "end": 479.793,
-          "text": "Export: Survey data."
+          "paragraph": 42,
+          "start": 485.903,
+          "end": 487.098,
+          "text": "Using Annotations."
         },
         {
           "index": 106,
-          "paragraph": 41,
-          "start": 480.143,
-          "end": 484.879,
-          "text": "Survey data per respondent, Full survey response, and Survey statistics."
+          "paragraph": 42,
+          "start": 487.448,
+          "end": 493.869,
+          "text": "Stimulus annotations for the scenes of a commercial and automated time bins with Subdivide intervals."
         },
         {
           "index": 107,
-          "paragraph": 41,
-          "start": 485.229,
-          "end": 486.509,
+          "paragraph": 42,
+          "start": 494.219,
+          "end": 495.499,
           "text": "(Step 07)"
         },
         {
           "index": 108,
-          "paragraph": 42,
-          "start": 487.209,
-          "end": 489.449,
-          "text": "Opening Data Export Files in Excel."
+          "paragraph": 43,
+          "start": 496.199,
+          "end": 497.821,
+          "text": "Export: Sensor Data."
         },
         {
           "index": 109,
-          "paragraph": 42,
-          "start": 489.799,
-          "end": 495.581,
-          "text": "The Text Import Wizard route into Excel, and why not to double click a dot C S V export."
+          "paragraph": 43,
+          "start": 498.171,
+          "end": 504.421,
+          "text": "The sample by sample export, its file sections, and the per A O I Active and Gazed columns."
         },
         {
           "index": 110,
-          "paragraph": 42,
-          "start": 495.931,
-          "end": 498.064,
-          "text": "(Steps 07 and 08)"
+          "paragraph": 43,
+          "start": 504.771,
+          "end": 506.051,
+          "text": "(Step 07)"
         },
         {
           "index": 111,
-          "paragraph": 43,
-          "start": 498.764,
-          "end": 501.58,
-          "text": "General Data Analysis and Interpretation."
+          "paragraph": 44,
+          "start": 506.751,
+          "end": 508.351,
+          "text": "Export: Survey data."
         },
         {
           "index": 112,
-          "paragraph": 43,
-          "start": 501.93,
-          "end": 509.717,
-          "text": "Descriptive statistics first, a t test for two groups, and the warning that multiple comparisons inflate false positives."
+          "paragraph": 44,
+          "start": 508.701,
+          "end": 513.437,
+          "text": "Survey data per respondent, Full survey response, and Survey statistics."
         },
         {
           "index": 113,
-          "paragraph": 43,
-          "start": 510.067,
-          "end": 511.24,
-          "text": "(Step 08)"
+          "paragraph": 44,
+          "start": 513.787,
+          "end": 515.067,
+          "text": "(Step 07)"
         },
         {
           "index": 114,
-          "paragraph": 44,
-          "start": 511.94,
-          "end": 517.529,
-          "text": "Local copies of the articles above, for the moments at the lab computer when you cannot sign in."
+          "paragraph": 45,
+          "start": 515.767,
+          "end": 518.007,
+          "text": "Opening Data Export Files in Excel."
         },
         {
           "index": 115,
-          "paragraph": 44,
-          "start": 517.879,
-          "end": 520.503,
-          "text": "The first twenty one are new with this workshop."
+          "paragraph": 45,
+          "start": 518.357,
+          "end": 524.139,
+          "text": "The Text Import Wizard route into Excel, and why not to double click a dot C S V export."
         },
         {
           "index": 116,
           "paragraph": 45,
-          "start": 521.203,
-          "end": 523.699,
-          "text": "Introduction to Eye Tracking.pdf."
+          "start": 524.489,
+          "end": 526.622,
+          "text": "(Steps 07 and 08)"
         },
         {
           "index": 117,
-          "paragraph": 45,
-          "start": 524.049,
-          "end": 534.225,
-          "text": "Screen based eye tracking, P C C R, gaze points, fixations, and saccades (7 pages); online title: Introduction to: Eye Tracking."
+          "paragraph": 46,
+          "start": 527.322,
+          "end": 530.138,
+          "text": "General Data Analysis and Interpretation."
         },
         {
           "index": 118,
           "paragraph": 46,
-          "start": 534.925,
-          "end": 538.595,
-          "text": "Standard Methodologies Static Image Testing.pdf."
+          "start": 530.488,
+          "end": 538.275,
+          "text": "Descriptive statistics first, a t test for two groups, and the warning that multiple comparisons inflate false positives."
         },
         {
           "index": 119,
           "paragraph": 46,
-          "start": 538.945,
-          "end": 546.113,
-          "text": "The static image testing method page (3 pages); its pages are images, so the text cannot be searched."
+          "start": 538.625,
+          "end": 539.798,
+          "text": "(Step 08)"
         },
         {
           "index": 120,
           "paragraph": 47,
-          "start": 546.813,
-          "end": 549.607,
-          "text": "Using the iMotions Study Builder.pdf."
+          "start": 540.498,
+          "end": 546.087,
+          "text": "Local copies of the articles above, for the moments at the lab computer when you cannot sign in."
         },
         {
           "index": 121,
           "paragraph": 47,
-          "start": 549.957,
-          "end": 555.909,
-          "text": "The New Study dialog, the respondent screen, the Flow designer, flows, and blocks (10 pages)."
+          "start": 546.437,
+          "end": 549.061,
+          "text": "The first twenty one are new with this workshop."
         },
         {
           "index": 122,
           "paragraph": 48,
-          "start": 556.609,
-          "end": 559.895,
-          "text": "iMotions Survey Stimuli and Elements.pdf."
+          "start": 549.761,
+          "end": 552.257,
+          "text": "Introduction to Eye Tracking.pdf."
         },
         {
           "index": 123,
           "paragraph": 48,
-          "start": 560.245,
-          "end": 565.877,
-          "text": "The survey slide designer and its elements, including the Scale element (22 pages)."
+          "start": 552.607,
+          "end": 562.783,
+          "text": "Screen based eye tracking, P C C R, gaze points, fixations, and saccades (7 pages); online title: Introduction to: Eye Tracking."
         },
         {
           "index": 124,
           "paragraph": 49,
-          "start": 566.577,
-          "end": 570.374,
-          "text": "ReEncoding of Incompatible Video Stimuli.pdf."
+          "start": 563.483,
+          "end": 567.153,
+          "text": "Standard Methodologies Static Image Testing.pdf."
         },
         {
           "index": 125,
           "paragraph": 49,
-          "start": 570.724,
-          "end": 574.863,
-          "text": "Converting videos that lag or flicker in the preview (4 pages)."
+          "start": 567.503,
+          "end": 574.671,
+          "text": "The static image testing method page (3 pages); its pages are images, so the text cannot be searched."
         },
         {
           "index": 126,
           "paragraph": 50,
-          "start": 575.563,
-          "end": 579.275,
-          "text": "Setting up Aurora or AIX in iMotions.pdf."
+          "start": 575.371,
+          "end": 578.165,
+          "text": "Using the iMotions Study Builder.pdf."
         },
         {
           "index": 127,
           "paragraph": 50,
-          "start": 579.625,
-          "end": 588.35,
-          "text": "Installing, mounting, and connecting the Aurora (11 pages); online title: Setting up Aurora or A I X in iMotions."
+          "start": 578.515,
+          "end": 584.467,
+          "text": "The New Study dialog, the respondent screen, the Flow designer, flows, and blocks (10 pages)."
         },
         {
           "index": 128,
           "paragraph": 51,
-          "start": 589.05,
-          "end": 591.951,
-          "text": "Planning for Eye Tracker Calibration.pdf."
+          "start": 585.167,
+          "end": 589.05,
+          "text": "Lab Setup How to use two monitors with iMotions.pdf."
         },
         {
           "index": 129,
           "paragraph": 51,
-          "start": 592.301,
-          "end": 598.189,
-          "text": "Lighting, seating, the Eye Finder, calibration points, and the result labels (10 pages)."
+          "start": 589.4,
+          "end": 600.984,
+          "text": "Extending the displays, matching the scale, and choosing the stimulus screen (6 pages, 2023 printing); the source of the three screen figures in Step 04."
         },
         {
           "index": 130,
           "paragraph": 52,
-          "start": 598.889,
-          "end": 602.857,
-          "text": "Setting up Participantguided Eye Tracker Calibration.pdf."
+          "start": 601.684,
+          "end": 604.969,
+          "text": "iMotions Survey Stimuli and Elements.pdf."
         },
         {
           "index": 131,
           "paragraph": 52,
-          "start": 603.207,
-          "end": 611.805,
-          "text": "The Respondent guided calibration mode (5 pages); online title: Setting up Participant-guided Eye Tracker Calibration."
+          "start": 605.319,
+          "end": 610.951,
+          "text": "The survey slide designer and its elements, including the Scale element (22 pages)."
         },
         {
           "index": 132,
           "paragraph": 53,
-          "start": 612.505,
-          "end": 616.579,
-          "text": "OneScreen Calibration Configurations and Settings.pdf."
+          "start": 611.651,
+          "end": 615.449,
+          "text": "ReEncoding of Incompatible Video Stimuli.pdf."
         },
         {
           "index": 133,
           "paragraph": 53,
-          "start": 616.929,
-          "end": 626.743,
-          "text": "Regular and Compact modes and the sensor status window (9 pages); online title: One-Screen Calibration: Configurations and Settings."
+          "start": 615.799,
+          "end": 619.937,
+          "text": "Converting videos that lag or flicker in the preview (4 pages)."
         },
         {
           "index": 134,
           "paragraph": 54,
-          "start": 627.443,
-          "end": 629.469,
-          "text": "Using Event Markers.pdf."
+          "start": 620.637,
+          "end": 624.349,
+          "text": "Setting up Aurora or AIX in iMotions.pdf."
         },
         {
           "index": 135,
           "paragraph": 54,
-          "start": 629.819,
-          "end": 634.769,
-          "text": "Built in and user created markers, including live markers (8 pages)."
+          "start": 624.699,
+          "end": 633.425,
+          "text": "Installing, mounting, and connecting the Aurora (11 pages); online title: Setting up Aurora or A I X in iMotions."
         },
         {
           "index": 136,
           "paragraph": 55,
-          "start": 635.469,
-          "end": 638.349,
-          "text": "Export Data Quality Statistics.pdf."
+          "start": 634.125,
+          "end": 637.026,
+          "text": "Planning for Eye Tracker Calibration.pdf."
         },
         {
           "index": 137,
           "paragraph": 55,
-          "start": 638.699,
-          "end": 642.773,
-          "text": "The data quality export from the Recorded Data tab (4 pages)."
+          "start": 637.376,
+          "end": 643.264,
+          "text": "Lighting, seating, the Eye Finder, calibration points, and the result labels (10 pages)."
         },
         {
           "index": 138,
           "paragraph": 56,
-          "start": 643.473,
-          "end": 645.521,
-          "text": "Gaze smoothing filter.pdf."
+          "start": 643.964,
+          "end": 647.932,
+          "text": "Setting up Participantguided Eye Tracker Calibration.pdf."
         },
         {
           "index": 139,
           "paragraph": 56,
-          "start": 645.871,
-          "end": 649.221,
-          "text": "The visualization only smoothing filter (4 pages)."
+          "start": 648.282,
+          "end": 656.879,
+          "text": "The Respondent guided calibration mode (5 pages); online title: Setting up Participant-guided Eye Tracker Calibration."
         },
         {
           "index": 140,
           "paragraph": 57,
-          "start": 649.921,
-          "end": 652.438,
-          "text": "Areas of Interest A O I's.pdf."
+          "start": 657.579,
+          "end": 661.654,
+          "text": "OneScreen Calibration Configurations and Settings.pdf."
         },
         {
           "index": 141,
           "paragraph": 57,
-          "start": 652.788,
-          "end": 659.892,
-          "text": "The A O I editor, dynamic A O I's, and the export options; online title: Areas of Interest (A O I's)."
+          "start": 662.004,
+          "end": 671.817,
+          "text": "Regular and Compact modes and the sensor status window (9 pages); online title: One-Screen Calibration: Configurations and Settings."
         },
         {
           "index": 142,
           "paragraph": 58,
-          "start": 660.592,
-          "end": 663.195,
-          "text": "Replay and Analysis Windows.pdf."
+          "start": 672.517,
+          "end": 674.544,
+          "text": "Using Event Markers.pdf."
         },
         {
           "index": 143,
           "paragraph": 58,
-          "start": 663.545,
-          "end": 667.833,
-          "text": "Creating an analysis and reading the replay window (11 pages)."
+          "start": 674.894,
+          "end": 679.843,
+          "text": "Built in and user created markers, including live markers (8 pages)."
         },
         {
           "index": 144,
           "paragraph": 59,
-          "start": 668.533,
-          "end": 670.538,
-          "text": "Respondent Replay.pdf."
+          "start": 680.543,
+          "end": 683.423,
+          "text": "Export Data Quality Statistics.pdf."
         },
         {
           "index": 145,
           "paragraph": 59,
-          "start": 670.888,
-          "end": 676.157,
-          "text": "Replaying one respondent, with the visualization and step options (30 pages)."
+          "start": 683.773,
+          "end": 687.848,
+          "text": "The data quality export from the Recorded Data tab (4 pages)."
         },
         {
           "index": 146,
           "paragraph": 60,
-          "start": 676.857,
-          "end": 678.756,
-          "text": "Aggregate Replay.pdf."
+          "start": 688.548,
+          "end": 690.596,
+          "text": "Gaze smoothing filter.pdf."
         },
         {
           "index": 147,
           "paragraph": 60,
-          "start": 679.106,
-          "end": 683.821,
-          "text": "Replaying all respondents together and the dynamic heatmap (10 pages)."
+          "start": 690.946,
+          "end": 694.295,
+          "text": "The visualization only smoothing filter (4 pages)."
         },
         {
           "index": 148,
           "paragraph": 61,
-          "start": 684.521,
-          "end": 688.105,
-          "text": "Basic Heatmap Explanation and Generation.pdf."
+          "start": 694.995,
+          "end": 697.513,
+          "text": "Areas of Interest A O I's.pdf."
         },
         {
           "index": 149,
           "paragraph": 61,
-          "start": 688.455,
-          "end": 691.527,
-          "text": "How heatmaps are computed and how to read the scale."
+          "start": 697.863,
+          "end": 704.967,
+          "text": "The A O I editor, dynamic A O I's, and the export options; online title: Areas of Interest (A O I's)."
         },
         {
           "index": 150,
           "paragraph": 62,
-          "start": 692.227,
-          "end": 694.232,
-          "text": "Using Annotations.pdf."
+          "start": 705.667,
+          "end": 708.269,
+          "text": "Replay and Analysis Windows.pdf."
         },
         {
           "index": 151,
           "paragraph": 62,
-          "start": 694.582,
-          "end": 699.126,
-          "text": "Stimulus, respondent, and automated annotations (23 pages)."
+          "start": 708.619,
+          "end": 712.907,
+          "text": "Creating an analysis and reading the replay window (11 pages)."
         },
         {
           "index": 152,
           "paragraph": 63,
-          "start": 699.826,
-          "end": 701.917,
-          "text": "Export Sensor Data.pdf."
+          "start": 713.607,
+          "end": 715.613,
+          "text": "Respondent Replay.pdf."
         },
         {
           "index": 153,
           "paragraph": 63,
-          "start": 702.267,
-          "end": 705.872,
-          "text": "The Sensor data export and its options (14 pages)."
+          "start": 715.963,
+          "end": 721.232,
+          "text": "Replaying one respondent, with the visualization and step options (30 pages)."
         },
         {
           "index": 154,
           "paragraph": 64,
-          "start": 706.572,
-          "end": 708.62,
-          "text": "Export Survey data.pdf."
+          "start": 721.932,
+          "end": 723.831,
+          "text": "Aggregate Replay.pdf."
         },
         {
           "index": 155,
           "paragraph": 64,
-          "start": 708.97,
-          "end": 711.53,
-          "text": "The three survey exports (6 pages)."
+          "start": 724.181,
+          "end": 728.895,
+          "text": "Replaying all respondents together and the dynamic heatmap (10 pages)."
         },
         {
           "index": 156,
           "paragraph": 65,
-          "start": 712.23,
-          "end": 715.515,
-          "text": "Opening Data Export Files in Excel.pdf."
+          "start": 729.595,
+          "end": 733.179,
+          "text": "Basic Heatmap Explanation and Generation.pdf."
         },
         {
           "index": 157,
           "paragraph": 65,
-          "start": 715.865,
-          "end": 719.385,
-          "text": "The Text Import Wizard route into Excel (8 pages)."
+          "start": 733.529,
+          "end": 736.601,
+          "text": "How heatmaps are computed and how to read the scale."
         },
         {
           "index": 158,
           "paragraph": 66,
-          "start": 720.085,
-          "end": 723.413,
-          "text": "Already on the site from Workshop 1 and used again here:"
+          "start": 737.301,
+          "end": 739.307,
+          "text": "Using Annotations.pdf."
         },
         {
           "index": 159,
-          "paragraph": 67,
-          "start": 724.113,
-          "end": 726.588,
-          "text": "Designing Your Research Study.pdf."
+          "paragraph": 66,
+          "start": 739.657,
+          "end": 744.201,
+          "text": "Stimulus, respondent, and automated annotations (23 pages)."
         },
         {
           "index": 160,
           "paragraph": 67,
-          "start": 726.938,
-          "end": 733.125,
-          "text": "The iMotions study design guide that Steps 01 and 02 follow (13 pages)."
+          "start": 744.901,
+          "end": 746.991,
+          "text": "Export Sensor Data.pdf."
         },
         {
           "index": 161,
-          "paragraph": 68,
-          "start": 733.825,
-          "end": 736.747,
-          "text": "Using a Test Plan for Study Design.pdf."
+          "paragraph": 67,
+          "start": 747.341,
+          "end": 750.947,
+          "text": "The Sensor data export and its options (14 pages)."
         },
         {
           "index": 162,
           "paragraph": 68,
-          "start": 737.097,
-          "end": 741.151,
-          "text": "Test plan files for respondents and stimuli (16 pages)."
+          "start": 751.647,
+          "end": 753.695,
+          "text": "Export Survey data.pdf."
         },
         {
           "index": 163,
-          "paragraph": 69,
-          "start": 741.851,
-          "end": 746.459,
-          "text": "Respondent informed consent and data privacy F A Q.pdf."
+          "paragraph": 68,
+          "start": 754.045,
+          "end": 756.605,
+          "text": "The three survey exports (6 pages)."
         },
         {
           "index": 164,
           "paragraph": 69,
-          "start": 746.809,
-          "end": 751.587,
-          "text": "Consent and privacy questions answered by iMotions (5 pages)."
+          "start": 757.305,
+          "end": 760.59,
+          "text": "Opening Data Export Files in Excel.pdf."
         },
         {
           "index": 165,
-          "paragraph": 70,
-          "start": 752.287,
-          "end": 757.087,
-          "text": "Fixation and saccade classification with the IVT filter.pdf."
+          "paragraph": 69,
+          "start": 760.94,
+          "end": 764.46,
+          "text": "The Text Import Wizard route into Excel (8 pages)."
         },
         {
           "index": 166,
           "paragraph": 70,
-          "start": 757.437,
-          "end": 760.979,
-          "text": "The I V T filter and its parameters (13 pages)."
+          "start": 765.16,
+          "end": 768.488,
+          "text": "Already on the site from Workshop 1 and used again here:"
         },
         {
           "index": 167,
           "paragraph": 71,
-          "start": 761.679,
-          "end": 763.62,
-          "text": "A O I Metrics.pdf."
+          "start": 769.188,
+          "end": 771.663,
+          "text": "Designing Your Research Study.pdf."
         },
         {
           "index": 168,
           "paragraph": 71,
-          "start": 763.97,
-          "end": 768.663,
-          "text": "The metric definitions used in every table of this workshop (6 pages)."
+          "start": 772.013,
+          "end": 778.199,
+          "text": "The iMotions study design guide that Steps 01 and 02 follow (13 pages)."
         },
         {
           "index": 169,
           "paragraph": 72,
-          "start": 769.363,
-          "end": 771.539,
-          "text": "How to Create A O I's.pdf."
+          "start": 778.899,
+          "end": 781.822,
+          "text": "Using a Test Plan for Study Design.pdf."
         },
         {
           "index": 170,
           "paragraph": 72,
-          "start": 771.889,
-          "end": 777.116,
-          "text": "Drawing static and dynamic A O I's in the A O I editor (22 pages)."
+          "start": 782.172,
+          "end": 786.225,
+          "text": "Test plan files for respondents and stimuli (16 pages)."
         },
         {
           "index": 171,
           "paragraph": 73,
-          "start": 777.816,
-          "end": 779.245,
-          "text": "Heatmaps.pdf."
+          "start": 786.925,
+          "end": 791.533,
+          "text": "Respondent informed consent and data privacy F A Q.pdf."
         },
         {
           "index": 172,
           "paragraph": 73,
-          "start": 779.595,
-          "end": 783.649,
-          "text": "Static and dynamic heatmap settings and export (7 pages)."
+          "start": 791.883,
+          "end": 796.662,
+          "text": "Consent and privacy questions answered by iMotions (5 pages)."
         },
         {
           "index": 173,
           "paragraph": 74,
-          "start": 784.349,
-          "end": 785.991,
-          "text": "Scan Paths.pdf."
+          "start": 797.362,
+          "end": 802.162,
+          "text": "Fixation and saccade classification with the IVT filter.pdf."
         },
         {
           "index": 174,
           "paragraph": 74,
-          "start": 786.341,
-          "end": 793.36,
-          "text": "Scan paths and individual heatmaps (8 pages); online title: Scan Paths and Individual Heatmaps."
+          "start": 802.512,
+          "end": 806.053,
+          "text": "The I V T filter and its parameters (13 pages)."
         },
         {
           "index": 175,
           "paragraph": 75,
-          "start": 794.06,
-          "end": 796.215,
-          "text": "Meet Smart Eye Aurora (Smart Eye)."
+          "start": 806.753,
+          "end": 808.695,
+          "text": "A O I Metrics.pdf."
         },
         {
           "index": 176,
           "paragraph": 75,
-          "start": 796.565,
-          "end": 802.175,
-          "text": "Short official product video for the tracker that sits under the lab monitor (Step 00)."
+          "start": 809.045,
+          "end": 813.738,
+          "text": "The metric definitions used in every table of this workshop (6 pages)."
         },
         {
           "index": 177,
           "paragraph": 76,
-          "start": 802.875,
-          "end": 806.907,
-          "text": "Advanced Eye Tracking with Smart Eye and iMotions (iMotions)."
+          "start": 814.438,
+          "end": 816.614,
+          "text": "How to Create A O I's.pdf."
         },
         {
           "index": 178,
           "paragraph": 76,
-          "start": 807.257,
-          "end": 815.449,
-          "text": "Webinar on Smart Eye trackers, including the Aurora, inside iMotions: setup and use cases (Step 05)."
+          "start": 816.964,
+          "end": 822.191,
+          "text": "Drawing static and dynamic A O I's in the A O I editor (22 pages)."
         },
         {
           "index": 179,
           "paragraph": 77,
-          "start": 816.149,
-          "end": 819.136,
-          "text": "iMotions Eye Tracking Solution (iMotions)."
+          "start": 822.891,
+          "end": 824.32,
+          "text": "Heatmaps.pdf."
         },
         {
           "index": 180,
           "paragraph": 77,
-          "start": 819.486,
-          "end": 827.379,
-          "text": "Overview of screen based, glasses, and VR eye tracking in iMotions, with heatmaps and A O I's (Step 05)."
+          "start": 824.67,
+          "end": 828.723,
+          "text": "Static and dynamic heatmap settings and export (7 pages)."
         },
         {
           "index": 181,
           "paragraph": 78,
-          "start": 828.079,
-          "end": 830.746,
-          "text": "A O I editor feature video (iMotions)."
+          "start": 829.423,
+          "end": 831.066,
+          "text": "Scan Paths.pdf."
         },
         {
           "index": 182,
           "paragraph": 78,
-          "start": 831.096,
-          "end": 836.195,
-          "text": "Drawing static and dynamic A O I's in the A O I editor (Step 07)."
+          "start": 831.416,
+          "end": 838.435,
+          "text": "Scan paths and individual heatmaps (8 pages); online title: Scan Paths and Individual Heatmaps."
         },
         {
           "index": 183,
           "paragraph": 79,
-          "start": 836.895,
-          "end": 840.351,
-          "text": "iMotions and Smart Eye joins forces (iMotions)."
+          "start": 839.135,
+          "end": 841.289,
+          "text": "Meet Smart Eye Aurora (Smart Eye)."
         },
         {
           "index": 184,
           "paragraph": 79,
-          "start": 840.701,
-          "end": 848.167,
-          "text": "The merger announcement; background on the Smart Eye, Affectiva, and iMotions family of products used in this lab."
+          "start": 841.639,
+          "end": 847.25,
+          "text": "Short official product video for the tracker that sits under the lab monitor (Step 00)."
         },
         {
           "index": 185,
           "paragraph": 80,
-          "start": 848.867,
-          "end": 851.577,
-          "text": "Aurora Setup (Smart Eye documentation)."
+          "start": 847.95,
+          "end": 851.982,
+          "text": "Advanced Eye Tracking with Smart Eye and iMotions (iMotions)."
         },
         {
           "index": 186,
           "paragraph": 80,
-          "start": 851.927,
-          "end": 858.668,
-          "text": "The vendor setup page that links the Aurora User Guide and the Display Mounting Guide (Step 05)."
+          "start": 852.332,
+          "end": 860.524,
+          "text": "Webinar on Smart Eye trackers, including the Aurora, inside iMotions: setup and use cases (Step 05)."
         },
         {
           "index": 187,
           "paragraph": 81,
-          "start": 859.368,
+          "start": 861.224,
           "end": 864.211,
-          "text": "Aurora User Guide v16.0 (P D F) (Smart Eye)."
+          "text": "iMotions Eye Tracking Solution (iMotions)."
         },
         {
           "index": 188,
           "paragraph": 81,
           "start": 864.561,
-          "end": 871.473,
-          "text": "Installing, mounting, using, and troubleshooting the Aurora, with notes on iMotions (Step 05)."
+          "end": 872.454,
+          "text": "Overview of screen based, glasses, and VR eye tracking in iMotions, with heatmaps and A O I's (Step 05)."
         },
         {
           "index": 189,
           "paragraph": 82,
-          "start": 872.173,
-          "end": 876.909,
-          "text": "Smart Eye Aurora 60 hertz Whitepaper (P D F) (iMotions)."
+          "start": 873.154,
+          "end": 875.821,
+          "text": "A O I editor feature video (iMotions)."
         },
         {
           "index": 190,
           "paragraph": 82,
-          "start": 877.259,
-          "end": 886.496,
-          "text": "A vendor accuracy validation of the 60 hertz Aurora in realistic conditions; a white paper, not peer reviewed (Step 06)."
+          "start": 876.171,
+          "end": 881.269,
+          "text": "Drawing static and dynamic A O I's in the A O I editor (Step 07)."
         },
         {
           "index": 191,
           "paragraph": 83,
-          "start": 887.196,
-          "end": 890.865,
-          "text": "Smart Eye Aurora Eye Tracker (iMotions hardware page)."
+          "start": 881.969,
+          "end": 885.425,
+          "text": "iMotions and Smart Eye joins forces (iMotions)."
         },
         {
           "index": 192,
           "paragraph": 83,
-          "start": 891.215,
-          "end": 901.157,
-          "text": "The product page with the specification list and the embedded product video; check any specification against the lab's 60 hertz unit (Step 00)."
+          "start": 885.775,
+          "end": 893.242,
+          "text": "The merger announcement; background on the Smart Eye, Affectiva, and iMotions family of products used in this lab."
         },
         {
           "index": 193,
           "paragraph": 84,
-          "start": 901.857,
-          "end": 904.075,
-          "text": "Why Are Citations Important In Science?"
+          "start": 893.942,
+          "end": 896.651,
+          "text": "Aurora Setup (Smart Eye documentation)."
         },
         {
           "index": 194,
           "paragraph": 84,
-          "start": 904.425,
-          "end": 905.428,
-          "text": "(iMotions)."
+          "start": 897.001,
+          "end": 903.743,
+          "text": "The vendor setup page that links the Aurora User Guide and the Display Mounting Guide (Step 05)."
         },
         {
           "index": 195,
-          "paragraph": 84,
-          "start": 905.778,
-          "end": 912.413,
-          "text": "The A P A format for citing iMotions software that Step 06 uses in the methods paragraph."
+          "paragraph": 85,
+          "start": 904.443,
+          "end": 909.285,
+          "text": "Aurora User Guide v16.0 (P D F) (Smart Eye)."
         },
         {
           "index": 196,
           "paragraph": 85,
-          "start": 913.113,
-          "end": 921.539,
-          "text": "The 35 sources this workshop draws on, in A P A style, grouped by topic, with a note on how the workshop uses each one."
+          "start": 909.635,
+          "end": 916.547,
+          "text": "Installing, mounting, using, and troubleshooting the Aurora, with notes on iMotions (Step 05)."
         },
         {
           "index": 197,
           "paragraph": 86,
-          "start": 922.239,
-          "end": 939.498,
-          "text": "Every entry was checked on October 7, 2026, either in the Workshop 1 check (Crossref, OpenAlex, or the source page) or, for the entries new to this workshop, against the D O I registry and a publisher, repository, catalog, or vendor page."
+          "start": 917.247,
+          "end": 921.983,
+          "text": "Smart Eye Aurora 60 hertz Whitepaper (P D F) (iMotions)."
         },
         {
           "index": 198,
-          "paragraph": 87,
-          "start": 940.198,
-          "end": 948.945,
-          "text": "The link opens the D O I or the page that was checked, and the R I S file under (e) imports all 35 into Zotero."
+          "paragraph": 86,
+          "start": 922.333,
+          "end": 931.571,
+          "text": "A vendor accuracy validation of the 60 hertz Aurora in realistic conditions; a white paper, not peer reviewed (Step 06)."
         },
         {
           "index": 199,
-          "paragraph": 88,
-          "start": 949.645,
-          "end": 964.258,
-          "text": "Two open details are stated rather than guessed: no page that could be read gave the page range of Rayner (1998), so it is left blank, and the retraction status of the new entries has not yet been checked through Crossref."
+          "paragraph": 87,
+          "start": 932.271,
+          "end": 935.94,
+          "text": "Smart Eye Aurora Eye Tracker (iMotions hardware page)."
         },
         {
           "index": 200,
-          "paragraph": 88,
-          "start": 964.608,
-          "end": 965.803,
-          "text": "Holmqvist and colleagues"
+          "paragraph": 87,
+          "start": 936.29,
+          "end": 946.231,
+          "text": "The product page with the specification list and the embedded product video; check any specification against the lab's 60 hertz unit (Step 00)."
         },
         {
           "index": 201,
-          "paragraph": 89,
-          "start": 966.503,
-          "end": 976.252,
-          "text": "(2023), sometimes recommended for eye tracking reporting, was retracted in November 2023 and is deliberately absent."
+          "paragraph": 88,
+          "start": 946.931,
+          "end": 949.15,
+          "text": "Why Are Citations Important In Science?"
         },
         {
           "index": 202,
-          "paragraph": 90,
-          "start": 976.952,
-          "end": 985.656,
-          "text": "Every file is simulated teaching data, generated to mirror a two commercial test of the kind in the the demo Sony Bravia study study."
+          "paragraph": 88,
+          "start": 949.5,
+          "end": 950.503,
+          "text": "(iMotions)."
         },
         {
           "index": 203,
-          "paragraph": 91,
-          "start": 986.356,
-          "end": 993.737,
-          "text": "No real viewer was recorded, no data from the demo study were used, and none of these numbers may be quoted as findings."
+          "paragraph": 88,
+          "start": 950.853,
+          "end": 957.487,
+          "text": "The A P A format for citing iMotions software that Step 06 uses in the methods paragraph."
         },
         {
           "index": 204,
-          "paragraph": 91,
-          "start": 994.087,
-          "end": 997.266,
-          "text": "Keep the originals read only and work on copies."
+          "paragraph": 89,
+          "start": 958.187,
+          "end": 966.614,
+          "text": "The 35 sources this workshop draws on, in A P A style, grouped by topic, with a note on how the workshop uses each one."
         },
         {
           "index": 205,
-          "paragraph": 92,
-          "start": 997.966,
-          "end": 1014.649,
-          "text": "SIMULATED ad test AOI metrics dot C S V. The simulated Individual A O I metrics export: 240 rows (30 respondents, two commercials, four A O I's), 25 columns with iMotions metric names."
+          "paragraph": 90,
+          "start": 967.314,
+          "end": 984.573,
+          "text": "Every entry was checked on October 7, 2026, either in the Workshop 1 check (Crossref, OpenAlex, or the source page) or, for the entries new to this workshop, against the D O I registry and a publisher, repository, catalog, or vendor page."
         },
         {
           "index": 206,
-          "paragraph": 93,
-          "start": 1015.349,
-          "end": 1025.951,
-          "text": "SIMULATED ad test survey dot C S V. One row per respondent: liking of each commercial (1 to 7), brand recall, and the commercial preferred."
+          "paragraph": 91,
+          "start": 985.273,
+          "end": 994.019,
+          "text": "The link opens the D O I or the page that was checked, and the R I S file under (e) imports all 35 into Zotero."
         },
         {
           "index": 207,
-          "paragraph": 94,
-          "start": 1026.651,
-          "end": 1041.499,
-          "text": "SIMULATED ad test session log dot C S V. The simulated session log: order group, calibration result, recalibrations, distance to the screen, glasses, Valid data, and the decision note for each respondent."
+          "paragraph": 92,
+          "start": 994.719,
+          "end": 1009.333,
+          "text": "Two open details are stated rather than guessed: no page that could be read gave the page range of Rayner (1998), so it is left blank, and the retraction status of the new entries has not yet been checked through Crossref."
         },
         {
           "index": 208,
-          "paragraph": 95,
-          "start": 1042.199,
-          "end": 1052.162,
-          "text": "SIMULATED descriptives by commercial A O I dot C S V. The descriptive table by A O I and commercial that analysis dot R writes."
+          "paragraph": 92,
+          "start": 1009.683,
+          "end": 1010.877,
+          "text": "Holmqvist and colleagues"
         },
         {
           "index": 209,
-          "paragraph": 96,
-          "start": 1052.862,
-          "end": 1065.278,
-          "text": "SIMULATED test results dot C S V. The paired tests for H1, H2, H2b, and H3, with d z and the Wilcoxon checks, that analysis dot R writes."
+          "paragraph": 93,
+          "start": 1011.577,
+          "end": 1021.327,
+          "text": "(2023), sometimes recommended for eye tracking reporting, was retracted in November 2023 and is deliberately absent."
         },
         {
           "index": 210,
-          "paragraph": 97,
-          "start": 1065.978,
-          "end": 1077.711,
-          "text": "SIMULATED model results dot C S V. The mixed model coefficients, the two ICCs, the simple order estimate, and the two correlations that analysis dot R writes."
+          "paragraph": 94,
+          "start": 1022.027,
+          "end": 1030.731,
+          "text": "Every file is simulated teaching data, generated to mirror a two commercial test of the kind in the the demo Sony Bravia study study."
         },
         {
           "index": 211,
-          "paragraph": 98,
-          "start": 1078.411,
-          "end": 1092.363,
-          "text": "analysis dot R. The analysis script for Step 08: read, clean, describe, paired t tests with d z, Wilcoxon checks, the order model, the recall correlation, assumption checks, and three figures."
+          "paragraph": 95,
+          "start": 1031.431,
+          "end": 1038.812,
+          "text": "No real viewer was recorded, no data from the demo study were used, and none of these numbers may be quoted as findings."
         },
         {
           "index": 212,
-          "paragraph": 99,
-          "start": 1093.063,
-          "end": 1102.749,
-          "text": "analysis output dot T X T. The console output of analysis dot R; every simulated number quoted in this workshop comes from this file."
+          "paragraph": 95,
+          "start": 1039.162,
+          "end": 1042.341,
+          "text": "Keep the originals read only and work on copies."
         },
         {
           "index": 213,
-          "paragraph": 100,
-          "start": 1103.449,
-          "end": 1113.006,
-          "text": "analysis excel walkthrough dot M D. The same analysis done in Excel, step by step, with the cell references used in Exercise 4."
+          "paragraph": 96,
+          "start": 1043.041,
+          "end": 1059.723,
+          "text": "SIMULATED ad test AOI metrics dot C S V. The simulated Individual A O I metrics export: 240 rows (30 respondents, two commercials, four A O I's), 25 columns with iMotions metric names."
         },
         {
           "index": 214,
-          "paragraph": 101,
-          "start": 1113.706,
-          "end": 1124.757,
-          "text": "SIMULATED ad test analysis dot X L S X. The finished Excel workbook (README, Data, Summary, ProductTV, BrandLogo, Survey, and Check sheets)."
+          "paragraph": 97,
+          "start": 1060.423,
+          "end": 1071.026,
+          "text": "SIMULATED ad test survey dot C S V. One row per respondent: liking of each commercial (1 to 7), brand recall, and the commercial preferred."
         },
         {
           "index": 215,
-          "paragraph": 102,
-          "start": 1125.457,
-          "end": 1134.459,
-          "text": "results text dot M D. The model methods, results, and discussion paragraphs used in Steps 06, 09, and 10."
+          "paragraph": 98,
+          "start": 1071.726,
+          "end": 1086.574,
+          "text": "SIMULATED ad test session log dot C S V. The simulated session log: order group, calibration result, recalibrations, distance to the screen, glasses, Valid data, and the decision note for each respondent."
         },
         {
           "index": 216,
-          "paragraph": 103,
-          "start": 1135.159,
-          "end": 1148.77,
-          "text": "SIMULATED fig1 product dwell paired dot P N G. Figure 1: Product TV dwell share, one line per viewer, with each commercial's mean and 95 percent confidence interval (simulated)."
+          "paragraph": 99,
+          "start": 1087.274,
+          "end": 1097.237,
+          "text": "SIMULATED descriptives by commercial A O I dot C S V. The descriptive table by A O I and commercial that analysis dot R writes."
         },
         {
           "index": 217,
-          "paragraph": 104,
-          "start": 1149.47,
-          "end": 1163.699,
-          "text": "SIMULATED fig2 brand logo T T F F dot P N G. Figure 2: time to first fixation on the brand logo; open circles mark viewers who fixated it in one commercial only (simulated)."
+          "paragraph": 100,
+          "start": 1097.937,
+          "end": 1110.353,
+          "text": "SIMULATED test results dot C S V. The paired tests for H1, H2, H2b, and H3, with d z and the Wilcoxon checks, that analysis dot R writes."
         },
         {
           "index": 218,
-          "paragraph": 105,
-          "start": 1164.399,
-          "end": 1172.25,
-          "text": "SIMULATED fig3 liking dot P N G. Figure 3: liking of each commercial, one line per viewer (simulated)."
+          "paragraph": 101,
+          "start": 1111.053,
+          "end": 1122.786,
+          "text": "SIMULATED model results dot C S V. The mixed model coefficients, the two ICCs, the simple order estimate, and the two correlations that analysis dot R writes."
         },
         {
           "index": 219,
-          "paragraph": 106,
-          "start": 1172.95,
-          "end": 1185.771,
-          "text": "SIMULATED assumption checks dot P N G. The assumption check plots: Q Q plots of the H1, H2, and H3 differences and three mixed model diagnostics (simulated)."
+          "paragraph": 102,
+          "start": 1123.486,
+          "end": 1137.438,
+          "text": "analysis dot R. The analysis script for Step 08: read, clean, describe, paired t tests with d z, Wilcoxon checks, the order model, the recall correlation, assumption checks, and three figures."
         },
         {
           "index": 220,
-          "paragraph": 107,
-          "start": 1186.471,
-          "end": 1200.317,
-          "text": "make simulated data dot P Y. The generator that produced the simulated files (seed 20268242), kept so that nobody mistakes the data for real viewers."
+          "paragraph": 103,
+          "start": 1138.138,
+          "end": 1147.823,
+          "text": "analysis output dot T X T. The console output of analysis dot R; every simulated number quoted in this workshop comes from this file."
         },
         {
           "index": 221,
-          "paragraph": 108,
-          "start": 1201.017,
-          "end": 1208.206,
-          "text": "make excel workbook dot P Y. The script that builds the Excel workbook and its walkthrough from the C S V files."
+          "paragraph": 104,
+          "start": 1148.523,
+          "end": 1158.081,
+          "text": "analysis excel walkthrough dot M D. The same analysis done in Excel, step by step, with the cell references used in Exercise 4."
         },
         {
           "index": 222,
-          "paragraph": 109,
-          "start": 1208.906,
-          "end": 1217.994,
-          "text": "zotero dot R I S. The 35 scholarly readings in R I S format, for import into Zotero or any reference manager."
+          "paragraph": 105,
+          "start": 1158.781,
+          "end": 1169.81,
+          "text": "SIMULATED ad test analysis dot X L S X. The finished Excel workbook (read me, Data, Summary, ProductTV, BrandLogo, Survey, and Check sheets)."
         },
         {
           "index": 223,
-          "paragraph": 110,
-          "start": 1218.694,
-          "end": 1235.761,
-          "text": "These twelve documents live in the iMotions Research Project on claude.ai (folder lab-reference); documents 00 to 10 are also saved as Word files in C:\\JaxState Behavior Lab\\00 Lab Reference."
+          "paragraph": 106,
+          "start": 1170.51,
+          "end": 1179.513,
+          "text": "results text dot M D. The model methods, results, and discussion paragraphs used in Steps 06, 09, and 10."
         },
         {
           "index": 224,
-          "paragraph": 110,
-          "start": 1236.111,
-          "end": 1238.329,
-          "text": "They are not on this site; ask Doctor"
+          "paragraph": 107,
+          "start": 1180.213,
+          "end": 1193.823,
+          "text": "SIMULATED fig1 product dwell paired dot P N G. Figure 1: Product TV dwell share, one line per viewer, with each commercial's mean and 95 percent confidence interval (simulated)."
         },
         {
           "index": 225,
-          "paragraph": 111,
-          "start": 1239.029,
-          "end": 1240.373,
-          "text": "Sciuchetti for access."
+          "paragraph": 108,
+          "start": 1194.523,
+          "end": 1208.753,
+          "text": "SIMULATED fig2 brand logo T T F F dot P N G. Figure 2: time to first fixation on the brand logo; open circles mark viewers who fixated it in one commercial only (simulated)."
         },
         {
           "index": 226,
-          "paragraph": 112,
-          "start": 1241.073,
-          "end": 1243.932,
-          "text": "00 Lab Inventory and Licenses."
+          "paragraph": 109,
+          "start": 1209.453,
+          "end": 1217.303,
+          "text": "SIMULATED fig3 liking dot P N G. Figure 3: liking of each commercial, one line per viewer (simulated)."
         },
         {
           "index": 227,
-          "paragraph": 112,
-          "start": 1244.282,
-          "end": 1253.477,
-          "text": "What the lab owns, which computer runs what (both license keys include Eye Tracking Screen based), renewal dates, and iMotions contacts."
+          "paragraph": 110,
+          "start": 1218.003,
+          "end": 1230.825,
+          "text": "SIMULATED assumption checks dot P N G. The assumption check plots: Q Q plots of the H1, H2, and H3 differences and three mixed model diagnostics (simulated)."
         },
         {
           "index": 228,
-          "paragraph": 113,
-          "start": 1254.177,
-          "end": 1256.31,
-          "text": "01 Study Type Decision Guide."
+          "paragraph": 111,
+          "start": 1231.525,
+          "end": 1245.37,
+          "text": "make simulated data dot P Y. The generator that produced the simulated files (seed 20268242), kept so that nobody mistakes the data for real viewers."
         },
         {
           "index": 229,
-          "paragraph": 113,
-          "start": 1256.66,
-          "end": 1263.935,
-          "text": "How to go from a question to one of the study types the lab can run, with the planning checklist that Step 02 follows."
+          "paragraph": 112,
+          "start": 1246.07,
+          "end": 1253.259,
+          "text": "make excel workbook dot P Y. The script that builds the Excel workbook and its walkthrough from the C S V files."
         },
         {
           "index": 230,
-          "paragraph": 114,
-          "start": 1264.635,
-          "end": 1267.109,
-          "text": "02a Eye Tracking Pipeline."
+          "paragraph": 113,
+          "start": 1253.959,
+          "end": 1263.047,
+          "text": "zotero dot R I S. The 35 scholarly readings in R I S format, for import into Zotero or any reference manager."
         },
         {
           "index": 231,
           "paragraph": 114,
-          "start": 1267.459,
-          "end": 1277.422,
-          "text": "The Aurora, the Neon, calibration, fixation filters, A O I's and the 48 A O I metrics, heatmaps, scan paths, and eye tracking exports."
+          "start": 1263.747,
+          "end": 1280.963,
+          "text": "These thirteen documents live in the iMotions Research Project on claude.ai (folder lab-reference); documents 00 to 10 are also saved as Word files in C:\\JaxState Behavior Lab\\00 Lab Reference."
         },
         {
           "index": 232,
-          "paragraph": 115,
-          "start": 1278.122,
-          "end": 1280.853,
-          "text": "02b Biometrics Survey Pipeline."
+          "paragraph": 114,
+          "start": 1281.313,
+          "end": 1283.532,
+          "text": "They are not on this site; ask Doctor"
         },
         {
           "index": 233,
           "paragraph": 115,
-          "start": 1281.203,
-          "end": 1291.379,
-          "text": "aff decks, Shimmer G S R and P P G, Enobio E E G, surveys, markers and annotations, synchronization, R notebooks, and exports."
+          "start": 1284.232,
+          "end": 1285.576,
+          "text": "Sciuchetti for access."
         },
         {
           "index": 234,
           "paragraph": 116,
-          "start": 1292.079,
-          "end": 1293.743,
-          "text": "04 Where To Look Index."
+          "start": 1286.276,
+          "end": 1289.135,
+          "text": "00 Lab Inventory and Licenses."
         },
         {
           "index": 235,
           "paragraph": 116,
-          "start": 1294.093,
-          "end": 1303.607,
-          "text": "Every task mapped to the exact help center URL, the local P D F under C:\\JaxState Behavior Lab, and the vendor video."
+          "start": 1289.485,
+          "end": 1298.679,
+          "text": "What the lab owns, which computer runs what (both license keys include Eye Tracking Screen based), renewal dates, and iMotions contacts."
         },
         {
           "index": 236,
           "paragraph": 117,
-          "start": 1304.307,
-          "end": 1306.142,
-          "text": "05 Study Registry."
+          "start": 1299.379,
+          "end": 1301.513,
+          "text": "01 Study Type Decision Guide."
         },
         {
           "index": 237,
           "paragraph": 117,
-          "start": 1306.492,
-          "end": 1310.119,
-          "text": "Which studies exist, their status, folders, and documents."
+          "start": 1301.863,
+          "end": 1309.137,
+          "text": "How to go from a question to one of the study types the lab can run, with the planning checklist that Step 02 follows."
         },
         {
           "index": 238,
           "paragraph": 118,
-          "start": 1310.819,
-          "end": 1313.677,
-          "text": "06 Folder Organization Proposal."
+          "start": 1309.837,
+          "end": 1312.312,
+          "text": "02a Eye Tracking Pipeline."
         },
         {
           "index": 239,
           "paragraph": 118,
-          "start": 1314.027,
-          "end": 1318.763,
-          "text": "The proposed study folder template, naming, backup, and retention rules."
+          "start": 1312.662,
+          "end": 1322.625,
+          "text": "The Aurora, the Neon, calibration, fixation filters, A O I's and the 48 A O I metrics, heatmaps, scan paths, and eye tracking exports."
         },
         {
           "index": 240,
           "paragraph": 119,
-          "start": 1319.463,
-          "end": 1322.429,
-          "text": "07 iMotions Correspondence Digest."
+          "start": 1323.325,
+          "end": 1326.055,
+          "text": "02b Biometrics Survey Pipeline."
         },
         {
           "index": 241,
           "paragraph": 119,
-          "start": 1322.779,
-          "end": 1328.837,
-          "text": "What iMotions has told the lab by email: licenses, quotes, support tickets, and training."
+          "start": 1326.405,
+          "end": 1336.581,
+          "text": "aff decks, Shimmer G S R and P P G, Enobio E E G, surveys, markers and annotations, synchronization, R notebooks, and exports."
         },
         {
           "index": 242,
           "paragraph": 120,
-          "start": 1329.537,
-          "end": 1331.393,
-          "text": "08 Help Center Index."
+          "start": 1337.281,
+          "end": 1338.945,
+          "text": "04 Where To Look Index."
         },
         {
           "index": 243,
           "paragraph": 120,
-          "start": 1331.743,
-          "end": 1337.461,
-          "text": "The full map of help dot imotions dot com, 519 articles with URLs."
+          "start": 1339.295,
+          "end": 1348.81,
+          "text": "Every task mapped to the exact help center URL, the local P D F under C:\\JaxState Behavior Lab, and the vendor video."
         },
         {
           "index": 244,
           "paragraph": 121,
-          "start": 1338.161,
-          "end": 1340.614,
-          "text": "09 Vendor Resources Index."
+          "start": 1349.51,
+          "end": 1351.345,
+          "text": "05 Study Registry."
         },
         {
           "index": 245,
           "paragraph": 121,
-          "start": 1340.964,
-          "end": 1349.241,
-          "text": "199 verified vendor documentation pages and official videos, including the Smart Eye Aurora guides."
+          "start": 1351.695,
+          "end": 1355.321,
+          "text": "Which studies exist, their status, folders, and documents."
         },
         {
           "index": 246,
           "paragraph": 122,
-          "start": 1349.941,
-          "end": 1352.181,
-          "text": "10 iMotions 11 Release Notes."
+          "start": 1356.021,
+          "end": 1358.88,
+          "text": "06 Folder Organization Proposal."
         },
         {
           "index": 247,
           "paragraph": 122,
-          "start": 1352.531,
-          "end": 1368.126,
-          "text": "What changed in iMotions Lab 11.x, including the 11 point 1 point 13 update released on September 25, 2026 and scheduled for the lab computers on October 7, 2026."
+          "start": 1359.23,
+          "end": 1366.035,
+          "text": "The study folder template, naming, backup, and retention rules (approved October 2026)."
         },
         {
           "index": 248,
           "paragraph": 123,
-          "start": 1368.826,
-          "end": 1370.938,
-          "text": "11 Workshop Series Build Notes."
+          "start": 1366.735,
+          "end": 1369.701,
+          "text": "07 iMotions Correspondence Digest."
         },
         {
           "index": 249,
           "paragraph": 123,
-          "start": 1371.288,
-          "end": 1380.205,
-          "text": "How the workshops are built and published: the template, the build files, the routine for a new workshop, and the items confirmed on the lab laptop."
+          "start": 1370.051,
+          "end": 1376.109,
+          "text": "What iMotions has told the lab by email: licenses, quotes, support tickets, and training."
         },
         {
           "index": 250,
           "paragraph": 124,
-          "start": 1380.905,
-          "end": 1391.572,
+          "start": 1376.809,
+          "end": 1378.665,
+          "text": "08 Help Center Index."
+        },
+        {
+          "index": 251,
+          "paragraph": 124,
+          "start": 1379.015,
+          "end": 1384.733,
+          "text": "The full map of help dot imotions dot com, 519 articles with URLs."
+        },
+        {
+          "index": 252,
+          "paragraph": 125,
+          "start": 1385.433,
+          "end": 1387.886,
+          "text": "09 Vendor Resources Index."
+        },
+        {
+          "index": 253,
+          "paragraph": 125,
+          "start": 1388.236,
+          "end": 1396.513,
+          "text": "199 verified vendor documentation pages and official videos, including the Smart Eye Aurora guides."
+        },
+        {
+          "index": 254,
+          "paragraph": 126,
+          "start": 1397.213,
+          "end": 1399.453,
+          "text": "10 iMotions 11 Release Notes."
+        },
+        {
+          "index": 255,
+          "paragraph": 126,
+          "start": 1399.803,
+          "end": 1415.398,
+          "text": "What changed in iMotions Lab 11.x, including the 11 point 1 point 13 update released on September 25, 2026 and scheduled for the lab computers on October 7, 2026."
+        },
+        {
+          "index": 256,
+          "paragraph": 127,
+          "start": 1416.098,
+          "end": 1418.21,
+          "text": "11 Workshop Series Build Notes."
+        },
+        {
+          "index": 257,
+          "paragraph": 127,
+          "start": 1418.56,
+          "end": 1427.477,
+          "text": "How the workshops are built and published: the template, the build files, the routine for a new workshop, and the items confirmed on the lab laptop."
+        },
+        {
+          "index": 258,
+          "paragraph": 128,
+          "start": 1428.177,
+          "end": 1429.927,
+          "text": "19 Stimulus Screen Setup."
+        },
+        {
+          "index": 259,
+          "paragraph": 128,
+          "start": 1430.277,
+          "end": 1442.906,
+          "text": "What to set again, and in what order, when the stimulus monitor, its Windows display settings, or the Aurora position changes; also on this site as the guide Setting Up the Stimulus Screen (Word)."
+        },
+        {
+          "index": 260,
+          "paragraph": 129,
+          "start": 1443.606,
+          "end": 1454.273,
           "text": "Find the original article, manual page, video, reading, or data file behind any step of this workshop, and tell a verified source from an unverified one."
         }
       ]
@@ -8925,5 +9301,5 @@
       ]
     }
   },
-  "generated": "2026-10-12T23:17:29+00:00"
+  "generated": "2026-10-13T04:32:12+00:00"
 }

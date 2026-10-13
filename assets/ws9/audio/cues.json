@@ -2122,8 +2122,8 @@
     },
     "build": {
       "file": "build.mp3",
-      "duration": 1018.985,
-      "mp3_duration": 1019.04,
+      "duration": 1031.397,
+      "mp3_duration": 1031.448,
       "starts": [
         0.0,
         2.513,
@@ -2164,88 +2164,89 @@
         303.283,
         305.007,
         322.176,
-        324.638,
-        337.562,
-        348.395,
-        349.257,
-        358.64,
-        374.039,
-        389.629,
-        391.217,
-        394.455,
-        410.537,
-        412.167,
-        421.677,
-        439.764,
-        441.637,
-        457.548,
-        465.407,
-        467.131,
-        476.591,
-        482.283,
-        484.041,
-        487.621,
-        501.462,
-        509.394,
-        519.557,
-        523.905,
-        524.767,
-        528.083,
-        532.443,
-        535.725,
-        549.331,
-        560.442,
-        561.795,
-        569.812,
-        571.634,
-        582.894,
-        593.429,
-        595.144,
-        604.655,
-        612.685,
-        618.91,
-        620.284,
-        629.176,
-        636.745,
-        647.728,
-        658.604,
-        659.466,
-        666.737,
-        677.945,
-        683.083,
-        696.113,
-        706.861,
-        724.585,
-        729.053,
-        735.321,
-        737.249,
-        751.347,
-        752.379,
-        758.873,
-        768.533,
-        776.401,
-        777.775,
-        785.857,
-        800.573,
-        808.761,
-        826.997,
-        839.771,
-        847.703,
-        857.739,
-        861.34,
-        874.989,
-        886.774,
-        888.148,
-        891.762,
-        893.955,
-        901.333,
-        903.219,
-        910.98,
-        932.203,
-        940.839,
-        960.952,
-        970.74,
-        986.352
+        334.588,
+        337.05,
+        349.974,
+        360.807,
+        361.669,
+        371.052,
+        386.451,
+        402.041,
+        403.629,
+        406.867,
+        422.949,
+        424.579,
+        434.089,
+        452.176,
+        454.049,
+        469.96,
+        477.819,
+        479.543,
+        489.003,
+        494.695,
+        496.453,
+        500.033,
+        513.874,
+        521.806,
+        531.969,
+        536.317,
+        537.179,
+        540.495,
+        544.855,
+        548.137,
+        561.743,
+        572.854,
+        574.207,
+        582.224,
+        584.046,
+        595.306,
+        605.841,
+        607.556,
+        617.067,
+        625.097,
+        631.322,
+        632.696,
+        641.588,
+        649.157,
+        660.14,
+        671.016,
+        671.878,
+        679.149,
+        690.357,
+        695.495,
+        708.525,
+        719.273,
+        736.997,
+        741.465,
+        747.733,
+        749.661,
+        763.759,
+        764.791,
+        771.285,
+        780.945,
+        788.813,
+        790.187,
+        798.269,
+        812.985,
+        821.173,
+        839.409,
+        852.183,
+        860.115,
+        870.151,
+        873.752,
+        887.401,
+        899.186,
+        900.56,
+        904.174,
+        906.367,
+        913.745,
+        915.631,
+        923.392,
+        944.615,
+        953.251,
+        973.364,
+        983.152,
+        998.764
       ],
       "sentences": [
         {
@@ -2518,581 +2519,588 @@
           "index": 38,
           "paragraph": 26,
           "start": 322.176,
-          "end": 324.288,
-          "text": "Choose the sensors and name the study."
+          "end": 333.888,
+          "text": "If the stimulus monitor or its Windows scale changes later, set the screen chain again before recording (Workshop 2, section 4.5; lab guide Setting Up the Stimulus Screen)."
         },
         {
           "index": 39,
-          "paragraph": 26,
-          "start": 324.638,
-          "end": 336.862,
-          "text": "Sensors that are enabled in Global Settings are ticked automatically; on the Sensors tab, tick Eye tracking, Respondent Camera with aff decks, and Shimmer (section 06 shows the tab)."
+          "paragraph": 27,
+          "start": 334.588,
+          "end": 336.7,
+          "text": "Choose the sensors and name the study."
         },
         {
           "index": 40,
           "paragraph": 27,
-          "start": 337.562,
-          "end": 347.695,
-          "text": "You should see the study in the Library with the tabs Study Settings, Sensors, Gaze Analysis, Live Markers, Export, Recorded Data, and Latency Settings."
+          "start": 337.05,
+          "end": 349.274,
+          "text": "Sensors that are enabled in Global Settings are ticked automatically; on the Sensors tab, tick Eye tracking, Respondent Camera with aff decks, and Shimmer (section 06 shows the tab)."
         },
         {
           "index": 41,
           "paragraph": 28,
-          "start": 348.395,
-          "end": 348.907,
-          "text": "Why."
+          "start": 349.974,
+          "end": 360.107,
+          "text": "You should see the study in the Library with the tabs Study Settings, Sensors, Gaze Analysis, Live Markers, Export, Recorded Data, and Latency Settings."
         },
         {
           "index": 42,
-          "paragraph": 28,
-          "start": 349.257,
-          "end": 357.94,
-          "text": "\"Blocks allow you to group stimuli and build a more complex experiment structure, making sure that certain stimuli always follow after each other.\""
+          "paragraph": 29,
+          "start": 360.807,
+          "end": 361.319,
+          "text": "Why."
         },
         {
           "index": 43,
           "paragraph": 29,
-          "start": 358.64,
-          "end": 373.339,
-          "text": "Each ad must be followed by its two questions, so each ad and its questions form a block, as in the vendor's own example, where Design 1 A Block holds a Fixation cross, the image Design 1 A, and the Energy consumption rating."
+          "start": 361.669,
+          "end": 370.352,
+          "text": "\"Blocks allow you to group stimuli and build a more complex experiment structure, making sure that certain stimuli always follow after each other.\""
         },
         {
           "index": 44,
           "paragraph": 30,
-          "start": 374.039,
-          "end": 388.929,
-          "text": "The property Display order, \"Random\" or \"Fixed\", decides whether an item keeps its place: \"The pin icon means that this stimulus has a fixed position in the study flow\"; \"The arrow icon means that this stimulus is randomized\"."
+          "start": 371.052,
+          "end": 385.751,
+          "text": "Each ad must be followed by its two questions, so each ad and its questions form a block, as in the vendor's own example, where Design 1 A Block holds a Fixation cross, the image Design 1 A, and the Energy consumption rating."
         },
         {
           "index": 45,
           "paragraph": 31,
-          "start": 389.629,
-          "end": 390.867,
-          "text": "Open the Study builder."
+          "start": 386.451,
+          "end": 401.341,
+          "text": "The property Display order, \"Random\" or \"Fixed\", decides whether an item keeps its place: \"The pin icon means that this stimulus has a fixed position in the study flow\"; \"The arrow icon means that this stimulus is randomized\"."
         },
         {
           "index": 46,
-          "paragraph": 31,
-          "start": 391.217,
-          "end": 393.755,
-          "text": "Select the study and click \"Edit stimuli\"."
+          "paragraph": 32,
+          "start": 402.041,
+          "end": 403.279,
+          "text": "Open the Study builder."
         },
         {
           "index": 47,
           "paragraph": 32,
-          "start": 394.455,
-          "end": 409.837,
-          "text": "You should see the tabs Flow Designer and Stimuli Overview, the tiles \"Block\", \"Media\", \"Survey\", \"Screen recording\", \"Website\", and \"Qualtrics\" (J S U has no Qualtrics license), and the drop zone \"Drag stimuli and files here\"."
+          "start": 403.629,
+          "end": 406.167,
+          "text": "Select the study and click \"Edit stimuli\"."
         },
         {
           "index": 48,
           "paragraph": 33,
-          "start": 410.537,
-          "end": 411.817,
-          "text": "Make one block per ad."
+          "start": 406.867,
+          "end": 422.249,
+          "text": "You should see the tabs Flow Designer and Stimuli Overview, the tiles \"Block\", \"Media\", \"Survey\", \"Screen recording\", \"Website\", and \"Qualtrics\" (J S U has no Qualtrics license), and the drop zone \"Drag stimuli and files here\"."
         },
         {
           "index": 49,
-          "paragraph": 33,
-          "start": 412.167,
-          "end": 420.977,
-          "text": "Drag in the fixation cross, the ad, and its rating survey, multiselect them, and press control plus G (or use the right-click menu)."
+          "paragraph": 34,
+          "start": 422.949,
+          "end": 424.229,
+          "text": "Make one block per ad."
         },
         {
           "index": 50,
           "paragraph": 34,
-          "start": 421.677,
-          "end": 439.064,
-          "text": "Because \"it is not possible to have the same stimulus twice in the same flow\", each ad needs its own copy of the rating survey and the fixation cross: duplicate them with control plus D or Duplicate in the right-click menu, and rename each rating survey after its ad."
+          "start": 424.579,
+          "end": 433.389,
+          "text": "Drag in the fixation cross, the ad, and its rating survey, multiselect them, and press control plus G (or use the right-click menu)."
         },
         {
           "index": 51,
           "paragraph": 35,
-          "start": 439.764,
-          "end": 440.937,
-          "text": "Set Display order."
+          "start": 434.089,
+          "end": 451.476,
+          "text": "Because \"it is not possible to have the same stimulus twice in the same flow\", each ad needs its own copy of the rating survey and the fixation cross: duplicate them with control plus D or Duplicate in the right-click menu, and rename each rating survey after its ad."
         },
         {
           "index": 52,
           "paragraph": 36,
-          "start": 441.637,
-          "end": 456.848,
-          "text": "In Properties, set the instructions, the Baseline, and the end questions to Fixed; set each of the 12 ad blocks, and the block that holds them, to Random, as in the vendor's nested example; and set the items inside each ad block to Fixed."
+          "start": 452.176,
+          "end": 453.349,
+          "text": "Set Display order."
         },
         {
           "index": 53,
           "paragraph": 37,
-          "start": 457.548,
-          "end": 465.057,
-          "text": "You should see pins and arrows as in the figures; \"Expand all blocks\" shows the whole structure, and \"Preview flow\" plays it."
+          "start": 454.049,
+          "end": 469.26,
+          "text": "In Properties, set the instructions, the Baseline, and the end questions to Fixed; set each of the 12 ad blocks, and the block that holds them, to Random, as in the vendor's nested example; and set the items inside each ad block to Fixed."
         },
         {
           "index": 54,
-          "paragraph": 37,
-          "start": 465.407,
-          "end": 466.431,
-          "text": "Common mistake."
+          "paragraph": 38,
+          "start": 469.96,
+          "end": 477.469,
+          "text": "You should see pins and arrows as in the figures; \"Expand all blocks\" shows the whole structure, and \"Preview flow\" plays it."
         },
         {
           "index": 55,
           "paragraph": 38,
-          "start": 467.131,
-          "end": 476.241,
-          "text": "Random on the wrong level: \"Setting Display order to Random will randomize the presentation order within the block\" (Creating R D C Studies)."
+          "start": 477.819,
+          "end": 478.843,
+          "text": "Common mistake."
         },
         {
           "index": 56,
-          "paragraph": 38,
-          "start": 476.591,
-          "end": 481.583,
-          "text": "How nested random blocks combine in 11 point 1 is an item to verify."
+          "paragraph": 39,
+          "start": 479.543,
+          "end": 488.653,
+          "text": "Random on the wrong level: \"Setting Display order to Random will randomize the presentation order within the block\" (Creating R D C Studies)."
         },
         {
           "index": 57,
           "paragraph": 39,
-          "start": 482.283,
-          "end": 483.691,
-          "text": "What Random cannot do."
+          "start": 489.003,
+          "end": 493.995,
+          "text": "How nested random blocks combine in 11 point 1 is an item to verify."
         },
         {
           "index": 58,
-          "paragraph": 39,
-          "start": 484.041,
-          "end": 486.921,
-          "text": "Random draws a new order for each participant."
+          "paragraph": 40,
+          "start": 494.695,
+          "end": 496.103,
+          "text": "What Random cannot do."
         },
         {
           "index": 59,
           "paragraph": 40,
-          "start": 487.621,
-          "end": 500.762,
-          "text": "Over 48 participants, some ads will happen to come first more often than others, some pairs of ads will follow each other several times and others never, and nothing stops five Altavo ads from playing in a row."
+          "start": 496.453,
+          "end": 499.333,
+          "text": "Random draws a new order for each participant."
         },
         {
           "index": 60,
           "paragraph": 41,
-          "start": 501.462,
-          "end": 508.694,
-          "text": "A random order balances order effects only on average, which is what the Designing article calls counterbalancing."
+          "start": 500.033,
+          "end": 513.174,
+          "text": "Over 48 participants, some ads will happen to come first more often than others, some pairs of ads will follow each other several times and others never, and nothing stops five Altavo ads from playing in a row."
         },
         {
           "index": 61,
           "paragraph": 42,
-          "start": 509.394,
-          "end": 519.207,
-          "text": "A Latin square balances the position of each ad exactly, and a Williams design also balances carryover, what one ad does to the response to the next."
+          "start": 513.874,
+          "end": 521.106,
+          "text": "A random order balances order effects only on average, which is what the Designing article calls counterbalancing."
         },
         {
           "index": 62,
-          "paragraph": 42,
-          "start": 519.557,
-          "end": 523.205,
-          "text": "For the follow up study, Random is a fallback, not the plan."
+          "paragraph": 43,
+          "start": 521.806,
+          "end": 531.619,
+          "text": "A Latin square balances the position of each ad exactly, and a Williams design also balances carryover, what one ad does to the response to the next."
         },
         {
           "index": 63,
           "paragraph": 43,
-          "start": 523.905,
-          "end": 524.417,
-          "text": "Why."
+          "start": 531.969,
+          "end": 535.617,
+          "text": "For the follow up study, Random is a fallback, not the plan."
         },
         {
           "index": 64,
-          "paragraph": 43,
-          "start": 524.767,
-          "end": 527.733,
-          "text": "\"A study flow defines the order of your stimuli."
+          "paragraph": 44,
+          "start": 536.317,
+          "end": 536.829,
+          "text": "Why."
         },
         {
           "index": 65,
-          "paragraph": 43,
-          "start": 528.083,
-          "end": 532.093,
-          "text": "You can create variations of your study by adding additional flows."
+          "paragraph": 44,
+          "start": 537.179,
+          "end": 540.145,
+          "text": "\"A study flow defines the order of your stimuli."
         },
         {
           "index": 66,
-          "paragraph": 43,
-          "start": 532.443,
-          "end": 535.025,
-          "text": "Only one flow will be shown per respondent.\""
+          "paragraph": 44,
+          "start": 540.495,
+          "end": 544.505,
+          "text": "You can create variations of your study by adding additional flows."
         },
         {
           "index": 67,
           "paragraph": 44,
-          "start": 535.725,
-          "end": 548.631,
-          "text": "Flows were designed for between subjects A/B tests, but a study flow in which every item is Fixed is simply one prescribed order, so twelve flows can hold the twelve rows of the Williams design."
+          "start": 544.855,
+          "end": 547.437,
+          "text": "Only one flow will be shown per respondent.\""
         },
         {
           "index": 68,
           "paragraph": 45,
-          "start": 549.331,
-          "end": 559.742,
-          "text": "The flows share their stimuli, and \"While stimulus properties are shared across flows, the stimulus order (including the randomization property) is unique to a flow.\""
+          "start": 548.137,
+          "end": 561.043,
+          "text": "Flows were designed for between subjects A/B tests, but a study flow in which every item is Fixed is simply one prescribed order, so twelve flows can hold the twelve rows of the Williams design."
         },
         {
           "index": 69,
           "paragraph": 46,
-          "start": 560.442,
-          "end": 561.445,
-          "text": "Build row 1."
+          "start": 561.743,
+          "end": 572.154,
+          "text": "The flows share their stimuli, and \"While stimulus properties are shared across flows, the stimulus order (including the randomization property) is unique to a flow.\""
         },
         {
           "index": 70,
-          "paragraph": 46,
-          "start": 561.795,
-          "end": 569.112,
-          "text": "Arrange the ad blocks in the order of row 1 of the Latin square file, all Fixed, and name the flow Row01."
+          "paragraph": 47,
+          "start": 572.854,
+          "end": 573.857,
+          "text": "Build row 1."
         },
         {
           "index": 71,
           "paragraph": 47,
-          "start": 569.812,
-          "end": 571.284,
-          "text": "Duplicate and reorder."
+          "start": 574.207,
+          "end": 581.524,
+          "text": "Arrange the ad blocks in the order of row 1 of the Latin square file, all Fixed, and name the flow Row01."
         },
         {
           "index": 72,
-          "paragraph": 47,
-          "start": 571.634,
-          "end": 582.194,
-          "text": "In the \"Study flows\" panel use \"Duplicate flow\", rename the copy Row02, and drag the ad blocks into the order of row 2; repeat up to Row12."
+          "paragraph": 48,
+          "start": 582.224,
+          "end": 583.696,
+          "text": "Duplicate and reorder."
         },
         {
           "index": 73,
           "paragraph": 48,
-          "start": 582.894,
-          "end": 592.729,
-          "text": "You should see 12 flows, and in the \"Repository\" (\"The repository lets you access and reuse stimuli across study flows\") each stimulus once."
+          "start": 584.046,
+          "end": 594.606,
+          "text": "In the \"Study flows\" panel use \"Duplicate flow\", rename the copy Row02, and drag the ad blocks into the order of row 2; repeat up to Row12."
         },
         {
           "index": 74,
           "paragraph": 49,
-          "start": 593.429,
-          "end": 594.794,
-          "text": "Let the operator choose."
+          "start": 595.306,
+          "end": 605.141,
+          "text": "You should see 12 flows, and in the \"Repository\" (\"The repository lets you access and reuse stimuli across study flows\") each stimulus once."
         },
         {
           "index": 75,
-          "paragraph": 49,
-          "start": 595.144,
-          "end": 603.955,
-          "text": "On Study Settings set \"Study flow selection\" to \"Manually select\": \"The experimenter can manually select a flow at the start of a recording\"."
+          "paragraph": 50,
+          "start": 605.841,
+          "end": 607.206,
+          "text": "Let the operator choose."
         },
         {
           "index": 76,
           "paragraph": 50,
-          "start": 604.655,
-          "end": 612.335,
-          "text": "The operator reads the row from simulated session schedule dot C S V and writes the flow chosen into the session log."
+          "start": 607.556,
+          "end": 616.367,
+          "text": "On Study Settings set \"Study flow selection\" to \"Manually select\": \"The experimenter can manually select a flow at the start of a recording\"."
         },
         {
           "index": 77,
-          "paragraph": 50,
-          "start": 612.685,
-          "end": 618.21,
-          "text": "Where 11 point 1 asks for the flow when a recording starts is an item to verify."
+          "paragraph": 51,
+          "start": 617.067,
+          "end": 624.747,
+          "text": "The operator reads the row from simulated session schedule dot C S V and writes the flow chosen into the session log."
         },
         {
           "index": 78,
           "paragraph": 51,
-          "start": 618.91,
-          "end": 619.934,
-          "text": "Common mistake."
+          "start": 625.097,
+          "end": 630.622,
+          "text": "Where 11 point 1 asks for the flow when a recording starts is an item to verify."
         },
         {
           "index": 79,
-          "paragraph": 51,
-          "start": 620.284,
-          "end": 628.476,
-          "text": "Choosing \"Automatically select\", with which \"a respondent can be randomized into a flow automatically selected by iMotions\"."
+          "paragraph": 52,
+          "start": 631.322,
+          "end": 632.346,
+          "text": "Common mistake."
         },
         {
           "index": 80,
           "paragraph": 52,
-          "start": 629.176,
-          "end": 636.045,
-          "text": "The article does not say that the flows are then used equally often, so it cannot guarantee four uses of each row."
+          "start": 632.696,
+          "end": 640.888,
+          "text": "Choosing \"Automatically select\", with which \"a respondent can be randomized into a flow automatically selected by iMotions\"."
         },
         {
           "index": 81,
           "paragraph": 53,
-          "start": 636.745,
-          "end": 647.028,
-          "text": "With Manually select the risk is a wrong pick, which the session log and the analysis catch, because an analysis can segment respondents by flow (Workshop 8)."
+          "start": 641.588,
+          "end": 648.457,
+          "text": "The article does not say that the flows are then used equally often, so it cannot guarantee four uses of each row."
         },
         {
           "index": 82,
           "paragraph": 54,
-          "start": 647.728,
-          "end": 657.904,
-          "text": "Flows have two practical advantages: a reserve participant can be added at any time and given the row of the person replaced, and the study can be cloned for the pilot."
+          "start": 649.157,
+          "end": 659.44,
+          "text": "With Manually select the risk is a wrong pick, which the session log and the analysis catch, because an analysis can segment respondents by flow (Workshop 8)."
         },
         {
           "index": 83,
           "paragraph": 55,
-          "start": 658.604,
-          "end": 659.116,
-          "text": "Why."
+          "start": 660.14,
+          "end": 670.316,
+          "text": "Flows have two practical advantages: a reserve participant can be added at any time and given the row of the person replaced, and the study can be cloned for the pilot."
         },
         {
           "index": 84,
-          "paragraph": 55,
-          "start": 659.466,
-          "end": 666.037,
-          "text": "\"Test plans allow you to implement special types of study designs (that is a special type of randomization).\""
+          "paragraph": 56,
+          "start": 671.016,
+          "end": 671.528,
+          "text": "Why."
         },
         {
           "index": 85,
           "paragraph": 56,
-          "start": 666.737,
-          "end": 677.595,
-          "text": "A test plan is \"A C S V file containing the respondents and stimuli sequences\" plus \"A Stimuli folder containing any files representing stimuli\"."
+          "start": 671.878,
+          "end": 678.449,
+          "text": "\"Test plans allow you to implement special types of study designs (that is a special type of randomization).\""
         },
         {
           "index": 86,
-          "paragraph": 56,
-          "start": 677.945,
-          "end": 682.383,
-          "text": "The order lives in a file written in advance, not in the operator's hands."
+          "paragraph": 57,
+          "start": 679.149,
+          "end": 690.007,
+          "text": "A test plan is \"A C S V file containing the respondents and stimuli sequences\" plus \"A Stimuli folder containing any files representing stimuli\"."
         },
         {
           "index": 87,
           "paragraph": 57,
-          "start": 683.083,
-          "end": 695.413,
-          "text": "Write the C S V. Start from the order schedule, delete its banner line, and keep one line per respondent: Name, Gender, AGE, City, then the stimulus files in that respondent's order."
+          "start": 690.357,
+          "end": 694.795,
+          "text": "The order lives in a file written in advance, not in the operator's hands."
         },
         {
           "index": 88,
           "paragraph": 58,
-          "start": 696.113,
-          "end": 706.161,
-          "text": "\"Name, Gender, AGE, City are required fields\", \"Gender values can be either F or M\", and \"Age values can be between 1 and 99\"."
+          "start": 695.495,
+          "end": 707.825,
+          "text": "Write the C S V. Start from the order schedule, delete its banner line, and keep one line per respondent: Name, Gender, AGE, City, then the stimulus files in that respondent's order."
         },
         {
           "index": 89,
           "paragraph": 59,
-          "start": 706.861,
-          "end": 723.885,
-          "text": "Put the participant code in Name and placeholder values in the other three, as the vendor example does (\"F\", \"1\", \"N A\"), and ask age and gender in a survey slide; the file then holds no identifying data and forces no one into a binary answer."
+          "start": 708.525,
+          "end": 718.573,
+          "text": "\"Name, Gender, AGE, City are required fields\", \"Gender values can be either F or M\", and \"Age values can be between 1 and 99\"."
         },
         {
           "index": 90,
           "paragraph": 60,
-          "start": 724.585,
-          "end": 728.703,
-          "text": "\"A stimulus name can only be referenced once for each respondent.\""
+          "start": 719.273,
+          "end": 736.297,
+          "text": "Put the participant code in Name and placeholder values in the other three, as the vendor example does (\"F\", \"1\", \"N A\"), and ask age and gender in a survey slide; the file then holds no identifying data and forces no one into a binary answer."
         },
         {
           "index": 91,
-          "paragraph": 60,
-          "start": 729.053,
-          "end": 734.621,
-          "text": "Save as \"C S V (Comma delimited) (* dot C S V)\" and close Excel."
+          "paragraph": 61,
+          "start": 736.997,
+          "end": 741.115,
+          "text": "\"A stimulus name can only be referenced once for each respondent.\""
         },
         {
           "index": 92,
           "paragraph": 61,
-          "start": 735.321,
-          "end": 736.899,
-          "text": "Prepare the Stimuli folder."
+          "start": 741.465,
+          "end": 747.033,
+          "text": "Save as \"C S V (Comma delimited) (* dot C S V)\" and close Excel."
         },
         {
           "index": 93,
-          "paragraph": 61,
-          "start": 737.249,
-          "end": 750.647,
-          "text": "Place a folder named \"Stimuli\" next to the C S V, holding every file the plan names: \"A Test Plan can not reference files that are not present in the 'Stimuli' folder\", and the folder \"must NOT be empty\"."
+          "paragraph": 62,
+          "start": 747.733,
+          "end": 749.311,
+          "text": "Prepare the Stimuli folder."
         },
         {
           "index": 94,
           "paragraph": 62,
-          "start": 751.347,
-          "end": 752.029,
-          "text": "Import."
+          "start": 749.661,
+          "end": 763.059,
+          "text": "Place a folder named \"Stimuli\" next to the C S V, holding every file the plan names: \"A Test Plan can not reference files that are not present in the 'Stimuli' folder\", and the folder \"must NOT be empty\"."
         },
         {
           "index": 95,
-          "paragraph": 62,
-          "start": 752.379,
-          "end": 758.523,
-          "text": "Press control plus N, choose Test Plan, click \"Browse\" to select the C S V, and click Next."
+          "paragraph": 63,
+          "start": 763.759,
+          "end": 764.441,
+          "text": "Import."
         },
         {
           "index": 96,
-          "paragraph": 62,
-          "start": 758.873,
-          "end": 767.833,
-          "text": "You should see \"Check below that the stimuli and respondents are correct\", with the counts of stimuli and respondents, and then the choice of sensors."
+          "paragraph": 63,
+          "start": 764.791,
+          "end": 770.935,
+          "text": "Press control plus N, choose Test Plan, click \"Browse\" to select the C S V, and click Next."
         },
         {
           "index": 97,
           "paragraph": 63,
-          "start": 768.533,
-          "end": 775.701,
-          "text": "The import window warns: \"Note that once a test plan study has been imported, it cannot be changed in iMotions.\""
+          "start": 771.285,
+          "end": 780.245,
+          "text": "You should see \"Check below that the stimuli and respondents are correct\", with the counts of stimuli and respondents, and then the choice of sensors."
         },
         {
           "index": 98,
           "paragraph": 64,
-          "start": 776.401,
-          "end": 777.425,
-          "text": "Common mistake."
+          "start": 780.945,
+          "end": 788.113,
+          "text": "The import window warns: \"Note that once a test plan study has been imported, it cannot be changed in iMotions.\""
         },
         {
           "index": 99,
-          "paragraph": 64,
-          "start": 777.775,
-          "end": 785.157,
-          "text": "Leaving people out of the file: \"It is not possible to add more respondents after you started recording your study with a testplan.\""
+          "paragraph": 65,
+          "start": 788.813,
+          "end": 789.837,
+          "text": "Common mistake."
         },
         {
           "index": 100,
           "paragraph": 65,
-          "start": 785.857,
-          "end": 799.873,
-          "text": "The pilot cannot be a copy either, because cloning is \"not applicable for studies that include a Test Plan\", so the two pilot sessions (X01 and X02) are a separate import of a small pilot C S V."
+          "start": 790.187,
+          "end": 797.569,
+          "text": "Leaving people out of the file: \"It is not possible to add more respondents after you started recording your study with a testplan.\""
         },
         {
           "index": 101,
           "paragraph": 66,
-          "start": 800.573,
-          "end": 808.061,
-          "text": "The reserve participants raise a puzzle: each one takes the row of the participant replaced, which nobody knows in advance."
+          "start": 798.269,
+          "end": 812.285,
+          "text": "The pilot cannot be a copy either, because cloning is \"not applicable for studies that include a Test Plan\", so the two pilot sessions (X01 and X02) are a separate import of a small pilot C S V."
         },
         {
           "index": 102,
           "paragraph": 67,
-          "start": 808.761,
-          "end": 826.297,
-          "text": "One solution to try in the pilot is twelve spare lines, one per row of the square, under recording names such as spare row 01; the session log records which reserve code used which spare line, just as the Workshop 7 log linked recording names to participant codes."
+          "start": 812.985,
+          "end": 820.473,
+          "text": "The reserve participants raise a puzzle: each one takes the row of the participant replaced, which nobody knows in advance."
         },
         {
           "index": 103,
           "paragraph": 68,
-          "start": 826.997,
-          "end": 839.071,
-          "text": "Unused lines can be removed at the end, since \"it is possible to delete respondents when using a testplan, at any given time\", which \"will not change the content of the C S V-file\"."
+          "start": 821.173,
+          "end": 838.709,
+          "text": "One solution to try in the pilot is twelve spare lines, one per row of the square, under recording names such as spare row 01; the session log records which reserve code used which spare line, just as the Workshop 7 log linked recording names to participant codes."
         },
         {
           "index": 104,
           "paragraph": 69,
-          "start": 839.771,
-          "end": 847.003,
-          "text": "Whether properties such as the duration stay editable after import, while the order is locked, is an item to verify."
+          "start": 839.409,
+          "end": 851.483,
+          "text": "Unused lines can be removed at the end, since \"it is possible to delete respondents when using a testplan, at any given time\", which \"will not change the content of the C S V-file\"."
         },
         {
           "index": 105,
           "paragraph": 70,
-          "start": 847.703,
-          "end": 857.389,
-          "text": "The LatinSquare sheet of simulated planning dot X L S X builds the same square with formulas (excel walkthrough dot M D, section 4)."
+          "start": 852.183,
+          "end": 859.415,
+          "text": "Whether properties such as the duration stay editable after import, while the order is locked, is an item to verify."
         },
         {
           "index": 106,
-          "paragraph": 70,
-          "start": 857.739,
-          "end": 860.64,
-          "text": "Type the positions 1 to 12 in LatinSquare!"
+          "paragraph": 71,
+          "start": 860.115,
+          "end": 869.801,
+          "text": "The LatinSquare sheet of simulated planning dot X L S X builds the same square with formulas (excel walkthrough dot M D, section 4)."
         },
         {
           "index": 107,
           "paragraph": 71,
-          "start": 861.34,
-          "end": 874.289,
-          "text": "C 5:N5 and the row numbers 1 to 12 in B8:B19, fill the symbol formula over C 8:N19 and the label formula over C22:N33."
+          "start": 870.151,
+          "end": 873.052,
+          "text": "Type the positions 1 to 12 in LatinSquare!"
         },
         {
           "index": 108,
           "paragraph": 72,
-          "start": 874.989,
-          "end": 886.424,
-          "text": "With 132 adjacent pairs in all, none on the diagonal and no count above 1, each of the 132 ordered pairs of different ads occurs exactly once."
+          "start": 873.752,
+          "end": 886.701,
+          "text": "C 5:N5 and the row numbers 1 to 12 in B8:B19, fill the symbol formula over C 8:N19 and the label formula over C22:N33."
         },
         {
           "index": 109,
-          "paragraph": 72,
-          "start": 886.774,
-          "end": 887.798,
-          "text": "Common mistake."
+          "paragraph": 73,
+          "start": 887.401,
+          "end": 898.836,
+          "text": "With 132 adjacent pairs in all, none on the diagonal and no count above 1, each of the 132 ordered pairs of different ads occurs exactly once."
         },
         {
           "index": 110,
-          "paragraph": 72,
-          "start": 888.148,
-          "end": 891.412,
-          "text": "Using \"a plain cyclic Latin square (1 2 3 ..."
+          "paragraph": 73,
+          "start": 899.186,
+          "end": 900.21,
+          "text": "Common mistake."
         },
         {
           "index": 111,
-          "paragraph": 72,
-          "start": 891.762,
-          "end": 893.255,
-          "text": "12, then 2 3 ..."
+          "paragraph": 73,
+          "start": 900.56,
+          "end": 903.824,
+          "text": "Using \"a plain cyclic Latin square (1 2 3 ..."
         },
         {
           "index": 112,
           "paragraph": 73,
-          "start": 893.955,
-          "end": 900.633,
-          "text": "12 1)\", which \"is balanced for position but not for carryover: ad 2 then always follows ad 1.\""
+          "start": 904.174,
+          "end": 905.667,
+          "text": "12, then 2 3 ..."
         },
         {
           "index": 113,
           "paragraph": 74,
-          "start": 901.333,
-          "end": 902.869,
-          "text": "Before the first participant."
+          "start": 906.367,
+          "end": 913.045,
+          "text": "12 1)\", which \"is balanced for position but not for carryover: ad 2 then always follows ad 1.\""
         },
         {
           "index": 114,
-          "paragraph": 74,
-          "start": 903.219,
-          "end": 910.28,
-          "text": "Run the pilot (section 09) on the finished build and check that each recording shows the order of its row."
+          "paragraph": 75,
+          "start": 913.745,
+          "end": 915.281,
+          "text": "Before the first participant."
         },
         {
           "index": 115,
           "paragraph": 75,
-          "start": 910.98,
-          "end": 931.503,
-          "text": "Then protect the build: \"The Lock/unlock functions removes any option of changing Studies, Stimuli or Respondent settings\", which the article recommends when \"multiple people\" use one lab computer (the 11 point 1 label of the button is an item to verify), and keep a backup made with Save To File."
+          "start": 915.631,
+          "end": 922.692,
+          "text": "Run the pilot (section 09) on the finished build and check that each recording shows the order of its row."
         },
         {
           "index": 116,
           "paragraph": 76,
-          "start": 932.203,
-          "end": 940.139,
-          "text": "Once the I R B has approved the study, a change to the stimuli or the questions is an amendment (section 05)."
+          "start": 923.392,
+          "end": 943.915,
+          "text": "Then protect the build: \"The Lock/unlock functions removes any option of changing Studies, Stimuli or Respondent settings\", which the article recommends when \"multiple people\" use one lab computer (the 11 point 1 label of the button is an item to verify), and keep a backup made with Save To File."
         },
         {
           "index": 117,
           "paragraph": 77,
-          "start": 940.839,
-          "end": 960.252,
-          "text": "Help center articles for this section: Using the iMotions Study Builder, Using a test plan for study design, Clone, Save, and Import iMotions Studies, Locking and Unlocking Studies, Creating R D C Studies, and Designing Your Research Study; Data Handling is a local P D F only."
+          "start": 944.615,
+          "end": 952.551,
+          "text": "Once the I R B has approved the study, a change to the stimuli or the questions is an amendment (section 05)."
         },
         {
           "index": 118,
           "paragraph": 78,
-          "start": 960.952,
-          "end": 970.04,
-          "text": "Manual PDFs on this site: Using the iMotions Study Builder, Using a Test Plan for Study Design, and Data Handling (P D F)."
+          "start": 953.251,
+          "end": 972.664,
+          "text": "Help center articles for this section: Using the iMotions Study Builder, Using a test plan for study design, Clone, Save, and Import iMotions Studies, Locking and Unlocking Studies, Creating R D C Studies, and Designing Your Research Study; Data Handling is a local P D F only."
         },
         {
           "index": 119,
           "paragraph": 79,
-          "start": 970.74,
-          "end": 985.652,
-          "text": "Data files: simulated order schedule dot C S V, simulated latin square dot C S V, simulated session schedule dot C S V, simulated planning dot X L S X, and excel walkthrough dot M D."
+          "start": 973.364,
+          "end": 982.452,
+          "text": "Manual PDFs on this site: Using the iMotions Study Builder, Using a Test Plan for Study Design, and Data Handling (P D F)."
         },
         {
           "index": 120,
           "paragraph": 80,
-          "start": 986.352,
-          "end": 1018.985,
+          "start": 983.152,
+          "end": 998.064,
+          "text": "Data files: simulated order schedule dot C S V, simulated latin square dot C S V, simulated session schedule dot C S V, simulated planning dot X L S X, and excel walkthrough dot M D."
+        },
+        {
+          "index": 121,
+          "paragraph": 81,
+          "start": 998.764,
+          "end": 1031.397,
           "text": "Name every stimulus with the codes of the plan before collection; create a screen based or test plan study and check its screen, sensors, and license; build ad blocks with Fixed and Random display order and say what a random order cannot balance; hold the rows of a Williams design in twelve manually selected study flows or in a test plan C S V with its Stimuli folder; build and check the square in Excel; and put every respondent line, pilot, and spare row in place before the first recording."
         }
       ]
@@ -11181,5 +11189,5 @@
       ]
     }
   },
-  "generated": "2026-10-12T02:59:59+00:00"
+  "generated": "2026-10-13T04:29:35+00:00"
 }

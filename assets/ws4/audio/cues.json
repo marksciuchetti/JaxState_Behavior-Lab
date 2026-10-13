@@ -8292,8 +8292,8 @@
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 1096.09,
-      "mp3_duration": 1096.152,
+      "duration": 1114.774,
+      "mp3_duration": 1114.824,
       "starts": [
         0.0,
         2.876,
@@ -8417,22 +8417,23 @@
         872.252,
         893.965,
         917.001,
-        927.805,
-        929.529,
-        936.543,
-        949.928,
-        951.78,
-        958.21,
-        966.206,
-        975.525,
-        990.497,
-        1004.253,
-        1007.171,
-        1022.805,
-        1036.817,
-        1053.709,
-        1056.307,
-        1078.49
+        935.685,
+        946.489,
+        948.213,
+        955.227,
+        968.612,
+        970.464,
+        976.894,
+        984.89,
+        994.209,
+        1009.181,
+        1022.937,
+        1025.855,
+        1041.489,
+        1055.501,
+        1072.393,
+        1074.991,
+        1097.174
       ],
       "sentences": [
         {
@@ -9286,119 +9287,126 @@
           "index": 121,
           "paragraph": 77,
           "start": 917.001,
-          "end": 927.455,
-          "text": "You should see the baseline start and, after the session, one row per stimulus on Recorded Data with the Shimmer at 128 hertz and close to 100 percent."
+          "end": 934.985,
+          "text": "If the screen itself changes (a different monitor, a new Windows scale value, or the Aurora moved), set the whole chain again in order: Windows, the Aurora setup, Global Settings, then each study, as in Workshop 2, section 4.5 and the lab guide Setting Up the Stimulus Screen."
         },
         {
           "index": 122,
-          "paragraph": 77,
-          "start": 927.805,
-          "end": 928.829,
-          "text": "Common mistake."
+          "paragraph": 78,
+          "start": 935.685,
+          "end": 946.139,
+          "text": "You should see the baseline start and, after the session, one row per stimulus on Recorded Data with the Shimmer at 128 hertz and close to 100 percent."
         },
         {
           "index": 123,
           "paragraph": 78,
-          "start": 929.529,
-          "end": 935.843,
-          "text": "Clicking Yes on the Sensor Mismatch table without reading it, which can record a session with a sensor missing."
+          "start": 946.489,
+          "end": 947.513,
+          "text": "Common mistake."
         },
         {
           "index": 124,
           "paragraph": 79,
-          "start": 936.543,
-          "end": 949.578,
-          "text": "The simulated session log shows what a row holds: Respondent Name, Session Date, Operator, Seat, Device, Electrode placement (fingers), Skin note, Warm up minutes, Data complete, and Decision note."
+          "start": 948.213,
+          "end": 954.527,
+          "text": "Clicking Yes on the Sensor Mismatch table without reading it, which can record a session with a sensor missing."
         },
         {
           "index": 125,
-          "paragraph": 79,
-          "start": 949.928,
-          "end": 951.08,
-          "text": "Read three rows."
+          "paragraph": 80,
+          "start": 955.227,
+          "end": 968.262,
+          "text": "The simulated session log shows what a row holds: Respondent Name, Session Date, Operator, Seat, Device, Electrode placement (fingers), Skin note, Warm up minutes, Data complete, and Decision note."
         },
         {
           "index": 126,
           "paragraph": 80,
-          "start": 951.78,
-          "end": 957.86,
-          "text": "P 02's note records \"one Bluetooth gap of 5.1 seconds in Baseline Nike.\""
+          "start": 968.612,
+          "end": 969.764,
+          "text": "Read three rows."
         },
         {
           "index": 127,
-          "paragraph": 80,
-          "start": 958.21,
-          "end": 965.506,
-          "text": "P 11's records an electrode lead that loosened during Nike Commercial after a warm up cut to 2 minutes."
+          "paragraph": 81,
+          "start": 970.464,
+          "end": 976.544,
+          "text": "P 02's note records \"one Bluetooth gap of 5.1 seconds in Baseline Nike.\""
         },
         {
           "index": 128,
           "paragraph": 81,
-          "start": 966.206,
-          "end": 974.825,
-          "text": "P 24's records a Bluetooth dropout of 11.4 seconds in E L F Commercial, with Data complete equals No."
+          "start": 976.894,
+          "end": 984.19,
+          "text": "P 11's records an electrode lead that loosened during Nike Commercial after a warm up cut to 2 minutes."
         },
         {
           "index": 129,
           "paragraph": 82,
-          "start": 975.525,
-          "end": 989.797,
-          "text": "The incident is written when it happens; the Keep or exclude decision is added later, after the G S R Signal Quality notebook (section 07), by the rule written before collection and before anyone looks at the peaks."
+          "start": 984.89,
+          "end": 993.509,
+          "text": "P 24's records a Bluetooth dropout of 11.4 seconds in E L F Commercial, with Data complete equals No."
         },
         {
           "index": 130,
           "paragraph": 83,
-          "start": 990.497,
-          "end": 1003.553,
-          "text": "P 11 was excluded for a Signal-to-Noise ratio of -3.4 decibels, P 24 for 38.0 percent Signal missing, and P 02 was kept (all simulated)."
+          "start": 994.209,
+          "end": 1008.481,
+          "text": "The incident is written when it happens; the Keep or exclude decision is added later, after the G S R Signal Quality notebook (section 07), by the rule written before collection and before anyone looks at the peaks."
         },
         {
           "index": 131,
           "paragraph": 84,
-          "start": 1004.253,
-          "end": 1006.471,
-          "text": "Check each recording before the next pair."
+          "start": 1009.181,
+          "end": 1022.237,
+          "text": "P 11 was excluded for a Signal-to-Noise ratio of -3.4 decibels, P 24 for 38.0 percent Signal missing, and P 02 was kept (all simulated)."
         },
         {
           "index": 132,
           "paragraph": 85,
-          "start": 1007.171,
-          "end": 1022.105,
-          "text": "Each recording appears on the study's Recorded Data tab, and the Collecting Data article says \"A red outline indicates that the recorded data is below the expected quality for a given sensor\"; open the replay of any outlined recording."
+          "start": 1022.937,
+          "end": 1025.155,
+          "text": "Check each recording before the next pair."
         },
         {
           "index": 133,
           "paragraph": 86,
-          "start": 1022.805,
-          "end": 1036.117,
-          "text": "Then click Export on the Recorded Data tab for the data quality statistics, a file ending in DataQuality dot T X T with \"the effective sampling rate\" and the percentage of data obtained for each device."
+          "start": 1025.855,
+          "end": 1040.789,
+          "text": "Each recording appears on the study's Recorded Data tab, and the Collecting Data article says \"A red outline indicates that the recorded data is below the expected quality for a given sensor\"; open the replay of any outlined recording."
         },
         {
           "index": 134,
           "paragraph": 87,
-          "start": 1036.817,
-          "end": 1053.009,
-          "text": "For the Shimmer the rate should sit near the Sample Frequency set for that unit, 128 hertz in this plan; a low percentage can point to a Bluetooth gap, since Bluetooth \"is more susceptible to data loss\" (Timestamping and synchronization method article)."
+          "start": 1041.489,
+          "end": 1054.801,
+          "text": "Then click Export on the Recorded Data tab for the data quality statistics, a file ending in DataQuality dot T X T with \"the effective sampling rate\" and the percentage of data obtained for each device."
         },
         {
           "index": 135,
           "paragraph": 88,
-          "start": 1053.709,
-          "end": 1055.607,
-          "text": "Write any gap into the log that day."
+          "start": 1055.501,
+          "end": 1071.693,
+          "text": "For the Shimmer the rate should sit near the Sample Frequency set for that unit, 128 hertz in this plan; a low percentage can point to a Bluetooth gap, since Bluetooth \"is more susceptible to data loss\" (Timestamping and synchronization method article)."
         },
         {
           "index": 136,
           "paragraph": 89,
-          "start": 1056.307,
-          "end": 1077.79,
-          "text": "Help center articles for this section: Shimmer 3 G S R plus: Sensor Placement and Respondent Instructions, P P G, B V P, and Optical Heart Rate, Sensor Preview Window, Collecting Data, Creating Live Markers (During Data Collection), Timestamping and synchronization method, and Export: Data Quality Statistics."
+          "start": 1072.393,
+          "end": 1074.291,
+          "text": "Write any gap into the log that day."
         },
         {
           "index": 137,
           "paragraph": 90,
-          "start": 1078.49,
-          "end": 1096.09,
+          "start": 1074.991,
+          "end": 1096.474,
+          "text": "Help center articles for this section: Shimmer 3 G S R plus: Sensor Placement and Respondent Instructions, P P G, B V P, and Optical Heart Rate, Sensor Preview Window, Collecting Data, Creating Live Markers (During Data Collection), Timestamping and synchronization method, and Export: Data Quality Statistics."
+        },
+        {
+          "index": 138,
+          "paragraph": 91,
+          "start": 1097.174,
+          "end": 1114.774,
           "text": "Place the electrodes and the pulse probe where the article puts them, instruct the respondent, run a logged 5 minute warm up, tell a movement spike from a breathing drift, run two seats with live markers and a log row each, and check every recording and its data quality before the next pair."
         }
       ]
@@ -10957,5 +10965,5 @@
       ]
     }
   },
-  "generated": "2026-10-13T02:52:24+00:00"
+  "generated": "2026-10-13T04:28:49+00:00"
 }
