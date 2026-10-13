@@ -1,0 +1,4 @@
+"Stimulus","Length_s","Shimmer_rows","Samples_per_s","Interpolated_samples","Packet_reception_pct","Peaks","Peaks_per_min","Peaks_after_rule","Peaks_per_min_after_rule","Mean_peak_amplitude_uS","Mean_tonic_uS","Mean_HR_bpm_clean","Mean_HR_bpm_WRONG_with_codes","HR_from_mean_IBI_bpm"
+"01 Quiet baseline (60s)",60.01,7659,127.6,23,99,8,8,7,7,0.082,1.804,79.6,77.1,79.7
+"02 e.l.f. - Power Grip Styling (30.03s)",30.07,3841,127.7,9,99,4,7.98,4,7.98,0.083,2.046,80.4,80.4,80.7
+"03 Quiet recovery (15s)",15.01,1913,127.4,8,99,2,7.99,2,7.99,0.07,1.972,79.9,79.9,80.1

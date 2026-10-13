@@ -43,6 +43,13 @@ a{color:var(--ink)}
 ul.plain{padding-left:1.2rem}
 footer{border-top:1px solid var(--rule);margin-top:3rem;padding-top:1rem;color:var(--muted);font-size:.9rem}
 @media (max-width:640px){ h1{font-size:1.8rem} }
+.mapwrap{overflow-x:auto;border:1px solid var(--rule);border-radius:8px}
+.map{width:100%;min-width:600px;border-collapse:collapse;font-size:.95rem}
+.map th,.map td{border-bottom:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+.map th{background:var(--wash);color:var(--muted);font-size:.85rem;font-weight:600}
+.map tr:last-child td{border-bottom:0}
+.map td:first-child{font-weight:600}
+.map a{margin-right:.4rem;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -92,7 +99,7 @@ footer{border-top:1px solid var(--rule);margin-top:3rem;padding-top:1rem;color:v
     <span class="n">Workshop 4</span>
     <h3>From Question to Publication with the Shimmer3 GSR+: Arousal and Heart Rate During Two Commercials</h3>
     <p>A complete teaching module for skin conductance and optical heart rate: turning a question about two commercials into hypotheses about arousal, pairing the two Shimmer3 GSR+ units, electrode and sensor placement, baselines and recovery periods, the signal quality and peak detection notebooks, the GSR and heart rate exports, paired tests and a mixed model in R or Excel on a simulated data set, and writing the results with the limits of arousal measures.</p>
-    <span class="meta">About 4 hours over two sittings. Sixteen steps, 30 quick checks, 59 figures, 2 videos, recorded narration, a 12 question self check, 5 practice exercises, a 76 term glossary, 38 verified references, and an Ask the tutor panel.</span>
+    <span class="meta">About 4 hours over two sittings. Sixteen steps, 30 quick checks, 60 figures, 2 videos, recorded narration, a 12 question self check, 5 practice exercises, a 76 term glossary, 38 verified references, real pilot practice data with an R script and an Excel workbook, and an Ask the tutor panel.</span>
     <span class="badge ready">Available</span>
     <a class="go" href="workshops/workshop-04-shimmer-gsr-heart-rate.html">Open Workshop 4 &#8594;</a>
   </div>
@@ -142,6 +149,34 @@ footer{border-top:1px solid var(--rule);margin-top:3rem;padding-top:1rem;color:v
 <ul class="plain">
   <li><a href="assets/guides/Analysis_Choices_Explained.docx">Analysis Choices Explained</a> (Word). Every choice the lab makes when it analyzes iMotions data (study design, building the analysis, exports, statistics, skin conductance and heart rate, facial expression, eye tracking, and EEG), each explained in plain language with the help center article and the published research behind it.</li>
   <li><a href="assets/guides/Sensor_Signal_Reading_Guide.docx">Sensor Signal Reading Guide</a> (Word). All 72 live signals in the Sensor Preview on the lab computer, what each one means, its units, and what good and problem readings look like.</li>
+</ul>
+
+<h2>Analysis map: where each iMotions analysis is taught</h2>
+<p>The main analysis tools of iMotions Lab 11.1 and the workshops that teach them step by step. The guide Analysis Choices Explained gives the reason for every setting in each one.</p>
+<div class="mapwrap"><table class="map">
+  <thead><tr><th>Analysis</th><th>What it answers</th><th>Taught in</th></tr></thead>
+  <tbody>
+    <tr><td>Study design and the Study Builder</td><td>Which comparison, which order, how many people</td><td><a href="workshops/workshop-09-study-design-consent-irb.html">Workshop 9</a><a href="workshops/workshop-02-aurora-ad-test.html">Workshop 2</a></td></tr>
+    <tr><td>Gaze mapping for glasses</td><td>Where shoppers looked on a real shelf</td><td><a href="workshops/workshop-01-neon-glasses.html">Workshop 1</a></td></tr>
+    <tr><td>Areas of interest and AOI metrics</td><td>How long and how soon people looked at a logo, product, or message</td><td><a href="workshops/workshop-01-neon-glasses.html">Workshop 1</a><a href="workshops/workshop-02-aurora-ad-test.html">Workshop 2</a><a href="workshops/workshop-08-analysis-and-client-report.html">Workshop 8</a></td></tr>
+    <tr><td>Heatmaps and aggregate replay</td><td>Where attention gathered across all viewers</td><td><a href="workshops/workshop-02-aurora-ad-test.html">Workshop 2</a><a href="workshops/workshop-08-analysis-and-client-report.html">Workshop 8</a></td></tr>
+    <tr><td>Webcam eye tracking and remote quality checks</td><td>Whether online data are good enough to keep</td><td><a href="workshops/workshop-06-remote-webcam-studies.html">Workshop 6</a></td></tr>
+    <tr><td>Facial expression post processing and thresholds</td><td>Which expressions viewers showed, and when</td><td><a href="workshops/workshop-03-affdex-facial-expression.html">Workshop 3</a><a href="workshops/workshop-06-remote-webcam-studies.html">Workshop 6</a></td></tr>
+    <tr><td>GSR Signal Quality, Peak Detection, and Binned Aggregation</td><td>How often viewers were aroused, and at which moments</td><td><a href="workshops/workshop-04-shimmer-gsr-heart-rate.html">Workshop 4</a></td></tr>
+    <tr><td>Heart rate from the PPG pulse sensor</td><td>Whether heart rate changed from the baseline</td><td><a href="workshops/workshop-04-shimmer-gsr-heart-rate.html">Workshop 4</a></td></tr>
+    <tr><td>EEG frontal alpha asymmetry</td><td>Approach or withdrawal motivation during a scene</td><td><a href="workshops/workshop-05-enobio-eeg-frontal-asymmetry.html">Workshop 5</a></td></tr>
+    <tr><td>Sensor Data and metrics exports</td><td>Which file holds which measure, and how to read it</td><td><a href="workshops/workshop-07-exports-cleaning-merging.html">Workshop 7</a><a href="workshops/workshop-04-shimmer-gsr-heart-rate.html">Workshop 4</a></td></tr>
+    <tr><td>Cleaning and merging data</td><td>One documented data set from many exports</td><td><a href="workshops/workshop-07-exports-cleaning-merging.html">Workshop 7</a></td></tr>
+    <tr><td>Analysis Dashboard and Reports</td><td>Quick summaries and charts inside iMotions</td><td><a href="workshops/workshop-08-analysis-and-client-report.html">Workshop 8</a></td></tr>
+    <tr><td>Statistics and reporting</td><td>Effect sizes, models, and an honest write-up (each workshop also tests its own hypotheses in section 08)</td><td><a href="workshops/workshop-08-analysis-and-client-report.html">Workshop 8</a></td></tr>
+  </tbody>
+</table></div>
+
+<h2>Real practice data</h2>
+<p>The lab director's own Shimmer pilot, recorded on the lab computer on October 12, 2026 and shared with his permission as practice data: the Sensor Data export as iMotions wrote it, iMotions' own peak metrics and peak table, an R script, an Excel workbook with live formulas, and the outputs. It is one respondent, so it describes a recording and tests nothing. Start with <a href="workshops/workshop-04-shimmer-gsr-heart-rate.html#numbers">Workshop 4, section 7.7</a>.</p>
+<ul class="plain">
+  <li><a href="assets/ws4/data/pilot/001_PILOT01.csv">001_PILOT01.csv</a> (the export), <a href="assets/ws4/data/pilot/GSRPeakMetrics.csv">GSRPeakMetrics.csv</a> and <a href="assets/ws4/data/pilot/GSRPeakTable.csv">GSRPeakTable.csv</a> (iMotions' own peak results)</li>
+  <li><a href="assets/ws4/data/pilot/pilot_analysis.R">pilot_analysis.R</a> with its <a href="assets/ws4/data/pilot/pilot_analysis_output.txt">output</a>, and <a href="assets/ws4/data/pilot/pilot_gsr_hr_workbook.xlsx">pilot_gsr_hr_workbook.xlsx</a></li>
 </ul>
 
 <h2>Reference material</h2>

@@ -1,0 +1,14 @@
+﻿#METADATA,,,,,,,,,,,,,,,
+#Channel identifier,"Info_Respondent_Name","Info_Respondent_Gender","Info_Respondent_Age","Info_Respondent_Group","Info_Interval_Type","Info_Interval_Label","Info_Interval_Start","Info_Interval_Duration","Info_Interval_ParentStimulus","Info_Interval_Comment","GSR_PDMetrics_SignalDuration","GSR_PDMetrics_HasPeaks","GSR_PDMetrics_PeakCount","GSR_PDMetrics_PeaksPerMinute","GSR_PDMetrics_AveragePeakAmplitude"
+#Group,Respondent Info,Respondent Info,Respondent Info,Respondent Info,Interval Info,Interval Info,Interval Info,Interval Info,Interval Info,Interval Info,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics
+#Unit,,,,,,,Milliseconds,Milliseconds,,,Milliseconds,,,,Microsiemens
+#Short unit,,,,,,,ms,ms,,,ms,,,,µS
+#Description,"Name of the respondent.","Gender of the respondent.","Age of the respondent.","Group of the respondent.","Type of the interval that the metrics refers to.","Name of the interval.","Start time of the interval (relative to recording start).","Duration of the interval.","Name of the parent.","Comment that was added to the interval.","Duration of the 'GSR Interpolated' signal, excluding the gaps that exceeded the selected gap interpolation length threshold.","Binary value, indicating whether the respondent had any peaks (1) or none (0) during this interval.","Count of peaks detected during this interval.","Average count of peaks detected per minute for this interval (i.e. the count of peaks detected during this interval, or 'Peak Count', divided by the interval duration, or 'Duration (ms)', times 60000).","Average amplitude of all peaks during this interval, for a given respondent (i.e. the difference between the maximum value of the 'GSR Interpolated' signal during the peak and its value at the onset)."
+#Device,,,,,,,,,,,Shimmer 8956 GSR,Shimmer 8956 GSR,Shimmer 8956 GSR,Shimmer 8956 GSR,Shimmer 8956 GSR
+#AlgorithmType,,,,,,,,,,,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection
+#Flow Name,,,,,,,,,,,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection
+#DATA,,,,,,,,,,,,,,,
+Study Name,Respondent Name,Gender,Age,Group,Type,Label,Start (ms),Duration (ms),Parent Stimulus,Comment,Signal Duration,Has Peaks,Peak Count,Peaks Per Minute,Average Peak Amplitude
+"W4 Pilot - Shimmer test","PILOT01","MALE","37","Default","Stimulus","01 Quiet baseline (60s)","173","60010","","","60010","1","8","8","0.0815"
+"W4 Pilot - Shimmer test","PILOT01","MALE","37","Default","Stimulus","02 e.l.f. - Power Grip Styling (30.03s)","60221","30073","","","30073","1","4","7.98","0.0828"
+"W4 Pilot - Shimmer test","PILOT01","MALE","37","Default","Stimulus","03 Quiet recovery (15s)","90363","15011","","","15011","1","2","7.99","0.0703"

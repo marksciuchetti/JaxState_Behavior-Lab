@@ -1,0 +1,103 @@
+pilot_analysis.R  run on 2026-10-12 21:46 
+REAL DATA (lab director's own pilot, shared with permission). One respondent: description only.
+
+STEP 1  The data table starts on line 29 of the file.
+        #Study name        W4 Pilot - Shimmer test
+        #Respondent Name   PILOT01 | Id: 0b49abc4-99c9-4e57-b269-e0edf760b37a
+        #iMotions version  11.1.47136.14
+        #Recording time    Date: 10/12/2026 | Time: 18:37:26.990 -05:00 | Unix time: 1791848246
+        #Export time       Date: 10/12/2026 | Time: 19:37:38.875 -05:00
+        '#Sensor info' rows (one per device or notebook):
+          - External Events API iMotions.SysMonitor SysLoadMeter (v1) 
+          - R Analysis GSR Peak Detection 
+          - Shimmer 8956 GSR 
+
+STEP 2  Codebook built: 42 columns described by the #METADATA block.
+        Units and data formats of the Shimmer channels used below:
+          GSR Conductance CAL              unit: Micro Siemens            format: Calibrated
+          GSR Resistance CAL               unit: Kilo Ohm                 format: Calibrated
+          Internal ADC A13 PPG CAL         unit: Millivolt                format: Calibrated
+          Heart Rate PPG ALG               unit: Beats pr. minute         format: Algorithm
+          IBI PPG ALG                      unit: Millisecond              format: Algorithm
+          Wide Range Accelerometer Z CAL   unit: Meters pr second squared format: Calibrated
+          Packet reception rate RAW        unit: Index                    format: Raw
+
+STEP 3  Data rows: 13578  Columns: 43 
+STEP 4  Shimmer rows: 13426 | Peak Detection rows: 13466 ( 13426 shared with the Shimmer, 40 of its own ) | System Load rows: 100 | slide event rows: 12 
+        Rows from different devices are interleaved: always filter on EventSource first.
+
+STEP 5  Stimuli (StartMedia to EndMedia, seconds since the recording started):
+          01 Quiet baseline (60s)                      0.17 to  60.18 s  (60.01 s)
+          02 e.l.f. - Power Grip Styling (30.03s)     60.22 to  90.29 s  (30.07 s)
+          03 Quiet recovery (15s)                     90.36 to 105.37 s  (15.01 s)
+
+STEP 6  Heart Rate PPG ALG: rows equal to -1: 240 | equal to 0: 0 
+        The -1 rows run from 48.0 to 49.8 s: no heart rate was available there.
+        IBI PPG ALG: rows with a value: 138 of 13426 (one per detected beat; -1 everywhere else).
+
+STEP 7  Artifact rule (Kleckner et al., 2018): samples breaking the range or rate rule: 17 
+        flagged stretch 19.46 to 20.60 s; fastest change 81.4 microsiemens per second
+        Samples inside the 5 s margin (set aside): 1421 of 13426 
+
+STEP 8  Peaks found by GSR Peak Detection: 14 
+        Peak Amplitude equals the rise of GSR Interpolated (the manuals' definition) in 14 of 14 peaks, and the rise of the Phasic Signal in 0 
+        Peaks inside the artifact margin: 1 
+ Peak Onset_s Peak_s Duration_ms Amplitude_uS                                Stimulus Inside_artifact_margin
+    1   4.394  5.386      2765.6     0.155311                 01 Quiet baseline (60s)                  FALSE
+    2  10.589 11.168      2250.0     0.023443                 01 Quiet baseline (60s)                  FALSE
+    3  20.636 20.699      4023.4     0.023443                 01 Quiet baseline (60s)                   TRUE
+    4  28.183 28.246      2593.8     0.005861                 01 Quiet baseline (60s)                  FALSE
+    5  40.605 42.207      1875.0     0.115751                 01 Quiet baseline (60s)                  FALSE
+    6  42.871 43.089       585.9     0.082051                 01 Quiet baseline (60s)                  FALSE
+    7  44.175 44.824      3203.1     0.213919                 01 Quiet baseline (60s)                  FALSE
+    8  50.589 51.121      4070.3     0.032234                 01 Quiet baseline (60s)                  FALSE
+    9  59.824 60.550      1437.5     0.064469 02 e.l.f. - Power Grip Styling (30.03s)                  FALSE
+   10  62.777 63.699      3953.1     0.208059 02 e.l.f. - Power Grip Styling (30.03s)                  FALSE
+   11  75.636 75.660      1531.2     0.008791 02 e.l.f. - Power Grip Styling (30.03s)                  FALSE
+   12  83.144 83.972      3265.6     0.049817 02 e.l.f. - Power Grip Styling (30.03s)                  FALSE
+   13  93.957 95.035      1890.6     0.115751                 03 Quiet recovery (15s)                  FALSE
+   14  96.003 96.168      2867.2     0.024908                 03 Quiet recovery (15s)                  FALSE
+
+STEP 9  Summary by stimulus (description only, one respondent):
+                                Stimulus Length_s Shimmer_rows Samples_per_s Interpolated_samples Packet_reception_pct Peaks Peaks_per_min
+                 01 Quiet baseline (60s)    60.01         7659         127.6                   23                   99     8          8.00
+ 02 e.l.f. - Power Grip Styling (30.03s)    30.07         3841         127.7                    9                   99     4          7.98
+                 03 Quiet recovery (15s)    15.01         1913         127.4                    8                   99     2          7.99
+ Peaks_after_rule Peaks_per_min_after_rule Mean_peak_amplitude_uS Mean_tonic_uS Mean_HR_bpm_clean Mean_HR_bpm_WRONG_with_codes
+                7                     7.00                  0.082         1.804              79.6                         77.1
+                4                     7.98                  0.083         2.046              80.4                         80.4
+                2                     7.99                  0.070         1.972              79.9                         79.9
+ HR_from_mean_IBI_bpm
+                 79.7
+                 80.7
+                 80.1
+        Mean_HR_bpm_WRONG_with_codes shows what happens if the -1 rows are left in.
+
+STEP 10 GSR Peak Detection settings written in the export header (copy into the methods):
+                  Setting                      Value
+       selectedSensorName Shimmer||8956 GSR||Shimmer
+               lslChannel                           
+            phasic_length                       8000
+ lowpass_filter_frequency                          5
+     gap_length_threshold                       4000
+      remove_signal_jumps                      false
+     peak_onset_threshold                       0.01
+    peak_offset_threshold                          0
+ peak_amplitude_threshold                      0.005
+    minimum_peak_duration                        500
+         smoothing_filter                     median
+                   Device           Shimmer 8956 GSR
+
+STEP 11 Figure written: pilot_figure_R.png
+STEP 12 Written: pilot_codebook.csv, pilot_peak_table.csv, pilot_summary_by_stimulus.csv, pilot_peak_detection_settings.csv
+
+STEP 13 The script against iMotions' GSRPeakMetrics.csv (same peaks, same rates):
+                                Stimulus Peaks_script Peaks_iMotions PPM_script PPM_iMotions Amp_script Amp_iMotions
+                 01 Quiet baseline (60s)            8              8       8.00         8.00      0.082       0.0815
+ 02 e.l.f. - Power Grip Styling (30.03s)            4              4       7.98         7.98      0.083       0.0828
+                 03 Quiet recovery (15s)            2              2       7.99         7.99      0.070       0.0703
+        GSRPeakTable.csv lists 14 peaks; onset and peak times match the script to 1 ms: TRUE 
+        Note: peak 9 is counted in "02 e.l.f. - Power Grip Styling (30.03s)" (its maximum came at 60.55 s), but its onset at 59.82 s came
+              before that stimulus started at 60.22 s, so it began during the previous stimulus.
+
+Reminder: one respondent. These numbers describe a recording; they test nothing.

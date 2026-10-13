@@ -4974,8 +4974,8 @@
     },
     "resources": {
       "file": "resources.mp3",
-      "duration": 1903.547,
-      "mp3_duration": 1903.608,
+      "duration": 2061.442,
+      "mp3_duration": 2061.504,
       "starts": [
         0.0,
         3.943,
@@ -5183,85 +5183,98 @@
         1179.603,
         1182.406,
         1185.73,
-        1198.867,
-        1214.202,
-        1223.341,
-        1229.929,
-        1249.381,
-        1256.311,
-        1273.523,
-        1276.932,
-        1286.229,
-        1295.228,
-        1315.491,
-        1322.027,
-        1325.906,
-        1346.745,
-        1359.647,
-        1367.707,
-        1388.013,
-        1396.67,
-        1408.911,
-        1420.705,
-        1435.335,
-        1444.291,
-        1460.458,
-        1474.449,
-        1476.279,
-        1496.713,
-        1507.098,
-        1517.057,
-        1528.21,
-        1537.913,
-        1554.826,
-        1566.555,
-        1578.818,
-        1590.334,
-        1605.114,
-        1613.003,
-        1623.602,
-        1641.168,
-        1644.087,
-        1646.131,
-        1649.339,
-        1663.799,
-        1666.283,
-        1674.257,
-        1677.082,
-        1685.889,
-        1688.969,
-        1702.576,
-        1704.59,
-        1714.805,
-        1716.989,
-        1727.695,
-        1730.903,
-        1736.339,
-        1739.655,
-        1746.413,
-        1748.619,
-        1757.959,
-        1760.763,
-        1770.892,
-        1773.482,
-        1789.777,
-        1792.239,
-        1802.027,
-        1805.15,
-        1813.807,
-        1822.571,
-        1832.466,
-        1839.289,
-        1843.905,
-        1850.792,
-        1854.854,
-        1860.333,
-        1863.776,
-        1870.407,
-        1871.823,
-        1877.366,
-        1881.641,
-        1891.003
+        1198.739,
+        1214.074,
+        1223.0,
+        1233.684,
+        1248.976,
+        1266.935,
+        1284.147,
+        1287.556,
+        1297.856,
+        1306.855,
+        1327.117,
+        1333.654,
+        1337.533,
+        1358.371,
+        1371.274,
+        1379.334,
+        1399.639,
+        1408.297,
+        1420.538,
+        1432.331,
+        1446.962,
+        1455.918,
+        1472.085,
+        1486.075,
+        1487.906,
+        1508.339,
+        1518.725,
+        1528.683,
+        1539.837,
+        1549.539,
+        1566.453,
+        1578.182,
+        1590.445,
+        1601.961,
+        1616.741,
+        1624.63,
+        1634.994,
+        1638.437,
+        1648.217,
+        1652.906,
+        1674.726,
+        1686.839,
+        1694.507,
+        1696.209,
+        1706.253,
+        1722.399,
+        1736.453,
+        1745.815,
+        1765.267,
+        1781.497,
+        1799.063,
+        1801.982,
+        1804.026,
+        1807.235,
+        1821.695,
+        1824.178,
+        1832.153,
+        1834.977,
+        1843.784,
+        1846.865,
+        1860.471,
+        1862.485,
+        1872.7,
+        1874.885,
+        1885.59,
+        1888.799,
+        1894.235,
+        1897.55,
+        1904.309,
+        1906.515,
+        1915.855,
+        1918.658,
+        1928.787,
+        1931.377,
+        1947.672,
+        1950.134,
+        1959.922,
+        1963.045,
+        1971.703,
+        1980.467,
+        1990.361,
+        1997.184,
+        2001.801,
+        2008.687,
+        2012.749,
+        2018.228,
+        2021.671,
+        2028.302,
+        2029.719,
+        2035.261,
+        2039.537,
+        2048.898
       ],
       "sentences": [
         {
@@ -6703,560 +6716,651 @@
           "index": 205,
           "paragraph": 98,
           "start": 1185.73,
-          "end": 1198.167,
-          "text": "The 37 sources this workshop draws on, in A P A style: the 35 below, grouped by topic, and the two Shimmer documents under (g), each with a note on how the workshop uses it."
+          "end": 1198.039,
+          "text": "The 38 sources this workshop draws on, in A P A style: the 36 below, grouped by topic, and the two Shimmer documents under (g), each with a note on how the workshop uses it."
         },
         {
           "index": 206,
           "paragraph": 99,
-          "start": 1198.867,
-          "end": 1213.502,
+          "start": 1198.739,
+          "end": 1213.374,
           "text": "Every entry new to this workshop was checked on October 8, 2026 against a publisher, repository, library catalog, or vendor page, and the entries reused from Workshops 1 and 2 keep their earlier checks."
         },
         {
           "index": 207,
           "paragraph": 100,
-          "start": 1214.202,
-          "end": 1222.991,
-          "text": "The link opens the D O I or the page that was checked, and the R I S file under (e) imports all 37 into Zotero."
+          "start": 1214.074,
+          "end": 1222.65,
+          "text": "The link opens the D O I or the page that was checked, and the R I S file under (e) imports all 38 into Zotero."
         },
         {
           "index": 208,
           "paragraph": 100,
-          "start": 1223.341,
-          "end": 1229.229,
-          "text": "Open details are stated rather than guessed: no page that could be read gave the start page of A."
+          "start": 1223.0,
+          "end": 1232.984,
+          "text": "Kleckner and colleagues (2018) was added on October 12, 2026 and checked against the authors' posted copy of the article."
         },
         {
           "index": 209,
           "paragraph": 101,
-          "start": 1229.929,
-          "end": 1248.681,
-          "text": "Lang, Dhillon, and Dong (1995), so its page range is blank; the D O I of Bradley and colleagues (2001) and the English title and pages of Critchley (2002) rest on search results and should be confirmed on the publisher page; Braithwaite and colleagues"
+          "start": 1233.684,
+          "end": 1248.276,
+          "text": "Open details are stated rather than guessed: no page that could be read gave the start page of A. Lang, Dhillon, and Dong (1995), so its page range is blank; the D O I of Bradley and colleagues"
         },
         {
           "index": 210,
           "paragraph": 102,
-          "start": 1249.381,
-          "end": 1255.611,
-          "text": "(2013) is a technical report checked from secondary pages; Dawson and colleagues"
+          "start": 1248.976,
+          "end": 1266.235,
+          "text": "(2001) and the English title and pages of Critchley (2002) rest on search results and should be confirmed on the publisher page; Braithwaite and colleagues (2013) is a technical report checked from secondary pages; Dawson and colleagues"
         },
         {
           "index": 211,
           "paragraph": 103,
-          "start": 1256.311,
-          "end": 1272.823,
+          "start": 1266.935,
+          "end": 1283.447,
           "text": "is dated 2017 by its online publication (the print year is 2016); and the retraction status of the new entries was not checked through Crossref or OpenAlex, although no retraction notice appeared on any publisher page that was read."
         },
         {
           "index": 212,
           "paragraph": 104,
-          "start": 1273.523,
-          "end": 1276.232,
+          "start": 1284.147,
+          "end": 1286.856,
           "text": "Two titles keep their published British spellings."
         },
         {
           "index": 213,
           "paragraph": 105,
-          "start": 1276.932,
-          "end": 1285.529,
-          "text": "Every file is simulated teaching data, generated in the style of the lab's Nike and E L F Campaign Ad Evaluation studies."
+          "start": 1287.556,
+          "end": 1297.156,
+          "text": "Every file in the first list is simulated teaching data, generated in the style of the lab's Nike and E L F Campaign Ad Evaluation studies."
         },
         {
           "index": 214,
           "paragraph": 106,
-          "start": 1286.229,
-          "end": 1294.528,
+          "start": 1297.856,
+          "end": 1306.155,
           "text": "No real respondent was recorded, nothing about the content of either commercial was used, and none of these numbers may be quoted as findings."
         },
         {
           "index": 215,
           "paragraph": 107,
-          "start": 1295.228,
-          "end": 1314.791,
+          "start": 1306.855,
+          "end": 1326.417,
           "text": "Line 1 of each of the six data files that make simulated data dot P Y wrote (peak metrics, signal quality, peak table, heart rate, survey, and session log) is a hash sign simulated comment, and line 2 of the peak table is a modeled METADATA line; the three result files that analysis."
         },
         {
           "index": 216,
           "paragraph": 108,
-          "start": 1315.491,
-          "end": 1321.677,
+          "start": 1327.117,
+          "end": 1333.304,
           "text": "R writes (descriptives by stimulus, test results, and model results) begin with their header row."
         },
         {
           "index": 217,
           "paragraph": 108,
-          "start": 1322.027,
-          "end": 1325.206,
+          "start": 1333.654,
+          "end": 1336.833,
           "text": "Keep the originals read only and work on copies."
         },
         {
           "index": 218,
           "paragraph": 109,
-          "start": 1325.906,
-          "end": 1346.045,
+          "start": 1337.533,
+          "end": 1357.671,
           "text": "simulated gsr peak metrics dot C S V. The simulated G S R Peak Metrics export: 180 rows (30 respondents, six stimuli) and the 15 columns that the Export: R Processed G S R Files article lists; the Type and Parent Stimulus values are modeled."
         },
         {
           "index": 219,
           "paragraph": 110,
-          "start": 1346.745,
-          "end": 1358.947,
+          "start": 1358.371,
+          "end": 1370.574,
           "text": "simulated gsr signal quality dot C S V. Signal-to-Noise ratio (decibels) and Signal missing ( percent) per respondent and stimulus, with Device and Flow Name."
         },
         {
           "index": 220,
           "paragraph": 111,
-          "start": 1359.647,
-          "end": 1367.007,
+          "start": 1371.274,
+          "end": 1378.634,
           "text": "The manual names the two measures but prints no header row, so this layout is modeled; verify it on the lab machine."
         },
         {
           "index": 221,
           "paragraph": 112,
-          "start": 1367.707,
-          "end": 1387.313,
+          "start": 1379.334,
+          "end": 1398.939,
           "text": "simulated gsr peak table dot C S V. The simulated G S R Peak Table, one row per peak (394 rows), with onset, peak, and offset times, amplitude, Device, Flow Name, and a modeled moment to moment Bin; line 2 is a modeled METADATA line."
         },
         {
           "index": 222,
           "paragraph": 113,
-          "start": 1388.013,
-          "end": 1395.97,
+          "start": 1399.639,
+          "end": 1407.597,
           "text": "simulated heart rate dot C S V. Mean heart rate per respondent and stimulus from the P P G beats per minute channel."
         },
         {
           "index": 223,
           "paragraph": 114,
-          "start": 1396.67,
-          "end": 1408.211,
+          "start": 1408.297,
+          "end": 1419.838,
           "text": "The column name Mean P P G Heart Rate (beats per minute) is modeled, because the manuals name no P P G heart rate column; verify the real name on the lab machine."
         },
         {
           "index": 224,
           "paragraph": 115,
-          "start": 1408.911,
-          "end": 1420.005,
+          "start": 1420.538,
+          "end": 1431.631,
           "text": "simulated gsr survey dot C S V. One row per respondent: self reported arousal (1 to 9) and liking (1 to 7) after each sequence."
         },
         {
           "index": 225,
           "paragraph": 116,
-          "start": 1420.705,
-          "end": 1434.635,
+          "start": 1432.331,
+          "end": 1446.262,
           "text": "simulated gsr session log dot C S V. The simulated operator log: seat, device, electrode placement, skin note, warm up minutes, data complete, and the decision note for each respondent."
         },
         {
           "index": 226,
           "paragraph": 117,
-          "start": 1435.335,
-          "end": 1443.591,
+          "start": 1446.962,
+          "end": 1455.218,
           "text": "simulated descriptives by stimulus dot C S V. The descriptive table by stimulus that analysis dot R writes."
         },
         {
           "index": 227,
           "paragraph": 118,
-          "start": 1444.291,
-          "end": 1459.758,
+          "start": 1455.918,
+          "end": 1471.385,
           "text": "simulated test results dot C S V. The paired tests for H1, H2, H3, and the sensitivity analysis, with d z, the Wilcoxon checks, and the Shapiro Wilk p values, that analysis dot R writes."
         },
         {
           "index": 228,
           "paragraph": 119,
-          "start": 1460.458,
-          "end": 1473.749,
+          "start": 1472.085,
+          "end": 1485.375,
           "text": "simulated model results dot C S V. The mixed model coefficients, the two ICCs, the simple order and commercial estimates, and the exploratory correlations that analysis dot R writes."
         },
         {
           "index": 229,
           "paragraph": 120,
-          "start": 1474.449,
-          "end": 1475.579,
+          "start": 1486.075,
+          "end": 1487.206,
           "text": "analysis dot R."
         },
         {
           "index": 230,
           "paragraph": 121,
-          "start": 1476.279,
-          "end": 1496.013,
+          "start": 1487.906,
+          "end": 1507.639,
           "text": "The analysis script for Step 08: read, check the exports against each other, exclude, flag nonresponders, describe, paired t tests with d z, Wilcoxon checks, the order model, heart rate change, the sensitivity analysis, the device check, the moment to moment view, assumption checks, and three figures."
         },
         {
           "index": 231,
           "paragraph": 122,
-          "start": 1496.713,
-          "end": 1506.398,
+          "start": 1508.339,
+          "end": 1518.025,
           "text": "analysis output dot T X T. The console output of analysis dot R; every simulated number quoted in this workshop comes from this file."
         },
         {
           "index": 232,
           "paragraph": 123,
-          "start": 1507.098,
-          "end": 1516.357,
+          "start": 1518.725,
+          "end": 1527.983,
           "text": "analysis excel walkthrough dot M D. The same analysis in Excel, step by step, with the cell references used in Exercise 4."
         },
         {
           "index": 233,
           "paragraph": 124,
-          "start": 1517.057,
-          "end": 1527.51,
+          "start": 1528.683,
+          "end": 1539.137,
           "text": "simulated gsr analysis dot X L S X. The finished Excel workbook (README, Data, Summary, H1, H2, H3, and Check sheets)."
         },
         {
           "index": 234,
           "paragraph": 125,
-          "start": 1528.21,
-          "end": 1537.213,
+          "start": 1539.837,
+          "end": 1548.839,
           "text": "results text dot M D. The model methods, results, and discussion paragraphs used in Steps 06, 09, and 10."
         },
         {
           "index": 235,
           "paragraph": 126,
-          "start": 1537.913,
-          "end": 1554.126,
+          "start": 1549.539,
+          "end": 1565.753,
           "text": "simulated fig1 peaks per minute dot P N G. Figure 1: Peaks Per Minute in each commercial against its own baseline, one line per respondent, nonresponders dotted, with means and 95 percent confidence intervals (simulated)."
         },
         {
           "index": 236,
           "paragraph": 127,
-          "start": 1554.826,
-          "end": 1565.855,
+          "start": 1566.453,
+          "end": 1577.482,
           "text": "simulated fig2 moment to moment dot P N G. Figure 2: the percent of respondents with a peak in each 5 seconds bin of each commercial (simulated)."
         },
         {
           "index": 237,
           "paragraph": 128,
-          "start": 1566.555,
-          "end": 1578.118,
+          "start": 1578.182,
+          "end": 1589.745,
           "text": "simulated fig3 heart rate change dot P N G. Figure 3: the change in mean heart rate from baseline in each commercial, one line per respondent (simulated)."
         },
         {
           "index": 238,
           "paragraph": 129,
-          "start": 1578.818,
-          "end": 1589.634,
+          "start": 1590.445,
+          "end": 1601.261,
           "text": "simulated assumption checks dot P N G. The assumption check plots: Q Q plots of the paired differences and three mixed model diagnostics (simulated)."
         },
         {
           "index": 239,
           "paragraph": 130,
-          "start": 1590.334,
-          "end": 1604.414,
+          "start": 1601.961,
+          "end": 1616.041,
           "text": "make simulated data dot P Y. The generator that produced the simulated files (seed 20278504), kept so that nobody mistakes the data for real respondents."
         },
         {
           "index": 240,
           "paragraph": 131,
-          "start": 1605.114,
-          "end": 1612.303,
+          "start": 1616.741,
+          "end": 1623.93,
           "text": "make excel workbook dot P Y. The script that builds the Excel workbook and its walkthrough from the C S V files."
         },
         {
           "index": 241,
           "paragraph": 132,
-          "start": 1613.003,
-          "end": 1622.902,
-          "text": "zotero dot R I S. The 37 readings of (d) and (g) in R I S format, for import into Zotero or any reference manager."
+          "start": 1624.63,
+          "end": 1634.294,
+          "text": "zotero dot R I S. The 38 readings of (d) and (g) in R I S format, for import into Zotero or any reference manager."
         },
         {
           "index": 242,
           "paragraph": 133,
-          "start": 1623.602,
-          "end": 1640.818,
-          "text": "These thirteen documents live in the iMotions Research Project on claude.ai (folder lab-reference); documents 00 to 10 are also saved as Word files in C:\\JaxState Behavior Lab\\00 Lab Reference."
+          "start": 1634.994,
+          "end": 1638.087,
+          "text": "REAL practice data (section 7.7)."
         },
         {
           "index": 243,
           "paragraph": 133,
-          "start": 1641.168,
-          "end": 1643.387,
-          "text": "They are not on this site; ask Doctor"
+          "start": 1638.437,
+          "end": 1647.867,
+          "text": "The folder pilot holds the lab director's own pilot recording of October 12, 2026, shared with his permission as practice data."
         },
         {
           "index": 244,
-          "paragraph": 134,
-          "start": 1644.087,
-          "end": 1645.431,
-          "text": "Sciuchetti for access."
+          "paragraph": 133,
+          "start": 1648.217,
+          "end": 1652.206,
+          "text": "It is one respondent, so it describes a recording and tests nothing."
         },
         {
           "index": 245,
-          "paragraph": 135,
-          "start": 1646.131,
-          "end": 1648.989,
-          "text": "00 Lab Inventory and Licenses."
+          "paragraph": 134,
+          "start": 1652.906,
+          "end": 1674.026,
+          "text": "0 0 1, underscore, Pilot 0 1, dot C S V. The Sensor Data export of the pilot as iMotions wrote it: the Info and Metadata blocks and 13,578 data rows in 43 columns (Shimmer, G S R Peak Detection, System Load Monitor, and slide events)."
         },
         {
           "index": 246,
           "paragraph": 135,
-          "start": 1649.339,
-          "end": 1663.099,
-          "text": "What the lab owns (two Shimmer 3 G S R plus kits for skin conductance and P P G heart rate, and no separate E C G unit), which computer runs what, renewal dates, and iMotions contacts."
+          "start": 1674.726,
+          "end": 1686.139,
+          "text": "pilot analysis dot R. Reads the header and the codebook, filters by device, finds the stimuli, cleans heart rate, applies the artifact rule of Kleckner and colleagues"
         },
         {
           "index": 247,
           "paragraph": 136,
-          "start": 1663.799,
-          "end": 1665.933,
-          "text": "01 Study Type Decision Guide."
+          "start": 1686.839,
+          "end": 1694.157,
+          "text": "(2018), rebuilds the peak table, summarizes each stimulus, records the settings, and draws the figure."
         },
         {
           "index": 248,
           "paragraph": 136,
-          "start": 1666.283,
-          "end": 1673.557,
-          "text": "How to go from a question to one of the study types the lab can run, with the planning checklist that Step 02 follows."
+          "start": 1694.507,
+          "end": 1695.509,
+          "text": "Base R only."
         },
         {
           "index": 249,
           "paragraph": 137,
-          "start": 1674.257,
-          "end": 1676.732,
-          "text": "02a Eye Tracking Pipeline."
+          "start": 1696.209,
+          "end": 1705.553,
+          "text": "pilot analysis output dot T X T. What the script prints; every pilot number in sections 05 and 07 comes from it."
         },
         {
           "index": 250,
-          "paragraph": 137,
-          "start": 1677.082,
-          "end": 1685.189,
-          "text": "The Aurora, the Neon, calibration, A O I's, and the eye tracking exports, for the eye tracking half of a combined study."
+          "paragraph": 138,
+          "start": 1706.253,
+          "end": 1721.699,
+          "text": "pilot G S R H R workbook dot X L S X. The same analysis as live Excel formulas (README, Rules, Stimuli, Shimmer, Peaks, Summary, Check, Settings, and Codebook sheets); every Check row reads OK."
         },
         {
           "index": 251,
-          "paragraph": 138,
-          "start": 1685.889,
-          "end": 1688.619,
-          "text": "02b Biometrics Survey Pipeline."
+          "paragraph": 139,
+          "start": 1722.399,
+          "end": 1735.753,
+          "text": "pilot codebook dot C S V, pilot peak table dot C S V, pilot summary by stimulus dot C S V, and pilot peak detection settings dot C S V. The script's output tables."
         },
         {
           "index": 252,
-          "paragraph": 138,
-          "start": 1688.969,
-          "end": 1701.876,
-          "text": "The main lab reference for this workshop: Shimmer G S R and P P G, the G S R R Notebooks, aff decks, Enobio E E G, surveys, markers, synchronization, and exports."
+          "paragraph": 140,
+          "start": 1736.453,
+          "end": 1745.115,
+          "text": "pilot figure R dot P N G. The script's figure: skin conductance with the peaks and the flagged stretch, and heart rate after cleaning."
         },
         {
           "index": 253,
-          "paragraph": 139,
-          "start": 1702.576,
-          "end": 1704.24,
-          "text": "04 Where To Look Index."
+          "paragraph": 141,
+          "start": 1745.815,
+          "end": 1764.567,
+          "text": "G S R Peak Metrics dot C S V and G S R Peak Table dot C S V. iMotions' own G S R Metrics Export of the pilot (Export, R Processing, G S R Metrics Export, Peak metrics and Peak table), which the script and the workbook reproduce exactly."
         },
         {
           "index": 254,
-          "paragraph": 139,
-          "start": 1704.59,
-          "end": 1714.105,
-          "text": "Every task mapped to the exact help center URL, the local P D F under C:\\JaxState Behavior Lab, and the vendor video."
+          "paragraph": 142,
+          "start": 1765.267,
+          "end": 1780.797,
+          "text": "0 0 1, Pilot 0 1, peak detection only, dot C S V. A second Sensor Data export, made from the analysis, holding only the slide events and the G S R Peak Detection signals (17 columns)."
         },
         {
           "index": 255,
-          "paragraph": 140,
-          "start": 1714.805,
-          "end": 1716.639,
-          "text": "05 Study Registry."
+          "paragraph": 143,
+          "start": 1781.497,
+          "end": 1798.713,
+          "text": "These thirteen documents live in the iMotions Research Project on claude.ai (folder lab-reference); documents 00 to 10 are also saved as Word files in C:\\JaxState Behavior Lab\\00 Lab Reference."
         },
         {
           "index": 256,
-          "paragraph": 140,
-          "start": 1716.989,
-          "end": 1726.995,
-          "text": "Which studies exist, their status, folders, and documents, including the Nike and E L F Campaign Ad Evaluation studies behind Step 03."
+          "paragraph": 143,
+          "start": 1799.063,
+          "end": 1801.282,
+          "text": "They are not on this site; ask Doctor"
         },
         {
           "index": 257,
-          "paragraph": 141,
-          "start": 1727.695,
-          "end": 1730.553,
-          "text": "06 Folder Organization Proposal."
+          "paragraph": 144,
+          "start": 1801.982,
+          "end": 1803.326,
+          "text": "Sciuchetti for access."
         },
         {
           "index": 258,
-          "paragraph": 141,
-          "start": 1730.903,
-          "end": 1735.639,
-          "text": "The proposed study folder template, naming, backup, and retention rules."
+          "paragraph": 145,
+          "start": 1804.026,
+          "end": 1806.885,
+          "text": "00 Lab Inventory and Licenses."
         },
         {
           "index": 259,
-          "paragraph": 142,
-          "start": 1736.339,
-          "end": 1739.305,
-          "text": "07 iMotions Correspondence Digest."
+          "paragraph": 145,
+          "start": 1807.235,
+          "end": 1820.995,
+          "text": "What the lab owns (two Shimmer 3 G S R plus kits for skin conductance and P P G heart rate, and no separate E C G unit), which computer runs what, renewal dates, and iMotions contacts."
         },
         {
           "index": 260,
-          "paragraph": 142,
-          "start": 1739.655,
-          "end": 1745.713,
-          "text": "What iMotions has told the lab by email: licenses, quotes, support tickets, and training."
+          "paragraph": 146,
+          "start": 1821.695,
+          "end": 1823.828,
+          "text": "01 Study Type Decision Guide."
         },
         {
           "index": 261,
-          "paragraph": 143,
-          "start": 1746.413,
-          "end": 1748.269,
-          "text": "08 Help Center Index."
+          "paragraph": 146,
+          "start": 1824.178,
+          "end": 1831.453,
+          "text": "How to go from a question to one of the study types the lab can run, with the planning checklist that Step 02 follows."
         },
         {
           "index": 262,
-          "paragraph": 143,
-          "start": 1748.619,
-          "end": 1757.259,
-          "text": "The full map of help dot imotions dot com, 519 articles with URLs; every article under (a) appears in it."
+          "paragraph": 147,
+          "start": 1832.153,
+          "end": 1834.627,
+          "text": "02a Eye Tracking Pipeline."
         },
         {
           "index": 263,
-          "paragraph": 144,
-          "start": 1757.959,
-          "end": 1760.413,
-          "text": "09 Vendor Resources Index."
+          "paragraph": 147,
+          "start": 1834.977,
+          "end": 1843.084,
+          "text": "The Aurora, the Neon, calibration, A O I's, and the eye tracking exports, for the eye tracking half of a combined study."
         },
         {
           "index": 264,
-          "paragraph": 144,
-          "start": 1760.763,
-          "end": 1770.192,
-          "text": "199 verified vendor documentation pages and official videos, including the 15 Shimmer entries behind (c) and (g)."
+          "paragraph": 148,
+          "start": 1843.784,
+          "end": 1846.515,
+          "text": "02b Biometrics Survey Pipeline."
         },
         {
           "index": 265,
-          "paragraph": 145,
-          "start": 1770.892,
-          "end": 1773.132,
-          "text": "10 iMotions 11 Release Notes."
+          "paragraph": 148,
+          "start": 1846.865,
+          "end": 1859.771,
+          "text": "The main lab reference for this workshop: Shimmer G S R and P P G, the G S R R Notebooks, aff decks, Enobio E E G, surveys, markers, synchronization, and exports."
         },
         {
           "index": 266,
-          "paragraph": 145,
-          "start": 1773.482,
-          "end": 1789.077,
-          "text": "What changed in iMotions Lab 11.x, including the 11 point 1 point 13 update released on September 25, 2026 and scheduled for the lab computers on October 7, 2026."
+          "paragraph": 149,
+          "start": 1860.471,
+          "end": 1862.135,
+          "text": "04 Where To Look Index."
         },
         {
           "index": 267,
-          "paragraph": 146,
-          "start": 1789.777,
-          "end": 1791.889,
-          "text": "11 Workshop Series Build Notes."
+          "paragraph": 149,
+          "start": 1862.485,
+          "end": 1872.0,
+          "text": "Every task mapped to the exact help center URL, the local P D F under C:\\JaxState Behavior Lab, and the vendor video."
         },
         {
           "index": 268,
-          "paragraph": 146,
-          "start": 1792.239,
-          "end": 1801.327,
-          "text": "How the workshops are built and published: the template, the build files, the routine for a new workshop, and the items confirmed on the lab computers."
+          "paragraph": 150,
+          "start": 1872.7,
+          "end": 1874.535,
+          "text": "05 Study Registry."
         },
         {
           "index": 269,
-          "paragraph": 147,
-          "start": 1802.027,
-          "end": 1804.8,
-          "text": "14 Study Recovery After Computer Move."
+          "paragraph": 150,
+          "start": 1874.885,
+          "end": 1884.89,
+          "text": "Which studies exist, their status, folders, and documents, including the Nike and E L F Campaign Ad Evaluation studies behind Step 03."
         },
         {
           "index": 270,
-          "paragraph": 147,
-          "start": 1805.15,
-          "end": 1813.107,
-          "text": "Where the studies from the previous lab laptop are saved since the move to the current lab computer, including the Nike and E L F"
+          "paragraph": 151,
+          "start": 1885.59,
+          "end": 1888.449,
+          "text": "06 Folder Organization Proposal."
         },
         {
           "index": 271,
-          "paragraph": 148,
-          "start": 1813.807,
-          "end": 1821.871,
-          "text": "Campaign Ad Evaluation study designs behind Step 03, and how to load them with File, then Load Study From File."
+          "paragraph": 151,
+          "start": 1888.799,
+          "end": 1893.535,
+          "text": "The proposed study folder template, naming, backup, and retention rules."
         },
         {
           "index": 272,
-          "paragraph": 149,
-          "start": 1822.571,
-          "end": 1831.766,
-          "text": "The two manufacturer documents cited for the unit's channels in Step 00 and in the placement steps of Step 05, in A P A style."
+          "paragraph": 152,
+          "start": 1894.235,
+          "end": 1897.2,
+          "text": "07 iMotions Correspondence Digest."
         },
         {
           "index": 273,
-          "paragraph": 150,
-          "start": 1832.466,
-          "end": 1838.589,
-          "text": "Further Shimmer pages from the verified vendor index, for reference; they are not cited in the lesson:"
+          "paragraph": 152,
+          "start": 1897.55,
+          "end": 1903.609,
+          "text": "What iMotions has told the lab by email: licenses, quotes, support tickets, and training."
         },
         {
           "index": 274,
-          "paragraph": 151,
-          "start": 1839.289,
-          "end": 1843.555,
-          "text": "Optical Pulse Sensor User Guide Rev 1.6 (P D F)."
+          "paragraph": 153,
+          "start": 1904.309,
+          "end": 1906.165,
+          "text": "08 Help Center Index."
         },
         {
           "index": 275,
-          "paragraph": 151,
-          "start": 1843.905,
-          "end": 1850.092,
-          "text": "Using the optical pulse probe (finger or ear clip) for heart rate with the G S R plus unit."
+          "paragraph": 153,
+          "start": 1906.515,
+          "end": 1915.155,
+          "text": "The full map of help dot imotions dot com, 519 articles with URLs; every article under (a) appears in it."
         },
         {
           "index": 276,
-          "paragraph": 152,
-          "start": 1850.792,
-          "end": 1854.504,
-          "text": "Shimmer 3 G S R plus Specifications (P D F)."
+          "paragraph": 154,
+          "start": 1915.855,
+          "end": 1918.308,
+          "text": "09 Vendor Resources Index."
         },
         {
           "index": 277,
-          "paragraph": 152,
-          "start": 1854.854,
-          "end": 1859.633,
-          "text": "The two page specification sheet for the Shimmer 3 G S R plus unit."
+          "paragraph": 154,
+          "start": 1918.658,
+          "end": 1928.087,
+          "text": "199 verified vendor documentation pages and official videos, including the 15 Shimmer entries behind (c) and (g)."
         },
         {
           "index": 278,
-          "paragraph": 153,
-          "start": 1860.333,
-          "end": 1863.426,
-          "text": "Shimmer User Manual Rev 3p (P D F)."
+          "paragraph": 155,
+          "start": 1928.787,
+          "end": 1931.027,
+          "text": "10 iMotions 11 Release Notes."
         },
         {
           "index": 279,
-          "paragraph": 153,
-          "start": 1863.776,
-          "end": 1869.707,
-          "text": "The general Shimmer 3 platform manual: charging, docking, firmware, and Bluetooth streaming."
+          "paragraph": 155,
+          "start": 1931.377,
+          "end": 1946.972,
+          "text": "What changed in iMotions Lab 11.x, including the 11 point 1 point 13 update released on September 25, 2026 and scheduled for the lab computers on October 7, 2026."
         },
         {
           "index": 280,
-          "paragraph": 154,
-          "start": 1870.407,
-          "end": 1871.473,
-          "text": "FAQs - Shimmer."
+          "paragraph": 156,
+          "start": 1947.672,
+          "end": 1949.784,
+          "text": "11 Workshop Series Build Notes."
         },
         {
           "index": 281,
-          "paragraph": 154,
-          "start": 1871.823,
-          "end": 1876.666,
-          "text": "Support answers, including G S R electrode polarization and sensor care."
+          "paragraph": 156,
+          "start": 1950.134,
+          "end": 1959.222,
+          "text": "How the workshops are built and published: the template, the build files, the routine for a new workshop, and the items confirmed on the lab computers."
         },
         {
           "index": 282,
-          "paragraph": 155,
-          "start": 1877.366,
-          "end": 1881.291,
-          "text": "Shimmer 3 G S R plus Kit (iMotions hardware page)."
+          "paragraph": 157,
+          "start": 1959.922,
+          "end": 1962.695,
+          "text": "14 Study Recovery After Computer Move."
         },
         {
           "index": 283,
-          "paragraph": 155,
-          "start": 1881.641,
-          "end": 1890.303,
-          "text": "The iMotions page for the kit; it marks the Shimmer 3 G S R plus as discontinued, with the Shimmer 3 R as its successor."
+          "paragraph": 157,
+          "start": 1963.045,
+          "end": 1971.003,
+          "text": "Where the studies from the previous lab laptop are saved since the move to the current lab computer, including the Nike and E L F"
         },
         {
           "index": 284,
-          "paragraph": 156,
-          "start": 1891.003,
-          "end": 1903.547,
+          "paragraph": 158,
+          "start": 1971.703,
+          "end": 1979.767,
+          "text": "Campaign Ad Evaluation study designs behind Step 03, and how to load them with File, then Load Study From File."
+        },
+        {
+          "index": 285,
+          "paragraph": 159,
+          "start": 1980.467,
+          "end": 1989.661,
+          "text": "The two manufacturer documents cited for the unit's channels in Step 00 and in the placement steps of Step 05, in A P A style."
+        },
+        {
+          "index": 286,
+          "paragraph": 160,
+          "start": 1990.361,
+          "end": 1996.484,
+          "text": "Further Shimmer pages from the verified vendor index, for reference; they are not cited in the lesson:"
+        },
+        {
+          "index": 287,
+          "paragraph": 161,
+          "start": 1997.184,
+          "end": 2001.451,
+          "text": "Optical Pulse Sensor User Guide Rev 1.6 (P D F)."
+        },
+        {
+          "index": 288,
+          "paragraph": 161,
+          "start": 2001.801,
+          "end": 2007.987,
+          "text": "Using the optical pulse probe (finger or ear clip) for heart rate with the G S R plus unit."
+        },
+        {
+          "index": 289,
+          "paragraph": 162,
+          "start": 2008.687,
+          "end": 2012.399,
+          "text": "Shimmer 3 G S R plus Specifications (P D F)."
+        },
+        {
+          "index": 290,
+          "paragraph": 162,
+          "start": 2012.749,
+          "end": 2017.528,
+          "text": "The two page specification sheet for the Shimmer 3 G S R plus unit."
+        },
+        {
+          "index": 291,
+          "paragraph": 163,
+          "start": 2018.228,
+          "end": 2021.321,
+          "text": "Shimmer User Manual Rev 3p (P D F)."
+        },
+        {
+          "index": 292,
+          "paragraph": 163,
+          "start": 2021.671,
+          "end": 2027.602,
+          "text": "The general Shimmer 3 platform manual: charging, docking, firmware, and Bluetooth streaming."
+        },
+        {
+          "index": 293,
+          "paragraph": 164,
+          "start": 2028.302,
+          "end": 2029.369,
+          "text": "FAQs - Shimmer."
+        },
+        {
+          "index": 294,
+          "paragraph": 164,
+          "start": 2029.719,
+          "end": 2034.561,
+          "text": "Support answers, including G S R electrode polarization and sensor care."
+        },
+        {
+          "index": 295,
+          "paragraph": 165,
+          "start": 2035.261,
+          "end": 2039.187,
+          "text": "Shimmer 3 G S R plus Kit (iMotions hardware page)."
+        },
+        {
+          "index": 296,
+          "paragraph": 165,
+          "start": 2039.537,
+          "end": 2048.198,
+          "text": "The iMotions page for the kit; it marks the Shimmer 3 G S R plus as discontinued, with the Shimmer 3 R as its successor."
+        },
+        {
+          "index": 297,
+          "paragraph": 166,
+          "start": 2048.898,
+          "end": 2061.442,
           "text": "Find the original article, manual page, video, reading, or data file behind any step of this workshop, and tell a verified source from an item that still has to be checked on the lab machine."
         }
       ]
@@ -8188,8 +8292,8 @@
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 1071.385,
-      "mp3_duration": 1071.456,
+      "duration": 1096.09,
+      "mp3_duration": 1096.152,
       "starts": [
         0.0,
         2.876,
@@ -8255,76 +8359,80 @@
         466.945,
         475.529,
         477.701,
-        484.963,
-        488.394,
-        491.219,
-        503.396,
-        505.773,
-        518.441,
-        520.433,
-        534.616,
-        536.673,
-        548.487,
-        559.257,
-        573.525,
-        578.513,
-        580.228,
-        583.125,
-        585.182,
-        594.245,
-        607.915,
-        610.237,
-        631.801,
-        643.231,
-        645.053,
-        654.095,
-        669.408,
-        673.265,
-        680.984,
-        694.164,
-        704.507,
-        705.518,
-        715.477,
-        721.254,
-        722.82,
-        732.864,
-        740.361,
-        741.735,
-        745.208,
-        746.198,
-        749.663,
-        756.349,
-        758.883,
-        770.369,
-        772.093,
-        780.729,
-        781.655,
-        789.289,
-        790.3,
-        799.555,
-        804.799,
-        807.773,
-        815.534,
-        832.042,
-        847.547,
-        869.261,
-        892.297,
-        903.1,
-        904.824,
-        911.839,
-        925.223,
-        927.075,
-        933.505,
-        941.501,
-        950.82,
-        965.792,
-        979.548,
-        982.467,
-        998.1,
-        1012.112,
-        1029.004,
-        1031.603,
-        1053.785
+        480.953,
+        485.505,
+        488.936,
+        490.929,
+        503.191,
+        505.568,
+        518.236,
+        520.229,
+        534.411,
+        536.468,
+        548.283,
+        567.884,
+        582.152,
+        587.14,
+        588.855,
+        591.753,
+        593.809,
+        602.872,
+        616.543,
+        618.864,
+        640.428,
+        651.859,
+        653.51,
+        662.329,
+        665.184,
+        676.743,
+        688.579,
+        693.579,
+        697.97,
+        705.689,
+        718.869,
+        729.211,
+        730.223,
+        740.181,
+        745.959,
+        747.525,
+        757.569,
+        765.065,
+        766.439,
+        769.913,
+        770.903,
+        774.367,
+        781.053,
+        783.588,
+        795.074,
+        796.798,
+        805.434,
+        806.36,
+        813.993,
+        815.005,
+        824.259,
+        829.503,
+        832.477,
+        840.239,
+        856.747,
+        872.252,
+        893.965,
+        917.001,
+        927.805,
+        929.529,
+        936.543,
+        949.928,
+        951.78,
+        958.21,
+        966.206,
+        975.525,
+        990.497,
+        1004.253,
+        1007.171,
+        1022.805,
+        1036.817,
+        1053.709,
+        1056.307,
+        1078.49
       ],
       "sentences": [
         {
@@ -8772,505 +8880,533 @@
           "index": 63,
           "paragraph": 41,
           "start": 477.701,
-          "end": 484.613,
-          "text": "raw means the unit's own uncalibrated numbers, listed in the Shimmer E C G article as \"(no units).\""
+          "end": 480.603,
+          "text": "raw means the unit's own uncalibrated numbers."
         },
         {
           "index": 64,
           "paragraph": 41,
-          "start": 484.963,
-          "end": 487.694,
-          "text": "They exist for troubleshooting, not for results."
+          "start": 480.953,
+          "end": 485.155,
+          "text": "The lab's export gives their unit as \"Index,\" a count with no unit."
         },
         {
           "index": 65,
-          "paragraph": 42,
-          "start": 488.394,
-          "end": 490.869,
-          "text": "A L G is not defined in the manuals."
+          "paragraph": 41,
+          "start": 485.505,
+          "end": 488.236,
+          "text": "They exist for troubleshooting, not for results."
         },
         {
           "index": 66,
           "paragraph": 42,
-          "start": 491.219,
-          "end": 502.696,
-          "text": "On the lab computer it appears only on Heart Rate and I B I, the two values calculated from the pulse wave, so read it as calculated by an algorithm, not measured directly."
+          "start": 488.936,
+          "end": 490.579,
+          "text": "A L G means algorithm."
         },
         {
           "index": 67,
-          "paragraph": 43,
-          "start": 503.396,
-          "end": 505.423,
-          "text": "G S R: the skin signal."
+          "paragraph": 42,
+          "start": 490.929,
+          "end": 502.491,
+          "text": "The manuals never define it, but the lab's export labels Heart Rate and I B I with the data format \"Algorithm\": they are calculated from the pulse wave, not measured directly."
         },
         {
           "index": 68,
           "paragraph": 43,
-          "start": 505.773,
-          "end": 517.741,
-          "text": "Analysis \"is conventionally done on microsiemens values,\" and the notebooks in section 07 work from conductance, so G S R Conductance, C A L is the one to watch."
+          "start": 503.191,
+          "end": 505.218,
+          "text": "G S R: the skin signal."
         },
         {
           "index": 69,
-          "paragraph": 44,
-          "start": 518.441,
-          "end": 520.083,
-          "text": "P P G: the pulse."
+          "paragraph": 43,
+          "start": 505.568,
+          "end": 517.536,
+          "text": "Analysis \"is conventionally done on microsiemens values,\" and the notebooks in section 07 work from conductance, so G S R Conductance, C A L is the one to watch."
         },
         {
           "index": 70,
           "paragraph": 44,
-          "start": 520.433,
-          "end": 533.916,
-          "text": "P P G, photoplethysmography, measures blood volume optically with the ear clip or finger probe; iMotions shows \"the P P G signal as well as a continuously calculated beats per minute value.\""
+          "start": 518.236,
+          "end": 519.879,
+          "text": "P P G: the pulse."
         },
         {
           "index": 71,
-          "paragraph": 45,
-          "start": 534.616,
-          "end": 536.323,
-          "text": "Accelerometer: movement."
+          "paragraph": 44,
+          "start": 520.229,
+          "end": 533.711,
+          "text": "P P G, photoplethysmography, measures blood volume optically with the ear clip or finger probe; iMotions shows \"the P P G signal as well as a continuously calculated beats per minute value.\""
         },
         {
           "index": 72,
           "paragraph": 45,
-          "start": 536.673,
-          "end": 547.787,
-          "text": "Wide Range Accelerometer X C A L, Y C A L, and Z C A L give the unit's acceleration along three axes, \"all with the unit meters per second squared.\""
+          "start": 534.411,
+          "end": 536.118,
+          "text": "Accelerometer: movement."
         },
         {
           "index": 73,
-          "paragraph": 46,
-          "start": 548.487,
-          "end": 558.557,
-          "text": "Gravity is part of the signal (\"approximately 9.8 meters per second squared\"), so a still unit does not read 0; look for changes, not levels."
+          "paragraph": 45,
+          "start": 536.468,
+          "end": 547.583,
+          "text": "Wide Range Accelerometer X C A L, Y C A L, and Z C A L give the unit's acceleration along three axes, \"all with the unit meters per second squared.\""
         },
         {
           "index": 74,
-          "paragraph": 47,
-          "start": 559.257,
-          "end": 572.825,
-          "text": "The help center uses them to find stretches where G S R \"is filled with noise due to movement,\" and its movement notebook's default threshold is 0.2 meters per second squared after gravity is filtered out."
+          "paragraph": 46,
+          "start": 548.283,
+          "end": 567.184,
+          "text": "Gravity is part of the signal (\"approximately 9.8 meters per second squared\"), so a still unit does not read 0; in the pilot, with the hand still, the three axes together read about 10.35 meters per second squared, almost all of it on Z. Look for changes, not levels."
         },
         {
           "index": 75,
-          "paragraph": 48,
-          "start": 573.525,
-          "end": 577.813,
-          "text": "Which way each axis points on the unit is not stated in the manuals."
+          "paragraph": 47,
+          "start": 567.884,
+          "end": 581.452,
+          "text": "The help center uses them to find stretches where G S R \"is filled with noise due to movement,\" and its movement notebook's default threshold is 0.2 meters per second squared after gravity is filtered out."
         },
         {
           "index": 76,
-          "paragraph": 49,
-          "start": 578.513,
-          "end": 579.878,
-          "text": "Other: housekeeping."
+          "paragraph": 48,
+          "start": 582.152,
+          "end": 586.44,
+          "text": "Which way each axis points on the unit is not stated in the manuals."
         },
         {
           "index": 77,
           "paragraph": 49,
-          "start": 580.228,
-          "end": 582.425,
-          "text": "None of these is analyzed in this workshop."
+          "start": 587.14,
+          "end": 588.505,
+          "text": "Other: housekeeping."
         },
         {
           "index": 78,
-          "paragraph": 50,
-          "start": 583.125,
-          "end": 584.832,
-          "text": "Three pictures of the same unit."
+          "paragraph": 49,
+          "start": 588.855,
+          "end": 591.053,
+          "text": "None of these is analyzed in this workshop."
         },
         {
           "index": 79,
           "paragraph": 50,
-          "start": 585.182,
-          "end": 593.545,
-          "text": "Compare the live check above (ready to record), the ragged pulse (moving), and the next figure, taken with the electrodes and probe off."
+          "start": 591.753,
+          "end": 593.459,
+          "text": "Three pictures of the same unit."
         },
         {
           "index": 80,
-          "paragraph": 51,
-          "start": 594.245,
-          "end": 607.215,
-          "text": "Two habits catch all three: read the widget, where G S R Quality turned from High to Low when the electrodes came off (the manuals do not describe this indicator), and read the axis before the line."
+          "paragraph": 50,
+          "start": 593.809,
+          "end": 602.172,
+          "text": "Compare the live check above (ready to record), the ragged pulse (moving), and the next figure, taken with the electrodes and probe off."
         },
         {
           "index": 81,
-          "paragraph": 52,
-          "start": 607.915,
-          "end": 609.537,
-          "text": "Other lists in the same menu."
+          "paragraph": 51,
+          "start": 602.872,
+          "end": 615.843,
+          "text": "Two habits catch all three: read the widget, where G S R Quality turned from High to Low when the electrodes came off (the manuals do not describe this indicator), and read the axis before the line."
         },
         {
           "index": 82,
-          "paragraph": 53,
-          "start": 610.237,
-          "end": 631.101,
-          "text": "Affectiva aff decks holds the face signals (Workshop 3), Eye Tracker (Smart Eye Aurora) the eye tracker signals (Workshop 2), and External Events A P I the System Load Monitor: C P U System percent, Memory System percent, C P U iMotions percent, and Memory iMotions M B, sampled \"once a second.\""
+          "paragraph": 52,
+          "start": 616.543,
+          "end": 618.164,
+          "text": "Other lists in the same menu."
         },
         {
           "index": 83,
-          "paragraph": 54,
-          "start": 631.801,
-          "end": 642.531,
-          "text": "\"Too high data loads (typically above 80 percent) can impact your data collection and synchronization of sensors,\" which matters with two Shimmer units streaming at once."
+          "paragraph": 53,
+          "start": 618.864,
+          "end": 639.728,
+          "text": "Affectiva aff decks holds the face signals (Workshop 3), Eye Tracker (Smart Eye Aurora) the eye tracker signals (Workshop 2), and External Events A P I the System Load Monitor: C P U System percent, Memory System percent, C P U iMotions percent, and Memory iMotions M B, sampled \"once a second.\""
         },
         {
           "index": 84,
-          "paragraph": 55,
-          "start": 643.231,
-          "end": 644.703,
-          "text": "What the manuals leave open."
+          "paragraph": 54,
+          "start": 640.428,
+          "end": 651.159,
+          "text": "\"Too high data loads (typically above 80 percent) can impact your data collection and synchronization of sensors,\" which matters with two Shimmer units streaming at once."
         },
         {
           "index": 85,
           "paragraph": 55,
-          "start": 645.053,
-          "end": 653.395,
-          "text": "The units of the pulse wave and I B I, the meaning of A L G, the clock channels, and Packet reception rate are not in the manuals."
+          "start": 651.859,
+          "end": 653.16,
+          "text": "What the export settled."
         },
         {
           "index": 86,
-          "paragraph": 56,
-          "start": 654.095,
-          "end": 668.708,
-          "text": "The Sensor Data export can show them: on its Sensors page turn on 'show signal descriptions', and on the File info page tick 'Channel metadata', which adds \"a short description of the data, the unit, etc.\" for every column."
+          "paragraph": 55,
+          "start": 653.51,
+          "end": 661.979,
+          "text": "The manuals do not give the units of the pulse wave and I B I, the meaning of A L G, the clock channels, or Packet reception rate."
         },
         {
           "index": 87,
-          "paragraph": 57,
-          "start": 669.408,
-          "end": 672.565,
-          "text": "Do this on a pilot recording, never on a lab study."
+          "paragraph": 55,
+          "start": 662.329,
+          "end": 664.484,
+          "text": "The lab's first Sensor Data export did."
         },
         {
           "index": 88,
-          "paragraph": 58,
-          "start": 673.265,
-          "end": 680.284,
-          "text": "Two respondents run at once, one at each seat, and each seat always uses the same unit (section 02)."
+          "paragraph": 56,
+          "start": 665.184,
+          "end": 676.043,
+          "text": "iMotions writes a Metadata block at the top of every export file, with a description, a unit, and a data format (Raw, Calibrated, or Algorithm) for each column."
         },
         {
           "index": 89,
-          "paragraph": 59,
-          "start": 680.984,
-          "end": 693.464,
-          "text": "The seats play different orders, so neither respondent may see the other's screen, the respondents must not talk, and if the commercials have sound each seat needs headphones (a lab rule for the two seat setup)."
+          "paragraph": 57,
+          "start": 676.743,
+          "end": 687.879,
+          "text": "The export article says to tick 'Channel metadata' on the File info page; on the lab computer in 11 point 1 that option was not there, and the block was written anyway."
         },
         {
           "index": 90,
-          "paragraph": 60,
-          "start": 694.164,
-          "end": 703.807,
-          "text": "One operator prepares Seat 1, then Seat 2, and starts the two recordings one after the other; each seat gets its own warm up and its own log row."
+          "paragraph": 58,
+          "start": 688.579,
+          "end": 693.229,
+          "text": "Whenever a column name puzzles you, read its rows in that block before guessing."
         },
         {
           "index": 91,
-          "paragraph": 61,
-          "start": 704.507,
-          "end": 705.168,
-          "text": "Consent."
+          "paragraph": 58,
+          "start": 693.579,
+          "end": 697.27,
+          "text": "Make check exports from a pilot recording, never from a lab study."
         },
         {
           "index": 92,
-          "paragraph": 61,
-          "start": 705.518,
-          "end": 714.777,
-          "text": "Informed consent comes first, with the form from section 02 that names the finger electrodes, the pulse probe, and the signals recorded."
+          "paragraph": 59,
+          "start": 697.97,
+          "end": 704.989,
+          "text": "Two respondents run at once, one at each seat, and each seat always uses the same unit (section 02)."
         },
         {
           "index": 93,
-          "paragraph": 62,
-          "start": 715.477,
-          "end": 720.554,
-          "text": "Electrodes, instructions, and warm up, as in 5.2 and 5.3."
+          "paragraph": 60,
+          "start": 705.689,
+          "end": 718.169,
+          "text": "The seats play different orders, so neither respondent may see the other's screen, the respondents must not talk, and if the commercials have sound each seat needs headphones (a lab rule for the two seat setup)."
         },
         {
           "index": 94,
-          "paragraph": 63,
-          "start": 721.254,
-          "end": 722.47,
-          "text": "Add the respondent."
+          "paragraph": 61,
+          "start": 718.869,
+          "end": 728.511,
+          "text": "One operator prepares Seat 1, then Seat 2, and starts the two recordings one after the other; each seat gets its own warm up and its own log row."
         },
         {
           "index": 95,
-          "paragraph": 63,
-          "start": 722.82,
-          "end": 732.164,
-          "text": "Click the \"+\" beside RESPONDENTS and enter the anonymous I D (P 01), the group (A or B), and the flow from the allocation list."
+          "paragraph": 62,
+          "start": 729.211,
+          "end": 729.873,
+          "text": "Consent."
         },
         {
           "index": 96,
-          "paragraph": 64,
-          "start": 732.864,
-          "end": 740.011,
-          "text": "You should see the respondent in the list; how 11 point 1 offers the flow choice should be verified on the lab machine."
+          "paragraph": 62,
+          "start": 730.223,
+          "end": 739.481,
+          "text": "Informed consent comes first, with the form from section 02 that names the finger electrodes, the pulse probe, and the signals recorded."
         },
         {
           "index": 97,
-          "paragraph": 64,
-          "start": 740.361,
-          "end": 741.385,
-          "text": "Common mistake."
+          "paragraph": 63,
+          "start": 740.181,
+          "end": 745.259,
+          "text": "Electrodes, instructions, and warm up, as in 5.2 and 5.3."
         },
         {
           "index": 98,
           "paragraph": 64,
-          "start": 741.735,
-          "end": 744.508,
-          "text": "A real name instead of an anonymous I D."
+          "start": 745.959,
+          "end": 747.175,
+          "text": "Add the respondent."
         },
         {
           "index": 99,
-          "paragraph": 65,
-          "start": 745.208,
-          "end": 745.848,
-          "text": "Record."
+          "paragraph": 64,
+          "start": 747.525,
+          "end": 756.869,
+          "text": "Click the \"+\" beside RESPONDENTS and enter the anonymous I D (P 01), the group (A or B), and the flow from the allocation list."
         },
         {
           "index": 100,
           "paragraph": 65,
-          "start": 746.198,
-          "end": 749.313,
-          "text": "Click Start Recording and sit out of the respondent's view."
+          "start": 757.569,
+          "end": 764.715,
+          "text": "You should see the respondent in the list; how 11 point 1 offers the flow choice should be verified on the lab machine."
         },
         {
           "index": 101,
           "paragraph": 65,
-          "start": 749.663,
-          "end": 755.999,
-          "text": "The flow runs itself: baseline, commercial, Recovery, questionnaire, rest, then the second sequence."
+          "start": 765.065,
+          "end": 766.089,
+          "text": "Common mistake."
         },
         {
           "index": 102,
           "paragraph": 65,
-          "start": 756.349,
-          "end": 758.183,
-          "text": "Press a marker key for any incident."
+          "start": 766.439,
+          "end": 769.213,
+          "text": "A real name instead of an anonymous I D."
         },
         {
           "index": 103,
           "paragraph": 66,
-          "start": 758.883,
-          "end": 770.019,
-          "text": "If a lead comes loose, press the lead loose key, let the stimulus that is playing finish, and reseat the lead during the questionnaire or the rest, never during a baseline or a commercial."
+          "start": 769.913,
+          "end": 770.553,
+          "text": "Record."
         },
         {
           "index": 104,
           "paragraph": 66,
-          "start": 770.369,
-          "end": 771.393,
-          "text": "Common mistake."
+          "start": 770.903,
+          "end": 774.017,
+          "text": "Click Start Recording and sit out of the respondent's view."
         },
         {
           "index": 105,
-          "paragraph": 67,
-          "start": 772.093,
-          "end": 780.029,
-          "text": "Stopping the recording at the first problem; the rule written in advance, not the operator, decides later whether the data are used."
+          "paragraph": 66,
+          "start": 774.367,
+          "end": 780.703,
+          "text": "The flow runs itself: baseline, commercial, Recovery, questionnaire, rest, then the second sequence."
         },
         {
           "index": 106,
-          "paragraph": 68,
-          "start": 780.729,
-          "end": 781.305,
-          "text": "End."
+          "paragraph": 66,
+          "start": 781.053,
+          "end": 782.888,
+          "text": "Press a marker key for any incident."
         },
         {
           "index": 107,
-          "paragraph": 68,
-          "start": 781.655,
-          "end": 788.589,
-          "text": "After the thank you slide, click End Recording (Shift F 1 also stops it), then debrief the respondent."
+          "paragraph": 67,
+          "start": 783.588,
+          "end": 794.724,
+          "text": "If a lead comes loose, press the lead loose key, let the stimulus that is playing finish, and reseat the lead during the questionnaire or the rest, never during a baseline or a commercial."
         },
         {
           "index": 108,
-          "paragraph": 69,
-          "start": 789.289,
-          "end": 789.95,
-          "text": "Clean."
-        },
-        {
-          "index": 109,
-          "paragraph": 69,
-          "start": 790.3,
-          "end": 798.855,
-          "text": "Discard the electrodes, unplug the hardware, and disinfect the probe, the unit, and the work surface with at least 70 percent alcohol."
-        },
-        {
-          "index": 110,
-          "paragraph": 70,
-          "start": 799.555,
-          "end": 804.099,
-          "text": "Log the row before the next respondent sits down, while the details are fresh."
-        },
-        {
-          "index": 111,
-          "paragraph": 71,
-          "start": 804.799,
-          "end": 807.423,
-          "text": "What Start Recording shows on the lab computer."
-        },
-        {
-          "index": 112,
-          "paragraph": 71,
-          "start": 807.773,
-          "end": 814.834,
-          "text": "The October 12, 2026 pilot found three screens between Start Recording and the first stimulus."
-        },
-        {
-          "index": 113,
-          "paragraph": 72,
-          "start": 815.534,
-          "end": 831.342,
-          "text": "First, a \"Respondent informed consent\" window reminds the operator that the study records personal data and that clicking OK confirms consent was collected; click OK only after the signed form is in hand (section 02)."
-        },
-        {
-          "index": 114,
-          "paragraph": 73,
-          "start": 832.042,
-          "end": 846.847,
-          "text": "Second, a \"Sensor Mismatch\" table compares, for each sensor, the study's settings, Global Settings, and whether the sensor is collecting, and warns \"Sensors with errors will NOT be recorded\"; read every red row before clicking Yes."
-        },
-        {
-          "index": 115,
-          "paragraph": 74,
-          "start": 847.547,
-          "end": 868.561,
-          "text": "Third, if the study was built on another computer, iMotions may stop with \"Inconsistent screen resolutions\": the studies brought over from the old lab laptop expect a 2400 by 1600 screen, and the lab computer's stimulus screen is 2560 by 1440."
-        },
-        {
-          "index": 116,
-          "paragraph": 75,
-          "start": 869.261,
-          "end": 891.597,
-          "text": "The fix is in the study, not in Windows: Study Settings, then Edit size, then Load from preset, pick the detected screen named MARKS (2560 by 1440, 34.4 by 19.4 cm), Ok, OK to the survey slide warning, then Update, and preview the survey slides."
-        },
-        {
-          "index": 117,
-          "paragraph": 76,
-          "start": 892.297,
-          "end": 902.75,
-          "text": "You should see the baseline start and, after the session, one row per stimulus on Recorded Data with the Shimmer at 128 hertz and close to 100 percent."
-        },
-        {
-          "index": 118,
-          "paragraph": 76,
-          "start": 903.1,
-          "end": 904.124,
+          "paragraph": 67,
+          "start": 795.074,
+          "end": 796.098,
           "text": "Common mistake."
         },
         {
+          "index": 109,
+          "paragraph": 68,
+          "start": 796.798,
+          "end": 804.734,
+          "text": "Stopping the recording at the first problem; the rule written in advance, not the operator, decides later whether the data are used."
+        },
+        {
+          "index": 110,
+          "paragraph": 69,
+          "start": 805.434,
+          "end": 806.01,
+          "text": "End."
+        },
+        {
+          "index": 111,
+          "paragraph": 69,
+          "start": 806.36,
+          "end": 813.293,
+          "text": "After the thank you slide, click End Recording (Shift F 1 also stops it), then debrief the respondent."
+        },
+        {
+          "index": 112,
+          "paragraph": 70,
+          "start": 813.993,
+          "end": 814.655,
+          "text": "Clean."
+        },
+        {
+          "index": 113,
+          "paragraph": 70,
+          "start": 815.005,
+          "end": 823.559,
+          "text": "Discard the electrodes, unplug the hardware, and disinfect the probe, the unit, and the work surface with at least 70 percent alcohol."
+        },
+        {
+          "index": 114,
+          "paragraph": 71,
+          "start": 824.259,
+          "end": 828.803,
+          "text": "Log the row before the next respondent sits down, while the details are fresh."
+        },
+        {
+          "index": 115,
+          "paragraph": 72,
+          "start": 829.503,
+          "end": 832.127,
+          "text": "What Start Recording shows on the lab computer."
+        },
+        {
+          "index": 116,
+          "paragraph": 72,
+          "start": 832.477,
+          "end": 839.539,
+          "text": "The October 12, 2026 pilot found three screens between Start Recording and the first stimulus."
+        },
+        {
+          "index": 117,
+          "paragraph": 73,
+          "start": 840.239,
+          "end": 856.047,
+          "text": "First, a \"Respondent informed consent\" window reminds the operator that the study records personal data and that clicking OK confirms consent was collected; click OK only after the signed form is in hand (section 02)."
+        },
+        {
+          "index": 118,
+          "paragraph": 74,
+          "start": 856.747,
+          "end": 871.552,
+          "text": "Second, a \"Sensor Mismatch\" table compares, for each sensor, the study's settings, Global Settings, and whether the sensor is collecting, and warns \"Sensors with errors will NOT be recorded\"; read every red row before clicking Yes."
+        },
+        {
           "index": 119,
-          "paragraph": 77,
-          "start": 904.824,
-          "end": 911.139,
-          "text": "Clicking Yes on the Sensor Mismatch table without reading it, which can record a session with a sensor missing."
+          "paragraph": 75,
+          "start": 872.252,
+          "end": 893.265,
+          "text": "Third, if the study was built on another computer, iMotions may stop with \"Inconsistent screen resolutions\": the studies brought over from the old lab laptop expect a 2400 by 1600 screen, and the lab computer's stimulus screen is 2560 by 1440."
         },
         {
           "index": 120,
-          "paragraph": 78,
-          "start": 911.839,
-          "end": 924.873,
-          "text": "The simulated session log shows what a row holds: Respondent Name, Session Date, Operator, Seat, Device, Electrode placement (fingers), Skin note, Warm up minutes, Data complete, and Decision note."
+          "paragraph": 76,
+          "start": 893.965,
+          "end": 916.301,
+          "text": "The fix is in the study, not in Windows: Study Settings, then Edit size, then Load from preset, pick the detected screen named MARKS (2560 by 1440, 34.4 by 19.4 cm), Ok, OK to the survey slide warning, then Update, and preview the survey slides."
         },
         {
           "index": 121,
-          "paragraph": 78,
-          "start": 925.223,
-          "end": 926.375,
-          "text": "Read three rows."
+          "paragraph": 77,
+          "start": 917.001,
+          "end": 927.455,
+          "text": "You should see the baseline start and, after the session, one row per stimulus on Recorded Data with the Shimmer at 128 hertz and close to 100 percent."
         },
         {
           "index": 122,
-          "paragraph": 79,
-          "start": 927.075,
-          "end": 933.155,
-          "text": "P 02's note records \"one Bluetooth gap of 5.1 seconds in Baseline Nike.\""
+          "paragraph": 77,
+          "start": 927.805,
+          "end": 928.829,
+          "text": "Common mistake."
         },
         {
           "index": 123,
-          "paragraph": 79,
-          "start": 933.505,
-          "end": 940.801,
-          "text": "P 11's records an electrode lead that loosened during Nike Commercial after a warm up cut to 2 minutes."
+          "paragraph": 78,
+          "start": 929.529,
+          "end": 935.843,
+          "text": "Clicking Yes on the Sensor Mismatch table without reading it, which can record a session with a sensor missing."
         },
         {
           "index": 124,
-          "paragraph": 80,
-          "start": 941.501,
-          "end": 950.12,
-          "text": "P 24's records a Bluetooth dropout of 11.4 seconds in E L F Commercial, with Data complete equals No."
+          "paragraph": 79,
+          "start": 936.543,
+          "end": 949.578,
+          "text": "The simulated session log shows what a row holds: Respondent Name, Session Date, Operator, Seat, Device, Electrode placement (fingers), Skin note, Warm up minutes, Data complete, and Decision note."
         },
         {
           "index": 125,
-          "paragraph": 81,
-          "start": 950.82,
-          "end": 965.092,
-          "text": "The incident is written when it happens; the Keep or exclude decision is added later, after the G S R Signal Quality notebook (section 07), by the rule written before collection and before anyone looks at the peaks."
+          "paragraph": 79,
+          "start": 949.928,
+          "end": 951.08,
+          "text": "Read three rows."
         },
         {
           "index": 126,
-          "paragraph": 82,
-          "start": 965.792,
-          "end": 978.848,
-          "text": "P 11 was excluded for a Signal-to-Noise ratio of -3.4 decibels, P 24 for 38.0 percent Signal missing, and P 02 was kept (all simulated)."
+          "paragraph": 80,
+          "start": 951.78,
+          "end": 957.86,
+          "text": "P 02's note records \"one Bluetooth gap of 5.1 seconds in Baseline Nike.\""
         },
         {
           "index": 127,
-          "paragraph": 83,
-          "start": 979.548,
-          "end": 981.767,
-          "text": "Check each recording before the next pair."
+          "paragraph": 80,
+          "start": 958.21,
+          "end": 965.506,
+          "text": "P 11's records an electrode lead that loosened during Nike Commercial after a warm up cut to 2 minutes."
         },
         {
           "index": 128,
-          "paragraph": 84,
-          "start": 982.467,
-          "end": 997.4,
-          "text": "Each recording appears on the study's Recorded Data tab, and the Collecting Data article says \"A red outline indicates that the recorded data is below the expected quality for a given sensor\"; open the replay of any outlined recording."
+          "paragraph": 81,
+          "start": 966.206,
+          "end": 974.825,
+          "text": "P 24's records a Bluetooth dropout of 11.4 seconds in E L F Commercial, with Data complete equals No."
         },
         {
           "index": 129,
-          "paragraph": 85,
-          "start": 998.1,
-          "end": 1011.412,
-          "text": "Then click Export on the Recorded Data tab for the data quality statistics, a file ending in DataQuality dot T X T with \"the effective sampling rate\" and the percentage of data obtained for each device."
+          "paragraph": 82,
+          "start": 975.525,
+          "end": 989.797,
+          "text": "The incident is written when it happens; the Keep or exclude decision is added later, after the G S R Signal Quality notebook (section 07), by the rule written before collection and before anyone looks at the peaks."
         },
         {
           "index": 130,
-          "paragraph": 86,
-          "start": 1012.112,
-          "end": 1028.304,
-          "text": "For the Shimmer the rate should sit near the Sample Frequency set for that unit, 128 hertz in this plan; a low percentage can point to a Bluetooth gap, since Bluetooth \"is more susceptible to data loss\" (Timestamping and synchronization method article)."
+          "paragraph": 83,
+          "start": 990.497,
+          "end": 1003.553,
+          "text": "P 11 was excluded for a Signal-to-Noise ratio of -3.4 decibels, P 24 for 38.0 percent Signal missing, and P 02 was kept (all simulated)."
         },
         {
           "index": 131,
-          "paragraph": 87,
-          "start": 1029.004,
-          "end": 1030.903,
-          "text": "Write any gap into the log that day."
+          "paragraph": 84,
+          "start": 1004.253,
+          "end": 1006.471,
+          "text": "Check each recording before the next pair."
         },
         {
           "index": 132,
-          "paragraph": 88,
-          "start": 1031.603,
-          "end": 1053.085,
-          "text": "Help center articles for this section: Shimmer 3 G S R plus: Sensor Placement and Respondent Instructions, P P G, B V P, and Optical Heart Rate, Sensor Preview Window, Collecting Data, Creating Live Markers (During Data Collection), Timestamping and synchronization method, and Export: Data Quality Statistics."
+          "paragraph": 85,
+          "start": 1007.171,
+          "end": 1022.105,
+          "text": "Each recording appears on the study's Recorded Data tab, and the Collecting Data article says \"A red outline indicates that the recorded data is below the expected quality for a given sensor\"; open the replay of any outlined recording."
         },
         {
           "index": 133,
+          "paragraph": 86,
+          "start": 1022.805,
+          "end": 1036.117,
+          "text": "Then click Export on the Recorded Data tab for the data quality statistics, a file ending in DataQuality dot T X T with \"the effective sampling rate\" and the percentage of data obtained for each device."
+        },
+        {
+          "index": 134,
+          "paragraph": 87,
+          "start": 1036.817,
+          "end": 1053.009,
+          "text": "For the Shimmer the rate should sit near the Sample Frequency set for that unit, 128 hertz in this plan; a low percentage can point to a Bluetooth gap, since Bluetooth \"is more susceptible to data loss\" (Timestamping and synchronization method article)."
+        },
+        {
+          "index": 135,
+          "paragraph": 88,
+          "start": 1053.709,
+          "end": 1055.607,
+          "text": "Write any gap into the log that day."
+        },
+        {
+          "index": 136,
           "paragraph": 89,
-          "start": 1053.785,
-          "end": 1071.385,
+          "start": 1056.307,
+          "end": 1077.79,
+          "text": "Help center articles for this section: Shimmer 3 G S R plus: Sensor Placement and Respondent Instructions, P P G, B V P, and Optical Heart Rate, Sensor Preview Window, Collecting Data, Creating Live Markers (During Data Collection), Timestamping and synchronization method, and Export: Data Quality Statistics."
+        },
+        {
+          "index": 137,
+          "paragraph": 90,
+          "start": 1078.49,
+          "end": 1096.09,
           "text": "Place the electrodes and the pulse probe where the article puts them, instruct the respondent, run a logged 5 minute warm up, tell a movement spike from a breathing drift, run two seats with live markers and a log row each, and check every recording and its data quality before the next pair."
         }
       ]
     },
     "numbers": {
       "file": "numbers.mp3",
-      "duration": 899.808,
-      "mp3_duration": 899.856,
+      "duration": 1595.179,
+      "mp3_duration": 1595.232,
       "starts": [
         0.0,
         4.028,
@@ -9298,89 +9434,173 @@
         143.898,
         150.721,
         162.173,
-        170.843,
-        174.329,
-        176.053,
-        179.185,
-        182.125,
-        201.769,
-        208.113,
-        209.487,
-        212.449,
-        214.356,
-        225.829,
-        237.038,
-        241.919,
-        243.293,
-        248.516,
-        251.511,
-        269.406,
-        273.361,
-        284.259,
-        285.377,
-        298.173,
-        306.979,
-        308.247,
-        313.162,
-        315.739,
-        318.052,
-        328.309,
-        347.847,
-        354.691,
-        356.223,
-        371.088,
-        372.441,
-        383.103,
-        393.211,
-        400.013,
-        422.985,
-        432.794,
-        449.793,
-        455.655,
-        470.307,
-        483.786,
-        484.648,
-        489.115,
-        490.063,
-        492.832,
-        507.953,
-        530.776,
-        535.542,
-        536.916,
-        544.037,
-        546.819,
-        560.575,
-        569.629,
-        574.66,
-        588.693,
-        590.887,
-        594.765,
-        614.068,
-        635.419,
-        662.7,
-        664.97,
-        679.11,
-        686.692,
-        688.066,
-        693.523,
-        696.135,
-        709.272,
-        711.849,
-        731.792,
-        748.492,
-        767.24,
-        780.497,
-        782.221,
-        790.259,
-        791.505,
-        800.653,
-        802.561,
-        809.49,
-        822.905,
-        834.037,
-        843.837,
-        849.551,
-        876.363
+        173.241,
+        181.143,
+        184.629,
+        186.353,
+        189.485,
+        192.425,
+        212.069,
+        218.413,
+        219.787,
+        222.749,
+        224.656,
+        236.129,
+        247.338,
+        252.219,
+        253.593,
+        258.816,
+        261.811,
+        279.706,
+        283.661,
+        294.559,
+        295.677,
+        308.473,
+        317.279,
+        318.547,
+        323.462,
+        326.039,
+        328.352,
+        338.609,
+        344.899,
+        361.961,
+        367.632,
+        369.164,
+        384.029,
+        385.382,
+        396.045,
+        406.153,
+        412.954,
+        435.926,
+        445.735,
+        462.734,
+        468.597,
+        483.249,
+        496.727,
+        497.589,
+        502.057,
+        503.004,
+        505.773,
+        520.895,
+        543.717,
+        548.483,
+        549.857,
+        556.979,
+        559.761,
+        573.517,
+        582.571,
+        587.601,
+        601.635,
+        603.828,
+        607.707,
+        627.009,
+        637.864,
+        653.839,
+        681.12,
+        683.74,
+        703.939,
+        711.521,
+        712.895,
+        718.352,
+        720.963,
+        734.101,
+        737.361,
+        753.058,
+        759.723,
+        767.804,
+        784.824,
+        791.19,
+        797.693,
+        810.617,
+        815.489,
+        821.245,
+        835.471,
+        852.981,
+        862.185,
+        863.909,
+        876.171,
+        877.417,
+        886.565,
+        888.473,
+        895.402,
+        897.352,
+        903.718,
+        907.319,
+        909.483,
+        916.263,
+        930.765,
+        945.14,
+        957.189,
+        966.435,
+        977.077,
+        987.825,
+        996.119,
+        1009.534,
+        1020.666,
+        1029.784,
+        1035.497,
+        1036.359,
+        1044.005,
+        1049.185,
+        1068.296,
+        1080.921,
+        1094.528,
+        1128.096,
+        1153.265,
+        1154.511,
+        1161.377,
+        1184.327,
+        1187.28,
+        1188.654,
+        1193.279,
+        1194.675,
+        1199.099,
+        1208.823,
+        1217.259,
+        1218.633,
+        1221.253,
+        1222.733,
+        1244.737,
+        1246.461,
+        1251.854,
+        1253.399,
+        1257.29,
+        1273.491,
+        1275.215,
+        1284.661,
+        1286.099,
+        1301.925,
+        1311.725,
+        1313.099,
+        1315.207,
+        1317.115,
+        1339.873,
+        1341.247,
+        1345.062,
+        1346.671,
+        1352.832,
+        1367.411,
+        1369.135,
+        1374.806,
+        1376.935,
+        1402.169,
+        1403.543,
+        1412.691,
+        1414.393,
+        1441.76,
+        1443.134,
+        1446.266,
+        1448.109,
+        1460.052,
+        1483.344,
+        1501.507,
+        1503.231,
+        1514.299,
+        1515.332,
+        1522.53,
+        1533.449,
+        1544.922,
+        1571.734
       ],
       "sentences": [
         {
@@ -9562,592 +9782,1180 @@
           "index": 25,
           "paragraph": 14,
           "start": 162.173,
-          "end": 170.493,
-          "text": "Copy every value from your panel into the plan before the first export, keep the values constant, and never change them after seeing results."
+          "end": 172.541,
+          "text": "Every Sensor Data export, however, records the values the flow used in its header (7.5), which is how the lab read them when the panel would not open."
         },
         {
           "index": 26,
-          "paragraph": 14,
-          "start": 170.843,
-          "end": 173.979,
-          "text": "You should see the parameter list under the notebook's description."
+          "paragraph": 15,
+          "start": 173.241,
+          "end": 180.793,
+          "text": "Copy every value into the plan before the first export, keep the values constant, and never change them after seeing results."
         },
         {
           "index": 27,
-          "paragraph": 14,
-          "start": 174.329,
-          "end": 175.353,
-          "text": "Common mistake."
+          "paragraph": 15,
+          "start": 181.143,
+          "end": 184.279,
+          "text": "You should see the parameter list under the notebook's description."
         },
         {
           "index": 28,
           "paragraph": 15,
-          "start": 176.053,
-          "end": 178.485,
-          "text": "Writing \"default settings\" in the methods."
+          "start": 184.629,
+          "end": 185.653,
+          "text": "Common mistake."
         },
         {
           "index": 29,
           "paragraph": 16,
-          "start": 179.185,
-          "end": 181.425,
-          "text": "G S R Peak Binned Aggregation."
+          "start": 186.353,
+          "end": 188.785,
+          "text": "Writing \"default settings\" in the methods."
         },
         {
           "index": 30,
           "paragraph": 17,
-          "start": 182.125,
-          "end": 201.069,
-          "text": "The G S R Peak Binned Aggregation notebook counts, in each time bin, the respondents with at least one peak; the article gives a Time bin length of 5 seconds and a Time bin overlap of 1 seconds as defaults, and the lab computer shows 5000 milliseconds and 1000 milliseconds."
+          "start": 189.485,
+          "end": 191.725,
+          "text": "G S R Peak Binned Aggregation."
         },
         {
           "index": 31,
           "paragraph": 18,
-          "start": 201.769,
-          "end": 207.763,
-          "text": "It \"can only be executed together with the execution of the G S R Peak Detection R-Notebook.\""
+          "start": 192.425,
+          "end": 211.369,
+          "text": "The G S R Peak Binned Aggregation notebook counts, in each time bin, the respondents with at least one peak; the article gives a Time bin length of 5 seconds and a Time bin overlap of 1 seconds as defaults, and the lab computer shows 5000 milliseconds and 1000 milliseconds."
         },
         {
           "index": 32,
-          "paragraph": 18,
-          "start": 208.113,
-          "end": 209.137,
-          "text": "Common mistake."
+          "paragraph": 19,
+          "start": 212.069,
+          "end": 218.063,
+          "text": "It \"can only be executed together with the execution of the G S R Peak Detection R-Notebook.\""
         },
         {
           "index": 33,
-          "paragraph": 18,
-          "start": 209.487,
-          "end": 211.749,
-          "text": "Adding it without a Peak Detection flow."
+          "paragraph": 19,
+          "start": 218.413,
+          "end": 219.437,
+          "text": "Common mistake."
         },
         {
           "index": 34,
           "paragraph": 19,
-          "start": 212.449,
-          "end": 214.006,
-          "text": "Select the stimuli and add."
+          "start": 219.787,
+          "end": 222.049,
+          "text": "Adding it without a Peak Detection flow."
         },
         {
           "index": 35,
-          "paragraph": 19,
-          "start": 214.356,
-          "end": 225.129,
-          "text": "On the Select Stimuli tab, choose the six periods (baselines, commercials, Recovery periods) and untick the questionnaires, whose typing moves the electrode hand."
+          "paragraph": 20,
+          "start": 222.749,
+          "end": 224.306,
+          "text": "Select the stimuli and add."
         },
         {
           "index": 36,
           "paragraph": 20,
-          "start": 225.829,
-          "end": 236.688,
-          "text": "Processing runs in the Background Jobs window (tabs Job Queue, Completed, and Job Errors), and the status bar counts the jobs next to the Background Jobs button."
+          "start": 224.656,
+          "end": 235.429,
+          "text": "On the Select Stimuli tab, choose the six periods (baselines, commercials, Recovery periods) and untick the questionnaires, whose typing moves the electrode hand."
         },
         {
           "index": 37,
-          "paragraph": 20,
-          "start": 237.038,
-          "end": 241.219,
-          "text": "You should see the count return to 0 and every job under Completed."
+          "paragraph": 21,
+          "start": 236.129,
+          "end": 246.988,
+          "text": "Processing runs in the Background Jobs window (tabs Job Queue, Completed, and Job Errors), and the status bar counts the jobs next to the Background Jobs button."
         },
         {
           "index": 38,
           "paragraph": 21,
-          "start": 241.919,
-          "end": 242.943,
-          "text": "Common mistake."
+          "start": 247.338,
+          "end": 251.519,
+          "text": "You should see the count return to 0 and every job under Completed."
         },
         {
           "index": 39,
-          "paragraph": 21,
-          "start": 243.293,
-          "end": 247.816,
-          "text": "Opening the replay while jobs are still queued, or never checking Job Errors."
+          "paragraph": 22,
+          "start": 252.219,
+          "end": 253.243,
+          "text": "Common mistake."
         },
         {
           "index": 40,
           "paragraph": 22,
-          "start": 248.516,
-          "end": 251.161,
-          "text": "Why these settings: every choice, explained."
+          "start": 253.593,
+          "end": 258.116,
+          "text": "Opening the replay while jobs are still queued, or never checking Job Errors."
         },
         {
           "index": 41,
-          "paragraph": 22,
-          "start": 251.511,
-          "end": 268.706,
-          "text": "The lab ran this exact analysis on a real pilot on October 12, 2026 (one respondent, one Shimmer at 128 hertz, a 60 seconds baseline, a 30 seconds E L F commercial, a 15 seconds recovery, and a questionnaire)."
+          "paragraph": 23,
+          "start": 258.816,
+          "end": 261.461,
+          "text": "Why these settings: every choice, explained."
         },
         {
           "index": 42,
           "paragraph": 23,
-          "start": 269.406,
-          "end": 273.011,
-          "text": "Each choice below says what was picked on the lab computer and why."
+          "start": 261.811,
+          "end": 279.006,
+          "text": "The lab ran this exact analysis on a real pilot on October 12, 2026 (one respondent, one Shimmer at 128 hertz, a 60 seconds baseline, a 30 seconds E L F commercial, a 15 seconds recovery, and a questionnaire)."
         },
         {
           "index": 43,
-          "paragraph": 23,
-          "start": 273.361,
-          "end": 283.559,
-          "text": "The full explanation of every choice, with the help center article and the published research behind it, is in the lab's guide Analysis Choices Explained, Part 2."
+          "paragraph": 24,
+          "start": 279.706,
+          "end": 283.311,
+          "text": "Each choice below says what was picked on the lab computer and why."
         },
         {
           "index": 44,
           "paragraph": 24,
-          "start": 284.259,
-          "end": 285.027,
-          "text": "The device."
+          "start": 283.661,
+          "end": 293.859,
+          "text": "The full explanation of every choice, with the help center article and the published research behind it, is in the lab's guide Analysis Choices Explained, Part 2."
         },
         {
           "index": 45,
-          "paragraph": 24,
-          "start": 285.377,
-          "end": 297.473,
-          "text": "The Devices list offered two entries: \"Shimmer 8956 G S R\" and \"External Events A P I iMotions System Monitor, Sys Load Meter, version 1.\""
+          "paragraph": 25,
+          "start": 294.559,
+          "end": 295.327,
+          "text": "The device."
         },
         {
           "index": 46,
           "paragraph": 25,
-          "start": 298.173,
-          "end": 306.279,
-          "text": "The second is the computer's own processor and memory log, not a body signal, so every G S R flow runs on the Shimmer."
+          "start": 295.677,
+          "end": 307.773,
+          "text": "The Devices list offered two entries: \"Shimmer 8956 G S R\" and \"External Events A P I iMotions System Monitor, Sys Load Meter, version 1.\""
         },
         {
           "index": 47,
           "paragraph": 26,
-          "start": 306.979,
-          "end": 307.897,
-          "text": "The algorithm."
+          "start": 308.473,
+          "end": 316.579,
+          "text": "The second is the computer's own processor and memory log, not a body signal, so every G S R flow runs on the Shimmer."
         },
         {
           "index": 48,
-          "paragraph": 26,
-          "start": 308.247,
-          "end": 312.812,
-          "text": "For the Shimmer, the Algorithm list on the lab computer offers seven notebooks."
+          "paragraph": 27,
+          "start": 317.279,
+          "end": 318.197,
+          "text": "The algorithm."
         },
         {
           "index": 49,
-          "paragraph": 26,
-          "start": 313.162,
-          "end": 315.039,
-          "text": "This study uses three of them."
+          "paragraph": 27,
+          "start": 318.547,
+          "end": 323.112,
+          "text": "For the Shimmer, the Algorithm list on the lab computer offers seven notebooks."
         },
         {
           "index": 50,
           "paragraph": 27,
-          "start": 315.739,
-          "end": 317.702,
-          "text": "The settings inside each notebook."
+          "start": 323.462,
+          "end": 325.339,
+          "text": "This study uses three of them."
         },
         {
           "index": 51,
-          "paragraph": 27,
-          "start": 318.052,
-          "end": 327.609,
-          "text": "Settings decide what counts as a peak, so every value is copied into the plan before the first export, kept the same for every respondent, and reported."
+          "paragraph": 28,
+          "start": 326.039,
+          "end": 328.002,
+          "text": "The settings inside each notebook."
         },
         {
           "index": 52,
           "paragraph": 28,
-          "start": 328.309,
-          "end": 347.147,
-          "text": "On the lab computer the Signal Quality and Binned Aggregation values could be read; the two groups of Peak Detection settings, \"Preprocessing\" and \"Peak detection,\" would not open, so their values must still be read on the lab computer (or from the notebook's HTML report under Reports after processing)."
+          "start": 328.352,
+          "end": 337.909,
+          "text": "Settings decide what counts as a peak, so every value is copied into the plan before the first export, kept the same for every respondent, and reported."
         },
         {
           "index": 53,
           "paragraph": 29,
-          "start": 347.847,
-          "end": 353.991,
-          "text": "The manual's screenshots show the values in the third column; the manual text calls none of them a default."
+          "start": 338.609,
+          "end": 344.199,
+          "text": "On the lab computer the Signal Quality and Binned Aggregation values could be read on screen."
         },
         {
           "index": 54,
           "paragraph": 30,
-          "start": 354.691,
-          "end": 355.523,
-          "text": "The stimuli."
+          "start": 344.899,
+          "end": 361.261,
+          "text": "The two groups of Peak Detection settings, \"Preprocessing\" and \"Peak detection,\" would not open, so the Peak Detection values below were read from the header of the pilot's Sensor Data export, where iMotions writes every setting the flow used (7.5)."
         },
         {
           "index": 55,
           "paragraph": 31,
-          "start": 356.223,
-          "end": 370.388,
-          "text": "The pilot analysis kept the baseline, the commercial, and the recovery, and left out the questionnaire, because typing the answers moves the electrode hand and adds false peaks, and the questionnaire is not a stimulus being tested."
+          "start": 361.961,
+          "end": 366.932,
+          "text": "They match the manual's screenshots, although the manual text calls none of them a default."
         },
         {
           "index": 56,
           "paragraph": 32,
-          "start": 371.088,
-          "end": 372.091,
-          "text": "The flow names."
+          "start": 367.632,
+          "end": 368.464,
+          "text": "The stimuli."
         },
         {
           "index": 57,
-          "paragraph": 32,
-          "start": 372.441,
-          "end": 382.403,
-          "text": "The pilot kept each notebook's name as its flow name; every flow needs a unique name, which matters when two units each get their own flows (7.3)."
+          "paragraph": 33,
+          "start": 369.164,
+          "end": 383.329,
+          "text": "The pilot analysis kept the baseline, the commercial, and the recovery, and left out the questionnaire, because typing the answers moves the electrode hand and adds false peaks, and the questionnaire is not a stimulus being tested."
         },
         {
           "index": 58,
-          "paragraph": 33,
-          "start": 383.103,
-          "end": 392.511,
-          "text": "With both seats' recordings in one study, add a Signal Quality flow and a Peak Detection flow for each unit (\"add the notebook separately for each device\")."
+          "paragraph": 34,
+          "start": 384.029,
+          "end": 385.032,
+          "text": "The flow names."
         },
         {
           "index": 59,
           "paragraph": 34,
-          "start": 393.211,
-          "end": 399.313,
-          "text": "Every Active flow needs a unique name, or the panel warns \"Algorithm flow must have a unique name.\""
+          "start": 385.382,
+          "end": 395.345,
+          "text": "The pilot kept each notebook's name as its flow name; every flow needs a unique name, which matters when two units each get their own flows (7.3)."
         },
         {
           "index": 60,
           "paragraph": 35,
-          "start": 400.013,
-          "end": 422.285,
-          "text": "For example, name the Peak Detection flows G S R Seat1 and G S R Seat2, the Flow Name values in the simulated Peak Table, and the Signal Quality flows SQ Seat1 and SQ Seat2 (the modeled Signal Quality file also shows G S R Seat1 and G S R Seat2; a real file carries the names you give)."
+          "start": 396.045,
+          "end": 405.453,
+          "text": "With both seats' recordings in one study, add a Signal Quality flow and a Peak Detection flow for each unit (\"add the notebook separately for each device\")."
         },
         {
           "index": 61,
           "paragraph": 36,
-          "start": 422.985,
-          "end": 432.094,
-          "text": "Then add one Binned Aggregation with Multiple device aggregation ticked, since it \"is not ticked by default,\" so that the bins pool both units."
+          "start": 406.153,
+          "end": 412.254,
+          "text": "Every Active flow needs a unique name, or the panel warns \"Algorithm flow must have a unique name.\""
         },
         {
           "index": 62,
           "paragraph": 37,
-          "start": 432.794,
-          "end": 449.093,
-          "text": "On the lab computer in 11 point 1 the box carries a different label, \"Consider multiple device as different respondents,\" and was unticked with one unit (the panel is pictured in 7.2); test what it does in a two-unit pilot before relying on it."
+          "start": 412.954,
+          "end": 435.226,
+          "text": "For example, name the Peak Detection flows G S R Seat1 and G S R Seat2, the Flow Name values in the simulated Peak Table, and the Signal Quality flows SQ Seat1 and SQ Seat2 (the modeled Signal Quality file also shows G S R Seat1 and G S R Seat2; a real file carries the names you give)."
         },
         {
           "index": 63,
           "paragraph": 38,
-          "start": 449.793,
-          "end": 454.955,
-          "text": "If the seats were recorded on two computers, the recordings must first come into one study."
+          "start": 435.926,
+          "end": 445.035,
+          "text": "Then add one Binned Aggregation with Multiple device aggregation ticked, since it \"is not ticked by default,\" so that the bins pool both units."
         },
         {
           "index": 64,
           "paragraph": 39,
-          "start": 455.655,
-          "end": 469.607,
-          "text": "The Library's right-click menu offers Merge with another study, which no article in this workshop describes, so test it in the pilot; the fallback is to run the notebooks on each computer and combine the exports in R."
+          "start": 445.735,
+          "end": 462.034,
+          "text": "On the lab computer in 11 point 1 the box carries a different label, \"Consider multiple device as different respondents,\" and was unticked with one unit (the panel is pictured in 7.2); test what it does in a two-unit pilot before relying on it."
         },
         {
           "index": 65,
           "paragraph": 40,
-          "start": 470.307,
-          "end": 483.086,
-          "text": "A notebook can also run twice on one device with a second parameter set (iMotions 9.3.12 and later, again with unique flow names), reported as secondary to the planned one."
+          "start": 462.734,
+          "end": 467.897,
+          "text": "If the seats were recorded on two computers, the recordings must first come into one study."
         },
         {
           "index": 66,
           "paragraph": 41,
-          "start": 483.786,
-          "end": 484.298,
-          "text": "Why."
+          "start": 468.597,
+          "end": 482.549,
+          "text": "The Library's right-click menu offers Merge with another study, which no article in this workshop describes, so test it in the pilot; the fallback is to run the notebooks on each computer and combine the exports in R."
         },
         {
           "index": 67,
-          "paragraph": 41,
-          "start": 484.648,
-          "end": 488.765,
-          "text": "No number should leave iMotions from a recording nobody has looked at."
+          "paragraph": 42,
+          "start": 483.249,
+          "end": 496.027,
+          "text": "A notebook can also run twice on one device with a second parameter set (iMotions 9.3.12 and later, again with unique flow names), reported as secondary to the planned one."
         },
         {
           "index": 68,
-          "paragraph": 41,
-          "start": 489.115,
-          "end": 489.713,
-          "text": "How."
+          "paragraph": 43,
+          "start": 496.727,
+          "end": 497.239,
+          "text": "Why."
         },
         {
           "index": 69,
-          "paragraph": 41,
-          "start": 490.063,
-          "end": 492.132,
-          "text": "Open the analysis and click Replay."
+          "paragraph": 43,
+          "start": 497.589,
+          "end": 501.707,
+          "text": "No number should leave iMotions from a recording nobody has looked at."
         },
         {
           "index": 70,
-          "paragraph": 42,
-          "start": 492.832,
-          "end": 507.253,
-          "text": "From the Signals menu, show the Shimmer's skin conductance, P P G, and beats per minute traces and, after processing, the notebook's signals (Tonic Signal, Phasic Signal, Peak Detected, and the others in section 06)."
+          "paragraph": 43,
+          "start": 502.057,
+          "end": 502.654,
+          "text": "How."
         },
         {
           "index": 71,
           "paragraph": 43,
-          "start": 507.953,
-          "end": 530.076,
-          "text": "The Markers menu lists the analysis markers G S R Peak Onset, G S R Peak, and G S R Peak Offset (iMotions 9.3.12 and later), the Signals menu holds the metrics box shown in section 06, and Reports gives an HTML readout with the R code, the source of the graph in section 00."
+          "start": 503.004,
+          "end": 505.073,
+          "text": "Open the analysis and click Replay."
         },
         {
           "index": 72,
           "paragraph": 44,
-          "start": 530.776,
-          "end": 535.192,
-          "text": "You should see peak markers on the rises of the signal and a regular pulse."
+          "start": 505.773,
+          "end": 520.195,
+          "text": "From the Signals menu, show the Shimmer's skin conductance, P P G, and beats per minute traces and, after processing, the notebook's signals (Tonic Signal, Phasic Signal, Peak Detected, and the others in section 06)."
         },
         {
           "index": 73,
-          "paragraph": 44,
-          "start": 535.542,
-          "end": 536.566,
-          "text": "Common mistake."
+          "paragraph": 45,
+          "start": 520.895,
+          "end": 543.017,
+          "text": "The Markers menu lists the analysis markers G S R Peak Onset, G S R Peak, and G S R Peak Offset (iMotions 9.3.12 and later), the Signals menu holds the metrics box shown in section 06, and Reports gives an HTML readout with the R code, the source of the graph in section 00."
         },
         {
           "index": 74,
-          "paragraph": 44,
-          "start": 536.916,
-          "end": 543.337,
-          "text": "Blaming a peak on the frame on screen at that instant; a peak follows its cause by one to a few seconds."
+          "paragraph": 46,
+          "start": 543.717,
+          "end": 548.133,
+          "text": "You should see peak markers on the rises of the signal and a regular pulse."
         },
         {
           "index": 75,
-          "paragraph": 45,
-          "start": 544.037,
-          "end": 546.469,
-          "text": "The aggregate view shows the binned count."
+          "paragraph": 46,
+          "start": 548.483,
+          "end": 549.507,
+          "text": "Common mistake."
         },
         {
           "index": 76,
-          "paragraph": 45,
-          "start": 546.819,
-          "end": 559.875,
-          "text": "A respondent scores 1 in a bin that holds at least one peak, however many or large, and the scores add across respondents; the article's example reads \"10 out of 29 respondents had a response.\""
+          "paragraph": 46,
+          "start": 549.857,
+          "end": 556.279,
+          "text": "Blaming a peak on the frame on screen at that instant; a peak follows its cause by one to a few seconds."
         },
         {
           "index": 77,
-          "paragraph": 46,
-          "start": 560.575,
-          "end": 569.279,
-          "text": "The curve therefore shows how consistently a moment produced peaks across people, not how strong they were, and it lags its causes like every peak."
+          "paragraph": 47,
+          "start": 556.979,
+          "end": 559.411,
+          "text": "The aggregate view shows the binned count."
         },
         {
           "index": 78,
-          "paragraph": 46,
-          "start": 569.629,
-          "end": 573.96,
-          "text": "The moment to moment percentages in section 08 come from this count."
+          "paragraph": 47,
+          "start": 559.761,
+          "end": 572.817,
+          "text": "A respondent scores 1 in a bin that holds at least one peak, however many or large, and the scores add across respondents; the article's example reads \"10 out of 29 respondents had a response.\""
         },
         {
           "index": 79,
-          "paragraph": 47,
-          "start": 574.66,
-          "end": 587.993,
-          "text": "With one pilot respondent, the lab computer's Aggregate view of the commercial listed no signals at all after the Binned Aggregation flow ran, so check the binned result with at least two respondents before relying on it."
+          "paragraph": 48,
+          "start": 573.517,
+          "end": 582.221,
+          "text": "The curve therefore shows how consistently a moment produced peaks across people, not how strong they were, and it lags its causes like every peak."
         },
         {
           "index": 80,
           "paragraph": 48,
-          "start": 588.693,
-          "end": 590.187,
-          "text": "Five exports matter here."
+          "start": 582.571,
+          "end": 586.901,
+          "text": "The moment to moment percentages in section 08 come from this count."
         },
         {
           "index": 81,
           "paragraph": 49,
-          "start": 590.887,
-          "end": 594.065,
-          "text": "G S R Metrics Export, the file for the tests."
+          "start": 587.601,
+          "end": 600.935,
+          "text": "With one pilot respondent, the lab computer's Aggregate view of the commercial listed no signals at all after the Binned Aggregation flow ran, so check the binned result with at least two respondents before relying on it."
         },
         {
           "index": 82,
           "paragraph": 50,
-          "start": 594.765,
-          "end": 613.368,
-          "text": "In the analysis click Export, open the R Processing tab (Individual metrics exports), switch on G S R Metrics Export, tick Peak metrics, Peak table, and Moment to moment statistics (the last is unticked when the switch is turned on), and click Export individual files."
+          "start": 601.635,
+          "end": 603.128,
+          "text": "Five exports matter here."
         },
         {
           "index": 83,
           "paragraph": 51,
-          "start": 614.068,
-          "end": 634.719,
-          "text": "Exports land by default in Documents\\iMotions\\Export\\ under the study name, in an Analyses folder; on October 12, 2026 that folder was created on the lab computer but no files arrived and no save window appeared, so confirm the file names on the lab machine."
+          "start": 603.828,
+          "end": 607.007,
+          "text": "G S R Metrics Export, the file for the tests."
         },
         {
           "index": 84,
           "paragraph": 52,
-          "start": 635.419,
-          "end": 662.0,
-          "text": "The Peak Metrics file has one row per respondent and stimulus with Has Peaks, Peak Count, Peaks Per Minute, Average Peak Amplitude (microsiemens), and Signal Duration (milliseconds) (section 03); the Peak Table has one row per peak, with times \"relative to the start of the study\"; Moment To Moment Statistics gives one file per stimulus, bins labeled like \"1[0-5s],\" the overlap \"not shown in the export file.\""
+          "start": 607.707,
+          "end": 626.309,
+          "text": "In the analysis click Export, open the R Processing tab (Individual metrics exports), switch on G S R Metrics Export, tick Peak metrics, Peak table, and Moment to moment statistics (the last is unticked when the switch is turned on), and click Export individual files."
         },
         {
           "index": 85,
           "paragraph": 53,
-          "start": 662.7,
-          "end": 664.62,
-          "text": "A METADATA block heads each file."
+          "start": 627.009,
+          "end": 637.164,
+          "text": "Exports land in Documents\\iMotions\\Export\\, in a folder named for the study, then Analyses, then the analysis."
         },
         {
           "index": 86,
-          "paragraph": 53,
-          "start": 664.97,
-          "end": 678.41,
-          "text": "The manuals also call the files G S R Summary Scores, Peaks Per Respondent, and Moment To Moment Per Respondent and mention both dot T X T and dot C S V; verify on the lab machine."
+          "paragraph": 54,
+          "start": 637.864,
+          "end": 653.139,
+          "text": "On the lab computer the first try on October 12, 2026 wrote nothing, and the second wrote G S R Peak Metrics dot C S V and G S R Peak Table dot C S V there (7.7 uses both)."
         },
         {
           "index": 87,
-          "paragraph": 54,
-          "start": 679.11,
-          "end": 686.342,
-          "text": "You should see, on every Peak Metrics row, Peaks Per Minute equal to Peak Count divided by Signal Duration in minutes."
+          "paragraph": 55,
+          "start": 653.839,
+          "end": 680.42,
+          "text": "The Peak Metrics file has one row per respondent and stimulus with Has Peaks, Peak Count, Peaks Per Minute, Average Peak Amplitude (microsiemens), and Signal Duration (milliseconds) (section 03); the Peak Table has one row per peak, with times \"relative to the start of the study\"; Moment To Moment Statistics gives one file per stimulus, bins labeled like \"1[0-5s],\" the overlap \"not shown in the export file.\""
         },
         {
           "index": 88,
-          "paragraph": 54,
-          "start": 686.692,
-          "end": 687.716,
-          "text": "Common mistake."
+          "paragraph": 56,
+          "start": 681.12,
+          "end": 683.04,
+          "text": "A METADATA block heads each file."
         },
         {
           "index": 89,
-          "paragraph": 54,
-          "start": 688.066,
-          "end": 692.823,
-          "text": "Testing hypotheses on the Moment To Moment counts, which pool respondents."
+          "paragraph": 57,
+          "start": 683.74,
+          "end": 703.239,
+          "text": "The manuals also call the files G S R Summary Scores, Peaks Per Respondent, and Moment To Moment Per Respondent and mention both dot T X T and dot C S V; in 11 point 1 on the lab computer they are dot C S V files with the names above, each headed by a Metadata block."
         },
         {
           "index": 90,
-          "paragraph": 55,
-          "start": 693.523,
-          "end": 695.785,
-          "text": "G S R Signal Quality Export."
+          "paragraph": 58,
+          "start": 703.939,
+          "end": 711.171,
+          "text": "You should see, on every Peak Metrics row, Peaks Per Minute equal to Peak Count divided by Signal Duration in minutes."
         },
         {
           "index": 91,
-          "paragraph": 55,
-          "start": 696.135,
-          "end": 708.572,
-          "text": "On the same tab, a dot T X T file with S N R and Signal missing per stimulus and respondent, the input for the exclusion rule; compare its layout with the modeled simulated file."
-        },
-        {
-          "index": 92,
-          "paragraph": 56,
-          "start": 709.272,
-          "end": 711.149,
-          "text": "Sensor data, for heart rate."
-        },
-        {
-          "index": 93,
-          "paragraph": 57,
-          "start": 711.849,
-          "end": 731.092,
-          "text": "Click the study, then the Export tab, Sensor data, and the blue Export button (or right-click the study or analysis, then Export, then Sensor data): one dot C S V per respondent with no \"down-sampling, filtering, smoothing,\" starting with columns such as Row, Timestamp, and SourceStimuliName."
-        },
-        {
-          "index": 94,
           "paragraph": 58,
-          "start": 731.792,
-          "end": 747.792,
-          "text": "The manuals name the skin conductance channels \"G S R Conductance, C A L\" and \"G S R Resistance C A L\" but no P P G or heart rate column, although their replay screenshots label the signal Heart Rate (beats per minute)."
-        },
-        {
-          "index": 95,
-          "paragraph": 59,
-          "start": 748.492,
-          "end": 766.54,
-          "text": "Mean heart rate per stimulus is the average of the beats per minute column over that stimulus's rows, which is what the simulated Mean P P G Heart Rate (beats per minute) stands for; find the real column in a pilot export and note its name and units (verify on the lab machine)."
-        },
-        {
-          "index": 96,
-          "paragraph": 60,
-          "start": 767.24,
-          "end": 780.147,
-          "text": "For the notebook's signals, the File info page offers \"Processed and imported data,\" while the peak article says to tick \"R Analysis (Active flows name given by the user)\"; verify which appears."
-        },
-        {
-          "index": 97,
-          "paragraph": 60,
-          "start": 780.497,
-          "end": 781.521,
+          "start": 711.521,
+          "end": 712.545,
           "text": "Common mistake."
         },
         {
-          "index": 98,
+          "index": 92,
+          "paragraph": 58,
+          "start": 712.895,
+          "end": 717.652,
+          "text": "Testing hypotheses on the Moment To Moment counts, which pool respondents."
+        },
+        {
+          "index": 93,
+          "paragraph": 59,
+          "start": 718.352,
+          "end": 720.613,
+          "text": "G S R Signal Quality Export."
+        },
+        {
+          "index": 94,
+          "paragraph": 59,
+          "start": 720.963,
+          "end": 733.401,
+          "text": "On the same tab, a dot T X T file with S N R and Signal missing per stimulus and respondent, the input for the exclusion rule; compare its layout with the modeled simulated file."
+        },
+        {
+          "index": 95,
+          "paragraph": 60,
+          "start": 734.101,
+          "end": 736.661,
+          "text": "Sensor data, for heart rate and for checking."
+        },
+        {
+          "index": 96,
           "paragraph": 61,
-          "start": 782.221,
-          "end": 789.559,
-          "text": "Computing heart rate variability from this column: \"P P G signals are not recommended for H R V analysis.\""
+          "start": 737.361,
+          "end": 752.358,
+          "text": "Click the study, then the Export tab, Sensor data, and the blue Export button (or right-click the study or analysis, then Export, then Sensor data): one dot C S V per respondent with no \"down-sampling, filtering, smoothing.\""
+        },
+        {
+          "index": 97,
+          "paragraph": 62,
+          "start": 753.058,
+          "end": 759.373,
+          "text": "To include the notebook's signals, switch on its R Analysis group on the Sensors page (pictured below)."
+        },
+        {
+          "index": 98,
+          "paragraph": 62,
+          "start": 759.723,
+          "end": 767.104,
+          "text": "The pilot file, 0 0 1, underscore, Pilot 0 1, dot C S V, opened with three blocks."
         },
         {
           "index": 99,
-          "paragraph": 62,
-          "start": 790.259,
-          "end": 791.155,
-          "text": "Survey data."
+          "paragraph": 63,
+          "start": 767.804,
+          "end": 784.124,
+          "text": "Info names the study and the respondent, gives the respondent's age, gender, and group, the iMotions version, the recording and export times, and one sensor info row per device and notebook; the Peak Detection row lists every setting the flow used."
         },
         {
           "index": 100,
-          "paragraph": 62,
-          "start": 791.505,
-          "end": 799.953,
-          "text": "The arousal and liking ratings come from the survey export (Export: Survey data article; Workshop 2, section 07)."
+          "paragraph": 64,
+          "start": 784.824,
+          "end": 790.84,
+          "text": "Metadata gives eleven rows about each column, among them Description, Unit, and Data format."
         },
         {
           "index": 101,
-          "paragraph": 63,
-          "start": 800.653,
-          "end": 802.211,
-          "text": "Data Quality Statistics."
+          "paragraph": 64,
+          "start": 791.19,
+          "end": 796.993,
+          "text": "Then come the data: 43 columns, starting with Row, Timestamp, and the stimulus columns."
         },
         {
           "index": 102,
-          "paragraph": 63,
-          "start": 802.561,
-          "end": 808.79,
-          "text": "The DataQuality dot T X T file from section 05, filed for the methods paragraph."
+          "paragraph": 65,
+          "start": 797.693,
+          "end": 809.917,
+          "text": "Rows from different devices are interleaved: the Shimmer and the notebook's output share rows, but the System Load Monitor and the slide events have rows of their own, where the Shimmer columns are empty."
         },
         {
           "index": 103,
-          "paragraph": 64,
-          "start": 809.49,
-          "end": 822.205,
-          "text": "Open every export through Excel's Text Import Wizard, never by double-clicking: the files are comma separated with a dot as the decimal mark, and a double-click applies the computer's regional settings."
+          "paragraph": 66,
+          "start": 810.617,
+          "end": 815.139,
+          "text": "So first keep only the rows where the Shimmer's Event Source column reads 1."
         },
         {
           "index": 104,
-          "paragraph": 65,
-          "start": 822.905,
-          "end": 833.337,
-          "text": "Choose File, then Open, then Browse, the file type All Files, then Delimited, Comma, and Advanced to set the dot as the decimal separator, then Finish."
+          "paragraph": 66,
+          "start": 815.489,
+          "end": 820.545,
+          "text": "Heart rate is the column Heart Rate P P G, A L G, in beats per minute."
         },
         {
           "index": 105,
-          "paragraph": 66,
-          "start": 834.037,
-          "end": 843.487,
-          "text": "Start the import at the header row, below the METADATA block of a G S R file or the #INFO and #METADATA blocks of a Sensor data file."
+          "paragraph": 67,
+          "start": 821.245,
+          "end": 834.771,
+          "text": "Mean heart rate per stimulus is its average over that stimulus's Shimmer rows after every minus 1 and 0 is removed, which is what the simulated Mean P P G Heart Rate (beats per minute) stands for."
         },
         {
           "index": 106,
-          "paragraph": 66,
-          "start": 843.837,
-          "end": 848.851,
-          "text": "Save a working copy as dot X L S X and keep the original unchanged."
+          "paragraph": 68,
+          "start": 835.471,
+          "end": 852.281,
+          "text": "Because Info names the respondent and gives age and gender, a real participant's file is identifiable data and never goes in a public folder; the pilot file is the lab director's own recording, shared in 7.7 with his permission as practice data."
         },
         {
           "index": 107,
-          "paragraph": 67,
-          "start": 849.551,
-          "end": 875.663,
-          "text": "Help center articles for this section: Analysis Overview, G S R R-Notebooks: G S R Signal Quality, G S R R-Notebooks: Peak Detection and Aggregation, Replay and Analysis Windows, Export: R Processed G S R Files, Export: Sensor Data, Export: Survey data, Opening Data Export Files in Excel, and the manual Adding the same R-notebook multiple times to an Analysis (P D F)."
+          "paragraph": 69,
+          "start": 852.981,
+          "end": 861.835,
+          "text": "You should see a Shimmer row about every 7.8 milliseconds (128 per second) and Packet reception rate near 100."
         },
         {
           "index": 108,
-          "paragraph": 68,
-          "start": 876.363,
-          "end": 899.808,
+          "paragraph": 69,
+          "start": 862.185,
+          "end": 863.209,
+          "text": "Common mistake."
+        },
+        {
+          "index": 109,
+          "paragraph": 70,
+          "start": 863.909,
+          "end": 875.471,
+          "text": "Averaging a whole column, including the minus 1 codes, or computing heart rate variability from this column: \"P P G signals are not recommended for H R V analysis.\""
+        },
+        {
+          "index": 110,
+          "paragraph": 71,
+          "start": 876.171,
+          "end": 877.067,
+          "text": "Survey data."
+        },
+        {
+          "index": 111,
+          "paragraph": 71,
+          "start": 877.417,
+          "end": 885.865,
+          "text": "The arousal and liking ratings come from the survey export (Export: Survey data article; Workshop 2, section 07)."
+        },
+        {
+          "index": 112,
+          "paragraph": 72,
+          "start": 886.565,
+          "end": 888.123,
+          "text": "Data Quality Statistics."
+        },
+        {
+          "index": 113,
+          "paragraph": 72,
+          "start": 888.473,
+          "end": 894.702,
+          "text": "The DataQuality dot T X T file from section 05, filed for the methods paragraph."
+        },
+        {
+          "index": 114,
+          "paragraph": 73,
+          "start": 895.402,
+          "end": 897.002,
+          "text": "What the pilot export showed."
+        },
+        {
+          "index": 115,
+          "paragraph": 73,
+          "start": 897.352,
+          "end": 903.368,
+          "text": "The October 12 pilot is one respondent, so its numbers describe the recording and test nothing."
+        },
+        {
+          "index": 116,
+          "paragraph": 73,
+          "start": 903.718,
+          "end": 906.619,
+          "text": "Its value is in what it taught about reading the file."
+        },
+        {
+          "index": 117,
+          "paragraph": 74,
+          "start": 907.319,
+          "end": 909.133,
+          "text": "Four lessons came out of the file."
+        },
+        {
+          "index": 118,
+          "paragraph": 74,
+          "start": 909.483,
+          "end": 915.563,
+          "text": "First, the Peak Detection settings are in the header, so the methods section can be written from the file itself."
+        },
+        {
+          "index": 119,
+          "paragraph": 75,
+          "start": 916.263,
+          "end": 930.065,
+          "text": "Second, the heart rate column read minus 1 for about 2 seconds of the baseline, and the I B I column reads minus 1 on every row except the one where a beat lands; averaging without removing them gives a wrong answer."
+        },
+        {
+          "index": 120,
+          "paragraph": 76,
+          "start": 930.765,
+          "end": 944.44,
+          "text": "Third, at about 19.5 seconds the skin conductance fell from about 1.8 to as low as 0.2 microsiemens and came back about one second later, while the accelerometer showed no movement."
+        },
+        {
+          "index": 121,
+          "paragraph": 77,
+          "start": 945.14,
+          "end": 956.489,
+          "text": "A published quality rule treats skin conductance that changes faster than 10 microsiemens per second as invalid, together with 5 seconds on either side (Kleckner and colleagues"
+        },
+        {
+          "index": 122,
+          "paragraph": 78,
+          "start": 957.189,
+          "end": 966.085,
+          "text": ", 2018); here one step fell 0.64 microsiemens within a single sample, about 80 microsiemens per second."
+        },
+        {
+          "index": 123,
+          "paragraph": 78,
+          "start": 966.435,
+          "end": 976.377,
+          "text": "By that rule the stretch is an artifact, and the one peak inside it, counted the moment the signal returned, is set aside; no other pilot peak was flagged."
+        },
+        {
+          "index": 124,
+          "paragraph": 79,
+          "start": 977.077,
+          "end": 987.125,
+          "text": "Fourth, the commercial's rate equaled the baseline's, and the slow tonic level drifted upward through the session; with one person, neither says anything about the commercial."
+        },
+        {
+          "index": 125,
+          "paragraph": 80,
+          "start": 987.825,
+          "end": 995.419,
+          "text": "The plan for the real study should name its artifact rule in advance, so the decision is never made after the results are seen."
+        },
+        {
+          "index": 126,
+          "paragraph": 81,
+          "start": 996.119,
+          "end": 1008.834,
+          "text": "Open every export through Excel's Text Import Wizard, never by double-clicking: the files are comma separated with a dot as the decimal mark, and a double-click applies the computer's regional settings."
+        },
+        {
+          "index": 127,
+          "paragraph": 82,
+          "start": 1009.534,
+          "end": 1019.966,
+          "text": "Choose File, then Open, then Browse, the file type All Files, then Delimited, Comma, and Advanced to set the dot as the decimal separator, then Finish."
+        },
+        {
+          "index": 128,
+          "paragraph": 83,
+          "start": 1020.666,
+          "end": 1029.434,
+          "text": "Start the import at the header row, below the METADATA block of a G S R file or the Info and Metadata blocks of a Sensor data file."
+        },
+        {
+          "index": 129,
+          "paragraph": 83,
+          "start": 1029.784,
+          "end": 1034.797,
+          "text": "Save a working copy as dot X L S X and keep the original unchanged."
+        },
+        {
+          "index": 130,
+          "paragraph": 84,
+          "start": 1035.497,
+          "end": 1036.009,
+          "text": "Why."
+        },
+        {
+          "index": 131,
+          "paragraph": 84,
+          "start": 1036.359,
+          "end": 1043.655,
+          "text": "The worked example and the tests in section 08 use simulated files, so every number is known in advance."
+        },
+        {
+          "index": 132,
+          "paragraph": 84,
+          "start": 1044.005,
+          "end": 1048.485,
+          "text": "A real export is messier, and the only way to learn it is to open one."
+        },
+        {
+          "index": 133,
+          "paragraph": 85,
+          "start": 1049.185,
+          "end": 1067.596,
+          "text": "The lab director's pilot recording of October 12, 2026 is shared here with his permission as practice data: one respondent, one Shimmer at 128 hertz, a 60 seconds baseline, a 30 seconds E L F commercial, and a 15 seconds recovery."
+        },
+        {
+          "index": 134,
+          "paragraph": 86,
+          "start": 1068.296,
+          "end": 1080.221,
+          "text": "One respondent tests nothing; the exercise is about reading the file correctly, and every step below is done twice, once in R and once in Excel, so the two can be checked against each other."
+        },
+        {
+          "index": 135,
+          "paragraph": 87,
+          "start": 1080.921,
+          "end": 1093.828,
+          "text": "The files sit in the folder pilot of this workshop's data: 0 0 1, underscore, Pilot 0 1, dot C S V (the export itself, 4.9 MB), pilot analysis."
+        },
+        {
+          "index": 136,
+          "paragraph": 88,
+          "start": 1094.528,
+          "end": 1127.396,
+          "text": "R (base R, no packages to install), pilot analysis output dot T X T (what the script prints), pilot G S R H R workbook dot X L S X (the same steps as live Excel formulas, with a Check sheet that compares the workbook with the script), and the script's outputs pilot codebook dot C S V, pilot peak table dot C S V, pilot summary by stimulus dot C S V, pilot peak detection settings dot C S V, and pilot figure R dot P N G."
+        },
+        {
+          "index": 137,
+          "paragraph": 89,
+          "start": 1128.096,
+          "end": 1152.565,
+          "text": "iMotions' own results for the same analysis sit beside them: G S R Peak Metrics dot C S V and G S R Peak Table dot C S V from the G S R Metrics Export, and 0 0 1, Pilot 0 1, peak detection only, dot C S V, a second Sensor Data export of the analysis that holds only the G S R Peak Detection signals."
+        },
+        {
+          "index": 138,
+          "paragraph": 90,
+          "start": 1153.265,
+          "end": 1154.161,
+          "text": "Read the header."
+        },
+        {
+          "index": 139,
+          "paragraph": 90,
+          "start": 1154.511,
+          "end": 1160.677,
+          "text": "Import the file as 7.6 describes, or run the script from the folder that holds the file."
+        },
+        {
+          "index": 140,
+          "paragraph": 91,
+          "start": 1161.377,
+          "end": 1183.627,
+          "text": "You should see the study \"W4 Pilot - Shimmer test\", version 11 point 1, build 4 7 1 3 6, and three sensor info rows: the System Load Monitor, R Analysis G S R Peak Detection, and Shimmer 8956 G S R (sample rate 128, latency 28 milliseconds)."
+        },
+        {
+          "index": 141,
+          "paragraph": 92,
+          "start": 1184.327,
+          "end": 1186.93,
+          "text": "The data table starts on line 29."
+        },
+        {
+          "index": 142,
+          "paragraph": 92,
+          "start": 1187.28,
+          "end": 1188.304,
+          "text": "Common mistake."
+        },
+        {
+          "index": 143,
+          "paragraph": 92,
+          "start": 1188.654,
+          "end": 1192.579,
+          "text": "Starting the import at line 1, so that header rows become data."
+        },
+        {
+          "index": 144,
+          "paragraph": 93,
+          "start": 1193.279,
+          "end": 1194.325,
+          "text": "Build the codebook."
+        },
+        {
+          "index": 145,
+          "paragraph": 93,
+          "start": 1194.675,
+          "end": 1198.749,
+          "text": "The Metadata rows give every column a unit and a data format."
+        },
+        {
+          "index": 146,
+          "paragraph": 93,
+          "start": 1199.099,
+          "end": 1208.123,
+          "text": "You should see G S R Conductance, C A L in Micro Siemens (Calibrated), Heart Rate P P G, A L G in Beats pr."
+        },
+        {
+          "index": 147,
+          "paragraph": 94,
+          "start": 1208.823,
+          "end": 1216.909,
+          "text": "minute (Algorithm), I B I P P G A L G in Millisecond (Algorithm), and every raw channel with the unit Index."
+        },
+        {
+          "index": 148,
+          "paragraph": 94,
+          "start": 1217.259,
+          "end": 1218.283,
+          "text": "Common mistake."
+        },
+        {
+          "index": 149,
+          "paragraph": 94,
+          "start": 1218.633,
+          "end": 1220.553,
+          "text": "Guessing a unit from a column name."
+        },
+        {
+          "index": 150,
+          "paragraph": 95,
+          "start": 1221.253,
+          "end": 1222.383,
+          "text": "Filter by device."
+        },
+        {
+          "index": 151,
+          "paragraph": 95,
+          "start": 1222.733,
+          "end": 1244.387,
+          "text": "You should see 13,426 Shimmer rows, 13,466 Peak Detection rows (13,426 shared with the Shimmer and 40 of its own where short gaps were filled), 100 System Load rows, and 12 slide event rows, 13,578 in all."
+        },
+        {
+          "index": 152,
+          "paragraph": 95,
+          "start": 1244.737,
+          "end": 1245.761,
+          "text": "Common mistake."
+        },
+        {
+          "index": 153,
+          "paragraph": 96,
+          "start": 1246.461,
+          "end": 1251.154,
+          "text": "Averaging a column over all 13,578 rows."
+        },
+        {
+          "index": 154,
+          "paragraph": 97,
+          "start": 1251.854,
+          "end": 1253.049,
+          "text": "Find the stimuli."
+        },
+        {
+          "index": 155,
+          "paragraph": 97,
+          "start": 1253.399,
+          "end": 1256.94,
+          "text": "The slide event rows mark StartMedia and EndMedia."
+        },
+        {
+          "index": 156,
+          "paragraph": 97,
+          "start": 1257.29,
+          "end": 1273.141,
+          "text": "You should see the baseline from 0.17 to 60.18 seconds, the commercial from 60.22 to 90.29 seconds, and the recovery from 90.36 to 105.37 seconds."
+        },
+        {
+          "index": 157,
+          "paragraph": 97,
+          "start": 1273.491,
+          "end": 1274.515,
+          "text": "Common mistake."
+        },
+        {
+          "index": 158,
+          "paragraph": 98,
+          "start": 1275.215,
+          "end": 1283.961,
+          "text": "Using SourceStimuliName alone, which also labels 13 Shimmer rows recorded just before a video started or just after it ended."
+        },
+        {
+          "index": 159,
+          "paragraph": 99,
+          "start": 1284.661,
+          "end": 1285.749,
+          "text": "Clean heart rate."
+        },
+        {
+          "index": 160,
+          "paragraph": 99,
+          "start": 1286.099,
+          "end": 1301.225,
+          "text": "You should see 240 rows of minus 1 in Heart Rate P P G, A L G, from 48.0 to 49.8 seconds, and a value in I B I P P G A L G on only 138 rows."
+        },
+        {
+          "index": 161,
+          "paragraph": 100,
+          "start": 1301.925,
+          "end": 1311.375,
+          "text": "The baseline mean heart rate is 79.6 beats per minute with the minus 1 rows removed and 77.1 with them left in."
+        },
+        {
+          "index": 162,
+          "paragraph": 100,
+          "start": 1311.725,
+          "end": 1312.749,
+          "text": "Common mistake."
+        },
+        {
+          "index": 163,
+          "paragraph": 100,
+          "start": 1313.099,
+          "end": 1314.507,
+          "text": "Averaging the raw column."
+        },
+        {
+          "index": 164,
+          "paragraph": 101,
+          "start": 1315.207,
+          "end": 1316.765,
+          "text": "Apply the artifact rule."
+        },
+        {
+          "index": 165,
+          "paragraph": 101,
+          "start": 1317.115,
+          "end": 1339.173,
+          "text": "Under the rule of Kleckner and colleagues (2018), 17 samples between 19.46 and 20.60 seconds change faster than 10 microsiemens per second (the fastest step is 81.4 microsiemens per second), and the 5 seconds margin around them covers 1,421 samples."
+        },
+        {
+          "index": 166,
+          "paragraph": 102,
+          "start": 1339.873,
+          "end": 1340.897,
+          "text": "Common mistake."
+        },
+        {
+          "index": 167,
+          "paragraph": 102,
+          "start": 1341.247,
+          "end": 1344.362,
+          "text": "Deleting the stretch by eye instead of by a written rule."
+        },
+        {
+          "index": 168,
+          "paragraph": 103,
+          "start": 1345.062,
+          "end": 1346.321,
+          "text": "Rebuild the peak table."
+        },
+        {
+          "index": 169,
+          "paragraph": 103,
+          "start": 1346.671,
+          "end": 1352.132,
+          "text": "The Peak Detected column marks each peak window and Peak Occurrences its maximum."
+        },
+        {
+          "index": 170,
+          "paragraph": 104,
+          "start": 1352.832,
+          "end": 1367.061,
+          "text": "You should see 14 peaks; Peak Amplitude equals the rise of G S R Interpolated from onset to maximum in all 14, and one peak, at 20.7 seconds, falls inside the artifact margin."
+        },
+        {
+          "index": 171,
+          "paragraph": 104,
+          "start": 1367.411,
+          "end": 1368.435,
+          "text": "Common mistake."
+        },
+        {
+          "index": 172,
+          "paragraph": 105,
+          "start": 1369.135,
+          "end": 1374.106,
+          "text": "Counting every row where Peak Detected is 1, which counts samples, not peaks."
+        },
+        {
+          "index": 173,
+          "paragraph": 106,
+          "start": 1374.806,
+          "end": 1376.235,
+          "text": "Summarize each stimulus."
+        },
+        {
+          "index": 174,
+          "paragraph": 107,
+          "start": 1376.935,
+          "end": 1401.469,
+          "text": "You should see 8 peaks in the baseline, 4 in the commercial, and 2 in the recovery, 8.0 peaks per minute in each; 7 baseline peaks (7.0 per minute) after the artifact rule; a mean tonic level of 1.80, 2.05, and 1.97 microsiemens; and a mean heart rate of 79.6, 80.4, and 79.9 beats per minute."
+        },
+        {
+          "index": 175,
+          "paragraph": 108,
+          "start": 1402.169,
+          "end": 1403.193,
+          "text": "Common mistake."
+        },
+        {
+          "index": 176,
+          "paragraph": 108,
+          "start": 1403.543,
+          "end": 1411.991,
+          "text": "Reading the higher tonic level during the commercial as a finding; the level drifted upward through the whole session, and one person tests nothing."
+        },
+        {
+          "index": 177,
+          "paragraph": 109,
+          "start": 1412.691,
+          "end": 1413.693,
+          "text": "Record the settings."
+        },
+        {
+          "index": 178,
+          "paragraph": 110,
+          "start": 1414.393,
+          "end": 1441.06,
+          "text": "You should see the Peak Detection row list phasic length equals 8000, lowpass filter frequency equals 5, gap length threshold equals 4000, remove signal jumps equals false, peak onset threshold equals 0.01, peak offset threshold equals 0, peak amplitude threshold equals 0.005, minimum peak duration equals 500, and smoothing filter equals median."
+        },
+        {
+          "index": 179,
+          "paragraph": 111,
+          "start": 1441.76,
+          "end": 1442.784,
+          "text": "Common mistake."
+        },
+        {
+          "index": 180,
+          "paragraph": 111,
+          "start": 1443.134,
+          "end": 1445.566,
+          "text": "Writing \"default settings\" in the methods."
+        },
+        {
+          "index": 181,
+          "paragraph": 112,
+          "start": 1446.266,
+          "end": 1447.759,
+          "text": "Check against iMotions."
+        },
+        {
+          "index": 182,
+          "paragraph": 112,
+          "start": 1448.109,
+          "end": 1459.352,
+          "text": "Open G S R Peak Metrics dot C S V and G S R Peak Table dot C S V (the script's step 13 and the workbook's iMotions Check sheet do it for you)."
+        },
+        {
+          "index": 183,
+          "paragraph": 113,
+          "start": 1460.052,
+          "end": 1482.644,
+          "text": "You should see the same numbers: Peak Count 8, 4, and 2; Peaks Per Minute 8, 7.98, and 7.99; Average Peak Amplitude 0.0815, 0.0828, and 0.0703 microsiemens; and the same 14 peaks, with onset and peak times that match to the millisecond."
+        },
+        {
+          "index": 184,
+          "paragraph": 114,
+          "start": 1483.344,
+          "end": 1501.157,
+          "text": "Look at peak 9. iMotions counts it in the commercial because its maximum came at 60.55 seconds, but its onset, at 59.82 seconds, came before the commercial started at 60.22 seconds, so the response began during the baseline."
+        },
+        {
+          "index": 185,
+          "paragraph": 114,
+          "start": 1501.507,
+          "end": 1502.531,
+          "text": "Common mistake."
+        },
+        {
+          "index": 186,
+          "paragraph": 115,
+          "start": 1503.231,
+          "end": 1513.599,
+          "text": "Reading a peak in the first second of a stimulus as a response to that stimulus; a skin response follows its cause by one to a few seconds (section 06)."
+        },
+        {
+          "index": 187,
+          "paragraph": 116,
+          "start": 1514.299,
+          "end": 1514.982,
+          "text": "Try it."
+        },
+        {
+          "index": 188,
+          "paragraph": 116,
+          "start": 1515.332,
+          "end": 1522.18,
+          "text": "On the workbook's Rules sheet, change the maximum rate of change from 10 to 5 microsiemens per second."
+        },
+        {
+          "index": 189,
+          "paragraph": 116,
+          "start": 1522.53,
+          "end": 1532.749,
+          "text": "The fast jumps near 42 to 44 seconds are now flagged as well, three more baseline peaks fall inside the margin, and only 4 baseline peaks remain."
+        },
+        {
+          "index": 190,
+          "paragraph": 117,
+          "start": 1533.449,
+          "end": 1544.222,
+          "text": "The count depends on the threshold, which is why the threshold is written into the plan before any data are seen, and why any other value is reported only as a planned sensitivity check."
+        },
+        {
+          "index": 191,
+          "paragraph": 118,
+          "start": 1544.922,
+          "end": 1571.034,
+          "text": "Help center articles for this section: Analysis Overview, G S R R-Notebooks: G S R Signal Quality, G S R R-Notebooks: Peak Detection and Aggregation, Replay and Analysis Windows, Export: R Processed G S R Files, Export: Sensor Data, Export: Survey data, Opening Data Export Files in Excel, and the manual Adding the same R-notebook multiple times to an Analysis (P D F)."
+        },
+        {
+          "index": 192,
+          "paragraph": 119,
+          "start": 1571.734,
+          "end": 1595.179,
           "text": "Create an analysis that includes every respondent, add G S R Signal Quality, G S R Peak Detection, and G S R Peak Binned Aggregation in that order with recorded parameters and unique flow names, pool two units, check peaks and pulse in the replay, and export Peak Metrics, Signal Quality, and the sensor data for heart rate, opened safely in Excel."
         }
       ]
     }
   },
-  "generated": "2026-10-13T01:07:11+00:00"
+  "generated": "2026-10-13T02:52:24+00:00"
 }
