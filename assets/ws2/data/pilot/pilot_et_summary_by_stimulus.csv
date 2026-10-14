@@ -1,0 +1,9 @@
+"stimulus","rows","gaze_pct","mean_distance_mm","starting_inside","FixationTable","partial","mean_fixation_ms"
+"01 Baseline - Creative A (60s)",3600,86.2,596,58,58,1,834
+"02 Creative A - Grip Primer (15s)",900,95.2,603,41,42,2,296
+"03 Recovery - Creative A (15s)",899,79.1,598,19,20,2,530
+"04 Post-ad questionnaire - Creative A",1973,96.5,618,60,62,5,467
+"05 Baseline - Creative B (60s)",3599,64.1,615,42,43,2,831
+"06 Creative B - Whoa Glow (15s)",899,94.4,621,46,47,2,257
+"07 Recovery - Creative B (15s)",900,62.1,627,25,26,1,287
+"08 Post-ad questionnaire - Creative B",896,95.5,616,34,36,4,355

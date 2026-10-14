@@ -1,0 +1,85 @@
+STEP 1. Header
+   #Study name | PILOT1_2026-10_AFFDEX_Aurora 
+   #Respondent Name | PILOT01 | Id: dce40ce2-2edd-433a-8036-db5ece8af62d 
+   #Gaze Calibration | Excellent | 92 
+   #iMotions version | 11.1.47136.14 
+   #Recording time | Date: 10/13/2026 | Time: 14:03:46.755 -05:00 | Unix time: 1791918226 
+   #Sensor info | Affectiva AFFDEX | Manufacturer: Affectiva | Modality: Facial analysis(Affectiva AFFDEX) | Affd 
+   #Sensor info | Eyetracker Smart Eye Aurora | Latency: 0 milliseconds 
+   #Sensor info | R Analysis FEA thresholding | Parameters | """selectedSensorName=""""Affectiva AFFDEX||Affectiv 
+   #Sensor info | R Analysis GazeAnalysis I-VT filter | Parameters | isGlasses=false | gapFill=true | maxGapLengt 
+  I-VT settings: isGlasses=false; gapFill=true; maxGapLength=75; noiseReduction=false; filterType=Average; windowNoise=3; fixationFilter=IVT; windowVelocity=20; velocityThreshold=30; discardShortFixation=true; minDurationFixation=60; mergeFixation=true; maxTimeBtwFixation=75; maxAngleBtwFixation=0.5; screenResolutionWidth=2560; screenResolutionHeight=1440; screenDistance=65; monitorSize=15.5 
+
+STEP 2. Codebook
+            column                              device         unit
+      ET_GazeLeftx         Eyetracker Smart Eye Aurora        Pixel
+     ET_PupilRight         Eyetracker Smart Eye Aurora   Millimeter
+   ET_DistanceLeft         Eyetracker Smart Eye Aurora   Millimeter
+            Gaze X R Analysis GazeAnalysis I-VT filter       Pixels
+ Fixation Duration R Analysis GazeAnalysis I-VT filter Milliseconds
+ Saccade Amplitude R Analysis GazeAnalysis I-VT filter      Degrees
+  Columns in the file: 168 
+
+STEP 3. Rows per device
+  SlideEvents                                  32 rows
+  Affectiva AFFDEX                           6809 rows
+  Eyetracker Smart Eye Aurora               13713 rows
+  R Analysis FEA thresholding                6809 rows
+  R Analysis GazeAnalysis I-VT filter       13713 rows
+  All rows                                  20554 rows
+
+STEP 4. Stimuli (StartMedia to EndMedia)
+                              stimulus start_s  end_s duration_s
+        01 Baseline - Creative A (60s)    0.41  60.40      59.99
+     02 Creative A - Grip Primer (15s)   60.42  75.42      15.00
+        03 Recovery - Creative A (15s)   75.47  90.46      15.00
+ 04 Post-ad questionnaire - Creative A   90.77 123.65      32.88
+        05 Baseline - Creative B (60s)  123.72 183.71      59.99
+       06 Creative B - Whoa Glow (15s)  183.73 198.73      15.00
+        07 Recovery - Creative B (15s)  198.77 213.76      14.99
+ 08 Post-ad questionnaire - Creative B  214.06 229.00      14.94
+
+STEP 5. Sampling rate and gaze data per stimulus
+  Median time between eye tracker rows: 16.67 ms (60.0 samples per second)
+  Rows with gaze over the whole recording: 81.5%
+                              stimulus rows gaze_pct mean_distance_mm
+        01 Baseline - Creative A (60s) 3600     86.2              596
+     02 Creative A - Grip Primer (15s)  900     95.2              603
+        03 Recovery - Creative A (15s)  899     79.1              598
+ 04 Post-ad questionnaire - Creative A 1973     96.5              618
+        05 Baseline - Creative B (60s) 3599     64.1              615
+       06 Creative B - Whoa Glow (15s)  899     94.4              621
+        07 Recovery - Creative B (15s)  900     62.1              627
+ 08 Post-ad questionnaire - Creative B  896     95.5              616
+
+STEP 6. Fixations per stimulus (I-VT filter output)
+                              stimulus starting_inside FixationTable partial mean_fixation_ms
+        01 Baseline - Creative A (60s)              58            58       1              834
+     02 Creative A - Grip Primer (15s)              41            42       2              296
+        03 Recovery - Creative A (15s)              19            20       2              530
+ 04 Post-ad questionnaire - Creative A              60            62       5              467
+        05 Baseline - Creative B (60s)              42            43       2              831
+       06 Creative B - Whoa Glow (15s)              46            47       2              257
+        07 Recovery - Creative B (15s)              25            26       1              287
+ 08 Post-ad questionnaire - Creative B              34            36       4              355
+
+STEP 7. AOI metrics rebuilt from FixationTable.csv
+                          stimulus     aoi ttff_ms fixation_count dwell_ms dwell_pct revisits iMotions_ttff_ms iMotions_fixations iMotions_dwell_ms
+ 02 Creative A - Grip Primer (15s)    Face  620.13             11  4083.38     27.22        2           620.13                 11           4083.38
+   06 Creative B - Whoa Glow (15s)    Face  301.75              8  2575.53     17.17        3           301.75                  8           2575.53
+ 02 Creative A - Grip Primer (15s) Product  886.75              8  3400.11     22.67        3           886.75                  8           3400.11
+ iMotions_revisits match
+                 2  TRUE
+                 3  TRUE
+                 3  TRUE
+
+STEP 8. Automatic AOIs on the questionnaire pages
+
+04 Post-ad questionnaire - Creative A 08 Post-ad questionnaire - Creative B 
+                                    8                                     8 
+  Labels: brand_recall, message_recall, ad_liking, message_clarity, personal_relevance, learn_more, reason, seen_before 
+
+STEP 9. Figure written to pilot_et_figure_R.png
+null device 
+          1 
+Done.

@@ -1,0 +1,169 @@
+"column","device","unit"
+"Row",NA,NA
+"Timestamp",NA,"Millisecond"
+"EventSource","SlideEvents",NA
+"SlideEvent","SlideEvents",NA
+"StimType","SlideEvents",NA
+"Duration","SlideEvents","Millisecond"
+"CollectionPhase","SlideEvents",NA
+"SourceStimuliName","SlideEvents",NA
+"EventSource.1","Affectiva AFFDEX",NA
+"SampleNumber","Affectiva AFFDEX","Index"
+"Anger","Affectiva AFFDEX","Index"
+"Contempt","Affectiva AFFDEX","Index"
+"Disgust","Affectiva AFFDEX","Index"
+"Fear","Affectiva AFFDEX","Index"
+"Joy","Affectiva AFFDEX","Index"
+"Sadness","Affectiva AFFDEX","Index"
+"Surprise","Affectiva AFFDEX","Index"
+"Engagement","Affectiva AFFDEX","Index"
+"Adaptive Engagement","Affectiva AFFDEX","Index"
+"Valence","Affectiva AFFDEX","Index"
+"Adaptive Valence","Affectiva AFFDEX","Index"
+"Sentimentality","Affectiva AFFDEX","Index"
+"Confusion","Affectiva AFFDEX","Index"
+"Neutral","Affectiva AFFDEX","Index"
+"Attention","Affectiva AFFDEX","Index"
+"Blink","Affectiva AFFDEX","Index"
+"BlinkRate","Affectiva AFFDEX","Index"
+"Speaking","Affectiva AFFDEX","Index"
+"Yawn","Affectiva AFFDEX",NA
+"Pain","Affectiva AFFDEX",NA
+"Brow Furrow","Affectiva AFFDEX","Index"
+"Brow Raise","Affectiva AFFDEX","Index"
+"Cheek Raise","Affectiva AFFDEX","Index"
+"Chin Raise","Affectiva AFFDEX","Index"
+"Dimpler","Affectiva AFFDEX","Index"
+"Eye Closure","Affectiva AFFDEX","Index"
+"Eye Widen","Affectiva AFFDEX","Index"
+"Inner Brow Raise","Affectiva AFFDEX","Index"
+"Jaw Drop","Affectiva AFFDEX","Index"
+"Lip Corner Depressor","Affectiva AFFDEX","Index"
+"Lip Press","Affectiva AFFDEX","Index"
+"Lip Pucker","Affectiva AFFDEX","Index"
+"Lip Stretch","Affectiva AFFDEX","Index"
+"Lip Suck","Affectiva AFFDEX","Index"
+"Lid Tighten","Affectiva AFFDEX","Index"
+"Mouth Open","Affectiva AFFDEX","Index"
+"Nose Wrinkle","Affectiva AFFDEX","Index"
+"Smile","Affectiva AFFDEX","Index"
+"Smirk","Affectiva AFFDEX","Index"
+"Upper Lip Raise","Affectiva AFFDEX","Index"
+"Pitch","Affectiva AFFDEX","Degrees"
+"Yaw","Affectiva AFFDEX","Degrees"
+"Roll","Affectiva AFFDEX","Degrees"
+"Interocular Distance","Affectiva AFFDEX","Pixel"
+"EventSource.2","Eyetracker Smart Eye Aurora",NA
+"ET_GazeLeftx","Eyetracker Smart Eye Aurora","Pixel"
+"ET_GazeLefty","Eyetracker Smart Eye Aurora","Pixel"
+"ET_GazeRightx","Eyetracker Smart Eye Aurora","Pixel"
+"ET_GazeRighty","Eyetracker Smart Eye Aurora","Pixel"
+"ET_PupilLeft","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_PupilRight","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_TimeSignal","Eyetracker Smart Eye Aurora","Millisecond"
+"ET_DistanceLeft","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_DistanceRight","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_CameraLeftX","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_CameraLeftY","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_CameraRightX","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_CameraRightY","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_Distance3D","Eyetracker Smart Eye Aurora","Millimeter"
+"ET_HeadRotationPitch","Eyetracker Smart Eye Aurora","Degrees"
+"ET_HeadRotationYaw","Eyetracker Smart Eye Aurora","Degrees"
+"ET_HeadRotationRoll","Eyetracker Smart Eye Aurora","Degrees"
+"ET_GazeDirectionLeftQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_GazeDirectionRightQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_EyelidOpeningLeft","Eyetracker Smart Eye Aurora","Meter"
+"ET_EyelidOpeningLeftQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_EyelidOpeningRight","Eyetracker Smart Eye Aurora","Meter"
+"ET_EyelidOpeningRightQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_LeftPupilDiameterQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_RightPupilDiameterQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_Glasses","Eyetracker Smart Eye Aurora","Index"
+"ET_GlassesQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_FaceMask","Eyetracker Smart Eye Aurora","Index"
+"ET_FaceMaskQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_LeftEyeOccluded","Eyetracker Smart Eye Aurora","Index"
+"ET_LeftEyeOccludedQuality","Eyetracker Smart Eye Aurora","Index"
+"ET_RightEyeOccluded","Eyetracker Smart Eye Aurora","Index"
+"ET_RightEyeOccludedQuality","Eyetracker Smart Eye Aurora","Index"
+"EventSource.3","R Analysis FEA thresholding",NA
+"Anger.1","R Analysis FEA thresholding",NA
+"Contempt.1","R Analysis FEA thresholding",NA
+"Disgust.1","R Analysis FEA thresholding",NA
+"Fear.1","R Analysis FEA thresholding",NA
+"Joy.1","R Analysis FEA thresholding",NA
+"Sadness.1","R Analysis FEA thresholding",NA
+"Surprise.1","R Analysis FEA thresholding",NA
+"Brow Furrow.1","R Analysis FEA thresholding",NA
+"Brow Raise.1","R Analysis FEA thresholding",NA
+"Cheek Raise.1","R Analysis FEA thresholding",NA
+"Chin Raise.1","R Analysis FEA thresholding",NA
+"Dimpler.1","R Analysis FEA thresholding",NA
+"Eye Closure.1","R Analysis FEA thresholding",NA
+"Eye Widen.1","R Analysis FEA thresholding",NA
+"Inner Brow Raise.1","R Analysis FEA thresholding",NA
+"Jaw Drop.1","R Analysis FEA thresholding",NA
+"Lip Corner Depressor.1","R Analysis FEA thresholding",NA
+"Lip Press.1","R Analysis FEA thresholding",NA
+"Lip Pucker.1","R Analysis FEA thresholding",NA
+"Lip Stretch.1","R Analysis FEA thresholding",NA
+"Lip Suck.1","R Analysis FEA thresholding",NA
+"Lid Tighten.1","R Analysis FEA thresholding",NA
+"Mouth Open.1","R Analysis FEA thresholding",NA
+"Nose Wrinkle.1","R Analysis FEA thresholding",NA
+"Smile.1","R Analysis FEA thresholding",NA
+"Smirk.1","R Analysis FEA thresholding",NA
+"Upper Lip Raise.1","R Analysis FEA thresholding",NA
+"Head Pointing Up","R Analysis FEA thresholding",NA
+"Head Pointing Down","R Analysis FEA thresholding",NA
+"Head Pointing Forward","R Analysis FEA thresholding",NA
+"Head Turned Right","R Analysis FEA thresholding",NA
+"Head Turned Left","R Analysis FEA thresholding",NA
+"Head Turned Forward","R Analysis FEA thresholding",NA
+"Head Tilted Left","R Analysis FEA thresholding",NA
+"Head Tilted Right","R Analysis FEA thresholding",NA
+"Head Not Tilted","R Analysis FEA thresholding",NA
+"Head Leaning Forward","R Analysis FEA thresholding",NA
+"Head Leaning Backward","R Analysis FEA thresholding",NA
+"Attention.1","R Analysis FEA thresholding",NA
+"Engagement.1","R Analysis FEA thresholding",NA
+"Adaptive Engagement.1","R Analysis FEA thresholding",NA
+"Positive Valence","R Analysis FEA thresholding",NA
+"Negative Valence","R Analysis FEA thresholding",NA
+"Neutral Valence","R Analysis FEA thresholding",NA
+"Positive Adaptive Valence","R Analysis FEA thresholding",NA
+"Negative Adaptive Valence","R Analysis FEA thresholding",NA
+"Neutral Adaptive Valence","R Analysis FEA thresholding",NA
+"Neutral.1","R Analysis FEA thresholding",NA
+"Sentimentality.1","R Analysis FEA thresholding",NA
+"Confusion.1","R Analysis FEA thresholding",NA
+"Speaking.1","R Analysis FEA thresholding",NA
+"Yawn.1","R Analysis FEA thresholding",NA
+"Pain.1","R Analysis FEA thresholding",NA
+"EventSource.4","R Analysis GazeAnalysis I-VT filter",NA
+"Gaze X","R Analysis GazeAnalysis I-VT filter","Pixels"
+"Gaze Y","R Analysis GazeAnalysis I-VT filter","Pixels"
+"Interpolated Gaze X","R Analysis GazeAnalysis I-VT filter","Pixels"
+"Interpolated Gaze Y","R Analysis GazeAnalysis I-VT filter","Pixels"
+"Interpolated Distance","R Analysis GazeAnalysis I-VT filter","Millimeters"
+"Gaze Velocity","R Analysis GazeAnalysis I-VT filter","Degrees per second"
+"Gaze Acceleration","R Analysis GazeAnalysis I-VT filter","Degrees per second squared"
+"Fixation Index","R Analysis GazeAnalysis I-VT filter","Index"
+"Fixation Index by Stimulus","R Analysis GazeAnalysis I-VT filter","Index"
+"Fixation X","R Analysis GazeAnalysis I-VT filter","Pixels"
+"Fixation Y","R Analysis GazeAnalysis I-VT filter","Pixels"
+"Fixation Start","R Analysis GazeAnalysis I-VT filter","Milliseconds"
+"Fixation End","R Analysis GazeAnalysis I-VT filter","Milliseconds"
+"Fixation Duration","R Analysis GazeAnalysis I-VT filter","Milliseconds"
+"Fixation Dispersion","R Analysis GazeAnalysis I-VT filter","Degrees"
+"Saccade Index","R Analysis GazeAnalysis I-VT filter","Index"
+"Saccade Index by Stimulus","R Analysis GazeAnalysis I-VT filter","Index"
+"Saccade Start","R Analysis GazeAnalysis I-VT filter","Milliseconds"
+"Saccade End","R Analysis GazeAnalysis I-VT filter","Milliseconds"
+"Saccade Duration","R Analysis GazeAnalysis I-VT filter","Milliseconds"
+"Saccade Amplitude","R Analysis GazeAnalysis I-VT filter","Degrees"
+"Saccade Peak Velocity","R Analysis GazeAnalysis I-VT filter","Degrees per second"
+"Saccade Peak Acceleration","R Analysis GazeAnalysis I-VT filter","Degrees per second squared"
+"Saccade Peak Deceleration","R Analysis GazeAnalysis I-VT filter","Degrees per second squared"
+"Saccade Direction","R Analysis GazeAnalysis I-VT filter","Degrees"

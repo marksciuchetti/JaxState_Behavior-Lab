@@ -4285,8 +4285,8 @@
     },
     "numbers": {
       "file": "numbers.mp3",
-      "duration": 698.081,
-      "mp3_duration": 698.136,
+      "duration": 1344.798,
+      "mp3_duration": 1344.864,
       "starts": [
         0.0,
         2.983,
@@ -4307,85 +4307,152 @@
         111.022,
         115.852,
         117.149,
-        134.02,
-        147.755,
-        159.795,
-        164.058,
-        166.797,
-        168.171,
-        178.877,
-        179.739,
-        186.745,
-        188.042,
-        196.657,
-        214.978,
-        222.249,
-        235.578,
-        239.683,
-        241.974,
-        243.698,
-        253.571,
-        254.433,
-        260.168,
-        272.367,
-        284.535,
-        285.833,
-        287.121,
-        292.685,
-        293.547,
-        306.045,
-        312.453,
-        318.926,
-        320.65,
-        326.065,
-        327.567,
-        333.591,
-        342.27,
-        343.751,
-        352.408,
-        363.318,
-        367.602,
-        373.371,
-        375.095,
-        386.888,
-        387.963,
-        395.725,
-        406.686,
-        407.889,
-        413.509,
-        414.968,
-        420.937,
-        426.075,
-        430.124,
-        436.106,
-        444.081,
-        458.306,
-        468.128,
-        476.145,
-        480.698,
-        482.072,
-        487.828,
-        492.189,
-        493.785,
-        498.005,
-        515.067,
-        524.527,
-        528.213,
-        543.71,
-        545.434,
-        551.787,
-        553.033,
-        560.987,
-        579.479,
-        584.296,
-        586.203,
-        593.133,
-        594.729,
-        617.317,
-        630.731,
-        642.281,
-        647.995,
-        674.188
+        133.316,
+        147.051,
+        159.091,
+        163.354,
+        166.093,
+        167.467,
+        178.173,
+        179.035,
+        186.041,
+        187.338,
+        195.953,
+        214.274,
+        221.545,
+        234.874,
+        238.979,
+        241.27,
+        242.994,
+        252.867,
+        253.729,
+        259.464,
+        271.663,
+        283.831,
+        285.129,
+        286.417,
+        291.981,
+        292.843,
+        305.341,
+        311.749,
+        318.798,
+        320.522,
+        325.937,
+        327.439,
+        333.463,
+        342.142,
+        343.623,
+        352.28,
+        363.19,
+        367.474,
+        373.243,
+        374.967,
+        386.76,
+        387.835,
+        395.597,
+        406.558,
+        407.761,
+        413.381,
+        414.84,
+        420.809,
+        425.947,
+        429.996,
+        435.978,
+        443.953,
+        458.178,
+        468.0,
+        476.017,
+        480.57,
+        481.944,
+        487.7,
+        492.061,
+        493.657,
+        497.877,
+        514.939,
+        524.399,
+        528.085,
+        543.582,
+        545.306,
+        551.659,
+        552.905,
+        560.859,
+        578.668,
+        583.485,
+        585.393,
+        592.322,
+        593.918,
+        616.506,
+        629.921,
+        641.471,
+        647.184,
+        648.046,
+        655.692,
+        660.872,
+        682.692,
+        685.858,
+        699.657,
+        708.241,
+        714.403,
+        741.065,
+        762.373,
+        768.791,
+        770.037,
+        776.945,
+        803.991,
+        847.01,
+        858.496,
+        860.22,
+        865.443,
+        866.838,
+        870.964,
+        877.659,
+        891.129,
+        892.853,
+        898.374,
+        899.855,
+        903.221,
+        924.03,
+        925.754,
+        932.086,
+        933.631,
+        937.074,
+        960.942,
+        970.7,
+        972.074,
+        974.801,
+        977.54,
+        986.112,
+        1011.153,
+        1020.613,
+        1030.968,
+        1032.692,
+        1042.949,
+        1044.451,
+        1057.781,
+        1069.894,
+        1084.141,
+        1096.779,
+        1098.153,
+        1102.757,
+        1104.993,
+        1120.711,
+        1164.263,
+        1178.766,
+        1193.802,
+        1205.096,
+        1206.47,
+        1211.287,
+        1228.115,
+        1240.271,
+        1244.867,
+        1246.241,
+        1249.949,
+        1250.981,
+        1262.51,
+        1268.415,
+        1285.841,
+        1294.711,
+        1320.905
       ],
       "sentences": [
         {
@@ -4518,560 +4585,1029 @@
           "index": 18,
           "paragraph": 10,
           "start": 117.149,
-          "end": 133.32,
-          "text": "In the analysis, click a commercial, then \"Replay\" in the Analysis bar, then \"Open analysis\" (the label on the lab computer, build 11 point 1.47136.14; older articles call this button \"Edit result\")."
+          "end": 132.616,
+          "text": "In the analysis, click a commercial, then \"Replay\" in the Analysis bar, then \"Open analysis\" (the label on the lab computer, build 11 point 1, build 4 7 1 3 6; older articles call this button \"Edit result\")."
         },
         {
           "index": 19,
           "paragraph": 11,
-          "start": 134.02,
-          "end": 147.055,
+          "start": 133.316,
+          "end": 146.351,
           "text": "In the Visualization menu (named Visualizations in the Gaze smoothing article; verify on the lab machine) tick \"Gaze visualization\"; step by Time, Frame, Gaze, Fixation, or Marker."
         },
         {
           "index": 20,
           "paragraph": 12,
-          "start": 147.755,
-          "end": 159.445,
+          "start": 147.051,
+          "end": 158.741,
           "text": "A scan path draws fixations as circles and saccades as lines in their order, either static (all the data) or dynamic with a \"Gaze trail length\" of 0 to 10 seconds."
         },
         {
           "index": 21,
           "paragraph": 12,
-          "start": 159.795,
-          "end": 163.358,
+          "start": 159.091,
+          "end": 162.654,
           "text": "The gaze smoothing filter changes the picture, never the numbers."
         },
         {
           "index": 22,
           "paragraph": 13,
-          "start": 164.058,
-          "end": 166.447,
+          "start": 163.354,
+          "end": 165.743,
           "text": "You should see the gaze circle following the action."
         },
         {
           "index": 23,
           "paragraph": 13,
-          "start": 166.797,
-          "end": 167.821,
+          "start": 166.093,
+          "end": 167.117,
           "text": "Common mistake."
         },
         {
           "index": 24,
           "paragraph": 13,
-          "start": 168.171,
-          "end": 178.177,
+          "start": 167.467,
+          "end": 177.473,
           "text": "Ignoring a gaze that sits beside every object by the same distance: that is a calibration offset to note in the log, never a reason to move the A O I's."
         },
         {
           "index": 25,
           "paragraph": 14,
-          "start": 178.877,
-          "end": 179.389,
+          "start": 178.173,
+          "end": 178.685,
           "text": "Why."
         },
         {
           "index": 26,
           "paragraph": 14,
-          "start": 179.739,
-          "end": 186.395,
+          "start": 179.035,
+          "end": 185.691,
           "text": "Aggregate Replay plays all viewers' gaze at once, showing whether the commercial pulls the group's eyes to one place."
         },
         {
           "index": 27,
           "paragraph": 14,
-          "start": 186.745,
-          "end": 187.342,
+          "start": 186.041,
+          "end": 186.638,
           "text": "How."
         },
         {
           "index": 28,
           "paragraph": 15,
-          "start": 188.042,
-          "end": 195.957,
+          "start": 187.338,
+          "end": 195.253,
           "text": "In the analysis, click the commercial, then \"Aggregate\", then \"Edit result\", and turn on the heatmap (heatmap or spotlight style)."
         },
         {
           "index": 29,
           "paragraph": 16,
-          "start": 196.657,
-          "end": 214.278,
+          "start": 195.953,
+          "end": 213.574,
           "text": "A heatmap is a color overlay, red where attention concentrated and transparent where nobody looked, built like a paint by numbers: the image is divided into a grid, each box gets a value from how many viewers looked and for how long, and the scale is best read as quartiles."
         },
         {
           "index": 30,
           "paragraph": 17,
-          "start": 214.978,
-          "end": 221.549,
+          "start": 214.274,
+          "end": 220.845,
           "text": "On a video the dynamic heatmap shows only how many viewers looked at each spot at that moment, not for how long."
         },
         {
           "index": 31,
           "paragraph": 18,
-          "start": 222.249,
-          "end": 234.878,
+          "start": 221.545,
+          "end": 234.174,
           "text": "On a still image, such as a rating slide (click the slide, then Heatmap), the color reflects both how many looked and how long, so one viewer for two seconds can equal two viewers for one second each."
         },
         {
           "index": 32,
           "paragraph": 19,
-          "start": 235.578,
-          "end": 239.333,
+          "start": 234.874,
+          "end": 238.629,
           "text": "Export a video, image, or heatmap from the Export menu."
         },
         {
           "index": 33,
           "paragraph": 19,
-          "start": 239.683,
-          "end": 241.624,
+          "start": 238.979,
+          "end": 240.92,
           "text": "You should see color gather on the action."
         },
         {
           "index": 34,
           "paragraph": 19,
-          "start": 241.974,
-          "end": 242.998,
+          "start": 241.27,
+          "end": 242.294,
           "text": "Common mistake."
         },
         {
           "index": 35,
           "paragraph": 20,
-          "start": 243.698,
-          "end": 252.871,
+          "start": 242.994,
+          "end": 252.167,
           "text": "Showing one frame as \"the heatmap of the commercial\" without its time and number of viewers; heatmaps are pictures, and the numbers come from A O I's."
         },
         {
           "index": 36,
           "paragraph": 21,
-          "start": 253.571,
-          "end": 254.083,
+          "start": 252.867,
+          "end": 253.379,
           "text": "Why."
         },
         {
           "index": 37,
           "paragraph": 21,
-          "start": 254.433,
-          "end": 259.468,
+          "start": 253.729,
+          "end": 258.764,
           "text": "An area of interest (A O I) is a named region in which metrics are computed."
         },
         {
           "index": 38,
           "paragraph": 22,
-          "start": 260.168,
-          "end": 271.667,
+          "start": 259.464,
+          "end": 270.963,
           "text": "In a commercial the product moves and is on screen only part of the time, so each A O I is a dynamic A O I that follows its element and is active only while it is visible."
         },
         {
           "index": 39,
           "paragraph": 23,
-          "start": 272.367,
-          "end": 284.185,
+          "start": 271.663,
+          "end": 283.481,
           "text": "Dwell time ( percent) divides by that active time, which is why Product TV (14 seconds in Balls, 20 seconds in Paint in the simulation) can be compared as a share."
         },
         {
           "index": 40,
           "paragraph": 23,
-          "start": 284.535,
-          "end": 285.133,
+          "start": 283.831,
+          "end": 284.429,
           "text": "How."
         },
         {
           "index": 41,
           "paragraph": 24,
-          "start": 285.833,
-          "end": 286.771,
+          "start": 285.129,
+          "end": 286.067,
           "text": "Open the editor."
         },
         {
           "index": 42,
           "paragraph": 24,
-          "start": 287.121,
-          "end": 291.985,
+          "start": 286.417,
+          "end": 291.281,
           "text": "In the analysis, click the commercial, then \"A O I's\", then \"Open analysis\"."
         },
         {
           "index": 43,
           "paragraph": 25,
-          "start": 292.685,
-          "end": 293.197,
+          "start": 291.981,
+          "end": 292.493,
           "text": "Draw."
         },
         {
           "index": 44,
           "paragraph": 25,
-          "start": 293.547,
-          "end": 305.345,
+          "start": 292.843,
+          "end": 304.641,
           "text": "Click Draw A O I, type the name from the master list (Product TV), choose a keyboard key, a tool (Rectangular, Circular, Polygonal, or Grid), and a color, and click Start drawing."
         },
         {
           "index": 45,
           "paragraph": 26,
-          "start": 306.045,
-          "end": 312.103,
+          "start": 305.341,
+          "end": 311.399,
           "text": "Drag for a rectangle or ellipse, or click a polygon's corners (their number cannot change later)."
         },
         {
           "index": 46,
           "paragraph": 26,
-          "start": 312.453,
-          "end": 318.576,
-          "text": "Leave a margin of about 1 to 1.5 degrees, roughly 1 to 2 cm at 60 cm."
+          "start": 311.749,
+          "end": 318.448,
+          "text": "Leave a margin of about 1 to 1.5 degrees, roughly 1 to 2 centimeters at 60 centimeters."
         },
         {
           "index": 47,
           "paragraph": 26,
-          "start": 318.926,
-          "end": 319.95,
+          "start": 318.798,
+          "end": 319.822,
           "text": "Common mistake."
         },
         {
           "index": 48,
           "paragraph": 27,
-          "start": 320.65,
-          "end": 325.365,
+          "start": 320.522,
+          "end": 325.237,
           "text": "A shape drawn tight to the object, which loses fixations just outside it."
         },
         {
           "index": 49,
           "paragraph": 28,
-          "start": 326.065,
-          "end": 327.217,
+          "start": 325.937,
+          "end": 327.089,
           "text": "Follow the element."
         },
         {
           "index": 50,
           "paragraph": 28,
-          "start": 327.567,
-          "end": 333.241,
+          "start": 327.439,
+          "end": 333.113,
           "text": "Move the timeline cursor and move or resize the shape; every edit places a key frame."
         },
         {
           "index": 51,
           "paragraph": 28,
-          "start": 333.591,
-          "end": 341.57,
+          "start": 333.463,
+          "end": 341.442,
           "text": "A square marks an edit at that frame; a diamond also starts a linear interpolation, so the shape glides to the next key frame."
         },
         {
           "index": 52,
           "paragraph": 29,
-          "start": 342.27,
-          "end": 343.401,
+          "start": 342.142,
+          "end": 343.273,
           "text": "Set when it is active."
         },
         {
           "index": 53,
           "paragraph": 29,
-          "start": 343.751,
-          "end": 351.708,
+          "start": 343.623,
+          "end": 351.58,
           "text": "Right-click the A O I timeline and choose Activate, Deactivate, or Delete interval, or press the A O I's key at the cursor."
         },
         {
           "index": 54,
           "paragraph": 30,
-          "start": 352.408,
-          "end": 362.968,
+          "start": 352.28,
+          "end": 362.84,
           "text": "The manual recommends always assigning a key to a dynamic A O I, because with many A O I's switched on and off often the key is the quickest and most precise way to work."
         },
         {
           "index": 55,
           "paragraph": 30,
-          "start": 363.318,
-          "end": 366.902,
+          "start": 363.19,
+          "end": 366.774,
           "text": "Turning an A O I off stops its metrics; hiding it does not."
         },
         {
           "index": 56,
           "paragraph": 31,
-          "start": 367.602,
-          "end": 373.021,
+          "start": 367.474,
+          "end": 372.893,
           "text": "You should see a colored bar on the A O I TIMELINE only where the element is on screen."
         },
         {
           "index": 57,
           "paragraph": 31,
-          "start": 373.371,
-          "end": 374.395,
+          "start": 373.243,
+          "end": 374.267,
           "text": "Common mistake."
         },
         {
           "index": 58,
           "paragraph": 32,
-          "start": 375.095,
-          "end": 386.188,
+          "start": 374.967,
+          "end": 386.06,
           "text": "Leaving Brand Logo active for the whole commercial, so its share is divided by 60 seconds instead of 5 seconds and T T F F A O I counts from the first frame."
         },
         {
           "index": 59,
           "paragraph": 33,
-          "start": 386.888,
-          "end": 387.613,
+          "start": 386.76,
+          "end": 387.485,
           "text": "Organize."
         },
         {
           "index": 60,
           "paragraph": 33,
-          "start": 387.963,
-          "end": 395.025,
+          "start": 387.835,
+          "end": 394.897,
           "text": "Group related A O I's with the Add group icon; save the set as a template with the import and export buttons."
         },
         {
           "index": 61,
           "paragraph": 34,
-          "start": 395.725,
-          "end": 405.986,
+          "start": 395.597,
+          "end": 405.858,
           "text": "Draw the static A O I's. On each rating slide draw a static A O I around the scale; on an image or survey slide it is drawn once for every respondent."
         },
         {
           "index": 62,
           "paragraph": 35,
-          "start": 406.686,
-          "end": 407.539,
+          "start": 406.558,
+          "end": 407.411,
           "text": "Calculate."
         },
         {
           "index": 63,
           "paragraph": 35,
-          "start": 407.889,
-          "end": 413.159,
+          "start": 407.761,
+          "end": 413.031,
           "text": "Click \"Calculate\" in the A O I metrics menu or panel and hover over a metric's \"?\""
         },
         {
           "index": 64,
           "paragraph": 35,
-          "start": 413.509,
-          "end": 414.618,
+          "start": 413.381,
+          "end": 414.49,
           "text": "for its definition."
         },
         {
           "index": 65,
           "paragraph": 35,
-          "start": 414.968,
-          "end": 420.237,
+          "start": 414.84,
+          "end": 420.109,
           "text": "You should see one column per A O I, averaged across the respondents in the analysis."
         },
         {
           "index": 66,
           "paragraph": 36,
-          "start": 420.937,
-          "end": 425.375,
+          "start": 420.809,
+          "end": 425.247,
           "text": "The A O I article advises preferring fixation based metrics."
         },
         {
           "index": 67,
           "paragraph": 37,
-          "start": 426.075,
-          "end": 429.424,
+          "start": 425.947,
+          "end": 429.296,
           "text": "iMotions, \"A O I editor feature video\" (YouTube)"
         },
         {
           "index": 68,
           "paragraph": 38,
-          "start": 430.124,
-          "end": 435.756,
+          "start": 429.996,
+          "end": 435.628,
           "text": "An annotation is a named interval on the timeline, such as \"product shot\" or \"end card\"."
         },
         {
           "index": 69,
           "paragraph": 38,
-          "start": 436.106,
-          "end": 443.381,
+          "start": 435.978,
+          "end": 443.253,
           "text": "For commercials the annotations article recommends Stimulus annotations, made once on the stimulus for every viewer."
         },
         {
           "index": 70,
           "paragraph": 39,
-          "start": 444.081,
-          "end": 457.606,
+          "start": 443.953,
+          "end": 457.478,
           "text": "Create them in the Annotations menu and place them in the Annotations panel; for equal time bins use an Automated annotation with \"Subdivide intervals\" by \"Length of each division\" or \"Number of divisions\"."
         },
         {
           "index": 71,
           "paragraph": 40,
-          "start": 458.306,
-          "end": 467.778,
+          "start": 458.178,
+          "end": 467.65,
           "text": "Results export as \"Individual Annotation Data dot C S V\" and \"Aggrergate Annotation Results dot C S V\" (the manual's spelling)."
         },
         {
           "index": 72,
           "paragraph": 40,
-          "start": 468.128,
-          "end": 475.445,
+          "start": 468.0,
+          "end": 475.317,
           "text": "Live markers from the session appear in the Markers panel, and Markers menu, then \"Add manual marker\" adds one later."
         },
         {
           "index": 73,
           "paragraph": 41,
-          "start": 476.145,
-          "end": 480.348,
+          "start": 476.017,
+          "end": 480.22,
           "text": "You should see each annotation as a bar in the Annotations panel."
         },
         {
           "index": 74,
           "paragraph": 41,
-          "start": 480.698,
-          "end": 481.722,
+          "start": 480.57,
+          "end": 481.594,
           "text": "Common mistake."
         },
         {
           "index": 75,
           "paragraph": 41,
-          "start": 482.072,
-          "end": 487.128,
+          "start": 481.944,
+          "end": 487.0,
           "text": "Coding scenes as respondent annotations, which must be repeated for every viewer."
         },
         {
           "index": 76,
           "paragraph": 42,
-          "start": 487.828,
-          "end": 491.839,
+          "start": 487.7,
+          "end": 491.711,
           "text": "An export is a file iMotions writes for work in other software."
         },
         {
           "index": 77,
           "paragraph": 42,
-          "start": 492.189,
-          "end": 493.085,
+          "start": 492.061,
+          "end": 492.957,
           "text": "Four matter here."
         },
         {
           "index": 78,
           "paragraph": 43,
-          "start": 493.785,
-          "end": 497.305,
+          "start": 493.657,
+          "end": 497.177,
           "text": "Individual A O I metrics, the file for the statistics."
         },
         {
           "index": 79,
           "paragraph": 44,
-          "start": 498.005,
-          "end": 514.367,
+          "start": 497.877,
+          "end": 514.239,
           "text": "In the analysis click \"Export\", open the \"R Processing\" tab, switch on \"A O I Metrics Export\", tick Individual A O I metrics, and keep the dwell classification threshold at its 100 milliseconds default unless the plan says otherwise."
         },
         {
           "index": 80,
           "paragraph": 45,
-          "start": 515.067,
-          "end": 524.177,
+          "start": 514.939,
+          "end": 524.049,
           "text": "The survey export sits on \"Built in processing\" instead; confirm both tabs, the export folder, and the file names on the lab machine."
         },
         {
           "index": 81,
           "paragraph": 45,
-          "start": 524.527,
-          "end": 527.513,
+          "start": 524.399,
+          "end": 527.385,
           "text": "You should see C S V files in the export folder."
         },
         {
           "index": 82,
           "paragraph": 46,
-          "start": 528.213,
-          "end": 543.36,
+          "start": 528.085,
+          "end": 543.232,
           "text": "The simulated A O I metrics file from section 03 is organized as one row per respondent, commercial, and A O I; verify on the lab machine that a real export has the same row structure and header layout."
         },
         {
           "index": 83,
           "paragraph": 46,
-          "start": 543.71,
-          "end": 544.734,
+          "start": 543.582,
+          "end": 544.606,
           "text": "Common mistake."
         },
         {
           "index": 84,
           "paragraph": 47,
-          "start": 545.434,
-          "end": 551.087,
+          "start": 545.306,
+          "end": 550.959,
           "text": "Exporting only the aggregated metrics, one average per A O I, which cannot be tested."
         },
         {
           "index": 85,
           "paragraph": 48,
-          "start": 551.787,
-          "end": 552.683,
+          "start": 551.659,
+          "end": 552.555,
           "text": "Sensor data."
         },
         {
           "index": 86,
           "paragraph": 48,
-          "start": 553.033,
-          "end": 560.287,
+          "start": 552.905,
+          "end": 560.159,
           "text": "Study, then \"Export\" tab, then \"Sensor data\", then blue \"Export\" (or right-click, then Export, then Sensor data)."
         },
         {
           "index": 87,
           "paragraph": 49,
-          "start": 560.987,
-          "end": 578.779,
-          "text": "One C S V per respondent unless \"Merge respondents to one file\" is ticked, in blocks #INFO, #METADATA, and #DATA, with columns such as Row, Timestamp, and SlideEvent; \"Include A O I markers\" adds an Active and a Gazed column per A O I."
+          "start": 560.859,
+          "end": 577.968,
+          "text": "One C S V per respondent unless \"Merge respondents to one file\" is ticked, in blocks Info, Metadata, and #DATA, with columns such as Row, Timestamp, and SlideEvent; \"Include A O I markers\" adds an Active and a Gazed column per A O I."
         },
         {
           "index": 88,
           "paragraph": 50,
-          "start": 579.479,
-          "end": 583.596,
+          "start": 578.668,
+          "end": 582.785,
           "text": "It checks timing sample by sample; it is not the input for the tests."
         },
         {
           "index": 89,
           "paragraph": 51,
-          "start": 584.296,
-          "end": 585.853,
+          "start": 583.485,
+          "end": 585.043,
           "text": "Data Quality Statistics."
         },
         {
           "index": 90,
           "paragraph": 51,
-          "start": 586.203,
-          "end": 592.433,
+          "start": 585.393,
+          "end": 591.622,
           "text": "The DataQuality dot T X T file from section 05, filed for the methods paragraph."
         },
         {
           "index": 91,
           "paragraph": 52,
-          "start": 593.133,
-          "end": 594.029,
+          "start": 592.322,
+          "end": 593.218,
           "text": "Survey data."
         },
         {
           "index": 92,
           "paragraph": 53,
-          "start": 594.729,
-          "end": 616.617,
+          "start": 593.918,
+          "end": 615.806,
           "text": "In the analysis, \"Export\", tab \"Built in processing\", then \"Survey data per respondent\", \"Full survey response\", or \"Survey statistics\" (one dot T X T per slide, \"MERGED SURVEY RESPONSE MATRIX dot T X T\", or \"SurveyStatistics dot T X T\"), run from a master analysis holding every respondent."
         },
         {
           "index": 93,
           "paragraph": 54,
-          "start": 617.317,
-          "end": 630.031,
+          "start": 616.506,
+          "end": 629.221,
           "text": "Open every export through Excel's Text Import Wizard, never by double-clicking: the files are comma separated with a dot as the decimal mark, and a double-click applies the computer's regional settings."
         },
         {
           "index": 94,
           "paragraph": 55,
-          "start": 630.731,
-          "end": 641.931,
+          "start": 629.921,
+          "end": 641.121,
           "text": "Choose Open, \"Browse\", file type \"All Files\" or \"Text files\", then \"Delimited\" from row 1, \"Comma\", \"Advanced\" to set the dot as decimal separator, and \"Finish\"."
         },
         {
           "index": 95,
           "paragraph": 55,
-          "start": 642.281,
-          "end": 647.295,
+          "start": 641.471,
+          "end": 646.484,
           "text": "Save a working copy as dot X L S X and keep the original unchanged."
         },
         {
           "index": 96,
           "paragraph": 56,
-          "start": 647.995,
-          "end": 673.488,
-          "text": "Help center articles for this section: Replay and Analysis Windows, Respondent Replay, Aggregate Replay, Areas of Interest (A O I's), How to Create A O I's, A O I Metrics, Heatmaps, Basic Heatmap Explanation and Generation, Scan Paths and Individual Heatmaps, Using Annotations, Export: Sensor Data, Export: Data Quality Statistics, Export: Survey data, Opening Data Export Files in Excel."
+          "start": 647.184,
+          "end": 647.696,
+          "text": "Why."
         },
         {
           "index": 97,
+          "paragraph": 56,
+          "start": 648.046,
+          "end": 655.342,
+          "text": "The worked example and the tests in section 08 use simulated files, so every number is known in advance."
+        },
+        {
+          "index": 98,
+          "paragraph": 56,
+          "start": 655.692,
+          "end": 660.172,
+          "text": "A real export is messier, and the only way to learn it is to open one."
+        },
+        {
+          "index": 99,
           "paragraph": 57,
-          "start": 674.188,
-          "end": 698.081,
+          "start": 660.872,
+          "end": 681.992,
+          "text": "The lab director's pilot recording of October 13, 2026 is shared here with his permission as practice data: one respondent, the Smart Eye Aurora at 60 hertz on the lab's stimulus monitor (2560 by 1440 pixels), and the respondent camera with aff decks."
+        },
+        {
+          "index": 100,
+          "paragraph": 58,
+          "start": 682.692,
+          "end": 685.508,
+          "text": "The study is a copy of the lab's e.l.f."
+        },
+        {
+          "index": 101,
+          "paragraph": 58,
+          "start": 685.858,
+          "end": 698.957,
+          "text": "Creative Evaluation: a 60 seconds baseline, a still advertisement (Creative A) for 15 seconds, a 15 seconds recovery, and a short questionnaire, then the same for Creative B."
+        },
+        {
+          "index": 102,
+          "paragraph": 59,
+          "start": 699.657,
+          "end": 707.891,
+          "text": "One respondent tests nothing; the exercise is about reading the files correctly and checking a script against iMotions' own numbers."
+        },
+        {
+          "index": 103,
+          "paragraph": 59,
+          "start": 708.241,
+          "end": 713.703,
+          "text": "Workshop 3, section 7.5, uses the same recording for the face data."
+        },
+        {
+          "index": 104,
+          "paragraph": 60,
+          "start": 714.403,
+          "end": 740.365,
+          "text": "The files sit in the folder pilot/ of this workshop's data: zero zero 1, pilot zero 1 dot C S V (the Sensor Data export, 17 megabytes), iMotions' own R PROCESSING exports Individual A O I metrics dot C S V, Aggregated A O I metrics dot C S V, Fixation Table dot C S V, and Saccade Table dot C S V, the script pilot E T analysis dot R"
+        },
+        {
+          "index": 105,
+          "paragraph": 61,
+          "start": 741.065,
+          "end": 761.673,
+          "text": "(base R, no packages to install), what it prints, pilot E T analysis output dot T X T, and its outputs pilot E T codebook dot C S V, pilot E T summary by stimulus dot C S V, pilot A O I metrics rebuilt dot C S V, and pilot E T figure R dot P N G."
+        },
+        {
+          "index": 106,
+          "paragraph": 62,
+          "start": 762.373,
+          "end": 768.091,
+          "text": "The advertisements themselves are not posted; the files hold coordinates and times only."
+        },
+        {
+          "index": 107,
+          "paragraph": 63,
+          "start": 768.791,
+          "end": 769.687,
+          "text": "Read the header."
+        },
+        {
+          "index": 108,
+          "paragraph": 63,
+          "start": 770.037,
+          "end": 776.245,
+          "text": "Run the script from the folder that holds the files, or import the file as 7.6 describes."
+        },
+        {
+          "index": 109,
+          "paragraph": 64,
+          "start": 776.945,
+          "end": 803.291,
+          "text": "You should see the study pilot 1, 2026 10, aff decks, Aurora, iMotions 11 point 1, build 4 7 1 3 6, Gaze Calibration \"Excellent\" with the value 92, and four Sensor info rows: Affectiva aff decks, the Eye tracker Smart Eye Aurora (latency 0 milliseconds), R Analysis F E A thresholding, and R Analysis Gaze Analysis I V T filter."
+        },
+        {
+          "index": 110,
+          "paragraph": 65,
+          "start": 803.991,
+          "end": 846.31,
+          "text": "The I V T row lists every setting the fixation filter used: gap fill on with a maximum gap of 75 milliseconds, no noise reduction, a 20 milliseconds velocity window, a velocity threshold of 30 degrees per second, fixations shorter than 60 milliseconds discarded, fixations merged when less than 75 milliseconds and 0.5 degrees apart, a screen of 2560 by 1440 pixels at 65 centimeters, and a monitor size of 15.5 (the 34.4 by 19.4 centimeters screen measures 15.5 inches across the diagonal)."
+        },
+        {
+          "index": 111,
+          "paragraph": 66,
+          "start": 847.01,
+          "end": 858.146,
+          "text": "The data table starts on line 29 and has 168 columns, and the file is separated by commas, although the export view's Description says tab separated."
+        },
+        {
+          "index": 112,
+          "paragraph": 66,
+          "start": 858.496,
+          "end": 859.52,
+          "text": "Common mistake."
+        },
+        {
+          "index": 113,
+          "paragraph": 67,
+          "start": 860.22,
+          "end": 864.743,
+          "text": "Writing \"default settings\" in the methods instead of copying these values."
+        },
+        {
+          "index": 114,
+          "paragraph": 68,
+          "start": 865.443,
+          "end": 866.488,
+          "text": "Build the codebook."
+        },
+        {
+          "index": 115,
+          "paragraph": 68,
+          "start": 866.838,
+          "end": 870.614,
+          "text": "The Metadata rows give every column a device and a unit."
+        },
+        {
+          "index": 116,
+          "paragraph": 68,
+          "start": 870.964,
+          "end": 876.959,
+          "text": "The Row column has no metadata, so the metadata lines up with the data from Timestamp onward."
+        },
+        {
+          "index": 117,
+          "paragraph": 69,
+          "start": 877.659,
+          "end": 890.779,
+          "text": "You should see E T gaze left x in Pixel, E T pupil right and E T distance left in Millimeter, Gaze X in Pixels, Fixation Duration in Milliseconds, and Saccade Amplitude in Degrees."
+        },
+        {
+          "index": 118,
+          "paragraph": 69,
+          "start": 891.129,
+          "end": 892.153,
+          "text": "Common mistake."
+        },
+        {
+          "index": 119,
+          "paragraph": 70,
+          "start": 892.853,
+          "end": 897.674,
+          "text": "Lining the metadata up with the Row column, which shifts every unit by one column."
+        },
+        {
+          "index": 120,
+          "paragraph": 71,
+          "start": 898.374,
+          "end": 899.505,
+          "text": "Filter by device."
+        },
+        {
+          "index": 121,
+          "paragraph": 71,
+          "start": 899.855,
+          "end": 902.521,
+          "text": "Each device has its own Event Source column."
+        },
+        {
+          "index": 122,
+          "paragraph": 72,
+          "start": 903.221,
+          "end": 923.68,
+          "text": "You should see 13,713 eye tracker rows, shared with the 13,713 rows of the I V T filter; 6,809 aff decks rows, shared with the F E A thresholding notebook; and 32 slide event rows, 20,554 in all."
+        },
+        {
+          "index": 123,
+          "paragraph": 72,
+          "start": 924.03,
+          "end": 925.054,
+          "text": "Common mistake."
+        },
+        {
+          "index": 124,
+          "paragraph": 73,
+          "start": 925.754,
+          "end": 931.386,
+          "text": "Averaging a gaze column over every row, including the aff decks rows, where it is empty."
+        },
+        {
+          "index": 125,
+          "paragraph": 74,
+          "start": 932.086,
+          "end": 933.281,
+          "text": "Find the stimuli."
+        },
+        {
+          "index": 126,
+          "paragraph": 74,
+          "start": 933.631,
+          "end": 936.724,
+          "text": "Use the Start Media and End Media slide events."
+        },
+        {
+          "index": 127,
+          "paragraph": 74,
+          "start": 937.074,
+          "end": 960.242,
+          "text": "You should see Creative A from 60.42 to 75.42 seconds and Creative B from 183.73 to 198.73 seconds, each 15.00 seconds long; the baselines last 59.99 seconds and the questionnaires 32.88 and 14.94 seconds."
+        },
+        {
+          "index": 128,
+          "paragraph": 75,
+          "start": 960.942,
+          "end": 970.35,
+          "text": "Start Slide comes 10 to 63 milliseconds before Start Media on the image slides and about 300 milliseconds before it on the questionnaires."
+        },
+        {
+          "index": 129,
+          "paragraph": 75,
+          "start": 970.7,
+          "end": 971.724,
+          "text": "Common mistake."
+        },
+        {
+          "index": 130,
+          "paragraph": 75,
+          "start": 972.074,
+          "end": 974.101,
+          "text": "Timing a stimulus from Start Slide."
+        },
+        {
+          "index": 131,
+          "paragraph": 76,
+          "start": 974.801,
+          "end": 977.19,
+          "text": "Check the sampling rate and the gaze data."
+        },
+        {
+          "index": 132,
+          "paragraph": 76,
+          "start": 977.54,
+          "end": 985.412,
+          "text": "A value of minus 1 in E T gaze left x or E T gaze right x means the tracker did not find that eye."
+        },
+        {
+          "index": 133,
+          "paragraph": 77,
+          "start": 986.112,
+          "end": 1010.453,
+          "text": "You should see one row every 16.67 milliseconds (60.0 per second) and gaze on 81.5 percent of the rows over the whole recording, but on 95.2 percent of Creative A and 94.4 percent of Creative B, the same as Valid data in Individual A O I metrics dot C S V (95.22 and 94.44)."
+        },
+        {
+          "index": 134,
+          "paragraph": 78,
+          "start": 1011.153,
+          "end": 1020.263,
+          "text": "Most of the loss is in the second baseline and recovery (64.1 and 62.1 percent), screens that carry no measure."
+        },
+        {
+          "index": 135,
+          "paragraph": 78,
+          "start": 1020.613,
+          "end": 1030.618,
+          "text": "The mean eye to tracker distance stayed between 596 and 627 millimeters, near the 65 centimeters set in the study."
+        },
+        {
+          "index": 136,
+          "paragraph": 78,
+          "start": 1030.968,
+          "end": 1031.992,
+          "text": "Common mistake."
+        },
+        {
+          "index": 137,
+          "paragraph": 79,
+          "start": 1032.692,
+          "end": 1042.249,
+          "text": "Reporting one percentage for the whole session, which hides where the data were lost; report it per stimulus, and write a rule for the screens that carry no measure."
+        },
+        {
+          "index": 138,
+          "paragraph": 80,
+          "start": 1042.949,
+          "end": 1044.101,
+          "text": "Count the fixations."
+        },
+        {
+          "index": 139,
+          "paragraph": 80,
+          "start": 1044.451,
+          "end": 1057.081,
+          "text": "You should see 41 fixations starting inside Creative A and 46 inside Creative B in the Sensor Data file, but 42 and 47 in Fixation Table dot C S V."
+        },
+        {
+          "index": 140,
+          "paragraph": 81,
+          "start": 1057.781,
+          "end": 1069.194,
+          "text": "The extra row is the fixation already under way when the advertisement appeared: Fixation Table dot C S V cuts it at the stimulus start and marks it Partial in Truncation Type."
+        },
+        {
+          "index": 141,
+          "paragraph": 82,
+          "start": 1069.894,
+          "end": 1083.441,
+          "text": "It also cuts the last fixation at the stimulus end and marks that one Partial too, which is why a Partial row can be shorter than the 60 milliseconds minimum, such as the 29 milliseconds row at the end of Creative A."
+        },
+        {
+          "index": 142,
+          "paragraph": 83,
+          "start": 1084.141,
+          "end": 1096.429,
+          "text": "The mean fixation lasted 296 milliseconds on Creative A and 257 milliseconds on Creative B, against about 830 milliseconds on the baseline screens."
+        },
+        {
+          "index": 143,
+          "paragraph": 83,
+          "start": 1096.779,
+          "end": 1097.803,
+          "text": "Common mistake."
+        },
+        {
+          "index": 144,
+          "paragraph": 83,
+          "start": 1098.153,
+          "end": 1102.057,
+          "text": "Comparing counts from two files without reading Truncation Type."
+        },
+        {
+          "index": 145,
+          "paragraph": 84,
+          "start": 1102.757,
+          "end": 1104.293,
+          "text": "Rebuild the A O I metrics."
+        },
+        {
+          "index": 146,
+          "paragraph": 85,
+          "start": 1104.993,
+          "end": 1120.011,
+          "text": "Keep the Fixation Table rows whose A O I Type is Static A O I, sort them by Fixation Start, and compute the time to first fixation, the number of fixations, their summed duration, and the number of separate visits minus one."
+        },
+        {
+          "index": 147,
+          "paragraph": 86,
+          "start": 1120.711,
+          "end": 1163.563,
+          "text": "You should see Face on Creative A: first fixation at 620.13 milliseconds, 11 fixations, 4,083.38 milliseconds (27.22 percent of 15 seconds), 2 revisits; Product on Creative A: 886.75 milliseconds, 8 fixations, 3,400.11 milliseconds (22.67 percent), 3 revisits; Face on Creative B: 301.75 milliseconds, 8 fixations, 2,575.53 milliseconds (17.17 percent), 3 revisits."
+        },
+        {
+          "index": 148,
+          "paragraph": 87,
+          "start": 1164.263,
+          "end": 1178.066,
+          "text": "Each value equals the Individual A O I metrics dot C S V columns T T F F (A O I), Fixation count, Dwell time (fixation, milliseconds), and Revisit count (fixation dwells)."
+        },
+        {
+          "index": 149,
+          "paragraph": 88,
+          "start": 1178.766,
+          "end": 1193.102,
+          "text": "The gaze based column Dwell time (gaze, milliseconds) is longer, 4,450.07 milliseconds for the Face on Creative A, because it counts gaze samples rather than fixations."
+        },
+        {
+          "index": 150,
+          "paragraph": 89,
+          "start": 1193.802,
+          "end": 1204.746,
+          "text": "The Face covered 5.98 percent of the screen on Creative A and the Product 2.72 percent, so a larger A O I collects more fixations by chance alone."
+        },
+        {
+          "index": 151,
+          "paragraph": 89,
+          "start": 1205.096,
+          "end": 1206.12,
+          "text": "Common mistake."
+        },
+        {
+          "index": 152,
+          "paragraph": 89,
+          "start": 1206.47,
+          "end": 1210.587,
+          "text": "Mixing fixation based and gaze based columns in one table."
+        },
+        {
+          "index": 153,
+          "paragraph": 90,
+          "start": 1211.287,
+          "end": 1227.415,
+          "text": "Notice the questionnaire A O I's. You should see eight Dynamic A O I rows under each questionnaire, named after the survey questions (brand recall, message recall, ad liking, message clarity, personal relevance, learn more, reason, seen before)."
+        },
+        {
+          "index": 154,
+          "paragraph": 91,
+          "start": 1228.115,
+          "end": 1239.571,
+          "text": "Only Face and Product were drawn for this pilot, so iMotions made these from the survey slides; the manuals read so far do not describe the feature, so check it before relying on it."
+        },
+        {
+          "index": 155,
+          "paragraph": 92,
+          "start": 1240.271,
+          "end": 1244.517,
+          "text": "They measure reading time per question, not attention to the advertisements."
+        },
+        {
+          "index": 156,
+          "paragraph": 92,
+          "start": 1244.867,
+          "end": 1245.891,
+          "text": "Common mistake."
+        },
+        {
+          "index": 157,
+          "paragraph": 92,
+          "start": 1246.241,
+          "end": 1249.249,
+          "text": "Pooling these rows with the advertisement A O I's."
+        },
+        {
+          "index": 158,
+          "paragraph": 93,
+          "start": 1249.949,
+          "end": 1250.631,
+          "text": "Try it."
+        },
+        {
+          "index": 159,
+          "paragraph": 93,
+          "start": 1250.981,
+          "end": 1262.16,
+          "text": "In pilot A O I metrics rebuilt dot C S V the A O I fixations keep every fixation the I V T filter found, down to its 60 milliseconds minimum."
+        },
+        {
+          "index": 160,
+          "paragraph": 93,
+          "start": 1262.51,
+          "end": 1267.715,
+          "text": "Apply a stricter rule of 100 milliseconds to the A O I fixations only."
+        },
+        {
+          "index": 161,
+          "paragraph": 94,
+          "start": 1268.415,
+          "end": 1285.141,
+          "text": "The Product on Creative A loses one fixation of 83 milliseconds, so its count falls to 7 and its dwell time to 3,316.73 milliseconds; the two Face rows and every time to first fixation stay the same."
+        },
+        {
+          "index": 162,
+          "paragraph": 95,
+          "start": 1285.841,
+          "end": 1294.011,
+          "text": "A rule like this belongs in the analysis plan before any data are seen, and any other value is reported as a planned sensitivity check."
+        },
+        {
+          "index": 163,
+          "paragraph": 96,
+          "start": 1294.711,
+          "end": 1320.205,
+          "text": "Help center articles for this section: Replay and Analysis Windows, Respondent Replay, Aggregate Replay, Areas of Interest (A O I's), How to Create A O I's, A O I Metrics, Heatmaps, Basic Heatmap Explanation and Generation, Scan Paths and Individual Heatmaps, Using Annotations, Export: Sensor Data, Export: Data Quality Statistics, Export: Survey data, Opening Data Export Files in Excel."
+        },
+        {
+          "index": 164,
+          "paragraph": 97,
+          "start": 1320.905,
+          "end": 1344.798,
           "text": "Create an analysis by the written rule, inspect single and aggregate replays, read a dynamic heatmap as a count of viewers at one moment, draw keyed dynamic A O I's with key frames and active intervals, calculate the metrics, mark scenes with annotations, and produce the Individual A O I metrics, sensor, data quality, and survey exports and open them safely in Excel."
         }
       ]
@@ -6929,8 +7465,8 @@
     },
     "resources": {
       "file": "resources.mp3",
-      "duration": 1454.273,
-      "mp3_duration": 1454.328,
+      "duration": 1591.296,
+      "mp3_duration": 1591.344,
       "starts": [
         0.0,
         3.943,
@@ -7143,56 +7679,71 @@
         1009.683,
         1011.577,
         1022.027,
-        1031.431,
-        1039.162,
-        1043.041,
-        1060.423,
-        1071.726,
-        1087.274,
-        1097.937,
-        1111.053,
-        1123.486,
-        1138.138,
-        1148.523,
-        1158.781,
-        1170.51,
-        1180.213,
-        1194.523,
-        1209.453,
-        1218.003,
-        1231.525,
-        1246.07,
-        1253.959,
-        1263.747,
-        1281.313,
-        1284.232,
-        1286.276,
-        1289.485,
-        1299.379,
-        1301.863,
-        1309.837,
-        1312.662,
-        1323.325,
-        1326.405,
-        1337.281,
-        1339.295,
-        1349.51,
-        1351.695,
-        1356.021,
-        1359.23,
-        1366.735,
-        1370.051,
-        1376.809,
-        1379.015,
-        1385.433,
-        1388.236,
-        1397.213,
-        1399.803,
-        1416.098,
-        1418.56,
-        1428.177,
-        1430.277,
-        1443.606
+        1032.071,
+        1039.802,
+        1043.681,
+        1061.063,
+        1072.366,
+        1087.914,
+        1098.577,
+        1111.693,
+        1124.126,
+        1138.778,
+        1149.163,
+        1159.421,
+        1171.15,
+        1180.853,
+        1195.163,
+        1210.093,
+        1218.643,
+        1232.165,
+        1246.71,
+        1254.599,
+        1264.387,
+        1267.831,
+        1278.229,
+        1282.918,
+        1285.709,
+        1307.84,
+        1309.991,
+        1312.76,
+        1329.951,
+        1331.653,
+        1341.207,
+        1351.891,
+        1363.641,
+        1374.112,
+        1395.42,
+        1400.771,
+        1418.337,
+        1421.255,
+        1423.299,
+        1426.508,
+        1436.403,
+        1438.886,
+        1446.861,
+        1449.685,
+        1460.348,
+        1463.429,
+        1474.305,
+        1476.319,
+        1486.533,
+        1488.718,
+        1493.045,
+        1496.253,
+        1503.759,
+        1507.074,
+        1513.833,
+        1516.039,
+        1522.456,
+        1525.259,
+        1534.237,
+        1536.827,
+        1553.121,
+        1555.583,
+        1565.201,
+        1567.3,
+        1580.629
       ],
       "sentences": [
         {
@@ -8669,357 +9220,462 @@
           "index": 210,
           "paragraph": 94,
           "start": 1022.027,
-          "end": 1030.731,
-          "text": "Every file is simulated teaching data, generated to mirror a two commercial test of the kind in the the demo Sony Bravia study study."
+          "end": 1031.371,
+          "text": "Every file in the first list is simulated teaching data, generated to mirror a two commercial test of the kind in the demo Sony Bravia study."
         },
         {
           "index": 211,
           "paragraph": 95,
-          "start": 1031.431,
-          "end": 1038.812,
+          "start": 1032.071,
+          "end": 1039.452,
           "text": "No real viewer was recorded, no data from the demo study were used, and none of these numbers may be quoted as findings."
         },
         {
           "index": 212,
           "paragraph": 95,
-          "start": 1039.162,
-          "end": 1042.341,
+          "start": 1039.802,
+          "end": 1042.981,
           "text": "Keep the originals read only and work on copies."
         },
         {
           "index": 213,
           "paragraph": 96,
-          "start": 1043.041,
-          "end": 1059.723,
+          "start": 1043.681,
+          "end": 1060.363,
           "text": "SIMULATED ad test AOI metrics dot C S V. The simulated Individual A O I metrics export: 240 rows (30 respondents, two commercials, four A O I's), 25 columns with iMotions metric names."
         },
         {
           "index": 214,
           "paragraph": 97,
-          "start": 1060.423,
-          "end": 1071.026,
+          "start": 1061.063,
+          "end": 1071.666,
           "text": "SIMULATED ad test survey dot C S V. One row per respondent: liking of each commercial (1 to 7), brand recall, and the commercial preferred."
         },
         {
           "index": 215,
           "paragraph": 98,
-          "start": 1071.726,
-          "end": 1086.574,
+          "start": 1072.366,
+          "end": 1087.214,
           "text": "SIMULATED ad test session log dot C S V. The simulated session log: order group, calibration result, recalibrations, distance to the screen, glasses, Valid data, and the decision note for each respondent."
         },
         {
           "index": 216,
           "paragraph": 99,
-          "start": 1087.274,
-          "end": 1097.237,
+          "start": 1087.914,
+          "end": 1097.877,
           "text": "SIMULATED descriptives by commercial A O I dot C S V. The descriptive table by A O I and commercial that analysis dot R writes."
         },
         {
           "index": 217,
           "paragraph": 100,
-          "start": 1097.937,
-          "end": 1110.353,
+          "start": 1098.577,
+          "end": 1110.993,
           "text": "SIMULATED test results dot C S V. The paired tests for H1, H2, H2b, and H3, with d z and the Wilcoxon checks, that analysis dot R writes."
         },
         {
           "index": 218,
           "paragraph": 101,
-          "start": 1111.053,
-          "end": 1122.786,
+          "start": 1111.693,
+          "end": 1123.426,
           "text": "SIMULATED model results dot C S V. The mixed model coefficients, the two ICCs, the simple order estimate, and the two correlations that analysis dot R writes."
         },
         {
           "index": 219,
           "paragraph": 102,
-          "start": 1123.486,
-          "end": 1137.438,
+          "start": 1124.126,
+          "end": 1138.078,
           "text": "analysis dot R. The analysis script for Step 08: read, clean, describe, paired t tests with d z, Wilcoxon checks, the order model, the recall correlation, assumption checks, and three figures."
         },
         {
           "index": 220,
           "paragraph": 103,
-          "start": 1138.138,
-          "end": 1147.823,
+          "start": 1138.778,
+          "end": 1148.463,
           "text": "analysis output dot T X T. The console output of analysis dot R; every simulated number quoted in this workshop comes from this file."
         },
         {
           "index": 221,
           "paragraph": 104,
-          "start": 1148.523,
-          "end": 1158.081,
+          "start": 1149.163,
+          "end": 1158.721,
           "text": "analysis excel walkthrough dot M D. The same analysis done in Excel, step by step, with the cell references used in Exercise 4."
         },
         {
           "index": 222,
           "paragraph": 105,
-          "start": 1158.781,
-          "end": 1169.81,
+          "start": 1159.421,
+          "end": 1170.45,
           "text": "SIMULATED ad test analysis dot X L S X. The finished Excel workbook (read me, Data, Summary, ProductTV, BrandLogo, Survey, and Check sheets)."
         },
         {
           "index": 223,
           "paragraph": 106,
-          "start": 1170.51,
-          "end": 1179.513,
+          "start": 1171.15,
+          "end": 1180.153,
           "text": "results text dot M D. The model methods, results, and discussion paragraphs used in Steps 06, 09, and 10."
         },
         {
           "index": 224,
           "paragraph": 107,
-          "start": 1180.213,
-          "end": 1193.823,
+          "start": 1180.853,
+          "end": 1194.463,
           "text": "SIMULATED fig1 product dwell paired dot P N G. Figure 1: Product TV dwell share, one line per viewer, with each commercial's mean and 95 percent confidence interval (simulated)."
         },
         {
           "index": 225,
           "paragraph": 108,
-          "start": 1194.523,
-          "end": 1208.753,
+          "start": 1195.163,
+          "end": 1209.393,
           "text": "SIMULATED fig2 brand logo T T F F dot P N G. Figure 2: time to first fixation on the brand logo; open circles mark viewers who fixated it in one commercial only (simulated)."
         },
         {
           "index": 226,
           "paragraph": 109,
-          "start": 1209.453,
-          "end": 1217.303,
+          "start": 1210.093,
+          "end": 1217.943,
           "text": "SIMULATED fig3 liking dot P N G. Figure 3: liking of each commercial, one line per viewer (simulated)."
         },
         {
           "index": 227,
           "paragraph": 110,
-          "start": 1218.003,
-          "end": 1230.825,
+          "start": 1218.643,
+          "end": 1231.465,
           "text": "SIMULATED assumption checks dot P N G. The assumption check plots: Q Q plots of the H1, H2, and H3 differences and three mixed model diagnostics (simulated)."
         },
         {
           "index": 228,
           "paragraph": 111,
-          "start": 1231.525,
-          "end": 1245.37,
+          "start": 1232.165,
+          "end": 1246.01,
           "text": "make simulated data dot P Y. The generator that produced the simulated files (seed 20268242), kept so that nobody mistakes the data for real viewers."
         },
         {
           "index": 229,
           "paragraph": 112,
-          "start": 1246.07,
-          "end": 1253.259,
+          "start": 1246.71,
+          "end": 1253.899,
           "text": "make excel workbook dot P Y. The script that builds the Excel workbook and its walkthrough from the C S V files."
         },
         {
           "index": 230,
           "paragraph": 113,
-          "start": 1253.959,
-          "end": 1263.047,
+          "start": 1254.599,
+          "end": 1263.687,
           "text": "zotero dot R I S. The 35 scholarly readings in R I S format, for import into Zotero or any reference manager."
         },
         {
           "index": 231,
           "paragraph": 114,
-          "start": 1263.747,
-          "end": 1280.963,
-          "text": "These thirteen documents live in the iMotions Research Project on claude.ai (folder lab-reference); documents 00 to 10 are also saved as Word files in C:\\JaxState Behavior Lab\\00 Lab Reference."
+          "start": 1264.387,
+          "end": 1267.481,
+          "text": "real practice data (section 7.7)."
         },
         {
           "index": 232,
           "paragraph": 114,
-          "start": 1281.313,
-          "end": 1283.532,
-          "text": "They are not on this site; ask Doctor"
+          "start": 1267.831,
+          "end": 1277.879,
+          "text": "The folder pilot/ holds the lab director's own pilot recording of October 13, 2026, shared with his permission as practice data."
         },
         {
           "index": 233,
-          "paragraph": 115,
-          "start": 1284.232,
-          "end": 1285.576,
-          "text": "Sciuchetti for access."
+          "paragraph": 114,
+          "start": 1278.229,
+          "end": 1282.218,
+          "text": "It is one respondent, so it describes a recording and tests nothing."
         },
         {
           "index": 234,
-          "paragraph": 116,
-          "start": 1286.276,
-          "end": 1289.135,
-          "text": "00 Lab Inventory and Licenses."
+          "paragraph": 115,
+          "start": 1282.918,
+          "end": 1285.009,
+          "text": "The advertisements are not included."
         },
         {
           "index": 235,
           "paragraph": 116,
-          "start": 1289.485,
-          "end": 1298.679,
-          "text": "What the lab owns, which computer runs what (both license keys include Eye Tracking Screen based), renewal dates, and iMotions contacts."
+          "start": 1285.709,
+          "end": 1307.49,
+          "text": "zero zero 1, pilot zero 1 dot C S V. The Sensor Data export of the pilot as iMotions wrote it: the Info and Metadata blocks and 20,554 data rows in 168 columns (Smart Eye Aurora, the I V T filter, aff decks, F E A thresholding, and slide events)."
         },
         {
           "index": 236,
-          "paragraph": 117,
-          "start": 1299.379,
-          "end": 1301.513,
-          "text": "01 Study Type Decision Guide."
+          "paragraph": 116,
+          "start": 1307.84,
+          "end": 1309.291,
+          "text": "It is 17 megabytes."
         },
         {
           "index": 237,
           "paragraph": 117,
-          "start": 1301.863,
-          "end": 1309.137,
-          "text": "How to go from a question to one of the study types the lab can run, with the planning checklist that Step 02 follows."
+          "start": 1309.991,
+          "end": 1312.06,
+          "text": "pilot E T analysis dot R."
         },
         {
           "index": 238,
           "paragraph": 118,
-          "start": 1309.837,
-          "end": 1312.312,
-          "text": "02a Eye Tracking Pipeline."
+          "start": 1312.76,
+          "end": 1329.251,
+          "text": "Reads the header and the I V T settings, builds the codebook, filters by device, finds the stimuli, checks the sampling rate and the gaze data, counts the fixations, rebuilds the A O I metrics, lists the questionnaire A O I's, and draws the figure."
         },
         {
           "index": 239,
-          "paragraph": 118,
-          "start": 1312.662,
-          "end": 1322.625,
-          "text": "The Aurora, the Neon, calibration, fixation filters, A O I's and the 48 A O I metrics, heatmaps, scan paths, and eye tracking exports."
+          "paragraph": 119,
+          "start": 1329.951,
+          "end": 1330.953,
+          "text": "Base R only."
         },
         {
           "index": 240,
-          "paragraph": 119,
-          "start": 1323.325,
-          "end": 1326.055,
-          "text": "02b Biometrics Survey Pipeline."
+          "paragraph": 120,
+          "start": 1331.653,
+          "end": 1340.507,
+          "text": "pilot E T analysis output dot T X T. What the script prints; every pilot number in section 7.7 comes from it."
         },
         {
           "index": 241,
-          "paragraph": 119,
-          "start": 1326.405,
-          "end": 1336.581,
-          "text": "aff decks, Shimmer G S R and P P G, Enobio E E G, surveys, markers and annotations, synchronization, R notebooks, and exports."
+          "paragraph": 121,
+          "start": 1341.207,
+          "end": 1351.191,
+          "text": "pilot E T codebook dot C S V, pilot E T summary by stimulus dot C S V, and pilot A O I metrics rebuilt dot C S V."
         },
         {
           "index": 242,
-          "paragraph": 120,
-          "start": 1337.281,
-          "end": 1338.945,
-          "text": "04 Where To Look Index."
+          "paragraph": 122,
+          "start": 1351.891,
+          "end": 1362.941,
+          "text": "The codebook of every column, the gaze and fixation summary for each stimulus, and the A O I metrics rebuilt from the fixation table, each beside iMotions' own value."
         },
         {
           "index": 243,
-          "paragraph": 120,
-          "start": 1339.295,
-          "end": 1348.81,
-          "text": "Every task mapped to the exact help center URL, the local P D F under C:\\JaxState Behavior Lab, and the vendor video."
+          "paragraph": 123,
+          "start": 1363.641,
+          "end": 1373.412,
+          "text": "pilot E T figure R dot P N G. The script's figure: the fixations on each creative and the share of rows with gaze across the recording."
         },
         {
           "index": 244,
-          "paragraph": 121,
-          "start": 1349.51,
-          "end": 1351.345,
-          "text": "05 Study Registry."
+          "paragraph": 124,
+          "start": 1374.112,
+          "end": 1394.72,
+          "text": "Individual A O I metrics dot C S V, Aggregated A O I metrics dot C S V, Fixation Table dot C S V, and Saccade Table dot C S V. iMotions' own eye tracking exports of the pilot (Export, R PROCESSING, Individual metrics exports), which the script reproduces exactly."
         },
         {
           "index": 245,
-          "paragraph": 121,
-          "start": 1351.695,
-          "end": 1355.321,
-          "text": "Which studies exist, their status, folders, and documents."
+          "paragraph": 125,
+          "start": 1395.42,
+          "end": 1400.071,
+          "text": "read me dot M D. What each file is, and the permission under which it is shared."
         },
         {
           "index": 246,
-          "paragraph": 122,
-          "start": 1356.021,
-          "end": 1358.88,
-          "text": "06 Folder Organization Proposal."
+          "paragraph": 126,
+          "start": 1400.771,
+          "end": 1417.987,
+          "text": "These thirteen documents live in the iMotions Research Project on claude.ai (folder lab-reference); documents 00 to 10 are also saved as Word files in C:\\JaxState Behavior Lab\\00 Lab Reference."
         },
         {
           "index": 247,
-          "paragraph": 122,
-          "start": 1359.23,
-          "end": 1366.035,
-          "text": "The study folder template, naming, backup, and retention rules (approved October 2026)."
+          "paragraph": 126,
+          "start": 1418.337,
+          "end": 1420.555,
+          "text": "They are not on this site; ask Doctor"
         },
         {
           "index": 248,
-          "paragraph": 123,
-          "start": 1366.735,
-          "end": 1369.701,
-          "text": "07 iMotions Correspondence Digest."
+          "paragraph": 127,
+          "start": 1421.255,
+          "end": 1422.599,
+          "text": "Sciuchetti for access."
         },
         {
           "index": 249,
-          "paragraph": 123,
-          "start": 1370.051,
-          "end": 1376.109,
-          "text": "What iMotions has told the lab by email: licenses, quotes, support tickets, and training."
+          "paragraph": 128,
+          "start": 1423.299,
+          "end": 1426.158,
+          "text": "00 Lab Inventory and Licenses."
         },
         {
           "index": 250,
-          "paragraph": 124,
-          "start": 1376.809,
-          "end": 1378.665,
-          "text": "08 Help Center Index."
+          "paragraph": 128,
+          "start": 1426.508,
+          "end": 1435.703,
+          "text": "What the lab owns, which computer runs what (both license keys include Eye Tracking Screen based), renewal dates, and iMotions contacts."
         },
         {
           "index": 251,
-          "paragraph": 124,
-          "start": 1379.015,
-          "end": 1384.733,
-          "text": "The full map of help dot imotions dot com, 519 articles with URLs."
+          "paragraph": 129,
+          "start": 1436.403,
+          "end": 1438.536,
+          "text": "01 Study Type Decision Guide."
         },
         {
           "index": 252,
-          "paragraph": 125,
-          "start": 1385.433,
-          "end": 1387.886,
-          "text": "09 Vendor Resources Index."
+          "paragraph": 129,
+          "start": 1438.886,
+          "end": 1446.161,
+          "text": "How to go from a question to one of the study types the lab can run, with the planning checklist that Step 02 follows."
         },
         {
           "index": 253,
-          "paragraph": 125,
-          "start": 1388.236,
-          "end": 1396.513,
-          "text": "199 verified vendor documentation pages and official videos, including the Smart Eye Aurora guides."
+          "paragraph": 130,
+          "start": 1446.861,
+          "end": 1449.335,
+          "text": "02a Eye Tracking Pipeline."
         },
         {
           "index": 254,
-          "paragraph": 126,
-          "start": 1397.213,
-          "end": 1399.453,
-          "text": "10 iMotions 11 Release Notes."
+          "paragraph": 130,
+          "start": 1449.685,
+          "end": 1459.648,
+          "text": "The Aurora, the Neon, calibration, fixation filters, A O I's and the 48 A O I metrics, heatmaps, scan paths, and eye tracking exports."
         },
         {
           "index": 255,
-          "paragraph": 126,
-          "start": 1399.803,
-          "end": 1415.398,
-          "text": "What changed in iMotions Lab 11.x, including the 11 point 1 point 13 update released on September 25, 2026 and scheduled for the lab computers on October 7, 2026."
+          "paragraph": 131,
+          "start": 1460.348,
+          "end": 1463.079,
+          "text": "02b Biometrics Survey Pipeline."
         },
         {
           "index": 256,
-          "paragraph": 127,
-          "start": 1416.098,
-          "end": 1418.21,
-          "text": "11 Workshop Series Build Notes."
+          "paragraph": 131,
+          "start": 1463.429,
+          "end": 1473.605,
+          "text": "aff decks, Shimmer G S R and P P G, Enobio E E G, surveys, markers and annotations, synchronization, R notebooks, and exports."
         },
         {
           "index": 257,
-          "paragraph": 127,
-          "start": 1418.56,
-          "end": 1427.477,
-          "text": "How the workshops are built and published: the template, the build files, the routine for a new workshop, and the items confirmed on the lab laptop."
+          "paragraph": 132,
+          "start": 1474.305,
+          "end": 1475.969,
+          "text": "04 Where To Look Index."
         },
         {
           "index": 258,
-          "paragraph": 128,
-          "start": 1428.177,
-          "end": 1429.927,
-          "text": "19 Stimulus Screen Setup."
+          "paragraph": 132,
+          "start": 1476.319,
+          "end": 1485.833,
+          "text": "Every task mapped to the exact help center URL, the local P D F under C:\\JaxState Behavior Lab, and the vendor video."
         },
         {
           "index": 259,
-          "paragraph": 128,
-          "start": 1430.277,
-          "end": 1442.906,
-          "text": "What to set again, and in what order, when the stimulus monitor, its Windows display settings, or the Aurora position changes; also on this site as the guide Setting Up the Stimulus Screen (Word)."
+          "paragraph": 133,
+          "start": 1486.533,
+          "end": 1488.368,
+          "text": "05 Study Registry."
         },
         {
           "index": 260,
-          "paragraph": 129,
-          "start": 1443.606,
-          "end": 1454.273,
+          "paragraph": 133,
+          "start": 1488.718,
+          "end": 1492.345,
+          "text": "Which studies exist, their status, folders, and documents."
+        },
+        {
+          "index": 261,
+          "paragraph": 134,
+          "start": 1493.045,
+          "end": 1495.903,
+          "text": "06 Folder Organization Proposal."
+        },
+        {
+          "index": 262,
+          "paragraph": 134,
+          "start": 1496.253,
+          "end": 1503.059,
+          "text": "The study folder template, naming, backup, and retention rules (approved October 2026)."
+        },
+        {
+          "index": 263,
+          "paragraph": 135,
+          "start": 1503.759,
+          "end": 1506.724,
+          "text": "07 iMotions Correspondence Digest."
+        },
+        {
+          "index": 264,
+          "paragraph": 135,
+          "start": 1507.074,
+          "end": 1513.133,
+          "text": "What iMotions has told the lab by email: licenses, quotes, support tickets, and training."
+        },
+        {
+          "index": 265,
+          "paragraph": 136,
+          "start": 1513.833,
+          "end": 1515.689,
+          "text": "08 Help Center Index."
+        },
+        {
+          "index": 266,
+          "paragraph": 136,
+          "start": 1516.039,
+          "end": 1521.756,
+          "text": "The full map of help dot imotions dot com, 519 articles with URLs."
+        },
+        {
+          "index": 267,
+          "paragraph": 137,
+          "start": 1522.456,
+          "end": 1524.909,
+          "text": "09 Vendor Resources Index."
+        },
+        {
+          "index": 268,
+          "paragraph": 137,
+          "start": 1525.259,
+          "end": 1533.537,
+          "text": "199 verified vendor documentation pages and official videos, including the Smart Eye Aurora guides."
+        },
+        {
+          "index": 269,
+          "paragraph": 138,
+          "start": 1534.237,
+          "end": 1536.477,
+          "text": "10 iMotions 11 Release Notes."
+        },
+        {
+          "index": 270,
+          "paragraph": 138,
+          "start": 1536.827,
+          "end": 1552.421,
+          "text": "What changed in iMotions Lab 11.x, including the 11 point 1 point 13 update released on September 25, 2026 and scheduled for the lab computers on October 7, 2026."
+        },
+        {
+          "index": 271,
+          "paragraph": 139,
+          "start": 1553.121,
+          "end": 1555.233,
+          "text": "11 Workshop Series Build Notes."
+        },
+        {
+          "index": 272,
+          "paragraph": 139,
+          "start": 1555.583,
+          "end": 1564.501,
+          "text": "How the workshops are built and published: the template, the build files, the routine for a new workshop, and the items confirmed on the lab laptop."
+        },
+        {
+          "index": 273,
+          "paragraph": 140,
+          "start": 1565.201,
+          "end": 1566.95,
+          "text": "19 Stimulus Screen Setup."
+        },
+        {
+          "index": 274,
+          "paragraph": 140,
+          "start": 1567.3,
+          "end": 1579.929,
+          "text": "What to set again, and in what order, when the stimulus monitor, its Windows display settings, or the Aurora position changes; also on this site as the guide Setting Up the Stimulus Screen (Word)."
+        },
+        {
+          "index": 275,
+          "paragraph": 141,
+          "start": 1580.629,
+          "end": 1591.296,
           "text": "Find the original article, manual page, video, reading, or data file behind any step of this workshop, and tell a verified source from an unverified one."
         }
       ]
@@ -9181,23 +9837,24 @@
     },
     "tutor": {
       "file": "tutor.mp3",
-      "duration": 93.712,
-      "mp3_duration": 93.768,
+      "duration": 107.233,
+      "mp3_duration": 107.304,
       "starts": [
         0.0,
         1.575,
-        16.141,
-        25.345,
-        31.506,
-        37.723,
-        46.359,
-        49.384,
-        58.148,
-        62.859,
-        70.577,
-        76.973,
-        80.255,
-        83.92
+        19.0,
+        28.203,
+        34.365,
+        40.581,
+        49.217,
+        52.243,
+        61.007,
+        65.717,
+        73.436,
+        79.832,
+        83.113,
+        86.779,
+        97.441
       ],
       "sentences": [
         {
@@ -9211,95 +9868,102 @@
           "index": 1,
           "paragraph": 1,
           "start": 1.575,
-          "end": 15.441,
-          "text": "The tutor knows this workshop: the lab and its equipment, the the demo Sony Bravia study study in the lab Library, every step of the build and the session with the Aurora, and the simulated results with their exact numbers."
+          "end": 18.3,
+          "text": "The tutor knows this workshop: the lab and its equipment, the demo Sony Bravia study in the lab Library, every step of the build and the session with the Aurora, the simulated results with their exact numbers, and the real pilot file of section 7.7."
         },
         {
           "index": 2,
           "paragraph": 2,
-          "start": 16.141,
-          "end": 24.995,
+          "start": 19.0,
+          "end": 27.853,
           "text": "It explains plainly first and formally second, uses only the numbers in this lesson, and says when something must be verified on the lab machine."
         },
         {
           "index": 3,
           "paragraph": 2,
-          "start": 25.345,
-          "end": 30.806,
+          "start": 28.203,
+          "end": 33.665,
           "text": "It does not discuss grades or the lab schedule; those questions go to Doctor Sciuchetti."
         },
         {
           "index": 4,
           "paragraph": 3,
-          "start": 31.506,
-          "end": 37.373,
+          "start": 34.365,
+          "end": 40.231,
           "text": "The tutor works only in the Claude artifact version of this page, where the answer form appears below."
         },
         {
           "index": 5,
           "paragraph": 3,
-          "start": 37.723,
-          "end": 45.659,
+          "start": 40.581,
+          "end": 48.517,
           "text": "On the public site the form is absent and the panel shows the six starter questions instead; treat them as prompts to bring to Doctor"
         },
         {
           "index": 6,
           "paragraph": 4,
-          "start": 46.359,
-          "end": 48.684,
+          "start": 49.217,
+          "end": 51.543,
           "text": "Sciuchetti in class or in office hours."
         },
         {
           "index": 7,
           "paragraph": 5,
-          "start": 49.384,
-          "end": 57.448,
+          "start": 52.243,
+          "end": 60.307,
           "text": "Explain the difference between T T F F A O I, T T F F parent, and T T F F max. in plain words."
         },
         {
           "index": 8,
           "paragraph": 6,
-          "start": 58.148,
-          "end": 62.159,
+          "start": 61.007,
+          "end": 65.017,
           "text": "Why is the ad test within subjects, and why does it need two flows?"
         },
         {
           "index": 9,
           "paragraph": 7,
-          "start": 62.859,
-          "end": 69.877,
+          "start": 65.717,
+          "end": 72.736,
           "text": "Walk me through the paired t test on Product TV dwell share and what d z equals 0.98 means."
         },
         {
           "index": 10,
           "paragraph": 8,
-          "start": 70.577,
-          "end": 76.273,
+          "start": 73.436,
+          "end": 79.132,
           "text": "Why do the t test and the Wilcoxon test disagree for H2, and how should I write that up?"
         },
         {
           "index": 11,
           "paragraph": 9,
-          "start": 76.973,
-          "end": 79.555,
+          "start": 79.832,
+          "end": 82.413,
           "text": "What does the mixed model say about the order effect?"
         },
         {
           "index": 12,
           "paragraph": 10,
-          "start": 80.255,
-          "end": 83.22,
+          "start": 83.113,
+          "end": 86.079,
           "text": "Quiz me on setting up and calibrating the Aurora."
         },
         {
           "index": 13,
           "paragraph": 11,
-          "start": 83.92,
-          "end": 93.712,
+          "start": 86.779,
+          "end": 96.741,
+          "text": "In the real pilot file, why does Fixation Table dot C S V list 42 fixations on Creative A when the Sensor Data export shows 41?"
+        },
+        {
+          "index": 14,
+          "paragraph": 12,
+          "start": 97.441,
+          "end": 107.233,
           "text": "Know where to take a question: the tutor in the artifact, the starter questions on the public site, and Doctor Sciuchetti for anything about grades or the lab schedule."
         }
       ]
     }
   },
-  "generated": "2026-10-13T04:32:12+00:00"
+  "generated": "2026-10-14T02:06:05+00:00"
 }

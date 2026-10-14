@@ -1,0 +1,135 @@
+STEP 1. Header
+   #Study name | PILOT1_2026-10_AFFDEX_Aurora 
+   #iMotions version | 11.1.47136.14 
+   #Recording time | Date: 10/13/2026 | Time: 14:03:46.755 -05:00 | Unix time: 1791918226 
+   #Sensor info | Affectiva AFFDEX | Manufacturer: Affectiva | Modality: Facial analysis(Affectiva AFFDEX) | Affdex version: 5.3 | Baseline: on | Number of faces: 1 | Latency: 0 milliseconds 
+  FEA thresholding settings (first ten): selectedSensorName=Affectiva AFFDEX||Affectiva AFFDEX||; baseline=true; displayLongShort=false; timeThr=1; emotionGroupEnabled=true; emotionApplyAll=Same threshold for all EMFACS expressions; AUnitGroupEnabled=true; AUnitApplyAll=Same threshold for all facial action units; behavioralGroupEnabled=true; otherGroupEnabled=true 
+  Thresholds: 53 settings; 38 of them equal 50
+
+STEP 2. Codebook for the AFFDEX columns
+               column                      device    unit
+                  Joy            Affectiva AFFDEX   Index
+            Attention            Affectiva AFFDEX   Index
+          Brow Furrow            Affectiva AFFDEX   Index
+                Pitch            Affectiva AFFDEX Degrees
+ Interocular Distance            Affectiva AFFDEX   Pixel
+                Joy.1 R Analysis FEA thresholding    <NA>
+        Brow Furrow.1 R Analysis FEA thresholding    <NA>
+
+STEP 3. Rows per device
+  SlideEvents                                  32 rows
+  Affectiva AFFDEX                           6809 rows
+  Eyetracker Smart Eye Aurora               13713 rows
+  R Analysis FEA thresholding                6809 rows
+  R Analysis GazeAnalysis I-VT filter       13713 rows
+
+STEP 4. Stimuli (StartMedia to EndMedia)
+                              stimulus start_s  end_s duration_s
+        01 Baseline - Creative A (60s)    0.41  60.40      59.99
+     02 Creative A - Grip Primer (15s)   60.42  75.42      15.00
+        03 Recovery - Creative A (15s)   75.47  90.46      15.00
+ 04 Post-ad questionnaire - Creative A   90.77 123.65      32.88
+        05 Baseline - Creative B (60s)  123.72 183.71      59.99
+       06 Creative B - Whoa Glow (15s)  183.73 198.73      15.00
+        07 Recovery - Creative B (15s)  198.77 213.76      14.99
+ 08 Post-ad questionnaire - Creative B  214.06 229.00      14.94
+
+STEP 5. Frame rate and face found per stimulus
+  Frames per second over the recording: 29.8 (6809 frames in 228.5 s)
+  Gaps between frames are uneven: 29% are under 20 ms and 54% are 40 to 60 ms (median 41.4 ms),
+  so compute the rate from frames and time, not from the median gap.
+  Frames with a face over the whole recording: 6793 of 6809 (99.8%)
+                              stimulus frames  fps face_pct attention_median interocular_median_px
+        01 Baseline - Creative A (60s)   1793 29.9     99.1             98.6                 142.2
+     02 Creative A - Grip Primer (15s)    448 29.9    100.0             98.5                 141.8
+        03 Recovery - Creative A (15s)    449 29.9    100.0             98.4                 143.7
+ 04 Post-ad questionnaire - Creative A    983 29.9    100.0             98.4                 138.4
+        05 Baseline - Creative B (60s)   1793 29.9    100.0             98.5                 140.7
+       06 Creative B - Whoa Glow (15s)    448 29.9    100.0             98.5                 136.1
+        07 Recovery - Creative B (15s)    448 29.9    100.0             98.6                 136.7
+ 08 Post-ad questionnaire - Creative B    447 29.9    100.0             97.7                 138.5
+
+STEP 6. Percent of frames at or above the threshold (thresholded columns)
+                              stimulus  Joy Brow Furrow Anger Disgust Surprise Speaking
+        01 Baseline - Creative A (60s) 0.33       10.54  8.31    6.92     0.00     6.80
+     02 Creative A - Grip Primer (15s) 0.00       19.20  0.00    0.00     0.00     0.00
+        03 Recovery - Creative A (15s) 0.00       23.39  3.12    0.00    21.83     2.67
+ 04 Post-ad questionnaire - Creative A 0.81       86.67 10.38    5.90     0.00     8.85
+        05 Baseline - Creative B (60s) 0.00        9.59  0.00    0.00     0.00     0.06
+       06 Creative B - Whoa Glow (15s) 0.00        0.00  0.00    0.00     0.00     0.00
+        07 Recovery - Creative B (15s) 6.70       45.31 35.49   29.24     0.00    15.40
+ 08 Post-ad questionnaire - Creative B 0.00        0.00  0.00    0.00     0.00     0.00
+
+  The same columns in FEAMetrics.csv (Count Frames and Time Percentage):
+                              stimulus frames_iMotions Joy iMotions Brow Furrow iMotions Anger iMotions Disgust iMotions Surprise iMotions
+        01 Baseline - Creative A (60s)            1793         0.33                10.54           8.31             6.92              0.00
+     02 Creative A - Grip Primer (15s)             448         0.00                19.20           0.00             0.00              0.00
+        03 Recovery - Creative A (15s)             449         0.00                23.39           3.12             0.00             21.83
+ 04 Post-ad questionnaire - Creative A             983         0.81                86.67          10.38             5.90              0.00
+        05 Baseline - Creative B (60s)            1793         0.00                 9.59           0.00             0.00              0.00
+       06 Creative B - Whoa Glow (15s)             448         0.00                 0.00           0.00             0.00              0.00
+        07 Recovery - Creative B (15s)             448         6.70                45.31          35.49            29.24              0.00
+ 08 Post-ad questionnaire - Creative B             447         0.00                 0.00           0.00             0.00              0.00
+ Speaking iMotions
+              6.80
+              0.00
+              2.67
+              8.85
+              0.06
+              0.00
+             15.40
+              0.00
+  Largest difference between the script and FEAMetrics.csv: 0 percentage points
+
+STEP 7. Raw score and threshold for Brow Furrow
+  Frames where 'raw score >= 50' and the thresholded column agree: 100.0%
+  02 Creative A - Grip Primer (15s)      median  10.7  90th percentile  66.0  max  86.6
+  03 Recovery - Creative A (15s)         median  12.6  90th percentile  67.8  max  85.0
+  04 Post-ad questionnaire - Creative A  median  97.0  90th percentile  99.0  max 100.0
+
+STEP 8. Brow Furrow episodes (FEAExpressionTable.csv)
+                        Stimulus Label onset_s Expression Duration Truncation Type
+        01 Baseline - Creative A (60s)   29.82            467.9792           Whole
+        01 Baseline - Creative A (60s)   32.78           5404.1494           Whole
+        01 Baseline - Creative A (60s)   38.28            328.1584           Whole
+     02 Creative A - Grip Primer (15s)   63.61            378.5668           Whole
+     02 Creative A - Grip Primer (15s)   64.23           1038.3315           Whole
+     02 Creative A - Grip Primer (15s)   65.49           1365.7130           Whole
+        03 Recovery - Creative A (15s)   75.55             45.5426           Whole
+        03 Recovery - Creative A (15s)   75.70           1401.7945           Whole
+        03 Recovery - Creative A (15s)   77.43            848.7639           Whole
+        03 Recovery - Creative A (15s)   78.79            143.1309           Whole
+        03 Recovery - Creative A (15s)   89.56            900.9807         Partial
+ 04 Post-ad questionnaire - Creative A   90.77           3785.6248         Partial
+ 04 Post-ad questionnaire - Creative A   94.70            657.6009           Whole
+ 04 Post-ad questionnaire - Creative A   99.63          24025.0649         Partial
+        05 Baseline - Creative B (60s)  123.72           5608.7202         Partial
+        05 Baseline - Creative B (60s)  136.61            104.1451           Whole
+        07 Recovery - Creative B (15s)  199.53           6441.5105           Whole
+        07 Recovery - Creative B (15s)  206.06            277.7183           Whole
+  Episodes of every expression in the file: 494 
+  Segments (rows of the Expression table) per stimulus, Joy and Brow Furrow:
+                                       
+                                        Joy Brow Furrow
+  01 Baseline - Creative A (60s)          1           3
+  02 Creative A - Grip Primer (15s)       0           3
+  03 Recovery - Creative A (15s)          0           5
+  04 Post-ad questionnaire - Creative A   1           3
+  05 Baseline - Creative B (60s)          0           2
+  06 Creative B - Whoa Glow (15s)         0           0
+  07 Recovery - Creative B (15s)          1           2
+  08 Post-ad questionnaire - Creative B   0           0
+
+STEP 9. Brow Furrow at thresholds of 25, 50, and 75 (from the raw score)
+                          stimulus threshold time_pct stretches
+ 02 Creative A - Grip Primer (15s)        25    27.68         2
+ 02 Creative A - Grip Primer (15s)        50    19.20         3
+ 02 Creative A - Grip Primer (15s)        75     5.36         1
+   06 Creative B - Whoa Glow (15s)        25    31.03         9
+   06 Creative B - Whoa Glow (15s)        50     0.00         0
+   06 Creative B - Whoa Glow (15s)        75     0.00         0
+
+STEP 10. Figure written to pilot_fea_figure_R.png
+null device 
+          1 
+Done.

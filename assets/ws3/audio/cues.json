@@ -1826,8 +1826,8 @@
     },
     "methods": {
       "file": "methods.mp3",
-      "duration": 809.815,
-      "mp3_duration": 809.88,
+      "duration": 838.419,
+      "mp3_duration": 838.488,
       "starts": [
         0.0,
         6.417,
@@ -1849,57 +1849,58 @@
         176.409,
         181.269,
         184.137,
-        196.847,
-        208.385,
-        220.135,
-        224.645,
-        232.641,
-        244.968,
-        258.959,
-        268.405,
-        284.508,
-        305.709,
-        307.113,
-        327.525,
-        338.401,
-        348.339,
-        356.889,
-        365.525,
-        376.017,
-        387.405,
-        399.881,
-        435.583,
-        452.112,
-        466.145,
-        481.352,
-        495.193,
-        510.187,
-        511.923,
-        517.509,
-        528.363,
-        533.223,
-        549.006,
-        563.189,
-        577.691,
-        579.428,
-        596.597,
-        614.343,
-        625.944,
-        651.54,
-        654.501,
-        665.697,
-        680.2,
-        681.937,
-        699.106,
-        716.851,
-        728.453,
-        754.049,
-        757.01,
-        760.923,
-        766.764,
-        769.866,
-        775.707,
-        799.255
+        197.807,
+        209.345,
+        221.095,
+        225.605,
+        233.601,
+        245.928,
+        259.919,
+        269.365,
+        285.468,
+        306.669,
+        308.073,
+        328.485,
+        334.583,
+        352.968,
+        362.905,
+        371.456,
+        380.092,
+        390.584,
+        401.972,
+        414.448,
+        450.149,
+        466.679,
+        480.712,
+        495.919,
+        509.76,
+        524.753,
+        526.49,
+        532.075,
+        542.93,
+        558.67,
+        575.818,
+        590.001,
+        605.399,
+        607.136,
+        624.305,
+        642.051,
+        653.652,
+        679.248,
+        682.209,
+        693.405,
+        708.804,
+        710.541,
+        727.71,
+        745.455,
+        757.057,
+        782.653,
+        785.614,
+        789.527,
+        795.368,
+        798.47,
+        804.311,
+        827.859
       ],
       "sentences": [
         {
@@ -2012,7 +2013,7 @@
           "paragraph": 11,
           "start": 154.721,
           "end": 158.881,
-          "text": "Valence runs from -100 to 100, 0 neutral."
+          "text": "Valence runs from minus 100 to 100, 0 neutral."
         },
         {
           "index": 16,
@@ -2026,7 +2027,7 @@
           "paragraph": 13,
           "start": 176.409,
           "end": 180.569,
-          "text": "Valence runs from -100 to 100, 0 neutral."
+          "text": "Valence runs from minus 100 to 100, 0 neutral."
         },
         {
           "index": 18,
@@ -2039,364 +2040,371 @@
           "index": 19,
           "paragraph": 14,
           "start": 184.137,
-          "end": 196.147,
-          "text": "The Signals Overview aligns its emotion scores with EMFACS-7, the emotion version of F A C S, without listing the inputs to Joy; in practice Joy rises with a smile."
+          "end": 197.107,
+          "text": "The Signals Overview aligns its emotion scores with E M F A C S-7, the emotion version of F A C S, without listing the inputs to Joy; in practice Joy rises with a smile."
         },
         {
           "index": 20,
           "paragraph": 15,
-          "start": 196.847,
-          "end": 207.685,
+          "start": 197.807,
+          "end": 208.645,
           "text": "Its table calls a smile \"Normally a sign of enjoyment\" and says a Brow Furrow \"Can indicate concentration, confusion or dislike\": note normally and can."
         },
         {
           "index": 21,
           "paragraph": 16,
-          "start": 208.385,
-          "end": 219.435,
+          "start": 209.345,
+          "end": 220.395,
           "text": "The same facial movement can accompany different feelings, and the same feeling can show differently or not at all, across people, situations, and cultures (Barrett and colleagues"
         },
         {
           "index": 22,
           "paragraph": 17,
-          "start": 220.135,
-          "end": 224.295,
+          "start": 221.095,
+          "end": 225.255,
           "text": ", 2019), and measures of emotion agree only in part."
         },
         {
           "index": 23,
           "paragraph": 17,
-          "start": 224.645,
-          "end": 231.941,
+          "start": 225.605,
+          "end": 232.901,
           "text": "So write \"Joy was present,\" never \"viewers felt joy\"; the step between them is an inference the researcher must defend."
         },
         {
           "index": 24,
           "paragraph": 18,
-          "start": 232.641,
-          "end": 244.268,
+          "start": 233.601,
+          "end": 245.228,
           "text": "Valence counts Smile among its inputs, so Positive Valence moves with Joy, and Engagement \"measures the level of expressiveness and involvement\" (module page), not attention."
         },
         {
           "index": 25,
           "paragraph": 19,
-          "start": 244.968,
-          "end": 258.259,
+          "start": 245.928,
+          "end": 259.219,
           "text": "An average of confidence scores mixes weak evidence everywhere with strong evidence in a few frames, so the F E A thresholding R Notebook marks an expression present in each frame where its score passes the threshold."
         },
         {
           "index": 26,
           "paragraph": 20,
-          "start": 258.959,
-          "end": 267.705,
-          "text": "The defaults are Emotion 50, Valence +50 (Positive Valence) and -50 (Negative Valence), and Action Units 50."
+          "start": 259.919,
+          "end": 268.665,
+          "text": "The defaults are Emotion 50, Valence +50 (Positive Valence) and minus 50 (Negative Valence), and Action Units 50."
         },
         {
           "index": 27,
           "paragraph": 21,
-          "start": 268.405,
-          "end": 283.808,
+          "start": 269.365,
+          "end": 284.768,
           "text": "\"50 percent confidence represents a moderately strong display of facial response,\" 75 or higher is high confidence, and 25 or lower \"means that only 1 in 4 manual coders has classified the facial expression as present.\""
         },
         {
           "index": 28,
           "paragraph": 22,
-          "start": 284.508,
-          "end": 305.009,
+          "start": 285.468,
+          "end": 305.969,
           "text": "Explore pilot data, then fix the threshold before testing; it is a measurement decision, like the A O I shape if you did Workshop 2: mean Joy time in the commercial was 17.76 percent at a threshold of 25, 10.37 at 50, and 4.21 at 75 (simulated)."
         },
         {
           "index": 29,
           "paragraph": 23,
-          "start": 305.709,
-          "end": 306.413,
+          "start": 306.669,
+          "end": 307.373,
           "text": "Report it."
         },
         {
           "index": 30,
           "paragraph": 24,
-          "start": 307.113,
-          "end": 326.825,
+          "start": 308.073,
+          "end": 327.785,
           "text": "The F E A thresholding Metrics give, per respondent and interval (a stimulus, an annotation, or a scene), the percent of stimulus time with the expression present and the number of segments, separate stretches of presence that show \"how often it was expressed\"; each segment's onset and offset is marked as an event."
         },
         {
           "index": 31,
           "paragraph": 25,
-          "start": 327.525,
-          "end": 337.701,
-          "text": "The simulated export calls the first Percent of time present and the second Number of segments; the manuals print no header row, so verify both on the lab machine."
+          "start": 328.485,
+          "end": 333.883,
+          "text": "The simulated export calls the first Percent of time present and the second Number of segments."
         },
         {
           "index": 32,
           "paragraph": 26,
-          "start": 338.401,
-          "end": 347.639,
-          "text": "Joy present for 6 seconds of the 60 seconds commercial, in two stretches, gives a Percent of time present of 10 and a Number of segments of 2."
+          "start": 334.583,
+          "end": 352.268,
+          "text": "The real 11 point 1 export of the pilot (section 7.5) names the first Time Percentage (for example Joy Time Percentage) and, with the short or long option off, has no column that counts segments; there the segments are the rows of the Expression table."
         },
         {
           "index": 33,
           "paragraph": 27,
-          "start": 348.339,
-          "end": 356.189,
-          "text": "The binning annotation cuts the commercial into six 10 seconds bins, so the Commercial value is the mean of the six bin values."
+          "start": 352.968,
+          "end": 362.205,
+          "text": "Joy present for 6 seconds of the 60 seconds commercial, in two stretches, gives a Percent of time present of 10 and a Number of segments of 2."
         },
         {
           "index": 34,
           "paragraph": 28,
-          "start": 356.889,
-          "end": 364.825,
-          "text": "How many viewers showed the expression in a time window is what the F E A thresholding Aggregation draws in the Aggregate Replay."
+          "start": 362.905,
+          "end": 370.756,
+          "text": "The binning annotation cuts the commercial into six 10 seconds bins, so the Commercial value is the mean of the six bin values."
         },
         {
           "index": 35,
           "paragraph": 29,
-          "start": 365.525,
-          "end": 375.317,
-          "text": "This course counts a viewer when Percent of time present is above 0; the manual does not state the Aggregation's own rule, so verify it on the lab machine."
+          "start": 371.456,
+          "end": 379.392,
+          "text": "How many viewers showed the expression in a time window is what the F E A thresholding Aggregation draws in the Aggregate Replay."
         },
         {
           "index": 36,
           "paragraph": 30,
-          "start": 376.017,
-          "end": 386.705,
-          "text": "After post processing, Quality Metrics report \"the percentage of frames successfully analyzed,\" which is \"not an indicator of overall accuracy or face quality.\""
+          "start": 380.092,
+          "end": 389.884,
+          "text": "This course counts a viewer when Percent of time present is above 0; the manual does not state the Aggregation's own rule, so verify it on the lab machine."
         },
         {
           "index": 37,
           "paragraph": 31,
-          "start": 387.405,
-          "end": 399.181,
-          "text": "Live values run lower, because aff decks processes a 30 hertz camera at 15 hertz while recording, so 40 to 50 percent \"is not cause for concern\" before post processing."
+          "start": 390.584,
+          "end": 401.272,
+          "text": "After post processing, Quality Metrics report \"the percentage of frames successfully analyzed,\" which is \"not an indicator of overall accuracy or face quality.\""
         },
         {
           "index": 38,
           "paragraph": 32,
-          "start": 399.881,
-          "end": 434.883,
-          "text": "Frames are lost with a bright background, a face darker than 30 on the 0 to 255 brightness scale (the manual states this rule right after a sentence about bright backgrounds, so which failure it describes is an item to verify on the lab machine), a Facebox (the box around the detected face) under 100 px wide, hair, hands, or glasses over the face, talking, or a head turned beyond \"5-10 degrees up/down and 40 degrees left/right\" (Enabling Affectiva aff decks in iMotions)."
+          "start": 401.972,
+          "end": 413.748,
+          "text": "Live values run lower, because aff decks processes a 30 hertz camera at 15 hertz while recording, so 40 to 50 percent \"is not cause for concern\" before post processing."
         },
         {
           "index": 39,
           "paragraph": 33,
-          "start": 435.583,
-          "end": 451.412,
-          "text": "No manual states a minimum for keeping a respondent; the lab's rule, written before collection, is a Data quality of at least 80 percent, which kept 30 of 32 viewers (range 87.8 to 98.8 percent, simulated)."
+          "start": 414.448,
+          "end": 449.449,
+          "text": "Frames are lost with a bright background, a face darker than 30 on the 0 to 255 brightness scale (the manual states this rule right after a sentence about bright backgrounds, so which failure it describes is an item to verify on the lab machine), a Facebox (the box around the detected face) under 100 px wide, hair, hands, or glasses over the face, talking, or a head turned beyond \"5-10 degrees up/down and 40 degrees left/right\" (Enabling Affectiva aff decks in iMotions)."
         },
         {
           "index": 40,
           "paragraph": 34,
-          "start": 452.112,
-          "end": 465.445,
-          "text": "Validity here means agreement with a reference: F A C S coders, facial electromyography (E M G, the electrical activity of the facial muscles), or the expression a person was asked to make."
+          "start": 450.149,
+          "end": 465.979,
+          "text": "No manual states a minimum for keeping a respondent; the lab's rule, written before collection, is a Data quality of at least 80 percent, which kept 30 of 32 viewers (range 87.8 to 98.8 percent, simulated)."
         },
         {
           "index": 41,
           "paragraph": 35,
-          "start": 466.145,
-          "end": 480.652,
-          "text": "aff decks reached acceptable accuracy for posed, prototypical expressions in standardized photographs and was less accurate for the natural expressions of 110 participants viewing emotionally evocative pictures."
+          "start": 466.679,
+          "end": 480.012,
+          "text": "Validity here means agreement with a reference: F A C S coders, facial electromyography (E M G, the electrical activity of the facial muscles), or the expression a person was asked to make."
         },
         {
           "index": 42,
           "paragraph": 36,
-          "start": 481.352,
-          "end": 494.493,
-          "text": "When twenty participants imitated happy, angry, and neutral expressions while video and facial E M G were recorded, Affectiva scores in iMotions and E M G showed comparable validity."
+          "start": 480.712,
+          "end": 495.219,
+          "text": "aff decks reached acceptable accuracy for posed, prototypical expressions in standardized photographs and was less accurate for the natural expressions of 110 participants viewing emotionally evocative pictures."
         },
         {
           "index": 43,
           "paragraph": 37,
-          "start": 495.193,
-          "end": 509.487,
-          "text": "Across eight commercial classifiers, accuracy was lower for spontaneous than for posed expressions, and validations of FaceReader, another system, likewise take F A C S coding as the reference (Lewinski and colleagues"
+          "start": 495.919,
+          "end": 509.06,
+          "text": "When twenty participants imitated happy, angry, and neutral expressions while video and facial E M G were recorded, Affectiva scores in iMotions and E M G showed comparable validity."
         },
         {
           "index": 44,
           "paragraph": 38,
-          "start": 510.187,
-          "end": 511.573,
-          "text": ", 2014)."
+          "start": 509.76,
+          "end": 524.053,
+          "text": "Across eight commercial classifiers, accuracy was lower for spontaneous than for posed expressions, and validations of FaceReader, another system, likewise take F A C S coding as the reference (Lewinski and colleagues"
         },
         {
           "index": 45,
-          "paragraph": 38,
-          "start": 511.923,
-          "end": 516.809,
-          "text": "Facial movement also carries information in how it unfolds over time."
+          "paragraph": 39,
+          "start": 524.753,
+          "end": 526.14,
+          "text": ", 2014)."
         },
         {
           "index": 46,
           "paragraph": 39,
-          "start": 517.509,
-          "end": 527.663,
-          "text": "aff decks reads frontal, evenly lit, clear expressions best and an audience's small spontaneous ones least well, one reason the data are mostly zeros."
+          "start": 526.49,
+          "end": 531.375,
+          "text": "Facial movement also carries information in how it unfolds over time."
         },
         {
           "index": 47,
           "paragraph": 40,
-          "start": 528.363,
-          "end": 532.523,
-          "text": "The model condenses section (a) of results text dot M D."
+          "start": 532.075,
+          "end": 542.23,
+          "text": "aff decks reads frontal, evenly lit, clear expressions best and an audience's small spontaneous ones least well, one reason the data are mostly zeros."
         },
         {
           "index": 48,
           "paragraph": 41,
-          "start": 533.223,
-          "end": 548.306,
-          "text": "The Signals Overview places aff decks S D K 5.2 in iMotions 10.1.2 and later and says to finish a study on its starting S D K, so confirm the version on the lab machine and fill the brackets there."
+          "start": 542.93,
+          "end": 557.97,
+          "text": "The model condenses section (a) of results text dot M D. The Signals Overview places aff decks S D K 5.2 in iMotions 10.1.2 and later and says to finish a study on its starting S D K."
         },
         {
           "index": 49,
           "paragraph": 42,
-          "start": 549.006,
-          "end": 562.489,
-          "text": "Model methods paragraph (simulated study) Thirty-two respondents each viewed a 60 seconds Baseline, one 60 seconds video commercial, a 15 seconds Recovery, and a short questionnaire, in that order."
+          "start": 558.67,
+          "end": 575.118,
+          "text": "On the lab computer the pilot export of October 13, 2026 reads \"Affdex version: 5.3\" in its Sensor info row (section 7.5), so read the version from your own study's export and fill the bracket from it."
         },
         {
           "index": 50,
           "paragraph": 43,
-          "start": 563.189,
-          "end": 576.991,
-          "text": "The respondent camera ([model], [resolution] at [frame rate]) recorded each face in iMotions Lab, and every frame was post processed with Affectiva aff decks (S D K [version]) (McDuff and colleagues"
+          "start": 575.818,
+          "end": 589.301,
+          "text": "Model methods paragraph (simulated study) Thirty-two respondents each viewed a 60 seconds Baseline, one 60 seconds video commercial, a 15 seconds Recovery, and a short questionnaire, in that order."
         },
         {
           "index": 51,
           "paragraph": 44,
-          "start": 577.691,
-          "end": 579.078,
-          "text": ", 2016)."
+          "start": 590.001,
+          "end": 604.699,
+          "text": "The respondent camera ([model], [resolution] at [frame rate]) recorded each face in iMotions Lab, and every frame was post processed with Affectiva aff decks (S D K, version in brackets) (McDuff and colleagues"
         },
         {
           "index": 52,
-          "paragraph": 44,
-          "start": 579.428,
-          "end": 595.897,
-          "text": "The F E A thresholding R Notebook marked each expression present or absent per frame at its default thresholds (Emotion 50; Valence +50 and -50), and a binning annotation divided the commercial into six 10 seconds bins."
+          "paragraph": 45,
+          "start": 605.399,
+          "end": 606.786,
+          "text": ", 2016)."
         },
         {
           "index": 53,
           "paragraph": 45,
-          "start": 596.597,
-          "end": 613.643,
-          "text": "The F E A Metrics Export supplied Percent of time present and Number of segments per respondent and interval for Joy, Surprise, Brow Furrow, Positive Valence, and Negative Valence; Engagement is reported as a mean raw score (0 to 100)."
+          "start": 607.136,
+          "end": 623.605,
+          "text": "The F E A thresholding R Notebook marked each expression present or absent per frame at its default thresholds (Emotion 50; Valence +50 and minus 50), and a binning annotation divided the commercial into six 10 seconds bins."
         },
         {
           "index": 54,
           "paragraph": 46,
-          "start": 614.343,
-          "end": 625.244,
-          "text": "Data quality, the percentage of frames successfully analyzed, had to reach 80 percent, a rule fixed before collection and the lab's own because the manuals state no minimum."
+          "start": 624.305,
+          "end": 641.351,
+          "text": "The F E A Metrics Export supplied Percent of time present and Number of segments per respondent and interval for Joy, Surprise, Brow Furrow, Positive Valence, and Negative Valence; Engagement is reported as a mean raw score (0 to 100)."
         },
         {
           "index": 55,
           "paragraph": 47,
-          "start": 625.944,
-          "end": 650.84,
-          "text": "It excluded V 07 (61 percent, glare on the glasses lenses) and V 19 (72 percent, looked down at a phone), leaving 30 respondents (17 women and 13 men; age M equals 27.4 years, standard deviation equals 5.4; Data quality M equals 94.8 percent, standard deviation equals 2.61)."
+          "start": 642.051,
+          "end": 652.952,
+          "text": "Data quality, the percentage of frames successfully analyzed, had to reach 80 percent, a rule fixed before collection and the lab's own because the manuals state no minimum."
         },
         {
           "index": 56,
           "paragraph": 48,
-          "start": 651.54,
-          "end": 653.801,
-          "text": "All numbers are simulated for teaching."
+          "start": 653.652,
+          "end": 678.548,
+          "text": "It excluded V 07 (61 percent, glare on the glasses lenses) and V 19 (72 percent, looked down at a phone), leaving 30 respondents (17 women and 13 men; age M equals 27.4 years, standard deviation equals 5.4; Data quality M equals 94.8 percent, standard deviation equals 2.61)."
         },
         {
           "index": 57,
           "paragraph": 49,
-          "start": 654.501,
-          "end": 664.997,
-          "text": "Thirty-two respondents each viewed a 60 seconds Baseline, one 60 seconds video commercial, a 15 seconds Recovery, and a short questionnaire, in that order."
+          "start": 679.248,
+          "end": 681.509,
+          "text": "All numbers are simulated for teaching."
         },
         {
           "index": 58,
           "paragraph": 50,
-          "start": 665.697,
-          "end": 679.5,
-          "text": "The respondent camera ([model], [resolution] at [frame rate]) recorded each face in iMotions Lab, and every frame was post processed with Affectiva aff decks (S D K [version]) (McDuff and colleagues"
+          "start": 682.209,
+          "end": 692.705,
+          "text": "Thirty-two respondents each viewed a 60 seconds Baseline, one 60 seconds video commercial, a 15 seconds Recovery, and a short questionnaire, in that order."
         },
         {
           "index": 59,
           "paragraph": 51,
-          "start": 680.2,
-          "end": 681.587,
-          "text": ", 2016)."
+          "start": 693.405,
+          "end": 708.104,
+          "text": "The respondent camera ([model], [resolution] at [frame rate]) recorded each face in iMotions Lab, and every frame was post processed with Affectiva aff decks (S D K, version in brackets) (McDuff and colleagues"
         },
         {
           "index": 60,
-          "paragraph": 51,
-          "start": 681.937,
-          "end": 698.406,
-          "text": "The F E A thresholding R Notebook marked each expression present or absent per frame at its default thresholds (Emotion 50; Valence +50 and -50), and a binning annotation divided the commercial into six 10 seconds bins."
+          "paragraph": 52,
+          "start": 708.804,
+          "end": 710.191,
+          "text": ", 2016)."
         },
         {
           "index": 61,
           "paragraph": 52,
-          "start": 699.106,
-          "end": 716.151,
-          "text": "The F E A Metrics Export supplied Percent of time present and Number of segments per respondent and interval for Joy, Surprise, Brow Furrow, Positive Valence, and Negative Valence; Engagement is reported as a mean raw score (0 to 100)."
+          "start": 710.541,
+          "end": 727.01,
+          "text": "The F E A thresholding R Notebook marked each expression present or absent per frame at its default thresholds (Emotion 50; Valence +50 and minus 50), and a binning annotation divided the commercial into six 10 seconds bins."
         },
         {
           "index": 62,
           "paragraph": 53,
-          "start": 716.851,
-          "end": 727.753,
-          "text": "Data quality, the percentage of frames successfully analyzed, had to reach 80 percent, a rule fixed before collection and the lab's own because the manuals state no minimum."
+          "start": 727.71,
+          "end": 744.755,
+          "text": "The F E A Metrics Export supplied Percent of time present and Number of segments per respondent and interval for Joy, Surprise, Brow Furrow, Positive Valence, and Negative Valence; Engagement is reported as a mean raw score (0 to 100)."
         },
         {
           "index": 63,
           "paragraph": 54,
-          "start": 728.453,
-          "end": 753.349,
-          "text": "It excluded V 07 (61 percent, glare on the glasses lenses) and V 19 (72 percent, looked down at a phone), leaving 30 respondents (17 women and 13 men; age M equals 27.4 years, standard deviation equals 5.4; Data quality M equals 94.8 percent, standard deviation equals 2.61)."
+          "start": 745.455,
+          "end": 756.357,
+          "text": "Data quality, the percentage of frames successfully analyzed, had to reach 80 percent, a rule fixed before collection and the lab's own because the manuals state no minimum."
         },
         {
           "index": 64,
           "paragraph": 55,
-          "start": 754.049,
-          "end": 756.31,
-          "text": "All numbers are simulated for teaching."
+          "start": 757.057,
+          "end": 781.953,
+          "text": "It excluded V 07 (61 percent, glare on the glasses lenses) and V 19 (72 percent, looked down at a phone), leaving 30 respondents (17 women and 13 men; age M equals 27.4 years, standard deviation equals 5.4; Data quality M equals 94.8 percent, standard deviation equals 2.61)."
         },
         {
           "index": 65,
           "paragraph": 56,
-          "start": 757.01,
-          "end": 760.573,
-          "text": "Common mistake Writing \"aff decks measured how the viewers felt.\""
+          "start": 782.653,
+          "end": 784.914,
+          "text": "All numbers are simulated for teaching."
         },
         {
           "index": 66,
-          "paragraph": 56,
-          "start": 760.923,
-          "end": 766.064,
-          "text": "It scored facial expressions where it found a face, at a threshold you chose; say so."
+          "paragraph": 57,
+          "start": 785.614,
+          "end": 789.177,
+          "text": "Common mistake Writing \"aff decks measured how the viewers felt.\""
         },
         {
           "index": 67,
           "paragraph": 57,
-          "start": 766.764,
-          "end": 769.516,
-          "text": "Writing \"aff decks measured how the viewers felt.\""
+          "start": 789.527,
+          "end": 794.668,
+          "text": "It scored facial expressions where it found a face, at a threshold you chose; say so."
         },
         {
           "index": 68,
-          "paragraph": 57,
-          "start": 769.866,
-          "end": 775.007,
-          "text": "It scored facial expressions where it found a face, at a threshold you chose; say so."
+          "paragraph": 58,
+          "start": 795.368,
+          "end": 798.12,
+          "text": "Writing \"aff decks measured how the viewers felt.\""
         },
         {
           "index": 69,
           "paragraph": 58,
-          "start": 775.707,
-          "end": 798.555,
-          "text": "Help center articles for this section: Introduction to: Facial Expression Analysis, Affectiva (aff decks) Signals Overview, R Notebook (F E A): Facial expression analysis thresholding and aggregation, Enabling Affectiva aff decks in iMotions, and Facial Expression Analysis: Why does aff decks show low QA in subject replay?"
+          "start": 798.47,
+          "end": 803.611,
+          "text": "It scored facial expressions where it found a face, at a threshold you chose; say so."
         },
         {
           "index": 70,
           "paragraph": 59,
-          "start": 799.255,
-          "end": 809.815,
+          "start": 804.311,
+          "end": 827.159,
+          "text": "Help center articles for this section: Introduction to: Facial Expression Analysis, Affectiva (aff decks) Signals Overview, R Notebook (F E A): Facial expression analysis thresholding and aggregation, Enabling Affectiva aff decks in iMotions, and Facial Expression Analysis: Why does aff decks show low QA in subject replay?"
+        },
+        {
+          "index": 71,
+          "paragraph": 60,
+          "start": 827.859,
+          "end": 838.419,
           "text": "Explain what an aff decks score is and is not, why the threshold is reported, what the two metrics count, how face detection limits the data, and how to write the methods."
         }
       ]
@@ -4606,8 +4614,8 @@
     },
     "resources": {
       "file": "resources.mp3",
-      "duration": 1807.179,
-      "mp3_duration": 1807.248,
+      "duration": 1973.775,
+      "mp3_duration": 1973.832,
       "starts": [
         0.0,
         3.943,
@@ -4751,126 +4759,142 @@
         823.571,
         827.321,
         834.037,
-        849.095,
-        854.245,
-        865.505,
-        870.612,
-        880.72,
-        883.075,
-        889.343,
-        894.643,
-        907.972,
-        912.32,
-        915.145,
-        922.159,
-        927.117,
-        932.596,
-        935.741,
-        942.393,
-        946.028,
-        953.043,
-        957.19,
-        962.029,
-        964.405,
-        973.959,
-        976.314,
-        982.155,
-        984.404,
-        989.52,
-        991.875,
-        999.573,
-        1002.013,
-        1006.319,
-        1008.717,
-        1011.977,
-        1015.207,
-        1019.981,
-        1022.699,
-        1027.965,
-        1031.6,
-        1035.82,
-        1042.728,
-        1053.177,
-        1057.581,
-        1066.387,
-        1070.343,
-        1080.707,
-        1085.686,
-        1098.397,
-        1106.149,
-        1112.673,
-        1118.207,
-        1126.523,
-        1133.679,
-        1142.677,
-        1149.001,
-        1157.189,
-        1162.915,
-        1174.089,
-        1181.266,
-        1190.542,
-        1198.73,
-        1209.755,
-        1212.324,
-        1213.677,
-        1221.289,
-        1235.045,
-        1250.23,
-        1260.978,
-        1285.23,
-        1302.655,
-        1310.374,
-        1319.833,
-        1323.712,
-        1326.865,
-        1350.008,
-        1357.065,
-        1372.848,
-        1385.217,
-        1397.203,
-        1411.556,
-        1428.213,
-        1446.663,
-        1448.493,
-        1468.116,
-        1478.501,
-        1488.759,
-        1499.059,
-        1508.761,
-        1526.144,
-        1544.316,
-        1558.563,
-        1575.604,
-        1590.597,
-        1598.487,
-        1608.147,
-        1625.563,
-        1628.482,
-        1630.526,
-        1633.735,
-        1648.685,
-        1651.169,
-        1659.143,
-        1661.968,
-        1673.228,
-        1676.309,
-        1693.286,
-        1695.3,
-        1705.515,
-        1707.699,
-        1717.509,
-        1720.717,
-        1730.377,
-        1733.693,
-        1740.451,
-        1742.657,
-        1749.075,
-        1751.878,
-        1762.349,
-        1764.939,
-        1784.263,
-        1786.725,
-        1796.513
+        849.436,
+        854.309,
+        865.569,
+        870.676,
+        880.784,
+        883.139,
+        889.407,
+        894.707,
+        908.036,
+        912.384,
+        915.209,
+        922.223,
+        927.181,
+        932.66,
+        935.805,
+        942.457,
+        946.092,
+        953.107,
+        957.254,
+        962.093,
+        964.469,
+        974.023,
+        976.378,
+        982.219,
+        984.468,
+        989.584,
+        991.939,
+        999.637,
+        1002.077,
+        1006.383,
+        1008.781,
+        1012.041,
+        1015.271,
+        1020.045,
+        1022.763,
+        1028.029,
+        1031.664,
+        1035.884,
+        1042.792,
+        1053.241,
+        1057.645,
+        1066.451,
+        1070.407,
+        1080.771,
+        1085.75,
+        1098.461,
+        1106.213,
+        1112.737,
+        1118.271,
+        1126.587,
+        1133.743,
+        1142.741,
+        1149.065,
+        1157.253,
+        1162.979,
+        1174.153,
+        1181.33,
+        1190.606,
+        1198.794,
+        1209.819,
+        1212.388,
+        1213.741,
+        1221.353,
+        1235.109,
+        1250.294,
+        1261.042,
+        1285.294,
+        1303.722,
+        1311.441,
+        1325.679,
+        1329.557,
+        1332.711,
+        1355.853,
+        1369.951,
+        1385.733,
+        1398.103,
+        1410.088,
+        1424.441,
+        1441.099,
+        1459.548,
+        1461.379,
+        1481.001,
+        1491.387,
+        1501.644,
+        1511.944,
+        1521.647,
+        1539.029,
+        1557.201,
+        1571.448,
+        1588.489,
+        1603.483,
+        1611.372,
+        1621.032,
+        1624.347,
+        1634.745,
+        1639.435,
+        1643.313,
+        1665.987,
+        1670.633,
+        1676.56,
+        1692.513,
+        1695.496,
+        1717.7,
+        1719.403,
+        1729.127,
+        1740.493,
+        1758.004,
+        1769.2,
+        1774.743,
+        1792.159,
+        1795.078,
+        1797.122,
+        1800.331,
+        1815.281,
+        1817.765,
+        1825.739,
+        1828.564,
+        1839.824,
+        1842.905,
+        1859.882,
+        1861.896,
+        1872.111,
+        1874.295,
+        1884.105,
+        1887.313,
+        1896.973,
+        1900.289,
+        1907.047,
+        1909.253,
+        1915.671,
+        1918.474,
+        1928.945,
+        1931.535,
+        1950.859,
+        1953.321,
+        1963.109
       ],
       "sentences": [
         {
@@ -5221,7 +5245,7 @@
           "paragraph": 27,
           "start": 314.408,
           "end": 334.547,
-          "text": "The Behavioral, Facial Expression, and Emotion signals, the 0 to 100 confidence scale, Valence from -100 to 100, Engagement, the rolling baseline, and aff decks S D K 5.2; the lab's P D F copy is titled aff decks S D K 52 Signals."
+          "text": "The Behavioral, Facial Expression, and Emotion signals, the 0 to 100 confidence scale, Valence from minus 100 to 100, Engagement, the rolling baseline, and aff decks S D K 5.2; the lab's P D F copy is titled aff decks S D K 52 Signals."
         },
         {
           "index": 50,
@@ -5864,847 +5888,959 @@
           "index": 141,
           "paragraph": 67,
           "start": 834.037,
-          "end": 848.395,
-          "text": "The thresholding and aggregation notebook, its default thresholds, and the F E A Metrics Export (8 pages); online title: R Notebook (F E A): Facial expression analysis thresholding and aggregation."
+          "end": 848.736,
+          "text": "The thresholding and aggregation notebook, its default thresholds, and the F E A Metrics Export (8 pages); online title: R Notebook (F E A): Facial expression analysis thresholding and aggregation dot R"
         },
         {
           "index": 142,
           "paragraph": 68,
-          "start": 849.095,
-          "end": 853.895,
-          "text": "R Notebooks F E A aff decks Raw Data Statistics Export.pdf."
+          "start": 849.436,
+          "end": 853.959,
+          "text": "Notebooks F E A aff decks Raw Data Statistics Export.pdf."
         },
         {
           "index": 143,
           "paragraph": 68,
-          "start": 854.245,
-          "end": 864.805,
+          "start": 854.309,
+          "end": 864.869,
           "text": "Descriptive statistics of the raw aff decks scores (7 pages); online title: R Notebooks (F E A): aff decks Raw Data Statistics Export."
         },
         {
           "index": 144,
           "paragraph": 69,
-          "start": 865.505,
-          "end": 870.262,
+          "start": 865.569,
+          "end": 870.326,
           "text": "RNotebook Facial expression analysisbased blink detection.pdf."
         },
         {
           "index": 145,
           "paragraph": 69,
-          "start": 870.612,
-          "end": 880.02,
+          "start": 870.676,
+          "end": 880.084,
           "text": "The blink notebook for facial expression data (12 pages); online title: R-Notebook: Facial expression analysis-based blink detection."
         },
         {
           "index": 146,
           "paragraph": 70,
-          "start": 880.72,
-          "end": 882.725,
+          "start": 880.784,
+          "end": 882.789,
           "text": "Emotional Heatmap.pdf."
         },
         {
           "index": 147,
           "paragraph": 70,
-          "start": 883.075,
-          "end": 888.643,
+          "start": 883.139,
+          "end": 888.707,
           "text": "Gaze filtered by an aff decks threshold, for images and surveys only (6 pages)."
         },
         {
           "index": 148,
           "paragraph": 71,
-          "start": 889.343,
-          "end": 894.293,
+          "start": 889.407,
+          "end": 894.357,
           "text": "Export Respondent Environment and Scene CameraScreen Recordings.pdf."
         },
         {
           "index": 149,
           "paragraph": 71,
-          "start": 894.643,
-          "end": 907.272,
+          "start": 894.707,
+          "end": 907.336,
           "text": "Exporting the respondent camera videos, one file per stimulus and respondent (5 pages); online title: Export: Respondent, Environment, and Scene Camera/Screen Recordings."
         },
         {
           "index": 150,
           "paragraph": 72,
-          "start": 907.972,
-          "end": 911.62,
+          "start": 908.036,
+          "end": 911.684,
           "text": "Already on the site from Workshops 1 and 2 and used again here:"
         },
         {
           "index": 151,
           "paragraph": 73,
-          "start": 912.32,
-          "end": 914.795,
+          "start": 912.384,
+          "end": 914.859,
           "text": "Designing Your Research Study.pdf."
         },
         {
           "index": 152,
           "paragraph": 73,
-          "start": 915.145,
-          "end": 921.459,
+          "start": 915.209,
+          "end": 921.523,
           "text": "The iMotions study design guide that Steps 01 to 04 follow (13 pages)."
         },
         {
           "index": 153,
           "paragraph": 74,
-          "start": 922.159,
-          "end": 926.767,
+          "start": 922.223,
+          "end": 926.831,
           "text": "Respondent informed consent and data privacy F A Q.pdf."
         },
         {
           "index": 154,
           "paragraph": 74,
-          "start": 927.117,
-          "end": 931.896,
+          "start": 927.181,
+          "end": 931.96,
           "text": "Consent and privacy questions answered by iMotions (5 pages)."
         },
         {
           "index": 155,
           "paragraph": 75,
-          "start": 932.596,
-          "end": 935.391,
+          "start": 932.66,
+          "end": 935.455,
           "text": "Using the iMotions Study Builder.pdf."
         },
         {
           "index": 156,
           "paragraph": 75,
-          "start": 935.741,
-          "end": 941.693,
+          "start": 935.805,
+          "end": 941.757,
           "text": "The New Study dialog, the respondent screen, the Flow designer, flows, and blocks (10 pages)."
         },
         {
           "index": 157,
           "paragraph": 76,
-          "start": 942.393,
-          "end": 945.678,
+          "start": 942.457,
+          "end": 945.742,
           "text": "iMotions Survey Stimuli and Elements.pdf."
         },
         {
           "index": 158,
           "paragraph": 76,
-          "start": 946.028,
-          "end": 952.343,
+          "start": 946.092,
+          "end": 952.407,
           "text": "The survey slide designer and its elements, for the questionnaire after the Recovery (22 pages)."
         },
         {
           "index": 159,
           "paragraph": 77,
-          "start": 953.043,
-          "end": 956.84,
+          "start": 953.107,
+          "end": 956.904,
           "text": "ReEncoding of Incompatible Video Stimuli.pdf."
         },
         {
           "index": 160,
           "paragraph": 77,
-          "start": 957.19,
-          "end": 961.329,
+          "start": 957.254,
+          "end": 961.393,
           "text": "Converting videos that lag or flicker in the preview (4 pages)."
         },
         {
           "index": 161,
           "paragraph": 78,
-          "start": 962.029,
-          "end": 964.055,
+          "start": 962.093,
+          "end": 964.119,
           "text": "Using Event Markers.pdf."
         },
         {
           "index": 162,
           "paragraph": 78,
-          "start": 964.405,
-          "end": 973.259,
+          "start": 964.469,
+          "end": 973.323,
           "text": "Built in and user created markers, including live markers and the F E A thresholding onset and offset markers (8 pages)."
         },
         {
           "index": 163,
           "paragraph": 79,
-          "start": 973.959,
-          "end": 975.964,
+          "start": 974.023,
+          "end": 976.028,
           "text": "Respondent Replay.pdf."
         },
         {
           "index": 164,
           "paragraph": 79,
-          "start": 976.314,
-          "end": 981.455,
+          "start": 976.378,
+          "end": 981.519,
           "text": "Replaying one respondent with the Signals and Annotations panels (30 pages)."
         },
         {
           "index": 165,
           "paragraph": 80,
-          "start": 982.155,
-          "end": 984.054,
+          "start": 982.219,
+          "end": 984.118,
           "text": "Aggregate Replay.pdf."
         },
         {
           "index": 166,
           "paragraph": 80,
-          "start": 984.404,
-          "end": 988.82,
+          "start": 984.468,
+          "end": 988.884,
           "text": "Replaying all respondents together at the analysis level (10 pages)."
         },
         {
           "index": 167,
           "paragraph": 81,
-          "start": 989.52,
-          "end": 991.525,
+          "start": 989.584,
+          "end": 991.589,
           "text": "Using Annotations.pdf."
         },
         {
           "index": 168,
           "paragraph": 81,
-          "start": 991.875,
-          "end": 998.873,
+          "start": 991.939,
+          "end": 998.937,
           "text": "Stimulus, respondent, and automated annotations, and Subdivide intervals for the bins (23 pages)."
         },
         {
           "index": 169,
           "paragraph": 82,
-          "start": 999.573,
-          "end": 1001.663,
+          "start": 999.637,
+          "end": 1001.727,
           "text": "Export Sensor Data.pdf."
         },
         {
           "index": 170,
           "paragraph": 82,
-          "start": 1002.013,
-          "end": 1005.619,
+          "start": 1002.077,
+          "end": 1005.683,
           "text": "The Sensor data export and its options (14 pages)."
         },
         {
           "index": 171,
           "paragraph": 83,
-          "start": 1006.319,
-          "end": 1008.367,
+          "start": 1006.383,
+          "end": 1008.431,
           "text": "Export Survey data.pdf."
         },
         {
           "index": 172,
           "paragraph": 83,
-          "start": 1008.717,
-          "end": 1011.277,
+          "start": 1008.781,
+          "end": 1011.341,
           "text": "The three survey exports (6 pages)."
         },
         {
           "index": 173,
           "paragraph": 84,
-          "start": 1011.977,
-          "end": 1014.857,
+          "start": 1012.041,
+          "end": 1014.921,
           "text": "Export Data Quality Statistics.pdf."
         },
         {
           "index": 174,
           "paragraph": 84,
-          "start": 1015.207,
-          "end": 1019.281,
+          "start": 1015.271,
+          "end": 1019.345,
           "text": "The data quality export from the Recorded data tab (4 pages)."
         },
         {
           "index": 175,
           "paragraph": 85,
-          "start": 1019.981,
-          "end": 1022.349,
+          "start": 1020.045,
+          "end": 1022.413,
           "text": "Export Exposure Summary.pdf."
         },
         {
           "index": 176,
           "paragraph": 85,
-          "start": 1022.699,
-          "end": 1027.265,
+          "start": 1022.763,
+          "end": 1027.329,
           "text": "Data quality at the study, respondent, and stimulus level (4 pages)."
         },
         {
           "index": 177,
           "paragraph": 86,
-          "start": 1027.965,
-          "end": 1031.25,
+          "start": 1028.029,
+          "end": 1031.314,
           "text": "Opening Data Export Files in Excel.pdf."
         },
         {
           "index": 178,
           "paragraph": 86,
-          "start": 1031.6,
-          "end": 1035.12,
+          "start": 1031.664,
+          "end": 1035.184,
           "text": "The Text Import Wizard route into Excel (8 pages)."
         },
         {
           "index": 179,
           "paragraph": 87,
-          "start": 1035.82,
-          "end": 1042.028,
+          "start": 1035.884,
+          "end": 1042.092,
           "text": "Every link below is listed in the lab's verified vendor index (Project document 09)."
         },
         {
           "index": 180,
           "paragraph": 88,
-          "start": 1042.728,
-          "end": 1052.477,
+          "start": 1042.792,
+          "end": 1052.541,
           "text": "Vendor videos and pages show what the product can do; they are not peer reviewed evidence of how accurate it is, which is what the readings under (d) are for."
         },
         {
           "index": 181,
           "paragraph": 89,
-          "start": 1053.177,
-          "end": 1057.231,
+          "start": 1053.241,
+          "end": 1057.295,
           "text": "iMotions Facial Expression Analysis Solution (iMotions)."
         },
         {
           "index": 182,
           "paragraph": 89,
-          "start": 1057.581,
-          "end": 1065.687,
+          "start": 1057.645,
+          "end": 1065.751,
           "text": "Overview of the Affectiva aff decks facial expression module: emotions, valence, and engagement (Step 00)."
         },
         {
           "index": 183,
           "paragraph": 90,
-          "start": 1066.387,
-          "end": 1069.993,
+          "start": 1066.451,
+          "end": 1070.057,
           "text": "Affectiva Emotion Analytics Dashboard - Affdex (Affectiva)."
         },
         {
           "index": 184,
           "paragraph": 90,
-          "start": 1070.343,
-          "end": 1080.007,
+          "start": 1070.407,
+          "end": 1080.071,
           "text": "Affectiva's own demonstration of the aff decks emotion metrics, the engine inside facial expression analysis in iMotions (Step 06)."
         },
         {
           "index": 185,
           "paragraph": 91,
-          "start": 1080.707,
-          "end": 1085.336,
+          "start": 1080.771,
+          "end": 1085.4,
           "text": "What are Emotions, and How do We Measure Them - iMotions Webinar (iMotions)."
         },
         {
           "index": 186,
           "paragraph": 91,
-          "start": 1085.686,
-          "end": 1097.697,
+          "start": 1085.75,
+          "end": 1097.761,
           "text": "Webinar on emotion theory and on how facial expression analysis, G S R, E E G, and eye tracking each measure a different component of emotion (Steps 01 and 10)."
         },
         {
           "index": 187,
           "paragraph": 92,
-          "start": 1098.397,
-          "end": 1105.799,
+          "start": 1098.461,
+          "end": 1105.863,
           "text": "How to Conduct Facial Expression Analysis (F E A) using Videos Remotely with iMotions (iMotions)."
         },
         {
           "index": 188,
           "paragraph": 92,
-          "start": 1106.149,
-          "end": 1111.973,
+          "start": 1106.213,
+          "end": 1112.037,
           "text": "Importing prerecorded videos and running aff decks on them after the fact (Step 07)."
         },
         {
           "index": 189,
           "paragraph": 93,
-          "start": 1112.673,
-          "end": 1117.857,
+          "start": 1112.737,
+          "end": 1117.921,
           "text": "Introducing iMotions Remote Data Collection Platform for Research (iMotions)."
         },
         {
           "index": 190,
           "paragraph": 93,
-          "start": 1118.207,
-          "end": 1125.823,
+          "start": 1118.271,
+          "end": 1125.887,
           "text": "Browser based collection with webcam eye tracking and facial expression analysis, a module the lab owns (Step 10)."
         },
         {
           "index": 191,
           "paragraph": 94,
-          "start": 1126.523,
-          "end": 1133.329,
+          "start": 1126.587,
+          "end": 1133.393,
           "text": "Eye Tracking Glasses and Facial Expression Emotion Detection in Driving Simulation (iMotions)."
         },
         {
           "index": 192,
           "paragraph": 94,
-          "start": 1133.679,
-          "end": 1141.977,
+          "start": 1133.743,
+          "end": 1142.041,
           "text": "A demonstration that records glasses based eye tracking and facial expressions together, the kind of combination Step 10 discusses."
         },
         {
           "index": 193,
           "paragraph": 95,
-          "start": 1142.677,
-          "end": 1148.651,
+          "start": 1142.741,
+          "end": 1148.715,
           "text": "iMotions, Affectiva and Neuromarketing with Peter Hartzbech (Roger Dooley, third party)."
         },
         {
           "index": 194,
           "paragraph": 95,
-          "start": 1149.001,
-          "end": 1156.489,
+          "start": 1149.065,
+          "end": 1156.553,
           "text": "An interview with the iMotions founder on biometrics and neuromarketing; background, not a source for any method."
         },
         {
           "index": 195,
           "paragraph": 96,
-          "start": 1157.189,
-          "end": 1162.565,
+          "start": 1157.253,
+          "end": 1162.629,
           "text": "Facial Expression Analysis - Emotion Detection Software (iMotions module page)."
         },
         {
           "index": 196,
           "paragraph": 96,
-          "start": 1162.915,
-          "end": 1173.389,
+          "start": 1162.979,
+          "end": 1173.453,
           "text": "The F A C S basis of the module and its definitions of valence and engagement (Steps 00 and 06); its P D F copy is under (b)."
         },
         {
           "index": 197,
           "paragraph": 97,
-          "start": 1174.089,
-          "end": 1180.916,
+          "start": 1174.153,
+          "end": 1180.98,
           "text": "Facial Expression Analysis in iMotions: A Comprehensive Technical and Research Guide (iMotions)."
         },
         {
           "index": 198,
           "paragraph": 97,
-          "start": 1181.266,
-          "end": 1189.842,
+          "start": 1181.33,
+          "end": 1189.906,
           "text": "aff decks in iMotions: the seven emotions, 20 action units, and the engagement and valence metrics (Step 06)."
         },
         {
           "index": 199,
           "paragraph": 98,
-          "start": 1190.542,
-          "end": 1198.03,
+          "start": 1190.606,
+          "end": 1198.094,
           "text": "Facial Recognition versus Facial Expression Analysis: A case for responsible data collection (iMotions)."
         },
         {
           "index": 200,
           "paragraph": 99,
-          "start": 1198.73,
-          "end": 1209.055,
+          "start": 1198.794,
+          "end": 1209.119,
           "text": "Why face data always need informed consent, and the difference between recognizing who a person is and analyzing an expression (Steps 02 and 10)."
         },
         {
           "index": 201,
           "paragraph": 100,
-          "start": 1209.755,
-          "end": 1211.974,
+          "start": 1209.819,
+          "end": 1212.038,
           "text": "Why Are Citations Important In Science?"
         },
         {
           "index": 202,
           "paragraph": 100,
-          "start": 1212.324,
-          "end": 1213.327,
+          "start": 1212.388,
+          "end": 1213.391,
           "text": "(iMotions)."
         },
         {
           "index": 203,
           "paragraph": 100,
-          "start": 1213.677,
-          "end": 1220.589,
+          "start": 1213.741,
+          "end": 1220.653,
           "text": "The A P A format for citing iMotions software that the methods paragraph in Step 06 uses."
         },
         {
           "index": 204,
           "paragraph": 101,
-          "start": 1221.289,
-          "end": 1234.345,
+          "start": 1221.353,
+          "end": 1234.409,
           "text": "The 36 sources this workshop draws on, in A P A style, grouped by topic, with a note that names the steps where each one is cited or, for further reading that no step cites, what it is useful for."
         },
         {
           "index": 205,
           "paragraph": 102,
-          "start": 1235.045,
-          "end": 1249.53,
+          "start": 1235.109,
+          "end": 1249.594,
           "text": "The entries new to this workshop were checked on October 8, 2026 against a publisher, repository, library catalog, or vendor page, and the entries reused from Workshops 1 and 2 keep their earlier checks."
         },
         {
           "index": 206,
           "paragraph": 103,
-          "start": 1250.23,
-          "end": 1260.278,
+          "start": 1250.294,
+          "end": 1260.342,
           "text": "The link opens the D O I or, where there is none, the page that was checked, and the R I S file under (e) imports all 36 into Zotero."
         },
         {
           "index": 207,
           "paragraph": 104,
-          "start": 1260.978,
-          "end": 1284.53,
+          "start": 1261.042,
+          "end": 1284.594,
           "text": "Three open details are stated rather than guessed: the doi.org redirect could not be run for most of the new entries; their retraction status was checked only on the publisher pages that could be read, not through Crossref; and Ekman and Friesen (1978), a manual with no D O I, is cited without its subtitle because the catalog record that was checked does not show one."
         },
         {
           "index": 208,
           "paragraph": 105,
-          "start": 1285.23,
-          "end": 1301.955,
-          "text": "Every file is simulated teaching data, generated to mirror a study with the structure of the Nike Campaign Ad Evaluation study in the lab Library: a 60 seconds Baseline, a 60 seconds commercial, a 15 seconds Recovery, and a short questionnaire."
+          "start": 1285.294,
+          "end": 1303.022,
+          "text": "Every file in the first list is simulated teaching data, generated to mirror a study with the structure of the Nike Campaign Ad Evaluation study in the lab Library: a 60 seconds Baseline, a 60 seconds commercial, a 15 seconds Recovery, and a short questionnaire."
         },
         {
           "index": 209,
           "paragraph": 106,
-          "start": 1302.655,
-          "end": 1309.674,
+          "start": 1303.722,
+          "end": 1310.741,
           "text": "No real viewer was recorded, no data from that study were used, and none of these numbers may be quoted as findings."
         },
         {
           "index": 210,
           "paragraph": 107,
-          "start": 1310.374,
-          "end": 1319.483,
-          "text": "The column headers of the metrics files are modeled on the manual's description of the F E A Metrics Export and must be verified on the lab machine."
+          "start": 1311.441,
+          "end": 1325.329,
+          "text": "The column headers of the metrics files are modeled on the manual's description of the F E A Metrics Export; the real 11 point 1 export in the second list names them differently (section 7.5)."
         },
         {
           "index": 211,
           "paragraph": 107,
-          "start": 1319.833,
-          "end": 1323.012,
+          "start": 1325.679,
+          "end": 1328.857,
           "text": "Keep the originals read only and work on copies."
         },
         {
           "index": 212,
           "paragraph": 108,
-          "start": 1323.712,
-          "end": 1326.165,
+          "start": 1329.557,
+          "end": 1332.011,
           "text": "simulated fea metrics dot C S V."
         },
         {
           "index": 213,
           "paragraph": 109,
-          "start": 1326.865,
-          "end": 1349.308,
-          "text": "The simulated F E A Metrics Export at the default thresholds (Emotion 50, Valence +50 and -50): 1,728 rows (32 respondents, 9 intervals, 6 expressions) and 11 columns, from Respondent Name and Interval label to Percent of time present, Number of segments, and Data quality ( percent)."
+          "start": 1332.711,
+          "end": 1355.153,
+          "text": "The simulated F E A Metrics Export at the default thresholds (Emotion 50, Valence +50 and minus 50): 1,728 rows (32 respondents, 9 intervals, 6 expressions) and 11 columns, from Respondent Name and Interval label to Percent of time present, Number of segments, and Data quality ( percent)."
         },
         {
           "index": 214,
           "paragraph": 110,
-          "start": 1350.008,
-          "end": 1356.365,
-          "text": "The header layout is modeled on the manual's description of the export and must be verified on the lab machine."
+          "start": 1355.853,
+          "end": 1369.251,
+          "text": "The header layout is modeled on the manual's description of the export; the real file in the second list has Count Frames and, for each expression, Threshold, Frames at or above Threshold, and Time Percentage."
         },
         {
           "index": 215,
           "paragraph": 111,
-          "start": 1357.065,
-          "end": 1372.148,
-          "text": "simulated fea metrics threshold25 dot C S V. The same export after the notebook was run again at a batch threshold of 25 (Valence +25 and -25), for the sensitivity analysis."
+          "start": 1369.951,
+          "end": 1385.033,
+          "text": "simulated fea metrics threshold25 dot C S V. The same export after the notebook was run again at a batch threshold of 25 (Valence +25 and minus 25), for the sensitivity analysis."
         },
         {
           "index": 216,
           "paragraph": 112,
-          "start": 1372.848,
-          "end": 1384.517,
-          "text": "simulated fea metrics threshold75 dot C S V. The same export at a batch threshold of 75 (Valence +75 and -75)."
+          "start": 1385.733,
+          "end": 1397.403,
+          "text": "simulated fea metrics threshold75 dot C S V. The same export at a batch threshold of 75 (Valence +75 and minus 75)."
         },
         {
           "index": 217,
           "paragraph": 113,
-          "start": 1385.217,
-          "end": 1396.503,
+          "start": 1398.103,
+          "end": 1409.388,
           "text": "simulated fea survey dot C S V. One row per respondent: Gender, Age, Ad liking 1to7, Brand attitude 1to7, and Would share Yes No."
         },
         {
           "index": 218,
           "paragraph": 114,
-          "start": 1397.203,
-          "end": 1410.856,
+          "start": 1410.088,
+          "end": 1423.741,
           "text": "simulated fea session log dot C S V. The simulated session log: Session Date, Operator, Glasses, Lighting note, Face detection percent, Data complete, and the decision note for each respondent."
         },
         {
           "index": 219,
           "paragraph": 115,
-          "start": 1411.556,
-          "end": 1427.513,
+          "start": 1424.441,
+          "end": 1440.399,
           "text": "simulated descriptives by interval dot C S V. The descriptive table by expression and interval that analysis dot R writes: means, SDs, medians, viewers with the expression present, segments, and Engagement as a raw mean."
         },
         {
           "index": 220,
           "paragraph": 116,
-          "start": 1428.213,
-          "end": 1445.963,
+          "start": 1441.099,
+          "end": 1458.848,
           "text": "simulated test results dot C S V. The tests that analysis dot R writes: H1 at thresholds of 25, 50, and 75, the H2 mixed model with its contrasts, the Friedman test, and the per bin proportions, and the H3 correlations."
         },
         {
           "index": 221,
           "paragraph": 117,
-          "start": 1446.663,
-          "end": 1447.793,
+          "start": 1459.548,
+          "end": 1460.679,
           "text": "analysis dot R."
         },
         {
           "index": 222,
           "paragraph": 118,
-          "start": 1448.493,
-          "end": 1467.416,
+          "start": 1461.379,
+          "end": 1480.301,
           "text": "The analysis script for Step 08: read, exclude, describe, the signed rank test with the paired t test and d z, the McNemar test, the threshold sensitivity analysis, the bin model with the I C C and the Friedman check, the H3 correlations, assumption checks, and three figures."
         },
         {
           "index": 223,
           "paragraph": 119,
-          "start": 1468.116,
-          "end": 1477.801,
+          "start": 1481.001,
+          "end": 1490.687,
           "text": "analysis output dot T X T. The console output of analysis dot R; every simulated number quoted in this workshop comes from this file."
         },
         {
           "index": 224,
           "paragraph": 120,
-          "start": 1478.501,
-          "end": 1488.059,
+          "start": 1491.387,
+          "end": 1500.944,
           "text": "analysis excel walkthrough dot M D. The same analysis done in Excel, step by step, with the cell references used in Exercise 4."
         },
         {
           "index": 225,
           "paragraph": 121,
-          "start": 1488.759,
-          "end": 1498.359,
+          "start": 1501.644,
+          "end": 1511.244,
           "text": "simulated fea analysis dot X L S X. The finished Excel workbook (README, Data, Summary, H1, Bins, H3, and Check sheets)."
         },
         {
           "index": 226,
           "paragraph": 122,
-          "start": 1499.059,
-          "end": 1508.061,
+          "start": 1511.944,
+          "end": 1520.947,
           "text": "results text dot M D. The model methods, results, and discussion paragraphs used in Steps 06, 09, and 10."
         },
         {
           "index": 227,
           "paragraph": 123,
-          "start": 1508.761,
-          "end": 1525.444,
+          "start": 1521.647,
+          "end": 1538.329,
           "text": "simulated fig1 joy by stimulus dot P N G. Figure 1: Joy Percent of time present at Baseline, during the commercial, and in the Recovery, one line per viewer, with each mean and its 95 percent confidence interval (simulated)."
         },
         {
           "index": 228,
           "paragraph": 124,
-          "start": 1526.144,
-          "end": 1543.616,
+          "start": 1539.029,
+          "end": 1556.501,
           "text": "simulated fig2 joy by bin dot P N G. Figure 2: the percent of viewers with Joy present (bars) and the mean percent of bin time with Joy present (points with 95 percent confidence intervals) across the six 10 seconds bins (simulated)."
         },
         {
           "index": 229,
           "paragraph": 125,
-          "start": 1544.316,
-          "end": 1557.863,
+          "start": 1557.201,
+          "end": 1570.748,
           "text": "simulated fig3 valence liking dot P N G. Figure 3: Positive Valence time during the commercial against ad liking, with the least squares line and its 95 percent band (simulated)."
         },
         {
           "index": 230,
           "paragraph": 126,
-          "start": 1558.563,
-          "end": 1574.904,
+          "start": 1571.448,
+          "end": 1587.789,
           "text": "simulated assumption checks dot P N G. The assumption check plots: the Q Q plot of the H1 differences, histograms of Joy during the commercial and at Baseline (the spike at zero), and three mixed model diagnostics (simulated)."
         },
         {
           "index": 231,
           "paragraph": 127,
-          "start": 1575.604,
-          "end": 1589.897,
+          "start": 1588.489,
+          "end": 1602.783,
           "text": "make simulated data dot P Y. The generator that produced the simulated files (seed 20265798), kept so that nobody mistakes the data for real viewers."
         },
         {
           "index": 232,
           "paragraph": 128,
-          "start": 1590.597,
-          "end": 1597.787,
+          "start": 1603.483,
+          "end": 1610.672,
           "text": "make excel workbook dot P Y. The script that builds the Excel workbook and its walkthrough from the C S V files."
         },
         {
           "index": 233,
           "paragraph": 129,
-          "start": 1598.487,
-          "end": 1607.447,
+          "start": 1611.372,
+          "end": 1620.332,
           "text": "zotero dot R I S. The 36 scholarly readings in R I S format, for import into Zotero or any reference manager."
         },
         {
           "index": 234,
           "paragraph": 130,
-          "start": 1608.147,
-          "end": 1625.213,
-          "text": "These twelve documents live in the iMotions Research Project on claude.ai (folder lab-reference); documents 00 to 10 are also saved as Word files in C:\\JaxState Behavior Lab\\00 Lab Reference."
+          "start": 1621.032,
+          "end": 1623.997,
+          "text": "real practice data (section 7.5)."
         },
         {
           "index": 235,
           "paragraph": 130,
-          "start": 1625.563,
-          "end": 1627.782,
-          "text": "They are not on this site; ask Doctor"
+          "start": 1624.347,
+          "end": 1634.395,
+          "text": "The folder pilot/ holds the lab director's own pilot recording of October 13, 2026, shared with his permission as practice data."
         },
         {
           "index": 236,
-          "paragraph": 131,
-          "start": 1628.482,
-          "end": 1629.826,
-          "text": "Sciuchetti for access."
+          "paragraph": 130,
+          "start": 1634.745,
+          "end": 1638.735,
+          "text": "It is one respondent, so it describes a recording and tests nothing."
         },
         {
           "index": 237,
-          "paragraph": 132,
-          "start": 1630.526,
-          "end": 1633.385,
-          "text": "00 Lab Inventory and Licenses."
+          "paragraph": 131,
+          "start": 1639.435,
+          "end": 1642.613,
+          "text": "No face video and no advertisement is included."
         },
         {
           "index": 238,
           "paragraph": 132,
-          "start": 1633.735,
-          "end": 1647.985,
-          "text": "What the lab owns, which computer runs what (Affectiva aff decks is licensed on both keys, 0001 on the laptop and 0002 on the desktop), renewal dates, and iMotions contacts."
+          "start": 1643.313,
+          "end": 1665.287,
+          "text": "zero zero 1, pilot zero 1 dot C S V. The Sensor Data export of the pilot as iMotions wrote it: the Info and Metadata blocks and 20,554 data rows in 168 columns (aff decks, F E A thresholding, the Smart Eye Aurora, the I V T filter, and slide events)."
         },
         {
           "index": 239,
           "paragraph": 133,
-          "start": 1648.685,
-          "end": 1650.819,
-          "text": "01 Study Type Decision Guide."
+          "start": 1665.987,
+          "end": 1669.933,
+          "text": "It is 17 megabytes; Workshop 2 uses the same file."
         },
         {
           "index": 240,
-          "paragraph": 133,
-          "start": 1651.169,
-          "end": 1658.443,
-          "text": "How to go from a question to one of the study types the lab can run, with the planning checklist that Step 02 follows."
+          "paragraph": 134,
+          "start": 1670.633,
+          "end": 1675.86,
+          "text": "F E A Metrics dot C S V and F E A Expression Table dot C S V."
         },
         {
           "index": 241,
-          "paragraph": 134,
-          "start": 1659.143,
-          "end": 1661.618,
-          "text": "02a Eye Tracking Pipeline."
+          "paragraph": 135,
+          "start": 1676.56,
+          "end": 1691.813,
+          "text": "iMotions' own F E A Metrics Export of the pilot (Export, R PROCESSING, Individual metrics exports, F E A Metrics Export, with Expression metrics and Expression table ticked), which the script reproduces exactly."
         },
         {
           "index": 242,
-          "paragraph": 134,
-          "start": 1661.968,
-          "end": 1672.528,
-          "text": "The Aurora and Neon pipelines: calibration, fixation filters, A O I's, heatmaps, and eye tracking exports, for a face study that also records gaze."
+          "paragraph": 136,
+          "start": 1692.513,
+          "end": 1694.796,
+          "text": "pilot F E A analysis dot R."
         },
         {
           "index": 243,
-          "paragraph": 135,
-          "start": 1673.228,
-          "end": 1675.959,
-          "text": "02b Biometrics Survey Pipeline."
+          "paragraph": 137,
+          "start": 1695.496,
+          "end": 1717.0,
+          "text": "Reads the header and the F E A thresholding settings, builds the codebook, filters by device, finds the stimuli, checks the frame rate and the face, rebuilds the time above the threshold, compares the raw score with the threshold, reads the episodes, recomputes Brow Furrow at thresholds of 25 and 75, and draws the figure."
         },
         {
           "index": 244,
-          "paragraph": 135,
-          "start": 1676.309,
-          "end": 1692.586,
-          "text": "aff decks facial expression analysis, Shimmer G S R and P P G, Enobio E E G, surveys, markers and annotations, synchronization, R notebooks, and exports; the lab reference behind Steps 04 to 07."
+          "paragraph": 138,
+          "start": 1717.7,
+          "end": 1718.703,
+          "text": "Base R only."
         },
         {
           "index": 245,
-          "paragraph": 136,
-          "start": 1693.286,
-          "end": 1694.95,
-          "text": "04 Where To Look Index."
+          "paragraph": 139,
+          "start": 1719.403,
+          "end": 1728.427,
+          "text": "pilot F E A analysis output dot T X T. What the script prints; every pilot number in section 7.5 comes from it."
         },
         {
           "index": 246,
-          "paragraph": 136,
-          "start": 1695.3,
-          "end": 1704.815,
-          "text": "Every task mapped to the exact help center URL, the local P D F under C:\\JaxState Behavior Lab, and the vendor video."
+          "paragraph": 140,
+          "start": 1729.127,
+          "end": 1739.793,
+          "text": "pilot F E A codebook dot C S V, pilot F E A summary by stimulus dot C S V, and pilot F E A threshold sensitivity dot C S V."
         },
         {
           "index": 247,
-          "paragraph": 137,
-          "start": 1705.515,
-          "end": 1707.349,
-          "text": "05 Study Registry."
+          "paragraph": 141,
+          "start": 1740.493,
+          "end": 1757.304,
+          "text": "The codebook of every column; frames, frame rate, face found, Attention, Interocular Distance, and the time above the threshold for six expressions per stimulus; and Brow Furrow on the two creatives at thresholds of 25, 50, and 75."
         },
         {
           "index": 248,
-          "paragraph": 137,
-          "start": 1707.699,
-          "end": 1716.809,
-          "text": "Which studies exist, their status, folders, and documents, including the classroom package that holds the Nike Campaign Ad Evaluation study."
+          "paragraph": 142,
+          "start": 1758.004,
+          "end": 1768.5,
+          "text": "pilot F E A figure R dot P N G. The script's figure: the Brow Furrow and Joy scores frame by frame, with the threshold and the two creatives marked."
         },
         {
           "index": 249,
-          "paragraph": 138,
-          "start": 1717.509,
-          "end": 1720.367,
-          "text": "06 Folder Organization Proposal."
+          "paragraph": 143,
+          "start": 1769.2,
+          "end": 1774.043,
+          "text": "README dot M D. What each file is, and the permission under which it is shared."
         },
         {
           "index": 250,
-          "paragraph": 138,
-          "start": 1720.717,
-          "end": 1729.677,
-          "text": "The proposed study folder template, naming, backup, and retention rules, including how identifiable recordings are kept and destroyed."
+          "paragraph": 144,
+          "start": 1774.743,
+          "end": 1791.809,
+          "text": "These twelve documents live in the iMotions Research Project on claude.ai (folder lab-reference); documents 00 to 10 are also saved as Word files in C:\\JaxState Behavior Lab\\00 Lab Reference."
         },
         {
           "index": 251,
-          "paragraph": 139,
-          "start": 1730.377,
-          "end": 1733.343,
-          "text": "07 iMotions Correspondence Digest."
+          "paragraph": 144,
+          "start": 1792.159,
+          "end": 1794.378,
+          "text": "They are not on this site; ask Doctor"
         },
         {
           "index": 252,
-          "paragraph": 139,
-          "start": 1733.693,
-          "end": 1739.751,
-          "text": "What iMotions has told the lab by email: licenses, quotes, support tickets, and training."
+          "paragraph": 145,
+          "start": 1795.078,
+          "end": 1796.422,
+          "text": "Sciuchetti for access."
         },
         {
           "index": 253,
-          "paragraph": 140,
-          "start": 1740.451,
-          "end": 1742.307,
-          "text": "08 Help Center Index."
+          "paragraph": 146,
+          "start": 1797.122,
+          "end": 1799.981,
+          "text": "00 Lab Inventory and Licenses."
         },
         {
           "index": 254,
-          "paragraph": 140,
-          "start": 1742.657,
-          "end": 1748.375,
-          "text": "The full map of help dot imotions dot com, 519 articles with URLs."
+          "paragraph": 146,
+          "start": 1800.331,
+          "end": 1814.581,
+          "text": "What the lab owns, which computer runs what (Affectiva aff decks is licensed on both keys, 0001 on the laptop and 0002 on the desktop), renewal dates, and iMotions contacts."
         },
         {
           "index": 255,
-          "paragraph": 141,
-          "start": 1749.075,
-          "end": 1751.528,
-          "text": "09 Vendor Resources Index."
+          "paragraph": 147,
+          "start": 1815.281,
+          "end": 1817.415,
+          "text": "01 Study Type Decision Guide."
         },
         {
           "index": 256,
-          "paragraph": 141,
-          "start": 1751.878,
-          "end": 1761.649,
-          "text": "199 verified vendor documentation pages and official videos, including the facial expression videos and pages listed under (c)."
+          "paragraph": 147,
+          "start": 1817.765,
+          "end": 1825.039,
+          "text": "How to go from a question to one of the study types the lab can run, with the planning checklist that Step 02 follows."
         },
         {
           "index": 257,
-          "paragraph": 142,
-          "start": 1762.349,
-          "end": 1764.589,
-          "text": "10 iMotions 11 Release Notes."
+          "paragraph": 148,
+          "start": 1825.739,
+          "end": 1828.214,
+          "text": "02a Eye Tracking Pipeline."
         },
         {
           "index": 258,
-          "paragraph": 142,
-          "start": 1764.939,
-          "end": 1783.563,
-          "text": "What changed in iMotions Lab 11.x, including the 11 point 1 point 11 option to collect facial expression data without storing respondent videos and the 11 point 1 point 13 update scheduled for the lab computers on October 7, 2026."
+          "paragraph": 148,
+          "start": 1828.564,
+          "end": 1839.124,
+          "text": "The Aurora and Neon pipelines: calibration, fixation filters, A O I's, heatmaps, and eye tracking exports, for a face study that also records gaze."
         },
         {
           "index": 259,
-          "paragraph": 143,
-          "start": 1784.263,
-          "end": 1786.375,
-          "text": "11 Workshop Series Build Notes."
+          "paragraph": 149,
+          "start": 1839.824,
+          "end": 1842.555,
+          "text": "02b Biometrics Survey Pipeline."
         },
         {
           "index": 260,
-          "paragraph": 143,
-          "start": 1786.725,
-          "end": 1795.813,
-          "text": "How the workshops are built and published: the template, the build files, the routine for a new workshop, and the items confirmed on the lab computers."
+          "paragraph": 149,
+          "start": 1842.905,
+          "end": 1859.182,
+          "text": "aff decks facial expression analysis, Shimmer G S R and P P G, Enobio E E G, surveys, markers and annotations, synchronization, R notebooks, and exports; the lab reference behind Steps 04 to 07."
         },
         {
           "index": 261,
-          "paragraph": 144,
-          "start": 1796.513,
-          "end": 1807.179,
+          "paragraph": 150,
+          "start": 1859.882,
+          "end": 1861.546,
+          "text": "04 Where To Look Index."
+        },
+        {
+          "index": 262,
+          "paragraph": 150,
+          "start": 1861.896,
+          "end": 1871.411,
+          "text": "Every task mapped to the exact help center URL, the local P D F under C:\\JaxState Behavior Lab, and the vendor video."
+        },
+        {
+          "index": 263,
+          "paragraph": 151,
+          "start": 1872.111,
+          "end": 1873.945,
+          "text": "05 Study Registry."
+        },
+        {
+          "index": 264,
+          "paragraph": 151,
+          "start": 1874.295,
+          "end": 1883.405,
+          "text": "Which studies exist, their status, folders, and documents, including the classroom package that holds the Nike Campaign Ad Evaluation study."
+        },
+        {
+          "index": 265,
+          "paragraph": 152,
+          "start": 1884.105,
+          "end": 1886.963,
+          "text": "06 Folder Organization Proposal."
+        },
+        {
+          "index": 266,
+          "paragraph": 152,
+          "start": 1887.313,
+          "end": 1896.273,
+          "text": "The proposed study folder template, naming, backup, and retention rules, including how identifiable recordings are kept and destroyed."
+        },
+        {
+          "index": 267,
+          "paragraph": 153,
+          "start": 1896.973,
+          "end": 1899.939,
+          "text": "07 iMotions Correspondence Digest."
+        },
+        {
+          "index": 268,
+          "paragraph": 153,
+          "start": 1900.289,
+          "end": 1906.347,
+          "text": "What iMotions has told the lab by email: licenses, quotes, support tickets, and training."
+        },
+        {
+          "index": 269,
+          "paragraph": 154,
+          "start": 1907.047,
+          "end": 1908.903,
+          "text": "08 Help Center Index."
+        },
+        {
+          "index": 270,
+          "paragraph": 154,
+          "start": 1909.253,
+          "end": 1914.971,
+          "text": "The full map of help dot imotions dot com, 519 articles with URLs."
+        },
+        {
+          "index": 271,
+          "paragraph": 155,
+          "start": 1915.671,
+          "end": 1918.124,
+          "text": "09 Vendor Resources Index."
+        },
+        {
+          "index": 272,
+          "paragraph": 155,
+          "start": 1918.474,
+          "end": 1928.245,
+          "text": "199 verified vendor documentation pages and official videos, including the facial expression videos and pages listed under (c)."
+        },
+        {
+          "index": 273,
+          "paragraph": 156,
+          "start": 1928.945,
+          "end": 1931.185,
+          "text": "10 iMotions 11 Release Notes."
+        },
+        {
+          "index": 274,
+          "paragraph": 156,
+          "start": 1931.535,
+          "end": 1950.159,
+          "text": "What changed in iMotions Lab 11.x, including the 11 point 1 point 11 option to collect facial expression data without storing respondent videos and the 11 point 1 point 13 update scheduled for the lab computers on October 7, 2026."
+        },
+        {
+          "index": 275,
+          "paragraph": 157,
+          "start": 1950.859,
+          "end": 1952.971,
+          "text": "11 Workshop Series Build Notes."
+        },
+        {
+          "index": 276,
+          "paragraph": 157,
+          "start": 1953.321,
+          "end": 1962.409,
+          "text": "How the workshops are built and published: the template, the build files, the routine for a new workshop, and the items confirmed on the lab computers."
+        },
+        {
+          "index": 277,
+          "paragraph": 158,
+          "start": 1963.109,
+          "end": 1973.775,
           "text": "Find the original article, manual page, video, reading, or data file behind any step of this workshop, and tell a verified source from an unverified one."
         }
       ]
@@ -6866,24 +7002,25 @@
     },
     "tutor": {
       "file": "tutor.mp3",
-      "duration": 123.199,
-      "mp3_duration": 123.264,
+      "duration": 135.377,
+      "mp3_duration": 135.432,
       "starts": [
         0.0,
         1.575,
-        17.592,
-        30.623,
-        36.784,
-        50.049,
-        56.266,
-        64.902,
-        67.927,
-        73.513,
-        84.09,
-        95.222,
-        102.279,
-        106.841,
-        113.407
+        21.027,
+        34.057,
+        40.219,
+        53.484,
+        59.701,
+        68.337,
+        71.362,
+        76.947,
+        87.525,
+        98.657,
+        105.714,
+        110.275,
+        116.842,
+        125.585
       ],
       "sentences": [
         {
@@ -6897,98 +7034,105 @@
           "index": 1,
           "paragraph": 1,
           "start": 1.575,
-          "end": 16.892,
-          "text": "The tutor knows this workshop: the lab and its equipment, the structure of the Nike Campaign Ad Evaluation study in the lab Library, every step of the build and the session with the respondent camera, and the simulated results with their exact numbers."
+          "end": 20.327,
+          "text": "The tutor knows this workshop: the lab and its equipment, the structure of the Nike Campaign Ad Evaluation study in the lab Library, every step of the build and the session with the respondent camera, the simulated results with their exact numbers, and the real pilot file of section 7.5."
         },
         {
           "index": 2,
           "paragraph": 2,
-          "start": 17.592,
-          "end": 29.923,
+          "start": 21.027,
+          "end": 33.357,
           "text": "It explains plainly first and formally second, uses only the numbers in this lesson, never treats a facial expression as proof of a feeling, and says when something must be verified on the lab machine."
         },
         {
           "index": 3,
           "paragraph": 3,
-          "start": 30.623,
-          "end": 36.084,
+          "start": 34.057,
+          "end": 39.519,
           "text": "It does not discuss grades or the lab schedule; those questions go to Doctor Sciuchetti."
         },
         {
           "index": 4,
           "paragraph": 4,
-          "start": 36.784,
-          "end": 49.349,
+          "start": 40.219,
+          "end": 52.784,
           "text": "Never paste, upload, or describe a respondent's face video or a photo of a face in the tutor: face video is identifiable data, and it stays in the lab under the terms of the consent form."
         },
         {
           "index": 5,
           "paragraph": 5,
-          "start": 50.049,
-          "end": 55.916,
+          "start": 53.484,
+          "end": 59.351,
           "text": "The tutor works only in the Claude artifact version of this page, where the answer form appears below."
         },
         {
           "index": 6,
           "paragraph": 5,
-          "start": 56.266,
-          "end": 64.202,
+          "start": 59.701,
+          "end": 67.637,
           "text": "On the public site the form is absent and the panel shows the six starter questions instead; treat them as prompts to bring to Doctor"
         },
         {
           "index": 7,
           "paragraph": 6,
-          "start": 64.902,
-          "end": 67.227,
+          "start": 68.337,
+          "end": 70.662,
           "text": "Sciuchetti in class or in office hours."
         },
         {
           "index": 8,
           "paragraph": 7,
-          "start": 67.927,
-          "end": 72.813,
+          "start": 71.362,
+          "end": 76.247,
           "text": "Explain in plain words what a Joy score of 50 means, and what it does not mean."
         },
         {
           "index": 9,
           "paragraph": 8,
-          "start": 73.513,
-          "end": 83.39,
+          "start": 76.947,
+          "end": 86.825,
           "text": "Why is the Wilcoxon signed rank test the primary test for H1, and what do V equals 331 and r equals point 8 9 tell me?"
         },
         {
           "index": 10,
           "paragraph": 9,
-          "start": 84.09,
-          "end": 94.522,
+          "start": 87.525,
+          "end": 97.957,
           "text": "Why does Joy fill 17.76, 10.37, or 4.21 percent of the commercial depending on the threshold, and what should I report?"
         },
         {
           "index": 11,
           "paragraph": 10,
-          "start": 95.222,
-          "end": 101.579,
+          "start": 98.657,
+          "end": 105.014,
           "text": "What does the percent of viewers with Joy in each bin add to the mean, and why does Bin 05 stand out?"
         },
         {
           "index": 12,
           "paragraph": 11,
-          "start": 102.279,
-          "end": 106.141,
+          "start": 105.714,
+          "end": 109.575,
           "text": "How do I set up the camera and the light before the first respondent?"
         },
         {
           "index": 13,
           "paragraph": 12,
-          "start": 106.841,
-          "end": 112.707,
+          "start": 110.275,
+          "end": 116.142,
           "text": "Quiz me on post processing, the F E A thresholding flow, and the F E A Metrics Export."
         },
         {
           "index": 14,
           "paragraph": 13,
-          "start": 113.407,
-          "end": 123.199,
+          "start": 116.842,
+          "end": 124.885,
+          "text": "In the real pilot file, why does the order of Creative A and Creative B on Brow Furrow reverse at a threshold of 25?"
+        },
+        {
+          "index": 15,
+          "paragraph": 14,
+          "start": 125.585,
+          "end": 135.377,
           "text": "Know where to take a question: the tutor in the artifact, the starter questions on the public site, and Doctor Sciuchetti for anything about grades or the lab schedule."
         }
       ]
@@ -7636,8 +7780,8 @@
     },
     "collect": {
       "file": "collect.mp3",
-      "duration": 874.47,
-      "mp3_duration": 874.536,
+      "duration": 895.616,
+      "mp3_duration": 895.68,
       "starts": [
         0.0,
         2.62,
@@ -7720,39 +7864,41 @@
         604.783,
         606.605,
         613.983,
-        629.147,
-        633.004,
-        642.365,
-        658.831,
-        665.504,
-        666.515,
-        680.506,
-        681.816,
-        687.657,
-        688.647,
-        698.585,
-        706.615,
-        707.989,
-        712.571,
-        713.711,
-        719.074,
-        721.728,
-        727.548,
-        734.605,
-        737.673,
-        738.557,
-        745.571,
-        757.889,
-        759.263,
-        761.585,
-        774.658,
-        789.523,
-        805.839,
-        812.086,
-        826.311,
-        835.395,
-        855.807,
-        857.809
+        631.003,
+        642.839,
+        649.013,
+        654.15,
+        663.511,
+        679.977,
+        686.65,
+        687.661,
+        701.652,
+        702.962,
+        708.803,
+        709.793,
+        719.731,
+        727.761,
+        729.135,
+        733.717,
+        734.857,
+        740.22,
+        742.874,
+        748.694,
+        755.751,
+        758.819,
+        759.703,
+        766.717,
+        779.035,
+        780.409,
+        782.731,
+        795.804,
+        810.669,
+        826.985,
+        833.232,
+        847.457,
+        856.541,
+        876.953,
+        878.955
       ],
       "sentences": [
         {
@@ -8319,246 +8465,260 @@
           "index": 80,
           "paragraph": 54,
           "start": 613.983,
-          "end": 628.447,
-          "text": "The Sensor Data export can show them: on its Sensors page, turn on 'show signal descriptions', and on the File info page tick 'Channel metadata', which adds \"a short description of the data, the unit, etc.\" for every column."
+          "end": 630.303,
+          "text": "The Sensor Data export can show them: iMotions writes a Metadata block at the top of every export file, with a description, a unit, and a data format for each column, and 'show signal descriptions' on the export's Sensors page shows the same descriptions."
         },
         {
           "index": 81,
           "paragraph": 55,
-          "start": 629.147,
-          "end": 632.304,
-          "text": "Do this on a pilot recording, never on a lab study."
+          "start": 631.003,
+          "end": 642.139,
+          "text": "The export article says to tick 'Channel metadata' on the File info page; on the lab computer in 11 point 1 that option was not there, and the block was written anyway."
         },
         {
           "index": 82,
           "paragraph": 56,
-          "start": 633.004,
-          "end": 641.665,
-          "text": "Before the viewer arrives: the camera and aff decks checked on your own face, the study selected, the log open, and any live markers defined."
+          "start": 642.839,
+          "end": 648.663,
+          "text": "The lab's first such export settled every Shimmer unit (Workshop 4, section 5.4)."
         },
         {
           "index": 83,
-          "paragraph": 57,
-          "start": 642.365,
-          "end": 658.131,
-          "text": "A live marker is a time stamp the operator adds with a key during recording, and \"You have to define your Live Markers before starting the data recording\": on the study's Live Markers tab, type a Name, choose a key combination and a color, and click Add Marker."
+          "paragraph": 56,
+          "start": 649.013,
+          "end": 653.45,
+          "text": "Do the same on a pilot recording with the webcam on, never on a lab study."
         },
         {
           "index": 84,
-          "paragraph": 58,
-          "start": 658.831,
-          "end": 664.804,
-          "text": "Useful operator markers name the problems of a face study, such as \"Face covered\" or \"Talking.\""
+          "paragraph": 57,
+          "start": 654.15,
+          "end": 662.811,
+          "text": "Before the viewer arrives: the camera and aff decks checked on your own face, the study selected, the log open, and any live markers defined."
         },
         {
           "index": 85,
-          "paragraph": 59,
-          "start": 665.504,
-          "end": 666.165,
-          "text": "Consent."
+          "paragraph": 58,
+          "start": 663.511,
+          "end": 679.277,
+          "text": "A live marker is a time stamp the operator adds with a key during recording, and \"You have to define your Live Markers before starting the data recording\": on the study's Live Markers tab, type a Name, choose a key combination and a color, and click Add Marker."
         },
         {
           "index": 86,
           "paragraph": 59,
-          "start": 666.515,
-          "end": 679.806,
-          "text": "Obtain informed consent with the form from section 02, which names the face video, who may watch it, where it is stored, and when it is deleted (Neuromarketing Science and Business Association, n.d.)"
+          "start": 679.977,
+          "end": 685.95,
+          "text": "Useful operator markers name the problems of a face study, such as \"Face covered\" or \"Talking.\""
         },
         {
           "index": 87,
           "paragraph": 60,
-          "start": 680.506,
-          "end": 681.466,
-          "text": "Seat and check."
+          "start": 686.65,
+          "end": 687.311,
+          "text": "Consent."
         },
         {
           "index": 88,
           "paragraph": 60,
-          "start": 681.816,
-          "end": 686.957,
-          "text": "Seat the viewer, adjust the camera and the light, and confirm the Facebox in the preview."
+          "start": 687.661,
+          "end": 700.952,
+          "text": "Obtain informed consent with the form from section 02, which names the face video, who may watch it, where it is stored, and when it is deleted (Neuromarketing Science and Business Association, n.d.)"
         },
         {
           "index": 89,
           "paragraph": 61,
-          "start": 687.657,
-          "end": 688.297,
-          "text": "Record."
+          "start": 701.652,
+          "end": 702.612,
+          "text": "Seat and check."
         },
         {
           "index": 90,
           "paragraph": 61,
-          "start": 688.647,
-          "end": 697.885,
-          "text": "Select or add the respondent with the anonymous I D from the log (V 01, V 02, and so on) and click Start Recording."
+          "start": 702.962,
+          "end": 708.103,
+          "text": "Seat the viewer, adjust the camera and the light, and confirm the Facebox in the preview."
         },
         {
           "index": 91,
           "paragraph": 62,
-          "start": 698.585,
-          "end": 706.265,
-          "text": "iMotions warns at the start if the study and Global Settings disagree; stop and fix the setting instead of clicking past it."
+          "start": 708.803,
+          "end": 709.443,
+          "text": "Record."
         },
         {
           "index": 92,
           "paragraph": 62,
-          "start": 706.615,
-          "end": 707.639,
-          "text": "Common mistake."
+          "start": 709.793,
+          "end": 719.031,
+          "text": "Select or add the respondent with the anonymous I D from the log (V 01, V 02, and so on) and click Start Recording."
         },
         {
           "index": 93,
-          "paragraph": 62,
-          "start": 707.989,
-          "end": 711.871,
-          "text": "Recording a respondent a second time, which overwrites the data."
+          "paragraph": 63,
+          "start": 719.731,
+          "end": 727.411,
+          "text": "iMotions warns at the start if the study and Global Settings disagree; stop and fix the setting instead of clicking past it."
         },
         {
           "index": 94,
           "paragraph": 63,
-          "start": 712.571,
-          "end": 713.361,
-          "text": "Let it run."
+          "start": 727.761,
+          "end": 728.785,
+          "text": "Common mistake."
         },
         {
           "index": 95,
           "paragraph": 63,
-          "start": 713.711,
-          "end": 718.724,
-          "text": "The Instructions, Baseline, commercial, Recovery, and questionnaire run on their own."
+          "start": 729.135,
+          "end": 733.017,
+          "text": "Recording a respondent a second time, which overwrites the data."
         },
         {
           "index": 96,
-          "paragraph": 63,
-          "start": 719.074,
-          "end": 721.378,
-          "text": "Sit out of the viewer's sight and stay silent."
+          "paragraph": 64,
+          "start": 733.717,
+          "end": 734.507,
+          "text": "Let it run."
         },
         {
           "index": 97,
-          "paragraph": 63,
-          "start": 721.728,
-          "end": 726.848,
-          "text": "If something happens, press a live marker key where the preview allows it and note the time."
+          "paragraph": 64,
+          "start": 734.857,
+          "end": 739.87,
+          "text": "The Instructions, Baseline, commercial, Recovery, and questionnaire run on their own."
         },
         {
           "index": 98,
           "paragraph": 64,
-          "start": 727.548,
-          "end": 733.905,
-          "text": "End Recording (Shift-F1) is only for stopping early; an aborted recording is still saved."
+          "start": 740.22,
+          "end": 742.524,
+          "text": "Sit out of the viewer's sight and stay silent."
         },
         {
           "index": 99,
-          "paragraph": 65,
-          "start": 734.605,
-          "end": 736.973,
-          "text": "Debrief the viewer and answer questions."
+          "paragraph": 64,
+          "start": 742.874,
+          "end": 747.994,
+          "text": "If something happens, press a live marker key where the preview allows it and note the time."
         },
         {
           "index": 100,
-          "paragraph": 66,
-          "start": 737.673,
-          "end": 738.207,
-          "text": "Log."
+          "paragraph": 65,
+          "start": 748.694,
+          "end": 755.051,
+          "text": "End Recording (Shift-F1) is only for stopping early; an aborted recording is still saved."
         },
         {
           "index": 101,
           "paragraph": 66,
-          "start": 738.557,
-          "end": 744.871,
-          "text": "Write the row in the session log, the operator's record of each session, before the next viewer sits down."
+          "start": 755.751,
+          "end": 758.119,
+          "text": "Debrief the viewer and answer questions."
         },
         {
           "index": 102,
           "paragraph": 67,
-          "start": 745.571,
-          "end": 757.539,
-          "text": "The simulated log has Respondent Name, Session Date, Operator, Glasses, Lighting note, Face detection percent (filled in after post processing), Data complete, and Decision note."
+          "start": 758.819,
+          "end": 759.353,
+          "text": "Log."
         },
         {
           "index": 103,
           "paragraph": 67,
-          "start": 757.889,
-          "end": 758.913,
-          "text": "Common mistake."
+          "start": 759.703,
+          "end": 766.017,
+          "text": "Write the row in the session log, the operator's record of each session, before the next viewer sits down."
         },
         {
           "index": 104,
-          "paragraph": 67,
-          "start": 759.263,
-          "end": 760.885,
-          "text": "Excluding a viewer on the spot."
+          "paragraph": 68,
+          "start": 766.717,
+          "end": 778.685,
+          "text": "The simulated log has Respondent Name, Session Date, Operator, Glasses, Lighting note, Face detection percent (filled in after post processing), Data complete, and Decision note."
         },
         {
           "index": 105,
           "paragraph": 68,
-          "start": 761.585,
-          "end": 773.958,
-          "text": "V 19 looked down at a phone during the commercial; the log says so, the recording ran in full, and the 80 percent rule decided after post processing (72 percent, excluded)."
+          "start": 779.035,
+          "end": 780.059,
+          "text": "Common mistake."
         },
         {
           "index": 106,
-          "paragraph": 69,
-          "start": 774.658,
-          "end": 788.823,
-          "text": "After the last stimulus iMotions opens the Recorded Data screen, where each recording shows a quality box per sensor, and \"A red outline indicates that the recorded data is below the expected quality for a given sensor.\""
+          "paragraph": 68,
+          "start": 780.409,
+          "end": 782.031,
+          "text": "Excluding a viewer on the spot."
         },
         {
           "index": 107,
-          "paragraph": 70,
-          "start": 789.523,
-          "end": 805.139,
-          "text": "For aff decks that is normal: \"if using the aff decks engine, ALL sessions will show sub-standard data quality at first,\" because aff decks \"renders at 15 hertz during live collection and must be post-processed up to 30 hertz after recording.\""
+          "paragraph": 69,
+          "start": 782.731,
+          "end": 795.104,
+          "text": "V 19 looked down at a phone during the commercial; the log says so, the recording ran in full, and the 80 percent rule decided after post processing (72 percent, excluded)."
         },
         {
           "index": 108,
-          "paragraph": 71,
-          "start": 805.839,
-          "end": 811.386,
-          "text": "Before post processing, a value of 40 to 50 percent \"is not cause for concern.\""
+          "paragraph": 70,
+          "start": 795.804,
+          "end": 809.969,
+          "text": "After the last stimulus iMotions opens the Recorded Data screen, where each recording shows a quality box per sensor, and \"A red outline indicates that the recorded data is below the expected quality for a given sensor.\""
         },
         {
           "index": 109,
-          "paragraph": 72,
-          "start": 812.086,
-          "end": 825.611,
-          "text": "Watch the recording for real problems instead (turning away, a missing face), \"especially if the data quality is less than 40 percent\": select the study, the respondent, the 'Recorded data' page, and 'Play'."
+          "paragraph": 71,
+          "start": 810.669,
+          "end": 826.285,
+          "text": "For aff decks that is normal: \"if using the aff decks engine, ALL sessions will show sub-standard data quality at first,\" because aff decks \"renders at 15 hertz during live collection and must be post-processed up to 30 hertz after recording.\""
         },
         {
           "index": 110,
-          "paragraph": 73,
-          "start": 826.311,
-          "end": 834.695,
-          "text": "Privacy concerns raised for gaze data apply even more to a face video, so only the people the consent form names may watch it."
+          "paragraph": 72,
+          "start": 826.985,
+          "end": 832.532,
+          "text": "Before post processing, a value of 40 to 50 percent \"is not cause for concern.\""
         },
         {
           "index": 111,
-          "paragraph": 74,
-          "start": 835.395,
-          "end": 855.107,
-          "text": "Help center articles for this section: Enabling Affectiva aff decks in iMotions, Camera Setup (Audio and Video Settings), Collecting Data, Sensor Preview Window, Creating Live Markers (During Data Collection), Facial Expression Analysis: Why does aff decks show low QA in subject replay?"
+          "paragraph": 73,
+          "start": 833.232,
+          "end": 846.757,
+          "text": "Watch the recording for real problems instead (turning away, a missing face), \"especially if the data quality is less than 40 percent\": select the study, the respondent, the 'Recorded data' page, and 'Play'."
         },
         {
           "index": 112,
-          "paragraph": 75,
-          "start": 855.807,
-          "end": 857.109,
-          "text": ", Respondent Replay."
+          "paragraph": 74,
+          "start": 847.457,
+          "end": 855.841,
+          "text": "Privacy concerns raised for gaze data apply even more to a face video, so only the people the consent form names may watch it."
         },
         {
           "index": 113,
+          "paragraph": 75,
+          "start": 856.541,
+          "end": 876.253,
+          "text": "Help center articles for this section: Enabling Affectiva aff decks in iMotions, Camera Setup (Audio and Video Settings), Collecting Data, Sensor Preview Window, Creating Live Markers (During Data Collection), Facial Expression Analysis: Why does aff decks show low QA in subject replay?"
+        },
+        {
+          "index": 114,
           "paragraph": 76,
-          "start": 857.809,
-          "end": 874.47,
+          "start": 876.953,
+          "end": 878.255,
+          "text": ", Respondent Replay."
+        },
+        {
+          "index": 115,
+          "paragraph": 77,
+          "start": 878.955,
+          "end": 895.616,
           "text": "Place the camera and the light for a face, read the Sensor Preview (Facebox, processing rate, signals) without asking a viewer to perform, run a session in order with live markers and a log row, and read the red aff decks quality box before post processing correctly."
         }
       ]
     },
     "numbers": {
       "file": "numbers.mp3",
-      "duration": 783.493,
-      "mp3_duration": 783.552,
+      "duration": 1436.871,
+      "mp3_duration": 1436.928,
       "starts": [
         0.0,
         3.239,
@@ -8637,22 +8797,93 @@
         518.23,
         522.109,
         565.895,
-        577.838,
-        598.485,
-        599.859,
-        606.169,
-        609.344,
-        633.681,
-        652.835,
-        656.073,
-        671.152,
-        680.044,
-        693.117,
-        702.009,
-        715.872,
-        727.699,
-        732.73,
-        772.015
+        586.03,
+        611.605,
+        612.979,
+        619.289,
+        622.464,
+        646.801,
+        665.955,
+        669.193,
+        684.272,
+        693.164,
+        706.237,
+        715.129,
+        728.992,
+        752.497,
+        757.528,
+        758.39,
+        766.036,
+        773.712,
+        791.031,
+        795.903,
+        799.121,
+        812.919,
+        821.504,
+        828.135,
+        854.605,
+        876.489,
+        882.843,
+        884.089,
+        894.261,
+        914.395,
+        932.205,
+        944.297,
+        954.097,
+        955.471,
+        963.51,
+        965.255,
+        983.214,
+        990.199,
+        997.866,
+        999.59,
+        1006.583,
+        1008.064,
+        1024.222,
+        1025.946,
+        1035.115,
+        1036.66,
+        1040.103,
+        1055.899,
+        1057.623,
+        1061.651,
+        1064.185,
+        1088.779,
+        1109.191,
+        1118.735,
+        1120.459,
+        1130.162,
+        1132.432,
+        1138.06,
+        1162.205,
+        1173.807,
+        1180.45,
+        1181.824,
+        1185.831,
+        1188.165,
+        1196.182,
+        1211.209,
+        1212.933,
+        1221.505,
+        1223.05,
+        1235.974,
+        1254.999,
+        1278.014,
+        1279.388,
+        1283.928,
+        1286.612,
+        1313.616,
+        1315.694,
+        1320.631,
+        1322.005,
+        1325.905,
+        1326.937,
+        1340.352,
+        1352.606,
+        1363.098,
+        1374.273,
+        1386.109,
+        1425.394
       ],
       "sentences": [
         {
@@ -8968,7 +9199,7 @@
           "paragraph": 28,
           "start": 321.3,
           "end": 328.063,
-          "text": "Keep the default thresholds: Emotion 50, Valence +50 and -50, Action Units 50."
+          "text": "Keep the default thresholds: Emotion 50, Valence +50 and minus 50, Action Units 50."
         },
         {
           "index": 45,
@@ -9191,123 +9422,620 @@
           "index": 76,
           "paragraph": 47,
           "start": 565.895,
-          "end": 577.138,
-          "text": "You should see new files in the export folder; their names and format ( dot T X T or dot C S V) are items to verify on the lab machine with a pilot export."
+          "end": 585.33,
+          "text": "You should see a folder named Facial Coding with F E A Metrics dot C S V (Expression metrics) and F E A Expression Table dot C S V (Expression table), comma separated, as in the lab's pilot export of October 13, 2026 (section 7.5)."
         },
         {
           "index": 77,
           "paragraph": 48,
-          "start": 577.838,
-          "end": 597.785,
-          "text": "The manual's example has a #METADATA block, then one row per stimulus or annotation with columns such as Count Frames, Joy Threshold, and a Joy time percentage; the simulated file has one row per expression with Percent of time present and Number of segments, so reshape a real export if needed."
+          "start": 586.03,
+          "end": 610.905,
+          "text": "F E A Metrics dot C S V has a Metadata block, a Data line, and then one row per stimulus or annotation with Count Frames and, for each expression, Threshold, Frames at or above Threshold, and Time Percentage (for example Joy Time Percentage); the simulated file has one row per expression with Percent of time present and Number of segments, so reshape a real export if needed."
         },
         {
           "index": 78,
           "paragraph": 49,
-          "start": 598.485,
-          "end": 599.509,
+          "start": 611.605,
+          "end": 612.629,
           "text": "Common mistake."
         },
         {
           "index": 79,
           "paragraph": 49,
-          "start": 599.859,
-          "end": 605.469,
+          "start": 612.979,
+          "end": 618.589,
           "text": "Looking for it on the study's Export tab; it exists only in the analysis that ran the flow."
         },
         {
           "index": 80,
           "paragraph": 50,
-          "start": 606.169,
-          "end": 608.644,
+          "start": 619.289,
+          "end": 621.764,
           "text": "F E A Raw Data Statistics Export."
         },
         {
           "index": 81,
           "paragraph": 51,
-          "start": 609.344,
-          "end": 632.981,
+          "start": 622.464,
+          "end": 646.101,
           "text": "On the same tab, the export the 2023 manual calls \"Affdex Raw Data Statistics Export\" (listed in 11 point 1 as F E A Raw Data Statistics Export) gives means, standard deviations, quantiles, and moments of each raw score per stimulus, scene, or annotation without a flow, a source for a mean raw score such as Engagement's."
         },
         {
           "index": 82,
           "paragraph": 52,
-          "start": 633.681,
-          "end": 652.135,
+          "start": 646.801,
+          "end": 665.255,
           "text": "Sensor Data (Export, then BUILT IN PROCESSING, then Sensor Data): one frame by frame file per respondent; under File info, \"Processed and imported data\" adds the 1 and 0 channels, 'Include Annotation markers' the bins, and \"User-generated events\" the live markers."
         },
         {
           "index": 83,
           "paragraph": 53,
-          "start": 652.835,
-          "end": 655.373,
+          "start": 665.955,
+          "end": 668.493,
           "text": "It checks timing, not the hypotheses."
         },
         {
           "index": 84,
           "paragraph": 54,
-          "start": 656.073,
-          "end": 670.452,
+          "start": 669.193,
+          "end": 683.572,
           "text": "Do not export the face videos The study's Export tab also offers Respondent Cam Recordings: \"a separate video-file for every slide (that is, stimulus) and respondent,\" each an identifiable face video."
         },
         {
           "index": 85,
           "paragraph": 55,
-          "start": 671.152,
-          "end": 679.344,
+          "start": 684.272,
+          "end": 692.464,
           "text": "Nothing here needs them; export them only with consent and the instructor's approval, never to a personal drive or cloud folder."
         },
         {
           "index": 86,
           "paragraph": 56,
-          "start": 680.044,
-          "end": 692.417,
+          "start": 693.164,
+          "end": 705.537,
           "text": "The study's Export tab also offers Respondent Cam Recordings: \"a separate video-file for every slide (that is, stimulus) and respondent,\" each an identifiable face video."
         },
         {
           "index": 87,
           "paragraph": 57,
-          "start": 693.117,
-          "end": 701.309,
+          "start": 706.237,
+          "end": 714.429,
           "text": "Nothing here needs them; export them only with consent and the instructor's approval, never to a personal drive or cloud folder."
         },
         {
           "index": 88,
           "paragraph": 58,
-          "start": 702.009,
-          "end": 715.172,
+          "start": 715.129,
+          "end": 728.292,
           "text": "Open every export with Excel's Text Import Wizard, not by double-clicking: File, then Open, then Browse, All Files, Delimited, Comma, Advanced with a dot as the decimal symbol, Finish."
         },
         {
           "index": 89,
           "paragraph": 59,
-          "start": 715.872,
-          "end": 727.349,
-          "text": "Start the simulated files at row 2 (line 1 is a hash sign simulated comment) and a real export at its row of column names below the #METADATA block (verify)."
+          "start": 728.992,
+          "end": 751.797,
+          "text": "Start the simulated files at row 2 (line 1 is a hash sign simulated comment) and a real export at its row of column names, the line just below Data: row 11 of F E A Metrics dot C S V, row 7 of F E A Expression Table dot C S V, and row 29 of the Sensor Data export in the pilot files of 7.5."
         },
         {
           "index": 90,
-          "paragraph": 59,
-          "start": 727.699,
-          "end": 732.03,
+          "paragraph": 60,
+          "start": 752.497,
+          "end": 756.828,
           "text": "Keep the original unchanged and work on an dot X L S X copy."
         },
         {
           "index": 91,
-          "paragraph": 60,
-          "start": 732.73,
-          "end": 771.315,
-          "text": "Help center articles for this section: Facial Expression Analysis: Importing and Post Processing Videos, Respondent Camera/Video Analysis Troubleshooting, Facebox for Facial Expression Analysis, R Notebook (F E A): Facial expression analysis thresholding and aggregation, Aggregate Replay, Using Annotations, R Notebooks (F E A): aff decks Raw Data Statistics Export, Export: Sensor Data, Export: Data Quality Statistics, Export: Respondent, Environment, and Scene Camera/Screen Recordings, Opening Data Export Files in Excel."
+          "paragraph": 61,
+          "start": 757.528,
+          "end": 758.04,
+          "text": "Why."
         },
         {
           "index": 92,
           "paragraph": 61,
-          "start": 772.015,
-          "end": 783.493,
+          "start": 758.39,
+          "end": 765.686,
+          "text": "The worked example and the tests in section 08 use simulated files, so every number is known in advance."
+        },
+        {
+          "index": 93,
+          "paragraph": 61,
+          "start": 766.036,
+          "end": 773.012,
+          "text": "A real export is messier, and these files let you practice every step above without adding data to a lab study."
+        },
+        {
+          "index": 94,
+          "paragraph": 62,
+          "start": 773.712,
+          "end": 790.331,
+          "text": "The lab director's pilot recording of October 13, 2026 is shared here with his permission as practice data: one respondent, the respondent camera with aff decks (post processed, as in 7.1), and the Smart Eye Aurora."
+        },
+        {
+          "index": 95,
+          "paragraph": 63,
+          "start": 791.031,
+          "end": 795.553,
+          "text": "The analysis used the F E A thresholding flow at its factory defaults."
+        },
+        {
+          "index": 96,
+          "paragraph": 63,
+          "start": 795.903,
+          "end": 798.421,
+          "text": "The study is a copy of the lab's E L F"
+        },
+        {
+          "index": 97,
+          "paragraph": 64,
+          "start": 799.121,
+          "end": 812.219,
+          "text": "Creative Evaluation: a 60 seconds baseline, a still advertisement (Creative A) for 15 seconds, a 15 seconds recovery, and a short questionnaire, then the same for Creative B."
+        },
+        {
+          "index": 98,
+          "paragraph": 65,
+          "start": 812.919,
+          "end": 821.154,
+          "text": "One respondent tests nothing; the exercise is about reading the files correctly and checking a script against iMotions' own numbers."
+        },
+        {
+          "index": 99,
+          "paragraph": 65,
+          "start": 821.504,
+          "end": 827.435,
+          "text": "Workshop 2, section 7.7, uses the same recording for the eye tracking data."
+        },
+        {
+          "index": 100,
+          "paragraph": 66,
+          "start": 828.135,
+          "end": 853.905,
+          "text": "The files sit in the folder pilot/ of this workshop's data: zero zero 1, pilot zero 1 dot C S V (the Sensor Data export, 17 megabytes), iMotions' own F E A Metrics Export with both export types ticked, F E A Metrics dot C S V (Expression metrics) and F E A Expression Table dot C S V (Expression table), the script pilot F E A analysis dot R"
+        },
+        {
+          "index": 101,
+          "paragraph": 67,
+          "start": 854.605,
+          "end": 875.789,
+          "text": "(base R, no packages to install), what it prints, pilot F E A analysis output dot T X T, and its outputs pilot F E A codebook dot C S V, pilot F E A summary by stimulus dot C S V, pilot F E A threshold sensitivity dot C S V, and pilot F E A figure R dot P N G."
+        },
+        {
+          "index": 102,
+          "paragraph": 68,
+          "start": 876.489,
+          "end": 882.143,
+          "text": "No face video and no advertisement is posted; the files hold scores and times only."
+        },
+        {
+          "index": 103,
+          "paragraph": 69,
+          "start": 882.843,
+          "end": 883.739,
+          "text": "Read the header."
+        },
+        {
+          "index": 104,
+          "paragraph": 69,
+          "start": 884.089,
+          "end": 893.561,
+          "text": "Run the script from the folder that holds the files, or import the file as 7.4 describes (its column names are on line 29)."
+        },
+        {
+          "index": 105,
+          "paragraph": 70,
+          "start": 894.261,
+          "end": 913.695,
+          "text": "You should see the study pilot 1, 2026 10, aff decks, Aurora, iMotions 11 point 1, build 4 7 1 3 6, and a Sensor info row for Affectiva aff decks that reads \"Affdex version: 5.3,\" \"Baseline: on\" (the rolling baseline), and \"Number of faces: 1.\""
+        },
+        {
+          "index": 106,
+          "paragraph": 71,
+          "start": 914.395,
+          "end": 931.505,
+          "text": "The R Analysis F E A thresholding row lists every setting of the notebook: baseline equals true, display long short equals false (the \"Classify each expression as short or long\" option left off), time T H R equals 1, and 53 thresholds."
+        },
+        {
+          "index": 107,
+          "paragraph": 72,
+          "start": 932.205,
+          "end": 943.597,
+          "text": "Thirty-eight of them are 50; the others are the negative valence thresholds (minus 50), the neutral bands (minus 50 to 50), and the head position thresholds in degrees."
+        },
+        {
+          "index": 108,
+          "paragraph": 73,
+          "start": 944.297,
+          "end": 953.747,
+          "text": "The manuals read so far do not explain baseline equals true or time T H R equals 1 in this row, so copy them into the methods as they stand."
+        },
+        {
+          "index": 109,
+          "paragraph": 73,
+          "start": 954.097,
+          "end": 955.121,
+          "text": "Common mistake."
+        },
+        {
+          "index": 110,
+          "paragraph": 73,
+          "start": 955.471,
+          "end": 962.81,
+          "text": "Filling the bracket \"S D K, version in brackets\" of section 06 from memory; the export states the version."
+        },
+        {
+          "index": 111,
+          "paragraph": 74,
+          "start": 963.51,
+          "end": 964.555,
+          "text": "Build the codebook."
+        },
+        {
+          "index": 112,
+          "paragraph": 75,
+          "start": 965.255,
+          "end": 982.514,
+          "text": "Each expression name appears twice: the raw score from Affectiva aff decks (unit Index, 0 to 100) and a copy written by R Analysis F E A thresholding that holds 1 when the score is at or above its threshold and 0 when it is not (no unit)."
+        },
+        {
+          "index": 113,
+          "paragraph": 76,
+          "start": 983.214,
+          "end": 989.849,
+          "text": "R's make dot unique renames the second copy Joy dot 1, Brow Furrow dot 1, and so on."
+        },
+        {
+          "index": 114,
+          "paragraph": 76,
+          "start": 990.199,
+          "end": 997.516,
+          "text": "You should see Joy, Attention, and Brow Furrow in Index, Pitch in Degrees, and Interocular Distance in Pixel."
+        },
+        {
+          "index": 115,
+          "paragraph": 76,
+          "start": 997.866,
+          "end": 998.89,
+          "text": "Common mistake."
+        },
+        {
+          "index": 116,
+          "paragraph": 77,
+          "start": 999.59,
+          "end": 1005.883,
+          "text": "Averaging the 1 and 0 copy as if it were the score, or the score as if it were the 1 and 0 copy."
+        },
+        {
+          "index": 117,
+          "paragraph": 78,
+          "start": 1006.583,
+          "end": 1007.714,
+          "text": "Filter by device."
+        },
+        {
+          "index": 118,
+          "paragraph": 78,
+          "start": 1008.064,
+          "end": 1023.872,
+          "text": "You should see 6,809 aff decks rows, shared with the 6,809 rows of the F E A thresholding notebook, beside 13,713 eye tracker rows and 32 slide event rows."
+        },
+        {
+          "index": 119,
+          "paragraph": 78,
+          "start": 1024.222,
+          "end": 1025.246,
+          "text": "Common mistake."
+        },
+        {
+          "index": 120,
+          "paragraph": 79,
+          "start": 1025.946,
+          "end": 1034.415,
+          "text": "Computing a percentage over all 20,554 rows, most of which are eye tracker rows with empty face columns."
+        },
+        {
+          "index": 121,
+          "paragraph": 80,
+          "start": 1035.115,
+          "end": 1036.31,
+          "text": "Find the stimuli."
+        },
+        {
+          "index": 122,
+          "paragraph": 80,
+          "start": 1036.66,
+          "end": 1039.753,
+          "text": "Use the Start Media and End Media slide events."
+        },
+        {
+          "index": 123,
+          "paragraph": 80,
+          "start": 1040.103,
+          "end": 1055.549,
+          "text": "You should see Creative A from 60.42 to 75.42 seconds and Creative B from 183.73 to 198.73 seconds, each 15.00 seconds long."
+        },
+        {
+          "index": 124,
+          "paragraph": 80,
+          "start": 1055.899,
+          "end": 1056.923,
+          "text": "Common mistake."
+        },
+        {
+          "index": 125,
+          "paragraph": 81,
+          "start": 1057.623,
+          "end": 1060.951,
+          "text": "Timing a stimulus from Start Slide, which comes earlier."
+        },
+        {
+          "index": 126,
+          "paragraph": 82,
+          "start": 1061.651,
+          "end": 1063.485,
+          "text": "Check the frame rate and the face."
+        },
+        {
+          "index": 127,
+          "paragraph": 83,
+          "start": 1064.185,
+          "end": 1088.079,
+          "text": "You should see 6,809 frames in 228.5 seconds, a frame rate of 29.8 per second (29.9 within each stimulus, 448 frames per creative), but uneven gaps between frames: 29 percent are under 20 milliseconds and 54 percent are 40 to 60 milliseconds, with a median of 41.4 milliseconds."
+        },
+        {
+          "index": 128,
+          "paragraph": 84,
+          "start": 1088.779,
+          "end": 1108.491,
+          "text": "A face was found in 6,793 of the 6,809 frames (99.8 percent; 99.1 on the first baseline and 100 on every other stimulus), after post processing; live, the Recorded Data tab showed 36 to 37 percent."
+        },
+        {
+          "index": 129,
+          "paragraph": 85,
+          "start": 1109.191,
+          "end": 1118.385,
+          "text": "The median Attention score stayed near 98 and the median Interocular Distance between 136 and 144 pixels."
+        },
+        {
+          "index": 130,
+          "paragraph": 85,
+          "start": 1118.735,
+          "end": 1119.759,
+          "text": "Common mistake."
+        },
+        {
+          "index": 131,
+          "paragraph": 86,
+          "start": 1120.459,
+          "end": 1129.462,
+          "text": "Dividing 1,000 by the median gap, which gives 24 frames per second; compute the rate from the number of frames and the time they cover."
+        },
+        {
+          "index": 132,
+          "paragraph": 87,
+          "start": 1130.162,
+          "end": 1132.082,
+          "text": "Rebuild the time above the threshold."
+        },
+        {
+          "index": 133,
+          "paragraph": 87,
+          "start": 1132.432,
+          "end": 1137.36,
+          "text": "For each stimulus, take the percentage of frames whose 1 and 0 copy is 1."
+        },
+        {
+          "index": 134,
+          "paragraph": 88,
+          "start": 1138.06,
+          "end": 1161.505,
+          "text": "You should see exactly the F E A Metrics dot C S V column Time Percentage, which sits beside Count Frames, Threshold, and Frames at or above Threshold: Joy 0 on both creatives; Brow Furrow 19.20 percent on Creative A and 0 on Creative B; and Brow Furrow 86.67 percent during the Creative A questionnaire."
+        },
+        {
+          "index": 135,
+          "paragraph": 89,
+          "start": 1162.205,
+          "end": 1173.107,
+          "text": "With the short or long option off, the export has no column that counts segments; the segments are the rows of F E A Expression Table dot C S V (step 8)."
+        },
+        {
+          "index": 136,
+          "paragraph": 90,
+          "start": 1173.807,
+          "end": 1180.1,
+          "text": "The simulated files of this workshop call the two metrics Percent of time present and Number of segments."
+        },
+        {
+          "index": 137,
+          "paragraph": 90,
+          "start": 1180.45,
+          "end": 1181.474,
+          "text": "Common mistake."
+        },
+        {
+          "index": 138,
+          "paragraph": 90,
+          "start": 1181.824,
+          "end": 1185.131,
+          "text": "Looking for a Number of segments column in the real export."
+        },
+        {
+          "index": 139,
+          "paragraph": 91,
+          "start": 1185.831,
+          "end": 1187.815,
+          "text": "Compare the raw score with the threshold."
+        },
+        {
+          "index": 140,
+          "paragraph": 91,
+          "start": 1188.165,
+          "end": 1195.482,
+          "text": "You should see that \"raw score at or above 50\" and the 1 and 0 copy agree on 100 percent of the frames."
+        },
+        {
+          "index": 141,
+          "paragraph": 92,
+          "start": 1196.182,
+          "end": 1210.859,
+          "text": "On Creative A the Brow Furrow raw score had a median of 10.7, a 90th percentile of 66.0, and a maximum of 86.6: low most of the time, with short rises past 50."
+        },
+        {
+          "index": 142,
+          "paragraph": 92,
+          "start": 1211.209,
+          "end": 1212.233,
+          "text": "Common mistake."
+        },
+        {
+          "index": 143,
+          "paragraph": 93,
+          "start": 1212.933,
+          "end": 1220.805,
+          "text": "Writing \"Brow Furrow was 19 percent\" without saying that it is the share of time at or above a threshold of 50."
+        },
+        {
+          "index": 144,
+          "paragraph": 94,
+          "start": 1221.505,
+          "end": 1222.7,
+          "text": "Read the episodes."
+        },
+        {
+          "index": 145,
+          "paragraph": 94,
+          "start": 1223.05,
+          "end": 1235.274,
+          "text": "F E A Expression Table dot C S V lists every episode, 494 in all, with Expression Onset, Expression Offset, Expression Duration, and Truncation Type."
+        },
+        {
+          "index": 146,
+          "paragraph": 95,
+          "start": 1235.974,
+          "end": 1254.299,
+          "text": "You should see three Brow Furrow episodes on Creative A, starting at 63.61, 64.23, and 65.49 seconds and lasting 0.38, 1.04, and 1.37 seconds, and none on Creative B."
+        },
+        {
+          "index": 147,
+          "paragraph": 96,
+          "start": 1254.999,
+          "end": 1277.314,
+          "text": "An episode that crosses the edge of a stimulus is cut there and marked Partial: a Brow Furrow that began at 99.63 seconds in the Creative A questionnaire runs 24.0 seconds to its end, and the furrow still present when the next slide appeared is a Partial episode of 5.6 seconds at the start of the Creative B baseline."
+        },
+        {
+          "index": 148,
+          "paragraph": 97,
+          "start": 1278.014,
+          "end": 1279.038,
+          "text": "Common mistake."
+        },
+        {
+          "index": 149,
+          "paragraph": 97,
+          "start": 1279.388,
+          "end": 1283.228,
+          "text": "Counting the two parts of a cut episode as two separate reactions."
+        },
+        {
+          "index": 150,
+          "paragraph": 98,
+          "start": 1283.928,
+          "end": 1285.912,
+          "text": "Read the context before the label."
+        },
+        {
+          "index": 151,
+          "paragraph": 99,
+          "start": 1286.612,
+          "end": 1312.916,
+          "text": "You should see Brow Furrow on 86.67 percent of the Creative A questionnaire, while the respondent was reading and answering, and, in the Creative B recovery, Anger 35.49, Disgust 29.24, Brow Furrow 45.31, and Joy 6.70 percent, with Speaking on 15.40 percent of the frames; Surprise reached 21.83 percent in the Creative A recovery."
+        },
+        {
+          "index": 152,
+          "paragraph": 100,
+          "start": 1313.616,
+          "end": 1315.344,
+          "text": "Reading and talking move the face."
+        },
+        {
+          "index": 153,
+          "paragraph": 100,
+          "start": 1315.694,
+          "end": 1320.281,
+          "text": "The scores describe facial movement, and only the replay shows what caused it."
+        },
+        {
+          "index": 154,
+          "paragraph": 100,
+          "start": 1320.631,
+          "end": 1321.655,
+          "text": "Common mistake."
+        },
+        {
+          "index": 155,
+          "paragraph": 100,
+          "start": 1322.005,
+          "end": 1325.205,
+          "text": "Writing \"the respondent was angry during the recovery.\""
+        },
+        {
+          "index": 156,
+          "paragraph": 101,
+          "start": 1325.905,
+          "end": 1326.587,
+          "text": "Try it."
+        },
+        {
+          "index": 157,
+          "paragraph": 101,
+          "start": 1326.937,
+          "end": 1339.652,
+          "text": "Step 9 of the script recomputes Brow Furrow on the two creatives from the raw score at thresholds of 25 and 75 (pilot F E A threshold sensitivity dot C S V)."
+        },
+        {
+          "index": 158,
+          "paragraph": 102,
+          "start": 1340.352,
+          "end": 1352.256,
+          "text": "At 50 Creative A shows more Brow Furrow than Creative B, 19.20 against 0 percent, and at 75 the order holds (5.36 against 0)."
+        },
+        {
+          "index": 159,
+          "paragraph": 102,
+          "start": 1352.606,
+          "end": 1362.398,
+          "text": "At 25 it reverses: Creative B 31.03 percent in 9 stretches, Creative A 27.68 percent in 2."
+        },
+        {
+          "index": 160,
+          "paragraph": 103,
+          "start": 1363.098,
+          "end": 1373.573,
+          "text": "This is why the threshold is fixed in the plan before any data are seen and 25 and 75 are reported as the planned sensitivity analysis of 7.2."
+        },
+        {
+          "index": 161,
+          "paragraph": 104,
+          "start": 1374.273,
+          "end": 1385.409,
+          "text": "An analysis at 25 in iMotions should give the same values, because the 1 and 0 copy matched the raw score on every frame at 50 (verify on the lab machine)."
+        },
+        {
+          "index": 162,
+          "paragraph": 105,
+          "start": 1386.109,
+          "end": 1424.694,
+          "text": "Help center articles for this section: Facial Expression Analysis: Importing and Post Processing Videos, Respondent Camera/Video Analysis Troubleshooting, Facebox for Facial Expression Analysis, R Notebook (F E A): Facial expression analysis thresholding and aggregation, Aggregate Replay, Using Annotations, R Notebooks (F E A): aff decks Raw Data Statistics Export, Export: Sensor Data, Export: Data Quality Statistics, Export: Respondent, Environment, and Scene Camera/Screen Recordings, Opening Data Export Files in Excel."
+        },
+        {
+          "index": 163,
+          "paragraph": 106,
+          "start": 1425.394,
+          "end": 1436.871,
           "text": "Post process every recording and stimulus, apply the exclusion rule first, build the thresholding flows, check replays, cut the bins, and export the metrics without exporting faces."
         }
       ]
     }
   },
-  "generated": "2026-10-12T23:14:45+00:00"
+  "generated": "2026-10-14T02:25:56+00:00"
 }
